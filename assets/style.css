@@ -1,0 +1,1467 @@
+/* ==========================================================================
+   OnceDesign - Premium Architectural & Interior Design Hero Banner
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,600;0,6..96,700;1,6..96,400&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Montserrat:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,400;1,500&display=swap');
+
+/* ==========================================================================
+   Custom Local Fonts (Didot & IvyOra Display from Google Drive)
+   ========================================================================== */
+@font-face {
+  font-family: 'Aboreto';
+  src: url('fonts/Aboreto-Latin.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Didot';
+  src: url('fonts/Didot-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gotham Book';
+  src: url('fonts/Gotham-Book.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Didot';
+  src: url('fonts/Didot-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Wix 原版 Linotype Didot W01 Italic (優雅大圈弧度與斜度) */
+@font-face {
+  font-family: 'Didot-W01-Italic';
+  src: url('fonts/didot-w01-italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Didot';
+  src: url('fonts/Didot-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IvyOra Display';
+  src: url('fonts/IvyOraDisplay-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IvyOra Display';
+  src: url('fonts/IvyOraDisplay-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IvyOra Display';
+  src: url('fonts/IvyOraDisplay-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IvyOra Display';
+  src: url('fonts/IvyOraDisplay-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ivy Ora Display Bold';
+  src: url('fonts/IvyOraDisplay-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IvyOra Display Bold';
+  src: url('fonts/IvyOraDisplay-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ==========================================================================
+   LinotypeDidot 字體定義 (專用於 GrandPlaza)
+   ========================================================================== */
+@font-face {
+  font-family: 'LinotypeDidot';
+  src: url('fonts/didot-w01-italic.woff2') format('woff2'),
+       url('fonts/Didot-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'LinotypeDidot';
+  src: url('fonts/Didot-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'LinotypeDidot';
+  src: url('fonts/Didot-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Linotype Didot';
+  src: url('fonts/didot-w01-italic.woff2') format('woff2'),
+       url('fonts/Didot-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Wix 原版主標題字體：Trajan Pro (古典羅馬大寫，字體左右修長優雅) */
+@font-face {
+  font-family: 'Trajan Pro';
+  src: url('fonts/wix-title-roman.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Trajan Pro';
+  src: url('fonts/Font/TrajanPro-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --color-bg: #0d0c0b;
+  --color-text-light: #ffffff;
+  --color-text-muted: rgba(255, 255, 255, 0.72);
+  --color-text-faint: rgba(255, 255, 255, 0.45);
+  --color-accent-gold: #d4af37;
+  --color-line: rgba(255, 255, 255, 0.16);
+
+  /* 主標題使用 Wix 原版 IvyOra Display (字體左右修長窄身、古典大氣) */
+  --font-serif-hero: 'IvyOra Display', 'Trajan Pro', 'Didot', serif;
+  --font-serif-italic: 'Didot-W01-Italic', 'Didot', serif;
+  --font-sans: 'Montserrat', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  /* ==========================================================================
+     【背景黑色深度調整控制區】(您可以在這裡直接調整數值)
+     ========================================================================== */
+  /* 1. 底圖暗色遮罩透明度 (0 為最亮無遮罩，數值越大越暗，建議範圍：0.15 ~ 0.50) */
+  --bg-dark-opacity: 0.2;
+
+  /* 2. 點陣格紋整體濃淡 (0 為無格紋，1 為原版 Wix 點陣深度，建議範圍：0.6 ~ 1.0) */
+  --grid-opacity: 1;
+
+  /* 3. 點陣格紋尺寸 (預設 auto 為原版 Wix 6x6px 1:1 點陣材質) */
+  --grid-size: auto;
+}
+
+/* Reset & Base Styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  width: 100%;
+  min-height: 100%;
+  /* 只在 body 設定 overflow-x：若 html 與 body 都設定，瀏覽器會把兩者的
+     overflow-y 一併算成 auto，變成巢狀捲動容器，導致內部 position:sticky 失效 */
+  overflow-x: hidden;
+  background-color: var(--color-bg);
+  color: var(--color-text-light);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ==========================================================================
+   Header Navigation
+   ========================================================================== */
+.site-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  z-index: 100;
+  pointer-events: auto;
+  perspective: 1100px;
+  perspective-origin: 20% 40%;
+}
+
+.brand-logo {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  z-index: 101;
+  margin-top: 25px;
+  margin-left: 40px;
+  width: 181px;
+  height: 83px;
+  transform-style: preserve-3d;
+  transform-origin: top center;
+  backface-visibility: hidden;
+  will-change: transform, opacity;
+}
+
+.brand-logo img {
+  width: 181px;
+  height: 83px;
+  aspect-ratio: 181 / 83;
+  object-fit: contain;
+  /* Invert black logo to crisp white */
+  filter: brightness(0) invert(1);
+  transition: opacity 0.3s ease, width 0.3s ease, height 0.3s ease;
+}
+
+.brand-logo:hover img {
+  opacity: 0.85;
+}
+
+/* Minimalist Hamburger Menu using menu_btn.svg (Fixed on Top-Right) */
+.menu-toggle-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  margin: 0;
+  z-index: 999;
+  color: #AFA385;
+  transition: color 0.2s ease;
+}
+
+.menu-btn-icon {
+  width: 23px;
+  height: 20px;
+  opacity: 1;
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.25s ease;
+}
+
+/* Hover 時顏色變白、並變小一點的動畫 */
+.menu-toggle-btn:hover .menu-btn-icon {
+  transform: scale(0.85);
+}
+
+.menu-toggle-btn:hover {
+  color: #ffffff;
+}
+
+.menu-toggle-btn.is-active .menu-btn-icon {
+  transform: scale(0.85);
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* ==========================================================================
+   Navigation Drawer (Wix Studio 1:1 Right-Side Slide Panel)
+   ========================================================================== */
+.nav-drawer-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: clamp(285px, 22vw, 325px);
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 998;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.4s ease, visibility 0.4s ease;
+  pointer-events: none;
+  cursor: pointer;
+}
+
+.nav-drawer-backdrop.open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.nav-drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: clamp(285px, 22vw, 325px);
+  height: 100vh;
+  /* 1:1 復刻 Wix Studio 橄欖碳古銅色調 (#413f37) */
+  background-color: rgba(74, 72, 62, 0.88);
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  border-left: none;
+  box-shadow: none;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px 48px 60px 48px;
+  transform: translateX(100%);
+  transition: transform 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.nav-drawer.open {
+  transform: translateX(0);
+  pointer-events: auto;
+  visibility: visible;
+}
+
+/* Drawer Top Bar: Language switcher + Animated Close Button */
+.drawer-header {
+  position: absolute;
+  top: 36px;
+  left: 48px;
+  right: 42px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1001;
+}
+
+.lang-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-family: var(--font-sans);
+  font-size: 13px;
+  letter-spacing: 0.08em;
+}
+
+.lang-item {
+  color: rgba(255, 255, 255, 0.45);
+  cursor: pointer;
+  transition: color 0.25s ease;
+  user-select: none;
+}
+
+.lang-item.active,
+.lang-item:hover {
+  color: #ffffff;
+}
+
+/* Close Button (✕) & Silky Smooth Micro-Animation */
+.nav-close-btn {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  width: 32px;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0;
+  outline: none;
+}
+
+.nav-close-icon {
+  width: 20px;
+  height: 20px;
+  display: block;
+  transform-origin: center center;
+  transform: scale(1) rotate(0deg);
+  will-change: transform;
+}
+
+/* 叉叉 hover 進場：微縮小 -> 放大 -> 旋轉變十字 (+)，極致絲滑彈性曲線 */
+.nav-close-icon.spin-to-cross,
+.nav-close-btn:hover .nav-close-icon:not(.spin-back) {
+  animation: closeBtnSpinToCross 0.48s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+/* 叉叉滑鼠移開退場：平滑轉回原本的 ✕，無任何頓挫跳動 */
+.nav-close-icon.spin-back {
+  animation: closeBtnSpinBack 0.42s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+@keyframes closeBtnSpinToCross {
+  0% {
+    transform: scale(1) rotate(0deg);
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  28% {
+    transform: scale(0.9) rotate(8deg);
+    animation-timing-function: cubic-bezier(0.16, 1.2, 0.3, 1);
+  }
+
+  70% {
+    transform: scale(1.12) rotate(48deg);
+    animation-timing-function: cubic-bezier(0.25, 1, 0.5, 1);
+  }
+
+  100% {
+    transform: scale(1) rotate(45deg);
+  }
+}
+
+@keyframes closeBtnSpinBack {
+  0% {
+    transform: scale(1) rotate(45deg);
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  32% {
+    transform: scale(0.92) rotate(32deg);
+    animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+/* Menu Items List */
+.nav-menu-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: clamp(14px, 2.2vh, 22px);
+  text-align: left;
+  margin-top: 20px;
+}
+
+.nav-menu-list li {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu-list a {
+  color: rgba(255, 255, 255, 0.88);
+  font-family: var(--font-serif-hero);
+  /* IvyOra Display */
+  font-size: clamp(21px, 1.7vw, 25px);
+  font-weight: 400;
+  text-decoration: none;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: color 0.3s ease, transform 0.3s ease, letter-spacing 0.3s ease;
+}
+
+.nav-menu-list a:hover {
+  color: #ffffff;
+  transform: translateX(6px);
+  letter-spacing: 0.12em;
+}
+
+/* ==========================================================================
+   Hero Banner Section
+   ========================================================================== */
+.banner-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  height: 100dvh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  z-index: 2;
+}
+
+/* 1. Background Photo Layer：獨立固定在畫面上，只有照片本身停留原地不隨頁面捲動，
+   banner 內其餘文字/線條/格紋則回到一般文件流，正常隨頁面往上捲走 */
+.bg-photo-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  height: 100dvh;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.bg-photo {
+  position: absolute;
+  inset: 0;
+  background-image: url('home-banner.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Uniform subtle dark tint across banner for refined contrast */
+.vignette-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  background: rgba(0, 0, 0, var(--bg-dark-opacity));
+}
+
+/* ==========================================================================
+   2. Wix Dot-Matrix Grid Overlay (100% 同款原版點陣材質貼圖)
+   ========================================================================== */
+.wix-grid-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  pointer-events: none;
+  /* 採用 Wix 原版 6x6px 柔和抗鋸齒點陣貼圖，兼具通透感與建築點陣質感 */
+  background-image: url('wix-grid-tile.png');
+  background-repeat: repeat;
+  background-position: 50% 50%;
+  background-size: var(--grid-size, auto);
+  opacity: var(--grid-opacity, 1);
+}
+
+/* ==========================================================================
+   Architectural Dual Guide Lines (左側垂直線 + 右側水平線)
+   ========================================================================== */
+/* 1. 左側垂直線 (Text Left Framing Line) */
+.architectural-line-v {
+  width: 1px;
+  background: rgba(255, 255, 255, 0.45);
+  flex-shrink: 0;
+  pointer-events: none;
+  /* 往左平移線條（負值越大線越往左移，例如 -15px, -25px, -40px，文字位置完全固定不動） */
+  transform: translateX(-20px);
+}
+
+/* 2. 右側水平線 (Counter Top Divider Line) */
+.architectural-line-h {
+  position: absolute;
+  top: 57.2%;
+  left: 60%;
+  right: 0;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.45);
+  z-index: 4;
+  pointer-events: none;
+  transform-origin: right center;
+}
+
+/* ==========================================================================
+   3. Hero Text Typography
+   ========================================================================== */
+.hero-content {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 0 0 clamp(2rem, 5.5vw, 6rem);
+  pointer-events: none;
+}
+
+.hero-text-row {
+  display: inline-flex;
+  align-items: stretch;
+  gap: clamp(1.4rem, 2vw, 2.6rem);
+  pointer-events: auto;
+  margin-top: 25vh;
+}
+
+/* 3D 舞台容器 (From gemini-code-1789382731582) */
+.perspective-stage {
+  position: relative;
+  perspective: 1100px;
+  perspective-origin: 50% 30%;
+}
+
+.text-slab {
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  transform-origin: top center;
+  will-change: transform, opacity;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-line {
+  font-family: var(--font-serif-hero);
+  font-size: 65px;
+  font-weight: 500;
+  line-height: 1.05em;
+  letter-spacing: 0.015em;
+  color: var(--color-text-light);
+  text-transform: uppercase;
+  text-shadow: 0 4px 24px rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+/* Elegant cursive italic words "of" and "in" (100% Wix 原版大字號與優雅斜體) */
+.italic-script {
+  display: inline-block;
+  font-family: var(--font-serif-italic);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 0.8em;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  transform: skewX(-6deg);
+  margin-left: clamp(0.45rem, 1vw, 1.1rem);
+  margin-right: 0.15em;
+  opacity: 0.98;
+}
+
+/* Sub-credit line: "—— by ONCE DESIGN" */
+.author-credit-line {
+  display: inline-flex;
+  opacity: 0;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  align-items: center;
+  gap: 0.85rem;
+  margin-top: clamp(1rem, 1.8vw, 1.8rem);
+  font-family: var(--font-serif-hero);
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.16em;
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.author-credit-line .dash-line {
+  display: inline-block;
+  /* 橫線長度調整：可直接指定 px (例如 36px, 48px, 90px) 或保留 clamp() 自適應 */
+  width: 110px;
+  height: 0.5px;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+/* ==========================================================================
+   4. Bottom Quote Statement (Under Grid Overlay: z-index 2)
+   ========================================================================== */
+.hero-bottom-statement {
+  position: absolute;
+  left: 96px;
+  bottom: clamp(1.4rem, 2.8vh, 2.4rem);
+  width: auto;
+  max-width: 450px;
+  z-index: 4;
+  /* 位於格紋層 (z-index: 3) 上方，與主標題同層，避免字體被點陣遮擋切碎 */
+  pointer-events: auto;
+}
+
+.hero-bottom-statement p {
+  font-family: 'IvyOra Display', 'Cormorant Garamond', Georgia, serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #CDC3A9;
+  /* 原版 Wix 無強烈陰影，保持精緻襯線筆畫清爽俐落 */
+  text-shadow: none;
+  opacity: 1;
+}
+
+/* ==========================================================================
+   Responsive Breakpoints & Logo RWD
+   ========================================================================== */
+@media (max-width: 900px) {
+  .brand-logo {
+    margin-top: 20px;
+    margin-left: 24px;
+    width: 140px;
+    height: 64px;
+  }
+
+  .brand-logo img {
+    width: 140px;
+    height: 64px;
+  }
+
+  .menu-toggle-btn {
+    margin-top: 16px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+  }
+
+  .banner-line {
+    font-size: clamp(2rem, 5.5vw, 48px);
+  }
+
+  .italic-script {
+    font-size: clamp(1.8rem, 5vw, 42px);
+  }
+
+  .architectural-line-h {
+    top: 58%;
+  }
+}
+
+@media (max-width: 600px) {
+  .brand-logo {
+    margin-top: 16px;
+    margin-left: 16px;
+    width: 118px;
+    height: 54px;
+  }
+
+  .brand-logo img {
+    width: 118px;
+    height: 54px;
+  }
+
+  .menu-toggle-btn {
+    margin-top: 12px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+  }
+
+  .hero-content {
+    padding: 0 1.4rem;
+  }
+
+  .banner-line {
+    font-size: clamp(1.8rem, 8.5vw, 36px);
+    line-height: 1.06;
+  }
+
+  .italic-script {
+    font-size: clamp(1.6rem, 7.5vw, 32px);
+  }
+
+  .hero-bottom-statement {
+    left: 1.4rem;
+    right: 1.4rem;
+    bottom: 1.4rem;
+    width: auto;
+    max-width: none;
+  }
+
+  .hero-bottom-statement p {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .site-header {
+    padding: 1rem 1.1rem;
+  }
+
+  .brand-logo img {
+    width: 102px;
+    height: 47px;
+  }
+}
+
+/* ==========================================================================
+   About Section (Wix Studio 1:1 Paper Texture & Scroll Scrub Reveal)
+   ========================================================================== */
+.about-section {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  min-height: 440px;
+  background-color: #ebe5d8;
+  background-image: url('section-about-bg.png');
+  background-repeat: repeat;
+  background-size: 320px auto;
+  color: #111111;
+  padding: clamp(65px, 6.8vw, 95px) clamp(28px, 5.2vw, 75px);
+  display: flex;
+  align-items: center;
+  z-index: 10;
+  overflow: hidden;
+  box-sizing: border-box;
+  /* 文字特效在進場過程 (GSAP ScrollTrigger) 就播放完畢，貼頂 (top:0) 之後
+     交由 CSS sticky 維持在原地，直到下一個區塊自然往上蓋過去；
+     不透明實色背景同時蓋住下方 position:fixed 的 banner 照片 */
+}
+
+.about-section .about-action {
+  margin-right: 60px;
+}
+
+/* 左上角標籤 ABOUT：隨捲動由左往右慢慢長出 (clip-path 展開) */
+.about-badge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #221f1d;
+  color: #ffffff;
+  font-family: var(--font-sans);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  padding: 6px 18px;
+  text-transform: uppercase;
+  z-index: 2;
+  clip-path: inset(0 calc(100% - var(--badge-grow, 0%)) 0 0);
+  will-change: clip-path;
+  user-select: none;
+}
+
+.about-content-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: clamp(24px, 3.5vw, 48px);
+  margin-top: clamp(60px, 9vw, 140px);
+}
+
+/* 4 行滾動揭示大標題 */
+.about-quote {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(3px, 0.45vw, 7px);
+  font-family: var(--font-serif-hero);
+  font-size: clamp(20px, 2.34vw, 34px);
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  max-width: 82%;
+}
+
+.quote-reveal-line {
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+/* 底層未揭示淺字：比背景 (#ebe5d8) 略深一階，維持若隱若現但不過重 */
+.quote-text-underlay {
+  color: #d6cdb8;
+  display: block;
+  user-select: none;
+}
+
+/* 覆蓋層黑字：透過 clip-path 水平滾動擦拭揭示 */
+.quote-text-fill {
+  position: absolute;
+  inset: 0;
+  color: #0d0c0b;
+  display: block;
+  clip-path: inset(0 calc(100% - var(--reveal-progress, 0%)) 0 0);
+  will-change: clip-path;
+}
+
+/* 右側 SEE MORE 按鈕：與左側引言文字的最後一行基線對齊 */
+.about-action {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 0.2em;
+  flex-shrink: 0;
+  align-self: flex-end;
+}
+
+.about-action-divider {
+  width: 1px;
+  height: 32px;
+  background: #362e2c;
+  opacity: 0.5;
+}
+
+.about-see-more {
+  display: inline-flex;
+  align-items: center;
+  gap: 30px;
+  text-decoration: none;
+  color: #362e2c;
+  transition: opacity 0.3s ease;
+}
+
+.about-see-more:hover {
+  opacity: 0.75;
+}
+
+.see-more-text {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.15;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #362e2c;
+}
+
+.see-more-arrow {
+  color: #362e2c;
+  width: 38px;
+  height: 38px;
+  transition: transform 0.35s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.about-see-more:hover .see-more-arrow {
+  transform: translateX(6px);
+}
+
+/* ==========================================================================
+   Portfolio Section (Featured Project Showcase)
+   ========================================================================== */
+.portfolio-section {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1762 / 894;
+  overflow: hidden;
+  background-color: #F2EEE2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* 與 about-section 相同：貼頂後停駐在原地，直到下一個區塊自然往上蓋過去 */
+}
+
+/* 底圖背景容器與多張輪播疊加（Crossfade 平滑淡入淡出） */
+.portfolio-photo-wrapper,
+.bg-image {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.portfolio-slides-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.portfolio-slides-bg .portfolio-photo {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  opacity: 0;
+  pointer-events: none;
+  display: block;
+}
+
+.portfolio-slides-bg .portfolio-photo.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Wix slideshow fades the complete slide out by 65%, and starts the next at 35%. */
+@keyframes portfolio-fade-out {
+  0% { opacity: 1; }
+  65%, 100% { opacity: 0; }
+}
+
+@keyframes portfolio-fade-in {
+  0%, 35% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.portfolio-photo.is-leaving,
+.portfolio-card.is-leaving {
+  animation: portfolio-fade-out 1s ease-in-out forwards;
+}
+
+.portfolio-photo.is-entering,
+.portfolio-card.is-entering {
+  animation: portfolio-fade-in 1s ease-in-out forwards;
+}
+
+/* 底圖上方的 #F2EEE2 遮罩層 (Cover Overlay) */
+.portfolio-cover {
+  position: absolute;
+  inset: 0;
+  background-color: #F2EEE2;
+  opacity: 0.35;
+  pointer-events: none;
+  z-index: 2;
+}
+
+/* 左上角標籤 PORTFOLIO：延續 about-badge 的黑底白字樣式 (clip-path 展開) */
+.portfolio-badge,
+.portfolio-tag {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  background: #111111;
+  color: #ffffff;
+  font-family: 'Aboreto', serif;
+  font-size: min(17px, 0.83333vw);
+  font-weight: 700;
+  letter-spacing: 0;
+  padding: 6px 14px;
+  text-transform: uppercase;
+  user-select: none;
+  clip-path: inset(0 calc(100% - var(--badge-grow, 0%)) 0 0);
+  will-change: clip-path;
+}
+
+/* Reference title: IvyOra Display Medium, restrained spacing and warm dark brown. */
+.portfolio-heading,
+.banner-text {
+  position: absolute;
+  top: 15.4%;
+  right: 10.8%;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  font-family: 'IvyOra Display', serif;
+  font-size: min(45px, 2.34375vw);
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #362E2C;
+  pointer-events: none;
+  text-transform: uppercase;
+}
+
+.portfolio-heading-line {
+  display: block;
+  text-align: left;
+}
+
+@keyframes portfolio-title-fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes portfolio-title-arc-in {
+  from { transform: perspective(800px) translateZ(-1em) rotateX(80deg) translateZ(1em); }
+  to { transform: perspective(800px) translateZ(-1em) rotateX(0deg) translateZ(1em); }
+}
+
+.portfolio-heading.is-awaiting {
+  opacity: 0;
+}
+
+.portfolio-heading.is-revealing {
+  transform-origin: center;
+  animation: portfolio-title-fade-in 840ms cubic-bezier(0.47, 0, 0.745, 0.715) both,
+             portfolio-title-arc-in 1200ms linear both;
+}
+
+/* 左右導航箭頭 (加大、Wix 原版細長線條風格) */
+.portfolio-nav,
+.arrow-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 25;
+  background: transparent;
+  border: none;
+  color: #1a1a1a;
+  cursor: pointer;
+  transition: color 0.25s ease, opacity 0.25s ease, transform 0.25s ease;
+  padding: 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  opacity: 0.75;
+}
+
+.portfolio-nav svg {
+  width: 48px;
+  height: 48px;
+  display: block;
+  fill: currentColor;
+}
+
+.portfolio-nav:hover,
+.arrow-btn:hover {
+  color: #000000;
+  opacity: 1;
+}
+
+.portfolio-nav.prev:hover,
+.portfolio-nav-prev:hover,
+.arrow-btn.prev:hover {
+  transform: translateY(-50%) translateX(-5px);
+}
+
+.portfolio-nav.next:hover,
+.portfolio-nav-next:hover,
+.arrow-btn.next:hover {
+  transform: translateY(-50%) translateX(5px);
+}
+
+.portfolio-nav.prev,
+.portfolio-nav-prev,
+.arrow-btn.prev {
+  left: clamp(16px, 2.5vw, 42px);
+}
+
+.portfolio-nav.next,
+.portfolio-nav-next,
+.arrow-btn.next {
+  right: clamp(16px, 2.5vw, 42px);
+}
+
+/* Left panel: the reference uses a 44% light-grey fill and 9px backdrop blur. */
+.portfolio-card,
+.project-card {
+  /* Reference: 25.54688vw content row + 2.34375vw bottom padding. */
+  --portfolio-card-height: max(300px, 27.89063vw);
+  position: absolute;
+  left: 10.7%;
+  top: 33.3%;
+  width: 360px;
+  max-width: 360px;
+  min-width: 360px;
+  height: var(--portfolio-card-height);
+  max-height: var(--portfolio-card-height);
+  min-height: var(--portfolio-card-height);
+  background: rgba(240, 240, 240, 0.44);
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(9px);
+  border: 0;
+  box-shadow: none;
+  padding: 29px 30px 30px;
+  z-index: 15;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .portfolio-heading.is-revealing {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.portfolio-card:not(.active) {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* 序號與分類 (上邊界線) */
+.card-header,
+.portfolio-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  font-size: 11px;
+  color: #333333;
+}
+
+.card-header .num,
+.portfolio-card-index {
+  font-family: 'IvyOra Display', serif;
+  font-style: italic;
+  font-size: 1.01563vw;
+  line-height: 1;
+  font-weight: 300;
+  letter-spacing: 0.2em;
+  color: #362E2C;
+}
+
+.card-header .category,
+.portfolio-card-category {
+  font-family: 'IvyOra Display', serif;
+  font-size: min(13px, 0.85938vw);
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #362E2C;
+}
+
+/* All project brands use IvyOra Display Bold; all locations use Didot italic. */
+.card-title,
+.portfolio-card-title {
+  margin-top: 16px;
+}
+
+.card-title .brand-name,
+.portfolio-card-title .brand-name {
+  display: block;
+  font-family: 'Ivy Ora Display Bold', 'IvyOra Display', serif;
+  font-size: 3.90625vw;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0;
+  color: #362E2C;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.card-title .location-name,
+.portfolio-card-title .location-name {
+  display: block;
+  font-family: 'Didot-W01-Italic', 'LinotypeDidot', 'Didot', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.28125vw;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  color: #362E2C;
+  margin-top: 0;
+}
+
+/* 獲獎列表 (固定靠卡片底部對齊) */
+.awards-list,
+.portfolio-card-awards {
+  margin-top: auto;
+  margin-bottom: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  padding: 0;
+}
+
+.awards-list li,
+.portfolio-card-awards li {
+  font-family: 'IvyOra Display', serif;
+  font-size: min(14px, max(11px, 0.9375vw));
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  color: #362E2C;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-left: 0;
+  line-height: 1.1;
+}
+
+.awards-list li::before,
+.portfolio-card-awards li::before {
+  content: "・";
+  font-size: inherit;
+  margin-right: 0;
+  color: inherit;
+  position: static;
+  line-height: 1;
+}
+
+.awards-list.is-description li::before {
+  content: none;
+}
+
+/* Portfolio SEE MORE follows the reference's wider line, Gotham text and arrow. */
+.portfolio-action {
+  position: absolute;
+  right: 16%;
+  bottom: 12.1%;
+  z-index: 15;
+  align-items: flex-start;
+  gap: 0;
+  margin: 0;
+}
+
+.portfolio-action .about-action-divider {
+  width: 1px;
+  height: 30px;
+  flex: 0 0 1px;
+  margin: 8px 31px 0 0;
+  opacity: 1;
+}
+
+.portfolio-action .about-see-more {
+  align-items: flex-start;
+  gap: 0;
+}
+
+.portfolio-action .see-more-text {
+  width: 50px;
+  margin: 12px 20px 0 0;
+  font-family: 'Gotham Book', sans-serif;
+  font-size: min(13px, max(12px, 0.9375vw));
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+.portfolio-action .see-more-arrow {
+  width: 49px;
+  height: 49px;
+  flex: 0 0 49px;
+}
+
+/* 響應式佈局適配 */
+@media (max-width: 900px) {
+
+  .portfolio-card,
+  .project-card {
+    left: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 330px;
+    max-width: 330px;
+    min-width: 330px;
+  }
+
+  .portfolio-heading,
+  .banner-text {
+    top: 14%;
+    right: 8%;
+  }
+
+  .portfolio-action {
+    right: 10%;
+    bottom: 4%;
+  }
+}
+
+@media (max-width: 750px) {
+  .card-header .num,
+  .portfolio-card-index {
+    font-size: 2.05128vw;
+  }
+
+  .card-header .category,
+  .portfolio-card-category {
+    font-size: min(13px, 2.05128vw);
+  }
+
+  .card-title .brand-name,
+  .portfolio-card-title .brand-name {
+    font-size: 10.25641vw;
+  }
+
+  .card-title .location-name,
+  .portfolio-card-title .location-name {
+    font-size: 5.12821vw;
+  }
+
+  .portfolio-heading,
+  .banner-text {
+    font-size: min(45px, 5.12821vw);
+  }
+
+  .awards-list li,
+  .portfolio-card-awards li {
+    font-size: min(14px, 2.82051vw);
+    line-height: 1.4;
+  }
+
+  .portfolio-action .about-action-divider {
+    height: 22px;
+    margin-right: 10px;
+  }
+
+  .portfolio-action .see-more-text {
+    margin-right: 7px;
+    font-size: min(13px, 2.82051vw);
+  }
+
+  .portfolio-action .see-more-arrow {
+    width: 40px;
+    height: 40px;
+    flex-basis: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .portfolio-section {
+    aspect-ratio: auto;
+    height: 100vh;
+    min-height: 560px;
+  }
+
+  .portfolio-card,
+  .project-card {
+    /* Reference mobile: 67.29769vw row + 2.34385vw bottom padding. */
+    --portfolio-card-height: 69.64154vw;
+    left: 20px;
+    right: 20px;
+    top: auto;
+    bottom: 80px;
+    transform: none;
+    width: auto;
+    max-width: none;
+    min-width: auto;
+    padding: 20px 22px 24px;
+  }
+
+  .awards-list,
+  .portfolio-card-awards {
+    margin-top: auto;
+  }
+
+  .portfolio-nav,
+  .arrow-btn {
+    display: none;
+  }
+
+  .portfolio-action {
+    right: 20px;
+    bottom: 24px;
+  }
+}
+
+/* 下方預留滾動緩衝區（展示平滑滾動效果）
+   需給 position + z-index，否則會被 position:fixed 的 banner 蓋過去而穿幫 */
+.section-scroll-buffer {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  height: 70vh;
+  background: #11100e;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+@media (max-width: 900px) {
+  .about-content-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+  }
+
+  .about-quote {
+    max-width: 100%;
+  }
+
+  .quote-reveal-line {
+    white-space: normal;
+  }
+}

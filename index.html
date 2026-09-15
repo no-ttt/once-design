@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="ONCE DESIGN - Space is the most profound expression of a brand's identity; every spatial element must serve a strategic purpose.">
+  <title>ONCE DESIGN | Space is the Art of Value in Evolution</title>
+
+  <!-- Google Fonts Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,600;0,6..96,700;1,6..96,400&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Montserrat:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,400;1,500&display=swap"
+    rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="assets/style.css?v=1.5">
+</head>
+
+<body>
+
+  <!-- ========================================================================
+       1. Global Header Navigation
+       ======================================================================== -->
+  <header class="site-header">
+    <a href="#" class="brand-logo" id="brandLogo" aria-label="ONCE DESIGN Home">
+      <img src="assets/logo.png" alt="ONCE DESIGN Logo" width="181" height="83">
+    </a>
+  </header>
+
+  <!-- Menu 按鈕獨立放在 site-header 外面：header 帶有 perspective，會讓內部 position:fixed
+       的子元素被限制在 header 範圍內捲動，移出來才能真正懸浮固定在視窗右上角 -->
+  <button class="menu-toggle-btn" id="menuToggleBtn" aria-label="Toggle navigation menu" aria-expanded="false">
+    <svg class="menu-btn-icon" viewBox="0 0 23 20" width="23" height="20" aria-hidden="true">
+      <path fill="currentColor" fill-rule="evenodd" d="M23 10a1 1 0 0 1-1 1H1a1 1 0 1 1 0-2h21a1 1 0 0 1 1 1m0-9a1 1 0 0 1-1 1H1a1 1 0 1 1 0-2h21a1 1 0 0 1 1 1m0 18a1 1 0 0 1-1 1H8a1 1 0 1 1 0-2h14a1 1 0 0 1 1 1"/>
+    </svg>
+  </button>
+
+  <!-- Background Dim Overlay when Drawer is Opened -->
+  <div class="nav-drawer-backdrop" id="navDrawerBackdrop" aria-hidden="true"></div>
+
+  <!-- Side Navigation Drawer (Wix Studio 1:1 Right-side Panel) -->
+  <aside class="nav-drawer" id="navDrawer" aria-hidden="true">
+    <div class="drawer-header">
+      <div class="lang-switch" aria-label="Language Selector">
+        <span class="lang-item active">EN</span>
+        <span class="lang-item">中</span>
+      </div>
+      <button class="nav-close-btn" id="navCloseBtn" aria-label="Close navigation menu">
+        <svg class="nav-close-icon" viewBox="0 0 32 32" width="22" height="22" aria-hidden="true">
+          <path d="M.293.293a1 1 0 0 1 1.414 0L16 14.586 30.293.293a1 1 0 1 1 1.414 1.414L17.414 16l14.293 14.293a1 1 0 0 1-1.414 1.414L16 17.414 1.707 31.707a1 1 0 0 1-1.414-1.414L14.586 16 .293 1.707a1 1 0 0 1 0-1.414" fill="currentColor" fill-rule="evenodd"/>
+        </svg>
+      </button>
+    </div>
+
+    <ul class="nav-menu-list">
+      <li><a href="#home">HOME</a></li>
+      <li><a href="#about">ABOUT</a></li>
+      <li><a href="#work">WORK</a></li>
+      <li><a href="#trends">TRENDS</a></li>
+      <li><a href="#faqs">FAQS</a></li>
+      <li><a href="#contact">CONTACT</a></li>
+      <li><a href="#quote">QUOTE</a></li>
+    </ul>
+  </aside>
+
+  <!-- ========================================================================
+       2. Hero Banner Section
+       ======================================================================== -->
+  <!-- 背景照片獨立固定：捲動時只有照片停留原地，文字/線條/格紋皆隨頁面正常捲走 -->
+  <div class="bg-photo-wrapper" aria-hidden="true">
+    <div class="bg-photo" id="bgPhoto" role="img" aria-label="MOCHIFFON PATISSERIE by ONCE DESIGN"></div>
+  </div>
+
+  <main>
+    <section class="banner-container" id="bannerContainer" aria-label="Hero Banner">
+
+      <!-- Vignette Contrast Gradient -->
+      <div class="vignette-overlay" aria-hidden="true"></div>
+
+      <!-- Wix Dot-Matrix Grid Overlay (Layer 3) -->
+      <div class="wix-grid-overlay" id="gridOverlay" aria-hidden="true"></div>
+
+      <!-- Bottom Brand Philosophy Statement (Foreground Layer: above grid) -->
+      <div class="hero-bottom-statement" id="bottomStatement">
+        <p>Space is the most profound expression of a brand's identity; every spatial<br>element must serve a strategic purpose.</p>
+      </div>
+
+      <!-- 2. 右側水平線 (Counter Top Divider Line) -->
+      <div class="architectural-line-h" aria-hidden="true"></div>
+
+      <!-- Hero Editorial Typography Slab -->
+      <div class="hero-content">
+        <div class="hero-text-row">
+          <!-- 1. 左側垂直線 (Text Left Framing Line) -->
+          <div class="architectural-line-v" aria-hidden="true"></div>
+
+          <!-- 3D 舞台容器 -->
+          <div class="perspective-stage">
+            <div class="text-slab" id="textSlab">
+              <h1 class="banner-line">DESIGN</h1>
+              <div class="banner-line">
+                IS THE ART <span class="italic-script">of</span>
+              </div>
+              <div class="banner-line">
+                VALUE <span class="italic-script">in</span>
+              </div>
+              <div class="banner-line">EVOLUTION</div>
+            </div>
+            <div class="author-credit-line" id="authorCredit">
+              <span class="dash-line" aria-hidden="true"></span>
+              by ONCE DESIGN
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ========================================================================
+         3. About Section (Paper Texture & Scroll Scrub Reveal)
+         ======================================================================== -->
+    <section class="about-section" id="about" aria-label="About Section">
+      <div class="about-badge" aria-hidden="true">ABOUT</div>
+
+      <div class="about-content-wrapper">
+        <!-- 4-Line Scroll Scrub Revealed Typography -->
+        <div class="about-quote" id="aboutQuote">
+          <div class="quote-reveal-line" data-line="1">
+            <span class="quote-text-underlay">SPACE IS THE MOST PROFOUND</span>
+            <span class="quote-text-fill">SPACE IS THE MOST PROFOUND</span>
+          </div>
+          <div class="quote-reveal-line" data-line="2">
+            <span class="quote-text-underlay">EXPRESSION OF A BRAND'S IDENTITY</span>
+            <span class="quote-text-fill">EXPRESSION OF A BRAND'S IDENTITY</span>
+          </div>
+          <div class="quote-reveal-line" data-line="3">
+            <span class="quote-text-underlay">EVERY SPATIAL ELEMENT MUST</span>
+            <span class="quote-text-fill">EVERY SPATIAL ELEMENT MUST</span>
+          </div>
+          <div class="quote-reveal-line" data-line="4">
+            <span class="quote-text-underlay">SERVE A STRATEGIC PURPOSE.</span>
+            <span class="quote-text-fill">SERVE A STRATEGIC PURPOSE.</span>
+          </div>
+        </div>
+
+        <!-- Right Side: SEE MORE Button -->
+        <div class="about-action">
+          <div class="about-action-divider" aria-hidden="true"></div>
+          <a href="#about-detail" class="about-see-more" aria-label="See more about Once Design">
+            <span class="see-more-text">SEE<br>MORE</span>
+            <svg class="see-more-arrow" viewBox="0 0 200 200" width="38" height="38" aria-hidden="true">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M165.881 90.685l13.898 18.563a1.096 1.096 0 01-.877 1.752H21s-1 0-1-1 1-1 1-1l155.298-.005a.39.39 0 00.312-.625L164.091 92c-.484-.831.241-1.484.241-1.484s.92-.605 1.549.169z" fill="currentColor"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         4. Portfolio Section (Featured Project Showcase)
+         ======================================================================== -->
+    <section class="portfolio-section" id="work" aria-label="Portfolio">
+      <!-- 原底圖背景 (多張輪播圖片疊加) 與 #F2EEE2 遮罩層 -->
+      <div class="portfolio-photo-wrapper bg-image">
+        <div class="portfolio-slides-bg" id="portfolioSlidesBg">
+          <img class="portfolio-photo active" src="assets/section-2-pic1.avif" alt="NEBU Grand Plaza by Once Design" data-index="0">
+          <img class="portfolio-photo" src="assets/section-2-pic2.avif" alt="Klasse 14 K11 Art Mall" data-index="1">
+          <img class="portfolio-photo" src="assets/section-2-pic3.avif" alt="Amore pacific Ocean Centre by Once Design" data-index="2">
+          <img class="portfolio-photo" src="assets/section-2-pic4.avif" alt="Tatcha Harbour City by Once Design" data-index="3">
+          <img class="portfolio-photo" src="assets/section-2-pic5.avif" alt="Murad Harbour City by Once Design" data-index="4">
+        </div>
+        <div class="portfolio-cover" aria-hidden="true"></div>
+      </div>
+
+      <!-- 頂部標籤 PORTFOLIO -->
+      <div class="portfolio-badge" aria-hidden="true">PORTFOLIO</div>
+
+      <!-- 燈箱右上方文字區塊: DESIGN HIGHLIGHTS (靠左對齊) -->
+      <div class="portfolio-heading banner-text">
+        <span class="portfolio-heading-line">design</span>
+        <span class="portfolio-heading-line">highlights</span>
+      </div>
+
+      <!-- 左右切換箭頭 (加大、Wix 原版細線箭頭 SVG) -->
+      <button class="portfolio-nav arrow-btn prev" id="portfolioPrevBtn" aria-label="Previous project">
+        <svg viewBox="0 0 200 200" width="46" height="46" aria-hidden="true">
+          <path fill="currentColor" d="M180 103.305v-6.61H32.652l28.025-28.024h-9.348L20 100l31.329 31.329h9.348l-28.025-28.024H180z"/>
+        </svg>
+      </button>
+      <button class="portfolio-nav arrow-btn next" id="portfolioNextBtn" aria-label="Next project">
+        <svg viewBox="0 0 200 200" width="46" height="46" aria-hidden="true">
+          <path fill="currentColor" d="M20 96.695v6.61h147.348l-28.025 28.024h9.348L180 100l-31.329-31.329h-9.348l28.025 28.024H20z"/>
+        </svg>
+      </button>
+
+      <!-- 浮動磨砂卡片 -->
+      <div class="portfolio-card project-card" id="portfolioCard">
+        <div class="card-header">
+          <span class="num" id="slideNum">01</span>
+          <span class="category" id="slideCategory">RETAIL DESIGN</span>
+        </div>
+
+        <div class="card-title">
+          <h2 class="brand-name" id="slideBrand">NEBU</h2>
+          <span class="location-name" id="slideLocation">Grand Plaza</span>
+        </div>
+
+        <ul class="awards-list" id="slideAwards">
+          <li>A’ Design Award 2025</li>
+          <li>Muse Design awards 2025</li>
+          <li>NT award 2025</li>
+          <li>BLT Design Award 2025</li>
+          <li>APIDA 2025</li>
+        </ul>
+      </div>
+
+      <!-- 右下角 SEE MORE 按鈕 (100% 與上方 About 區塊一致) -->
+      <div class="portfolio-action about-action">
+        <div class="about-action-divider" aria-hidden="true"></div>
+        <a href="#work-detail" class="about-see-more" aria-label="See more about NEBU Grand Plaza">
+          <span class="see-more-text">SEE<br>MORE</span>
+          <svg class="see-more-arrow" viewBox="0 0 200 200" width="38" height="38" aria-hidden="true">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M165.881 90.685l13.898 18.563a1.096 1.096 0 01-.877 1.752H21s-1 0-1-1 1-1 1-1l155.298-.005a.39.39 0 00.312-.625L164.091 92c-.484-.831.241-1.484.241-1.484s.92-.605 1.549.169z" fill="currentColor"/>
+          </svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- Scroll Buffer for Smooth Scroll Testing -->
+    <div class="section-scroll-buffer" aria-hidden="true"></div>
+  </main>
+
+  <!-- GSAP Animation Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+  <!-- Main Interaction Script -->
+  <script src="assets/script.js?v=1.2"></script>
+</body>
+
+</html>
