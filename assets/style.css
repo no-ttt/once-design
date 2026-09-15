@@ -2,7 +2,6 @@
    OnceDesign - Premium Architectural & Interior Design Hero Banner
    ========================================================================== */
 
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,600;0,6..96,700;1,6..96,400&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Montserrat:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,400;1,500&display=swap');
 
 /* ==========================================================================
    Custom Local Fonts (Didot & IvyOra Display from Google Drive)
@@ -524,7 +523,7 @@ body {
 .bg-photo {
   position: absolute;
   inset: 0;
-  background-image: url('home-banner.png');
+  background-image: url('home-banner.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
