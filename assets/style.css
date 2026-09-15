@@ -523,7 +523,7 @@ body {
 .bg-photo {
   position: absolute;
   inset: 0;
-  background-image: url('home-banner.webp');
+  background-image: url('home-banner.webp?v=2');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
