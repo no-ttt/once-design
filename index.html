@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-Hant">
+<html lang="zh-Hant" class="hero-loading">
 
 <head>
   <meta charset="UTF-8">
@@ -7,7 +7,21 @@
   <meta name="description"
     content="ONCE DESIGN - Space is the most profound expression of a brand's identity; every spatial element must serve a strategic purpose.">
   <title>ONCE DESIGN | Space is the Art of Value in Evolution</title>
-  <link rel="preload" as="image" href="assets/home-banner.webp?v=3" type="image/webp" fetchpriority="high">
+  <style>
+    html.hero-loading { background: #111; overflow: hidden; }
+    html.hero-loading body { visibility: hidden; }
+  </style>
+  <noscript><style>html.hero-loading { overflow: auto; } html.hero-loading body { visibility: visible; }</style></noscript>
+  <script>
+    window.heroRevealFallback = window.setTimeout(() => {
+      if (typeof window.revealHeroAfterImage === 'function') {
+        window.revealHeroAfterImage();
+      } else {
+        document.documentElement.classList.remove('hero-loading');
+      }
+    }, 12000);
+  </script>
+  <link id="heroImagePreload" rel="preload" as="image" href="assets/home-banner.webp?v=3" type="image/webp" fetchpriority="high">
   <link rel="preload" as="font" href="assets/fonts/IvyOraDisplay-Medium.ttf" type="font/ttf" crossorigin>
   <link rel="preload" as="font" href="assets/fonts/didot-w01-italic.woff2" type="font/woff2" crossorigin>
 
@@ -241,7 +255,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 
   <!-- Main Interaction Script -->
-  <script src="assets/script.js?v=1.2"></script>
+  <script src="assets/script.js?v=1.3"></script>
 </body>
 
 </html>

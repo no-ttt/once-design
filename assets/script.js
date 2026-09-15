@@ -13,12 +13,13 @@ document.addEventListener('DOMContentLoaded', () => {
   
   const menuToggleBtn = document.getElementById('menuToggleBtn');
   const navDrawer = document.getElementById('navDrawer');
+  let entranceTl;
 
   // ==========================================================================
   // 1. GSAP Entrance Sequence
   // ==========================================================================
   if (typeof gsap !== 'undefined') {
-    const entranceTl = gsap.timeline({ defaults: { ease: 'power3.out' } });
+    entranceTl = gsap.timeline({ paused: true, defaults: { ease: 'power3.out' } });
 
     // 1. Logo 3D 往前翻捲進場
     // 註：Menu 按鈕不帶進場動畫，載入即靜態常駐
@@ -86,8 +87,41 @@ document.addEventListener('DOMContentLoaded', () => {
       0.35
     );
 
+    entranceTl.progress(0).pause();
+
   } else if (authorCredit) {
     authorCredit.style.opacity = '1';
+  }
+
+  let entranceStarted = false;
+  const revealHero = () => {
+    window.clearTimeout(window.heroRevealFallback);
+    document.documentElement.classList.remove('hero-loading');
+    if (entranceTl && !entranceStarted) {
+      entranceStarted = true;
+      entranceTl.play(0);
+    }
+  };
+  window.revealHeroAfterImage = revealHero;
+
+  const waitForImage = image => {
+    if (image.decode) return image.decode().catch(() => {});
+    if (image.complete) return Promise.resolve();
+    return new Promise(resolve => {
+      image.addEventListener('load', resolve, { once: true });
+      image.addEventListener('error', resolve, { once: true });
+    });
+  };
+
+  const heroImageUrl = document.getElementById('heroImagePreload')?.href;
+  if (heroImageUrl) {
+    const heroImage = new Image();
+    heroImage.src = heroImageUrl;
+    const logoImage = document.querySelector('.brand-logo img');
+    const images = logoImage ? [heroImage, logoImage] : [heroImage];
+    Promise.all(images.map(waitForImage)).then(revealHero);
+  } else {
+    revealHero();
   }
 
   // ==========================================================================
