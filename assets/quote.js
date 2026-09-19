@@ -1,5 +1,28 @@
 /* Quote inquiry: prepare a complete email draft using the site's existing flow. */
 (() => {
+  const animated = document.querySelectorAll('.quote-services .quote-enter, .quote-benefits .quote-enter, .quote-vision .quote-enter, .quote-request .quote-enter');
+  if (!matchMedia('(prefers-reduced-motion: reduce)').matches && 'IntersectionObserver' in window) {
+    const observer = new IntersectionObserver(entries => entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      entry.target.classList.add('quote-enter-done');
+      observer.unobserve(entry.target);
+    }), { threshold: .12 });
+    animated.forEach(element => observer.observe(element));
+  } else {
+    animated.forEach(element => element.classList.add('quote-enter-done'));
+  }
+  const quoteSection = document.getElementById('quote-services');
+  const quoteTag = quoteSection?.querySelector('.quote-tag');
+  if (quoteSection && quoteTag) {
+    const updateQuoteTag = () => {
+      const top = quoteSection.getBoundingClientRect().top;
+      const progress = Math.max(0, Math.min(1, (innerHeight - top) / (innerHeight * .25)));
+      quoteTag.style.setProperty('--tag-grow', `${(progress * 100).toFixed(2)}%`);
+    };
+    updateQuoteTag();
+    addEventListener('scroll', updateQuoteTag, { passive: true });
+    addEventListener('resize', updateQuoteTag);
+  }
   const form = document.getElementById('quoteForm');
   if (!form) return;
   const fileInput = form.elements.floorPlan;

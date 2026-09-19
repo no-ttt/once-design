@@ -3,7 +3,7 @@
   const header = `
   <header class="site-header">
     <a href="index.html" class="brand-logo" id="brandLogo" aria-label="ONCE DESIGN Home">
-      <img src="assets/${document.body.dataset.page === 'quote' ? 'quote-logo.png' : ['work', 'trends'].includes(document.body.dataset.page) ? 'work-logo.png' : 'logo.png'}" alt="ONCE DESIGN Logo" width="181" height="83">
+    <img src="assets/${document.body.dataset.page === 'quote' ? 'quote-logo.png' : 'logo.png'}" alt="ONCE DESIGN Logo" width="181" height="83">
     </a>
   </header>
 
@@ -188,6 +188,58 @@
   document.querySelectorAll('.nav-menu-list a, .footer-nav a').forEach(link => {
     if (link.getAttribute('href') === currentPage) link.setAttribute('aria-current', 'page');
   });
+  // A cross-page hash normally jumps directly to its destination before the
+  // homepage paints. Store the target instead so the homepage can visibly
+  // scroll down to it after it has loaded.
+  const homeSectionLinks = [...document.querySelectorAll('a[href^="index.html#"]')];
+  const smoothScrollToHomeSection = targetId => {
+    const target = document.getElementById(targetId);
+    if (!target) return;
+    if (matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      target.scrollIntoView({ behavior: 'instant', block: 'start' });
+      return;
+    }
+    const start = scrollY;
+    const destination = start + target.getBoundingClientRect().top;
+    const distance = destination - start;
+    const duration = 4000;
+    const startedAt = performance.now();
+    const ease = progress => 1 - Math.pow(1 - progress, 3);
+    const step = now => {
+      const progress = Math.min(1, (now - startedAt) / duration);
+      scrollTo(0, start + distance * ease(progress));
+      if (progress < 1) requestAnimationFrame(step);
+    };
+    requestAnimationFrame(step);
+  };
+  homeSectionLinks.forEach(link => link.addEventListener('click', event => {
+    if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    const targetId = link.getAttribute('href').split('#')[1];
+    if (!targetId) return;
+    event.preventDefault();
+    if (document.body.dataset.page === 'home') {
+      smoothScrollToHomeSection(targetId);
+      history.replaceState(null, '', `#${targetId}`);
+      return;
+    }
+    sessionStorage.setItem('once-smooth-home-target', targetId);
+    location.assign('index.html');
+  }));
+  if (document.body.dataset.page === 'home') {
+    const targetId = sessionStorage.getItem('once-smooth-home-target');
+    if (targetId) {
+      const scrollToStoredTarget = () => {
+        sessionStorage.removeItem('once-smooth-home-target');
+        smoothScrollToHomeSection(targetId);
+        history.replaceState(null, '', `#${targetId}`);
+      };
+      // Wait for the homepage layout, images and page-specific scripts to
+      // settle; otherwise the initial hero layout can overwrite the scroll.
+      const startScroll = () => setTimeout(scrollToStoredTarget, 120);
+      if (document.readyState === 'complete') startScroll();
+      else addEventListener('load', startScroll, { once: true });
+    }
+  }
   // On the home page, keep the location indicator in sync with the section
   // currently occupying the viewport instead of leaving HOME selected.
   if (document.body.dataset.page === 'home' && 'IntersectionObserver' in window) {
