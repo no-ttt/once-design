@@ -33,55 +33,17 @@
     rel="stylesheet">
 
   <!-- Main Stylesheet -->
-  <link rel="stylesheet" href="assets/style.css?v=1.10">
+  <link rel="stylesheet" href="assets/style.css?v=1.41">
+  <link rel="stylesheet" href="assets/common.css?v=2">
 </head>
 
-<body>
+<body data-page="home">
 
   <!-- ========================================================================
        1. Global Header Navigation
        ======================================================================== -->
-  <header class="site-header">
-    <a href="#" class="brand-logo" id="brandLogo" aria-label="ONCE DESIGN Home">
-      <img src="assets/logo.png" alt="ONCE DESIGN Logo" width="181" height="83">
-    </a>
-  </header>
-
-  <!-- Menu 按鈕獨立放在 site-header 外面：header 帶有 perspective，會讓內部 position:fixed
-       的子元素被限制在 header 範圍內捲動，移出來才能真正懸浮固定在視窗右上角 -->
-  <button class="menu-toggle-btn" id="menuToggleBtn" aria-label="Toggle navigation menu" aria-expanded="false">
-    <svg class="menu-btn-icon" viewBox="0 0 23 20" width="23" height="20" aria-hidden="true">
-      <path fill="currentColor" fill-rule="evenodd" d="M23 10a1 1 0 0 1-1 1H1a1 1 0 1 1 0-2h21a1 1 0 0 1 1 1m0-9a1 1 0 0 1-1 1H1a1 1 0 1 1 0-2h21a1 1 0 0 1 1 1m0 18a1 1 0 0 1-1 1H8a1 1 0 1 1 0-2h14a1 1 0 0 1 1 1"/>
-    </svg>
-  </button>
-
-  <!-- Background Dim Overlay when Drawer is Opened -->
-  <div class="nav-drawer-backdrop" id="navDrawerBackdrop" aria-hidden="true"></div>
-
-  <!-- Side Navigation Drawer (Wix Studio 1:1 Right-side Panel) -->
-  <aside class="nav-drawer" id="navDrawer" aria-hidden="true">
-    <div class="drawer-header">
-      <div class="lang-switch" aria-label="Language Selector">
-        <span class="lang-item active">EN</span>
-        <span class="lang-item">中</span>
-      </div>
-      <button class="nav-close-btn" id="navCloseBtn" aria-label="Close navigation menu">
-        <svg class="nav-close-icon" viewBox="0 0 32 32" width="22" height="22" aria-hidden="true">
-          <path d="M.293.293a1 1 0 0 1 1.414 0L16 14.586 30.293.293a1 1 0 1 1 1.414 1.414L17.414 16l14.293 14.293a1 1 0 0 1-1.414 1.414L16 17.414 1.707 31.707a1 1 0 0 1-1.414-1.414L14.586 16 .293 1.707a1 1 0 0 1 0-1.414" fill="currentColor" fill-rule="evenodd"/>
-        </svg>
-      </button>
-    </div>
-
-    <ul class="nav-menu-list">
-      <li><a href="#home">HOME</a></li>
-      <li><a href="#about">ABOUT</a></li>
-      <li><a href="#work">WORK</a></li>
-      <li><a href="#trends">TRENDS</a></li>
-      <li><a href="#faqs">FAQS</a></li>
-      <li><a href="#contact">CONTACT</a></li>
-      <li><a href="#quote">QUOTE</a></li>
-    </ul>
-  </aside>
+  <div data-site-header></div>
+  <noscript><nav><a href="about.html">ABOUT</a></nav></noscript>
 
   <!-- ========================================================================
        2. Hero Banner Section
@@ -91,7 +53,7 @@
     <div class="bg-photo" id="bgPhoto" role="img" aria-label="MOCHIFFON PATISSERIE by ONCE DESIGN"></div>
   </div>
 
-  <main>
+  <main id="home">
     <section class="banner-container" id="bannerContainer" aria-label="Hero Banner">
 
       <!-- Vignette Contrast Gradient -->
@@ -166,7 +128,7 @@
         <!-- Right Side: SEE MORE Button -->
         <div class="about-action">
           <div class="about-action-divider" aria-hidden="true"></div>
-          <a href="#about-detail" class="about-see-more" aria-label="See more about Once Design">
+          <a href="about.html" class="about-see-more" aria-label="See more about Once Design">
             <span class="see-more-text">SEE<br>MORE</span>
             <svg class="see-more-arrow" viewBox="20 90.291 159.997 20.709" width="38" height="38" aria-hidden="true">
               <path fill-rule="evenodd" clip-rule="evenodd" d="M165.881 90.685l13.898 18.563a1.096 1.096 0 01-.877 1.752H21s-1 0-1-1 1-1 1-1l155.298-.005a.39.39 0 00.312-.625L164.091 92c-.484-.831.241-1.484.241-1.484s.92-.605 1.549.169z" fill="currentColor"/>
@@ -237,7 +199,7 @@
       <!-- 右下角 SEE MORE 按鈕 (100% 與上方 About 區塊一致) -->
       <div class="portfolio-action about-action">
         <div class="about-action-divider" aria-hidden="true"></div>
-        <a href="#work-detail" class="about-see-more" aria-label="See more about NEBU Grand Plaza">
+        <a href="work.html" class="about-see-more" aria-label="Explore our work">
           <span class="see-more-text">SEE<br>MORE</span>
           <svg class="see-more-arrow" viewBox="20 90.291 159.997 20.709" width="38" height="38" aria-hidden="true">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M165.881 90.685l13.898 18.563a1.096 1.096 0 01-.877 1.752H21s-1 0-1-1 1-1 1-1l155.298-.005a.39.39 0 00.312-.625L164.091 92c-.484-.831.241-1.484.241-1.484s.92-.605 1.549.169z" fill="currentColor"/>
@@ -246,8 +208,265 @@
       </div>
     </section>
 
-    <!-- Scroll Buffer for Smooth Scroll Testing -->
-    <div class="section-scroll-buffer" aria-hidden="true"></div>
+    <!-- Services: consultancy introduction and five stacked service panels. -->
+    <section class="services-section" id="services" aria-labelledby="servicesTitle">
+      <div class="services-intro">
+        <div class="services-badge">SERVICES</div>
+        <div class="services-intro-copy">
+          <p class="services-eyebrow">As a full-service</p>
+          <h2 id="servicesTitle">strategic design consultancy</h2>
+          <p class="services-description">we provide end-to-end spatial solutions driven by commercial<br class="services-tablet-break">intelligence. we believe that the design process must be built<br class="services-tablet-break">upon rigorous research, such as brand identity, traffic flow and<br class="services-tablet-break">product positioning analysis.</p>
+        </div>
+      </div>
+      <article class="service-panel" aria-labelledby="service-retail-title">
+        <div class="service-panel-inner">
+          <div class="service-copy">
+            <h3 id="service-retail-title">Retail &amp; Shopping space</h3>
+            <p class="services-description">Translating brand DNA into immersive, high-performance<br class="services-tablet-break">physical environments that captivate audiences.</p>
+          </div>
+          <img class="service-image service-image-retail" src="assets/service-retail.jpg" alt="Retail &amp; Shopping space by ONCE DESIGN" loading="lazy" width="1000" height="636">
+          <a class="service-see-more" href="https://liaovaco.wixstudio.com/oncedesign/blank" aria-label="See more about Retail &amp; Shopping space">
+            <span class="service-action-divider" aria-hidden="true"></span>
+            <span>SEE<br>MORE</span>
+            <svg viewBox="20 90.291 159.997 20.709" width="40" height="40" aria-hidden="true">
+              <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M165.881 90.685l13.898 18.563a1.096 1.096 0 01-.877 1.752H21s-1 0-1-1 1-1 1-1l155.298-.005a.39.39 0 00.312-.625L164.091 92c-.484-.831.241-1.484.241-1.484s.92-.605 1.549.169z"/>
+            </svg>
+          </a>
+        </div>
+      </article>
+      <article class="service-panel" aria-labelledby="service-hospitality-title">
+        <div class="service-panel-inner">
+          <div class="service-copy">
+            <h3 id="service-hospitality-title">Fine Dining &amp; Hospitality</h3>
+            <p class="services-description">Crafting bespoke gastronomic environments that<br class="services-tablet-break">seamlessly blend atmospheric aesthetics with operational<br class="services-tablet-break">efficiency, elevating the overall culinary journey.</p>
+          </div>
+          <img class="service-image service-image-hospitality" src="assets/service-hospitality.jpg" alt="Fine Dining &amp; Hospitality by ONCE DESIGN" loading="lazy" width="1000" height="636">
+          <a class="service-see-more" href="https://liaovaco.wixstudio.com/oncedesign/blank" aria-label="See more about Fine Dining &amp; Hospitality">
+            <span class="service-action-divider" aria-hidden="true"></span>
+            <span>SEE<br>MORE</span>
+            <svg viewBox="20 90.291 159.997 20.709" width="40" height="40" aria-hidden="true">
+              <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M165.881 90.685l13.898 18.563a1.096 1.096 0 01-.877 1.752H21s-1 0-1-1 1-1 1-1l155.298-.005a.39.39 0 00.312-.625L164.091 92c-.484-.831.241-1.484.241-1.484s.92-.605 1.549.169z"/>
+            </svg>
+          </a>
+        </div>
+      </article>
+      <article class="service-panel" aria-labelledby="service-workspaces-title">
+        <div class="service-panel-inner">
+          <div class="service-copy">
+            <h3 id="service-workspaces-title">Corporate Workspaces</h3>
+            <p class="services-description">Designing intelligent, sophisticated offices that foster<br class="services-tablet-break">productivity, collaboration, and company culture.</p>
+          </div>
+          <img class="service-image service-image-workspaces" src="assets/service-workspaces.jpg" alt="Corporate Workspaces by ONCE DESIGN" loading="lazy" width="1000" height="636">
+          <a class="service-see-more" href="https://liaovaco.wixstudio.com/oncedesign/blank" aria-label="See more about Corporate Workspaces">
+            <span class="service-action-divider" aria-hidden="true"></span>
+            <span>SEE<br>MORE</span>
+            <svg viewBox="20 90.291 159.997 20.709" width="40" height="40" aria-hidden="true">
+              <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M165.881 90.685l13.898 18.563a1.096 1.096 0 01-.877 1.752H21s-1 0-1-1 1-1 1-1l155.298-.005a.39.39 0 00.312-.625L164.091 92c-.484-.831.241-1.484.241-1.484s.92-.605 1.549.169z"/>
+            </svg>
+          </a>
+        </div>
+      </article>
+      <article class="service-panel" aria-labelledby="service-management-title">
+        <div class="service-panel-inner">
+          <div class="service-copy">
+            <h3 id="service-management-title">Comprehensive Project Management</h3>
+            <p class="services-description">Overseeing the entire lifecycle of a project—from<br class="services-tablet-break">concept to final execution—ensuring quality, timeline,<br class="services-tablet-break">and budget are strictly honored.</p>
+          </div>
+          <img class="service-image service-image-management" src="assets/service-management.jpg" alt="Comprehensive Project Management by ONCE DESIGN" loading="lazy" width="1000" height="636">
+          <a class="service-see-more" href="https://liaovaco.wixstudio.com/oncedesign/blank" aria-label="See more about Comprehensive Project Management">
+            <span class="service-action-divider" aria-hidden="true"></span>
+            <span>SEE<br>MORE</span>
+            <svg viewBox="20 90.291 159.997 20.709" width="40" height="40" aria-hidden="true">
+              <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M165.881 90.685l13.898 18.563a1.096 1.096 0 01-.877 1.752H21s-1 0-1-1 1-1 1-1l155.298-.005a.39.39 0 00.312-.625L164.091 92c-.484-.831.241-1.484.241-1.484s.92-.605 1.549.169z"/>
+            </svg>
+          </a>
+        </div>
+      </article>
+      <article class="service-panel" aria-labelledby="service-sustainable-title">
+        <div class="service-panel-inner">
+          <div class="service-copy">
+            <h3 id="service-sustainable-title">Sustainable Design &amp; ESG Certification</h3>
+            <p class="services-description"><strong>Environmental - Social - Governance</strong><br>Partnering with ESG consultancies, we integrate environmentally<br class="services-tablet-break">responsible practices into the built environment. we expertly<br class="services-tablet-break">guide clients through rigorous ESG compliance and green<br class="services-tablet-break">building certifications, ensuring every project is not only<br class="services-tablet-break">aesthetically profound but also future-proof.</p>          </div>
+          <img class="service-image service-image-sustainable" src="assets/service-sustainable.jpg" alt="Sustainable Design &amp; ESG Certification by ONCE DESIGN" loading="lazy" width="1000" height="636">
+          <a class="service-see-more" href="https://liaovaco.wixstudio.com/oncedesign/blank" aria-label="See more about Sustainable Design &amp; ESG Certification">
+            <span class="service-action-divider" aria-hidden="true"></span>
+            <span>SEE<br>MORE</span>
+            <svg viewBox="20 90.291 159.997 20.709" width="40" height="40" aria-hidden="true">
+              <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M165.881 90.685l13.898 18.563a1.096 1.096 0 01-.877 1.752H21s-1 0-1-1 1-1 1-1l155.298-.005a.39.39 0 00.312-.625L164.091 92c-.484-.831.241-1.484.241-1.484s.92-.605 1.549.169z"/>
+            </svg>
+          </a>
+        </div>
+      </article>
+    </section>
+
+    <!-- Honors: award logos and recognition list. -->
+    <section class="honors-section" id="honors" aria-labelledby="honorsTitle">
+      <div class="honors-badge">HONORS</div>
+      <h2 class="honors-title" id="honorsTitle">AWARDS</h2>
+      <div class="honors-gallery" role="region" aria-label="Award logos">
+        <button class="honors-nav honors-prev" type="button" aria-label="Previous award logos" aria-controls="honorsLogos"><svg viewBox="0 0 39 11" width="27" height="8" aria-hidden="true"><path fill="currentColor" d="M30.793 0 38.177 5.207 30.793 10.348 30.792 6.24H0V4.316h30.792Z"/></svg></button>
+        <ul class="honors-logos" id="honorsLogos" tabindex="0" aria-label="Award logos; use left and right arrow keys to switch">
+          <li class="honors-logo"><img src="assets/honors-logo-1.png" alt="Muse Design Awards" loading="lazy" width="387" height="200"></li>
+          <li class="honors-logo"><img src="assets/honors-logo-2.png" alt="BLT Built Design Awards" loading="lazy" width="409" height="200"></li>
+          <li class="honors-logo"><img src="assets/honors-logo-3.png" alt="Home Journal Awards 2022" loading="lazy" width="442" height="200"></li>
+          <li class="honors-logo"><img src="assets/honors-logo-4.png" alt="40 Under 40" loading="lazy" width="600" height="191"></li>
+          <li class="honors-logo"><img src="assets/honors-logo-5.png" alt="Design China" loading="lazy" width="308" height="200"></li>
+          <li class="honors-logo"><img src="assets/honors-logo-6.png" alt="A’Design Award" loading="lazy" width="174" height="199"></li>
+          <li class="honors-logo"><img src="assets/honors-logo-7.png" alt="APIDA" loading="lazy" width="454" height="159"></li>
+        </ul>
+        <button class="honors-nav honors-next" type="button" aria-label="Next award logos" aria-controls="honorsLogos"><svg viewBox="0 0 39 11" width="27" height="8" aria-hidden="true"><path fill="currentColor" d="M30.793 0 38.177 5.207 30.793 10.348 30.792 6.24H0V4.316h30.792Z"/></svg></button>
+      </div>
+      <ul class="honors-awards" aria-label="Awards and recognition">
+        <li class="honors-award"><h3>Home Journal Design Award</h3><p>Retail Design Gold Winner</p></li>
+        <li class="honors-award"><h3>BLT Built Design Awards</h3><p>Commercial</p></li>
+        <li class="honors-award"><h3>INT Interior Design Awards</h3><p>Commercial</p></li>
+        <li class="honors-award"><h3>APIDA Asia Pacific Interior Design Awards</h3><p>Retail Space</p></li>
+        <li class="honors-award"><h3>A’Design Award</h3><p>Bronze Winner</p></li>
+        <li class="honors-award"><h3>Muse Design Award</h3><p>Silver Winner</p></li>
+        <li class="honors-award"><h3>40 UNDER 40傑出設計大獎</h3></li>
+        <li class="honors-award"><h3>Design China 年度先鋒榜 2023（港澳台）十大先鋒</h3></li>
+        <li class="honors-award"><h3>Home Journal Top 50 Hong Kong Designers</h3></li>
+      </ul>
+    </section>
+
+    <!-- Inquiries: expandable questions and answers. -->
+    <section class="inquiries-section" id="faqs" aria-labelledby="inquiriesTitle">
+      <div class="inquiries-badge">INQUIRIES</div>
+      <h2 class="inquiries-title" id="inquiriesTitle">FAQS</h2>
+      <div class="inquiries-list">
+        <details class="inquiry-item">
+          <summary><span>Are you a design studio or a brand consultant?</span><span class="inquiry-icon" aria-hidden="true"></span></summary>
+          <div class="inquiry-answer">
+            <h3 class="inquiry-answer-lead">BOTH.</h3>
+            <div class="inquiry-answer-emphasis">
+              <p>Design is the outcome.</p>
+              <p>Strategy is the foundation.</p>
+            </div>
+            <p>We begin by defining positioning, audience structure, and business objectives. Space is then developed as a physical expression of brand value.</p>
+          </div>
+        </details>
+        <details class="inquiry-item">
+          <summary><span>What do you mean by “spatial strategy”?</span><span class="inquiry-icon" aria-hidden="true"></span></summary>
+          <div class="inquiry-answer">
+            <p>Spatial strategy integrates brand thinking, customer psychology, and operational logic. We study how people move, where attention settles, and how perception forms. Every proportion, material, and transition is aligned with measurable intent.</p>
+          </div>
+        </details>
+        <details class="inquiry-item">
+          <summary><span>What is your design process?</span><span class="inquiry-icon" aria-hidden="true"></span></summary>
+          <div class="inquiry-answer">
+            <h3 class="inquiry-answer-lead inquiry-answer-lead-regular">We work in three phases:</h3>
+            <div class="inquiry-answer-emphasis">
+              <p>Strategic Definition</p>
+              <p>Spatial Development</p>
+              <p>Precision Realization</p>
+            </div>
+            <p>Clarity precedes creativity. Execution follows structure.</p>
+          </div>
+        </details>
+        <details class="inquiry-item">
+          <summary><span>How does space influence brand value?</span><span class="inquiry-icon" aria-hidden="true"></span></summary>
+          <div class="inquiry-answer">
+            <p>Perception is formed within seconds.Material integrity, lighting control, spatial<br>rhythm, and circulation design collectively build trust.When space communicates<br>coherence and restraint, brand value strengthens naturally.</p>
+          </div>
+        </details>
+        <details class="inquiry-item">
+          <summary><span>How do you balance aesthetics and commercial performance?</span><span class="inquiry-icon" aria-hidden="true"></span></summary>
+          <div class="inquiry-answer">
+            <p>We do not separate them.</p>
+            <p>Experience hierarchy and operational efficiency are developed in parallel.</p>
+            <p>A refined environment should also support seamless workflow and long-term scalability.</p>
+          </div>
+        </details>
+        <details class="inquiry-item">
+          <summary><span>What if our brand positioning is still evolving?</span><span class="inquiry-icon" aria-hidden="true"></span></summary>
+          <div class="inquiry-answer">
+            <p>That is often when we are most effective.</p>
+            <p>We collaborate closely with founders and leadership teams to articulate core values before translating them into spatial language.</p>
+          </div>
+        </details>
+        <details class="inquiry-item">
+          <summary><span>How do you ensure longevity rather than trend dependency?</span><span class="inquiry-icon" aria-hidden="true"></span></summary>
+          <div class="inquiry-answer">
+            <p>We prioritise proportion, material authenticity, and disciplined detailing.</p>
+            <p>Trends change. Spatial integrity endures.</p>
+          </div>
+        </details>
+        <details class="inquiry-item">
+          <summary><span>Do you offer long-term advisory support?</span><span class="inquiry-icon" aria-hidden="true"></span></summary>
+          <div class="inquiry-answer">
+            <p>Yes.</p>
+            <p class="inquiry-answer-separated">For brands expanding across locations or markets, we provide ongoing strategic oversight to maintain consistency, clarity, and refinement.</p>
+          </div>
+        </details>
+        <details class="inquiry-item">
+          <summary><span>How do we begin?</span><span class="inquiry-icon" aria-hidden="true"></span></summary>
+          <div class="inquiry-answer">
+            <p>We recommend an initial strategic consultation, understanding context precedes commitment.</p>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <!-- Partners: continuously moving client logos. -->
+    <section class="partners-section" id="partners" aria-labelledby="partnersTitle">
+      <div class="partners-badge">PARTNERS</div>
+      <h2 class="partners-title" id="partnersTitle">CLIENTS</h2>
+      <div class="partners-gallery">
+        <button class="partners-nav partners-prev" type="button" aria-label="Previous client logos" aria-controls="partnersViewport"><svg viewBox="0 0 39 11" width="27" height="8" aria-hidden="true"><path fill="currentColor" d="M30.793 0 38.177 5.207 30.793 10.348 30.792 6.24H0V4.316h30.792Z"/></svg></button>
+        <div class="partners-viewport" id="partnersViewport" tabindex="0" role="region" aria-label="Client logos; use left and right arrow keys to switch">
+          <div class="partners-track">
+            <ul class="partners-group">
+              <li><img src="assets/partner-logo-1.png" alt="HKT" width="600" height="100" loading="lazy"></li>
+              <li><img src="assets/partner-logo-2.png" alt="St. Regis" width="600" height="100" loading="lazy"></li>
+              <li><img src="assets/partner-logo-3.png" alt="Lane Crawford" width="600" height="100" loading="lazy"></li>
+              <li><img src="assets/partner-logo-4.png" alt="AMOREPACIFIC" width="600" height="100" loading="lazy"></li>
+              <li><img src="assets/partner-logo-5.png" alt="fresh" width="600" height="100" loading="lazy"></li>
+              <li><img src="assets/partner-logo-6.png" alt="TATCHA" width="600" height="100" loading="lazy"></li>
+              <li><img src="assets/partner-logo-7.png" alt="MOLESKINE" width="600" height="100" loading="lazy"></li>
+              <li><img src="assets/partner-logo-8.png" alt="namco" width="600" height="100" loading="lazy"></li>
+              <li><img src="assets/partner-logo-9.png" alt="Murad" width="600" height="100" loading="lazy"></li>
+              <li><img src="assets/partner-logo-10.png" alt="BEAUTY AFFAIRS" width="600" height="100" loading="lazy"></li>
+              <li><img src="assets/partner-logo-11.png" alt="nebu" width="600" height="100" loading="lazy"></li>
+              <li><img src="assets/partner-logo-12.png" alt="MOCHIFFON" width="600" height="100" loading="lazy"></li>
+              <li><img src="assets/partner-logo-13.png" alt="ANTHOLOGY" width="600" height="100" loading="lazy"></li>
+              <li><img src="assets/partner-logo-14.png" alt="KLASSE14" width="600" height="100" loading="lazy"></li>
+            </ul>
+            <ul class="partners-group" aria-hidden="true">
+              <li><img src="assets/partner-logo-1.png" alt="" width="600" height="100" loading="lazy"></li>
+              <li><img src="assets/partner-logo-2.png" alt="" width="600" height="100" loading="lazy"></li>
+              <li><img src="assets/partner-logo-3.png" alt="" width="600" height="100" loading="lazy"></li>
+              <li><img src="assets/partner-logo-4.png" alt="" width="600" height="100" loading="lazy"></li>
+              <li><img src="assets/partner-logo-5.png" alt="" width="600" height="100" loading="lazy"></li>
+              <li><img src="assets/partner-logo-6.png" alt="" width="600" height="100" loading="lazy"></li>
+              <li><img src="assets/partner-logo-7.png" alt="" width="600" height="100" loading="lazy"></li>
+              <li><img src="assets/partner-logo-8.png" alt="" width="600" height="100" loading="lazy"></li>
+              <li><img src="assets/partner-logo-9.png" alt="" width="600" height="100" loading="lazy"></li>
+              <li><img src="assets/partner-logo-10.png" alt="" width="600" height="100" loading="lazy"></li>
+              <li><img src="assets/partner-logo-11.png" alt="" width="600" height="100" loading="lazy"></li>
+              <li><img src="assets/partner-logo-12.png" alt="" width="600" height="100" loading="lazy"></li>
+              <li><img src="assets/partner-logo-13.png" alt="" width="600" height="100" loading="lazy"></li>
+              <li><img src="assets/partner-logo-14.png" alt="" width="600" height="100" loading="lazy"></li>
+            </ul>
+          </div>
+        </div>
+        <button class="partners-nav partners-next" type="button" aria-label="Next client logos" aria-controls="partnersViewport"><svg viewBox="0 0 39 11" width="27" height="8" aria-hidden="true"><path fill="currentColor" d="M30.793 0 38.177 5.207 30.793 10.348 30.792 6.24H0V4.316h30.792Z"/></svg></button>
+      </div>
+    </section>
+
+    <section class="partners-space" aria-label="Interior by ONCE DESIGN">
+      <div class="partners-space-layer">
+        <div class="partners-space-media">
+          <img src="assets/partners-space.jpg" alt="Illuminated entrance and interior designed by ONCE DESIGN" loading="lazy" width="1536" height="715">
+        </div>
+      </div>
+    </section>
+
+    <div class="contact-stage">
+    <div data-site-contact></div>
+      <div class="contact-sticky-space" aria-hidden="true"></div>
+    </div>
+
+  <div data-site-footer></div>
   </main>
 
   <!-- GSAP Animation Library -->
@@ -255,7 +474,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 
   <!-- Main Interaction Script -->
-  <script src="assets/script.js?v=1.3"></script>
+  <script src="assets/common.js?v=7"></script>
+  <script src="assets/script.js?v=1.30"></script>
 </body>
 
 </html>

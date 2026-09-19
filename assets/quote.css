@@ -1,0 +1,79 @@
+/* QUOTE: original Wix imagery with the shared site shell. */
+.quote-page { background: #f2eee2; color: #5b564c; }
+.quote-page .brand-logo { width: clamp(150px, 14.2vw, 220px); margin: 29px 0 0 2.5vw; }
+.quote-page .brand-logo img { filter: brightness(0); }
+.quote-hero { display: grid; grid-template-columns: 42.7% 57.3%; min-height: 51.1vw; }
+.quote-hero-media { position: relative; overflow: hidden; }
+.quote-hero-media video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.quote-hero-grid { position: absolute; inset: 0; background: url('wix-grid-tile.png'); opacity: .75; pointer-events: none; }
+.quote-hero-media > p { position: absolute; bottom: 2.34vw; left: 2.5vw; width: 60%; color: #28271f; font: clamp(10px, .78vw, 15px)/1.2 'IvyOra Display', serif; }
+.quote-hero-copy { position: relative; display: flex; align-items: end; padding: 0 6.25vw 4.5vw; }
+.quote-hero-copy .page-kicker { margin-bottom: 3.2vw; font: clamp(12px, 1.09vw, 20px)/1.4 'IvyOra Display', serif; letter-spacing: 0; }
+.quote-hero h1 { font: 500 clamp(30px, 3.90625vw, 90px)/.9 'IvyOra Display', serif; letter-spacing: .02em; }
+.quote-hero h1 em { font: 400 1.1em/.9 'Didot-W01-Italic', serif; }
+.quote-scroll { position: absolute; right: 2.5vw; bottom: 4.5vw; display: flex; align-items: center; gap: 8px; flex-direction: column; color: inherit; text-decoration: none; }
+.quote-scroll span { writing-mode: vertical-rl; font: 12px/1.3 'IvyOra Display', serif; }
+.quote-scroll svg { width: 10px; height: 80px; }
+
+.quote-page h2, .quote-page h3 { font-family: 'IvyOra Display', serif; font-weight: 500; }
+.quote-page em { font-family: 'Didot-W01-Italic', serif; font-style: normal; font-weight: 400; }
+.quote-services { position: relative; display: grid; grid-template-columns: 1fr 1fr; align-items: center; min-height: 44.2vw; padding: 6vw 7.5%; background: #eee8d8 url('quote-blueprint.jpg') center / cover no-repeat; }
+.quote-services .section-label { position: absolute; top: 0; left: 0; font-family: 'IvyOra Display', serif; letter-spacing: 0; padding: 8px 24px; }
+.quote-services-copy { grid-column: 2; }
+.quote-services-copy .page-kicker { margin-bottom: 3vw; font: 15px/1.4 'IvyOra Display', serif; letter-spacing: 0; }
+.quote-services h2 { font-size: clamp(25px, 2.5vw, 48px); line-height: 1.1; margin-bottom: 2.4vw; }
+.quote-services-copy > p:last-child { max-width: 480px; font: 15px/1.5 'IvyOra Display', serif; }
+.quote-benefits { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 5vw; padding: 11vw 5.5% 7vw; min-height: 36.5vw; text-align: center; }
+.quote-benefits img { display: block; width: 112px; height: 112px; object-fit: contain; margin: 0 auto 30px; }
+.quote-benefits h3 { font-size: clamp(16px, 1.5vw, 26px); line-height: 1.2; }
+.quote-vision { padding: 4.5vw 10% 0; background: #eee8d8; }
+.quote-vision h2 { padding-bottom: 4vw; border-bottom: 1px solid #bdb6a5; font-size: clamp(36px, 4.1667vw, 80px); line-height: .95; text-align: center; }
+.quote-request { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 6vw; padding: 5.7vw 9% 5vw 7.5%; background: #eee8d8; scroll-margin-top: 30px; }
+.quote-details { padding-top: 10px; }
+.quote-details h2 { margin-bottom: 22px; font-size: clamp(24px, 2.1vw, 40px); }
+.quote-details > p { font-size: 20px; }
+.quote-details .contact-links { margin-top: 5vw; }
+.quote-form { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 35px; padding: 26px 40px; border-radius: 24px; background: #f4f0e6; color: #5b564c; }
+.quote-field-full { grid-column: 1 / -1; }
+.quote-form fieldset { min-width: 0; padding: 0; border: 0; }
+.quote-form legend, .quote-field { font: 13px/1.4 'IvyOra Display', serif; }
+.quote-form legend { margin-bottom: 10px; }
+.quote-options { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px 18px; }
+.quote-options label { display: flex; gap: 10px; align-items: center; cursor: pointer; font: 12px/1.4 'Gotham Book', sans-serif; }
+.quote-options input { flex: 0 0 auto; width: 16px; height: 16px; margin: 0; accent-color: #5b564c; }
+.quote-field { display: block; min-width: 0; }
+.quote-field > input, .quote-field textarea { display: block; width: 100%; min-width: 0; min-height: 48px; margin-top: 4px; padding: 10px 0; border: 0; border-bottom: 1px solid #aaa494; border-radius: 0; background: transparent; color: inherit; font: 16px/1.4 'IvyOra Display', serif; }
+.quote-field textarea { resize: vertical; }
+.quote-upload-control { position: relative; display: flex; align-items: center; min-height: 52px; border-bottom: 1px solid #aaa494; }
+.quote-upload-control > span { overflow-wrap: anywhere; }
+.quote-upload input { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer; }
+.quote-upload-control:focus-within { outline: 2px solid #a69c85; outline-offset: 4px; }
+.quote-response { font: 14px/1.5 'IvyOra Display', serif; }
+.quote-response a { display: inline-block; margin-top: 12px; color: inherit; }
+@media (max-width: 1000px) { .quote-form { padding: 25px; gap: 22px; } .quote-options { gap: 12px; } .quote-options label { font-size: 10px; gap: 6px; } }
+@media (max-width: 750px) {
+  .quote-page .brand-logo { width: 150px; margin: 20px 0 0 16px; }
+  .quote-hero { min-height: max(620px, 85svh); }
+  .quote-hero-copy { padding: 150px 4vw 80px; }
+  .quote-hero h1 { font-size: clamp(23px, 5.6vw, 42px); }
+  .quote-hero-copy .page-kicker { margin-bottom: 30px; font-size: 11px; }
+  .quote-hero-media > p { width: auto; left: 12px; right: 12px; bottom: 22px; font-size: 10px; line-height: 1.35; }
+  .quote-scroll { right: 18px; bottom: 20px; }
+  .quote-scroll svg { height: 40px; width: 5px; }
+  .quote-services { min-height: 480px; grid-template-columns: 1fr; padding: 80px 8%; background-position: 35% center; }
+  .quote-services-copy { grid-column: 1; padding: 25px; background: #f2eee2dc; }
+  .quote-services-copy .page-kicker { margin-bottom: 25px; }
+  .quote-services h2 { margin-bottom: 25px; }
+  .quote-benefits { padding: 65px 8%; grid-template-columns: 1fr; gap: 50px; }
+  .quote-benefits img { width: 90px; height: 90px; margin-bottom: 20px; }
+  .quote-benefits h3 { font-size: 18px; }
+  .quote-vision { padding: 55px 8% 0; }
+  .quote-vision h2 { padding-bottom: 40px; }
+  .quote-request { grid-template-columns: 1fr; padding: 40px 8% 60px; gap: 45px; }
+  .quote-details > p { font-size: 18px; }
+  .quote-details .contact-links { margin-top: 25px; }
+  .quote-form { padding: 25px 20px; gap: 22px 18px; }
+  .quote-options { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .quote-options label { min-height: 28px; font-size: 10px; }
+  .quote-form legend, .quote-field { font-size: 12px; }
+}

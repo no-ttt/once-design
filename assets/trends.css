@@ -1,0 +1,66 @@
+/* TRENDS: original Wix imagery with the shared site shell. */
+.trends-page { background: #f2eee2; color: #5b564c; }
+.trends-page .brand-logo { width: clamp(110px, 9.8vw, 190px); margin: 29px 0 0 2.5vw; }
+.trends-page .brand-logo img { filter: brightness(0); }
+.trends-hero { display: grid; grid-template-columns: 42.7% 57.3%; min-height: 51.1vw; }
+.trends-hero-media { position: relative; overflow: hidden; }
+.trends-hero-media video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.trends-hero-grid { position: absolute; inset: 0; background: url('wix-grid-tile.png'); opacity: .75; pointer-events: none; }
+.trends-hero-media > p { position: absolute; bottom: 2.34vw; left: 2.5vw; width: 60%; color: #28271f; font: clamp(10px, .78vw, 15px)/1.2 'IvyOra Display', serif; }
+.trends-hero-copy { position: relative; display: flex; align-items: end; padding: 0 4vw 2.34vw 6vw; }
+.trends-hero-copy .page-kicker { margin-bottom: 3.2vw; font: clamp(12px, 1.09vw, 20px)/1.4 'IvyOra Display', serif; letter-spacing: 0; }
+.trends-hero h1 { font: 500 clamp(30px, 3.90625vw, 90px)/.9 'IvyOra Display', serif; letter-spacing: .02em; }
+.trends-hero h1 em { font: 400 1.1em/.9 'Didot-W01-Italic', serif; }
+.trends-scroll { position: absolute; right: 2.5vw; bottom: 2.34vw; display: flex; align-items: center; gap: 8px; flex-direction: column; color: inherit; text-decoration: none; }
+.trends-scroll span { writing-mode: vertical-rl; font: 12px/1.3 'IvyOra Display', serif; }
+.trends-scroll svg { width: 10px; height: 80px; }
+
+.trends-articles { padding: 12.5vw 7.8vw 7.5vw; scroll-margin-top: 30px; }
+.trends-tabs { display: none; justify-content: center; gap: 3.4vw; margin-bottom: 5.2vw; }
+.trends-tabs button { padding: 0 0 10px; border: 0; border-bottom: 2px solid #e2e2e2; background: transparent; color: inherit; cursor: pointer; font: 400 clamp(13px, 1.25vw, 22px)/1.3 'IvyOra Display', serif; }
+.trends-tabs button:hover, .trends-tabs button[aria-selected='true'] { border-bottom-color: #5b564c; }
+.trends-tabs-ready .trends-tabs { display: flex; }
+.trends-category-title { margin-bottom: 30px; font: 400 22px/1.2 'IvyOra Display', serif; }
+.trends-tabs-ready .trends-category-title { display: none; }
+.trends-panel + .trends-panel { margin-top: 80px; }
+.trends-tabs-ready .trends-panel { margin-top: 0; }
+.trends-panel[hidden] { display: none; }
+.trends-card-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8.8vw 2vw; }
+.trends-card { display: flex; flex-direction: column; min-width: 0; }
+.trends-card a { color: inherit; text-decoration: none; }
+.trends-card-image { display: block; aspect-ratio: 1 / .9696; border-radius: 5px; overflow: hidden; }
+.trends-card img { display: block; width: 100%; height: 100%; object-fit: cover; transition: transform .4s ease; }
+.trends-card-image:hover img, .trends-card-image:focus-visible img { transform: scale(1.04); }
+.trends-card-meta { display: flex; justify-content: space-between; align-items: start; gap: 12px; min-height: 35px; padding-top: 12px; font: 12px/1.3 'IvyOra Display', serif; }
+.trends-card-arrow { display: grid; place-items: center; width: 18px; height: 18px; border: 1px solid #a69c85; font: 14px/1 sans-serif; }
+.trends-card h3 { margin-bottom: 24px; font: 500 clamp(13px, 1.09375vw, 21px)/1.3 'IvyOra Display', serif; letter-spacing: .03em; text-transform: uppercase; }
+.trends-card h3 a:hover { text-decoration: underline; text-underline-offset: 4px; }
+.trends-read-more { align-self: start; margin-top: auto; padding: 10px 22px; border: 1px solid #a69c85; border-radius: 30px; font: 10px/1.4 'Gotham Book', sans-serif; transition: background .2s, color .2s; }
+.trends-read-more:hover, .trends-read-more:focus-visible { background: #5b564c; color: #f2eee2; }
+.trends-contact .contact-section { position: relative; padding: 7.5vw 7.2vw; background: #eee8d8; }
+.trends-contact .contact-info, .trends-contact .contact-title, .trends-contact .contact-badge { display: none; }
+.trends-contact .contact-layout { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 0; }
+.trends-contact .contact-consultation { grid-column: 2; }
+@media (max-width: 750px) {
+  .trends-page .brand-logo { width: 110px; margin: 20px 0 0 16px; }
+  .trends-hero { min-height: max(620px, 85svh); }
+  .trends-hero-copy { padding: 150px 4vw 80px; }
+  .trends-hero h1 { font-size: clamp(20px, 5.05vw, 38px); }
+  .trends-hero-copy .page-kicker { margin-bottom: 30px; font-size: 11px; }
+  .trends-hero-media > p { width: auto; left: 12px; right: 12px; bottom: 22px; font-size: 10px; line-height: 1.35; }
+  .trends-scroll { right: 18px; bottom: 20px; flex-direction: row; gap: 12px; }
+  .trends-scroll span { writing-mode: horizontal-tb; font-size: 10px; }
+  .trends-scroll svg { height: 40px; width: 5px; }
+  .trends-articles { padding: 65px 6% 60px; }
+  .trends-tabs { gap: 32px; margin-bottom: 28px; }
+  .trends-tabs button { min-height: 40px; font-size: 14px; }
+  .trends-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 40px 16px; }
+  .trends-card-meta { font-size: 11px; }
+  .trends-card h3 { font-size: 12px; margin-bottom: 20px; }
+  .trends-read-more { padding: 9px 15px; }
+  .trends-contact .contact-section { padding: 55px 8% 65px; }
+  .trends-contact .contact-layout { grid-template-columns: minmax(0, 1fr); }
+  .trends-contact .contact-consultation { grid-column: 1; }
+}
+@media (max-width: 380px) { .trends-card-grid { grid-template-columns: minmax(0, 1fr); } .trends-card h3 { font-size: 14px; } }
+@media (prefers-reduced-motion: reduce) { .trends-card img, .trends-read-more { transition: none; } .trends-card-image:hover img, .trends-card-image:focus-visible img { transform: none; } }
