@@ -96,7 +96,7 @@
   // The About contact block uses the same Wix arc + fade entrance as Home.
   const contactSection = document.querySelector('.about-contact #contact');
   if (contactSection && Element.prototype.animate) {
-    const contactElements = [...contactSection.querySelectorAll('.contact-logo, .contact-links')];
+    const contactElements = [...contactSection.querySelectorAll('.contact-logo, .contact-links, .contact-title')];
     const contactAnimations = new Set();
     const contactObserver = new IntersectionObserver(entries => entries.forEach(({ target, isIntersecting }) => {
       if (!isIntersecting) return;
@@ -119,6 +119,17 @@
       element.style.opacity = '0';
       contactObserver.observe(element);
     });
+    const contactBadge = contactSection.querySelector('.contact-badge');
+    const updateContactBadge = () => {
+      if (!contactBadge) return;
+      const top = contactSection.getBoundingClientRect().top;
+      const progress = motion.matches ? 1 : Math.max(0, Math.min(1, (innerHeight - top) / innerHeight));
+      contactBadge.style.setProperty('--badge-grow', `${(progress * 100).toFixed(2)}%`);
+    };
+    updateContactBadge();
+    addEventListener('scroll', updateContactBadge, { passive: true });
+    addEventListener('resize', updateContactBadge);
+    motion.addEventListener('change', updateContactBadge);
     motion.addEventListener('change', ({ matches }) => {
       if (!matches) return;
       contactObserver.disconnect();
