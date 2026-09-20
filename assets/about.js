@@ -93,6 +93,40 @@
     }, { rootMargin: '0px 0px -20% 0px' });
     founderTextObserver.observe(founderTextBlock);
   }
+  // The About contact block uses the same Wix arc + fade entrance as Home.
+  const contactSection = document.querySelector('.about-contact #contact');
+  if (contactSection && Element.prototype.animate) {
+    const contactElements = [...contactSection.querySelectorAll('.contact-logo, .contact-links')];
+    const contactAnimations = new Set();
+    const contactObserver = new IntersectionObserver(entries => entries.forEach(({ target, isIntersecting }) => {
+      if (!isIntersecting) return;
+      contactObserver.unobserve(target);
+      target.style.opacity = '';
+      const depth = target.offsetHeight / 2;
+      const arc = angle => `perspective(800px) translateZ(-${depth}px) rotateX(${angle}deg) translateZ(${depth}px)`;
+      const arcAnimation = target.animate([{ transform: arc(80) }, { transform: arc(0) }], {
+        duration: 1200, delay: 1, easing: 'linear', fill: 'backwards'
+      });
+      const fadeAnimation = target.animate([{ opacity: 0 }, { opacity: 1 }], {
+        duration: 840, delay: 1, easing: 'cubic-bezier(0.47, 0, 0.745, 0.715)', fill: 'backwards'
+      });
+      [arcAnimation, fadeAnimation].forEach(animation => {
+        contactAnimations.add(animation);
+        animation.onfinish = () => contactAnimations.delete(animation);
+      });
+    }));
+    if (!motion.matches) contactElements.forEach(element => {
+      element.style.opacity = '0';
+      contactObserver.observe(element);
+    });
+    motion.addEventListener('change', ({ matches }) => {
+      if (!matches) return;
+      contactObserver.disconnect();
+      contactAnimations.forEach(animation => animation.cancel());
+      contactAnimations.clear();
+      contactElements.forEach(element => { element.style.opacity = ''; });
+    });
+  }
   if (motion.matches || !Element.prototype.animate) return;
   const animations = new Set();
   const track = animation => {
