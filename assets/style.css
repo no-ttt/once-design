@@ -97,6 +97,14 @@
 }
 
 @font-face {
+  font-family: 'IvyOra Wix Bold';
+  src: url('fonts/ivyora-wix-bold.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
   font-family: 'Didot Wix Italic';
   src: url('fonts/didot-wix-italic.woff2') format('woff2');
   font-weight: 400;

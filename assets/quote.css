@@ -1,24 +1,29 @@
 /* QUOTE: original Wix imagery with the shared site shell. */
+@font-face { font-family: 'Quote Trajan'; src: url('fonts/trajan-quote.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Quote Gotham'; src: url('fonts/gotham-quote.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Quote IvyOra Light'; src: url('fonts/ivyora-quote-light.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
 .quote-page { background: #f2eee2; color: #5b564c; }
 /* Wix uses an 80-degree arc followed by a short opacity finish for Quote content. */
-.quote-enter { opacity: 0; transform: perspective(1200px) rotateX(80deg); transform-origin: top center; }
+.quote-enter { opacity: 0; transform-origin: center center; }
+.quote-icon-enter, .quote-benefit-copy { opacity: 0; transform-origin: center center; }
 .quote-reveal { opacity: 1; clip-path: polygon(0 0,100% 0,100% 0,0 0); }
 .quote-enter-done.quote-enter { animation: quote-arc-in 1200ms linear both, quote-fade-in 840ms cubic-bezier(.47, 0, .745, .715) both; }
 .quote-enter-done.quote-reveal { animation: quote-clip-in 1200ms linear both; }
-.quote-hero-title { animation: quote-arc-in 1200ms 1ms linear both, quote-fade-in 840ms 1ms cubic-bezier(.47, 0, .745, .715) both; }
+.quote-hero-title { opacity: 0; }
 .quote-scroll { animation: quote-clip-in 1200ms 100ms linear both; }
 @keyframes quote-arc-in { from { opacity: 0; transform: perspective(1200px) rotateX(80deg); } to { opacity: 1; transform: perspective(1200px) rotateX(0); } }
 @keyframes quote-fade-in { from { opacity: 0; } to { opacity: 1; } }
 @keyframes quote-clip-in { from { opacity: 1; clip-path: polygon(0 0,100% 0,100% 0,0 0); } to { opacity: 1; clip-path: polygon(0 0,100% 0,100% 100%,0 100%); } }
 .quote-page .brand-logo { width: clamp(150px, 14.2vw, 220px); margin: 29px 0 0 2.5vw; }
 .quote-page .brand-logo img { filter: brightness(0); }
-.quote-hero { display: grid; grid-template-columns: 42.7% 57.3%; min-height: 51.1vw; }
-.quote-hero-media { position: relative; overflow: hidden; }
-.quote-hero-media video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 55% 46%; }
-.quote-hero-grid { position: absolute; inset: 0; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAACXBIWXMAAAAAAAAAAQCEeRdzAAAAKElEQVR4nGNkgABZIH6MzGaBMqKBeClUAsxmgapciqRjKUwHVkC6UQDBVw42Ri6uyAAAAABJRU5ErkJggg=='); opacity: 1; pointer-events: none; }
+.quote-hero { display: grid; grid-template-columns: 42.7% 57.3%; min-height: 51.1vw; overflow: hidden; }
+.quote-hero-media { position: relative; overflow: visible; }
+.quote-hero-media video { position: absolute; top: 0; left: 0; width: 100vw; height: 100%; object-fit: cover; object-position: 55% 46%; filter: none; }
+.quote-hero-grid { position: absolute; top: 0; left: 0; width: 100vw; height: 100%; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAACXBIWXMAAAAAAAAAAQCEeRdzAAAAKElEQVR4nGNkgABZIH6MzGaBMqKBeClUAsxmgapciqRjKUwHVkC6UQDBVw42Ri6uyAAAAABJRU5ErkJggg=='); opacity: 1; pointer-events: none; }
 .quote-hero-media > p { position: absolute; bottom: 2.34vw; left: 2.5vw; width: 60%; color: #28271f; font: clamp(10px, .78vw, 15px)/1.2 'IvyOra Display', serif; }
-.quote-hero-copy { position: relative; display: flex; align-items: end; padding: 0 6.25vw 4.5vw; }
-.quote-hero-copy .page-kicker { margin-bottom: 3.2vw; font: clamp(12px, .9375vw, 17px)/1 'IvyOra Banner', serif; letter-spacing: .02em; }
+.quote-hero-copy { position: relative; z-index: 1; background: #f2eee2; }
+.quote-hero-title { position: absolute; top: 30.15442vw; left: 5.94177vw; width: 42.75843vw; }
+.quote-hero-copy .page-kicker { margin: 0 0 3.31789vw .23437vw; font: clamp(12px, .9375vw, 17px)/normal 'IvyOra Banner', serif; letter-spacing: .02em; }
 .quote-hero h1 { color: #5b564c; font: 400 clamp(30px, 3.90625vw, 90px)/1 'IvyOra Banner', serif; letter-spacing: .02em; }
 .quote-hero h1 em { font: 400 1em/1 'Didot Wix Italic', serif; }
 .quote-scroll { position: absolute; right: 0; bottom: 4.4556vw; display: grid; place-items: center; width: 5.68vw; height: 5.68vw; color: inherit; text-decoration: none; }
@@ -27,50 +32,118 @@
 
 .quote-page h2, .quote-page h3 { font-family: 'IvyOra Banner', serif; font-weight: 400; }
 .quote-page em { font-family: 'Didot Wix Italic', serif; font-style: normal; font-weight: 400; }
-.quote-services { position: relative; display: grid; grid-template-columns: 1fr 1fr; align-items: center; min-height: 44.2vw; padding: 6vw 7.5%; background: #eee8d8 url('quote-blueprint.jpg') center / cover no-repeat; }
-.quote-services .section-label { position: absolute; top: 0; left: 0; display: grid; place-items: center; box-sizing: border-box; width: 6.36902vw; height: 2.30469vw; padding: 0; background: #362e2b; color: #fff; font: 700 clamp(10px, .85859vw, 17px)/1 'Aboreto', sans-serif; letter-spacing: 0; clip-path: inset(0 calc(100% - var(--tag-grow, 0%)) 0 0); will-change: clip-path; }
+.quote-services { position: relative; display: grid; grid-template-columns: 1fr 1fr; align-items: center; min-height: 44.2vw; padding: 6vw 7.5%; background-color: #eee8d8; background-image: url('https://static.wixstatic.com/media/0da768_8f8736b243214700a0d46562921a46b2~mv2.png'), url('quote-blueprint.jpg'); background-position: left top, center; background-size: 170px 180px, cover; background-repeat: repeat, no-repeat; }
+.quote-services .section-label { position: absolute; top: -.07813vw; left: 0; display: grid; place-items: center; box-sizing: border-box; width: 6.36902vw; height: 2.30469vw; padding: 0; background: #362e2b; color: #fff; font: 700 clamp(10px, .85859vw, 17px)/1 'Aboreto', sans-serif; letter-spacing: 0; clip-path: inset(0 calc(100% - var(--tag-grow, 0%)) 0 0); will-change: clip-path; }
 .quote-services-copy { grid-column: 2; }
 .quote-services-copy .page-kicker { margin-bottom: 3vw; font: 16px/1 'IvyOra Story', serif; letter-spacing: .02em; }
-.quote-services h2 { font-size: clamp(25px, 2.5vw, 48px); line-height: 1.1; margin-bottom: 2.4vw; }
+.quote-services h2 { color: #362e2c; font-size: clamp(25px, 2.5vw, 48px); line-height: 1.1; margin-bottom: 2.4vw; text-transform: uppercase; }
 .quote-services-copy > p:last-child { max-width: 480px; font: 14px/1.3 'IvyOra Story', serif; letter-spacing: .02em; }
-.quote-benefits { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 5vw; padding: 11vw 5.5% 7vw; min-height: 36.5vw; text-align: center; }
-.quote-benefits img { display: block; width: 112px; height: 112px; object-fit: contain; margin: 0 auto 30px; }
-.quote-benefits h3 { font-size: clamp(16px, 1.5vw, 26px); line-height: 1.2; }
-.quote-vision { min-height: 23.0447vw; padding: 4.5vw 10% 0; background: #eee8d8; }
-.quote-vision h2 { padding-bottom: 4vw; border-bottom: 1px solid #bdb6a5; font-size: clamp(36px, 4.1667vw, 80px); line-height: .95; text-align: center; }
-.quote-request { display: grid; grid-template-columns: minmax(0, 1fr) 37.3741vw; gap: 5vw; padding: 0 12% 6.597vw 11.05vw; background: #eee8d8; scroll-margin-top: 30px; }
-.quote-details { padding-top: 0; }
-.quote-details h2 { margin-bottom: 22px; font-size: clamp(24px, 2.1vw, 40px); }
-.quote-details > p { font-size: 20px; }
-.quote-details .contact-links { margin-top: 5vw; }
-.quote-form { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px 26px; padding: 24px 25px; border-radius: 24px; background: #f4f0e6; color: #5b564c; }
-.quote-request .quote-form { margin-top: 25px; }
+@media (min-width: 751px) {
+  .quote-services { display: flow-root; min-height: 44.21875vw; padding: 0; }
+  .quote-services-copy { width: 27.28821vw; margin: 21.56006vw 23.99597vw 0 auto; }
+  .quote-services-copy .page-kicker { width: 46.71435%; margin: 0 0 .5475vw; color: #362e2c; font-family: 'IvyOra Story', serif; font-size: 1.25vw; line-height: 1; }
+  .quote-services h2 { margin: 0 0 3.51383vw .5px; font-family: 'IvyOra Banner', serif; font-size: 2.34375vw; font-weight: 400; line-height: 1; letter-spacing: .02em; }
+  .quote-services-copy > p:last-child { position: relative; width: 22.91077vw; max-width: none; margin-left: calc(4.22177vw + 1px); color: #362e2b; font-size: 1.09375vw; line-height: 1.3; }
+  .quote-services-copy > p:last-child::before { position: absolute; top: 0; left: calc(-4.14242vw - 1px); width: 1px; height: 7.731719vh; background: rgba(0,0,0,.59); content: ''; }
+}
+.quote-benefits { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); min-height: 36.48438vw; padding: 0 4.29688vw; text-align: center; }
+.quote-benefits > div { display: flex; min-width: 0; height: 36.48438vw; flex-direction: column; align-items: center; justify-content: center; }
+.quote-benefits img { display: block; width: 25.44625%; height: auto; aspect-ratio: 1.00765; object-fit: contain; margin: 0 auto 4.33352vw; mix-blend-mode: multiply; }
+.quote-benefits h3 { width: 100%; margin: 0; color: #5b564c; font-family: 'IvyOra Banner', serif; font-size: 1.09375vw; font-weight: 400; line-height: 1.1; text-transform: uppercase; }
+.quote-vision { position: relative; display: grid; grid-template-columns: 1fr; grid-template-rows: minmax(23.04508vw, auto); min-height: 23.04508vw; padding: 0; background: #eee8d8; }
+.quote-vision::after { position: absolute; top: 17.26379vw; left: 10%; width: 80%; height: 1px; background: rgba(0,0,0,.3); content: ''; }
+.quote-vision h2 { align-self: start; justify-self: center; width: 28.61511vw; margin: 4.60571vw 0 0; padding: 0; border: 0; color: #4b4740; font-family: 'IvyOra Banner', serif; font-size: 4.296875vw; font-weight: 400; line-height: 1; letter-spacing: .02em; text-align: left; }
+.quote-request { display: grid; grid-template-columns: 38.671875% 61.328125%; min-height: 902px; padding: 0; background: #eee8d8; scroll-margin-top: 30px; }
+.quote-details { position: relative; min-width: 0; min-height: 902px; }
+.quote-heading-group { position: relative; display: grid; grid-template-columns: 9.83094vw 1.88111vw 11.19992vw; align-content: start; justify-content: end; margin: .03906vw 4.63806vw 0 0; }
+.quote-heading-group::before { grid-column: 2; grid-row: 1; width: 1px; height: 10.1983vh; margin: .22281vw 1.63758vw 0 0; background: #000; content: ''; }
+.quote-details h2 { grid-column: 1; grid-row: 1; width: 9.83094vw; margin: 0 .24353vw 0 0; color: #362e2b; font-family: 'IvyOra Wix Bold', serif; font-size: 2.34375vw; font-weight: 400; line-height: 1.2; letter-spacing: .02em; }
+.quote-heading-group > p { grid-column: 3; grid-row: 1; width: 11.19992vw; margin-top: .53711vw; font: 400 1.25vw/1.3 'Aboreto', sans-serif; }
+.quote-details .contact-links { position: absolute; bottom: 126.18px; left: 11.17188vw; width: 27.4305vw; max-width: none; margin: 0; }
+.quote-details .contact-links li:not(:last-child) { margin-bottom: 1.95313vw; }
+.quote-details .contact-link { display: flex; min-height: 0; gap: 0; align-items: flex-start; }
+.quote-details .contact-link-icon { flex: 0 0 auto; width: 1.01563vw; height: auto; margin-right: 1.25vw; object-fit: contain; }
+.quote-details .contact-link-label { min-height: 0; padding: 0; border: 0; color: #5b564c; font-family: 'IvyOra Banner', serif; font-size: 1.01563vw; font-weight: 400; line-height: 1; letter-spacing: .03em; text-transform: none; }
+.quote-details .contact-links li:nth-child(3) .contact-link-label { font-size: .85938vw; }
+.quote-details .contact-links li:nth-child(4) .contact-link-label,
+.quote-details .contact-links li:nth-child(5) .contact-link-label { font-size: .9375vw; }
+.quote-details .contact-link-address .contact-link-label { font-family: 'IvyOra Display', serif; font-size: .85938vw; font-weight: 300; line-height: 1; text-transform: none; }
+.quote-address-line-one { font-family: 'IvyOra Banner', serif; font-weight: 400; }
+.quote-address-line-two { color: #000; line-height: 1.1; }
+.quote-address-number { font-family: 'IvyOra Story', serif; font-weight: 400; }
+.quote-details .contact-link-arrow { display: none; }
+.quote-form { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px 44px; padding: 24px 39px; border: 1px solid transparent; border-radius: 22px; background: rgba(255,255,255,.37); color: #5b564c; }
+.quote-request .quote-form { align-self: start; justify-self: center; box-sizing: border-box; width: 70%; margin-top: 25px; }
 .quote-field-full { grid-column: 1 / -1; }
 .quote-form fieldset { min-width: 0; padding: 0; border: 0; }
 .quote-form legend, .quote-field { font: 13px/1.4 'IvyOra Display', serif; }
-.quote-form legend { margin-bottom: 10px; }
-.quote-options { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px 18px; }
+.quote-form legend { margin-bottom: 8px; }
+.quote-options { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px 15px; }
 .quote-options label { display: flex; gap: 10px; align-items: center; cursor: pointer; font: 12px/1.4 'Gotham Book', sans-serif; }
 .quote-options input { flex: 0 0 auto; width: 16px; height: 16px; margin: 0; accent-color: #5b564c; }
+.quote-options label { position: relative; }
+.quote-options label input[type="radio"] { position: absolute; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
+.quote-options label input[type="radio"] + span { position: relative; display: inline-flex; align-items: center; }
+.quote-options label input[type="radio"] + span::before { width: 14px; height: 14px; margin-right: 10px; box-sizing: border-box; border: 1px solid #aaa494; border-radius: 50%; content: ''; }
+.quote-options label input[type="radio"] + span::after { position: absolute; top: 50%; left: 3px; width: 8px; height: 8px; border-radius: 50%; background: #5b564c; transform: translateY(-50%) scale(0); transform-origin: center; transition: transform 180ms cubic-bezier(.2,.8,.2,1); content: ''; }
+.quote-options label input[type="radio"]:checked + span::after { transform: translateY(-50%) scale(1); }
+.quote-options label input[type="radio"]:focus-visible + span::before { outline: 2px solid #5b564c; outline-offset: 2px; }
 .quote-field { display: block; min-width: 0; }
 .quote-field > input, .quote-field textarea { display: block; width: 100%; min-width: 0; min-height: 48px; margin-top: 4px; padding: 10px 0; border: 0; border-bottom: 1px solid #aaa494; border-radius: 0; background: transparent; color: inherit; font: 16px/1.4 'IvyOra Display', serif; }
-.quote-field textarea { resize: vertical; }
+.quote-field textarea { resize: none; }
+.quote-phone-control { display: flex; align-items: center; width: 100%; min-width: 0; height: 48px; min-height: 48px; margin-top: 4px; border-bottom: 1px solid #5b564c; }
+.quote-phone-control .contact-country-icon { flex: 0 0 62px; color: #49483f; }
+.quote-phone-control .country-trigger { display: flex; align-items: center; justify-content: center; gap: 4px; width: 62px; height: 46px; padding: 0; border: 0; background: transparent; color: inherit; cursor: pointer; }
+.quote-phone-control .country-globe { display: grid; place-items: center; width: 24px; height: 24px; font: 20px/1 sans-serif; }
+.quote-phone-control .country-globe svg, .quote-phone-control .country-caret svg { display: block; width: 100%; height: 100%; }
+.quote-phone-control .country-caret { display: block; width: 14px; height: 14px; }
+.quote-phone-control .country-caret svg { transition: transform 150ms ease; }
+.quote-phone-control .country-trigger[aria-expanded="true"] .country-caret svg { transform: rotate(180deg); }
+.quote-phone-control .country-trigger:focus-visible { outline: 1px solid #5b564c; outline-offset: -3px; }
+.quote-phone-control select, .quote-phone-control .contact-country-chevron { display: none; }
+.quote-phone-control input { flex: 1; width: 0; min-width: 0; min-height: 0 !important; margin: 0 !important; padding: 0 !important; border: 0 !important; background: transparent; }
 .quote-upload-control { position: relative; display: flex; align-items: center; min-height: 52px; border-bottom: 1px solid #aaa494; }
 .quote-upload-control > span { overflow-wrap: anywhere; }
 .quote-upload input { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer; }
 .quote-upload-control:focus-within { outline: 2px solid #a69c85; outline-offset: 4px; }
 .quote-response { font: 14px/1.5 'IvyOra Display', serif; }
 .quote-response a { display: inline-block; margin-top: 12px; color: inherit; }
+/* Match the reference's rendered casing and distinct label/value fonts. */
+.quote-details .contact-link-label,
+.quote-details .contact-link-address .contact-link-label { text-transform: uppercase; font-style: normal; }
+.quote-details .contact-link-address .contact-link-label { font-family: 'Quote IvyOra Light', serif; font-weight: 400; }
+.quote-form legend, .quote-form .quote-field { font: 400 12px/15px 'Quote Trajan', serif; letter-spacing: 0; color: #4b4740; }
+.quote-form .quote-options label { font: 400 14px/17px 'Quote Gotham', sans-serif; letter-spacing: 0; }
+.quote-form .quote-field > input, .quote-form .quote-field textarea { font: 400 14px/17px 'Quote Gotham', sans-serif; }
+.quote-form .contact-submit { font: 400 14px/17px 'Quote Trajan', serif; letter-spacing: 0; }
+.quote-form .quote-field > input { height: 40px; min-height: 40px; margin-top: 8px; padding: 8px 0; }
+.quote-form .quote-phone-control { height: 48px; min-height: 48px; margin-top: 4px; }
+.quote-form .quote-field textarea { height: 120px; min-height: 120px; margin-top: 8px; padding: 8px 0; }
+.quote-form .quote-upload-control { height: 40px; min-height: 40px; margin-top: 8px; }
+.quote-form .contact-submit { height: 40px; min-height: 40px; margin: 0; padding: 0; }
+.quote-form input:focus, .quote-form textarea:focus, .quote-form .country-trigger:focus { outline: none; box-shadow: none; }
+.quote-options label input[type="radio"]:focus-visible + span::before { outline: none; }
+.quote-field > input:focus, .quote-field textarea:focus, .quote-phone-control:focus-within { border-bottom-color: #000; }
+.quote-phone-control input { color: inherit; font: 400 14px/17px 'Quote Gotham', sans-serif; }
+.quote-form { --quote-error-color: #df3131; }
+.quote-field-error { display: flex; align-items: flex-start; gap: 2px; min-height: 20px; margin: 8px 12px 0 0; padding: 0; border: 0; background: transparent; color: var(--quote-error-color); font: 400 14px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif; letter-spacing: 0; text-transform: none; }
+.quote-field-error::before { content: ''; display: block; flex: 0 0 20px; width: 20px; height: 20px; background: currentColor; mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Ccircle cx='10' cy='10' r='6' fill='none' stroke='black' stroke-width='.8'/%3E%3Cpath d='M10 6.7v4.1' stroke='black' stroke-width='.8'/%3E%3Ccircle cx='10' cy='12.9' r='.5'/%3E%3C/svg%3E") center / contain no-repeat; }
+.quote-form fieldset > .quote-field-error { margin-right: 0; }
+.quote-field.is-invalid > input,
+.quote-field.is-invalid textarea,
+.quote-field.is-invalid .quote-phone-control { border-bottom-color: var(--quote-error-color); }
+.quote-form fieldset.is-invalid .quote-options label input[type="radio"] + span::before { border-color: var(--quote-error-color); }
 @media (max-width: 1000px) { .quote-form { padding: 25px; gap: 22px; } .quote-options { gap: 12px; } .quote-options label { font-size: 10px; gap: 6px; } }
 @media (max-width: 750px) {
   .quote-page .brand-logo { width: 150px; margin: 20px 0 0 16px; }
   .quote-hero { min-height: max(620px, 85svh); }
-  .quote-hero-copy { padding: 150px 4vw 80px; }
+  .quote-hero-copy { display: flex; align-items: end; padding: 150px 4vw 80px; }
+  .quote-hero-title { position: static; width: auto; }
   .quote-hero h1 { font-size: clamp(23px, 5.6vw, 42px); }
   .quote-hero-copy .page-kicker { margin-bottom: 30px; font-size: 11px; }
   .quote-hero-media > p { width: auto; left: 12px; right: 12px; bottom: 22px; font-size: 10px; line-height: 1.35; }
   .quote-scroll { right: 0; bottom: 20px; width: 44px; height: 44px; }
-  .quote-services { min-height: 480px; grid-template-columns: 1fr; padding: 80px 8%; background-position: 35% center; }
+  .quote-services { min-height: 480px; grid-template-columns: 1fr; padding: 80px 8%; background-position: left top, 35% center; }
   .quote-services .section-label { width: 16.881%; height: 6.16179vw; }
   .quote-services-copy { grid-column: 1; padding: 25px; background: #f2eee2dc; }
   .quote-services-copy .page-kicker { margin-bottom: 25px; }
@@ -78,11 +151,24 @@
   .quote-benefits { padding: 65px 8%; grid-template-columns: 1fr; gap: 50px; }
   .quote-benefits img { width: 90px; height: 90px; margin-bottom: 20px; }
   .quote-benefits h3 { font-size: 18px; }
-  .quote-vision { min-height: 0; padding: 55px 8% 0; }
-  .quote-vision h2 { padding-bottom: 40px; }
+  .quote-vision { grid-template-rows: minmax(46vw, auto); min-height: 46vw; padding: 6.41026vw 0 0; }
+  .quote-vision::after { top: 34.44308vw; }
+  .quote-vision h2 { width: 50.15224%; margin-top: 4.60537vw; padding: 0; font-size: clamp(28px, 7.6923vw, 58px); }
   .quote-request { grid-template-columns: 1fr; padding: 40px 8% 60px; gap: 45px; }
-  .quote-request .quote-form { margin-top: 0; }
-  .quote-details > p { font-size: 18px; }
+  .quote-details { display: block; min-height: 0; padding-top: 0; }
+  .quote-heading-group { display: block; margin: 0; }
+  .quote-heading-group::before { display: none; }
+  .quote-details h2, .quote-heading-group > p, .quote-details .contact-links { width: auto; }
+  .quote-details .contact-links { position: static; }
+  .quote-details .contact-links li:not(:last-child) { margin-bottom: 25px; }
+  .quote-details .contact-link-icon { width: 16px; margin-right: 12px; }
+  .quote-details .contact-link-label,
+  .quote-details .contact-links li:nth-child(3) .contact-link-label,
+  .quote-details .contact-links li:nth-child(4) .contact-link-label,
+  .quote-details .contact-links li:nth-child(5) .contact-link-label,
+  .quote-details .contact-link-address .contact-link-label { font-size: 13px; }
+  .quote-request .quote-form { width: 100%; margin-top: 0; }
+  .quote-heading-group > p { font-size: 18px; }
   .quote-details .contact-links { margin-top: 25px; }
   .quote-form { padding: 25px 20px; gap: 22px 18px; }
   .quote-options { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -90,5 +176,5 @@
   .quote-form legend, .quote-field { font-size: 12px; }
 }
 @media (prefers-reduced-motion: reduce) {
-  .quote-enter, .quote-reveal { opacity: 1; transform: none; clip-path: none; }
+  .quote-enter, .quote-enter-done.quote-enter, .quote-icon-enter, .quote-benefit-copy, .quote-reveal, .quote-enter-done.quote-reveal, .quote-hero-title, .quote-scroll { animation: none; opacity: 1; transform: none; clip-path: none; }
 }
