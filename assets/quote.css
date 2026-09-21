@@ -62,14 +62,15 @@
 .quote-details .contact-links { position: absolute; bottom: 126.18px; left: 11.17188vw; width: 27.4305vw; max-width: none; margin: 0; }
 .quote-details .contact-links li:not(:last-child) { margin-bottom: 1.95313vw; }
 .quote-details .contact-link { display: flex; min-height: 0; gap: 0; align-items: flex-start; }
-.quote-details .contact-link-icon { flex: 0 0 auto; width: 1.01563vw; height: auto; margin-right: 1.25vw; object-fit: contain; }
-.quote-details .contact-link-label { min-height: 0; padding: 0; border: 0; color: #5b564c; font-family: 'IvyOra Banner', serif; font-size: 1.01563vw; font-weight: 400; line-height: 1; letter-spacing: .03em; text-transform: none; }
+.quote-details .contact-link-icon { flex: 0 0 auto; width: 1.01563vw; height: auto; margin-right: 1.25vw; object-fit: contain; filter: brightness(0) saturate(100%) invert(34%) sepia(9%) saturate(530%) hue-rotate(352deg) brightness(92%) contrast(88%); }
+.quote-details .contact-link-address .contact-link-icon { width: 1.01563vw; height: 1.25vw; margin-top: 0; object-fit: contain; transform: scale(1.2); transform-origin: left top; }
+.quote-details .contact-link-label { min-height: 0; padding: 0; border: 0; color: #362e2b; font-family: 'IvyOra Banner', serif; font-size: 1.01563vw; font-weight: 400; line-height: 1; letter-spacing: .03em; text-transform: none; }
 .quote-details .contact-links li:nth-child(3) .contact-link-label { font-size: .85938vw; }
 .quote-details .contact-links li:nth-child(4) .contact-link-label,
 .quote-details .contact-links li:nth-child(5) .contact-link-label { font-size: .9375vw; }
 .quote-details .contact-link-address .contact-link-label { font-family: 'IvyOra Display', serif; font-size: .85938vw; font-weight: 300; line-height: 1; text-transform: none; }
 .quote-address-line-one { font-family: 'IvyOra Banner', serif; font-weight: 400; }
-.quote-address-line-two { color: #000; line-height: 1.1; }
+.quote-address-line-two { color: #362e2b; line-height: 1.1; }
 .quote-address-number { font-family: 'IvyOra Story', serif; font-weight: 400; }
 .quote-details .contact-link-arrow { display: none; }
 .quote-form { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px 44px; padding: 24px 39px; border: 1px solid transparent; border-radius: 22px; background: rgba(255,255,255,.37); color: #5b564c; }
