@@ -104,7 +104,7 @@
         </div>
         <div class="contact-consultation" id="quote">
           <h3>START OUR CONSULTATION</h3>
-          <form class="contact-form" id="consultationForm">
+          <form class="contact-form" id="consultationForm" novalidate>
             <label class="contact-field">FIRST NAME<input name="firstName" autocomplete="given-name" type="text"></label>
             <label class="contact-field">LAST NAME<input name="lastName" autocomplete="family-name" type="text"></label>
             <label class="contact-field">EMAIL <span aria-hidden="true">*</span><input name="email" autocomplete="email" type="email" required></label>
@@ -381,9 +381,47 @@
   }
   consultationForm?.querySelector('input[name="floorPlan"]')?.addEventListener('change', event => {
     document.getElementById('floorPlanName').textContent = event.target.files[0]?.name || '';
+    clearFieldError(event.target);
+  });
+  const clearFieldError = field => {
+    field.removeAttribute('aria-invalid');
+    field.removeAttribute('aria-describedby');
+    field.closest('.contact-field')?.querySelector('.contact-error')?.remove();
+  };
+  const showFieldError = (field, message) => {
+    clearFieldError(field);
+    field.setAttribute('aria-invalid', 'true');
+    const error = document.createElement('span');
+    error.id = `contact-${field.name}-error`;
+    error.className = 'contact-error';
+    error.setAttribute('role', 'alert');
+    error.innerHTML = '<svg class="contact-error-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M9.5,3 C13.084,3 16,5.916 16,9.5 C16,13.084 13.084,16 9.5,16 C5.916,16 3,13.084 3,9.5 C3,5.916 5.916,3 9.5,3 Z M9.5,4 C6.467,4 4,6.467 4,9.5 C4,12.533 6.467,15 9.5,15 C12.533,15 15,12.533 15,9.5 C15,6.467 12.533,4 9.5,4 Z M10,11 L10,12 L9,12 L9,11 L10,11 Z M10,7 L10,10 L9,10 L9,7 L10,7 Z"/></svg>';
+    const text = document.createElement('span');
+    text.className = 'contact-error-text';
+    text.textContent = message;
+    error.append(text);
+    field.setAttribute('aria-describedby', error.id);
+    field.closest('.contact-field')?.append(error);
+  };
+  consultationForm?.querySelector('input[name="email"]')?.addEventListener('input', event => {
+    if (event.target.validity.valid) clearFieldError(event.target);
+    document.getElementById('consultationResponse').hidden = true;
   });
   consultationForm?.addEventListener('submit', event => {
     event.preventDefault();
+    document.getElementById('consultationResponse').hidden = true;
+    const email = consultationForm.querySelector('input[name="email"]');
+    const floorInput = consultationForm.querySelector('input[name="floorPlan"]');
+    let valid = true;
+    if (!email.value.trim() || !email.validity.valid) {
+      showFieldError(email, 'Enter an email address like example@mysite.com.');
+      valid = false;
+    } else clearFieldError(email);
+    if (!floorInput.files.length) {
+      showFieldError(floorInput, 'Enter an answer.');
+      valid = false;
+    } else clearFieldError(floorInput);
+    if (!valid) return;
     const data = new FormData(consultationForm);
     const floorPlan = data.get('floorPlan');
     const body = [
