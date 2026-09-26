@@ -2478,3 +2478,4 @@ body[data-page="home"] .contact-badge { --section-tag-width: 7.369vw; }
   body[data-page="home"] .partners-badge { --section-tag-width: 21.213vw; }
   body[data-page="home"] .contact-badge { --section-tag-width: 74px; }
 }
+.portfolio-card .brand-name a { color: inherit; text-decoration: none; }

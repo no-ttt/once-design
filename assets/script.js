@@ -729,7 +729,10 @@ document.addEventListener('DOMContentLoaded', () => {
   function fillCard(card, project) {
     card.querySelector('.num').textContent = project.num;
     card.querySelector('.category').textContent = project.category;
-    card.querySelector('.brand-name').textContent = project.brand;
+    const brand = card.querySelector('.brand-name');
+    brand.innerHTML = project.brand === 'NEBU'
+      ? '<a href="nebu.html">NEBU</a>'
+      : project.brand;
     const location = card.querySelector('.location-name');
     location.textContent = project.location;
     const awards = card.querySelector('.awards-list');

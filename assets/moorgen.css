@@ -1,0 +1,87 @@
+@font-face { font-family: 'Moorgen Gotham'; src: url('fonts/gotham-quote.woff2') format('woff2'); font-display: swap; }
+@font-face { font-family: 'Moorgen Trajan'; src: url('fonts/trajan-quote.woff2') format('woff2'); font-display: swap; }
+.moorgen-page { background: #eee8d8; color: #362e2b; }
+.moorgen-page figure, .moorgen-page p { margin: 0; }
+.moorgen-page .brand-logo { width: 14.140625vw; margin: 1.6796875vw 0 0 2.5vw; }
+.moorgen-page .brand-logo img { filter: none; aspect-ratio: 203.625 / 86.609375; object-fit: cover; }
+.moorgen-page .menu-toggle-btn { top: 1.5625vw; right: 1.5625vw; color: #362e2b; }
+.moorgen-sr-only { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.moorgen-title { height: 27.96875vw; background: #fef9ed; }
+.moorgen-title img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.moorgen-hero { height: 43.55685764vw; }
+.moorgen-hero img { display: block; width: 80%; height: 100%; margin: auto; object-fit: cover; }
+.moorgen-photo { height: var(--section-height); }
+.moorgen-photo img { display: block; width: 60vw; height: 33.75vw; margin: auto; object-fit: cover; }
+.moorgen-photo[data-reference="comp-mrvtg8yw"] img { height: 33.712022vw; }
+.moorgen-copy { min-height: var(--section-height); padding-top: var(--copy-top); }
+.moorgen-copy h2 { width: 60vw; margin: 0 0 1.5625vw 20.46658vw; font: 400 2.34375vw/1 'IvyOra Banner', serif; letter-spacing: .02em; color: #362e2c; }
+.moorgen-prose { width: 60vw; margin-left: 20.42752vw; font: 400 .9375vw/1.3 'Moorgen Gotham', sans-serif; letter-spacing: .02em; }
+.moorgen-prose a { color: inherit; text-decoration: none; }
+.moorgen-back { height: 7.265625vw; padding: 3.125vw 0 0 20.42752vw; }
+.moorgen-back a, .moorgen-navigation { color: #362e2b; font: 400 .78125vw/1.3 'Aboreto', serif; }
+.moorgen-back a, .moorgen-navigation a { color: inherit; text-decoration: none; }
+.moorgen-back a:hover, .moorgen-navigation a:hover { opacity: .65; }
+.moorgen-navigation { position: relative; height: 22.96875vw; padding: 9.340278vw 19.573vw 0 20.42752vw; display: flex; justify-content: space-between; background: #f2eee2; letter-spacing: .05em; }
+.moorgen-navigation::before { content: ''; position: absolute; top: 6.267361vw; left: 20.42752vw; width: 60vw; border-top: 1px solid #5b564c80; }
+.moorgen-navigation a { width: 18.125vw; }
+.moorgen-navigation a:last-child { text-align: right; }
+.moorgen-navigation p { margin-top: .74327vw; font: 400 .9375vw/1.3 'IvyOra Banner', serif; letter-spacing: .02em; }
+.moorgen-contact-spacer { height: 5.77907986vw; }
+.moorgen-page .contact-section { position: relative; top: auto; padding: 0; min-height: calc(max(153px,9.765625vw) + 666px); overflow: clip; }
+.moorgen-page .contact-badge, .moorgen-page .contact-title, .moorgen-page .contact-links { display: none; }
+.moorgen-page .contact-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 0; }
+.moorgen-page .contact-info { padding-left: 7.5vw; }
+.moorgen-page .contact-logo { width: 9.4077vw; height: 9.765625vw; object-fit: contain; margin: 0; }
+.moorgen-page .contact-consultation { position: relative; padding-top: max(153px,9.765625vw); }
+.moorgen-page .contact-consultation h3 { position: absolute; top: .1888vw; left: 0; margin: 0; font-size: 1.71875vw; line-height: 1.3; color: #000; }
+.moorgen-page .contact-form { width: max(385px,calc(50vw - 106px)); padding-top: 1px; margin-left: calc(1px + .069444vw); gap: 30px 35px; }
+.moorgen-page .contact-field { color: #5b564c; font: 400 12px/15px 'Moorgen Trajan', serif; letter-spacing: 0; }
+.moorgen-page .contact-field input, .moorgen-page .contact-field textarea { height: 40px; min-height: 40px; padding: 8px 12px 8px 0; margin-top: 8px; resize: none; font: 16px/24px 'Moorgen Gotham', sans-serif; letter-spacing: 0; }
+.moorgen-page .contact-phone-field { height: 40px; margin-top: 8px; }
+.moorgen-page .contact-field .contact-phone-field > input { margin-top: 0; }
+.moorgen-page .contact-country-icon { flex-basis: 52px; }
+.moorgen-page .country-trigger { width: 52px; height: 38px; gap: 0; padding-left: 12px; }
+.moorgen-page .contact-upload-control { height: 91px; min-height: 91px; margin-top: 8px; padding: 0; }
+.moorgen-page .contact-upload input { height: 100%; margin: 0; }
+.moorgen-page .contact-submit { height: 43.1875px; padding: 0; font: 700 16px/20.8px 'Moorgen Trajan', serif; }
+.moorgen-page .site-footer { min-height: 118px; padding: 28px 7.48% 20px; }
+.moorgen-page .footer-top-row { padding-bottom: 17px; }
+.moorgen-page .footer-nav a { font-family: 'Moorgen Trajan', serif; color: #fff; }
+.moorgen-page .back-to-top { font-family: 'Moorgen Trajan', serif; }
+.moorgen-page .footer-copyright { font-family: 'Moorgen Trajan', serif; margin-top: 12px; }
+@media (max-width: 750px) {
+  .moorgen-page .site-header, .moorgen-page .menu-toggle-btn { display: none; }
+  .moorgen-title { height: 56.422276vw; }
+  .moorgen-hero { height: 43.553686vw; }
+  .moorgen-photo { height: var(--mobile-height); }
+  .moorgen-photo img, .moorgen-photo[data-reference="comp-mrvtg8yw"] img { width: 80vw; height: 45vw; }
+  .moorgen-copy { min-height: var(--mobile-height); padding-top: var(--mobile-top); }
+  .moorgen-copy h2 { width: 80vw; margin: 0 0 19.171875px 12.179487vw; font-size: 20px; line-height: 20px; }
+  .moorgen-prose { width: 80vw; margin-left: 12.047276vw; font-size: 13px; line-height: 16.9px; }
+  .moorgen-copy-paragraph .moorgen-prose { margin-left: 10.42468vw; }
+  .moorgen-copy-narrow h2, .moorgen-copy-narrow .moorgen-prose { width: 72.1194vw; }
+  .moorgen-back { height: 20.268429vw; padding: 32.625px 0 0 12.179487vw; }
+  .moorgen-back a { font-size: 12px; letter-spacing: .1em; }
+  .moorgen-navigation { height: 35.685096vw; padding: 64.6875px 8.46474vw 0 10vw; font-size: 13px; letter-spacing: .1em; }
+  .moorgen-navigation::before { top: 52px; left: 10vw; width: 80vw; }
+  .moorgen-navigation a { width: auto; }
+  .moorgen-navigation p { display: none; }
+  .moorgen-contact-spacer { height: 11.899038vw; }
+  .moorgen-page .contact-section { min-height: 1521.53125px; }
+  .moorgen-page .contact-layout { display: block; position: relative; }
+  .moorgen-page .contact-info { position: absolute; top: 2.04928vw; left: 8.205128vw; padding: 0; }
+  .moorgen-page .contact-logo { width: 29.25881vw; height: 30.36449vw; margin: 0; }
+  .moorgen-page .contact-consultation { padding-top: 626.3125px; }
+  .moorgen-page .contact-consultation h3 { top: 149.5625px; left: 51.534vw; width: 146px; margin: 0; font-size: 18px; line-height: 1.3; }
+  .moorgen-page .contact-form { width: 385px; margin-left: 12.303686vw; }
+  .moorgen-page .site-footer { height: 147px; padding: 60px 7.6923% 25px; }
+  .moorgen-page .back-to-top { position: absolute; top: 10.8px; right: 5.2%; font-size: 12px; }
+  .moorgen-page .footer-top-row { padding-bottom: 16px; }
+  .moorgen-page .footer-nav { gap: 10px; flex-wrap: nowrap; justify-content: flex-start; }
+  .moorgen-page .footer-nav a { font-size: 10px; }
+  .moorgen-page .footer-copyright { font-size: 8px; margin-top: 12px; text-align: left; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .moorgen-prose { clip-path: inset(0 var(--reveal-clip, 0%) 0 0); }
+  .moorgen-prose:focus-within { clip-path: none; }
+}
