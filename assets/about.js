@@ -1,4 +1,16 @@
 (() => {
+  const heroVideo = document.querySelector('.about-hero-media video');
+  if (heroVideo) {
+    // Shorten each loop by 1.5 seconds without changing the source video.
+    const updatePlaybackRate = () => {
+      const duration = heroVideo.duration;
+      if (Number.isFinite(duration) && duration > 1.5) {
+        heroVideo.playbackRate = duration / (duration - 1.5);
+      }
+    };
+    heroVideo.addEventListener('loadedmetadata', updatePlaybackRate);
+    updatePlaybackRate();
+  }
   const motion = matchMedia('(prefers-reduced-motion: reduce)');
   const storyLabel = document.querySelector('.about-story .section-label');
   if (storyLabel) {

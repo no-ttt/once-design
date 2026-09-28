@@ -351,8 +351,8 @@ body {
   top: 0;
   left: 0;
   bottom: 0;
-  right: min(300px, 82vw);
-  background: rgba(0, 0, 0, 0.45);
+  right: 0;
+  background: rgba(0, 0, 0, 0.48);
   z-index: 998;
   opacity: 0;
   visibility: hidden;
@@ -372,12 +372,12 @@ body {
   top: 0;
   right: 0;
   bottom: 0;
-  width: min(300px, 82vw);
+  width: min(315px, 100vw);
   height: 100dvh;
   overflow-y: auto;
   overscroll-behavior: contain;
-  /* 1:1 復刻 Wix Studio 橄欖碳古銅色調 (#413f37) */
-  background-color: rgba(74, 72, 62, 0.86);
+  /* Reference drawer: translucent warm gray on desktop. */
+  background-color: rgba(91, 86, 76, 0.7);
   backdrop-filter: none;
   -webkit-backdrop-filter: none;
   border-left: none;
@@ -385,8 +385,8 @@ body {
   z-index: 1000;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding: 40px 80px 60px;
+  justify-content: flex-start;
+  padding: 194.5px 50px 40px 84px;
   transform: translateX(100%);
   transition: none;
   pointer-events: none;
@@ -402,26 +402,34 @@ body {
 /* Drawer Top Bar: Language switcher + Animated Close Button */
 .drawer-header {
   position: absolute;
-  top: 36px;
-  left: 48px;
-  right: 42px;
+  top: 40px;
+  left: 84px;
+  right: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 1001;
 }
 
+@font-face {
+  font-family: 'Menu Gotham';
+  src: url('fonts/gotham-quote.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 .lang-switch {
   display: inline-flex;
   align-items: center;
-  gap: 12px;
-  font-family: var(--font-sans);
-  font-size: 13px;
-  letter-spacing: 0.08em;
+  gap: 0;
+  font: 400 16px/1.3 'Menu Gotham', sans-serif;
+  letter-spacing: 0;
 }
 
 .lang-item {
-  color: rgba(255, 255, 255, 0.45);
+  text-decoration: none;
+  color: #8e8367;
   cursor: pointer;
   transition: color 0.25s ease;
   user-select: none;
@@ -437,8 +445,8 @@ body {
   background: transparent;
   border: none;
   color: #ffffff;
-  width: 32px;
-  height: 32px;
+  width: 20px;
+  height: 20px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -509,9 +517,10 @@ body {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: clamp(16px, 2.5vh, 23px);
+  gap: 24px;
   text-align: left;
-  margin-top: 20px;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-menu-list li {
@@ -520,27 +529,22 @@ body {
 }
 
 .nav-menu-list a {
-  color: rgba(255, 255, 255, 0.88);
-  font-family: var(--font-serif-hero);
-  /* IvyOra Display */
-  font-size: clamp(21px, 1.7vw, 25px);
-  font-weight: 400;
-  text-decoration: none;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
   display: inline-block;
-  transition: color 0.3s ease, transform 0.3s ease, letter-spacing 0.3s ease;
+  color: #fff;
+  font: 400 25px/1.18 'IvyOra Story', serif;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: color .2s ease;
 }
-
+.nav-menu-list a:hover { color: #afa385; }
+.lang-item:first-child { width: 2.388671875em; }
+.lang-item:last-child { margin-left: -.5px; font-family: 'IvyOra Banner', sans-serif; font-weight: 400; }
 @media (max-width: 750px) {
-  .nav-drawer { width: min(320px, 86vw); padding: 40px 48px 60px; }
-  .drawer-header { left: 48px; right: 32px; }
-}
-
-.nav-menu-list a:hover {
-  color: #ffffff;
-  transform: translateX(6px);
-  letter-spacing: 0.12em;
+  .nav-drawer { width: 100vw; background-color: #5b564c; padding: 194.5px 50px 40px 84px; }
+  .drawer-header { left: 84px; right: 50px; align-items: flex-start; }
+  .lang-switch { font-size: 4.57033px; }
+  .lang-item:first-child { width: 2.263239em; }
 }
 
 /* ==========================================================================
@@ -577,6 +581,10 @@ body {
 .bg-photo {
   position: absolute;
   inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
   background-image: url('home-banner.webp?v=3');
   background-size: cover;
   background-position: center;
@@ -965,12 +973,12 @@ body[data-page="home"] .brand-logo {
 .about-quote {
   display: flex;
   flex-direction: column;
-  gap: clamp(3px, 0.45vw, 7px);
-  font-family: var(--font-serif-hero);
-  font-size: clamp(20px, 2.34vw, 34px);
-  font-weight: 500;
+  gap: 0;
+  font-family: 'IvyOra Banner', serif;
+  font-size: 2.34375vw;
+  font-weight: 400;
   line-height: 1.3;
-  letter-spacing: 0.02em;
+  letter-spacing: normal;
   text-transform: uppercase;
   max-width: 82%;
 }
@@ -981,9 +989,9 @@ body[data-page="home"] .brand-logo {
   white-space: nowrap;
 }
 
-/* 底層未揭示淺字：比背景 (#ebe5d8) 略深一階，維持若隱若現但不過重 */
+/* Wix About 未揭示文字底色。 */
 .quote-text-underlay {
-  color: #d6cdb8;
+  color: #e6dfcf;
   display: block;
   user-select: none;
 }
@@ -992,7 +1000,7 @@ body[data-page="home"] .brand-logo {
 .quote-text-fill {
   position: absolute;
   inset: 0;
-  color: #0d0c0b;
+  color: #000;
   display: block;
   clip-path: inset(0 calc(100% - var(--reveal-progress, 0%)) 0 0);
   will-change: clip-path;
@@ -1056,6 +1064,7 @@ body[data-page="home"] .brand-logo {
    Portfolio Section (Featured Project Showcase)
    ========================================================================== */
 .portfolio-section {
+  --portfolio-column-left: 68%;
   position: sticky;
   top: 0;
   z-index: 10;
@@ -1158,7 +1167,7 @@ body[data-page="home"] .brand-logo {
 .banner-text {
   position: absolute;
   top: 15.4%;
-  right: 10.8%;
+  left: var(--portfolio-column-left);
   z-index: 10;
   display: flex;
   flex-direction: column;
@@ -1406,7 +1415,7 @@ body[data-page="home"] .brand-logo {
 /* Portfolio SEE MORE follows the reference's wider line, Gotham text and arrow. */
 .portfolio-action {
   position: absolute;
-  right: 16%;
+  left: var(--portfolio-column-left);
   bottom: 12.1%;
   z-index: 15;
   align-items: flex-start;
@@ -1459,16 +1468,18 @@ body[data-page="home"] .brand-logo {
   .portfolio-heading,
   .banner-text {
     top: 14%;
-    right: 8%;
   }
 
   .portfolio-action {
-    right: 10%;
     bottom: 4%;
   }
 }
 
 @media (max-width: 750px) {
+  .portfolio-section {
+    --portfolio-column-left: 56%;
+  }
+
   .card-header .num,
   .portfolio-card-index {
     font-size: 2.05128vw;
@@ -1550,7 +1561,6 @@ body[data-page="home"] .brand-logo {
   }
 
   .portfolio-action {
-    right: 20px;
     bottom: 24px;
   }
 }
@@ -1988,10 +1998,11 @@ body[data-page="home"] .brand-logo {
 
 /* Inquiries: architectural plan backdrop and accessible FAQ disclosure controls. */
 .inquiries-section {
-  position: relative;
+  position: sticky;
+  top: var(--inquiries-sticky-top, 0px);
   z-index: 10;
-  min-height: 76.6667vw;
-  padding: 6.95313vw 10.78125% 12vw;
+  min-height: 0;
+  padding: 6.95313vw 10.78125% 9vw;
   background: #eee8d8 url('inquiries-bg.jpg') no-repeat 23% top / cover;
   color: #362e2b;
 }
@@ -2028,6 +2039,7 @@ body[data-page="home"] .brand-logo {
 }
 
 .inquiry-item {
+  --inquiry-text-inset: 29px;
   border-bottom: 1px solid rgba(54, 46, 43, 0.65);
   color: #111;
 }
@@ -2050,7 +2062,16 @@ body[data-page="home"] .brand-logo {
 }
 
 .inquiry-item summary::-webkit-details-marker { display: none; }
-.inquiry-item summary > span:first-child::before { content: '・'; }
+.inquiry-item summary > span:first-child {
+  position: relative;
+  padding-left: calc(var(--inquiry-text-inset) - 16px);
+}
+.inquiry-item summary > span:first-child::before {
+  content: '・';
+  position: absolute;
+  left: 0;
+  top: 0;
+}
 .inquiry-item summary:focus-visible { outline: 2px solid #362e2b; outline-offset: -3px; }
 .inquiry-item summary:hover { color: #5b564c; }
 
@@ -2075,7 +2096,7 @@ body[data-page="home"] .brand-logo {
 .inquiry-item summary[aria-expanded="false"] .inquiry-icon::after { transform: scaleY(1); }
 
 .inquiry-answer {
-  padding: 20px 35px 70px;
+  padding: 20px 35px 70px var(--inquiry-text-inset);
   font-family: 'IvyOra Display', serif;
   font-size: 15px;
   font-weight: 400;
@@ -2106,14 +2127,13 @@ body[data-page="home"] .brand-logo {
 
 @media (max-width: 750px) {
   .inquiries-section {
-    min-height: 239.7436vw;
     padding: 36px 14.4% 50px 11.5%;
   }
   .inquiries-badge { width: 23%; min-width: 80px; height: 24px; font-size: 10px; }
   .inquiries-title { font-size: 25px; font-weight: 700; margin-right: 10px; }
   .inquiries-list { width: 100%; margin-top: 30px; }
   .inquiry-item summary { min-height: 83px; gap: 16px; padding: 26px 16px; font-size: 12px; }
-  .inquiry-answer { padding: 0 20px 20px; }
+  .inquiry-answer { padding: 0 20px 20px var(--inquiry-text-inset); }
   .inquiry-answer-emphasis { padding-left: 10px; margin-bottom: 32px; }
 }
 
@@ -2362,20 +2382,116 @@ body[data-page="home"] .brand-logo {
 .contact-submit { grid-column: 1 / -1; padding: 9px 20px; border: 1px solid #a69c85; border-radius: 999px; background: #5b564c; color: #fff; cursor: pointer; font: 500 18px/1.2 'IvyOra Display', serif; }
 .contact-submit:hover { background: #362e2b; }
 .contact-submit:focus-visible { outline: 2px solid #362e2b; outline-offset: 4px; }
+/* Homepage consultation matches the reference title scale and wider right column. */
+@font-face {
+  font-family: 'Consultation Trajan';
+  src: url('fonts/trajan-quote.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+body .contact-logo { width: 9.3978vw; height: 9.755vw; }
+body .contact-links { max-width: 30.9vw; margin-top: 9.66vw; }
+body .contact-link {
+  position: relative;
+  grid-template-columns: 1.04vw minmax(0, 1fr) 0.9722vw;
+  gap: 1.225vw;
+  align-items: start;
+  min-height: 5.2833vw;
+}
+body .contact-link::after {
+  content: '';
+  position: absolute;
+  top: 2.15vw;
+  left: 2.465vw;
+  right: 0.4vw;
+  border-bottom: 1px solid rgba(91, 86, 76, 0.5);
+}
+body .contact-link-icon {
+  width: 1.04vw;
+  height: 1.12vw;
+  filter: invert(34%) sepia(9%) saturate(526%) hue-rotate(6deg) brightness(92%) contrast(88%);
+}
+body .contact-link-arrow {
+  align-self: start;
+  width: 0.9722vw;
+  height: 0.9722vw;
+  border: 0;
+  background: url('contact-arrow.png') center / contain no-repeat;
+  font-size: 0;
+}
+body .contact-address-street { font-weight: 300; line-height: 1.1; }
+body .contact-link-address::after { top: 2.65vw; }
+body .contact-link-address .contact-link-icon { height: 1.66vw; }
+body .contact-link-label {
+  min-height: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'IvyOra Display', serif;
+  font-size: 0.9375vw;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  color: #000;
+}
+body .contact-links li:nth-child(-n+2) .contact-link-label { font-size: 1.015625vw; }
+body .contact-link[href^="mailto:"] .contact-link-label,
+body .contact-link-address .contact-link-label { font-size: 0.859375vw; }
+body .contact-layout {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 50%);
+}
+body .contact-consultation h3 {
+  font-family: 'Aboreto', sans-serif;
+  font-size: 1.71875vw;
+  font-weight: 400;
+  line-height: 1.3;
+  color: #000;
+}
+body .contact-submit {
+  min-height: 43px;
+  border-color: #afa385;
+  font: 700 16px/1.3 'Consultation Trajan', serif;
+  transition: background-color 200ms ease, color 200ms ease;
+}
+body .contact-submit:is(:hover, :focus-visible) {
+  background: transparent;
+  color: #afa385;
+}
+@media (max-width: 750px) {
+  body .contact-logo { width: 14vw; height: 14.53vw; margin: 0 auto; }
+  body .contact-links { max-width: 100%; margin-top: 85px; }
+  body .contact-link { grid-template-columns: 15px minmax(0, 1fr) 15px; gap: 15px; min-height: 60px; }
+  body .contact-link::after { top: 25px; left: 30px; right: 0; }
+  body .contact-link-icon { width: 15px; height: 16px; }
+  body .contact-link-arrow { width: 15px; height: 15px; }
+  body .contact-link-address { min-height: 86px; }
+  body .contact-link-address::after { top: auto; bottom: 20px; }
+  body .contact-link-address .contact-link-icon { height: 24px; }
+  body .contact-link-address .contact-link-label { max-width: 180px; }
+  body .contact-link-label,
+  body .contact-link[href^="mailto:"] .contact-link-label,
+  body .contact-link-address .contact-link-label { font-size: 13px; }
+  body .contact-links li:nth-child(-n+2) .contact-link-label { font-size: 15px; }
+  body .contact-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  body .contact-consultation h3 {
+    font-size: 18px;
+  }
+}
 .contact-form-response { grid-column: 1 / -1; font: 15px/1.5 'IvyOra Display', serif; }
 .contact-form-response a { display: inline-block; margin-top: 10px; color: inherit; }
 
-.site-footer { position: relative; z-index: 10; padding: 30px 7.48% 31px; background: #5b564c; color: #f2eee2; }
-.footer-top-row { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding-bottom: 19px; border-bottom: 1px solid rgba(242, 238, 226, 0.45); }
-.footer-nav { display: flex; flex-wrap: wrap; gap: 26px; }
+/* Shared footer, measured against the reference at desktop and mobile sizes. */
+.site-footer { position: relative; z-index: 10; min-height: 118px; padding: 25.56px 7.48% 28.86px; background: #5b564c; color: #f2eee2; }
+.footer-top-row { display: flex; align-items: flex-start; justify-content: space-between; gap: 24px; min-height: 36.48px; border-bottom: 1px solid #9d9d9d; }
+.footer-nav { display: flex; flex-wrap: wrap; gap: 25.85px; padding-top: 7px; }
 .footer-nav a { font: 400 13px/.78 'Trajan Pro', serif; color: #fff; text-decoration: none; letter-spacing: 0; }
-.footer-nav a:first-child { color: #afa385; }
-.footer-nav a:hover { color: #afa385; }
-.nav-menu-list a[aria-current="location"],
-.footer-nav a[aria-current="location"] { color: #afa385; }
-.back-to-top { display: inline-flex; align-items: center; gap: 10px; padding: 0; border: 0; background: transparent; color: inherit; cursor: pointer; white-space: nowrap; font: 400 13px/1.3 'Trajan Pro', serif; letter-spacing: 0.03em; }
-.back-to-top span { display: grid; place-items: center; width: 17px; height: 17px; border: 1px solid currentColor; border-radius: 50%; font: 400 11px/1 sans-serif; }
-.footer-copyright { width: fit-content; margin: 6px 0 0; font: 400 11px/1.3 'Trajan Pro', serif; color: #fff; letter-spacing: 0.03em; }
+.footer-nav a:hover, .footer-nav a[aria-current] { color: #afa385; }
+.nav-menu-list a[aria-current="location"] { color: #cdc3a9; }
+.back-to-top { display: inline-flex; align-items: center; gap: 7.2px; padding: 0; border: 0; background: transparent; color: inherit; cursor: pointer; white-space: nowrap; font: 400 13px/1.3 'Trajan Pro', serif; letter-spacing: .03em; }
+.back-to-top svg { display: block; flex: 0 0 17.22px; width: 17.22px; height: 17.22px; fill: currentColor; }
+.footer-copyright { margin: 12.74px 0 0; font: 400 11px/1.3 'Trajan Pro', serif; color: #fff; letter-spacing: .03em; }
 
 @media (max-width: 750px) {
   .partners-space { --space-height: 61.5vw; }
@@ -2394,12 +2510,12 @@ body[data-page="home"] .brand-logo {
   .contact-form { gap: 28px 20px; }
   .contact-field { font-size: 11px; }
   .contact-upload-control { min-height: 100px; gap: 12px; }
-  .site-footer { padding: 26px 7.5% 26px; }
-  .footer-top-row { flex-direction: column-reverse; align-items: stretch; gap: 30px; }
-  .back-to-top { align-self: flex-end; }
-  .footer-nav { justify-content: space-between; gap: 10px 8px; }
-  .footer-nav a { font: 400 11px/.9 'Trajan Pro', serif; letter-spacing: 0; }
-  .footer-copyright { text-align: center; font-size: 9px; }
+  .site-footer { min-height: 147px; padding: 63px 15px 36px 30px; }
+  .footer-top-row { display: block; min-height: 25.36px; }
+  .back-to-top { position: absolute; top: 10px; right: 15px; font-size: 12px; gap: 4px; }
+  .footer-nav { justify-content: flex-start; flex-wrap: wrap; gap: 12px 7px; padding: 0 0 15px; }
+  .footer-nav a { font: 400 12px/.78 'Footer Madefor', sans-serif; letter-spacing: 0; }
+  .footer-copyright { margin-top: 9.6px; text-align: center; font-size: 8px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -2434,6 +2550,21 @@ body[data-page="home"] .brand-logo {
   }
 }
 
+/* Homepage right-hand headings share the Wix AWARDS / FAQS / CLIENTS scale. */
+body[data-page="home"] :is(.portfolio-heading, .honors-title, .inquiries-title, .partners-title, .contact-title) {
+  font-family: 'IvyOra Banner', serif;
+  font-size: 2.734375vw;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+@media (max-width: 750px) {
+  body[data-page="home"] :is(.portfolio-heading, .honors-title, .inquiries-title, .partners-title, .contact-title) {
+    font-family: 'IvyOra Wix Bold', serif;
+    font-size: 25px;
+  }
+}
+
 /* 首頁左側標籤：共用字體，黑底寬度依 Wix 各區塊比例。 */
 body[data-page="home"] :is(.about-badge, .portfolio-badge, .services-badge, .honors-badge, .inquiries-badge, .partners-badge, .contact-badge) {
   display: grid;
@@ -2441,7 +2572,7 @@ body[data-page="home"] :is(.about-badge, .portfolio-badge, .services-badge, .hon
   box-sizing: border-box;
   width: var(--section-tag-width);
   min-width: 0;
-  height: var(--section-tag-height, 2.42vw);
+  height: 2.2168vw;
   min-height: 0;
   padding: 0;
   background: #362e2b;
@@ -2457,14 +2588,18 @@ body[data-page="home"] :is(.about-badge, .portfolio-badge, .services-badge, .hon
 }
 
 body[data-page="home"] .about-badge { --section-tag-width: 6.36827vw; }
-body[data-page="home"] .portfolio-badge { --section-tag-width: 8.08702vw; --section-tag-height: 2.2168vw; }
+body[data-page="home"] .portfolio-badge { --section-tag-width: 8.08702vw; }
 body[data-page="home"] .services-badge { --section-tag-width: 6.3672vw; }
-body[data-page="home"] .honors-badge { --section-tag-width: 6.35803vw; --section-tag-height: 2.29926vw; }
+body[data-page="home"] .honors-badge { --section-tag-width: 6.35803vw; }
 body[data-page="home"] .inquiries-badge { --section-tag-width: 7.2174vw; }
 body[data-page="home"] .partners-badge,
 body[data-page="home"] .contact-badge { --section-tag-width: 7.369vw; }
 
 @media (max-width: 750px) {
+  .about-quote {
+    font-size: 18px;
+  }
+
   body[data-page="home"] :is(.about-badge, .portfolio-badge, .services-badge, .honors-badge, .inquiries-badge, .partners-badge, .contact-badge) {
     height: 24px;
     font-size: 10px;
@@ -2479,3 +2614,5 @@ body[data-page="home"] .contact-badge { --section-tag-width: 7.369vw; }
   body[data-page="home"] .contact-badge { --section-tag-width: 74px; }
 }
 .portfolio-card .brand-name a { color: inherit; text-decoration: none; }
+
+@font-face { font-family: 'Footer Madefor'; src: url('fonts/Madefor-Text.woff2') format('woff2'); font-style: normal; font-weight: 400; font-display: swap; }

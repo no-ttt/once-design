@@ -22,8 +22,8 @@
   <aside tabindex="-1" role="dialog" aria-modal="true" aria-label="Navigation" class="nav-drawer" id="navDrawer" aria-hidden="true">
     <div class="drawer-header">
       <div class="lang-switch" aria-label="Language Selector">
-        <span class="lang-item active">EN</span>
-        <span class="lang-item">中</span>
+        <a class="lang-item active" href="index.html" lang="en" aria-label="English">EN</a>
+        <a class="lang-item" href="https://liaovaco.wixstudio.com/oncechinese" lang="zh-Hant" aria-label="中文">中</a>
       </div>
       <button class="nav-close-btn" id="navCloseBtn" aria-label="Close navigation menu">
         <svg class="nav-close-icon" viewBox="0 0 32 32" width="22" height="22" aria-hidden="true">
@@ -55,7 +55,7 @@
         <a href="index.html#contact">CONTACT</a>
         <a href="quote.html">QUOTE</a>
       </nav>
-      <button class="back-to-top" id="backToTop" type="button">BACK TO TOP <span aria-hidden="true">↑</span></button>
+      <button class="back-to-top" id="backToTop" type="button">BACK TO TOP <svg viewBox="23.3 21.5 156.2 156.2" aria-hidden="true"><path d="M135.3 88.3l-33.1-33.1-33.3 33.4 3.9 3.9 26.6-26.7-.5 78 5.5.1.5-78.1 26.5 26.4 3.9-3.9z"/><path d="M101.4 177.7c-43.1 0-78.1-35-78.1-78.1s35-78.1 78.1-78.1 78.1 35 78.1 78.1-35 78.1-78.1 78.1zm0-150.7c-40 0-72.6 32.6-72.6 72.6s32.6 72.6 72.6 72.6c40 0 72.6-32.6 72.6-72.6S141.4 27 101.4 27z"/></svg></button>
     </div>
     <p class="footer-copyright">COPYRIGHT © ONCE DESIGN 2026. ALL RIGHTS RESERVED</p>
   </footer>
@@ -97,7 +97,7 @@
             </a></li>
             <li><a class="contact-link contact-link-address" href="https://maps.app.goo.gl/KH1wTtNLEGiVWhoV7" target="_blank" rel="noopener noreferrer">
               <img class="contact-link-icon" src="assets/contact-location.svg" alt="" width="16" height="18" aria-hidden="true">
-              <span class="contact-link-label">Room 2007, 20/F, Wayson Commercial Building,<br>28 Connaught Road West, Sheung Wan, HK</span>
+              <span class="contact-link-label"><span class="contact-address-building">Room 2007, 20/F, Wayson Commercial Building,</span><br><span class="contact-address-street">28 Connaught Road West, Sheung Wan, HK</span></span>
               <span class="contact-link-arrow" aria-hidden="true">↗</span>
             </a></li>
           </ul>

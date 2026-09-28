@@ -388,6 +388,13 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   if (inquiriesSection) {
+    // Let every FAQ scroll into view before PARTNERS slides over the panel.
+    const updateInquiriesSticky = () => {
+      inquiriesSection.style.setProperty('--inquiries-sticky-top', `${Math.min(0, window.innerHeight - inquiriesSection.offsetHeight)}px`);
+    };
+    updateInquiriesSticky();
+    window.addEventListener('resize', updateInquiriesSticky);
+    if ('ResizeObserver' in window) new ResizeObserver(updateInquiriesSticky).observe(inquiriesSection);
     const faqMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
     let faqRefreshFrame;
     const refreshInquiriesLayout = () => {

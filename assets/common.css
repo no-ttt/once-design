@@ -9,7 +9,8 @@
 [data-reveal] { transition: opacity .8s ease, transform .8s ease; }
 .reveal-pending { opacity: 0; transform: translateY(28px); }
 .footer-nav a:first-child { color: inherit; }
-.footer-nav a[aria-current='page'], .nav-menu-list a[aria-current='page'] { color: #c8b891; }
+.footer-nav a[aria-current='page'] { color: #afa385; }
+.nav-menu-list a[aria-current] { color: #cdc3a9; }
 :focus-visible { outline: 2px solid #c8b891; outline-offset: 6px; }
 @media (prefers-reduced-motion: reduce) {
   [data-reveal], .text-link span, .nav-drawer, .nav-drawer-backdrop { transition: none; }

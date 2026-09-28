@@ -59,20 +59,9 @@
 .quote-heading-group::before { grid-column: 2; grid-row: 1; width: 1px; height: 10.1983vh; margin: .22281vw 1.63758vw 0 0; background: #000; content: ''; }
 .quote-details h2 { grid-column: 1; grid-row: 1; width: 9.83094vw; margin: 0 .24353vw 0 0; color: #362e2b; font-family: 'IvyOra Wix Bold', serif; font-size: 2.34375vw; font-weight: 400; line-height: 1.2; letter-spacing: .02em; }
 .quote-heading-group > p { grid-column: 3; grid-row: 1; width: 11.19992vw; margin-top: .53711vw; font: 400 1.25vw/1.3 'Aboreto', sans-serif; }
-.quote-details .contact-links { position: absolute; bottom: 126.18px; left: 11.17188vw; width: 27.4305vw; max-width: none; margin: 0; }
-.quote-details .contact-links li:not(:last-child) { margin-bottom: 1.95313vw; }
-.quote-details .contact-link { display: flex; min-height: 0; gap: 0; align-items: flex-start; }
-.quote-details .contact-link-icon { flex: 0 0 auto; width: 1.01563vw; height: auto; margin-right: 1.25vw; object-fit: contain; filter: brightness(0) saturate(100%) invert(34%) sepia(9%) saturate(530%) hue-rotate(352deg) brightness(92%) contrast(88%); }
-.quote-details .contact-link-address .contact-link-icon { width: 1.01563vw; height: 1.25vw; margin-top: 0; object-fit: contain; transform: scale(1.2); transform-origin: left top; }
-.quote-details .contact-link-label { min-height: 0; padding: 0; border: 0; color: #362e2b; font-family: 'IvyOra Banner', serif; font-size: 1.01563vw; font-weight: 400; line-height: 1; letter-spacing: .03em; text-transform: none; }
-.quote-details .contact-links li:nth-child(3) .contact-link-label { font-size: .85938vw; }
-.quote-details .contact-links li:nth-child(4) .contact-link-label,
-.quote-details .contact-links li:nth-child(5) .contact-link-label { font-size: .9375vw; }
-.quote-details .contact-link-address .contact-link-label { font-family: 'IvyOra Display', serif; font-size: .85938vw; font-weight: 300; line-height: 1; text-transform: none; }
 .quote-address-line-one { font-family: 'IvyOra Banner', serif; font-weight: 400; }
 .quote-address-line-two { color: #362e2b; line-height: 1.1; }
 .quote-address-number { font-family: 'IvyOra Story', serif; font-weight: 400; }
-.quote-details .contact-link-arrow { display: none; }
 .quote-form { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px 44px; padding: 24px 39px; border: 1px solid transparent; border-radius: 22px; background: rgba(255,255,255,.37); color: #5b564c; }
 .quote-request .quote-form { align-self: start; justify-self: center; box-sizing: border-box; width: 70%; margin-top: 25px; }
 .quote-field-full { grid-column: 1 / -1; }
@@ -109,10 +98,6 @@
 .quote-upload-control:focus-within { outline: 2px solid #a69c85; outline-offset: 4px; }
 .quote-response { font: 14px/1.5 'IvyOra Display', serif; }
 .quote-response a { display: inline-block; margin-top: 12px; color: inherit; }
-/* Match the reference's rendered casing and distinct label/value fonts. */
-.quote-details .contact-link-label,
-.quote-details .contact-link-address .contact-link-label { text-transform: uppercase; font-style: normal; }
-.quote-details .contact-link-address .contact-link-label { font-family: 'Quote IvyOra Light', serif; font-weight: 400; }
 .quote-form legend, .quote-form .quote-field { font: 400 12px/15px 'Quote Trajan', serif; letter-spacing: 0; color: #4b4740; }
 .quote-form .quote-options label { font: 400 14px/17px 'Quote Gotham', sans-serif; letter-spacing: 0; }
 .quote-form .quote-field > input, .quote-form .quote-field textarea { font: 400 14px/17px 'Quote Gotham', sans-serif; }
@@ -159,18 +144,9 @@
   .quote-details { display: block; min-height: 0; padding-top: 0; }
   .quote-heading-group { display: block; margin: 0; }
   .quote-heading-group::before { display: none; }
-  .quote-details h2, .quote-heading-group > p, .quote-details .contact-links { width: auto; }
-  .quote-details .contact-links { position: static; }
-  .quote-details .contact-links li:not(:last-child) { margin-bottom: 25px; }
-  .quote-details .contact-link-icon { width: 16px; margin-right: 12px; }
-  .quote-details .contact-link-label,
-  .quote-details .contact-links li:nth-child(3) .contact-link-label,
-  .quote-details .contact-links li:nth-child(4) .contact-link-label,
-  .quote-details .contact-links li:nth-child(5) .contact-link-label,
-  .quote-details .contact-link-address .contact-link-label { font-size: 13px; }
+  .quote-details h2, .quote-heading-group > p { width: auto; }
   .quote-request .quote-form { width: 100%; margin-top: 0; }
   .quote-heading-group > p { font-size: 18px; }
-  .quote-details .contact-links { margin-top: 25px; }
   .quote-form { padding: 25px 20px; gap: 22px 18px; }
   .quote-options { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .quote-options label { min-height: 28px; font-size: 10px; }
@@ -178,4 +154,21 @@
 }
 @media (prefers-reduced-motion: reduce) {
   .quote-enter, .quote-enter-done.quote-enter, .quote-icon-enter, .quote-benefit-copy, .quote-reveal, .quote-enter-done.quote-reveal, .quote-hero-title, .quote-scroll { animation: none; opacity: 1; transform: none; clip-path: none; }
+}
+
+/* Match the shared homepage form while retaining quote-specific questions. */
+.quote-details .contact-links { position: absolute; bottom: 126.18px; left: 11.17188vw; width: 27.4305vw; max-width: none; margin: 0; }
+.quote-request .quote-form { padding: 0; border: 0; border-radius: 0; background: transparent; gap: 28px 35px; color: #362e2b; }
+.quote-form legend, .quote-form .quote-field { font: 400 13px/1.4 'IvyOra Display', serif; letter-spacing: .08em; color: #362e2b; }
+.quote-form .quote-field > input, .quote-form .quote-field textarea, .quote-phone-control input { height: auto; min-height: 48px; margin-top: 4px; padding: 10px 0; border-bottom-color: #5b564c; font: 15px/1.3 'IvyOra Display', serif; letter-spacing: .04em; }
+.quote-form .quote-field textarea { resize: vertical; }
+.quote-form .contact-submit { height: auto; min-height: 43px; padding: 9px 20px; font: 700 16px/1.3 'Consultation Trajan', serif; }
+.quote-form .quote-field > input:focus-visible, .quote-form .quote-field textarea:focus-visible { outline: 1px solid #5b564c; outline-offset: 4px; }
+.quote-details .contact-link-label { text-transform: uppercase; }
+.quote-address-line-one { font-family: 'IvyOra Display', serif; font-weight: 500; }
+.quote-address-line-two, .quote-address-line-two .quote-address-number { font-family: 'IvyOra Display', serif; font-weight: 300; line-height: 1.1; }
+@media (max-width: 750px) {
+  .quote-details .contact-links { position: static; width: auto; margin-top: 25px; }
+  .quote-request .quote-form { gap: 28px 20px; }
+  .quote-form legend, .quote-form .quote-field { font-size: 11px; }
 }

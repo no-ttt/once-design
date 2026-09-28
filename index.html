@@ -33,8 +33,8 @@
     rel="stylesheet">
 
   <!-- Main Stylesheet -->
-  <link rel="stylesheet" href="assets/style.css?v=1.43">
-  <link rel="stylesheet" href="assets/common.css?v=2">
+  <link rel="stylesheet" href="assets/style.css?v=1.52">
+  <link rel="stylesheet" href="assets/common.css?v=4">
 </head>
 
 <body data-page="home">
@@ -48,9 +48,11 @@
   <!-- ========================================================================
        2. Hero Banner Section
        ======================================================================== -->
-  <!-- 背景照片獨立固定：捲動時只有照片停留原地，文字/線條/格紋皆隨頁面正常捲走 -->
+  <!-- 背景影片獨立固定：文字、線條與格紋隨頁面正常捲動 -->
   <div class="bg-photo-wrapper" aria-hidden="true">
-    <div class="bg-photo" id="bgPhoto" role="img" aria-label="MOCHIFFON PATISSERIE by ONCE DESIGN"></div>
+    <video class="bg-photo" id="bgPhoto" data-background-video muted loop playsinline preload="auto" poster="assets/home-banner.webp?v=3" aria-hidden="true">
+      <source src="assets/homepage-banner.mp4" type="video/mp4">
+    </video>
   </div>
 
   <main id="home">
@@ -366,7 +368,7 @@
         <details class="inquiry-item">
           <summary><span>How does space influence brand value?</span><span class="inquiry-icon" aria-hidden="true"></span></summary>
           <div class="inquiry-answer">
-            <p>Perception is formed within seconds.Material integrity, lighting control, spatial<br>rhythm, and circulation design collectively build trust.When space communicates<br>coherence and restraint, brand value strengthens naturally.</p>
+            <p>Perception is formed within seconds.Material integrity, lighting control, spatial<br>rhythm, and circulation design collectively build trust. When space communicates<br>coherence and restraint, brand value strengthens naturally.</p>
           </div>
         </details>
         <details class="inquiry-item">
@@ -474,7 +476,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 
   <!-- Main Interaction Script -->
-  <script src="assets/common.js?v=11"></script>
+  <script src="assets/common.js?v=14"></script>
   <script src="assets/script.js?v=1.30"></script>
 </body>
 
