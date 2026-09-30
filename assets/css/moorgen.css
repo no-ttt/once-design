@@ -8,15 +8,16 @@
 .moorgen-sr-only { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 .moorgen-title { height: 27.96875vw; background: #fef9ed; }
 .moorgen-title img { display: block; width: 100%; height: 100%; object-fit: cover; }
-.moorgen-hero { height: 43.55685764vw; }
+.moorgen-hero { height: 43.55685764vw; background: #eee8d8; }
 .moorgen-hero img { display: block; width: 80%; height: 100%; margin: auto; object-fit: cover; }
-.moorgen-photo { height: var(--section-height); }
+.moorgen-photo { height: var(--section-height); background: #eee8d8; }
 .moorgen-photo img { display: block; width: 60vw; height: 33.75vw; margin: auto; object-fit: cover; }
 .moorgen-photo[data-reference="comp-mrvtg8yw"] img { height: 33.712022vw; }
 .moorgen-copy { min-height: var(--section-height); padding-top: var(--copy-top); }
 .moorgen-copy h2 { width: 60vw; margin: 0 0 1.5625vw 20.46658vw; font: 400 2.34375vw/1 'IvyOra Banner', serif; letter-spacing: .02em; color: #362e2c; }
 .moorgen-prose { width: 60vw; margin-left: 20.42752vw; font: 400 .9375vw/1.3 'Moorgen Gotham', sans-serif; letter-spacing: .02em; }
 .moorgen-prose a { color: inherit; text-decoration: none; }
+.moorgen-prose a.trend-journey-link { color: #e2844a; }
 .moorgen-back { height: 7.265625vw; padding: 3.125vw 0 0 20.42752vw; }
 .moorgen-back a, .moorgen-navigation { color: #362e2b; font: 400 .78125vw/1.3 'Aboreto', serif; }
 .moorgen-back a, .moorgen-navigation a { color: inherit; text-decoration: none; }
@@ -26,8 +27,7 @@
 .moorgen-navigation a { width: 18.125vw; }
 .moorgen-navigation a:last-child { text-align: right; }
 .moorgen-navigation p { margin-top: .74327vw; font: 400 .9375vw/1.3 'IvyOra Banner', serif; letter-spacing: .02em; }
-.moorgen-contact-spacer { height: 5.77907986vw; }
-.moorgen-page .contact-badge, .moorgen-page .contact-title, .moorgen-page .contact-links  { display: none; }
+.moorgen-page .contact-badge, .moorgen-page .contact-title { display: none; }
 @media (max-width: 750px) {
   .moorgen-page .site-header, .moorgen-page .menu-toggle-btn { display: none; }
   .moorgen-title { height: 56.422276vw; }
@@ -45,9 +45,102 @@
   .moorgen-navigation::before { top: 52px; left: 10vw; width: 80vw; }
   .moorgen-navigation a { width: auto; }
   .moorgen-navigation p { display: none; }
-  .moorgen-contact-spacer { height: 11.899038vw; }
 }
 @media (prefers-reduced-motion: no-preference) {
-  .moorgen-prose { clip-path: inset(0 var(--reveal-clip, 0%) 0 0); }
-  .moorgen-prose:focus-within { clip-path: none; }
+  .moorgen-scroll-reveal { clip-path: inset(0 var(--reveal-clip, 0%) 0 0); }
+  .moorgen-scroll-reveal:focus-within { clip-path: none !important; }
+  .moorgen-motion-pending { opacity: 0; }
 }
+
+/* Editable article titles use the same proportions as the reference title artwork. */
+.trend-text-title { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 27.96875vw; height: auto; padding: 5.5vw 20vw 4vw; background: #ebe7da; text-align: center; }
+.trend-kicker { font: 400 .9vw/1.4 'IvyOra Banner', serif; letter-spacing: .2em; }
+.trend-text-title h1 { margin: 2vw 0; font: 400 3.25vw/1.1 'IvyOra Banner', serif; letter-spacing: -.025em; overflow-wrap: anywhere; }
+.trend-title-rule { width: 2.2vw; border-top: 1px solid currentColor; margin: .3vw 0 1.5vw; }
+.trend-meta { font: 400 .78vw/1.5 'Moorgen Gotham', sans-serif; letter-spacing: .15em; }
+.trend-auto-copy { padding: 5vw 0 3vw; min-height: 0; }
+.trend-auto-copy.trend-subsection { padding: 2vw 0 2vw; }
+.trend-subsection h2 { font-size: 1.875vw; line-height: 1.25; margin-bottom: 1vw; }
+.trend-auto-copy .moorgen-prose p + p { margin-top: 1em; }
+.trend-arrow-list .moorgen-prose p { position: relative; padding-left: 1.8em; color: #54595f; }
+.trend-arrow-list .moorgen-prose p::before { color: #605e5e; }
+.trend-check-list.trend-arrow-list .moorgen-prose p::before { mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='m4 12 5 5L20 6' fill='none' stroke='black' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E"); }
+.trend-arrow-list .moorgen-prose p::before { content: ''; position: absolute; left: 0; top: .1em; width: 1.1em; height: 1.1em; background: currentColor; mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='12' r='10' fill='none' stroke='black' stroke-width='2'/%3E%3Cpath d='M6 12h11m-5-5 5 5-5 5' fill='none' stroke='black' stroke-width='2' stroke-linejoin='round'/%3E%3C/svg%3E") center / contain no-repeat; }
+.trend-auto-photo { height: auto; padding-bottom: 4vw; }
+.trend-auto-photo img { height: auto; max-width: var(--image-max-width, 100%); object-fit: contain; }
+.trend-auto-photo figcaption { max-width: var(--image-max-width, 100%); }
+.moorgen-photo figcaption { width: 60vw; margin: 12px auto 0; color: #5b564c; font: 400 12px/1.5 'Moorgen Gotham', sans-serif; text-align: center; overflow-wrap: anywhere; }
+.trend-loading { padding: 160px 10vw; min-height: 60vh; }
+@media (max-width: 750px) {
+  .trend-text-title { min-height: 56.422276vw; padding: 9vw 10vw; }
+  .trend-kicker { font-size: 9px; }
+  .trend-text-title h1 { font-size: 6.4vw; margin: 5vw 0; }
+  .trend-title-rule { width: 6vw; margin: 1vw 0 4vw; }
+  .trend-meta { font-size: 8px; }
+  .trend-auto-copy { padding: 25px 0 30px; }
+  .trend-auto-copy.trend-subsection { padding: 16px 0 20px; }
+  .trend-subsection h2 { font-size: 18px; line-height: 1.3; margin-bottom: 12px; }
+  .trend-auto-photo { padding-bottom: 5vw; }
+  .moorgen-photo figcaption { width: 80vw; margin-top: 10px; font-size: 11px; }
+  .trend-auto-copy h2, .trend-auto-copy .moorgen-prose { width: 80vw; margin-left: 10vw; }
+}
+
+/* Keep the existing text layout while animating heading and copy as one group. */
+.moorgen-copy-group { display: flow-root; }
+.moorgen-back a, .moorgen-navigation span { display: inline-block; }
+
+/* These product diagrams have white baked into the source image. */
+.moorgen-photo img[src$="/moorgen-13.png"],
+.moorgen-photo img[src$="/moorgen-14.png"],
+.moorgen-photo img[src$="/moorgen-15.png"] { mix-blend-mode: multiply; }
+
+/* Keep each clinic pitfall close to its matching recommendation. */
+.trend-auto-copy.trend-pitfall { padding: clamp(20px, 2vw, 32px) 0 0; }
+.trend-auto-copy.trend-pitfall-solution { padding: 12px 0 0; }
+
+/* Introductory copy follows the image spacing and leads into a subsection. */
+.trend-auto-copy.trend-section-intro { padding: 0; }
+
+/* Keep headings and introductions close to their lists in every article. */
+.trend-auto-copy:has(+ .trend-auto-copy.trend-arrow-list) { padding-bottom: 0; }
+.trend-auto-copy:has(+ .trend-auto-copy.trend-arrow-list):has(.moorgen-prose:empty) h2 { margin-bottom: 0; }
+.trend-auto-copy + .trend-auto-copy.trend-arrow-list { padding-top: 20px; }
+
+/* Use the preceding image’s spacing without adding another paragraph gap. */
+.trend-auto-copy.trend-after-image { padding-top: 0; }
+
+
+/* Match peer subheading sizes while preserving each section’s spacing. */
+.trend-subheading-size h2 { font-size: 1.875vw; }
+@media (max-width: 750px) {
+  .trend-subheading-size h2 { font-size: 18px; }
+}
+
+/* Alternating Do / Don't recommendations retain the source check and cross icons. */
+.trend-dos-donts.trend-arrow-list .moorgen-prose p:nth-child(even)::before { mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='m6 6 12 12M18 6 6 18' fill='none' stroke='black' stroke-width='2.5' stroke-linecap='round'/%3E%3C/svg%3E"); }
+
+/* Automatic article spacing follows the measured Moorgen template. */
+#trend-content { --trend-media-gap: 3.98329vw; --trend-image-copy-gap: 3.98329vw; --trend-heading-gap: 1.5625vw; --trend-intro-gap: 9.21658vw; }
+#trend-content > .trend-auto-copy,
+#trend-content > .trend-auto-photo { padding: 0; margin-top: var(--trend-heading-gap); margin-bottom: 0; }
+#trend-content > .trend-auto-copy:has(h2),
+#trend-content > .trend-auto-photo { margin-top: var(--trend-media-gap); }
+#trend-content > .trend-auto-photo + .trend-auto-copy { margin-top: var(--trend-image-copy-gap); }
+#trend-content > .trend-auto-copy h2 { margin-bottom: var(--trend-heading-gap); }
+#trend-content > .trend-auto-copy:has(.moorgen-prose:empty) h2 { margin-bottom: 0; }
+#trend-content > .trend-auto-copy:has(.moorgen-prose:empty) + :is(.trend-auto-copy, .trend-auto-photo) { margin-top: var(--trend-heading-gap); }
+#trend-content > .trend-auto-copy + .trend-auto-copy.trend-arrow-list { margin-top: 20px; }
+#trend-content > .moorgen-hero + .trend-auto-copy,
+#trend-content > .trend-text-title + :is(.trend-auto-copy, .trend-auto-photo) { margin-top: var(--trend-intro-gap); }
+#trend-content > :is(.trend-auto-copy, .trend-auto-photo):has(+ .moorgen-back) { margin-bottom: var(--trend-heading-gap); }
+@media (max-width: 750px) {
+  #trend-content { --trend-media-gap: 5vw; --trend-image-copy-gap: calc(5vw + 20px); --trend-heading-gap: 19.171875px; --trend-intro-gap: 25px; }
+  #trend-content > .trend-auto-copy + .trend-auto-photo,
+  #trend-content > .trend-auto-copy + .trend-auto-copy:has(h2) { margin-top: calc(5vw + 20px); }
+  #trend-content > .trend-auto-copy:has(.moorgen-prose:empty) + :is(.trend-auto-copy, .trend-auto-photo) { margin-top: var(--trend-heading-gap); }
+}
+
+/* Related reading and image attribution share a consistent article treatment. */
+.moorgen-prose a[href^="trend.html?article="] { text-decoration: underline; text-underline-offset: .18em; }
+#trend-content > .trend-auto-copy.trend-photo-credit { margin-top: 20px; }
+.trend-photo-credit .moorgen-prose { color: #5b564c; font-size: clamp(11px, .8vw, 13px); line-height: 1.5; }

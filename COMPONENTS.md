@@ -23,8 +23,8 @@
 
 About 已依 Wix About 頁面文案、圖片與影片製作，包含 Story、Studio、Founder 與共用諮詢區塊。表單沿用現有 email 草稿流程，未連接寄件後端。
 
-Work 使用 `work.html`、`assets/css/work.css` 與 `assets/js/work.js`，五種類別包含 19 個作品。圖片及 Hero 影片存在 assets，詳細頁連至原 Wix 專案頁。分類使用可鍵盤操作的 tabs，停用 JavaScript 時顯示所有分類。共用 WORK 導覽及首頁作品區 SEE MORE 連到 `work.html`。
+Work 使用 `work.html`、`assets/css/work.css` 與 `assets/js/work.js`，五種類別包含 19 個作品。圖片位於 `assets/images/work/` 與 `assets/images/projects/`，影片位於 `assets/videos/`；作品詳情共用 `nebu.html` 與 `assets/data/nebu-projects.js`。分類使用可鍵盤操作的 tabs，停用 JavaScript 時顯示所有分類。共用 WORK 導覽及首頁作品區 SEE MORE 連到 `work.html`。
 
-Trends 使用 `trends.html`、`assets/css/trends.css` 和 `assets/js/trends.js`，依 Wix 原版提供 TRENDS（9 張卡片）與 PRESS（2 張卡片）分類，支援鍵盤切換。圖片及抽象主視覺影片存在 assets；文章連至原 Wix 詳細頁。移除原版未完成的 Add a Title 佔位文字，Start Now 接到對應詳細頁。停用 JavaScript 時顯示兩類內容。
+Trends 使用 `trends.html`、`assets/css/trends.css` 和 `assets/js/trends.js`，依 Wix 原版提供 TRENDS（9 張卡片）與 PRESS（2 張卡片）分類，支援鍵盤切換。圖片位於 `assets/images/trends/`，影片位於 `assets/videos/`；列表與子頁由 `assets/data/trends-articles.json` 統一提供資料，詳情使用 `trend.html?article=文章ID`。新增方式見 `TRENDS.md`。停用 JavaScript 時顯示兩類內容。
 
 Quote 使用 `quote.html`、`assets/css/quote.css` 和 `assets/js/quote.js`，包括原版影片主視覺、Landlord Submission Services、三個服務圖示、聯絡資訊和獨立報價表單。共用 QUOTE 導覽連至 `quote.html`。表單支援專案類型、面積、聯絡資訊、選填樓層圖和多選得知管道；SUBMIT 產生 email 草稿連結，附件需手動加入 email，尚無寄件後端。
