@@ -1,5 +1,5 @@
-@font-face { font-family: 'Moorgen Gotham'; src: url('fonts/gotham-quote.woff2') format('woff2'); font-display: swap; }
-@font-face { font-family: 'Moorgen Trajan'; src: url('fonts/trajan-quote.woff2') format('woff2'); font-display: swap; }
+@font-face { font-family: 'Moorgen Gotham'; src: url('../fonts/gotham-quote.woff2') format('woff2'); font-display: swap; }
+@font-face { font-family: 'Moorgen Trajan'; src: url('../fonts/trajan-quote.woff2') format('woff2'); font-display: swap; }
 .moorgen-page { background: #eee8d8; color: #362e2b; }
 .moorgen-page figure, .moorgen-page p { margin: 0; }
 .moorgen-page .brand-logo { width: 14.140625vw; margin: 1.6796875vw 0 0 2.5vw; }

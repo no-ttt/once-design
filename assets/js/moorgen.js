@@ -1,6 +1,6 @@
 (() => {
   // The shared shell uses the light logo; this article uses its existing dark asset.
-  document.querySelector('.brand-logo img').src = 'assets/quote-logo.png';
+  document.querySelector('.brand-logo img').src = 'assets/images/shared/quote-logo.png';
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
   const prose = [...document.querySelectorAll('.moorgen-prose')];
   let scheduled = false;

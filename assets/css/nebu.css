@@ -1,8 +1,8 @@
 /* NEBU — reference dimensions use a 1280px design canvas. */
-@font-face { font-family: 'Nebu Gotham Light'; src: url('fonts/nebu-gotham-light.woff2') format('woff2'); font-display: swap; }
-@font-face { font-family: 'Nebu Caudex'; src: url('fonts/nebu-caudex.ttf') format('truetype'); font-display: swap; }
-@font-face { font-family: 'Nebu Trajan'; src: url('fonts/trajan-quote.woff2') format('woff2'); font-display: swap; }
-@font-face { font-family: 'Nebu Gotham'; src: url('fonts/gotham-quote.woff2') format('woff2'); font-display: swap; }
+@font-face { font-family: 'Nebu Gotham Light'; src: url('../fonts/nebu-gotham-light.woff2') format('woff2'); font-display: swap; }
+@font-face { font-family: 'Nebu Caudex'; src: url('../fonts/nebu-caudex.ttf') format('truetype'); font-display: swap; }
+@font-face { font-family: 'Nebu Trajan'; src: url('../fonts/trajan-quote.woff2') format('woff2'); font-display: swap; }
+@font-face { font-family: 'Nebu Gotham'; src: url('../fonts/gotham-quote.woff2') format('woff2'); font-display: swap; }
 .nebu-page { background: #f2eee2; color: #362e2b; font-family: 'IvyOra Story', serif; }
 .nebu-page .site-header { padding: 0; translate: 0 var(--nebu-hero-shift, 0px); }
 .nebu-page .brand-logo { width: 14.140625vw; margin: 1.96164vw 0 0 3.17992vw; }
@@ -57,7 +57,7 @@
 .nebu-awards dd p:nth-child(4) { margin-bottom: .8333vw; }
 .nebu-awards dd p:last-child { margin-bottom: 0; }
 .nebu-quotation { position: sticky; top: 0; height: min(20.23437vw, 323.75px); padding-top: min(8.39735vw, 134.36px); background: #fff; text-align: center; }
-.nebu-quotation::before { content: ''; position: absolute; inset: 0; background: #f2eee2 url('nebu-paper.png') repeat center; background-size: 300px 225px; opacity: var(--nebu-paper-opacity, 1); }
+.nebu-quotation::before { content: ''; position: absolute; inset: 0; background: #f2eee2 url('../images/projects/nebu/nebu-paper.png') repeat center; background-size: 300px 225px; opacity: var(--nebu-paper-opacity, 1); }
 .nebu-quotation-copy { position: relative; }
 .nebu-quotation blockquote { max-width: min(44.3305vw, 709.29px); margin: 0 auto; font: 400 min(1.5625vw, 25px)/1.1 'IvyOra Banner', serif; letter-spacing: .02em; }
 .nebu-quotation-copy > p { position: relative; left: 3.711vw; width: fit-content; margin: min(1.005vw, 16.08px) auto 0; font: min(.9375vw, 15px)/1.3 'Aboreto', serif; white-space: nowrap; color: #000; }

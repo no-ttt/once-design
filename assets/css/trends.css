@@ -1,6 +1,6 @@
 /* TRENDS: original Wix imagery with the shared site shell. */
-@font-face { font-family: 'Trends Gotham'; src: url('fonts/gotham-quote.woff2') format('woff2'); font-display: swap; }
-@font-face { font-family: 'Trends Trajan'; src: url('fonts/trajan-quote.woff2') format('woff2'); font-display: swap; }
+@font-face { font-family: 'Trends Gotham'; src: url('../fonts/gotham-quote.woff2') format('woff2'); font-display: swap; }
+@font-face { font-family: 'Trends Trajan'; src: url('../fonts/trajan-quote.woff2') format('woff2'); font-display: swap; }
 .trends-page { background: #f2eee2; color: #5b564c; }
 .trends-page .brand-logo { width: clamp(150px, 14.2vw, 220px); margin: 29px 0 0 2.5vw; }
 .trends-page .brand-logo img { filter: none; mix-blend-mode: multiply; }
@@ -35,7 +35,7 @@
 .trends-card img { display: block; width: 100%; height: 100%; object-fit: cover; }
 .trends-card-image:hover, .trends-card-image:focus-visible { transform: translateY(-10px); }
 .trends-card-meta { display: flex; justify-content: space-between; align-items: start; gap: 12px; height: 3.16949vw; padding-top: .81814vw; font: 400 .78125vw/1.3 'Trends Gotham', sans-serif; letter-spacing: .02em; }
-.trends-card-arrow { display: block; width: 1.32704vw; height: 1.32161vw; flex-shrink: 0; background: url('work-arrow.png') center / contain no-repeat; font-size: 0; transition: transform .3s linear; }
+.trends-card-arrow { display: block; width: 1.32704vw; height: 1.32161vw; flex-shrink: 0; background: url('../images/shared/work-arrow.png') center / contain no-repeat; font-size: 0; transition: transform .3s linear; }
 .trends-card-arrow:hover, .trends-card-arrow:focus-visible { transform: translateY(-8px); }
 .trends-card h3 { width: 80.09%; margin: 0; font: 400 .9375vw/1.3 'IvyOra Wix Bold', serif; letter-spacing: .05em; text-transform: uppercase; }
 .trends-read-more { display: grid; place-items: center; align-self: start; margin-top: auto; width: 7.53798vw; height: 2.38932vw; border: 1px solid #a69c85; border-radius: 30px; font: 9px/1.4 Arial, sans-serif; transition: background .2s, color .2s; }

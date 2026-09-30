@@ -53,45 +53,45 @@ window.nebuProjects = [
         ]
       }
     ],
-    "hero": "assets/nebu-gallery-1.jpg",
+    "hero": "assets/images/projects/nebu/nebu-gallery-1.jpg",
     "photos": [
       {
-        "src": "assets/nebu-gallery-1.jpg",
+        "src": "assets/images/projects/nebu/nebu-gallery-1.jpg",
         "width": 960,
         "height": 641
       },
       {
-        "src": "assets/nebu-gallery-2.jpg",
+        "src": "assets/images/projects/nebu/nebu-gallery-2.jpg",
         "width": 960,
         "height": 1441
       },
       {
-        "src": "assets/nebu-gallery-3.jpg",
+        "src": "assets/images/projects/nebu/nebu-gallery-3.jpg",
         "width": 960,
         "height": 1440
       },
       {
-        "src": "assets/nebu-gallery-4.jpg",
+        "src": "assets/images/projects/nebu/nebu-gallery-4.jpg",
         "width": 960,
         "height": 641
       },
       {
-        "src": "assets/nebu-gallery-5.jpg",
+        "src": "assets/images/projects/nebu/nebu-gallery-5.jpg",
         "width": 960,
         "height": 1440
       },
       {
-        "src": "assets/nebu-gallery-6.jpg",
+        "src": "assets/images/projects/nebu/nebu-gallery-6.jpg",
         "width": 960,
         "height": 1440
       },
       {
-        "src": "assets/nebu-gallery-7.jpg",
+        "src": "assets/images/projects/nebu/nebu-gallery-7.jpg",
         "width": 960,
         "height": 641
       },
       {
-        "src": "assets/nebu-gallery-8.jpg",
+        "src": "assets/images/projects/nebu/nebu-gallery-8.jpg",
         "width": 960,
         "height": 641
       }
@@ -165,50 +165,50 @@ window.nebuProjects = [
         ]
       }
     ],
-    "hero": "assets/klasse14-hero.jpg",
+    "hero": "assets/images/projects/klasse14/klasse14-hero.jpg",
     "photos": [
       {
-        "src": "assets/klasse14-gallery-1.jpg",
+        "src": "assets/images/projects/klasse14/klasse14-gallery-1.jpg",
         "width": 639,
         "height": 360
       },
       {
-        "src": "assets/klasse14-gallery-2.jpg",
+        "src": "assets/images/projects/klasse14/klasse14-gallery-2.jpg",
         "width": 960,
         "height": 641
       },
       {
-        "src": "assets/klasse14-gallery-3.jpg",
+        "src": "assets/images/projects/klasse14/klasse14-gallery-3.jpg",
         "width": 960,
         "height": 641
       },
       {
-        "src": "assets/klasse14-gallery-4.jpg",
+        "src": "assets/images/projects/klasse14/klasse14-gallery-4.jpg",
         "width": 960,
         "height": 641
       },
       {
-        "src": "assets/klasse14-gallery-5.jpg",
+        "src": "assets/images/projects/klasse14/klasse14-gallery-5.jpg",
         "width": 960,
         "height": 652
       },
       {
-        "src": "assets/klasse14-gallery-6.jpg",
+        "src": "assets/images/projects/klasse14/klasse14-gallery-6.jpg",
         "width": 960,
         "height": 641
       },
       {
-        "src": "assets/klasse14-hero.jpg",
+        "src": "assets/images/projects/klasse14/klasse14-hero.jpg",
         "width": 960,
         "height": 502
       },
       {
-        "src": "assets/klasse14-gallery-8.jpg",
+        "src": "assets/images/projects/klasse14/klasse14-gallery-8.jpg",
         "width": 960,
         "height": 601
       },
       {
-        "src": "assets/klasse14-gallery-9.jpg",
+        "src": "assets/images/projects/klasse14/klasse14-gallery-9.jpg",
         "width": 960,
         "height": 641
       }
@@ -263,35 +263,35 @@ window.nebuProjects = [
     "awards": [],
     "quote": "\" EMBRACING PURITY AND RESTRAINT,\nROOTED IN A DEEP RESPECT FOR NATURE \"",
     "articles": [],
-    "hero": "assets/tatcha-e7385e34715c4f1a98872a973fd23da0.jpg",
+    "hero": "assets/images/projects/tatcha/tatcha-e7385e34715c4f1a98872a973fd23da0.jpg",
     "photos": [
       {
-        "src": "assets/tatcha-8e84ae5501b54e60beb0b7aca6aa28ab.jpg",
+        "src": "assets/images/projects/tatcha/tatcha-8e84ae5501b54e60beb0b7aca6aa28ab.jpg",
         "width": 960,
         "height": 536
       },
       {
-        "src": "assets/tatcha-1c4f4833f0ca4d2d9e0e40fb4734001d.jpg",
+        "src": "assets/images/projects/tatcha/tatcha-1c4f4833f0ca4d2d9e0e40fb4734001d.jpg",
         "width": 960,
         "height": 694
       },
       {
-        "src": "assets/tatcha-e7385e34715c4f1a98872a973fd23da0.jpg",
+        "src": "assets/images/projects/tatcha/tatcha-e7385e34715c4f1a98872a973fd23da0.jpg",
         "width": 960,
         "height": 570
       },
       {
-        "src": "assets/tatcha-3700c756432944c184f66e01b6dbb30c.jpg",
+        "src": "assets/images/projects/tatcha/tatcha-3700c756432944c184f66e01b6dbb30c.jpg",
         "width": 960,
         "height": 553
       },
       {
-        "src": "assets/tatcha-c6aca82f0149445abdec37bbc6d1f8d6.jpg",
+        "src": "assets/images/projects/tatcha/tatcha-c6aca82f0149445abdec37bbc6d1f8d6.jpg",
         "width": 960,
         "height": 1441
       },
       {
-        "src": "assets/tatcha-d682485bd89c47b3ab63d7994a7941d1.jpg",
+        "src": "assets/images/projects/tatcha/tatcha-d682485bd89c47b3ab63d7994a7941d1.jpg",
         "width": 960,
         "height": 1441
       }
@@ -362,25 +362,25 @@ window.nebuProjects = [
         ]
       }
     ],
-    "hero": "assets/murad-counter-gallery-1.jpg",
+    "hero": "assets/images/projects/murad-counter/murad-counter-gallery-1.jpg",
     "photos": [
       {
-        "src": "assets/murad-counter-gallery-1.jpg",
+        "src": "assets/images/projects/murad-counter/murad-counter-gallery-1.jpg",
         "width": 960,
         "height": 453
       },
       {
-        "src": "assets/murad-counter-gallery-2.jpg",
+        "src": "assets/images/projects/murad-counter/murad-counter-gallery-2.jpg",
         "width": 960,
         "height": 1277
       },
       {
-        "src": "assets/murad-counter-gallery-3.jpg",
+        "src": "assets/images/projects/murad-counter/murad-counter-gallery-3.jpg",
         "width": 960,
         "height": 1119
       },
       {
-        "src": "assets/murad-counter-gallery-4.jpg",
+        "src": "assets/images/projects/murad-counter/murad-counter-gallery-4.jpg",
         "width": 960,
         "height": 1084
       }
@@ -455,30 +455,30 @@ window.nebuProjects = [
         ]
       }
     ],
-    "hero": "assets/murad-popup-gallery-1.jpg",
+    "hero": "assets/images/projects/murad-popup/murad-popup-gallery-1.jpg",
     "photos": [
       {
-        "src": "assets/murad-popup-gallery-1.jpg",
+        "src": "assets/images/projects/murad-popup/murad-popup-gallery-1.jpg",
         "width": 960,
         "height": 564
       },
       {
-        "src": "assets/murad-popup-gallery-2.jpg",
+        "src": "assets/images/projects/murad-popup/murad-popup-gallery-2.jpg",
         "width": 960,
         "height": 463
       },
       {
-        "src": "assets/murad-popup-gallery-3.jpg",
+        "src": "assets/images/projects/murad-popup/murad-popup-gallery-3.jpg",
         "width": 960,
         "height": 641
       },
       {
-        "src": "assets/murad-popup-gallery-4.jpg",
+        "src": "assets/images/projects/murad-popup/murad-popup-gallery-4.jpg",
         "width": 960,
         "height": 841
       },
       {
-        "src": "assets/murad-popup-gallery-5.jpg",
+        "src": "assets/images/projects/murad-popup/murad-popup-gallery-5.jpg",
         "width": 960,
         "height": 405
       }
@@ -533,20 +533,20 @@ window.nebuProjects = [
     "awards": [],
     "quote": "\"EXTRAORDINARY IN THE ORDINARY \"",
     "articles": [],
-    "hero": "assets/klasse14-central-gallery-2.jpg",
+    "hero": "assets/images/projects/klasse14-central/klasse14-central-gallery-2.jpg",
     "photos": [
       {
-        "src": "assets/klasse14-central-gallery-1.jpg",
+        "src": "assets/images/projects/klasse14-central/klasse14-central-gallery-1.jpg",
         "width": 960,
         "height": 721
       },
       {
-        "src": "assets/klasse14-central-gallery-2.jpg",
+        "src": "assets/images/projects/klasse14-central/klasse14-central-gallery-2.jpg",
         "width": 960,
         "height": 721
       },
       {
-        "src": "assets/klasse14-central-gallery-3.jpg",
+        "src": "assets/images/projects/klasse14-central/klasse14-central-gallery-3.jpg",
         "width": 960,
         "height": 721
       }
@@ -601,20 +601,20 @@ window.nebuProjects = [
     "awards": [],
     "quote": "\" EMBRACING PURITY AND RESTRAINT,\nROOTED IN A DEEP RESPECT FOR NATURE \"",
     "articles": [],
-    "hero": "assets/tatcha-ifc-hero.jpg",
+    "hero": "assets/images/projects/tatcha-ifc/tatcha-ifc-hero.jpg",
     "photos": [
       {
-        "src": "assets/tatcha-ifc-gallery-1.jpg",
+        "src": "assets/images/projects/tatcha-ifc/tatcha-ifc-gallery-1.jpg",
         "width": 960,
         "height": 1281
       },
       {
-        "src": "assets/tatcha-ifc-gallery-2.jpg",
+        "src": "assets/images/projects/tatcha-ifc/tatcha-ifc-gallery-2.jpg",
         "width": 960,
         "height": 721
       },
       {
-        "src": "assets/tatcha-ifc-gallery-3.jpg",
+        "src": "assets/images/projects/tatcha-ifc/tatcha-ifc-gallery-3.jpg",
         "width": 960,
         "height": 721
       }
@@ -669,15 +669,15 @@ window.nebuProjects = [
     "awards": [],
     "quote": "\"THE LORE OF THE ' LEGENDARY ' NOTEBOOK \"",
     "articles": [],
-    "hero": "assets/moleskin-gallery-1.jpg",
+    "hero": "assets/images/projects/moleskin/moleskin-gallery-1.jpg",
     "photos": [
       {
-        "src": "assets/moleskin-gallery-1.jpg",
+        "src": "assets/images/projects/moleskin/moleskin-gallery-1.jpg",
         "width": 960,
         "height": 541
       },
       {
-        "src": "assets/moleskin-gallery-2.jpg",
+        "src": "assets/images/projects/moleskin/moleskin-gallery-2.jpg",
         "width": 960,
         "height": 541
       }
@@ -759,25 +759,25 @@ window.nebuProjects = [
         ]
       }
     ],
-    "hero": "assets/glamour-gallery-4.jpg",
+    "hero": "assets/images/projects/glamour/glamour-gallery-4.jpg",
     "photos": [
       {
-        "src": "assets/glamour-gallery-1.jpg",
+        "src": "assets/images/projects/glamour/glamour-gallery-1.jpg",
         "width": 960,
         "height": 721
       },
       {
-        "src": "assets/glamour-gallery-2.jpg",
+        "src": "assets/images/projects/glamour/glamour-gallery-2.jpg",
         "width": 960,
         "height": 721
       },
       {
-        "src": "assets/glamour-gallery-3.jpg",
+        "src": "assets/images/projects/glamour/glamour-gallery-3.jpg",
         "width": 960,
         "height": 1280
       },
       {
-        "src": "assets/glamour-gallery-4.jpg",
+        "src": "assets/images/projects/glamour/glamour-gallery-4.jpg",
         "width": 960,
         "height": 705
       }
@@ -866,35 +866,35 @@ window.nebuProjects = [
         ]
       }
     ],
-    "hero": "assets/park-mountain-gallery-2.jpg",
+    "hero": "assets/images/projects/park-mountain/park-mountain-gallery-2.jpg",
     "photos": [
       {
-        "src": "assets/park-mountain-gallery-1.jpg",
+        "src": "assets/images/projects/park-mountain/park-mountain-gallery-1.jpg",
         "width": 960,
         "height": 1441
       },
       {
-        "src": "assets/park-mountain-gallery-2.jpg",
+        "src": "assets/images/projects/park-mountain/park-mountain-gallery-2.jpg",
         "width": 960,
         "height": 641
       },
       {
-        "src": "assets/park-mountain-gallery-3.jpg",
+        "src": "assets/images/projects/park-mountain/park-mountain-gallery-3.jpg",
         "width": 960,
         "height": 641
       },
       {
-        "src": "assets/park-mountain-gallery-4.jpg",
+        "src": "assets/images/projects/park-mountain/park-mountain-gallery-4.jpg",
         "width": 960,
         "height": 1441
       },
       {
-        "src": "assets/park-mountain-gallery-5.jpg",
+        "src": "assets/images/projects/park-mountain/park-mountain-gallery-5.jpg",
         "width": 960,
         "height": 641
       },
       {
-        "src": "assets/park-mountain-gallery-6.jpg",
+        "src": "assets/images/projects/park-mountain/park-mountain-gallery-6.jpg",
         "width": 960,
         "height": 641
       }
@@ -966,30 +966,30 @@ window.nebuProjects = [
         ]
       }
     ],
-    "hero": "assets/sheng-chim-gallery-1.jpg",
+    "hero": "assets/images/projects/sheng-chim/sheng-chim-gallery-1.jpg",
     "photos": [
       {
-        "src": "assets/sheng-chim-gallery-1.jpg",
+        "src": "assets/images/projects/sheng-chim/sheng-chim-gallery-1.jpg",
         "width": 960,
         "height": 721
       },
       {
-        "src": "assets/sheng-chim-gallery-2.jpg",
+        "src": "assets/images/projects/sheng-chim/sheng-chim-gallery-2.jpg",
         "width": 960,
         "height": 1280
       },
       {
-        "src": "assets/sheng-chim-gallery-3.jpg",
+        "src": "assets/images/projects/sheng-chim/sheng-chim-gallery-3.jpg",
         "width": 960,
         "height": 1280
       },
       {
-        "src": "assets/sheng-chim-gallery-4.jpg",
+        "src": "assets/images/projects/sheng-chim/sheng-chim-gallery-4.jpg",
         "width": 960,
         "height": 1280
       },
       {
-        "src": "assets/sheng-chim-gallery-5.jpg",
+        "src": "assets/images/projects/sheng-chim/sheng-chim-gallery-5.jpg",
         "width": 960,
         "height": 721
       }
@@ -1045,45 +1045,45 @@ window.nebuProjects = [
     "awards": [],
     "quote": "\" THE STORY OF LUXURY AND TASTE \"",
     "articles": [],
-    "hero": "assets/amorepacific-gallery-5.jpg",
+    "hero": "assets/images/projects/amorepacific/amorepacific-gallery-5.jpg",
     "photos": [
       {
-        "src": "assets/amorepacific-gallery-1.jpg",
+        "src": "assets/images/projects/amorepacific/amorepacific-gallery-1.jpg",
         "width": 960,
         "height": 518
       },
       {
-        "src": "assets/amorepacific-gallery-2.jpg",
+        "src": "assets/images/projects/amorepacific/amorepacific-gallery-2.jpg",
         "width": 960,
         "height": 645
       },
       {
-        "src": "assets/amorepacific-gallery-3.jpg",
+        "src": "assets/images/projects/amorepacific/amorepacific-gallery-3.jpg",
         "width": 960,
         "height": 448
       },
       {
-        "src": "assets/amorepacific-gallery-4.jpg",
+        "src": "assets/images/projects/amorepacific/amorepacific-gallery-4.jpg",
         "width": 960,
         "height": 420
       },
       {
-        "src": "assets/amorepacific-gallery-5.jpg",
+        "src": "assets/images/projects/amorepacific/amorepacific-gallery-5.jpg",
         "width": 960,
         "height": 540
       },
       {
-        "src": "assets/amorepacific-gallery-6.jpg",
+        "src": "assets/images/projects/amorepacific/amorepacific-gallery-6.jpg",
         "width": 960,
         "height": 588
       },
       {
-        "src": "assets/amorepacific-gallery-7.jpg",
+        "src": "assets/images/projects/amorepacific/amorepacific-gallery-7.jpg",
         "width": 960,
         "height": 538
       },
       {
-        "src": "assets/amorepacific-gallery-8.jpg",
+        "src": "assets/images/projects/amorepacific/amorepacific-gallery-8.jpg",
         "width": 960,
         "height": 514
       }
@@ -1155,30 +1155,30 @@ window.nebuProjects = [
         ]
       }
     ],
-    "hero": "assets/st-regis-gallery-1.jpg",
+    "hero": "assets/images/projects/st-regis/st-regis-gallery-1.jpg",
     "photos": [
       {
-        "src": "assets/st-regis-gallery-1.jpg",
+        "src": "assets/images/projects/st-regis/st-regis-gallery-1.jpg",
         "width": 960,
         "height": 721
       },
       {
-        "src": "assets/st-regis-gallery-2.jpg",
+        "src": "assets/images/projects/st-regis/st-regis-gallery-2.jpg",
         "width": 960,
         "height": 1280
       },
       {
-        "src": "assets/st-regis-gallery-3.jpg",
+        "src": "assets/images/projects/st-regis/st-regis-gallery-3.jpg",
         "width": 960,
         "height": 1280
       },
       {
-        "src": "assets/st-regis-gallery-4.jpg",
+        "src": "assets/images/projects/st-regis/st-regis-gallery-4.jpg",
         "width": 960,
         "height": 1280
       },
       {
-        "src": "assets/st-regis-gallery-5.jpg",
+        "src": "assets/images/projects/st-regis/st-regis-gallery-5.jpg",
         "width": 960,
         "height": 1280
       }
@@ -1268,55 +1268,55 @@ window.nebuProjects = [
         ]
       }
     ],
-    "hero": "assets/winfun-gallery-10.jpg",
+    "hero": "assets/images/projects/winfun/winfun-gallery-10.jpg",
     "photos": [
       {
-        "src": "assets/winfun-gallery-1.jpg",
+        "src": "assets/images/projects/winfun/winfun-gallery-1.jpg",
         "width": 960,
         "height": 541
       },
       {
-        "src": "assets/winfun-gallery-2.jpg",
+        "src": "assets/images/projects/winfun/winfun-gallery-2.jpg",
         "width": 960,
         "height": 541
       },
       {
-        "src": "assets/winfun-gallery-3.jpg",
+        "src": "assets/images/projects/winfun/winfun-gallery-3.jpg",
         "width": 960,
         "height": 1707
       },
       {
-        "src": "assets/winfun-gallery-4.jpg",
+        "src": "assets/images/projects/winfun/winfun-gallery-4.jpg",
         "width": 960,
         "height": 541
       },
       {
-        "src": "assets/winfun-gallery-5.jpg",
+        "src": "assets/images/projects/winfun/winfun-gallery-5.jpg",
         "width": 960,
         "height": 1707
       },
       {
-        "src": "assets/winfun-gallery-6.jpg",
+        "src": "assets/images/projects/winfun/winfun-gallery-6.jpg",
         "width": 960,
         "height": 541
       },
       {
-        "src": "assets/winfun-gallery-7.jpg",
+        "src": "assets/images/projects/winfun/winfun-gallery-7.jpg",
         "width": 960,
         "height": 541
       },
       {
-        "src": "assets/winfun-gallery-8.jpg",
+        "src": "assets/images/projects/winfun/winfun-gallery-8.jpg",
         "width": 960,
         "height": 541
       },
       {
-        "src": "assets/winfun-gallery-9.jpg",
+        "src": "assets/images/projects/winfun/winfun-gallery-9.jpg",
         "width": 960,
         "height": 541
       },
       {
-        "src": "assets/winfun-gallery-10.jpg",
+        "src": "assets/images/projects/winfun/winfun-gallery-10.jpg",
         "width": 960,
         "height": 541
       }
@@ -1393,35 +1393,35 @@ window.nebuProjects = [
         ]
       }
     ],
-    "hero": "assets/fresh-office-gallery-2.jpg",
+    "hero": "assets/images/projects/fresh-office/fresh-office-gallery-2.jpg",
     "photos": [
       {
-        "src": "assets/fresh-office-gallery-1.jpg",
+        "src": "assets/images/projects/fresh-office/fresh-office-gallery-1.jpg",
         "width": 960,
         "height": 721
       },
       {
-        "src": "assets/fresh-office-gallery-2.jpg",
+        "src": "assets/images/projects/fresh-office/fresh-office-gallery-2.jpg",
         "width": 960,
         "height": 721
       },
       {
-        "src": "assets/fresh-office-gallery-3.jpg",
+        "src": "assets/images/projects/fresh-office/fresh-office-gallery-3.jpg",
         "width": 960,
         "height": 721
       },
       {
-        "src": "assets/fresh-office-gallery-4.jpg",
+        "src": "assets/images/projects/fresh-office/fresh-office-gallery-4.jpg",
         "width": 960,
         "height": 721
       },
       {
-        "src": "assets/fresh-office-gallery-5.jpg",
+        "src": "assets/images/projects/fresh-office/fresh-office-gallery-5.jpg",
         "width": 960,
         "height": 721
       },
       {
-        "src": "assets/fresh-office-gallery-6.jpg",
+        "src": "assets/images/projects/fresh-office/fresh-office-gallery-6.jpg",
         "width": 960,
         "height": 721
       }
@@ -1512,30 +1512,30 @@ window.nebuProjects = [
         ]
       }
     ],
-    "hero": "assets/stem-classroom-gallery-1.jpg",
+    "hero": "assets/images/projects/stem-classroom/stem-classroom-gallery-1.jpg",
     "photos": [
       {
-        "src": "assets/stem-classroom-gallery-1.jpg",
+        "src": "assets/images/projects/stem-classroom/stem-classroom-gallery-1.jpg",
         "width": 960,
         "height": 721
       },
       {
-        "src": "assets/stem-classroom-gallery-2.jpg",
+        "src": "assets/images/projects/stem-classroom/stem-classroom-gallery-2.jpg",
         "width": 960,
         "height": 721
       },
       {
-        "src": "assets/stem-classroom-gallery-3.jpg",
+        "src": "assets/images/projects/stem-classroom/stem-classroom-gallery-3.jpg",
         "width": 960,
         "height": 721
       },
       {
-        "src": "assets/stem-classroom-gallery-4.jpg",
+        "src": "assets/images/projects/stem-classroom/stem-classroom-gallery-4.jpg",
         "width": 960,
         "height": 721
       },
       {
-        "src": "assets/stem-classroom-gallery-5.jpg",
+        "src": "assets/images/projects/stem-classroom/stem-classroom-gallery-5.jpg",
         "width": 960,
         "height": 721
       }
@@ -1625,25 +1625,25 @@ window.nebuProjects = [
         ]
       }
     ],
-    "hero": "assets/computer-classroom-gallery-2.jpg",
+    "hero": "assets/images/projects/computer-classroom/computer-classroom-gallery-2.jpg",
     "photos": [
       {
-        "src": "assets/computer-classroom-gallery-1.jpg",
+        "src": "assets/images/projects/computer-classroom/computer-classroom-gallery-1.jpg",
         "width": 960,
         "height": 721
       },
       {
-        "src": "assets/computer-classroom-gallery-2.jpg",
+        "src": "assets/images/projects/computer-classroom/computer-classroom-gallery-2.jpg",
         "width": 960,
         "height": 721
       },
       {
-        "src": "assets/computer-classroom-gallery-3.jpg",
+        "src": "assets/images/projects/computer-classroom/computer-classroom-gallery-3.jpg",
         "width": 960,
         "height": 721
       },
       {
-        "src": "assets/computer-classroom-gallery-4.jpg",
+        "src": "assets/images/projects/computer-classroom/computer-classroom-gallery-4.jpg",
         "width": 960,
         "height": 721
       }
@@ -1726,30 +1726,30 @@ window.nebuProjects = [
         ]
       }
     ],
-    "hero": "assets/junior-versity-gallery-4.jpg",
+    "hero": "assets/images/projects/junior-versity/junior-versity-gallery-4.jpg",
     "photos": [
       {
-        "src": "assets/junior-versity-gallery-1.jpg",
+        "src": "assets/images/projects/junior-versity/junior-versity-gallery-1.jpg",
         "width": 960,
         "height": 649
       },
       {
-        "src": "assets/junior-versity-gallery-2.jpg",
+        "src": "assets/images/projects/junior-versity/junior-versity-gallery-2.jpg",
         "width": 960,
         "height": 887
       },
       {
-        "src": "assets/junior-versity-gallery-3.jpg",
+        "src": "assets/images/projects/junior-versity/junior-versity-gallery-3.jpg",
         "width": 960,
         "height": 573
       },
       {
-        "src": "assets/junior-versity-gallery-4.jpg",
+        "src": "assets/images/projects/junior-versity/junior-versity-gallery-4.jpg",
         "width": 960,
         "height": 560
       },
       {
-        "src": "assets/junior-versity-gallery-5.jpg",
+        "src": "assets/images/projects/junior-versity/junior-versity-gallery-5.jpg",
         "width": 960,
         "height": 686
       }
@@ -1832,25 +1832,25 @@ window.nebuProjects = [
         ]
       }
     ],
-    "hero": "assets/stem-computer-lab-gallery-1.jpg",
+    "hero": "assets/images/projects/stem-computer-lab/stem-computer-lab-gallery-1.jpg",
     "photos": [
       {
-        "src": "assets/stem-computer-lab-gallery-1.jpg",
+        "src": "assets/images/projects/stem-computer-lab/stem-computer-lab-gallery-1.jpg",
         "width": 960,
         "height": 541
       },
       {
-        "src": "assets/stem-computer-lab-gallery-2.jpg",
+        "src": "assets/images/projects/stem-computer-lab/stem-computer-lab-gallery-2.jpg",
         "width": 960,
         "height": 541
       },
       {
-        "src": "assets/stem-computer-lab-gallery-3.jpg",
+        "src": "assets/images/projects/stem-computer-lab/stem-computer-lab-gallery-3.jpg",
         "width": 960,
         "height": 541
       },
       {
-        "src": "assets/stem-computer-lab-gallery-4.jpg",
+        "src": "assets/images/projects/stem-computer-lab/stem-computer-lab-gallery-4.jpg",
         "width": 960,
         "height": 541
       }

@@ -111,7 +111,7 @@
     const close = focus => { panel.hidden = true; trigger.setAttribute('aria-expanded', 'false'); if (focus) trigger.focus({ preventScroll: true }); };
     choices.forEach(([name, code, flag], index) => {
       const countryCode = [...flag].map(char => String.fromCharCode(char.codePointAt(0) - 0x1f1e6 + 97)).join('');
-      const flagMarkup = `<img class="country-flag" src="assets/flags/${countryCode}.png" alt="" width="24" height="15">`;
+      const flagMarkup = `<img class="country-flag" src="assets/images/flags/${countryCode}.png" alt="" width="24" height="15">`;
       phoneSelect.add(new Option(`${name} ${code}`, code));
       const button = document.createElement('button');
       button.type = 'button'; button.className = 'country-option'; button.setAttribute('role', 'option'); button.setAttribute('aria-selected', 'false');

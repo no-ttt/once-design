@@ -5,10 +5,10 @@
 .work-page .brand-logo { width: clamp(150px, 14.2vw, 220px); margin: 29px 0 0 2.5vw; }
 .work-page .brand-logo img { filter: none; mix-blend-mode: multiply; }
 .work-hero { display: grid; grid-template-columns: 42.7% 57.3%; min-height: 51.1vw; }
-.work-hero-media { position: relative; overflow: clip; background: #d8d3c6 url('work-hero.jpg') center / cover no-repeat; }
+.work-hero-media { position: relative; overflow: clip; background: #d8d3c6 url('../images/work/work-hero.jpg') center / cover no-repeat; }
 .work-hero-background { position: absolute; inset: 0; width: 100vw; pointer-events: none; }
 .work-hero-media video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
-.work-hero-grid { position: absolute; inset: 0; background: url('wix-grid-tile.png'); opacity: .75; pointer-events: none; }
+.work-hero-grid { position: absolute; inset: 0; background: url('../images/shared/wix-grid-tile.png'); opacity: .75; pointer-events: none; }
 .work-hero-media > p { position: absolute; bottom: 2.34vw; left: 2.5vw; width: 56.4%; color: #000; font: 300 clamp(10px, .80805vw, 15px)/1.2 'IvyOra Display', serif; letter-spacing: .03em; }
 .work-hero-copy { position: relative; display: flex; align-items: end; padding: 0 4vw 2.34vw 6vw; }
 .work-hero-copy .page-kicker { margin-bottom: 3.2vw; font: 400 .9375vw/normal 'IvyOra Banner', serif; letter-spacing: 0; text-transform: uppercase; }
@@ -76,7 +76,7 @@
 .work-card-location { display: none; }
 .work-card-caption { display: flex; justify-content: space-between; align-items: start; gap: 15px; padding-top: 12px; }
 .work-card h3 { font: 500 clamp(13px, 1.09375vw, 21px)/1.3 'IvyOra Display', serif; letter-spacing: .03em; text-transform: uppercase; }
-.work-card-arrow { display: block; flex-shrink: 0; width: 1.32704vw; height: 1.32161vw; overflow: hidden; color: transparent; font-size: 0; background: url('work-arrow-desktop.png') center / cover no-repeat; }
+.work-card-arrow { display: block; flex-shrink: 0; width: 1.32704vw; height: 1.32161vw; overflow: hidden; color: transparent; font-size: 0; background: url('../images/shared/work-arrow-desktop.png') center / cover no-repeat; }
 @media (max-width: 1000px) {
   .work-tabs { gap: 3vw; }
   .work-scroll span { font-size: 10px; }
@@ -98,7 +98,7 @@
   .work-project-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 40px 16px; }
   .work-card h3 { font-size: 12px; }
   .work-card-caption { gap: 8px; padding-top: 10px; }
-  .work-card-arrow { width: 18px; height: 17.921875px; background-image: url('work-arrow-mobile.png'); }
+  .work-card-arrow { width: 18px; height: 17.921875px; background-image: url('../images/shared/work-arrow-mobile.png'); }
   .work-card-location { padding: 20px 10px 10px; font-size: 12px; }
 }
 @media (max-width: 380px) {

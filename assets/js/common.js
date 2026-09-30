@@ -3,7 +3,7 @@
   const header = `
   <header class="site-header">
     <a href="index.html" class="brand-logo" id="brandLogo" aria-label="ONCE DESIGN Home">
-    <img src="assets/${document.body.dataset.page === 'quote' ? 'quote-logo.png' : 'logo.png'}" alt="ONCE DESIGN Logo" width="181" height="83">
+    <img src="assets/images/shared/${document.body.dataset.page === 'quote' ? 'quote-logo.png' : 'logo.png'}" alt="ONCE DESIGN Logo" width="181" height="83">
     </a>
   </header>
 
@@ -68,35 +68,35 @@
       <h2 class="contact-title" id="contactTitle">CONTACT</h2>
       <div class="contact-layout">
         <div class="contact-info">
-          <a href="index.html#home" aria-label="ONCE DESIGN Home"><img class="contact-logo" src="assets/contact-logo.png" alt="ONCE DESIGN" width="120" height="120" loading="lazy"></a>
+          <a href="index.html#home" aria-label="ONCE DESIGN Home"><img class="contact-logo" src="assets/images/shared/contact-logo.png" alt="ONCE DESIGN" width="120" height="120" loading="lazy"></a>
           <ul class="contact-links">
             <li><a class="contact-link" href="https://api.whatsapp.com/send/?phone=85292232561" target="_blank" rel="noopener noreferrer">
-              <img class="contact-link-icon" src="assets/contact-whatsapp.svg" alt="" width="16" height="18" aria-hidden="true">
+              <img class="contact-link-icon" src="assets/images/shared/contact-whatsapp.svg" alt="" width="16" height="18" aria-hidden="true">
               <span class="contact-link-label">+852-9223 2561</span>
               <span class="contact-link-arrow" aria-hidden="true">↗</span>
             </a></li>
             <li><a class="contact-link" href="tel:+85229629093">
-              <img class="contact-link-icon" src="assets/contact-phone.svg" alt="" width="16" height="18" aria-hidden="true">
+              <img class="contact-link-icon" src="assets/images/shared/contact-phone.svg" alt="" width="16" height="18" aria-hidden="true">
               <span class="contact-link-label">+852-2962 9093</span>
               <span class="contact-link-arrow" aria-hidden="true">↗</span>
             </a></li>
             <li><a class="contact-link" href="mailto:info@once-hk.com">
-              <img class="contact-link-icon" src="assets/contact-email.svg" alt="" width="16" height="18" aria-hidden="true">
+              <img class="contact-link-icon" src="assets/images/shared/contact-email.svg" alt="" width="16" height="18" aria-hidden="true">
               <span class="contact-link-label">INFO@ONCE-HK.COM</span>
               <span class="contact-link-arrow" aria-hidden="true">↗</span>
             </a></li>
             <li><a class="contact-link" href="https://www.instagram.com/oncedesignhk/" target="_blank" rel="noopener noreferrer">
-              <img class="contact-link-icon" src="assets/contact-instagram.svg" alt="" width="16" height="18" aria-hidden="true">
+              <img class="contact-link-icon" src="assets/images/shared/contact-instagram.svg" alt="" width="16" height="18" aria-hidden="true">
               <span class="contact-link-label">ONCEDESIGNHK</span>
               <span class="contact-link-arrow" aria-hidden="true">↗</span>
             </a></li>
             <li><a class="contact-link" href="https://www.facebook.com/oncedesignhk" target="_blank" rel="noopener noreferrer">
-              <img class="contact-link-icon" src="assets/contact-facebook.svg" alt="" width="16" height="18" aria-hidden="true">
+              <img class="contact-link-icon" src="assets/images/shared/contact-facebook.svg" alt="" width="16" height="18" aria-hidden="true">
               <span class="contact-link-label">ONCEDESIGNHK</span>
               <span class="contact-link-arrow" aria-hidden="true">↗</span>
             </a></li>
             <li><a class="contact-link contact-link-address" href="https://maps.app.goo.gl/KH1wTtNLEGiVWhoV7" target="_blank" rel="noopener noreferrer">
-              <img class="contact-link-icon" src="assets/contact-location.svg" alt="" width="16" height="18" aria-hidden="true">
+              <img class="contact-link-icon" src="assets/images/shared/contact-location.svg" alt="" width="16" height="18" aria-hidden="true">
               <span class="contact-link-label"><span class="contact-address-building">Room 2007, 20/F, Wayson Commercial Building,</span><br><span class="contact-address-street">28 Connaught Road West, Sheung Wan, HK</span></span>
               <span class="contact-link-arrow" aria-hidden="true">↗</span>
             </a></li>
@@ -314,7 +314,7 @@
     };
     choices.forEach(([name, code, flag], index) => {
       const countryCode = [...flag].map(char => String.fromCharCode(char.codePointAt(0) - 0x1f1e6 + 97)).join('');
-      const flagMarkup = '<img class="country-flag" src="assets/flags/' + countryCode + '.png" alt="" width="24" height="15">';
+      const flagMarkup = '<img class="country-flag" src="assets/images/flags/' + countryCode + '.png" alt="" width="24" height="15">';
       const nativeOption = new Option(name + ' ' + code, code);
       phoneSelect.add(nativeOption);
       const button = document.createElement('button');

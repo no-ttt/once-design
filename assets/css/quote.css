@@ -1,7 +1,7 @@
 /* QUOTE: original Wix imagery with the shared site shell. */
-@font-face { font-family: 'Quote Trajan'; src: url('fonts/trajan-quote.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
-@font-face { font-family: 'Quote Gotham'; src: url('fonts/gotham-quote.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
-@font-face { font-family: 'Quote IvyOra Light'; src: url('fonts/ivyora-quote-light.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Quote Trajan'; src: url('../fonts/trajan-quote.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Quote Gotham'; src: url('../fonts/gotham-quote.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Quote IvyOra Light'; src: url('../fonts/ivyora-quote-light.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
 .quote-page { background: #f2eee2; color: #5b564c; }
 /* Wix uses an 80-degree arc followed by a short opacity finish for Quote content. */
 .quote-enter { opacity: 0; transform-origin: center center; }
@@ -32,7 +32,7 @@
 
 .quote-page h2, .quote-page h3 { font-family: 'IvyOra Banner', serif; font-weight: 400; }
 .quote-page em { font-family: 'Didot Wix Italic', serif; font-style: normal; font-weight: 400; }
-.quote-services { position: relative; display: grid; grid-template-columns: 1fr 1fr; align-items: center; min-height: 44.2vw; padding: 6vw 7.5%; background-color: #eee8d8; background-image: url('https://static.wixstatic.com/media/0da768_8f8736b243214700a0d46562921a46b2~mv2.png'), url('quote-blueprint.jpg'); background-position: left top, center; background-size: 170px 180px, cover; background-repeat: repeat, no-repeat; }
+.quote-services { position: relative; display: grid; grid-template-columns: 1fr 1fr; align-items: center; min-height: 44.2vw; padding: 6vw 7.5%; background-color: #eee8d8; background-image: url('https://static.wixstatic.com/media/0da768_8f8736b243214700a0d46562921a46b2~mv2.png'), url('../images/quote/quote-blueprint.jpg'); background-position: left top, center; background-size: 170px 180px, cover; background-repeat: repeat, no-repeat; }
 .quote-services .section-label { position: absolute; top: -.07813vw; left: 0; display: grid; place-items: center; box-sizing: border-box; width: 6.36902vw; height: 2.30469vw; padding: 0; background: #362e2b; color: #fff; font: 700 clamp(10px, .85859vw, 17px)/1 'Aboreto', sans-serif; letter-spacing: 0; clip-path: inset(0 calc(100% - var(--tag-grow, 0%)) 0 0); will-change: clip-path; }
 .quote-services-copy { grid-column: 2; }
 .quote-services-copy .page-kicker { margin-bottom: 3vw; font: 16px/1 'IvyOra Story', serif; letter-spacing: .02em; }

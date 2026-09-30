@@ -107,28 +107,27 @@ wp-content/themes/你的子主題/
 ├── functions.php
 ├── page-once-canvas.php          # 主題沒有空白模板時才需要
 └── assets/
-    ├── style.css
-    ├── common.css
-    ├── about.css
-    ├── common.js
-    ├── script.js
+    ├── css/                     # 樣式
+    ├── js/                      # 程式
+    ├── data/                    # 作品與文章資料
+    ├── images/                  # 依頁面／專案分類的圖片
     ├── fonts/
-    └── …                        # 圖片、SVG、影片
+    └── videos/
 ```
 
-`assets/style.css` 是目前專案樣式，不能拿它覆蓋子主題根目錄的 `style.css`。
+`assets/css/style.css` 是目前專案樣式，不能拿它覆蓋子主題根目錄的 `style.css`。
 
 如果尚未建立子主題，先依目前父主題的子主題文件建立；不要直接在父主題內加入這些檔案。
 
 ## 5. 修改素材與連結路徑
 
-頁面網址是 `/about/` 時，`assets/about-story.jpg` 會解析到錯誤位置。HTML 與 common.js 裡的素材網址要改成可公開存取的完整網址。
+頁面網址是 `/about/` 時，`assets/images/about/about-story.jpg` 會解析到錯誤位置。HTML 與 common.js 裡的素材網址要改成可公開存取的完整網址。
 
 例如：
 
 ```html
 <img
-  src="https://你的網域/wp-content/themes/你的子主題/assets/about-story.jpg"
+  src="https://你的網域/wp-content/themes/你的子主題/assets/images/about/about-story.jpg"
   alt="NEBU retail interior by Once Design Studio"
 >
 ```
@@ -210,19 +209,19 @@ add_action('wp_enqueue_scripts', function () {
     $version = '1.0.0';
     $assets = trailingslashit(get_stylesheet_directory_uri()) . 'assets/';
 
-    wp_enqueue_style('once-base', $assets . 'style.css', [], $version);
-    wp_enqueue_style('once-common', $assets . 'common.css', ['once-base'], $version);
+    wp_enqueue_style('once-base', $assets . 'css/style.css', [], $version);
+    wp_enqueue_style('once-common', $assets . 'css/common.css', ['once-base'], $version);
 
     if (is_page('about')) {
-        wp_enqueue_style('once-about', $assets . 'about.css', ['once-common'], $version);
+        wp_enqueue_style('once-about', $assets . 'css/about.css', ['once-common'], $version);
     }
 
-    wp_enqueue_script('once-common', $assets . 'common.js', [], $version, true);
+    wp_enqueue_script('once-common', $assets . 'js/common.js', [], $version, true);
 
     if (is_front_page()) {
         wp_enqueue_script('once-gsap', 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js', [], '3.12.5', true);
         wp_enqueue_script('once-scrolltrigger', 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js', ['once-gsap'], '3.12.5', true);
-        wp_enqueue_script('once-home', $assets . 'script.js', ['once-common', 'once-scrolltrigger'], $version, true);
+        wp_enqueue_script('once-home', $assets . 'js/script.js', ['once-common', 'once-scrolltrigger'], $version, true);
     }
 });
 ```
@@ -286,7 +285,7 @@ add_action('wp_enqueue_scripts', function () {
 
 ## 12. WORK 頁面
 
-靜態版新增 `work.html`，沿用共用 header、footer、諮詢表單，使用 `assets/work.css` 和 `assets/work.js`。19 張作品圖片為 `work-1.jpg` 至 `work-19.jpg`，主視覺為 `work-hero.jpg` 和 `work-hero.mp4`。詳細作品目前連到原 Wix 頁面。
+靜態版新增 `work.html`，沿用共用 header、footer、諮詢表單，使用 `assets/css/work.css` 和 `assets/js/work.js`。19 張作品圖片為 `work-1.jpg` 至 `work-19.jpg`，主視覺為 `work-hero.jpg` 和 `work-hero.mp4`。詳細作品目前連到原 Wix 頁面。
 
 移植時建立代稱為 `work` 的頁面，body 內容放進 `.once-site.work-page` 容器並設定 `data-page="work"`。共用導覽的 `work.html` 改成 `/work/`，並以外層容器的 `data-page` 判斷 active 狀態。
 

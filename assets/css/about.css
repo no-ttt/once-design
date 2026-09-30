@@ -12,7 +12,7 @@
 .about-hero { display: grid; grid-template-columns: 42.7% 57.3%; min-height: 51.09158vw; }
 .about-hero-media { position: relative; overflow: hidden; }
 .about-hero-media video { position: absolute; inset: 0; width: 100vw; height: max(100svh, 51.09158vw); object-fit: cover; object-position: 100% 0%; filter: brightness(1.18) contrast(.94); }
-.about-hero-grid { position: absolute; inset: 0; background: url('about-grid.png'); opacity: 1; pointer-events: none; }
+.about-hero-grid { position: absolute; inset: 0; background: url('../images/about/about-grid.png'); opacity: 1; pointer-events: none; }
 .about-hero-media > p { position: absolute; bottom: 35px; left: 2.5vw; right: 20px; max-width: 21.3vw; font: 300 .80805vw/1.2 'IvyOra Display',serif; letter-spacing: .03em; color: #000; }
 .about-hero-copy { position: relative; display: flex; align-items: end; padding: 0 6.013vw 4.274vw; }
 .about-hero-copy .page-kicker { margin-bottom: 3.2vw; font: 400 .9375vw/normal 'IvyOra Banner',serif; letter-spacing: normal; }
@@ -39,7 +39,7 @@
 /* Match the reference: centered, unscaled paper overlay on a warm base. */
 .about-studio {
   background-color: #eee8d8;
-  background-image: url('about-paper.avif');
+  background-image: url('../images/about/about-paper.avif');
   background-repeat: repeat;
   background-position: center calc((38.59375vw - 225px) / 2);
   background-size: 300px 225px;
