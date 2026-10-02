@@ -82,3 +82,19 @@
   select(0);
   projects.classList.add('trends-tabs-ready');
 })();
+
+/* Keep the mobile consultation layout identical to Work. */
+(() => {
+  const section = document.querySelector('.trends-contact');
+  if (!section) return;
+  const consultation = section.querySelector('.contact-consultation');
+  const heading = consultation.querySelector('h3');
+  const links = section.querySelector('.contact-links');
+  const mobile = matchMedia('(max-width: 750px)');
+  const arrange = () => {
+    if (mobile.matches) links.before(heading);
+    else consultation.prepend(heading);
+  };
+  arrange();
+  mobile.addEventListener('change', arrange);
+})();

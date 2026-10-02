@@ -211,6 +211,28 @@ document.addEventListener('DOMContentLoaded', () => {
   const servicesSection = document.getElementById('services');
   const servicesIntro = document.querySelector('.services-intro');
   const servicesBadge = document.querySelector('.services-badge');
+  // Keep mobile cards at the desktop hand-off position where space permits.
+  // A short viewport must still expose the full copy and SEE MORE control.
+  const servicePositionMedia = window.matchMedia('(max-width: 750px)');
+  const servicePanels = [...document.querySelectorAll('.service-panel')];
+  const updateServiceContentHeight = () => {
+    const contentHeight = Math.max(0, ...servicePanels.map(panel => panel.querySelector('.service-panel-inner').offsetHeight));
+    servicePanels.forEach(panel => {
+      if (servicePositionMedia.matches) {
+        panel.style.setProperty('--service-content-height', `${contentHeight}px`);
+      } else {
+        panel.style.removeProperty('--service-content-height');
+      }
+    });
+  };
+  updateServiceContentHeight();
+  servicePositionMedia.addEventListener('change', updateServiceContentHeight);
+  window.addEventListener('resize', updateServiceContentHeight);
+  if ('ResizeObserver' in window) {
+    const serviceSizeObserver = new ResizeObserver(updateServiceContentHeight);
+    servicePanels.forEach(panel => serviceSizeObserver.observe(panel.querySelector('.service-panel-inner')));
+  }
+
   if (servicesSection && servicesBadge && typeof gsap !== 'undefined' && typeof ScrollTrigger !== 'undefined') {
     servicesBadge.style.setProperty('--badge-grow', '0%');
     addBadgeGrowOnEntrance(servicesBadge, servicesIntro);
@@ -227,6 +249,17 @@ document.addEventListener('DOMContentLoaded', () => {
     // behind its centre, with independent linear rotation and eased opacity.
     const motionPreference = window.matchMedia('(prefers-reduced-motion: reduce)');
     const elements = [...contactSection.querySelectorAll('.contact-logo, .contact-links')];
+    const contactDesktop = window.matchMedia('(min-width: 751px)');
+    const consultation = contactSection.querySelector('.contact-consultation');
+    const consultationTitle = consultation.querySelector('h3');
+    const contactLinks = contactSection.querySelector('.contact-links');
+    // Mobile reference places the consultation heading between logo and links.
+    const arrangeContact = () => {
+      if (contactDesktop.matches) consultation.prepend(consultationTitle);
+      else contactLinks.before(consultationTitle);
+    };
+    arrangeContact();
+    contactDesktop.addEventListener('change', arrangeContact);
     const animations = new Set();
     const observer = new IntersectionObserver(entries => {
       entries.forEach(({ target, isIntersecting }) => {
@@ -246,8 +279,16 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
     if (!motionPreference.matches) elements.forEach(element => {
+      if (!contactDesktop.matches) return;
+      if (getComputedStyle(element).display === 'none') return;
       element.style.opacity = '0';
       observer.observe(element);
+    });
+    contactDesktop.addEventListener('change', () => {
+      observer.disconnect();
+      animations.forEach(animation => animation.cancel());
+      animations.clear();
+      elements.forEach(element => element.style.removeProperty('opacity'));
     });
     motionPreference.addEventListener('change', ({ matches }) => {
       if (!matches) return;
@@ -351,14 +392,20 @@ document.addEventListener('DOMContentLoaded', () => {
           trigger: panel, start: 'top 95%',
           // Finish when the sticky panel reaches its hand-off line, so the
           // next service replaces it exactly as the reveal completes.
-          end: () => window.innerWidth <= 750 ? 'top 18%' : 'top 55%',
-          scrub: true
+          end: () => window.innerWidth <= 750 ? `top ${getComputedStyle(panel).top}` : 'top 55%',
+          scrub: true,
+          invalidateOnRefresh: true
         } });
         entrance.fromTo(panel.querySelector('.service-copy'),
           { clipPath: 'inset(0 100% 0 0)' },
           { clipPath: 'inset(0 0% 0 0)', duration: 1, ease: 'none' }, 0);
         entrance.fromTo(panel.querySelector('.service-image'),
           { opacity: 0.35 }, { opacity: 1, duration: 1, ease: 'none' }, 0);
+        if (window.matchMedia('(max-width: 750px)').matches) {
+          entrance.fromTo(panel.querySelector('.service-see-more'),
+            { clipPath: 'inset(0 100% 0 0)' },
+            { clipPath: 'inset(0 0% 0 0)', duration: 1, ease: 'none' }, 0);
+        }
       });
       if (honorsSection) {
         addFindUsArc(honorsSection.querySelector('.honors-title'));
@@ -388,9 +435,39 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   if (inquiriesSection) {
+    const mobileInquiriesMotion = window.matchMedia('(max-width: 750px) and (prefers-reduced-motion: no-preference)');
+    let inquiriesBackgroundFrame;
+    const updateInquiriesBackground = () => {
+      inquiriesBackgroundFrame = null;
+      if (!mobileInquiriesMotion.matches) {
+        inquiriesSection.style.removeProperty('--inquiries-mobile-bg-y');
+        return;
+      }
+      const { top, height } = inquiriesSection.getBoundingClientRect();
+      // Match the reference's sticky background with a 20% scroll translation.
+      const translation = Math.max(-height, Math.min(window.innerHeight, top)) * 0.2;
+      const imageTop = Math.min(0, top + height) + translation;
+      inquiriesSection.style.setProperty('--inquiries-mobile-bg-y', `${imageTop - top}px`);
+    };
+    const scheduleInquiriesBackground = () => {
+      if (!mobileInquiriesMotion.matches || inquiriesBackgroundFrame != null) return;
+      inquiriesBackgroundFrame = window.requestAnimationFrame(updateInquiriesBackground);
+    };
+    window.addEventListener('scroll', scheduleInquiriesBackground, { passive: true });
+    mobileInquiriesMotion.addEventListener('change', updateInquiriesBackground);
     // Let every FAQ scroll into view before PARTNERS slides over the panel.
     const updateInquiriesSticky = () => {
       inquiriesSection.style.setProperty('--inquiries-sticky-top', `${Math.min(0, window.innerHeight - inquiriesSection.offsetHeight)}px`);
+      if (window.matchMedia('(max-width: 750px)').matches) {
+        // Wix centers the 23% focal point, then clamps the 2200 × 2500 image to its edges.
+        const { width, height } = inquiriesSection.getBoundingClientRect();
+        const imageWidth = 2200 * Math.max(width / 2200, height / 2500);
+        const backgroundX = Math.max(width - imageWidth, Math.min(0, width / 2 - imageWidth * 0.23));
+        inquiriesSection.style.setProperty('--inquiries-mobile-bg-x', `${backgroundX}px`);
+      } else {
+        inquiriesSection.style.removeProperty('--inquiries-mobile-bg-x');
+      }
+      updateInquiriesBackground();
     };
     updateInquiriesSticky();
     window.addEventListener('resize', updateInquiriesSticky);
@@ -734,6 +811,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const nextBtn = document.getElementById('portfolioNextBtn');
 
   function fillCard(card, project) {
+    card.dataset.brand = project.brand;
     card.querySelector('.num').textContent = project.num;
     card.querySelector('.category').textContent = project.category;
     const brand = card.querySelector('.brand-name');
@@ -760,11 +838,48 @@ document.addEventListener('DOMContentLoaded', () => {
     return card;
   });
 
+  // Mobile Wix glass-card entrance: animate the panel and its text together.
+  // Keep this separate from the slideshow fade, and clear it at the breakpoint.
+  const cardEntranceMedia = window.matchMedia('(max-width: 750px) and (prefers-reduced-motion: no-preference)');
+  let cardEntranceObserver;
+  let cardEntranceAnimations = [];
+  const clearCardEntrance = () => {
+    cardEntranceObserver?.disconnect();
+    cardEntranceAnimations.forEach(animation => animation.cancel());
+    cardEntranceAnimations = [];
+    slideCards.forEach(card => card.style.removeProperty('opacity'));
+  };
+  const setupCardEntrance = () => {
+    clearCardEntrance();
+    if (!cardEntranceMedia.matches || !('IntersectionObserver' in window)) return;
+    const card = slideCards[currentSlide];
+    card.style.opacity = '0';
+    cardEntranceObserver = new IntersectionObserver(entries => {
+      if (!entries.some(entry => entry.isIntersecting)) return;
+      cardEntranceObserver.disconnect();
+      card.style.removeProperty('opacity');
+      cardEntranceAnimations = [
+        card.animate([
+          { transform: arcTransform(card, 80) },
+          { transform: arcTransform(card, 0) }
+        ], { duration: 1200, delay: 1, easing: 'linear', fill: 'backwards' }),
+        card.animate([{ opacity: 0 }, { opacity: 1 }], {
+          duration: 840, delay: 1,
+          easing: 'cubic-bezier(0.47, 0, 0.745, 0.715)', fill: 'backwards'
+        })
+      ];
+    }, { threshold: 0 });
+    cardEntranceObserver.observe(card);
+  };
+  cardEntranceMedia.addEventListener('change', setupCardEntrance);
+  setupCardEntrance();
+
   function goToSlide(newIndex) {
     if (isAnimating || !firstCard || slidePhotos.length !== portfolioProjects.length) return;
     const total = portfolioProjects.length;
     const targetIndex = (newIndex + total) % total;
     if (targetIndex === currentSlide) return;
+    clearCardEntrance();
     isAnimating = true;
     const outgoing = [slidePhotos[currentSlide], slideCards[currentSlide]];
     const incoming = [slidePhotos[targetIndex], slideCards[targetIndex]];

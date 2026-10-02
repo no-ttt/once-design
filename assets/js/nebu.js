@@ -66,6 +66,14 @@
       const link = document.createElement('a');
       link.href = photo.src; link.dataset.index = index;
       link.innerHTML = '<img src="' + photo.src + '" width="' + photo.width + '" height="' + photo.height + '" alt="' + escape(project.title + ', photograph ' + (index+1)) + '" loading="lazy">';
+      if (project.id === 'nebu') {
+        const picture = document.createElement('picture');
+        const source = document.createElement('source');
+        source.media = '(max-width: 750px)';
+        source.srcset = 'assets/images/projects/nebu/mobile-gallery-' + (index + 1) + '.jpg';
+        picture.append(source, link.querySelector('img'));
+        link.append(picture);
+      }
       gallery.children[index % 2].append(link);
     });
     for (const [position,target] of [['first',project.previous],['last',project.next]]) {
@@ -96,7 +104,16 @@
   function initialize() {
     const listeners = new AbortController();
     const listen = (target, type, handler, options = {}) => target.addEventListener(type, handler, {...options, signal:listeners.signal});
-  const consultationTitle = document.querySelector('.contact-consultation h3');
+  const consultationTitle = document.querySelector('.nebu-contact h3');
+  const consultation = document.querySelector('.nebu-contact .contact-consultation');
+  const contactLinks = document.querySelector('.nebu-contact .contact-links');
+  const mobile = matchMedia('(max-width: 750px)');
+  const arrangeContact = () => {
+    if (mobile.matches) contactLinks.before(consultationTitle);
+    else consultation.prepend(consultationTitle);
+  };
+  arrangeContact();
+  listen(mobile, 'change', arrangeContact);
   consultationTitle.id = 'nebuConsultationTitle';
   document.querySelector('.nebu-contact .contact-section').setAttribute('aria-labelledby', consultationTitle.id);
   const dialog = document.querySelector('.nebu-lightbox');
@@ -230,7 +247,9 @@
     const widths = columns.map(column => Math.round(column.getBoundingClientRect().width));
     const heights = [0, 0];
     galleryLinks.forEach((link, index) => {
-      const column = ['nebu', 'glamour', 'stem-classroom'].includes(current) ? index % 2 : index === 0 || heights[0] < heights[1] ? 0 : 1;
+      const column = mobile.matches ? 0
+        : ['nebu', 'glamour', 'stem-classroom'].includes(current) ? index % 2
+        : index === 0 || heights[0] < heights[1] ? 0 : 1;
       const image = link.querySelector('img');
       const ratio = current === 'stem-classroom' || (current === 'glamour' && index < 2) ? 3 / 4 : Number(image.getAttribute('height')) / Number(image.getAttribute('width'));
       const height = Math.round(widths[column] * ratio);

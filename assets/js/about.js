@@ -12,12 +12,13 @@
     updatePlaybackRate();
   }
   const motion = matchMedia('(prefers-reduced-motion: reduce)');
+  const mobile = matchMedia('(max-width: 750px)');
   const storyLabel = document.querySelector('.about-story .section-label');
   if (storyLabel) {
     // Match the homepage badges: the black tag expands from left to right,
     // directly following scroll progress and reversing when the user scrolls back.
     const setStoryBadgeProgress = () => {
-      const progress = motion.matches ? 1 : Math.min(1, Math.max(0, scrollY / (innerHeight * .25)));
+      const progress = motion.matches || mobile.matches ? 1 : Math.min(1, Math.max(0, scrollY / (innerHeight * .25)));
       storyLabel.style.setProperty('--badge-grow', `${(progress * 100).toFixed(2)}%`);
     };
     setStoryBadgeProgress();
@@ -26,6 +27,17 @@
     motion.addEventListener('change', setStoryBadgeProgress);
   }
   const targets = document.querySelectorAll('.about-page .brand-logo, .about-hero-heading, #about-title');
+  // Only STORY is immediately visible on mobile; later badges reveal on scroll.
+  const laterBadges = [...document.querySelectorAll('.about-studio .section-label, .about-founder .section-label')];
+  const updateLaterBadges = () => laterBadges.forEach(badge => {
+    const top = badge.parentElement.getBoundingClientRect().top;
+    const progress = motion.matches || !mobile.matches ? 1 : Math.max(0, Math.min(1, (innerHeight - top) / (innerHeight * .3)));
+    badge.style.setProperty('--badge-grow', `${progress * 100}%`);
+  });
+  updateLaterBadges();
+  addEventListener('scroll', updateLaterBadges, { passive: true });
+  addEventListener('resize', updateLaterBadges);
+  motion.addEventListener('change', updateLaterBadges);
   const arrow = document.querySelector('.about-scroll');
   const storyCopy = document.querySelector('.about-story [data-story-copy]');
   const storyImage = document.querySelector('.about-story img[data-reveal]');
@@ -34,7 +46,9 @@
   if (story && (storyCopy || storyImage || storyTextBlock)) {
     storyImage?.classList.remove('reveal-pending');
     const updateStoryReveal = () => {
-      const progress = motion.matches ? 1 : Math.min(1, Math.max(0, scrollY / Math.max(1, story.offsetTop)));
+      const progress = motion.matches ? 1 : mobile.matches
+        ? Math.min(1, Math.max(0, (innerHeight - story.getBoundingClientRect().top) / (innerHeight * .6)))
+        : Math.min(1, Math.max(0, scrollY / Math.max(1, story.offsetTop)));
       if (storyCopy) storyCopy.style.clipPath = `inset(0 ${(1 - progress) * 100}% 0 0)`;
       if (storyImage) storyImage.style.clipPath = `inset(${(1 - progress) * 100}% 0 0 0)`;
     };
@@ -48,13 +62,14 @@
     const storyTextObserver = new IntersectionObserver(entries => {
       if (!entries[0].isIntersecting) return;
       storyTextObserver.disconnect();
+      if (mobile.matches) storyTextBlock.style.opacity = '1';
       const depth = storyTextBlock.offsetHeight / 2;
       const arc = angle => `perspective(800px) translateZ(-${depth}px) rotateX(${angle}deg) translateZ(${depth}px)`;
       storyTextBlock.animate([{ transform: arc(80) }, { transform: arc(0) }], {
-        duration: 1200, delay: 1, easing: 'linear', fill: 'forwards'
+        duration: 1200, delay: 1, easing: 'linear', fill: mobile.matches ? 'backwards' : 'forwards'
       });
       storyTextBlock.animate([{ opacity: 0 }, { opacity: 1 }], {
-        duration: 840, delay: 1, easing: 'cubic-bezier(0.47, 0, 0.745, 0.715)', fill: 'forwards'
+        duration: 840, delay: 1, easing: 'cubic-bezier(0.47, 0, 0.745, 0.715)', fill: mobile.matches ? 'backwards' : 'forwards'
       });
     }, { rootMargin: '0px 0px -35% 0px' });
     storyTextObserver.observe(storyTextBlock);
@@ -65,13 +80,14 @@
     const studioObserver = new IntersectionObserver(entries => {
       if (!entries[0].isIntersecting) return;
       studioObserver.disconnect();
+      if (mobile.matches) studioLayout.style.opacity = '1';
       const depth = studioLayout.offsetHeight / 2;
       const arc = angle => `perspective(800px) translateZ(-${depth}px) rotateX(${angle}deg) translateZ(${depth}px)`;
       studioLayout.animate([{ transform: arc(80) }, { transform: arc(0) }], {
-        duration: 1200, delay: 1, easing: 'linear', fill: 'forwards'
+        duration: 1200, delay: 1, easing: 'linear', fill: mobile.matches ? 'backwards' : 'forwards'
       });
       studioLayout.animate([{ opacity: 0 }, { opacity: 1 }], {
-        duration: 840, delay: 1, easing: 'cubic-bezier(0.47, 0, 0.745, 0.715)', fill: 'forwards'
+        duration: 840, delay: 1, easing: 'cubic-bezier(0.47, 0, 0.745, 0.715)', fill: mobile.matches ? 'backwards' : 'forwards'
       });
     }, { rootMargin: '0px 0px -35% 0px' });
     studioObserver.observe(studioLayout);
@@ -98,15 +114,27 @@
     const founderTextObserver = new IntersectionObserver(entries => {
       if (!entries[0].isIntersecting) return;
       founderTextObserver.disconnect();
+      if (mobile.matches) founderTextBlock.style.opacity = '1';
       const depth = founderTextBlock.offsetHeight / 2;
       const arc = angle => `perspective(800px) translateZ(-${depth}px) rotateX(${angle}deg) translateZ(${depth}px)`;
-      founderTextBlock.animate([{ transform: arc(80) }, { transform: arc(0) }], { duration: 1200, delay: 1, easing: 'linear', fill: 'forwards' });
-      founderTextBlock.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 840, delay: 1, easing: 'cubic-bezier(0.47, 0, 0.745, 0.715)', fill: 'forwards' });
+      founderTextBlock.animate([{ transform: arc(80) }, { transform: arc(0) }], { duration: 1200, delay: 1, easing: 'linear', fill: mobile.matches ? 'backwards' : 'forwards' });
+      founderTextBlock.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 840, delay: 1, easing: 'cubic-bezier(0.47, 0, 0.745, 0.715)', fill: mobile.matches ? 'backwards' : 'forwards' });
     }, { rootMargin: '0px 0px -20% 0px' });
     founderTextObserver.observe(founderTextBlock);
   }
   // The About contact block uses the same Wix arc + fade entrance as Home.
   const contactSection = document.querySelector('.about-contact #contact');
+  if (contactSection) {
+    const consultation = contactSection.querySelector('.contact-consultation');
+    const heading = consultation.querySelector('h3');
+    const links = contactSection.querySelector('.contact-links');
+    const arrangeContact = () => {
+      if (mobile.matches) links.before(heading);
+      else consultation.prepend(heading);
+    };
+    arrangeContact();
+    mobile.addEventListener('change', arrangeContact);
+  }
   if (contactSection && Element.prototype.animate) {
     const contactElements = [...contactSection.querySelectorAll('.contact-logo, .contact-links, .contact-title')];
     const contactAnimations = new Set();

@@ -1,5 +1,6 @@
 /* About layout, based on the Wix About page. Shared shell is in common.js. */
 .about-page { background: #f2eee2; color: #5b564c; }
+.about-page picture > source { display: none; }
 .about-page .brand-logo { width: clamp(150px,14.2vw,220px); margin: 29px 0 0 2.5vw; }
 .about-page .brand-logo img { filter: none; mix-blend-mode: multiply; }
 .about-page h1,.about-page h2,.about-page h3 { font-family: 'IvyOra Display',serif; font-weight: 500; }
@@ -31,6 +32,7 @@
 .about-story h2,.about-founder h2 { font-size: clamp(25px,2.08vw,40px); line-height: 1.2; text-transform: uppercase; }
 .about-story { color: #362e2c; }
 .about-story .about-heading-main { display: block; transform-origin: center bottom; will-change: transform, opacity; }
+.about-story-mobile-break { display: none; }
 .about-body-copy { font: 15px/1.55 'IvyOra Display',serif; }
 .about-body-copy p + p { margin-top: 28px; }
 .about-story .about-body-copy,.about-founder .about-body-copy { margin-top: 45px; }
@@ -60,25 +62,61 @@
   .about-body-copy p + p { margin-top: 18px; }
 }
 @media (max-width: 750px) {
+  .about-page .site-header { padding: 0; }
+  .about-page .brand-logo img { aspect-ratio: 10755 / 4500; object-fit: cover; }
   .about-hero { grid-template-columns: 1fr; min-height: 0; }
   .about-hero-media { height: 109.1vw; }
-  .about-hero-media video { height: 100svh; }
-  .about-page .brand-logo { width: 160px; margin: 20px 0 0 36px; }
+  .about-hero-media video { height: 100svh; object-position: 63% 0%; filter: none; }
+  .about-page .brand-logo { width: 42.672vw; margin: 11.4px 0 0 7.324vw; }
+  .about-page .menu-toggle-btn { top: 18.4px; right: 8.092vw; width: 25.2px; height: 40px; padding: 0; }
+  .about-page .menu-btn-icon { width: 23px; height: 20px; }
+  .about-page .menu-toggle-btn { color: #362e2b; }
   .about-hero-copy { min-height: 76.7vw; padding: 35px 12.1vw 7.8vw; }
-  .about-hero h1 { font-size: 6.41vw; }
-  .about-hero-copy .page-kicker { font-size: 12px; line-height: normal; margin-bottom: 10px; }
+  .about-hero h1 { font-size: 25px; }
+  .about-hero-copy .page-kicker { font-family: 'Aboreto', sans-serif; font-size: 12px; line-height: normal; margin-bottom: 10px; }
   .about-hero-media > p { font-size: 8px; bottom: 24px; left: 12.1vw; right: 10px; max-width: 210px; }
   .about-scroll { right: 9vw; bottom: 7.8vw; height: 70px; }
-  .about-editorial .section-label { height: 24px; min-height: 24px; font-family: 'Aboreto', sans-serif; font-size: 10px; padding: 0 18px; }
-  .about-story-layout,.about-studio-layout,.about-founder-layout { grid-template-columns: 1fr; padding: 65px 8% 50px; gap: 35px; }
-  .about-studio-layout { padding-bottom: 65px; }
-  .about-story h2,.about-founder h2 { font-size: 25px; }
-  .about-story img { height: 80vw; }
-  .about-studio h2 { font-size: 30px; }
-  .about-studio h3 { font-size: 23px; }
-  .about-founded { margin-bottom: 22px; font-size: 16px; }
-  .about-founder img { width: 75%; height: 95vw; margin: auto; }
-  .about-founder-layout { padding-bottom: 65px; }
+  .about-editorial .section-label { width: 66px; height: 24px; min-height: 24px; font-family: 'Aboreto', sans-serif; font-size: 10px; padding: 0; }
+  .about-story .section-label { width: 62px; clip-path: none; will-change: auto; }
+  .about-studio .section-label,
+  .about-founder .section-label { clip-path: inset(0 calc(100% - var(--badge-grow, 0%)) 0 0); }
+  .about-story .about-heading-main,
+  .about-story [data-story-copy],
+  .about-founder [data-founder-copy] { will-change: auto; }
+  .about-founder { color: #362e2c; }
+  .about-founder .section-label { width: 86px; }
+  .about-story-layout,.about-studio-layout,.about-founder-layout { grid-template-columns: 1fr; }
+  .about-story { background-color: #f5f2e9; }
+  .about-story-layout { gap: 59px; padding: 76px 11.2% 69px 12.22%; }
+  .about-story .about-heading-main { width: 66.515vw; }
+  .about-story-mobile-break { display: initial; }
+  .about-story h2 { font-family: 'IvyOra Banner', serif; font-size: 20px; font-weight: 400; line-height: 1; letter-spacing: .02em; }
+  .about-story .about-heading-intro { font-family: 'IvyOra Story', serif; font-size: 12px; font-weight: 400; line-height: 1; letter-spacing: .02em; margin-bottom: 4px; }
+  .about-story .about-body-copy { margin-top: 13px; font-family: 'IvyOra Story', serif; font-size: 13px; line-height: 1.1; letter-spacing: .02em; }
+  .about-story .about-question { margin-top: 0; font-family: inherit; font-style: normal; font-weight: 700; }
+  .about-story .about-body-copy p + p { margin-top: 0; }
+  .about-story .about-body-copy p:last-child { margin-top: 14.3px; }
+  .about-story .about-question { font-family: 'IvyOra Wix Bold', serif; font-weight: 400; }
+  .about-story picture, .about-founder picture { display: contents; }
+  .about-story img { width: 100%; height: 67.456vw; object-position: 13% 48%; }
+  .about-studio-layout { gap: 0; padding: 76px 15.7% 59px 12.05%; }
+  .about-founded { margin-bottom: 4px; font-family: 'IvyOra Story', serif; font-size: 3.076923vw; line-height: 1; letter-spacing: .02em; }
+  .about-studio h2 { width: 72.12vw; font-family: 'IvyOra Banner', serif; font-size: 5.128205vw; font-weight: 400; line-height: 1; letter-spacing: .02em; }
+  .about-mobile-phrase { white-space: nowrap; }
+  .about-studio-layout > div + div { margin-top: 19px; }
+  .about-studio h3 { width: 68.3vw; margin-bottom: 8px; font-family: 'IvyOra Story', serif; font-size: 3.076923vw; font-weight: 400; line-height: 1.3; letter-spacing: .02em; }
+  .about-studio .about-body-copy { font-family: 'IvyOra Story', serif; font-size: 13px; line-height: 1.3; letter-spacing: .02em; }
+  .about-founder-layout { gap: 71px; padding: 87px 12.05% 56px; }
+  .about-founder img { width: 99%; height: 77.112vw; margin: auto; object-position: 40% 53%; }
+  .about-founder h2 { width: 75.545vw; font-family: 'IvyOra Banner', serif; font-size: 5.128205vw; font-weight: 400; line-height: 1; letter-spacing: .02em; }
+  .about-founder .about-heading-intro { font-family: 'IvyOra Story', serif; font-size: 2.564103vw; font-weight: 400; line-height: 1; letter-spacing: .02em; margin-bottom: 3px; }
+  .about-founder .about-body-copy { margin-top: 16px; font-family: 'IvyOra Story', serif; font-size: 13px; line-height: 1.3; letter-spacing: .02em; }
+  .about-founder .about-body-copy p + p { margin-top: 17px; }
+  .about-founder .about-body-copy br { display: none; }
+
+}
+@media (min-width: 751px) {
+  .about-story picture, .about-founder picture { display: contents; }
 }
 /* Desktop editorial alignment follows the reference's generous left margin. */
 @media (min-width: 751px) {
@@ -111,7 +149,7 @@
   .about-founder .about-body-copy p + p { margin-top: 1.21875vw; }
 }
 @media (max-width: 750px) {
-  .about-heading-intro { display: block; font-size: 16px; line-height: 1.35; margin-bottom: 8px; }
+  .about-heading-intro { display: block; }
 }
 .about-page .brand-logo img { filter: brightness(0); }
 

@@ -1,3 +1,4 @@
+@font-face { font-family: 'Trends IvyOra Light'; src: url('../fonts/ivyora-quote-light.woff2') format('woff2'); font-weight: 400; font-display: swap; }
 /* TRENDS: original Wix imagery with the shared site shell. */
 @font-face { font-family: 'Trends Gotham'; src: url('../fonts/gotham-quote.woff2') format('woff2'); font-display: swap; }
 @font-face { font-family: 'Trends Trajan'; src: url('../fonts/trajan-quote.woff2') format('woff2'); font-display: swap; }
@@ -44,11 +45,13 @@
 .trends-card .trends-read-more:hover, .trends-card .trends-read-more:focus-visible { background-color: #8e8367; border-color: #fef9ed; color: #fff; }
 @media (max-width: 750px) {
   .trends-page .brand-logo { width: 150px; margin: 20px 0 0 16px; }
-  .trends-page .menu-toggle-btn { display: none; }
-  .trends-hero { grid-template-columns: 1fr; grid-template-rows: 98.076923vw 275px; height: auto; }
-  .trends-hero-copy { padding: 0 0 30.5px 12.047276vw; }
-  .trends-hero-copy > div { width: 240.390625px; max-width: 75vw; }
-  .trends-hero h1 { font-size: 25px; }
+  .trends-page { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+  .trends-hero { grid-template-columns: 1fr; grid-template-rows: 98.076923vw 70.51282vw; height: auto; }
+  .trends-hero-copy { padding: 0 0 7.820513vw 12.047276vw; }
+  .trends-hero-copy > div { width: 61.63862vw; max-width: 75vw; }
+  .trends-hero h1 { font-size: 6.410256vw; }
+  .trends-hero-grid { background: url('../images/work/mobile-hero-pattern.png'); }
+  .trends-hero-media > p, .trends-scroll span { font-family: 'Trends IvyOra Light', serif; font-weight: 400; }
   .trends-hero-copy .page-kicker { margin: 0 0 11px .1vw; font: 400 12px/15px 'IvyOra Story', serif; }
   .trends-hero-media > p { width: 63.3293vw; left: 12.04327vw; bottom: 25px; font-size: 8px; line-height: 1.2; }
   .trends-scroll { width: 5.961538vw; right: 6.538462vw; bottom: 30px; }
@@ -56,13 +59,14 @@
   .trends-scroll svg { height: 6.826923vw; width: 100%; margin-left: -.5px; }
   .trends-articles { padding: 12.85256vw 12.047276vw 17.62vw; }
   .trends-tabs { gap: 27px; margin-bottom: 56px; }
-  .trends-tabs button { flex: 1; font-size: 13px; }
-  .trends-tabs button:first-child { flex: 1.12; }
+  .trends-tabs button { flex: 1 1 auto; font-size: 13px; color: #000; border-radius: 0; appearance: none; }
+  .trends-tabs button[aria-selected='true'] { border-bottom-color: #000; }
+  .trends-card-image { border-radius: 0; }
   .trends-card-grid { grid-template-columns: 75.55385vw; row-gap: 18.3897vw; }
-  .trends-card { height: calc(73.25721vw + 126.265625px); }
-  .trends-card-meta { font-size: 10px; padding-top: 13.3125px; height: 32.28125px; }
+  .trends-card { height: 105.633012vw; }
+  .trends-card-meta { font-size: 10px; padding-top: 3.413462vw; height: 8.277244vw; }
   .trends-card-arrow { width: 18px; height: 17.921875px; }
-  .trends-card h3 { width: 253px; max-width: 100%; font-size: 13px; }
+  .trends-card h3 { width: 64.871795vw; max-width: 100%; font-size: 3.333333vw; }
   .trends-read-more { width: 118.5px; height: 30px; }
 }
 @media (prefers-reduced-motion: reduce) { .trends-card-image, .trends-card-arrow, .trends-read-more { transition: none; } .trends-card-image:hover, .trends-card-image:focus-visible, .trends-card-arrow:hover, .trends-card-arrow:focus-visible { transform: none; } }
@@ -72,3 +76,8 @@
 
 /* Match Work’s shared contact section. */
 .trends-page .contact-badge, .trends-page .contact-title { display: none; }
+
+@media (max-width: 750px) and (hover: none) {
+  .trends-tabs button:not([aria-selected='true']):hover { border-bottom-color: #e2e2e2; }
+  .trends-card-image:hover, .trends-card-arrow:hover { transform: none; }
+}

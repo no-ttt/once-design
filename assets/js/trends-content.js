@@ -28,7 +28,10 @@
       const newestFirst = [...items].sort((a, b) => (b.date || '').localeCompare(a.date || ''));
       for (const category of ['trends', 'press']) {
         const grid = document.querySelector(`#panel-${category} .trends-card-grid`);
-        grid.innerHTML = newestFirst.filter(item => item.category === category).map(item => `<article class="trends-card">
+        const categoryItems = newestFirst.filter(item => item.category === category);
+        // Keep the authored Press projects when the article feed has no Press entries.
+        if (!categoryItems.length) continue;
+        grid.innerHTML = categoryItems.map(item => `<article class="trends-card">
           <a class="trends-card-image" href="${href(item)}" aria-label="Read ${escape(item.title)}"><img src="${escape(item.thumbnail || item.hero)}" alt="${escape(item.title)}" width="1000" height="970" loading="lazy"></a>
           <div class="trends-card-meta">${item.date ? `<time datetime="${escape(item.date)}">${escape(date(item.date))}</time>` : `<span>${escape(item.label)}</span>`}<a class="trends-card-arrow" href="${href(item)}" aria-label="Read ${escape(item.title)}">↗</a></div>
           <h3><a href="${href(item)}">${escape(item.title)}</a></h3><a class="trends-read-more" href="${href(item)}">LEARN MORE</a></article>`).join('');

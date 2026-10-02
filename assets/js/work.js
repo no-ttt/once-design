@@ -126,3 +126,19 @@
   select(0);
   projects.classList.add('work-tabs-ready');
 })();
+
+/* Share About's mobile consultation order, restoring desktop on resize. */
+(() => {
+  const section = document.getElementById('contact');
+  if (!section) return;
+  const mobile = matchMedia('(max-width: 750px)');
+  const consultation = section.querySelector('.contact-consultation');
+  const heading = consultation.querySelector('h3');
+  const logo = section.querySelector('.contact-logo');
+  const update = () => {
+    if (mobile.matches) logo.after(heading);
+    else consultation.prepend(heading);
+  };
+  update();
+  mobile.addEventListener('change', update);
+})();
