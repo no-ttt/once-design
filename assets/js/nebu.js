@@ -89,8 +89,8 @@
       });
     }
     scrollTo({top:0, behavior:'instant'});
-    dispose = initialize();
     if (focus) { title.tabIndex = -1; title.focus({preventScroll:true}); }
+    dispose = initialize();
     history.replaceState({...history.state, nebuProject: current}, '', location.pathname);
   }
   container.addEventListener('click', event => {
@@ -219,7 +219,7 @@
       configurations.set(element, { type: 'flip', duration: 1200, delay: 0, easing: 'linear', ...options });
     });
   };
-  register('.brand-logo, .nebu-heading, .nebu-quotation-copy, .nebu-contact .contact-logo');
+  register('.brand-logo, .nebu-hero h1, .nebu-heading, .nebu-quotation-copy, .nebu-contact .contact-logo');
   register('.nebu-intro:not([hidden])', { easing: flipEase });
   register('.nebu-byline, .nebu-quotation-copy > p', { delay: 100, easing: 'cubic-bezier(0.55, 0.055, 0.675, 0.19)' });
   register('.nebu-facts dt, .nebu-facts > div:not(.nebu-awards) dd, .nebu-awards dd p', { easing: flipEase });
@@ -245,17 +245,14 @@
   const layoutGallery = () => {
     const columns = [...gallery.querySelectorAll('.nebu-gallery-column')];
     const widths = columns.map(column => Math.round(column.getBoundingClientRect().width));
-    const heights = [0, 0];
     galleryLinks.forEach((link, index) => {
-      const column = mobile.matches ? 0
-        : ['nebu', 'glamour', 'stem-classroom'].includes(current) ? index % 2
-        : index === 0 || heights[0] < heights[1] ? 0 : 1;
+      // Keep paired photos in source order; an unpaired final image stays left.
+      const column = mobile.matches ? 0 : index % 2;
       const image = link.querySelector('img');
       const ratio = current === 'stem-classroom' || (current === 'glamour' && index < 2) ? 3 / 4 : Number(image.getAttribute('height')) / Number(image.getAttribute('width'));
       const height = Math.round(widths[column] * ratio);
       image.style.height = `${height}px`;
       if (link.parentElement !== columns[column] || columns[column].lastElementChild !== link) columns[column].append(link);
-      heights[column] += height + 8;
     });
   };
   // Layout offsets are unaffected by the entrance transforms.

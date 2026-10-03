@@ -55,7 +55,7 @@
         <a href="index.html#contact">CONTACT</a>
         <a href="quote.html">QUOTE</a>
       </nav>
-      <button class="back-to-top" id="backToTop" type="button">BACK TO TOP <svg viewBox="23.3 21.5 156.2 156.2" aria-hidden="true"><path d="M135.3 88.3l-33.1-33.1-33.3 33.4 3.9 3.9 26.6-26.7-.5 78 5.5.1.5-78.1 26.5 26.4 3.9-3.9z"/><path d="M101.4 177.7c-43.1 0-78.1-35-78.1-78.1s35-78.1 78.1-78.1 78.1 35 78.1 78.1-35 78.1-78.1 78.1zm0-150.7c-40 0-72.6 32.6-72.6 72.6s32.6 72.6 72.6 72.6c40 0 72.6-32.6 72.6-72.6S141.4 27 101.4 27z"/></svg></button>
+      <button class="back-to-top" id="backToTop" type="button"><span>BACK TO TOP</span><svg viewBox="23.3 21.5 156.2 156.2" aria-hidden="true"><path d="M135.3 88.3l-33.1-33.1-33.3 33.4 3.9 3.9 26.6-26.7-.5 78 5.5.1.5-78.1 26.5 26.4 3.9-3.9z"/><path d="M101.4 177.7c-43.1 0-78.1-35-78.1-78.1s35-78.1 78.1-78.1 78.1 35 78.1 78.1-35 78.1-78.1 78.1zm0-150.7c-40 0-72.6 32.6-72.6 72.6s32.6 72.6 72.6 72.6c40 0 72.6-32.6 72.6-72.6S141.4 27 101.4 27z"/></svg></button>
     </div>
     <p class="footer-copyright">COPYRIGHT © ONCE DESIGN 2026. ALL RIGHTS RESERVED</p>
   </footer>

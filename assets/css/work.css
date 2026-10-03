@@ -14,10 +14,10 @@
 .work-hero-copy { position: relative; display: flex; align-items: end; padding: 0 4vw 2.34vw 6vw; }
 .work-hero-copy .page-kicker { margin-bottom: 3.2vw; font: 400 .9375vw/normal 'IvyOra Banner', serif; letter-spacing: 0; text-transform: uppercase; }
 .work-hero h1 { font: 400 clamp(30px, 3.90625vw, 90px)/.9 'IvyOra Banner', serif; letter-spacing: .02em; }
-.work-hero h1 em { font: 400 1.1em/.9 'Didot Wix Italic', serif; }
-.work-scroll { position: absolute; right: 2.5vw; bottom: 2.34vw; display: flex; align-items: center; gap: 8px; flex-direction: column; color: inherit; text-decoration: none; }
-.work-scroll span { writing-mode: vertical-rl; font: 12px/1.3 'IvyOra Display', serif; }
-.work-scroll svg { width: 10px; height: 80px; }
+.work-hero h1 em { font: italic 400 1em/.9 'Didot-W01-Italic', serif; }
+.work-scroll { position: absolute; right: 0; bottom: 2.34375vw; width: 5.628255vw; display: flex; align-items: flex-start; gap: 0; flex-direction: column; color: #000; text-decoration: none; }
+.work-scroll span { flex: none; height: 6.09375vw; margin-left: 2.19055vw; margin-bottom: -.10563vw; writing-mode: vertical-rl; font: 400 .78125vw/1.6 'Work IvyOra Light', serif; letter-spacing: .03em; }
+.work-scroll svg { display: block; flex: none; width: 100%; height: auto; aspect-ratio: 1; margin-left: -.07813vw; color: #242323; }
 @media (prefers-reduced-motion: no-preference) {
   /* Wix BgReveal keeps the full-width video still as the banner scrolls away. */
   .work-hero-background { top: -100lvh; bottom: -100lvh; }
@@ -80,7 +80,7 @@
 .work-card-arrow { display: block; flex-shrink: 0; width: 1.32704vw; height: 1.32161vw; overflow: hidden; color: transparent; font-size: 0; background: url('../images/shared/work-arrow-desktop.png') center / cover no-repeat; }
 @media (max-width: 1000px) {
   .work-tabs { gap: 3vw; }
-  .work-scroll span { font-size: 10px; }
+  .work-scroll span { font-size: .78125vw; }
 }
 /* Mobile dimensions follow Wix blank-2; desktop rules remain above. */
 @media (max-width: 750px) {
@@ -96,9 +96,9 @@
   .work-hero h1 em { font-size: 1em; font-style: italic; }
   .work-hero-copy .page-kicker { margin-bottom: 10px; font: 400 12px/normal 'IvyOra Story', serif; }
   .work-hero-media > p { width: 63.33%; left: 12.05%; right: auto; bottom: 6.41vw; font: 400 2.051282vw/1.2 'Work IvyOra Light', serif; letter-spacing: .03em; }
-  .work-scroll { right: 7.95%; bottom: 0; width: 13px; height: 85px; gap: 0; }
-  .work-scroll span { writing-mode: vertical-rl; font: 400 8px/1.6 'Work IvyOra Light', serif; letter-spacing: .03em; }
-  .work-scroll svg { width: 3px; height: 25px; }
+  .work-scroll { right: 6.53846%; bottom: 0; width: 5.96154vw; height: auto; }
+  .work-scroll span { align-self: center; height: 15.22231vw; margin-left: 0; margin-bottom: min(-.5px, -.12821vw); font-size: 2.05128vw; }
+  .work-scroll svg { width: 100%; height: auto; aspect-ratio: 1 / 1.1451854; margin-left: min(-.5px, -.12821vw); }
   .work-projects { padding: 20vw 12.05% 50px; }
   .work-tabs { flex-wrap: wrap; justify-content: start; gap: 2px 27px; margin: 0 0 56px; }
   .work-tabs button { box-sizing: content-box; flex: 1 1 auto; font: 400 13px/1.4 'Aboreto', sans-serif; letter-spacing: normal; min-height: 0; padding: 8px 0; border-bottom: 2px solid #e1e1e1; border-radius: 0; appearance: none; }

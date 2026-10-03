@@ -930,10 +930,10 @@ body[data-page="home"] .brand-logo {
   top: 0;
   width: 100%;
   min-height: 440px;
-  background-color: #ebe5d8;
+  background-color: #f2eee2;
   background-image: url('../images/home/section-about-bg.png');
   background-repeat: repeat;
-  background-size: 320px auto;
+  background-size: 300px 225px;
   color: #111111;
   padding: clamp(65px, 6.8vw, 95px) clamp(28px, 5.2vw, 75px);
   display: flex;
@@ -1000,6 +1000,7 @@ body[data-page="home"] .brand-logo {
 
 /* Wix About 未揭示文字底色。 */
 .quote-text-underlay {
+  /* Original Wix unrevealed text color. */
   color: #e6dfcf;
   display: block;
   user-select: none;
@@ -2494,12 +2495,14 @@ body .contact-submit:is(:hover, :focus-visible) {
 
 /* Shared footer, measured against the reference at desktop and mobile sizes. */
 .site-footer { position: relative; z-index: 10; min-height: 118px; padding: 25.56px 7.48% 28.86px; background: #5b564c; color: #f2eee2; }
-.footer-top-row { display: flex; align-items: flex-start; justify-content: space-between; gap: 24px; min-height: 36.48px; border-bottom: 1px solid #9d9d9d; }
+.footer-top-row { display: flex; align-items: center; justify-content: space-between; gap: 24px; min-height: 36.48px; border-bottom: 1px solid #9d9d9d; }
 .footer-nav { display: flex; flex-wrap: wrap; gap: 25.85px; padding-top: 7px; }
 .footer-nav a { font: 400 13px/.78 'Trajan Pro', serif; color: #fff; text-decoration: none; letter-spacing: 0; }
 .footer-nav a:hover, .footer-nav a[aria-current] { color: #afa385; }
 .nav-menu-list a[aria-current="location"] { color: #cdc3a9; }
 .back-to-top { display: inline-flex; align-items: center; gap: 7.2px; padding: 0; border: 0; background: transparent; color: inherit; cursor: pointer; white-space: nowrap; font: 400 13px/1.3 'Trajan Pro', serif; letter-spacing: .03em; }
+.back-to-top { align-self: center; justify-content: center; }
+.back-to-top > span { display: block; line-height: 1; }
 .back-to-top svg { display: block; flex: 0 0 17.22px; width: 17.22px; height: 17.22px; fill: currentColor; }
 .footer-copyright { margin: 12.74px 0 0; font: 400 11px/1.3 'Trajan Pro', serif; color: #fff; letter-spacing: .03em; }
 
@@ -2841,3 +2844,82 @@ body[data-page="home"] :is(.service-panel-inner, .portfolio-slides-bg) > picture
 
 /* Whitespace needed when mobile hides desktop line breaks. */
 @media (min-width: 751px) { body[data-page="home"] .mobile-word-space { display: none; } }
+
+/* Scale desktop glass panels with the viewport-sized project typography. */
+@media (min-width: 901px) {
+  body[data-page="home"] .portfolio-card {
+    width: max(360px, 25vw);
+    min-width: 0;
+    max-width: none;
+    padding: max(29px, 2.01389vw) max(30px, 2.08333vw) max(30px, 2.08333vw);
+  }
+}
+/* KLASSE 14 receives only a small additional width. */
+body[data-page="home"] .portfolio-card[data-brand="Klasse 14"] {
+  width: max(390px, 27.08333vw);
+  min-width: 0;
+  max-width: none;
+}
+body[data-page="home"] .portfolio-card[data-brand="Klasse 14"] .brand-name {
+  white-space: nowrap;
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
+/* Wix form typography: Trajan labels, Gotham values, Aboreto heading. */
+@font-face {
+  font-family: 'Contact Gotham';
+  src: url('../fonts/gotham-quote.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+body[data-page] .contact-section .contact-field {
+  font: 400 12px/15px 'Consultation Trajan', serif;
+  color: #5b564c;
+  letter-spacing: 0;
+}
+body[data-page] .contact-section .contact-field :is(input, textarea),
+body[data-page] .contact-upload-name,
+body[data-page] .contact-form-response {
+  font-family: 'Contact Gotham', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0;
+}
+@media (min-width: 751px) {
+  body[data-page] .contact-section .contact-consultation {
+    display: flex;
+    flex-direction: column;
+  }
+  body[data-page] .contact-section .contact-form { margin-top: auto; }
+  body[data-page] .contact-section .contact-info {
+    display: flex;
+    flex-direction: column;
+  }
+  body[data-page] .contact-section .contact-info .contact-links {
+    width: 100%;
+    margin-top: auto;
+    padding-top: 60px;
+  }
+  body[data-page] .contact-section .contact-link-address {
+    min-height: 0;
+    padding-bottom: 16px;
+  }
+  body[data-page] .contact-section .contact-link-address::after {
+    top: auto;
+    bottom: 0;
+  }
+}
+@media (max-width: 750px) {
+  body[data-page="home"] .portfolio-card[data-brand="Klasse 14"] {
+    width: 68%;
+  }
+  body[data-page="home"] .portfolio-card[data-brand="Klasse 14"] .card-title {
+    width: auto;
+  }
+  body[data-page] .contact-section .contact-field-full:has(textarea) {
+    font-size: min(12px, 3.36vw);
+  }
+}

@@ -3,6 +3,7 @@
 @font-face { font-family: 'Nebu Caudex'; src: url('../fonts/nebu-caudex.ttf') format('truetype'); font-display: swap; }
 @font-face { font-family: 'Nebu Trajan'; src: url('../fonts/trajan-quote.woff2') format('woff2'); font-display: swap; }
 @font-face { font-family: 'Nebu Gotham'; src: url('../fonts/gotham-quote.woff2') format('woff2'); font-display: swap; }
+@font-face { font-family: 'Nebu Gotham Medium'; src: url('../fonts/nebu-gotham-medium.woff2') format('woff2'); font-weight: 500; font-style: normal; font-display: swap; }
 .nebu-page { background: #f2eee2; color: #362e2b; font-family: 'IvyOra Story', serif; }
 .nebu-page .site-header { padding: 0; translate: 0 var(--nebu-hero-shift, 0px); }
 .nebu-page .brand-logo { width: 14.140625vw; margin: 1.96164vw 0 0 3.17992vw; }
@@ -19,9 +20,9 @@
 .nebu-breadcrumb { height: 6.9521vw; padding: 0 8% .816vw 7.7181%; display: flex; align-items: end; justify-content: space-between; gap: 12px; background: #eee8d8; }
 .nebu-breadcrumb p { margin: 0; font: .78125vw/1.6 'Nebu Gotham Light', sans-serif; color: #5b564c; white-space: nowrap; }
 .nebu-breadcrumb a { color: inherit; text-decoration: none; }
-.nebu-breadcrumb strong { font: inherit; font-family: 'Nebu Gotham', sans-serif; }
-.nebu-arrows { display: flex; gap: .8vw; padding-bottom: .35vw; }
-.nebu-arrows a { display: grid; place-items: center; width: 23px; height: 23px; color: #5b564c; }
+.nebu-breadcrumb strong { font: inherit; font-family: 'Nebu Gotham Medium', sans-serif; }
+.nebu-arrows { display: flex; gap: .78125vw; padding-bottom: .3559vw; }
+.nebu-arrows a { display: grid; place-items: center; width: 1.5625vw; height: 1.5625vw; color: #5b564c; }
 .nebu-arrows svg { width: 100%; height: 100%; }
 .nebu-arrows a:first-child svg { rotate: -90deg; }
 .nebu-arrows a:last-child svg { rotate: 90deg; }
@@ -37,7 +38,7 @@
 .nebu-heading { position: relative; display: flex; flex-direction: column; justify-content: space-between; }
 .nebu-heading h2 { margin: .0315vw 0 0; font: 400 2.34375vw/1.3 'IvyOra Banner', serif; color: #000; }
 .nebu-heading h2 a { position: absolute; left: 19.7vw; top: 3.18vw; width: 1.65vw; height: 1.65vw; color: #362e2b; }
-.nebu-heading h2 svg { width: 100%; height: 100%; }
+.nebu-heading h2 svg { display: block; width: 100%; height: 100%; }
 .nebu-inquiry { width: fit-content; color: #362e2b; text-decoration: none; font-size: .9375vw; line-height: 1.1; letter-spacing: .03em; }
 .nebu-inquiry > span { display: block; width: 1.3vw; border-top: 1px solid #9e988c; margin-bottom: 1.6vw; }
 .nebu-intro { margin: 0 0 4.275vw; font-size: .859375vw; line-height: 1.3; letter-spacing: .02em; }
@@ -88,7 +89,7 @@
 .nebu-gallery a:focus-visible::after { opacity: 1; transform: scale(.985); }
 .nebu-project-nav { position: relative; z-index: 1; display: flex; align-items: center; justify-content: space-between; height: 94px; padding: 0 7.5%; background: #f2eee2; }
 .nebu-project-nav a { display: flex; align-items: center; gap: 15px; color: #362e2b; text-decoration: none; font: 12px/1 'Nebu Gotham', sans-serif; }
-.nebu-project-nav a:first-child { font-size: min(.9375vw, 13px); }
+.nebu-project-nav a { font-size: min(.9375vw, 13px); }
 .nebu-project-nav svg { width: 36px; height: 16px; color: #362e2b; }
 .nebu-project-nav a:last-child { gap: 12px; }
 .nebu-page .contact-badge, .nebu-page .contact-title { display: none; }
@@ -144,8 +145,8 @@ body:has(.nebu-lightbox[open]) { overflow: hidden; }
   .nebu-byline::before { display: none; }
   .nebu-breadcrumb { height: 15.3686vw; padding: 0 4.35897% 3.355vw 7.71635%; gap: 8px; }
   .nebu-breadcrumb p { font-size: 10px; }
-  .nebu-arrows { gap: 7px; padding-bottom: 0; }
-  .nebu-arrows a { width: 20px; height: 20px; }
+  .nebu-arrows { gap: 2.05128vw; padding-bottom: 0; }
+  .nebu-arrows a { width: 5.12821vw; height: 5.12821vw; }
   .nebu-overview { display: block; min-height: 173.31821vw; padding: 4.6354vw 7.94872% 5.2vw; }
   .nebu-heading { min-height: 48.734vw; padding-bottom: 13px; }
   .nebu-heading h2 { font-size: 25px; margin: 0; }
@@ -280,7 +281,7 @@ body:has(.nebu-lightbox[open]) { overflow: hidden; }
 /* Final NEBU alignment against the reference; retain the requested shared shell. */
 .nebu-page .nebu-hero-scene::after { background: #00000054; }
 .nebu-page[data-project="nebu"] .nebu-hero h1 { left: 36.756727vw; width: 26.486545vw; text-align: left; }
-.nebu-page .nebu-breadcrumb strong { font-weight: 700; }
+.nebu-page .nebu-breadcrumb strong { font-weight: 500; font-synthesis: none; }
 .nebu-page[data-project="nebu"] .nebu-heading h2 a { left: 19.55vw; top: 3.4578vw; }
 .nebu-page .nebu-detail-label { font-weight: 700; }
 .nebu-page .nebu-quotation-copy > p { min-width: 8.140191vw; }
@@ -425,4 +426,121 @@ body:has(.nebu-lightbox[open]) { overflow: hidden; }
   .nebu-page[data-project] #nebuProjectContent .nebu-design-copy li + li { margin-top: 1.3em; }
   .nebu-page[data-project="nebu"] #nebuProjectContent .nebu-design-copy { width: 84.215vw; margin-left: .39vw; }
   .nebu-page[data-project="nebu"] #nebuProjectContent .nebu-design-copy article:last-child h2 { max-width: 75.75vw; }
+}
+
+/* Shared project overview: inquiry and facts finish on the same baseline. */
+.nebu-facts { border-bottom: 1px solid #cdc9c0; }
+.nebu-facts .nebu-awards { border-bottom: 0; }
+@media (min-width: 751px) {
+  #nebuProjectContent .nebu-overview { align-content: start; }
+  #nebuProjectContent .nebu-heading { align-self: stretch; }
+  #nebuProjectContent .nebu-information {
+    display: grid;
+    grid-template-rows: minmax(calc(var(--project-factsTop) - 4.60949vw), auto) auto;
+  }
+  #nebuProjectContent .nebu-intro { grid-row: 1; align-self: start; margin-bottom: 0; }
+  #nebuProjectContent .nebu-facts { position: static; grid-row: 2; width: 100%; }
+}
+/* Arrow coordinates are measured relative to each reference project heading. */
+#nebuProjectContent .nebu-heading h2 { position: relative; }
+#nebuProjectContent .nebu-heading h2 a {
+  left: var(--heading-arrow-left);
+  top: auto;
+  right: auto;
+  /* IvyOra's descender space sits below the visible uppercase letter edge. */
+  bottom: .28em;
+  width: var(--heading-arrow-width);
+  height: var(--heading-arrow-height);
+  color: #242323;
+}
+
+@media (min-width: 751px) {
+  .nebu-page[data-project="nebu"] { --heading-arrow-left: 19.742839vw; --heading-arrow-top: 4.296875vw; --heading-arrow-width: 1.311849vw; --heading-arrow-height: 1.311849vw; }
+  .nebu-page[data-project="klasse14"] { --heading-arrow-left: 18.526476vw; --heading-arrow-top: 4.296875vw; --heading-arrow-width: 1.236979vw; --heading-arrow-height: 1.236979vw; }
+  .nebu-page[data-project="tatcha"] { --heading-arrow-left: 19.99783vw; --heading-arrow-top: 4.296875vw; --heading-arrow-width: 1.328125vw; --heading-arrow-height: 1.328125vw; }
+  .nebu-page[data-project="murad-counter"] { --heading-arrow-left: 20.219184vw; --heading-arrow-top: 4.296875vw; --heading-arrow-width: 1.341146vw; --heading-arrow-height: 1.341146vw; }
+  .nebu-page[data-project="murad-popup"] { --heading-arrow-left: 21.935764vw; --heading-arrow-top: 3.843316vw; --heading-arrow-width: 1.469184vw; --heading-arrow-height: 1.469184vw; }
+  .nebu-page[data-project="klasse14-central"] { --heading-arrow-left: 15.876736vw; --heading-arrow-top: 4.296875vw; --heading-arrow-width: 1.074219vw; --heading-arrow-height: 1.074219vw; }
+  .nebu-page[data-project="tatcha-ifc"] { --heading-arrow-left: 20.219184vw; --heading-arrow-top: 4.296875vw; --heading-arrow-width: 1.341146vw; --heading-arrow-height: 1.341146vw; }
+  .nebu-page[data-project="moleskin"] { --heading-arrow-left: 20.881076vw; --heading-arrow-top: 7.367622vw; --heading-arrow-width: 1.382378vw; --heading-arrow-height: 1.382378vw; }
+  .nebu-page[data-project="glamour"] { --heading-arrow-left: 20.881076vw; --heading-arrow-top: 7.367622vw; --heading-arrow-width: 1.382378vw; --heading-arrow-height: 1.382378vw; }
+  .nebu-page[data-project="park-mountain"] { --heading-arrow-left: 19.742839vw; --heading-arrow-top: 7.438151vw; --heading-arrow-width: 1.311849vw; --heading-arrow-height: 1.311849vw; }
+  .nebu-page[data-project="sheng-chim"] { --heading-arrow-left: 23.934462vw; --heading-arrow-top: 3.515625vw; --heading-arrow-width: 1.571181vw; --heading-arrow-height: 1.571181vw; }
+  .nebu-page[data-project="amorepacific"] { --heading-arrow-left: 20.882161vw; --heading-arrow-top: 6.976997vw; --heading-arrow-width: 1.382378vw; --heading-arrow-height: 1.382378vw; }
+  .nebu-page[data-project="st-regis"] { --heading-arrow-left: 20.881076vw; --heading-arrow-top: 4.296875vw; --heading-arrow-width: 1.382378vw; --heading-arrow-height: 1.382378vw; }
+  .nebu-page[data-project="winfun"] { --heading-arrow-left: 19.741753vw; --heading-arrow-top: 4.296875vw; --heading-arrow-width: 1.311849vw; --heading-arrow-height: 1.311849vw; }
+  .nebu-page[data-project="fresh-office"] { --heading-arrow-left: 19.742839vw; --heading-arrow-top: 4.296875vw; --heading-arrow-width: 1.311849vw; --heading-arrow-height: 1.311849vw; }
+  .nebu-page[data-project="stem-classroom"] { --heading-arrow-left: 28.189019vw; --heading-arrow-top: 6.916233vw; --heading-arrow-width: 1.833767vw; --heading-arrow-height: 1.833767vw; }
+  .nebu-page[data-project="computer-classroom"] { --heading-arrow-left: 27.784288vw; --heading-arrow-top: 6.941189vw; --heading-arrow-width: 1.808811vw; --heading-arrow-height: 1.808811vw; }
+  .nebu-page[data-project="junior-versity"] { --heading-arrow-left: 20.500217vw; --heading-arrow-top: 7.390408vw; --heading-arrow-width: 1.359592vw; --heading-arrow-height: 1.359592vw; }
+  .nebu-page[data-project="stem-computer-lab"] { --heading-arrow-left: 24.491102vw; --heading-arrow-top: 4.020182vw; --heading-arrow-width: 1.509332vw; --heading-arrow-height: 1.509332vw; }
+}
+
+@media (max-width: 750px) {
+  .nebu-page[data-project="nebu"] { --heading-arrow-left: 56.638622vw; --heading-arrow-top: 2.560096vw; --heading-arrow-width: 3.581731vw; --heading-arrow-height: 3.581731vw; }
+  .nebu-page[data-project="klasse14"] { --heading-arrow-left: 56.498397vw; --heading-arrow-top: 2.560096vw; --heading-arrow-width: 3.573718vw; --heading-arrow-height: 3.573718vw; }
+  .nebu-page[data-project="tatcha"] { --heading-arrow-left: 52.055288vw; --heading-arrow-top: 2.560096vw; --heading-arrow-width: 3.301282vw; --heading-arrow-height: 3.301282vw; }
+  .nebu-page[data-project="murad-counter"] { --heading-arrow-left: 55.645032vw; --heading-arrow-top: 2.560096vw; --heading-arrow-width: 3.521635vw; --heading-arrow-height: 3.521635vw; }
+  .nebu-page[data-project="murad-popup"] { --heading-arrow-left: 22.027244vw; --heading-arrow-top: 3.85016vw; --heading-arrow-width: 1.466346vw; --heading-arrow-height: 1.466346vw; }
+  .nebu-page[data-project="klasse14-central"] { --heading-arrow-left: 15.961538vw; --heading-arrow-top: 4.294872vw; --heading-arrow-width: 1.073718vw; --heading-arrow-height: 1.073718vw; }
+  .nebu-page[data-project="tatcha-ifc"] { --heading-arrow-left: 20.308494vw; --heading-arrow-top: 4.294872vw; --heading-arrow-width: 1.338141vw; --heading-arrow-height: 1.338141vw; }
+  .nebu-page[data-project="moleskin"] { --heading-arrow-left: 20.965545vw; --heading-arrow-top: 7.375801vw; --heading-arrow-width: 1.382212vw; --heading-arrow-height: 1.382212vw; }
+  .nebu-page[data-project="glamour"] { --heading-arrow-left: 20.965545vw; --heading-arrow-top: 7.375801vw; --heading-arrow-width: 1.382212vw; --heading-arrow-height: 1.382212vw; }
+  .nebu-page[data-project="park-mountain"] { --heading-arrow-left: 19.831731vw; --heading-arrow-top: 7.447917vw; --heading-arrow-width: 1.310096vw; --heading-arrow-height: 1.310096vw; }
+  .nebu-page[data-project="sheng-chim"] { --heading-arrow-left: 24.022436vw; --heading-arrow-top: 3.513622vw; --heading-arrow-width: 1.570513vw; --heading-arrow-height: 1.570513vw; }
+  .nebu-page[data-project="amorepacific"] { --heading-arrow-left: 20.969551vw; --heading-arrow-top: 6.983173vw; --heading-arrow-width: 1.382212vw; --heading-arrow-height: 1.382212vw; }
+  .nebu-page[data-project="st-regis"] { --heading-arrow-left: 20.965545vw; --heading-arrow-top: 4.294872vw; --heading-arrow-width: 1.382212vw; --heading-arrow-height: 1.382212vw; }
+  .nebu-page[data-project="winfun"] { --heading-arrow-left: 19.827724vw; --heading-arrow-top: 4.294872vw; --heading-arrow-width: 1.310096vw; --heading-arrow-height: 1.310096vw; }
+  .nebu-page[data-project="fresh-office"] { --heading-arrow-left: 19.831731vw; --heading-arrow-top: 4.294872vw; --heading-arrow-width: 1.310096vw; --heading-arrow-height: 1.310096vw; }
+  .nebu-page[data-project="stem-classroom"] { --heading-arrow-left: 28.277244vw; --heading-arrow-top: 6.927083vw; --heading-arrow-width: 1.830929vw; --heading-arrow-height: 1.830929vw; }
+  .nebu-page[data-project="computer-classroom"] { --heading-arrow-left: 27.872596vw; --heading-arrow-top: 6.951122vw; --heading-arrow-width: 1.806891vw; --heading-arrow-height: 1.806891vw; }
+  .nebu-page[data-project="junior-versity"] { --heading-arrow-left: 20.588942vw; --heading-arrow-top: 7.39984vw; --heading-arrow-width: 1.358173vw; --heading-arrow-height: 1.358173vw; }
+  .nebu-page[data-project="stem-computer-lab"] { --heading-arrow-left: 24.579327vw; --heading-arrow-top: 4.022436vw; --heading-arrow-width: 1.50641vw; --heading-arrow-height: 1.50641vw; }
+}
+
+/* Breadcrumb controls follow each reference page's responsive dimensions. */
+#nebuProjectContent .nebu-breadcrumb { padding-right: var(--project-nav-right); }
+#nebuProjectContent .nebu-arrows { gap: var(--project-nav-gap); }
+#nebuProjectContent .nebu-arrows a { width: var(--project-nav-size); height: var(--project-nav-size); }
+@media (min-width: 751px) {
+  .nebu-page[data-project="nebu"] { --project-nav-size: 1.5625vw; --project-nav-gap: 0.78125vw; --project-nav-right: 8.006727vw; }
+  .nebu-page[data-project="klasse14"] { --project-nav-size: 1.5625vw; --project-nav-gap: 0.78125vw; --project-nav-right: 8.046875vw; }
+  .nebu-page[data-project="tatcha"] { --project-nav-size: 1.5625vw; --project-nav-gap: 0.78125vw; --project-nav-right: 8.046875vw; }
+  .nebu-page[data-project="murad-counter"] { --project-nav-size: 1.5625vw; --project-nav-gap: 0.78125vw; --project-nav-right: 8.046875vw; }
+  .nebu-page[data-project="murad-popup"] { --project-nav-size: 1.5625vw; --project-nav-gap: 0.78125vw; --project-nav-right: 8.046875vw; }
+  .nebu-page[data-project="klasse14-central"] { --project-nav-size: 1.5625vw; --project-nav-gap: 0.78125vw; --project-nav-right: 8.046875vw; }
+  .nebu-page[data-project="tatcha-ifc"] { --project-nav-size: 1.5625vw; --project-nav-gap: 0.78125vw; --project-nav-right: 8.046875vw; }
+  .nebu-page[data-project="moleskin"] { --project-nav-size: 1.5625vw; --project-nav-gap: 0.78125vw; --project-nav-right: 8.046875vw; }
+  .nebu-page[data-project="glamour"] { --project-nav-size: 1.5625vw; --project-nav-gap: 0.78125vw; --project-nav-right: 8.046875vw; }
+  .nebu-page[data-project="park-mountain"] { --project-nav-size: 1.5625vw; --project-nav-gap: 0.78125vw; --project-nav-right: 8.006727vw; }
+  .nebu-page[data-project="sheng-chim"] { --project-nav-size: 1.5625vw; --project-nav-gap: 0.78125vw; --project-nav-right: 8.006727vw; }
+  .nebu-page[data-project="amorepacific"] { --project-nav-size: 1.5625vw; --project-nav-gap: 0.78125vw; --project-nav-right: 8.046875vw; }
+  .nebu-page[data-project="st-regis"] { --project-nav-size: 1.5625vw; --project-nav-gap: 0.78125vw; --project-nav-right: 8.006727vw; }
+  .nebu-page[data-project="winfun"] { --project-nav-size: 1.5625vw; --project-nav-gap: 0.78125vw; --project-nav-right: 8.006727vw; }
+  .nebu-page[data-project="fresh-office"] { --project-nav-size: 1.5625vw; --project-nav-gap: 0.78125vw; --project-nav-right: 8.006727vw; }
+  .nebu-page[data-project="stem-classroom"] { --project-nav-size: 1.5625vw; --project-nav-gap: 0.78125vw; --project-nav-right: 8.006727vw; }
+  .nebu-page[data-project="computer-classroom"] { --project-nav-size: 1.5625vw; --project-nav-gap: 0.78125vw; --project-nav-right: 8.006727vw; }
+  .nebu-page[data-project="junior-versity"] { --project-nav-size: 1.5625vw; --project-nav-gap: 0.78125vw; --project-nav-right: 8.006727vw; }
+  .nebu-page[data-project="stem-computer-lab"] { --project-nav-size: 1.5625vw; --project-nav-gap: 0.0vw; --project-nav-right: 7.96875vw; }
+}
+@media (max-width: 750px) {
+  .nebu-page[data-project="nebu"] { --project-nav-size: 5.128221vw; --project-nav-gap: 2.04726vw; --project-nav-right: 4.35496vw; }
+  .nebu-page[data-project="klasse14"] { --project-nav-size: 5.128221vw; --project-nav-gap: 2.04726vw; --project-nav-right: 4.35496vw; }
+  .nebu-page[data-project="tatcha"] { --project-nav-size: 5.128221vw; --project-nav-gap: 1.99718vw; --project-nav-right: 4.30488vw; }
+  .nebu-page[data-project="murad-counter"] { --project-nav-size: 5.128221vw; --project-nav-gap: 2.04726vw; --project-nav-right: 4.35496vw; }
+  .nebu-page[data-project="murad-popup"] { --project-nav-size: 1.5625vw; --project-nav-gap: 0.78125vw; --project-nav-right: 8.044872vw; }
+  .nebu-page[data-project="klasse14-central"] { --project-nav-size: 1.5625vw; --project-nav-gap: 0.78125vw; --project-nav-right: 8.044872vw; }
+  .nebu-page[data-project="tatcha-ifc"] { --project-nav-size: 1.5625vw; --project-nav-gap: 0.78125vw; --project-nav-right: 8.044872vw; }
+  .nebu-page[data-project="moleskin"] { --project-nav-size: 1.5625vw; --project-nav-gap: 0.78125vw; --project-nav-right: 8.044872vw; }
+  .nebu-page[data-project="glamour"] { --project-nav-size: 1.5625vw; --project-nav-gap: 0.78125vw; --project-nav-right: 8.044872vw; }
+  .nebu-page[data-project="park-mountain"] { --project-nav-size: 1.5625vw; --project-nav-gap: 0.78125vw; --project-nav-right: 8.004808vw; }
+  .nebu-page[data-project="sheng-chim"] { --project-nav-size: 1.5625vw; --project-nav-gap: 0.78125vw; --project-nav-right: 8.004808vw; }
+  .nebu-page[data-project="amorepacific"] { --project-nav-size: 1.5625vw; --project-nav-gap: 0.78125vw; --project-nav-right: 8.044872vw; }
+  .nebu-page[data-project="st-regis"] { --project-nav-size: 1.5625vw; --project-nav-gap: 0.78125vw; --project-nav-right: 8.004808vw; }
+  .nebu-page[data-project="winfun"] { --project-nav-size: 1.5625vw; --project-nav-gap: 0.78125vw; --project-nav-right: 8.004808vw; }
+  .nebu-page[data-project="fresh-office"] { --project-nav-size: 1.5625vw; --project-nav-gap: 0.78125vw; --project-nav-right: 8.004808vw; }
+  .nebu-page[data-project="stem-classroom"] { --project-nav-size: 1.5625vw; --project-nav-gap: 0.78125vw; --project-nav-right: 8.004808vw; }
+  .nebu-page[data-project="computer-classroom"] { --project-nav-size: 1.5625vw; --project-nav-gap: 0.78125vw; --project-nav-right: 8.004808vw; }
+  .nebu-page[data-project="junior-versity"] { --project-nav-size: 1.5625vw; --project-nav-gap: 0.78125vw; --project-nav-right: 8.004808vw; }
+  .nebu-page[data-project="stem-computer-lab"] { --project-nav-size: 1.5625vw; --project-nav-gap: 0.0vw; --project-nav-right: 7.96875vw; }
 }
