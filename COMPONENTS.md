@@ -56,3 +56,5 @@ Quote 表單字型與排列校正：標題採 Quote Trajan 12px／15px，選項�
 Quote 表單尺寸複核：Trajan／Gotham 的本機 WOFF2 與原站 SHA-256 相同。底塊保留 1px 透明邊框，桌機 padding 24px 39px；手機底塊 90vw、padding 30px 33px。輸入底線採 rgba(0,0,0,.32)，文字色 #5b564c，電話選擇器占 52px。手機仍使用適應螢幕的換行，不複製 Wix 表單內容超出底塊的問題。
 
 Quote 表單後續調整：FLOOR PLAN (IF ANY) 與 AREA(SQFT)* 在桌機及手機皆各佔完整一列，上下排列；兩者皆為文字輸入框，AREA 保留必填設定。
+
+Quote 手機表單最新設定：750px 以下全部欄位與選項皆為單欄，每項獨立一行，包括 NAME、CONTACT NUMBER、PROJECT TYPE 與得知管道；桌機排列維持不變。
