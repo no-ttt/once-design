@@ -8,18 +8,28 @@
     content="ONCE DESIGN - Space is the most profound expression of a brand's identity; every spatial element must serve a strategic purpose.">
   <title>ONCE DESIGN | Space is the Art of Value in Evolution</title>
   <style>
-    html.hero-loading { background: #111; overflow: hidden; }
+    html.hero-loading { background: #111; }
     html.hero-loading body { visibility: hidden; }
   </style>
-  <noscript><style>html.hero-loading { overflow: auto; } html.hero-loading body { visibility: visible; }</style></noscript>
+  <noscript><style>html.hero-loading body { visibility: visible; }</style></noscript>
   <script>
-    window.heroRevealFallback = window.setTimeout(() => {
-      if (typeof window.revealHeroAfterImage === 'function') {
-        window.revealHeroAfterImage();
-      } else {
+    // Image loading may hide the initial paint, but must never trap scrolling.
+    (() => {
+      const input = new AbortController();
+      const reveal = () => {
+        clearTimeout(window.heroRevealFallback);
+        input.abort();
         document.documentElement.classList.remove('hero-loading');
+        window.revealHeroAfterImage?.();
+      };
+      window.heroRevealFallback = window.setTimeout(reveal, 1800);
+      for (const type of ['wheel', 'touchstart', 'pointerdown']) {
+        addEventListener(type, reveal, { passive: true, signal: input.signal });
       }
-    }, 12000);
+      addEventListener('keydown', event => {
+        if (['ArrowDown', 'ArrowUp', 'PageDown', 'PageUp', 'Home', 'End', ' '].includes(event.key)) reveal();
+      }, { signal: input.signal });
+    })();
   </script>
   <link id="heroImagePreload" rel="preload" as="image" href="assets/images/home/home-banner.webp?v=3" type="image/webp" fetchpriority="high">
   <link rel="preload" as="font" href="assets/fonts/IvyOraDisplay-Medium.ttf" type="font/ttf" crossorigin>
@@ -35,6 +45,7 @@
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="assets/css/style.css?v=1.74">
   <link rel="stylesheet" href="assets/css/common.css?v=4">
+<link rel="stylesheet" href="assets/css/tablet.css?v=7">
 </head>
 
 <body data-page="home">
@@ -476,8 +487,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 
   <!-- Main Interaction Script -->
-  <script src="assets/js/common.js?v=15"></script>
-  <script src="assets/js/script.js?v=1.39"></script>
+  <script src="assets/js/common.js?v=16"></script>
+  <script src="assets/js/script.js?v=1.40"></script>
 </body>
 
 </html>

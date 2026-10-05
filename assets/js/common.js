@@ -192,7 +192,9 @@
   // homepage paints. Store the target instead so the homepage can visibly
   // scroll down to it after it has loaded.
   const homeSectionLinks = [...document.querySelectorAll('a[href^="index.html#"]')];
+  let cancelHomeScroll = () => {};
   const smoothScrollToHomeSection = targetId => {
+    cancelHomeScroll();
     const target = document.getElementById(targetId);
     if (!target) return;
     if (matchMedia('(prefers-reduced-motion: reduce)').matches) {
@@ -202,15 +204,30 @@
     const start = scrollY;
     const destination = start + target.getBoundingClientRect().top;
     const distance = destination - start;
+    // HOME at the top needs no animation; repeated scrollTo(0, 0) traps input.
+    if (Math.abs(distance) < 1) return;
+    let frame;
+    const inputListeners = new AbortController();
+    cancelHomeScroll = () => {
+      cancelAnimationFrame(frame);
+      inputListeners.abort();
+    };
+    for (const type of ['wheel', 'touchstart', 'pointerdown']) {
+      addEventListener(type, cancelHomeScroll, { passive: true, signal: inputListeners.signal });
+    }
+    addEventListener('keydown', event => {
+      if (['ArrowDown', 'ArrowUp', 'PageDown', 'PageUp', 'Home', 'End', ' '].includes(event.key)) cancelHomeScroll();
+    }, { signal: inputListeners.signal });
     const duration = 4000;
     const startedAt = performance.now();
     const ease = progress => 1 - Math.pow(1 - progress, 3);
     const step = now => {
       const progress = Math.min(1, (now - startedAt) / duration);
       scrollTo(0, start + distance * ease(progress));
-      if (progress < 1) requestAnimationFrame(step);
+      if (progress < 1) frame = requestAnimationFrame(step);
+      else cancelHomeScroll();
     };
-    requestAnimationFrame(step);
+    frame = requestAnimationFrame(step);
   };
   homeSectionLinks.forEach(link => link.addEventListener('click', event => {
     if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;

@@ -214,11 +214,12 @@ document.addEventListener('DOMContentLoaded', () => {
   // Keep mobile cards at the desktop hand-off position where space permits.
   // A short viewport must still expose the full copy and SEE MORE control.
   const servicePositionMedia = window.matchMedia('(max-width: 750px)');
+  const serviceTabletMedia = window.matchMedia('(min-width: 751px) and (max-width: 1400px) and (any-pointer: coarse)');
   const servicePanels = [...document.querySelectorAll('.service-panel')];
   const updateServiceContentHeight = () => {
     const contentHeight = Math.max(0, ...servicePanels.map(panel => panel.querySelector('.service-panel-inner').offsetHeight));
     servicePanels.forEach(panel => {
-      if (servicePositionMedia.matches) {
+      if (servicePositionMedia.matches || serviceTabletMedia.matches) {
         panel.style.setProperty('--service-content-height', `${contentHeight}px`);
       } else {
         panel.style.removeProperty('--service-content-height');
@@ -227,6 +228,7 @@ document.addEventListener('DOMContentLoaded', () => {
   };
   updateServiceContentHeight();
   servicePositionMedia.addEventListener('change', updateServiceContentHeight);
+  serviceTabletMedia.addEventListener('change', updateServiceContentHeight);
   window.addEventListener('resize', updateServiceContentHeight);
   if ('ResizeObserver' in window) {
     const serviceSizeObserver = new ResizeObserver(updateServiceContentHeight);
@@ -392,7 +394,7 @@ document.addEventListener('DOMContentLoaded', () => {
           trigger: panel, start: 'top 95%',
           // Finish when the sticky panel reaches its hand-off line, so the
           // next service replaces it exactly as the reveal completes.
-          end: () => window.innerWidth <= 750 ? `top ${getComputedStyle(panel).top}` : 'top 55%',
+          end: () => (window.innerWidth <= 750 || serviceTabletMedia.matches) ? `top ${getComputedStyle(panel).top}` : 'top 55%',
           scrub: true,
           invalidateOnRefresh: true
         } });

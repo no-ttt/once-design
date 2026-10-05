@@ -34,6 +34,8 @@
 
 - 首頁排版：先讀 [桌面版保留紀錄](HOMEPAGE-DESKTOP.md)，手機樣式修改須保留既有桌面排版。
 
+- iPad／平板排版：編輯 `assets/css/tablet.css`，由所有 HTML 最後載入。僅於 751–1400px 且具觸控輸入（`any-pointer: coarse`）時生效；750px 以下保留手機版，純滑鼠桌機不套用。瀏覽器模擬時需啟用觸控，單純縮小桌機視窗不會啟用。
+
 - 新增文章：編輯 `assets/data/trends-articles.json`，詳見 [TRENDS.md](TRENDS.md)。
 - 修改作品：編輯 `assets/data/nebu-projects.js`。它是 JavaScript 資料檔，保留 `window.nebuProjects =`。
 - 新增圖片：放進對應頁面或 `assets/images/projects/專案名稱/`，檔名使用英文小寫及連字號。
