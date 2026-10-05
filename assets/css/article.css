@@ -141,6 +141,6 @@
 }
 
 /* Related reading and image attribution share a consistent article treatment. */
-.moorgen-prose a[href^="trend.html?article="] { text-decoration: underline; text-underline-offset: .18em; }
+.moorgen-prose a[href^="article.html?article="] { text-decoration: underline; text-underline-offset: .18em; }
 #trend-content > .trend-auto-copy.trend-photo-credit { margin-top: 20px; }
 .trend-photo-credit .moorgen-prose { color: #5b564c; font-size: clamp(11px, .8vw, 13px); line-height: 1.5; }

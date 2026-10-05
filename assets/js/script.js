@@ -818,7 +818,7 @@ document.addEventListener('DOMContentLoaded', () => {
     card.querySelector('.category').textContent = project.category;
     const brand = card.querySelector('.brand-name');
     brand.innerHTML = project.brand === 'NEBU'
-      ? '<a href="nebu.html">NEBU</a>'
+      ? '<a href="project.html">NEBU</a>'
       : project.brand;
     const location = card.querySelector('.location-name');
     location.textContent = project.location;

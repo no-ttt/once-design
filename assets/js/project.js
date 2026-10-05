@@ -1,5 +1,5 @@
 (() => {
-  const projects = window.nebuProjects;
+  const projects = window.projects;
   if (!projects?.length) return;
   const main = document.querySelector('main');
   const contact = main.querySelector('.nebu-contact');
@@ -9,7 +9,7 @@
   [...main.children].filter(node => node !== container && node !== contact).forEach(node => container.append(node));
   const template = container.innerHTML;
   const logo = document.querySelector('.brand-logo img');
-  if (logo) { logo.src = 'assets/images/shared/logo.png'; logo.width = 181; logo.height = 83; }
+  if (logo) { logo.src = '../assets/images/shared/logo.png'; logo.width = 181; logo.height = 83; }
   const escape = text => String(text).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
   const lines = text => escape(text).replace(/\n+/g, '<br>');
   // Keep a separator with its preceding word without changing desktop wrapping.
@@ -115,7 +115,7 @@
         const picture = document.createElement('picture');
         const source = document.createElement('source');
         source.media = '(max-width: 750px)';
-        source.srcset = 'assets/images/projects/nebu/mobile-gallery-' + (index + 1) + '.jpg';
+        source.srcset = '../assets/images/projects/nebu/mobile-gallery-' + (index + 1) + '.jpg';
         picture.append(source, link.querySelector('img'));
         link.append(picture);
       }
@@ -125,7 +125,7 @@
       container.querySelectorAll('.nebu-arrows a:' + position + '-child, .nebu-project-nav a:' + position + '-child').forEach(link => {
         const label = target ? projects.find(p => p.id === target).title : '';
         link.hidden = position === 'last' && !target;
-        link.href = target ? 'nebu.html?project=' + encodeURIComponent(target) : 'work.html#panel-retail';
+        link.href = target ? 'project.html?project=' + encodeURIComponent(target) : 'work.html#panel-retail';
         if (target) link.dataset.project = target;
         else delete link.dataset.project;
         link.setAttribute('aria-label', target ? (position === 'first' ? 'Previous project: ' : 'Next project: ') + label : 'Back to commercial projects');
@@ -145,16 +145,18 @@
     scrollTo({top:0, behavior:'instant'});
     if (focus) { title.tabIndex = -1; title.focus({preventScroll:true}); }
     dispose = initialize();
-    history.replaceState({...history.state, nebuProject: current}, '', location.pathname);
+    const url = new URL(location.href);
+    url.searchParams.set('project', current);
+    history.replaceState({...history.state, nebuProject: current}, '', url.pathname + url.search + url.hash);
   }
   container.addEventListener('click', event => {
     const link = event.target.closest('a[data-project]');
     if (!link || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
     event.preventDefault();
-    history.pushState({nebuProject:link.dataset.project}, '', location.pathname);
+    history.pushState({nebuProject:link.dataset.project}, '', link.href);
     render(link.dataset.project, true);
   });
-  addEventListener('popstate', event => render(event.state?.nebuProject || 'nebu', true));
+  addEventListener('popstate', event => render(new URLSearchParams(location.search).get('project') || event.state?.nebuProject || 'nebu', true));
   function initialize() {
     const listeners = new AbortController();
     const listen = (target, type, handler, options = {}) => target.addEventListener(type, handler, {...options, signal:listeners.signal});
@@ -455,9 +457,4 @@
   try { saved = sessionStorage.getItem('nebu-project'); sessionStorage.removeItem('nebu-project'); } catch {}
   const requested = new URLSearchParams(location.search).get('project');
   render(requested || history.state?.nebuProject || saved || document.body.dataset.project || 'nebu');
-  if (requested) {
-    const url = new URL(location.href);
-    url.searchParams.delete('project');
-    history.replaceState({ ...history.state, nebuProject: current }, '', url.pathname + url.search + url.hash);
-  }
 })();

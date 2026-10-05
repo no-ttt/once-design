@@ -2,7 +2,7 @@
 (async () => {
   const content = document.getElementById('trend-content');
   const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  const href = item => `trend.html?article=${encodeURIComponent(item.id)}`;
+  const href = item => `article.html?article=${encodeURIComponent(item.id)}`;
   const date = value => value ? new Date(value + 'T12:00:00').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' }) : '';
   // Article paragraphs support only editorial links and line breaks.
   const paragraph = value => {
@@ -20,7 +20,7 @@
     return [...template.content.childNodes].map(clean).join('');
   };
   try {
-    const response = await fetch('assets/data/trends-articles.json');
+    const response = await fetch('../assets/data/trends-articles.json');
     if (!response.ok) throw new Error(`Articles: ${response.status}`);
     const items = await response.json();
     if (!Array.isArray(items) || !items.length || new Set(items.map(i => i.id)).size !== items.length) throw new Error('Invalid article IDs');
@@ -59,7 +59,7 @@
       return `<section class="moorgen-copy ${escape(block.variant || '')} ${block.layout ? '' : 'trend-auto-copy'}" style="${layout}">${block.heading ? `<h2>${escape(block.heading)}</h2>` : ''}<div class="moorgen-prose">${(block.paragraphs || []).map(p => `<p>${paragraph(p)}</p>`).join('')}</div></section>`;
     }).join('') + `<div class="moorgen-back"><a href="trends.html#articles">BACK TO ALL TRENDS</a></div>` + (items.length > 1 ? `<nav class="moorgen-navigation" aria-label="Article navigation">${[[-1,'PREVIOUS'],[1,'NEXT']].map(([step,label]) => { const next = items[(index + step + items.length) % items.length]; return `<a href="${href(next)}"><span>${label}</span><p>${escape(next.title)}</p></a>`; }).join('')}</nav>` : '');
     const motion = document.createElement('script');
-    motion.src = 'assets/js/moorgen.js?v=3';
+    motion.src = '../assets/js/article.js?v=3';
     document.body.append(motion);
   } catch (error) {
     console.error(error);

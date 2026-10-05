@@ -17,7 +17,9 @@ for source in ROOT.rglob('*'):
     if source.suffix == '.css':
         refs = [(source.parent, m.group(2)) for m in re.finditer(r'url\(\s*([\'"]?)([^)\'"]+)\1\s*\)', text)]
     else:
-        refs = [(ROOT, m.group()) for m in re.finditer(r'assets/[\w./-]+\.(?:jpg|jpeg|png|svg|webp|avif|mp4|css|js|json|woff2?|ttf|otf)\b', text)]
+        # JS/JSON asset values are resolved by pages one level below the root.
+        base = source.parent if source.suffix == '.html' else ROOT / 'en'
+        refs = [(base, m.group()) for m in re.finditer(r'(?:\.\./)?assets/[\w./-]+\.(?:jpg|jpeg|png|svg|webp|avif|mp4|css|js|json|woff2?|ttf|otf)\b', text)]
     for base, ref in refs:
         if ref.startswith(('data:', 'https:', 'http:', '//', '#')):
             continue

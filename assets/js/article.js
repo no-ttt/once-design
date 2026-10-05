@@ -1,6 +1,6 @@
 (() => {
   const logo = document.querySelector('.brand-logo img');
-  if (logo) logo.src = 'assets/images/shared/quote-logo.png';
+  if (logo) logo.src = '../assets/images/shared/quote-logo.png';
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
   // Wix applies Arc to the text group, not the heading alone.
   const groups = [...document.querySelectorAll('.moorgen-copy')].filter(section => section.querySelector('h2')).map(section => {

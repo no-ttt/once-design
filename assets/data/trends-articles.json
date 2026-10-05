@@ -3,12 +3,12 @@
     "id": "moorgen",
     "category": "trends",
     "title": "Moorgen Smart Home System Product Launch 2023: Insights from Once Design Studio",
-    "thumbnail": "assets/images/trends/trends-crop-1.jpg",
+    "thumbnail": "../assets/images/trends/trends-crop-1.jpg",
     "date": "2023-09-28",
     "label": "September 28, 2023",
     "author": "ONCE DESIGN",
     "readTime": "3 MIN READ",
-    "hero": "assets/images/trends/trends-1.jpg",
+    "hero": "../assets/images/trends/trends-1.jpg",
     "blocks": [
       {
         "type": "text",
@@ -25,7 +25,7 @@
         "layout": "--section-height:37.69639756944444vw;--mobile-height:50.00400641025641vw",
         "reference": "comp-mrvtg8yw",
         "variant": "",
-        "src": "assets/images/trends/moorgen/moorgen-01.jpg",
+        "src": "../assets/images/trends/moorgen/moorgen-01.jpg",
         "alt": "Moorgen 2023 product launch and design presentation",
         "width": 1728,
         "height": 972
@@ -35,7 +35,7 @@
         "layout": "--section-height:37.73328993055556vw;--mobile-height:49.99599358974359vw",
         "reference": "comp-mrvtg3my",
         "variant": "",
-        "src": "assets/images/trends/moorgen/moorgen-02.jpg",
+        "src": "../assets/images/trends/moorgen/moorgen-02.jpg",
         "alt": "Moorgen 2023 product launch and design presentation",
         "width": 1728,
         "height": 972
@@ -45,7 +45,7 @@
         "layout": "--section-height:37.73328993055556vw;--mobile-height:49.99599358974359vw",
         "reference": "comp-mrvtobd9",
         "variant": "",
-        "src": "assets/images/trends/moorgen/moorgen-03.jpg",
+        "src": "../assets/images/trends/moorgen/moorgen-03.jpg",
         "alt": "Moorgen 2023 product launch and design presentation",
         "width": 1728,
         "height": 972
@@ -65,7 +65,7 @@
         "layout": "--section-height:37.73328993055556vw;--mobile-height:49.99599358974359vw",
         "reference": "comp-mrvtvwv4",
         "variant": "",
-        "src": "assets/images/trends/moorgen/moorgen-04.jpg",
+        "src": "../assets/images/trends/moorgen/moorgen-04.jpg",
         "alt": "Moorgen 2023 product launch and design presentation",
         "width": 1728,
         "height": 972
@@ -75,7 +75,7 @@
         "layout": "--section-height:37.73328993055556vw;--mobile-height:49.99599358974359vw",
         "reference": "comp-mrvtvnlw",
         "variant": "",
-        "src": "assets/images/trends/moorgen/moorgen-05.jpg",
+        "src": "../assets/images/trends/moorgen/moorgen-05.jpg",
         "alt": "Moorgen 2023 product launch and design presentation",
         "width": 1728,
         "height": 972
@@ -95,7 +95,7 @@
         "layout": "--section-height:37.73328993055556vw;--mobile-height:49.99599358974359vw",
         "reference": "comp-mrvtz61y",
         "variant": "",
-        "src": "assets/images/trends/moorgen/moorgen-06.jpg",
+        "src": "../assets/images/trends/moorgen/moorgen-06.jpg",
         "alt": "Moorgen 2023 product launch and design presentation",
         "width": 1728,
         "height": 972
@@ -105,7 +105,7 @@
         "layout": "--section-height:37.73328993055556vw;--mobile-height:49.99599358974359vw",
         "reference": "comp-mrvtz2yx",
         "variant": "",
-        "src": "assets/images/trends/moorgen/moorgen-07.jpg",
+        "src": "../assets/images/trends/moorgen/moorgen-07.jpg",
         "alt": "Moorgen 2023 product launch and design presentation",
         "width": 1728,
         "height": 972
@@ -125,7 +125,7 @@
         "layout": "--section-height:37.73328993055556vw;--mobile-height:49.99599358974359vw",
         "reference": "comp-mrvu6pyt",
         "variant": "",
-        "src": "assets/images/trends/moorgen/moorgen-08.jpg",
+        "src": "../assets/images/trends/moorgen/moorgen-08.jpg",
         "alt": "Moorgen 2023 product launch and design presentation",
         "width": 1728,
         "height": 972
@@ -135,7 +135,7 @@
         "layout": "--section-height:37.73328993055556vw;--mobile-height:49.99599358974359vw",
         "reference": "comp-mrvu6nlp",
         "variant": "",
-        "src": "assets/images/trends/moorgen/moorgen-09.jpg",
+        "src": "../assets/images/trends/moorgen/moorgen-09.jpg",
         "alt": "Moorgen 2023 product launch and design presentation",
         "width": 1728,
         "height": 972
@@ -145,7 +145,7 @@
         "layout": "--section-height:37.73328993055556vw;--mobile-height:49.99599358974359vw",
         "reference": "comp-mrvu6990",
         "variant": "",
-        "src": "assets/images/trends/moorgen/moorgen-10.jpg",
+        "src": "../assets/images/trends/moorgen/moorgen-10.jpg",
         "alt": "Moorgen 2023 product launch and design presentation",
         "width": 1728,
         "height": 972
@@ -155,7 +155,7 @@
         "layout": "--section-height:37.73328993055556vw;--mobile-height:49.99599358974359vw",
         "reference": "comp-mrvu678b",
         "variant": "",
-        "src": "assets/images/trends/moorgen/moorgen-11.jpg",
+        "src": "../assets/images/trends/moorgen/moorgen-11.jpg",
         "alt": "Moorgen 2023 product launch and design presentation",
         "width": 1728,
         "height": 972
@@ -175,7 +175,7 @@
         "layout": "--section-height:37.73328993055556vw;--mobile-height:49.99599358974359vw",
         "reference": "comp-mrvuyi0v",
         "variant": "",
-        "src": "assets/images/trends/moorgen/moorgen-12.png",
+        "src": "../assets/images/trends/moorgen/moorgen-12.png",
         "alt": "Moorgen 2023 product launch and design presentation",
         "width": 1728,
         "height": 972
@@ -185,7 +185,7 @@
         "layout": "--section-height:37.73328993055556vw;--mobile-height:49.99599358974359vw",
         "reference": "comp-mrvuymka",
         "variant": "",
-        "src": "assets/images/trends/moorgen/moorgen-13.png",
+        "src": "../assets/images/trends/moorgen/moorgen-13.png",
         "alt": "Moorgen Supercar smart panel design",
         "width": 1728,
         "height": 972
@@ -195,7 +195,7 @@
         "layout": "--section-height:37.73328993055556vw;--mobile-height:49.99599358974359vw",
         "reference": "comp-mrvuylrd",
         "variant": "",
-        "src": "assets/images/trends/moorgen/moorgen-14.png",
+        "src": "../assets/images/trends/moorgen/moorgen-14.png",
         "alt": "Moorgen Supercar smart panel design",
         "width": 1728,
         "height": 972
@@ -205,7 +205,7 @@
         "layout": "--section-height:37.73328993055556vw;--mobile-height:49.99599358974359vw",
         "reference": "comp-mrvuyfff",
         "variant": "",
-        "src": "assets/images/trends/moorgen/moorgen-15.png",
+        "src": "../assets/images/trends/moorgen/moorgen-15.png",
         "alt": "Moorgen Supercar smart panel design",
         "width": 1728,
         "height": 972
@@ -224,16 +224,16 @@
       }
     ],
     "description": "Once Design Studio’s insights from the Moorgen Smart Home System Product Launch 2023 in Hong Kong.",
-    "titleImage": "assets/images/trends/moorgen/moorgen-title.png"
+    "titleImage": "../assets/images/trends/moorgen/moorgen-title.png"
   },
   {
     "id": "hong-kong-malls-retail-store-renovation",
     "category": "trends",
     "title": "Hong Kong Malls’ Retail Store Renovation | Preliminary Design Approval Process & Timeline (With Document Checklist)",
-    "thumbnail": "assets/images/trends/hong-kong-malls-retail-store-renovation/retail-store-hero.jpg",
+    "thumbnail": "../assets/images/trends/hong-kong-malls-retail-store-renovation/retail-store-hero.jpg",
     "date": "2026-04-02",
     "author": "ONCE DESIGN",
-    "hero": "assets/images/trends/hong-kong-malls-retail-store-renovation/retail-store-hero.jpg",
+    "hero": "../assets/images/trends/hong-kong-malls-retail-store-renovation/retail-store-hero.jpg",
     "description": "An overview of Hong Kong mall retail renovation submissions, approval timelines and required design documents.",
     "sourceUrl": "https://once-hk.com/design-trend/2023商場店鋪裝修/",
     "blocks": [
@@ -251,7 +251,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/hong-kong-malls-retail-store-renovation/ceiling-lighting-plan.jpg",
+        "src": "../assets/images/trends/hong-kong-malls-retail-store-renovation/ceiling-lighting-plan.jpg",
         "alt": "Reflected ceiling and lighting plan",
         "width": 1234,
         "height": 765,
@@ -272,7 +272,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/hong-kong-malls-retail-store-renovation/details-drawing.jpg",
+        "src": "../assets/images/trends/hong-kong-malls-retail-store-renovation/details-drawing.jpg",
         "alt": "Schematic diagram of decoration details",
         "width": 1259,
         "height": 450,
@@ -280,7 +280,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/hong-kong-malls-retail-store-renovation/elevation.jpg",
+        "src": "../assets/images/trends/hong-kong-malls-retail-store-renovation/elevation.jpg",
         "alt": "Elevation view",
         "width": 1179,
         "height": 504,
@@ -288,7 +288,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/hong-kong-malls-retail-store-renovation/material-sample-board.jpg",
+        "src": "../assets/images/trends/hong-kong-malls-retail-store-renovation/material-sample-board.jpg",
         "alt": "Material sample board",
         "width": 1280,
         "height": 970,
@@ -309,7 +309,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/hong-kong-malls-retail-store-renovation/ifc-mall-submission-flow-chart.jpg",
+        "src": "../assets/images/trends/hong-kong-malls-retail-store-renovation/ifc-mall-submission-flow-chart.jpg",
         "alt": "IFC Mall approval process, June 2022",
         "width": 502,
         "height": 494,
@@ -317,7 +317,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/hong-kong-malls-retail-store-renovation/k11-art-mall-submission-flow-chart.jpg",
+        "src": "../assets/images/trends/hong-kong-malls-retail-store-renovation/k11-art-mall-submission-flow-chart.jpg",
         "alt": "K11 Art Mall approval process, revision 3",
         "width": 455,
         "height": 722,
@@ -325,7 +325,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/hong-kong-malls-retail-store-renovation/k11-musea-submission-flow-chart.jpg",
+        "src": "../assets/images/trends/hong-kong-malls-retail-store-renovation/k11-musea-submission-flow-chart.jpg",
         "alt": "K11 Musea approval process, November 2021",
         "width": 554,
         "height": 700,
@@ -333,7 +333,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/hong-kong-malls-retail-store-renovation/southside-submission-flow-chart.jpg",
+        "src": "../assets/images/trends/hong-kong-malls-retail-store-renovation/southside-submission-flow-chart.jpg",
         "alt": "The Southside approval process, 2023",
         "width": 668,
         "height": 913,
@@ -343,7 +343,7 @@
         "type": "text",
         "paragraphs": [
           "The above-mentioned approval timelines and document requirements serve as mere guidelines. The exact prerequisites and standards are grounded in each mall's official design and renovation regulations. This accentuates the importance of partnering with an interior design and renovation studio deeply acquainted with these processes. Once Design Studio, with its rich tapestry of experience, is poised to furnish all the delineated documents and offer expert consultations. Distinct from conventional renovation firms, we possess an intimate familiarity with mall renovation protocols, ensuring that retail ventures flourish with swift and smooth completions.",
-          "<strong><a href=\"trend.html?article=commercial-interior-design-sales-brand-value\">Read More&gt;&gt;&gt;Hong Kong Commercial Interior Design: How to Boost Sales and Create Brand Value through Space Design?</a></strong>",
+          "<strong><a href=\"article.html?article=commercial-interior-design-sales-brand-value\">Read More&gt;&gt;&gt;Hong Kong Commercial Interior Design: How to Boost Sales and Create Brand Value through Space Design?</a></strong>",
           "Hong Kong's retail landscape is set to expand. Leading retailers and businesses have begun approaching us to explore opportunities for interior design collaborations and services. If you have any inquiries or would like to request a consultation or a quote, please don't hesitate to contact us."
         ]
       },
@@ -373,8 +373,8 @@
     "title": "Healthcare & Medical Aesthetic Spaces Hong Kong | Implementation Roadmap + International Case Studies",
     "date": "2026-01-25",
     "author": "ONCE DESIGN",
-    "thumbnail": "assets/images/trends/healthcare-medical-aesthetic-spaces-hong-kong/healthcare-hero.jpg",
-    "hero": "assets/images/trends/healthcare-medical-aesthetic-spaces-hong-kong/healthcare-hero.jpg",
+    "thumbnail": "../assets/images/trends/healthcare-medical-aesthetic-spaces-hong-kong/healthcare-hero.jpg",
+    "hero": "../assets/images/trends/healthcare-medical-aesthetic-spaces-hong-kong/healthcare-hero.jpg",
     "description": "A healthcare and medical aesthetic design roadmap for Hong Kong, with international case studies and three clinic concepts.",
     "sourceUrl": "https://once-hk.com/design-trend/%e9%86%ab%e7%99%82%e4%b8%ad%e5%bf%83-%e9%86%ab%e7%be%8e%e7%a9%ba%e9%96%93%e8%a8%ad%e8%a8%88-%e8%97%8d%e5%9c%96%e6%96%b9%e6%a1%88-%e5%9c%8b%e9%9a%9b%e6%a1%88%e4%be%8b/",
     "blocks": [
@@ -391,21 +391,21 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/healthcare-medical-aesthetic-spaces-hong-kong/clinic-design-concept.jpg",
+        "src": "../assets/images/trends/healthcare-medical-aesthetic-spaces-hong-kong/clinic-design-concept.jpg",
         "alt": "Medical aesthetic clinic design concept",
         "width": 1592,
         "height": 1592
       },
       {
         "type": "image",
-        "src": "assets/images/trends/healthcare-medical-aesthetic-spaces-hong-kong/smart-medical-space.jpg",
+        "src": "../assets/images/trends/healthcare-medical-aesthetic-spaces-hong-kong/smart-medical-space.jpg",
         "alt": "Smart and sustainable medical space",
         "width": 1920,
         "height": 1072
       },
       {
         "type": "image",
-        "src": "assets/images/trends/healthcare-medical-aesthetic-spaces-hong-kong/clinic-interior.jpg",
+        "src": "../assets/images/trends/healthcare-medical-aesthetic-spaces-hong-kong/clinic-interior.jpg",
         "alt": "Clinic interior design",
         "width": 1920,
         "height": 1321
@@ -432,7 +432,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/healthcare-medical-aesthetic-spaces-hong-kong/seoul-clinic.jpg",
+        "src": "../assets/images/trends/healthcare-medical-aesthetic-spaces-hong-kong/seoul-clinic.jpg",
         "alt": "Seoul Gangnam medical aesthetic clinic",
         "width": 800,
         "height": 530
@@ -459,7 +459,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/healthcare-medical-aesthetic-spaces-hong-kong/singapore-hospital.webp",
+        "src": "../assets/images/trends/healthcare-medical-aesthetic-spaces-hong-kong/singapore-hospital.webp",
         "alt": "Singapore private hospital room",
         "width": 508,
         "height": 320
@@ -524,8 +524,8 @@
     "title": "Medical Aesthetic Client Acquisition | How Interior Design Drives Footfall and Conversion",
     "date": "2026-01-24",
     "author": "ONCE DESIGN",
-    "thumbnail": "assets/images/trends/medical-aesthetic-client-acquisition/clinic-hero.jpg",
-    "hero": "assets/images/trends/medical-aesthetic-client-acquisition/clinic-hero.jpg",
+    "thumbnail": "../assets/images/trends/medical-aesthetic-client-acquisition/clinic-hero.jpg",
+    "hero": "../assets/images/trends/medical-aesthetic-client-acquisition/clinic-hero.jpg",
     "description": "How medical aesthetic clinic interior design attracts clients, builds trust and improves conversion in Hong Kong.",
     "sourceUrl": "https://once-hk.com/design-trend/%e9%86%ab%e7%be%8e%e4%b8%ad%e5%bf%83%e7%8d%b2%e5%ae%a2-%e5%ae%a4%e5%85%a7%e8%a8%ad%e8%a8%88-%e5%ae%a2%e6%88%b6%e8%bd%89%e5%8c%96%e7%8e%87/",
     "blocks": [
@@ -537,7 +537,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/medical-aesthetic-client-acquisition/clinic-reception.jpg",
+        "src": "../assets/images/trends/medical-aesthetic-client-acquisition/clinic-reception.jpg",
         "alt": "Clinic reception and facade design",
         "width": 1920,
         "height": 1259
@@ -574,14 +574,14 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/medical-aesthetic-client-acquisition/waiting-lounge.jpg",
+        "src": "../assets/images/trends/medical-aesthetic-client-acquisition/waiting-lounge.jpg",
         "alt": "Medical aesthetic waiting lounge",
         "width": 1920,
         "height": 1257
       },
       {
         "type": "image",
-        "src": "assets/images/trends/medical-aesthetic-client-acquisition/treatment-space.jpg",
+        "src": "../assets/images/trends/medical-aesthetic-client-acquisition/treatment-space.jpg",
         "alt": "Medical aesthetic treatment space",
         "width": 1920,
         "height": 1260
@@ -602,14 +602,14 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/medical-aesthetic-client-acquisition/clinic-interior.jpg",
+        "src": "../assets/images/trends/medical-aesthetic-client-acquisition/clinic-interior.jpg",
         "alt": "Medical aesthetic clinic design",
         "width": 1920,
         "height": 1260
       },
       {
         "type": "image",
-        "src": "assets/images/trends/medical-aesthetic-client-acquisition/clinic-retail.jpg",
+        "src": "../assets/images/trends/medical-aesthetic-client-acquisition/clinic-retail.jpg",
         "alt": "Clinic retail and client experience design",
         "width": 1920,
         "height": 1237
@@ -647,8 +647,8 @@
     "title": "Medical Aesthetic Interior Design as a Business Model | Is the ROI Actually High?",
     "date": "2026-01-23",
     "author": "ONCE DESIGN",
-    "thumbnail": "assets/images/trends/medical-aesthetic-interior-design-roi/clinic-hero.jpg",
-    "hero": "assets/images/trends/medical-aesthetic-interior-design-roi/clinic-hero.jpg",
+    "thumbnail": "../assets/images/trends/medical-aesthetic-interior-design-roi/clinic-hero.jpg",
+    "hero": "../assets/images/trends/medical-aesthetic-interior-design-roi/clinic-hero.jpg",
     "description": "Medical aesthetic clinic interior design business models, investment returns and consultancy plans in Hong Kong.",
     "sourceUrl": "https://once-hk.com/design-trend/%e9%86%ab%e7%99%82%e9%86%ab%e7%be%8e%e7%a9%ba%e9%96%93%e8%a8%ad%e8%a8%88-%e5%95%86%e6%a5%ad%e6%a8%a1%e5%bc%8f-%e6%8a%95%e8%b3%87%e5%9b%9e%e5%a0%b1roi/",
     "blocks": [
@@ -667,14 +667,14 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/medical-aesthetic-interior-design-roi/premium-clinic-interior.jpg",
+        "src": "../assets/images/trends/medical-aesthetic-interior-design-roi/premium-clinic-interior.jpg",
         "alt": "Premium clinic interior",
         "width": 1920,
         "height": 1243
       },
       {
         "type": "image",
-        "src": "assets/images/trends/medical-aesthetic-interior-design-roi/clinic-lounge.jpg",
+        "src": "../assets/images/trends/medical-aesthetic-interior-design-roi/clinic-lounge.jpg",
         "alt": "Medical aesthetic clinic lounge",
         "width": 1920,
         "height": 1279
@@ -693,14 +693,14 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/medical-aesthetic-interior-design-roi/clinic-design-investment.jpg",
+        "src": "../assets/images/trends/medical-aesthetic-interior-design-roi/clinic-design-investment.jpg",
         "alt": "Clinic design and investment",
         "width": 805,
         "height": 661
       },
       {
         "type": "image",
-        "src": "assets/images/trends/medical-aesthetic-interior-design-roi/clinic-treatment-space.jpg",
+        "src": "../assets/images/trends/medical-aesthetic-interior-design-roi/clinic-treatment-space.jpg",
         "alt": "Clinic treatment space",
         "width": 1920,
         "height": 1329
@@ -733,7 +733,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/medical-aesthetic-interior-design-roi/clinic-consultancy.jpg",
+        "src": "../assets/images/trends/medical-aesthetic-interior-design-roi/clinic-consultancy.jpg",
         "alt": "Medical aesthetic clinic consultancy",
         "width": 800,
         "height": 521
@@ -778,8 +778,8 @@
     "title": "Medical Aesthetics Market Competition | How Interior Design Creates Differentiation That Wins Clients",
     "date": "2026-01-22",
     "author": "ONCE DESIGN",
-    "thumbnail": "assets/images/trends/medical-aesthetics-market-competition/clinic-hero.jpg",
-    "hero": "assets/images/trends/medical-aesthetics-market-competition/clinic-hero.jpg",
+    "thumbnail": "../assets/images/trends/medical-aesthetics-market-competition/clinic-hero.jpg",
+    "hero": "../assets/images/trends/medical-aesthetics-market-competition/clinic-hero.jpg",
     "description": "How interior design differentiates medical aesthetic clinics in Hong Kong through brand positioning, privacy and client experience.",
     "sourceUrl": "https://once-hk.com/design-trend/%e9%86%ab%e7%99%82%e9%86%ab%e7%be%8e-%e5%b8%82%e5%a0%b4%e7%ab%b6%e7%88%ad-%e5%ae%a4%e5%85%a7%e8%a8%ad%e8%a8%88-%e5%b7%ae%e7%95%b0%e5%8c%96/",
     "blocks": [
@@ -817,14 +817,14 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/medical-aesthetics-market-competition/clinic-brand-positioning.jpg",
+        "src": "../assets/images/trends/medical-aesthetics-market-competition/clinic-brand-positioning.jpg",
         "alt": "Clinic brand positioning through interior design",
         "width": 1920,
         "height": 1230
       },
       {
         "type": "image",
-        "src": "assets/images/trends/medical-aesthetics-market-competition/clinic-client-experience.jpg",
+        "src": "../assets/images/trends/medical-aesthetics-market-competition/clinic-client-experience.jpg",
         "alt": "Clinic client experience design",
         "width": 1920,
         "height": 1263
@@ -876,14 +876,14 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/medical-aesthetics-market-competition/clinic-design-strategy.jpg",
+        "src": "../assets/images/trends/medical-aesthetics-market-competition/clinic-design-strategy.jpg",
         "alt": "Medical aesthetic clinic design strategy",
         "width": 1920,
         "height": 1257
       },
       {
         "type": "image",
-        "src": "assets/images/trends/medical-aesthetics-market-competition/clinic-waiting-space.jpg",
+        "src": "../assets/images/trends/medical-aesthetics-market-competition/clinic-waiting-space.jpg",
         "alt": "Clinic waiting space design",
         "width": 1920,
         "height": 1257
@@ -948,8 +948,8 @@
     "title": "Healthcare & Medical Aesthetic Spaces | How to Implement ESG and Smart Technology in 2026 and Beyond",
     "date": "2026-01-21",
     "author": "ONCE DESIGN",
-    "thumbnail": "assets/images/trends/healthcare-medical-aesthetic-spaces-esg-smart-technology/clinic-hero.jpg",
-    "hero": "assets/images/trends/healthcare-medical-aesthetic-spaces-esg-smart-technology/clinic-hero.jpg",
+    "thumbnail": "../assets/images/trends/healthcare-medical-aesthetic-spaces-esg-smart-technology/clinic-hero.jpg",
+    "hero": "../assets/images/trends/healthcare-medical-aesthetic-spaces-esg-smart-technology/clinic-hero.jpg",
     "description": "How healthcare and medical aesthetic spaces integrate ESG, smart technology and medical compliance for sustainable, future-ready clinics.",
     "sourceUrl": "https://once-hk.com/design-trend/%e9%86%ab%e7%99%82%e9%86%ab%e7%be%8e%e7%a9%ba%e9%96%93-esg-%e6%99%ba%e8%83%bd%e6%8a%80%e8%a1%93/",
     "blocks": [
@@ -966,14 +966,14 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/healthcare-medical-aesthetic-spaces-esg-smart-technology/esg-clinic-01.jpg",
+        "src": "../assets/images/trends/healthcare-medical-aesthetic-spaces-esg-smart-technology/esg-clinic-01.jpg",
         "alt": "Sustainable healthcare interior design 1",
         "width": 1920,
         "height": 1253
       },
       {
         "type": "image",
-        "src": "assets/images/trends/healthcare-medical-aesthetic-spaces-esg-smart-technology/esg-clinic-02.jpg",
+        "src": "../assets/images/trends/healthcare-medical-aesthetic-spaces-esg-smart-technology/esg-clinic-02.jpg",
         "alt": "Sustainable healthcare interior design 2",
         "width": 1000,
         "height": 647
@@ -1028,7 +1028,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/healthcare-medical-aesthetic-spaces-esg-smart-technology/smart-clinic.jpg",
+        "src": "../assets/images/trends/healthcare-medical-aesthetic-spaces-esg-smart-technology/smart-clinic.jpg",
         "alt": "Smart medical aesthetic clinic interior",
         "width": 1920,
         "height": 1282
@@ -1058,7 +1058,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/healthcare-medical-aesthetic-spaces-esg-smart-technology/medical-compliance.jpg",
+        "src": "../assets/images/trends/healthcare-medical-aesthetic-spaces-esg-smart-technology/medical-compliance.jpg",
         "alt": "Medical clinic interior integrating ESG and smart technology",
         "width": 1920,
         "height": 1248
@@ -1096,8 +1096,8 @@
     "title": "Medical Aesthetic Clinics | Circulation Planning & Multifunctional Design Strategies",
     "date": "2026-01-20",
     "author": "ONCE DESIGN",
-    "thumbnail": "assets/images/trends/medical-aesthetic-clinics-circulation-multifunctional-design/clinic-hero.jpg",
-    "hero": "assets/images/trends/medical-aesthetic-clinics-circulation-multifunctional-design/clinic-hero.jpg",
+    "thumbnail": "../assets/images/trends/medical-aesthetic-clinics-circulation-multifunctional-design/clinic-hero.jpg",
+    "hero": "../assets/images/trends/medical-aesthetic-clinics-circulation-multifunctional-design/clinic-hero.jpg",
     "description": "In Hong Kong’s rapidly expanding medical aesthetics sector, the design of a clinic is no longer merely decorative; it has become a pivotal element that shapes brand trust, patient experience, and operational efficiency.",
     "sourceUrl": "https://once-hk.com/design-trend/%e9%86%ab%e7%be%8e%e8%a8%ba%e6%89%80%e7%a9%ba%e9%96%93-%e5%8b%95%e7%b7%9a%e8%a6%8f%e5%8a%83-%e5%a4%9a%e5%8a%9f%e8%83%bd%e8%a8%ad%e8%a8%88/",
     "blocks": [
@@ -1130,7 +1130,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/medical-aesthetic-clinics-circulation-multifunctional-design/clinic-01.jpg",
+        "src": "../assets/images/trends/medical-aesthetic-clinics-circulation-multifunctional-design/clinic-01.jpg",
         "alt": "Medical Aesthetic Clinics interior 1",
         "width": 1536,
         "height": 1024
@@ -1145,21 +1145,21 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/medical-aesthetic-clinics-circulation-multifunctional-design/clinic-02.jpg",
+        "src": "../assets/images/trends/medical-aesthetic-clinics-circulation-multifunctional-design/clinic-02.jpg",
         "alt": "Medical Aesthetic Clinics interior 2",
         "width": 1920,
         "height": 1253
       },
       {
         "type": "image",
-        "src": "assets/images/trends/medical-aesthetic-clinics-circulation-multifunctional-design/clinic-03.jpg",
+        "src": "../assets/images/trends/medical-aesthetic-clinics-circulation-multifunctional-design/clinic-03.jpg",
         "alt": "Medical Aesthetic Clinics interior 3",
         "width": 1920,
         "height": 1269
       },
       {
         "type": "image",
-        "src": "assets/images/trends/medical-aesthetic-clinics-circulation-multifunctional-design/clinic-04.jpg",
+        "src": "../assets/images/trends/medical-aesthetic-clinics-circulation-multifunctional-design/clinic-04.jpg",
         "alt": "Medical Aesthetic Clinics interior 4",
         "width": 1920,
         "height": 1240
@@ -1188,8 +1188,8 @@
     "title": "Medical Space Interior Design | Clinics, TCM, and Dental Centers: Safety Compliance and Engineering Essentials",
     "date": "2025-11-27",
     "author": "ONCE DESIGN",
-    "thumbnail": "assets/images/trends/medical-space-interior-design-safety-compliance/clinic-hero.jpg",
-    "hero": "assets/images/trends/medical-space-interior-design-safety-compliance/clinic-hero.jpg",
+    "thumbnail": "../assets/images/trends/medical-space-interior-design-safety-compliance/clinic-hero.jpg",
+    "hero": "../assets/images/trends/medical-space-interior-design-safety-compliance/clinic-hero.jpg",
     "description": "As Hong Kong’s medical industry undergoes a transformative phase, medical space compliance design emerges as the cornerstone of ensuring safety and operational excellence.",
     "sourceUrl": "https://once-hk.com/design-trend/%e9%86%ab%e7%99%82%e7%a9%ba%e9%96%93-%e5%ae%a4%e5%85%a7%e8%a8%ad%e8%a8%88-%e8%a8%ba%e6%89%80%e5%ae%89%e5%85%a8%e5%90%88%e8%a6%8f-%e5%b7%a5%e7%a8%8b%e8%a6%81%e9%bb%9e/",
     "blocks": [
@@ -1207,7 +1207,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/medical-space-interior-design-safety-compliance/clinic-01.jpg",
+        "src": "../assets/images/trends/medical-space-interior-design-safety-compliance/clinic-01.jpg",
         "alt": "Medical Space Interior Design interior 1",
         "width": 1920,
         "height": 1280
@@ -1274,21 +1274,21 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/medical-space-interior-design-safety-compliance/clinic-02.jpg",
+        "src": "../assets/images/trends/medical-space-interior-design-safety-compliance/clinic-02.jpg",
         "alt": "Medical Space Interior Design interior 2",
         "width": 1920,
         "height": 1259
       },
       {
         "type": "image",
-        "src": "assets/images/trends/medical-space-interior-design-safety-compliance/clinic-03.jpg",
+        "src": "../assets/images/trends/medical-space-interior-design-safety-compliance/clinic-03.jpg",
         "alt": "Medical Space Interior Design interior 3",
         "width": 1190,
         "height": 1120
       },
       {
         "type": "image",
-        "src": "assets/images/trends/medical-space-interior-design-safety-compliance/clinic-04.jpg",
+        "src": "../assets/images/trends/medical-space-interior-design-safety-compliance/clinic-04.jpg",
         "alt": "Medical Space Interior Design interior 4",
         "width": 1920,
         "height": 1321
@@ -1319,8 +1319,8 @@
     "title": "Wellness and Elderly Care Centers: Five Key Interior Design Trends for Nursing Homes and Medical Spaces",
     "date": "2025-11-12",
     "author": "ONCE DESIGN",
-    "thumbnail": "assets/images/trends/elderly-wellness-care-centers-design-trends/cover.jpg",
-    "hero": "assets/images/trends/elderly-wellness-care-centers-design-trends/cover.jpg",
+    "thumbnail": "../assets/images/trends/elderly-wellness-care-centers-design-trends/cover.jpg",
+    "hero": "../assets/images/trends/elderly-wellness-care-centers-design-trends/cover.jpg",
     "description": "Wellness and Elderly Care Centers: Five Key Interior Design Trends for Nursing Homes and Medical Spaces",
     "sourceUrl": "https://once-hk.com/design-trend/%e9%95%b7%e8%80%85%e5%ba%b7%e9%a4%8a%e4%b8%ad%e5%bf%83-%e9%a4%8a%e8%80%81-%e8%ad%b7%e8%80%81%e9%99%a2-%e8%a8%ad%e8%a8%88%e8%b6%a8%e5%8b%a2/",
     "blocks": [
@@ -1338,28 +1338,28 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/elderly-wellness-care-centers-design-trends/article-01.jpg",
+        "src": "../assets/images/trends/elderly-wellness-care-centers-design-trends/article-01.jpg",
         "alt": "Wellness and Elderly Care Centers — image 2",
         "width": 1536,
         "height": 1024
       },
       {
         "type": "image",
-        "src": "assets/images/trends/elderly-wellness-care-centers-design-trends/article-02.jpg",
+        "src": "../assets/images/trends/elderly-wellness-care-centers-design-trends/article-02.jpg",
         "alt": "Wellness and Elderly Care Centers — image 3",
         "width": 1536,
         "height": 1024
       },
       {
         "type": "image",
-        "src": "assets/images/trends/elderly-wellness-care-centers-design-trends/article-03.jpg",
+        "src": "../assets/images/trends/elderly-wellness-care-centers-design-trends/article-03.jpg",
         "alt": "Wellness and Elderly Care Centers — image 4",
         "width": 1536,
         "height": 1024
       },
       {
         "type": "image",
-        "src": "assets/images/trends/elderly-wellness-care-centers-design-trends/article-04.jpg",
+        "src": "../assets/images/trends/elderly-wellness-care-centers-design-trends/article-04.jpg",
         "alt": "Wellness and Elderly Care Centers — image 5",
         "width": 1536,
         "height": 1024
@@ -1380,7 +1380,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/elderly-wellness-care-centers-design-trends/article-05.jpg",
+        "src": "../assets/images/trends/elderly-wellness-care-centers-design-trends/article-05.jpg",
         "alt": "Wellness and Elderly Care Centers — image 6",
         "width": 1024,
         "height": 683
@@ -1439,7 +1439,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/elderly-wellness-care-centers-design-trends/article-06.jpg",
+        "src": "../assets/images/trends/elderly-wellness-care-centers-design-trends/article-06.jpg",
         "alt": "Wellness and Elderly Care Centers — image 7",
         "width": 1024,
         "height": 683
@@ -1468,7 +1468,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/elderly-wellness-care-centers-design-trends/article-07.jpg",
+        "src": "../assets/images/trends/elderly-wellness-care-centers-design-trends/article-07.jpg",
         "alt": "Wellness and Elderly Care Centers — image 8",
         "width": 1024,
         "height": 683
@@ -1489,8 +1489,8 @@
     "title": "Interior Design Guide for Medical Aesthetics and Beauty Centers: Service Distinctions, Licensing Regulations, and Compliance Strategies",
     "date": "2025-10-03",
     "author": "ONCE DESIGN",
-    "thumbnail": "assets/images/trends/medical-aesthetics-beauty-centers-licensing-compliance/cover.jpg",
-    "hero": "assets/images/trends/medical-aesthetics-beauty-centers-licensing-compliance/cover.jpg",
+    "thumbnail": "../assets/images/trends/medical-aesthetics-beauty-centers-licensing-compliance/cover.jpg",
+    "hero": "../assets/images/trends/medical-aesthetics-beauty-centers-licensing-compliance/cover.jpg",
     "description": "Interior Design Guide for Medical Aesthetics and Beauty Centers: Service Distinctions, Licensing Regulations, and Compliance Strategies",
     "sourceUrl": "https://once-hk.com/design-trend/%e9%86%ab%e7%be%8e-%e7%be%8e%e5%ae%b9%e4%b8%ad%e5%bf%83-%e5%ae%a4%e5%85%a7%e8%a8%ad%e8%a8%88-%e6%9c%8d%e5%8b%99-%e7%89%8c%e7%85%a7%e8%a6%8f%e7%ae%a1-%e5%90%88%e8%a6%8f%e7%ad%96%e7%95%a5/",
     "blocks": [
@@ -1609,8 +1609,8 @@
     "title": "Elevating Brand Value and Consumer Trust Through Interior Design for Medical Aesthetics and Beauty Centers",
     "date": "2025-10-02",
     "author": "ONCE DESIGN",
-    "thumbnail": "assets/images/trends/medical-aesthetics-beauty-centers-brand-value/cover.jpg",
-    "hero": "assets/images/trends/medical-aesthetics-beauty-centers-brand-value/cover.jpg",
+    "thumbnail": "../assets/images/trends/medical-aesthetics-beauty-centers-brand-value/cover.jpg",
+    "hero": "../assets/images/trends/medical-aesthetics-beauty-centers-brand-value/cover.jpg",
     "description": "Elevating Brand Value and Consumer Trust Through Interior Design for Medical Aesthetics and Beauty Centers",
     "sourceUrl": "https://once-hk.com/design-trend/%e9%86%ab%e7%be%8e%e8%a8%ba%e6%89%80-%e7%be%8e%e5%ae%b9%e4%b8%ad%e5%bf%83-%e5%ae%a4%e5%85%a7%e8%a8%ad%e8%a8%88-%e5%93%81%e7%89%8c%e5%83%b9%e5%80%bc/",
     "blocks": [
@@ -1765,8 +1765,8 @@
     "title": "Hong Kong's Medical Aesthetics and Beauty Sector: Emerging Trends and Design Innovations",
     "date": "2025-10-01",
     "author": "ONCE DESIGN",
-    "thumbnail": "assets/images/trends/hong-kong-medical-aesthetics-beauty-sector-trends/cover.jpg",
-    "hero": "assets/images/trends/hong-kong-medical-aesthetics-beauty-sector-trends/cover.jpg",
+    "thumbnail": "../assets/images/trends/hong-kong-medical-aesthetics-beauty-sector-trends/cover.jpg",
+    "hero": "../assets/images/trends/hong-kong-medical-aesthetics-beauty-sector-trends/cover.jpg",
     "description": "Hong Kong's Medical Aesthetics and Beauty Sector: Emerging Trends and Design Innovations",
     "sourceUrl": "https://once-hk.com/design-trend/%e9%86%ab%e7%99%82%e9%86%ab%e7%be%8e%e7%94%a2%e6%a5%ad-%e7%be%8e%e5%ae%b9%e4%b8%ad%e5%bf%83-%e8%b6%a8%e5%8b%a2/",
     "blocks": [
@@ -1791,7 +1791,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/hong-kong-medical-aesthetics-beauty-sector-trends/article-01.jpg",
+        "src": "../assets/images/trends/hong-kong-medical-aesthetics-beauty-sector-trends/article-01.jpg",
         "alt": "Hong Kong's Medical Aesthetics and Beauty Sector — image 2",
         "width": 1167,
         "height": 778
@@ -1835,7 +1835,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/hong-kong-medical-aesthetics-beauty-sector-trends/article-02.jpg",
+        "src": "../assets/images/trends/hong-kong-medical-aesthetics-beauty-sector-trends/article-02.jpg",
         "alt": "Hong Kong's Medical Aesthetics and Beauty Sector — image 3",
         "width": 1024,
         "height": 768
@@ -1855,14 +1855,14 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/hong-kong-medical-aesthetics-beauty-sector-trends/article-03.jpg",
+        "src": "../assets/images/trends/hong-kong-medical-aesthetics-beauty-sector-trends/article-03.jpg",
         "alt": "Hong Kong's Medical Aesthetics and Beauty Sector — image 4",
         "width": 1354,
         "height": 903
       },
       {
         "type": "image",
-        "src": "assets/images/trends/hong-kong-medical-aesthetics-beauty-sector-trends/article-04.jpg",
+        "src": "../assets/images/trends/hong-kong-medical-aesthetics-beauty-sector-trends/article-04.jpg",
         "alt": "Hong Kong's Medical Aesthetics and Beauty Sector — image 5",
         "width": 1245,
         "height": 908
@@ -1884,8 +1884,8 @@
     "title": "ESG Interior Design: Crafting Sustainable Commercial Spaces with Environmental, Social, and Governance Principles",
     "date": "2025-09-07",
     "author": "ONCE DESIGN",
-    "thumbnail": "assets/images/trends/esg-interior-design-sustainable-commercial-spaces/cover.jpg",
-    "hero": "assets/images/trends/esg-interior-design-sustainable-commercial-spaces/cover.jpg",
+    "thumbnail": "../assets/images/trends/esg-interior-design-sustainable-commercial-spaces/cover.jpg",
+    "hero": "../assets/images/trends/esg-interior-design-sustainable-commercial-spaces/cover.jpg",
     "description": "ESG Interior Design: Crafting Sustainable Commercial Spaces with Environmental, Social, and Governance Principles",
     "sourceUrl": "https://once-hk.com/design-trend/esg%e5%ae%a4%e5%85%a7%e8%a8%ad%e8%a8%88-%e6%b0%b8%e7%ba%8c%e7%92%b0%e4%bf%9d-%e7%b6%a0%e8%89%b2%e5%95%86%e6%a5%ad%e7%a9%ba%e9%96%93/",
     "blocks": [
@@ -1897,7 +1897,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/esg-interior-design-sustainable-commercial-spaces/cover.jpg",
+        "src": "../assets/images/trends/esg-interior-design-sustainable-commercial-spaces/cover.jpg",
         "alt": "ESG Interior Design — image 1",
         "width": 1920,
         "height": 1331
@@ -1916,14 +1916,14 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/esg-interior-design-sustainable-commercial-spaces/article-01.jpg",
+        "src": "../assets/images/trends/esg-interior-design-sustainable-commercial-spaces/article-01.jpg",
         "alt": "ESG Interior Design — image 2",
         "width": 1600,
         "height": 1600
       },
       {
         "type": "image",
-        "src": "assets/images/trends/esg-interior-design-sustainable-commercial-spaces/article-02.jpg",
+        "src": "../assets/images/trends/esg-interior-design-sustainable-commercial-spaces/article-02.jpg",
         "alt": "ESG Interior Design — image 3",
         "width": 1080,
         "height": 1346
@@ -1986,7 +1986,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/esg-interior-design-sustainable-commercial-spaces/article-03.jpg",
+        "src": "../assets/images/trends/esg-interior-design-sustainable-commercial-spaces/article-03.jpg",
         "alt": "ESG Interior Design — image 4",
         "width": 1131,
         "height": 623
@@ -1994,7 +1994,7 @@
       {
         "type": "text",
         "paragraphs": [
-          "For instance, we utilize Japan’s <a href=\"trend.html?article=fumin-glass-insulation-sustainable-design\">Fumin Coating</a> glass insulation film, certified by Singapore’s BCA Green Mark Platinum Award. This material reduces indoor temperatures, decreases reliance on air conditioning, and maintains high transparency and aesthetic appeal, adding sustainable value to office and retail designs."
+          "For instance, we utilize Japan’s <a href=\"article.html?article=fumin-glass-insulation-sustainable-design\">Fumin Coating</a> glass insulation film, certified by Singapore’s BCA Green Mark Platinum Award. This material reduces indoor temperatures, decreases reliance on air conditioning, and maintains high transparency and aesthetic appeal, adding sustainable value to office and retail designs."
         ],
         "variant": "trend-after-image"
       },
@@ -2006,14 +2006,14 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/esg-interior-design-sustainable-commercial-spaces/article-04.jpg",
+        "src": "../assets/images/trends/esg-interior-design-sustainable-commercial-spaces/article-04.jpg",
         "alt": "ESG Interior Design — image 5",
         "width": 1279,
         "height": 1600
       },
       {
         "type": "image",
-        "src": "assets/images/trends/esg-interior-design-sustainable-commercial-spaces/article-05.jpg",
+        "src": "../assets/images/trends/esg-interior-design-sustainable-commercial-spaces/article-05.jpg",
         "alt": "ESG Interior Design — image 6",
         "width": 1279,
         "height": 1600
@@ -2058,14 +2058,14 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/esg-interior-design-sustainable-commercial-spaces/article-06.jpg",
+        "src": "../assets/images/trends/esg-interior-design-sustainable-commercial-spaces/article-06.jpg",
         "alt": "ESG Interior Design — image 7",
         "width": 1839,
         "height": 1080
       },
       {
         "type": "image",
-        "src": "assets/images/trends/esg-interior-design-sustainable-commercial-spaces/article-07.jpg",
+        "src": "../assets/images/trends/esg-interior-design-sustainable-commercial-spaces/article-07.jpg",
         "alt": "ESG Interior Design — image 8",
         "width": 1619,
         "height": 1080
@@ -2097,7 +2097,7 @@
         "type": "text",
         "heading": "Eco-Friendly Materials",
         "paragraphs": [
-          "In projects like Kornhill Gardens in Hong Kong, we employed <a href=\"trend.html?article=benjamin-moore-eco-friendly-paints\">Benjamin Moore</a> eco-friendly paints to create healthy, efficient residential environments."
+          "In projects like Kornhill Gardens in Hong Kong, we employed <a href=\"article.html?article=benjamin-moore-eco-friendly-paints\">Benjamin Moore</a> eco-friendly paints to create healthy, efficient residential environments."
         ],
         "variant": "trend-subsection"
       },
@@ -2116,7 +2116,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/esg-interior-design-sustainable-commercial-spaces/article-08.jpg",
+        "src": "../assets/images/trends/esg-interior-design-sustainable-commercial-spaces/article-08.jpg",
         "alt": "ESG Interior Design — image 9",
         "width": 749,
         "height": 499
@@ -2163,8 +2163,8 @@
     "title": "Retail Store Design Guide: Crafting Compelling Brand Spaces to Elevate Sales Performance",
     "date": "2025-08-31",
     "author": "ONCE DESIGN",
-    "thumbnail": "assets/images/trends/retail-store-design-brand-spaces/cover.jpg",
-    "hero": "assets/images/trends/retail-store-design-brand-spaces/cover.jpg",
+    "thumbnail": "../assets/images/trends/retail-store-design-brand-spaces/cover.jpg",
+    "hero": "../assets/images/trends/retail-store-design-brand-spaces/cover.jpg",
     "description": "Retail Store Design Guide: Crafting Compelling Brand Spaces to Elevate Sales Performance",
     "sourceUrl": "https://once-hk.com/design-trend/%e9%9b%b6%e5%94%ae%e5%ba%97%e8%a8%ad%e8%a8%88-%e5%93%81%e7%89%8c%e8%a8%ad%e8%a8%88%e4%be%8b%e5%ad%90/",
     "blocks": [
@@ -2176,7 +2176,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/retail-store-design-brand-spaces/cover.jpg",
+        "src": "../assets/images/trends/retail-store-design-brand-spaces/cover.jpg",
         "alt": "Retail Store Design Guide — image 1",
         "width": 1920,
         "height": 1080
@@ -2195,7 +2195,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/retail-store-design-brand-spaces/article-01.jpg",
+        "src": "../assets/images/trends/retail-store-design-brand-spaces/article-01.jpg",
         "alt": "Retail Store Design Guide — image 2",
         "width": 1920,
         "height": 1080
@@ -2214,7 +2214,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/retail-store-design-brand-spaces/article-02.jpg",
+        "src": "../assets/images/trends/retail-store-design-brand-spaces/article-02.jpg",
         "alt": "Retail Store Design Guide — image 3",
         "width": 816,
         "height": 544
@@ -2228,7 +2228,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/retail-store-design-brand-spaces/article-03.jpg",
+        "src": "../assets/images/trends/retail-store-design-brand-spaces/article-03.jpg",
         "alt": "Retail Store Design Guide — image 4",
         "width": 1024,
         "height": 574
@@ -2247,7 +2247,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/retail-store-design-brand-spaces/article-04.jpg",
+        "src": "../assets/images/trends/retail-store-design-brand-spaces/article-04.jpg",
         "alt": "Retail Store Design Guide — image 5",
         "width": 1920,
         "height": 866
@@ -2306,7 +2306,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/retail-store-design-brand-spaces/article-05.webp",
+        "src": "../assets/images/trends/retail-store-design-brand-spaces/article-05.webp",
         "alt": "Retail Store Design Guide — image 6",
         "width": 1496,
         "height": 1080
@@ -2354,7 +2354,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/retail-store-design-brand-spaces/article-06.jpg",
+        "src": "../assets/images/trends/retail-store-design-brand-spaces/article-06.jpg",
         "alt": "Retail Store Design Guide — image 7",
         "width": 1920,
         "height": 1281
@@ -2408,8 +2408,8 @@
     "title": "2025 Living Room Design Guide: Inspirational and Practical Tips for Hong Kong Homes",
     "date": "2025-08-27",
     "author": "ONCE DESIGN",
-    "thumbnail": "assets/images/trends/living-room-design-hong-kong/cover.jpg",
-    "hero": "assets/images/trends/living-room-design-hong-kong/cover.jpg",
+    "thumbnail": "../assets/images/trends/living-room-design-hong-kong/cover.jpg",
+    "hero": "../assets/images/trends/living-room-design-hong-kong/cover.jpg",
     "description": "2025 Living Room Design Guide: Inspirational and Practical Tips for Hong Kong Homes",
     "sourceUrl": "https://once-hk.com/design-trend/%e5%ae%a2%e5%bb%b3%e8%a8%ad%e8%a8%88-%e7%b0%a1%e7%b4%84%e5%8c%97%e6%ad%90%e9%a2%a8%e6%a0%bc-%e8%a3%9d%e4%bf%ae%e6%a1%88%e4%be%8b/",
     "blocks": [
@@ -2421,7 +2421,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/living-room-design-hong-kong/cover.jpg",
+        "src": "../assets/images/trends/living-room-design-hong-kong/cover.jpg",
         "alt": "2025 Living Room Design Guide — image 1",
         "width": 1920,
         "height": 1080
@@ -2440,7 +2440,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/living-room-design-hong-kong/article-01.jpg",
+        "src": "../assets/images/trends/living-room-design-hong-kong/article-01.jpg",
         "alt": "2025 Living Room Design Guide — image 2",
         "width": 1920,
         "height": 1080
@@ -2512,7 +2512,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/living-room-design-hong-kong/article-02.jpg",
+        "src": "../assets/images/trends/living-room-design-hong-kong/article-02.jpg",
         "alt": "2025 Living Room Design Guide — image 3",
         "width": 1920,
         "height": 1080
@@ -2541,7 +2541,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/living-room-design-hong-kong/article-03.jpg",
+        "src": "../assets/images/trends/living-room-design-hong-kong/article-03.jpg",
         "alt": "2025 Living Room Design Guide — image 4",
         "width": 1920,
         "height": 1080
@@ -2570,7 +2570,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/living-room-design-hong-kong/article-04.jpg",
+        "src": "../assets/images/trends/living-room-design-hong-kong/article-04.jpg",
         "alt": "2025 Living Room Design Guide — image 5",
         "width": 1920,
         "height": 1080
@@ -2597,7 +2597,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/living-room-design-hong-kong/article-05.jpg",
+        "src": "../assets/images/trends/living-room-design-hong-kong/article-05.jpg",
         "alt": "2025 Living Room Design Guide — image 6",
         "width": 2000,
         "height": 1500
@@ -2641,7 +2641,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/living-room-design-hong-kong/article-06.jpg",
+        "src": "../assets/images/trends/living-room-design-hong-kong/article-06.jpg",
         "alt": "2025 Living Room Design Guide — image 7",
         "width": 1920,
         "height": 1080
@@ -2680,8 +2680,8 @@
     "title": "2025 Window Display Design Guide | How Hong Kong Retail Stores Create Eye-Catching Displays to Boost Sales",
     "date": "2025-08-24",
     "author": "ONCE DESIGN",
-    "thumbnail": "assets/images/trends/retail-window-display-design/cover.jpg",
-    "hero": "assets/images/trends/retail-window-display-design/cover.jpg",
+    "thumbnail": "../assets/images/trends/retail-window-display-design/cover.jpg",
+    "hero": "../assets/images/trends/retail-window-display-design/cover.jpg",
     "description": "2025 Window Display Design Guide | How Hong Kong Retail Stores Create Eye-Catching Displays to Boost Sales",
     "sourceUrl": "https://once-hk.com/design-trend/%e6%ab%a5%e7%aa%97%e8%a8%ad%e8%a8%88-%e9%9b%b6%e5%94%ae%e5%ba%97-%e9%99%b3%e5%88%97%e5%b1%95%e7%a4%ba%e6%ab%83/",
     "blocks": [
@@ -2693,7 +2693,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/retail-window-display-design/cover.jpg",
+        "src": "../assets/images/trends/retail-window-display-design/cover.jpg",
         "alt": "2025 Window Display Design Guide | How Hong Kong Retail Stores Create Eye-Catching Displays to Boost Sales — image 1",
         "width": 877,
         "height": 866
@@ -2712,7 +2712,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/retail-window-display-design/article-01.jpg",
+        "src": "../assets/images/trends/retail-window-display-design/article-01.jpg",
         "alt": "2025 Window Display Design Guide | How Hong Kong Retail Stores Create Eye-Catching Displays to Boost Sales — image 2",
         "width": 1281,
         "height": 1920
@@ -2766,7 +2766,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/retail-window-display-design/article-02.jpg",
+        "src": "../assets/images/trends/retail-window-display-design/article-02.jpg",
         "alt": "2025 Window Display Design Guide | How Hong Kong Retail Stores Create Eye-Catching Displays to Boost Sales — image 3",
         "width": 1920,
         "height": 1080
@@ -2817,7 +2817,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/retail-window-display-design/article-03.jpg",
+        "src": "../assets/images/trends/retail-window-display-design/article-03.jpg",
         "alt": "2025 Window Display Design Guide | How Hong Kong Retail Stores Create Eye-Catching Displays to Boost Sales — image 4",
         "width": 1080,
         "height": 1620
@@ -2859,7 +2859,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/retail-window-display-design/article-04.jpg",
+        "src": "../assets/images/trends/retail-window-display-design/article-04.jpg",
         "alt": "2025 Window Display Design Guide | How Hong Kong Retail Stores Create Eye-Catching Displays to Boost Sales — image 5",
         "width": 1877,
         "height": 1080
@@ -2891,8 +2891,8 @@
     "title": "Sustainable Interior Design: Japanese Fumin Coating Glass Insulation Technology for Energy-Efficient Retail and Office Spaces",
     "date": "2025-08-01",
     "author": "ONCE DESIGN",
-    "thumbnail": "assets/images/trends/fumin-glass-insulation-sustainable-design/cover.jpg",
-    "hero": "assets/images/trends/fumin-glass-insulation-sustainable-design/cover.jpg",
+    "thumbnail": "../assets/images/trends/fumin-glass-insulation-sustainable-design/cover.jpg",
+    "hero": "../assets/images/trends/fumin-glass-insulation-sustainable-design/cover.jpg",
     "description": "Sustainable Interior Design: Japanese Fumin Coating Glass Insulation Technology for Energy-Efficient Retail and Office Spaces",
     "sourceUrl": "https://once-hk.com/design-trend/%e7%92%b0%e4%bf%9d%e5%ae%a4%e5%85%a7%e8%a8%ad%e8%a8%88-fumin%e7%8e%bb%e7%92%83%e9%9a%94%e7%86%b1%e5%a1%97%e5%b1%a4%e7%89%a9%e6%96%99/",
     "blocks": [
@@ -2904,7 +2904,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/fumin-glass-insulation-sustainable-design/cover.jpg",
+        "src": "../assets/images/trends/fumin-glass-insulation-sustainable-design/cover.jpg",
         "alt": "Sustainable Interior Design — image 1",
         "width": 1476,
         "height": 1476
@@ -2923,7 +2923,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/fumin-glass-insulation-sustainable-design/article-01.jpg",
+        "src": "../assets/images/trends/fumin-glass-insulation-sustainable-design/article-01.jpg",
         "alt": "Sustainable Interior Design — image 2",
         "width": 1131,
         "height": 623
@@ -2967,7 +2967,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/fumin-glass-insulation-sustainable-design/article-02.jpg",
+        "src": "../assets/images/trends/fumin-glass-insulation-sustainable-design/article-02.jpg",
         "alt": "Sustainable Interior Design — image 3",
         "width": 1920,
         "height": 1281
@@ -3010,7 +3010,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/fumin-glass-insulation-sustainable-design/article-03.jpg",
+        "src": "../assets/images/trends/fumin-glass-insulation-sustainable-design/article-03.jpg",
         "alt": "Sustainable Interior Design — image 4",
         "width": 1920,
         "height": 1440
@@ -3081,8 +3081,8 @@
     "title": "Sustainable Material: Benjamin Moore Eco-Friendly Paints for Crafting Sustainable Commercial Spaces",
     "date": "2025-07-28",
     "author": "ONCE DESIGN",
-    "thumbnail": "assets/images/trends/benjamin-moore-eco-friendly-paints/cover.jpg",
-    "hero": "assets/images/trends/benjamin-moore-eco-friendly-paints/cover.jpg",
+    "thumbnail": "../assets/images/trends/benjamin-moore-eco-friendly-paints/cover.jpg",
+    "hero": "../assets/images/trends/benjamin-moore-eco-friendly-paints/cover.jpg",
     "description": "Sustainable Material: Benjamin Moore Eco-Friendly Paints for Crafting Sustainable Commercial Spaces",
     "sourceUrl": "https://once-hk.com/design-trend/%e7%92%b0%e4%bf%9d%e7%89%a9%e6%96%99%e6%8e%a8%e8%96%a6-benjamin-moore/",
     "blocks": [
@@ -3099,7 +3099,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/benjamin-moore-eco-friendly-paints/article-01.jpg",
+        "src": "../assets/images/trends/benjamin-moore-eco-friendly-paints/article-01.jpg",
         "alt": "Sustainable Material — image 2",
         "width": 1080,
         "height": 1346
@@ -3152,7 +3152,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/benjamin-moore-eco-friendly-paints/article-02.jpg",
+        "src": "../assets/images/trends/benjamin-moore-eco-friendly-paints/article-02.jpg",
         "alt": "Sustainable Material — image 3",
         "width": 1279,
         "height": 1600
@@ -3195,7 +3195,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/benjamin-moore-eco-friendly-paints/article-03.jpg",
+        "src": "../assets/images/trends/benjamin-moore-eco-friendly-paints/article-03.jpg",
         "alt": "Sustainable Material — image 4",
         "width": 1279,
         "height": 1600
@@ -3254,7 +3254,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/benjamin-moore-eco-friendly-paints/article-04.jpg",
+        "src": "../assets/images/trends/benjamin-moore-eco-friendly-paints/article-04.jpg",
         "alt": "Sustainable Material — image 5",
         "width": 1279,
         "height": 1600
@@ -3276,8 +3276,8 @@
     "title": "2025 Pop-Up Store Design | Crafting Captivating Pop-Up Stores to Elevate Brand Value",
     "date": "2025-06-14",
     "author": "ONCE DESIGN",
-    "thumbnail": "assets/images/trends/pop-up-store-design/cover.jpg",
-    "hero": "assets/images/trends/pop-up-store-design/cover.jpg",
+    "thumbnail": "../assets/images/trends/pop-up-store-design/cover.jpg",
+    "hero": "../assets/images/trends/pop-up-store-design/cover.jpg",
     "description": "2025 Pop-Up Store Design | Crafting Captivating Pop-Up Stores to Elevate Brand Value",
     "sourceUrl": "https://once-hk.com/design-trend/%e5%bf%ab%e9%96%83%e5%ba%97%e8%a8%ad%e8%a8%88-pop-up-store-%e9%99%90%e5%ae%9a%e5%ba%97/",
     "blocks": [
@@ -3289,7 +3289,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/pop-up-store-design/cover.jpg",
+        "src": "../assets/images/trends/pop-up-store-design/cover.jpg",
         "alt": "2025 Pop-Up Store Design | Crafting Captivating Pop-Up Stores to Elevate Brand Value — image 1",
         "width": 1534,
         "height": 1151
@@ -3308,7 +3308,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/pop-up-store-design/article-01.jpg",
+        "src": "../assets/images/trends/pop-up-store-design/article-01.jpg",
         "alt": "2025 Pop-Up Store Design | Crafting Captivating Pop-Up Stores to Elevate Brand Value — image 2",
         "width": 1080,
         "height": 1220
@@ -3361,7 +3361,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/pop-up-store-design/article-02.jpg",
+        "src": "../assets/images/trends/pop-up-store-design/article-02.jpg",
         "alt": "2025 Pop-Up Store Design | Crafting Captivating Pop-Up Stores to Elevate Brand Value — image 3",
         "width": 1509,
         "height": 958
@@ -3470,7 +3470,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/pop-up-store-design/article-03.jpg",
+        "src": "../assets/images/trends/pop-up-store-design/article-03.jpg",
         "alt": "2025 Pop-Up Store Design | Crafting Captivating Pop-Up Stores to Elevate Brand Value — image 4",
         "width": 1877,
         "height": 1080
@@ -3506,7 +3506,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/pop-up-store-design/article-04.jpg",
+        "src": "../assets/images/trends/pop-up-store-design/article-04.jpg",
         "alt": "2025 Pop-Up Store Design | Crafting Captivating Pop-Up Stores to Elevate Brand Value — image 5",
         "width": 1080,
         "height": 1220
@@ -3519,7 +3519,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/pop-up-store-design/article-05.jpg",
+        "src": "../assets/images/trends/pop-up-store-design/article-05.jpg",
         "alt": "2025 Pop-Up Store Design | Crafting Captivating Pop-Up Stores to Elevate Brand Value — image 6",
         "width": 1920,
         "height": 1440
@@ -3538,7 +3538,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/pop-up-store-design/article-06.jpg",
+        "src": "../assets/images/trends/pop-up-store-design/article-06.jpg",
         "alt": "2025 Pop-Up Store Design | Crafting Captivating Pop-Up Stores to Elevate Brand Value — image 7",
         "width": 1440,
         "height": 1920
@@ -3568,8 +3568,8 @@
     "title": "Affordable Luxury Home Design Trends 2025: 6 Key Elements + Color Schemes for Modern Nordic Luxury",
     "date": "2025-03-12",
     "author": "ONCE DESIGN",
-    "thumbnail": "assets/images/trends/affordable-luxury-nordic-home-design/cover.jpg",
-    "hero": "assets/images/trends/affordable-luxury-nordic-home-design/cover.jpg",
+    "thumbnail": "../assets/images/trends/affordable-luxury-nordic-home-design/cover.jpg",
+    "hero": "../assets/images/trends/affordable-luxury-nordic-home-design/cover.jpg",
     "description": "Affordable Luxury Home Design Trends 2025: 6 Key Elements + Color Schemes for Modern Nordic Luxury",
     "sourceUrl": "https://once-hk.com/design-trend/%e8%bc%95%e5%a5%a2%e9%a2%a8%e5%ae%b6%e5%b1%85%e8%a8%ad%e8%a8%88-%e9%97%9c%e9%8d%b5%e8%a3%9d%e4%bf%ae%e5%85%83%e7%b4%a0%e9%85%8d%e8%89%b2%e5%bb%ba%e8%ad%b0-%e6%89%93%e9%80%a0%e5%8c%97%e6%ad%90%e8%a3%9d/",
     "blocks": [
@@ -3581,7 +3581,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/affordable-luxury-nordic-home-design/cover.jpg",
+        "src": "../assets/images/trends/affordable-luxury-nordic-home-design/cover.jpg",
         "alt": "Affordable Luxury Home Design Trends 2025 — image 1",
         "width": 1458,
         "height": 1458
@@ -3600,7 +3600,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/affordable-luxury-nordic-home-design/article-01.jpg",
+        "src": "../assets/images/trends/affordable-luxury-nordic-home-design/article-01.jpg",
         "alt": "Affordable Luxury Home Design Trends 2025 — image 2",
         "width": 1920,
         "height": 1440
@@ -3628,7 +3628,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/affordable-luxury-nordic-home-design/article-02.jpg",
+        "src": "../assets/images/trends/affordable-luxury-nordic-home-design/article-02.jpg",
         "alt": "Affordable Luxury Home Design Trends 2025 — image 3",
         "width": 1920,
         "height": 1439
@@ -3656,14 +3656,14 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/affordable-luxury-nordic-home-design/article-03.jpg",
+        "src": "../assets/images/trends/affordable-luxury-nordic-home-design/article-03.jpg",
         "alt": "Affordable Luxury Home Design Trends 2025 — image 4",
         "width": 1920,
         "height": 1440
       },
       {
         "type": "image",
-        "src": "assets/images/trends/affordable-luxury-nordic-home-design/article-04.jpg",
+        "src": "../assets/images/trends/affordable-luxury-nordic-home-design/article-04.jpg",
         "alt": "Affordable Luxury Home Design Trends 2025 — image 5",
         "width": 1920,
         "height": 1440
@@ -3691,7 +3691,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/affordable-luxury-nordic-home-design/article-05.jpg",
+        "src": "../assets/images/trends/affordable-luxury-nordic-home-design/article-05.jpg",
         "alt": "Affordable Luxury Home Design Trends 2025 — image 6",
         "width": 1920,
         "height": 1395
@@ -3713,14 +3713,14 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/affordable-luxury-nordic-home-design/article-06.jpg",
+        "src": "../assets/images/trends/affordable-luxury-nordic-home-design/article-06.jpg",
         "alt": "Affordable Luxury Home Design Trends 2025 — image 7",
         "width": 1464,
         "height": 984
       },
       {
         "type": "image",
-        "src": "assets/images/trends/affordable-luxury-nordic-home-design/article-07.jpg",
+        "src": "../assets/images/trends/affordable-luxury-nordic-home-design/article-07.jpg",
         "alt": "Affordable Luxury Home Design Trends 2025 — image 8",
         "width": 1367,
         "height": 597
@@ -3740,7 +3740,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/affordable-luxury-nordic-home-design/article-08.jpg",
+        "src": "../assets/images/trends/affordable-luxury-nordic-home-design/article-08.jpg",
         "alt": "Affordable Luxury Home Design Trends 2025 — image 9",
         "width": 1920,
         "height": 1080
@@ -3772,8 +3772,8 @@
     "title": "HK Restaurant Design and Renovation Planning | Commercial Space Design Case Studies",
     "date": "2025-03-06",
     "author": "ONCE DESIGN",
-    "thumbnail": "assets/images/trends/hong-kong-restaurant-design-renovation/cover.jpg",
-    "hero": "assets/images/trends/hong-kong-restaurant-design-renovation/cover.jpg",
+    "thumbnail": "../assets/images/trends/hong-kong-restaurant-design-renovation/cover.jpg",
+    "hero": "../assets/images/trends/hong-kong-restaurant-design-renovation/cover.jpg",
     "description": "HK Restaurant Design and Renovation Planning | Commercial Space Design Case Studies",
     "sourceUrl": "https://once-hk.com/design-trend/%e9%a4%90%e5%bb%b3%e8%a8%ad%e8%a8%88%e9%87%8d%e9%bb%9e-%e9%a2%a8%e6%a0%bc%e8%a6%8f%e5%8a%83-%e8%a3%9d%e4%bf%ae%e6%8a%80%e5%b7%a7-%e5%95%86%e6%a5%ad%e6%a1%88%e4%be%8b%e5%88%86%e4%ba%ab/",
     "blocks": [
@@ -3785,7 +3785,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/hong-kong-restaurant-design-renovation/cover.jpg",
+        "src": "../assets/images/trends/hong-kong-restaurant-design-renovation/cover.jpg",
         "alt": "HK Restaurant Design and Renovation Planning | Commercial Space Design Case Studies — image 1",
         "width": 1534,
         "height": 1651
@@ -3807,14 +3807,14 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/hong-kong-restaurant-design-renovation/article-01.jpg",
+        "src": "../assets/images/trends/hong-kong-restaurant-design-renovation/article-01.jpg",
         "alt": "HK Restaurant Design and Renovation Planning | Commercial Space Design Case Studies — image 2",
         "width": 2002,
         "height": 1126
       },
       {
         "type": "image",
-        "src": "assets/images/trends/hong-kong-restaurant-design-renovation/article-02.jpg",
+        "src": "../assets/images/trends/hong-kong-restaurant-design-renovation/article-02.jpg",
         "alt": "HK Restaurant Design and Renovation Planning | Commercial Space Design Case Studies — image 3",
         "width": 2048,
         "height": 1536
@@ -3822,7 +3822,7 @@
       {
         "type": "text",
         "paragraphs": [
-          "Japanese <a href=\"trend.html?article=wabi-sabi-home-design\">wabi-sabi</a> aesthetics have gained significant traction in the premium dining sector, with their emphasis on natural materials and artisanal craftsmanship perfectly expressing the elegance of refined Japanese cuisine. Market research indicates substantial growth in demand for this design style throughout 2023, making it the preferred choice for upscale Japanese restaurants."
+          "Japanese <a href=\"article.html?article=wabi-sabi-home-design\">wabi-sabi</a> aesthetics have gained significant traction in the premium dining sector, with their emphasis on natural materials and artisanal craftsmanship perfectly expressing the elegance of refined Japanese cuisine. Market research indicates substantial growth in demand for this design style throughout 2023, making it the preferred choice for upscale Japanese restaurants."
         ],
         "variant": "trend-after-image"
       },
@@ -3839,14 +3839,14 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/hong-kong-restaurant-design-renovation/article-03.jpg",
+        "src": "../assets/images/trends/hong-kong-restaurant-design-renovation/article-03.jpg",
         "alt": "HK Restaurant Design and Renovation Planning | Commercial Space Design Case Studies — image 4",
         "width": 1890,
         "height": 1418
       },
       {
         "type": "image",
-        "src": "assets/images/trends/hong-kong-restaurant-design-renovation/article-04.jpg",
+        "src": "../assets/images/trends/hong-kong-restaurant-design-renovation/article-04.jpg",
         "alt": "HK Restaurant Design and Renovation Planning | Commercial Space Design Case Studies — image 5",
         "width": 1445,
         "height": 1927
@@ -3866,7 +3866,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/hong-kong-restaurant-design-renovation/article-05.jpg",
+        "src": "../assets/images/trends/hong-kong-restaurant-design-renovation/article-05.jpg",
         "alt": "HK Restaurant Design and Renovation Planning | Commercial Space Design Case Studies — image 6",
         "width": 2000,
         "height": 1500
@@ -3894,7 +3894,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/hong-kong-restaurant-design-renovation/article-06.jpg",
+        "src": "../assets/images/trends/hong-kong-restaurant-design-renovation/article-06.jpg",
         "alt": "HK Restaurant Design and Renovation Planning | Commercial Space Design Case Studies — image 7",
         "width": 1981,
         "height": 1486
@@ -3920,14 +3920,14 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/hong-kong-restaurant-design-renovation/article-07.jpg",
+        "src": "../assets/images/trends/hong-kong-restaurant-design-renovation/article-07.jpg",
         "alt": "HK Restaurant Design and Renovation Planning | Commercial Space Design Case Studies — image 8",
         "width": 1920,
         "height": 1440
       },
       {
         "type": "image",
-        "src": "assets/images/trends/hong-kong-restaurant-design-renovation/article-08.jpg",
+        "src": "../assets/images/trends/hong-kong-restaurant-design-renovation/article-08.jpg",
         "alt": "HK Restaurant Design and Renovation Planning | Commercial Space Design Case Studies — image 9",
         "width": 1920,
         "height": 1440
@@ -3948,7 +3948,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/hong-kong-restaurant-design-renovation/article-09.jpg",
+        "src": "../assets/images/trends/hong-kong-restaurant-design-renovation/article-09.jpg",
         "alt": "HK Restaurant Design and Renovation Planning | Commercial Space Design Case Studies — image 10",
         "width": 1536,
         "height": 1536
@@ -4017,8 +4017,8 @@
     "title": "Restaurant & Retail Interior Design Hong Kong | Five Advantages of Experience Design: Enhance Customer Experience",
     "date": "2024-10-18",
     "author": "ONCE DESIGN",
-    "thumbnail": "assets/images/trends/restaurant-retail-experience-design/cover.jpg",
-    "hero": "assets/images/trends/restaurant-retail-experience-design/cover.jpg",
+    "thumbnail": "../assets/images/trends/restaurant-retail-experience-design/cover.jpg",
+    "hero": "../assets/images/trends/restaurant-retail-experience-design/cover.jpg",
     "description": "Restaurant & Retail Interior Design Hong Kong | Five Advantages of Experience Design: Enhance Customer Experience",
     "sourceUrl": "https://once-hk.com/design-trend/%e9%a4%90%e5%bb%b3%e8%88%87%e5%ba%97%e8%88%96%e5%ae%a4%e5%85%a7%e8%a8%ad%e8%a8%88%e9%ab%94%e9%a9%97%e6%80%a7%e8%a8%ad%e8%a8%885%e5%a4%a7%e5%84%aa%e9%bb%9e/",
     "blocks": [
@@ -4030,7 +4030,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/restaurant-retail-experience-design/cover.jpg",
+        "src": "../assets/images/trends/restaurant-retail-experience-design/cover.jpg",
         "alt": "Restaurant & Retail Interior Design Hong Kong | Five Advantages of Experience Design — image 1",
         "width": 1920,
         "height": 925
@@ -4056,7 +4056,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/restaurant-retail-experience-design/article-01.jpg",
+        "src": "../assets/images/trends/restaurant-retail-experience-design/article-01.jpg",
         "alt": "Restaurant & Retail Interior Design Hong Kong | Five Advantages of Experience Design — image 2",
         "width": 1920,
         "height": 1005
@@ -4069,14 +4069,14 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/restaurant-retail-experience-design/article-02.jpg",
+        "src": "../assets/images/trends/restaurant-retail-experience-design/article-02.jpg",
         "alt": "Restaurant & Retail Interior Design Hong Kong | Five Advantages of Experience Design — image 3",
         "width": 1620,
         "height": 1080
       },
       {
         "type": "image",
-        "src": "assets/images/trends/restaurant-retail-experience-design/article-03.jpg",
+        "src": "../assets/images/trends/restaurant-retail-experience-design/article-03.jpg",
         "alt": "Restaurant & Retail Interior Design Hong Kong | Five Advantages of Experience Design — image 4",
         "width": 1620,
         "height": 1080
@@ -4096,7 +4096,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/restaurant-retail-experience-design/article-04.jpg",
+        "src": "../assets/images/trends/restaurant-retail-experience-design/article-04.jpg",
         "alt": "Restaurant & Retail Interior Design Hong Kong | Five Advantages of Experience Design — image 5",
         "width": 1877,
         "height": 1080
@@ -4116,14 +4116,14 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/restaurant-retail-experience-design/article-05.jpg",
+        "src": "../assets/images/trends/restaurant-retail-experience-design/article-05.jpg",
         "alt": "Restaurant & Retail Interior Design Hong Kong | Five Advantages of Experience Design — image 6",
         "width": 1920,
         "height": 1027
       },
       {
         "type": "image",
-        "src": "assets/images/trends/restaurant-retail-experience-design/article-06.jpg",
+        "src": "../assets/images/trends/restaurant-retail-experience-design/article-06.jpg",
         "alt": "Restaurant & Retail Interior Design Hong Kong | Five Advantages of Experience Design — image 7",
         "width": 1766,
         "height": 1080
@@ -4143,14 +4143,14 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/restaurant-retail-experience-design/article-07.jpg",
+        "src": "../assets/images/trends/restaurant-retail-experience-design/article-07.jpg",
         "alt": "Restaurant & Retail Interior Design Hong Kong | Five Advantages of Experience Design — image 8",
         "width": 1234,
         "height": 1080
       },
       {
         "type": "image",
-        "src": "assets/images/trends/restaurant-retail-experience-design/article-08.jpg",
+        "src": "../assets/images/trends/restaurant-retail-experience-design/article-08.jpg",
         "alt": "Restaurant & Retail Interior Design Hong Kong | Five Advantages of Experience Design — image 9",
         "width": 1839,
         "height": 1080
@@ -4170,14 +4170,14 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/restaurant-retail-experience-design/article-09.jpg",
+        "src": "../assets/images/trends/restaurant-retail-experience-design/article-09.jpg",
         "alt": "Restaurant & Retail Interior Design Hong Kong | Five Advantages of Experience Design — image 10",
         "width": 1920,
         "height": 1440
       },
       {
         "type": "image",
-        "src": "assets/images/trends/restaurant-retail-experience-design/article-10.jpg",
+        "src": "../assets/images/trends/restaurant-retail-experience-design/article-10.jpg",
         "alt": "Restaurant & Retail Interior Design Hong Kong | Five Advantages of Experience Design — image 11",
         "width": 1920,
         "height": 1440
@@ -4206,8 +4206,8 @@
     "title": "Minimalist Home Design in Hong Kong: Key Points and Interior Design Inspiration",
     "date": "2024-10-12",
     "author": "ONCE DESIGN",
-    "thumbnail": "assets/images/trends/minimalist-home-design-hong-kong/cover.jpg",
-    "hero": "assets/images/trends/minimalist-home-design-hong-kong/cover.jpg",
+    "thumbnail": "../assets/images/trends/minimalist-home-design-hong-kong/cover.jpg",
+    "hero": "../assets/images/trends/minimalist-home-design-hong-kong/cover.jpg",
     "description": "Minimalist Home Design in Hong Kong: Key Points and Interior Design Inspiration",
     "sourceUrl": "https://once-hk.com/design-trend/%e6%a5%b5%e7%b0%a1%e4%b8%bb%e7%be%a9%e5%ae%b6%e5%b1%85%e9%a2%a8%e6%a0%bc%ef%bd%9c%e7%b0%a1%e7%b4%84%e8%a8%ad%e8%a8%88%e9%97%9c%e9%8d%b5%e9%87%8d%e9%bb%9e%e3%80%81%e5%ae%a4%e5%85%a7%e8%a3%9d%e6%bd%a2/",
     "blocks": [
@@ -4219,7 +4219,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/minimalist-home-design-hong-kong/cover.jpg",
+        "src": "../assets/images/trends/minimalist-home-design-hong-kong/cover.jpg",
         "alt": "Minimalist Home Design in Hong Kong — image 1",
         "width": 1920,
         "height": 1080
@@ -4233,7 +4233,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/minimalist-home-design-hong-kong/article-01.jpg",
+        "src": "../assets/images/trends/minimalist-home-design-hong-kong/article-01.jpg",
         "alt": "Minimalist Home Design in Hong Kong — image 2",
         "width": 1619,
         "height": 1080
@@ -4247,7 +4247,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/minimalist-home-design-hong-kong/article-02.jpg",
+        "src": "../assets/images/trends/minimalist-home-design-hong-kong/article-02.jpg",
         "alt": "Minimalist Home Design in Hong Kong — image 3",
         "width": 1920,
         "height": 1080
@@ -4283,7 +4283,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/minimalist-home-design-hong-kong/article-03.jpg",
+        "src": "../assets/images/trends/minimalist-home-design-hong-kong/article-03.jpg",
         "alt": "Minimalist Home Design in Hong Kong — image 4",
         "width": 1920,
         "height": 1080
@@ -4297,7 +4297,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/minimalist-home-design-hong-kong/article-04.jpg",
+        "src": "../assets/images/trends/minimalist-home-design-hong-kong/article-04.jpg",
         "alt": "Minimalist Home Design in Hong Kong — image 5",
         "width": 1920,
         "height": 1859
@@ -4318,7 +4318,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/minimalist-home-design-hong-kong/article-05.jpg",
+        "src": "../assets/images/trends/minimalist-home-design-hong-kong/article-05.jpg",
         "alt": "Minimalist Home Design in Hong Kong — image 6",
         "width": 1619,
         "height": 1080
@@ -4357,14 +4357,14 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/minimalist-home-design-hong-kong/article-06.jpg",
+        "src": "../assets/images/trends/minimalist-home-design-hong-kong/article-06.jpg",
         "alt": "Minimalist Home Design in Hong Kong — image 7",
         "width": 1920,
         "height": 1080
       },
       {
         "type": "image",
-        "src": "assets/images/trends/minimalist-home-design-hong-kong/article-07.jpg",
+        "src": "../assets/images/trends/minimalist-home-design-hong-kong/article-07.jpg",
         "alt": "Minimalist Home Design in Hong Kong — image 8",
         "width": 1920,
         "height": 1080
@@ -4386,8 +4386,8 @@
     "title": "Hong Kong Home Decoration Style | Wabi-Sabi: 6 Keys in Interior Design and Decoration",
     "date": "2024-07-28",
     "author": "ONCE DESIGN",
-    "thumbnail": "assets/images/trends/wabi-sabi-home-design/cover.jpg",
-    "hero": "assets/images/trends/wabi-sabi-home-design/cover.jpg",
+    "thumbnail": "../assets/images/trends/wabi-sabi-home-design/cover.jpg",
+    "hero": "../assets/images/trends/wabi-sabi-home-design/cover.jpg",
     "description": "Hong Kong Home Decoration Style | Wabi-Sabi: 6 Keys in Interior Design and Decoration",
     "sourceUrl": "https://once-hk.com/design-trend/wabi-sabi-home-design-interior-style/",
     "blocks": [
@@ -4399,7 +4399,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/wabi-sabi-home-design/cover.jpg",
+        "src": "../assets/images/trends/wabi-sabi-home-design/cover.jpg",
         "alt": "Hong Kong Home Decoration Style | Wabi-Sabi — image 1",
         "width": 920,
         "height": 920
@@ -4418,7 +4418,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/wabi-sabi-home-design/article-01.jpg",
+        "src": "../assets/images/trends/wabi-sabi-home-design/article-01.jpg",
         "alt": "Hong Kong Home Decoration Style | Wabi-Sabi — image 2",
         "width": 520,
         "height": 642
@@ -4438,14 +4438,14 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/wabi-sabi-home-design/article-02.jpg",
+        "src": "../assets/images/trends/wabi-sabi-home-design/article-02.jpg",
         "alt": "Hong Kong Home Decoration Style | Wabi-Sabi — image 3",
         "width": 596,
         "height": 782
       },
       {
         "type": "image",
-        "src": "assets/images/trends/wabi-sabi-home-design/article-03.jpg",
+        "src": "../assets/images/trends/wabi-sabi-home-design/article-03.jpg",
         "alt": "Hong Kong Home Decoration Style | Wabi-Sabi — image 4",
         "width": 564,
         "height": 665
@@ -4465,7 +4465,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/wabi-sabi-home-design/article-04.jpg",
+        "src": "../assets/images/trends/wabi-sabi-home-design/article-04.jpg",
         "alt": "Hong Kong Home Decoration Style | Wabi-Sabi — image 5",
         "width": 474,
         "height": 422
@@ -4485,7 +4485,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/wabi-sabi-home-design/article-05.jpg",
+        "src": "../assets/images/trends/wabi-sabi-home-design/article-05.jpg",
         "alt": "Hong Kong Home Decoration Style | Wabi-Sabi — image 6",
         "width": 564,
         "height": 758
@@ -4505,7 +4505,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/wabi-sabi-home-design/article-06.jpg",
+        "src": "../assets/images/trends/wabi-sabi-home-design/article-06.jpg",
         "alt": "Hong Kong Home Decoration Style | Wabi-Sabi — image 7",
         "width": 564,
         "height": 825
@@ -4525,14 +4525,14 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/wabi-sabi-home-design/article-07.jpg",
+        "src": "../assets/images/trends/wabi-sabi-home-design/article-07.jpg",
         "alt": "Hong Kong Home Decoration Style | Wabi-Sabi — image 8",
         "width": 736,
         "height": 1308
       },
       {
         "type": "image",
-        "src": "assets/images/trends/wabi-sabi-home-design/article-08.jpg",
+        "src": "../assets/images/trends/wabi-sabi-home-design/article-08.jpg",
         "alt": "Hong Kong Home Decoration Style | Wabi-Sabi — image 9",
         "width": 532,
         "height": 600
@@ -4552,7 +4552,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/wabi-sabi-home-design/article-09.jpg",
+        "src": "../assets/images/trends/wabi-sabi-home-design/article-09.jpg",
         "alt": "Hong Kong Home Decoration Style | Wabi-Sabi — image 10",
         "width": 564,
         "height": 564
@@ -4582,8 +4582,8 @@
     "title": "Japanese-Style Renovation in Hong Kong | 5 Key Elements of Japanese Casual Home Design",
     "date": "2024-07-28",
     "author": "ONCE DESIGN",
-    "thumbnail": "assets/images/trends/japanese-casual-home-design/cover.jpg",
-    "hero": "assets/images/trends/japanese-casual-home-design/cover.jpg",
+    "thumbnail": "../assets/images/trends/japanese-casual-home-design/cover.jpg",
+    "hero": "../assets/images/trends/japanese-casual-home-design/cover.jpg",
     "description": "Japanese-Style Renovation in Hong Kong | 5 Key Elements of Japanese Casual Home Design",
     "sourceUrl": "https://once-hk.com/design-trend/%e6%97%a5%e5%bc%8f%e5%ae%b6%e5%b1%85%e8%a8%ad%e8%a8%88%ef%bd%9c%e3%80%8c%e6%97%a5%e7%b3%bb%e4%bc%91%e9%96%92%e9%a2%a8%e3%80%8d%e8%a3%9d%e4%bf%ae%e9%a2%a8%e6%a0%bc5%e5%a4%a7%e9%87%8d%e9%bb%9e%ef%bc%8b/",
     "blocks": [
@@ -4595,7 +4595,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/japanese-casual-home-design/cover.jpg",
+        "src": "../assets/images/trends/japanese-casual-home-design/cover.jpg",
         "alt": "Japanese-Style Renovation in Hong Kong | 5 Key Elements of Japanese Casual Home Design — image 1",
         "width": 834,
         "height": 834
@@ -4615,14 +4615,14 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/japanese-casual-home-design/article-01.jpg",
+        "src": "../assets/images/trends/japanese-casual-home-design/article-01.jpg",
         "alt": "Japanese-Style Renovation in Hong Kong | 5 Key Elements of Japanese Casual Home Design — image 2",
         "width": 547,
         "height": 711
       },
       {
         "type": "image",
-        "src": "assets/images/trends/japanese-casual-home-design/article-02.jpg",
+        "src": "../assets/images/trends/japanese-casual-home-design/article-02.jpg",
         "alt": "Japanese-Style Renovation in Hong Kong | 5 Key Elements of Japanese Casual Home Design — image 3",
         "width": 563,
         "height": 752
@@ -4642,14 +4642,14 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/japanese-casual-home-design/article-03.jpg",
+        "src": "../assets/images/trends/japanese-casual-home-design/article-03.jpg",
         "alt": "Japanese-Style Renovation in Hong Kong | 5 Key Elements of Japanese Casual Home Design — image 4",
         "width": 563,
         "height": 845
       },
       {
         "type": "image",
-        "src": "assets/images/trends/japanese-casual-home-design/article-04.jpg",
+        "src": "../assets/images/trends/japanese-casual-home-design/article-04.jpg",
         "alt": "Japanese-Style Renovation in Hong Kong | 5 Key Elements of Japanese Casual Home Design — image 5",
         "width": 460,
         "height": 662
@@ -4669,14 +4669,14 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/japanese-casual-home-design/article-05.jpg",
+        "src": "../assets/images/trends/japanese-casual-home-design/article-05.jpg",
         "alt": "Japanese-Style Renovation in Hong Kong | 5 Key Elements of Japanese Casual Home Design — image 6",
         "width": 533,
         "height": 800
       },
       {
         "type": "image",
-        "src": "assets/images/trends/japanese-casual-home-design/article-06.jpg",
+        "src": "../assets/images/trends/japanese-casual-home-design/article-06.jpg",
         "alt": "Japanese-Style Renovation in Hong Kong | 5 Key Elements of Japanese Casual Home Design — image 7",
         "width": 736,
         "height": 1104
@@ -4696,21 +4696,21 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/japanese-casual-home-design/article-07.jpg",
+        "src": "../assets/images/trends/japanese-casual-home-design/article-07.jpg",
         "alt": "Japanese-Style Renovation in Hong Kong | 5 Key Elements of Japanese Casual Home Design — image 8",
         "width": 564,
         "height": 826
       },
       {
         "type": "image",
-        "src": "assets/images/trends/japanese-casual-home-design/article-08.jpg",
+        "src": "../assets/images/trends/japanese-casual-home-design/article-08.jpg",
         "alt": "Japanese-Style Renovation in Hong Kong | 5 Key Elements of Japanese Casual Home Design — image 9",
         "width": 563,
         "height": 769
       },
       {
         "type": "image",
-        "src": "assets/images/trends/japanese-casual-home-design/article-09.jpg",
+        "src": "../assets/images/trends/japanese-casual-home-design/article-09.jpg",
         "alt": "Japanese-Style Renovation in Hong Kong | 5 Key Elements of Japanese Casual Home Design — image 10",
         "width": 480,
         "height": 640
@@ -4730,7 +4730,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/japanese-casual-home-design/article-10.jpg",
+        "src": "../assets/images/trends/japanese-casual-home-design/article-10.jpg",
         "alt": "Japanese-Style Renovation in Hong Kong | 5 Key Elements of Japanese Casual Home Design — image 11",
         "width": 564,
         "height": 564
@@ -4760,8 +4760,8 @@
     "title": "2024 Hong Kong Popular Home Decor Style: French Cream Color Palette and Interior Design Suggestions",
     "date": "2024-07-27",
     "author": "ONCE DESIGN",
-    "thumbnail": "assets/images/trends/french-cream-home-design/cover.jpg",
-    "hero": "assets/images/trends/french-cream-home-design/cover.jpg",
+    "thumbnail": "../assets/images/trends/french-cream-home-design/cover.jpg",
+    "hero": "../assets/images/trends/french-cream-home-design/cover.jpg",
     "description": "2024 Hong Kong Popular Home Decor Style: French Cream Color Palette and Interior Design Suggestions",
     "sourceUrl": "https://once-hk.com/design-trend/%e5%ae%b6%e5%b1%85%e8%a3%9d%e4%bf%ae%e9%a2%a8%e6%a0%bc%e6%8f%90%e6%a1%88-%e6%b3%95%e5%bc%8f%e5%a5%b6%e6%b2%b9%e9%a2%a8-%e9%85%8d%e8%89%b2%e5%bb%ba%e8%ad%b0%e8%a3%9d%e6%bd%a2%e8%a8%ad%e8%a8%88/",
     "blocks": [
@@ -4773,7 +4773,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/french-cream-home-design/cover.jpg",
+        "src": "../assets/images/trends/french-cream-home-design/cover.jpg",
         "alt": "2024 Hong Kong Popular Home Decor Style — image 1",
         "width": 1038,
         "height": 1038
@@ -4793,14 +4793,14 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/french-cream-home-design/article-01.jpg",
+        "src": "../assets/images/trends/french-cream-home-design/article-01.jpg",
         "alt": "2024 Hong Kong Popular Home Decor Style — image 2",
         "width": 564,
         "height": 749
       },
       {
         "type": "image",
-        "src": "assets/images/trends/french-cream-home-design/article-02.jpg",
+        "src": "../assets/images/trends/french-cream-home-design/article-02.jpg",
         "alt": "2024 Hong Kong Popular Home Decor Style — image 3",
         "width": 564,
         "height": 912
@@ -4821,14 +4821,14 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/french-cream-home-design/article-03.jpg",
+        "src": "../assets/images/trends/french-cream-home-design/article-03.jpg",
         "alt": "2024 Hong Kong Popular Home Decor Style — image 4",
         "width": 564,
         "height": 756
       },
       {
         "type": "image",
-        "src": "assets/images/trends/french-cream-home-design/article-04.jpg",
+        "src": "../assets/images/trends/french-cream-home-design/article-04.jpg",
         "alt": "2024 Hong Kong Popular Home Decor Style — image 5",
         "width": 563,
         "height": 595
@@ -4848,14 +4848,14 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/french-cream-home-design/article-05.jpg",
+        "src": "../assets/images/trends/french-cream-home-design/article-05.jpg",
         "alt": "2024 Hong Kong Popular Home Decor Style — image 6",
         "width": 474,
         "height": 737
       },
       {
         "type": "image",
-        "src": "assets/images/trends/french-cream-home-design/article-06.jpg",
+        "src": "../assets/images/trends/french-cream-home-design/article-06.jpg",
         "alt": "2024 Hong Kong Popular Home Decor Style — image 7",
         "width": 563,
         "height": 911
@@ -4875,7 +4875,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/french-cream-home-design/article-07.jpg",
+        "src": "../assets/images/trends/french-cream-home-design/article-07.jpg",
         "alt": "2024 Hong Kong Popular Home Decor Style — image 8",
         "width": 564,
         "height": 694
@@ -4895,21 +4895,21 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/french-cream-home-design/article-08.jpg",
+        "src": "../assets/images/trends/french-cream-home-design/article-08.jpg",
         "alt": "2024 Hong Kong Popular Home Decor Style — image 9",
         "width": 563,
         "height": 652
       },
       {
         "type": "image",
-        "src": "assets/images/trends/french-cream-home-design/article-09.jpg",
+        "src": "../assets/images/trends/french-cream-home-design/article-09.jpg",
         "alt": "2024 Hong Kong Popular Home Decor Style — image 10",
         "width": 564,
         "height": 846
       },
       {
         "type": "image",
-        "src": "assets/images/trends/french-cream-home-design/article-10.jpg",
+        "src": "../assets/images/trends/french-cream-home-design/article-10.jpg",
         "alt": "2024 Hong Kong Popular Home Decor Style — image 11",
         "width": 501,
         "height": 594
@@ -4939,8 +4939,8 @@
     "title": "Introduction to 5 Styles of Restaurant Interior Design | HK Cafe, Snack Shops, and Other F&B Renovation Ideas",
     "date": "2024-07-22",
     "author": "ONCE DESIGN",
-    "thumbnail": "assets/images/trends/restaurant-interior-design-five-styles/cover.jpg",
-    "hero": "assets/images/trends/restaurant-interior-design-five-styles/cover.jpg",
+    "thumbnail": "../assets/images/trends/restaurant-interior-design-five-styles/cover.jpg",
+    "hero": "../assets/images/trends/restaurant-interior-design-five-styles/cover.jpg",
     "description": "Introduction to 5 Styles of Restaurant Interior Design | HK Cafe, Snack Shops, and Other F&B Renovation Ideas",
     "sourceUrl": "https://once-hk.com/design-trend/%e9%a4%90%e5%bb%b3%e8%a3%9d%e4%bf%ae%e8%a8%ad%e8%a8%885%e5%a4%a7%e9%a2%a8%e6%a0%bc%e4%bb%8b%e7%b4%b9%ef%bd%9ccafe-%e5%b0%8f%e9%a3%9f%e5%ba%97%e7%ad%89%e9%a4%90%e9%a3%b2%e5%ba%97%e5%ae%a4%e5%85%a7/",
     "blocks": [
@@ -4952,7 +4952,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/restaurant-interior-design-five-styles/cover.jpg",
+        "src": "../assets/images/trends/restaurant-interior-design-five-styles/cover.jpg",
         "alt": "Introduction to 5 Styles of Restaurant Interior Design | HK Cafe, Snack Shops, and Other F&B Renovation Ideas — image 1",
         "width": 1920,
         "height": 1440
@@ -4972,14 +4972,14 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/restaurant-interior-design-five-styles/article-01.jpg",
+        "src": "../assets/images/trends/restaurant-interior-design-five-styles/article-01.jpg",
         "alt": "Introduction to 5 Styles of Restaurant Interior Design | HK Cafe, Snack Shops, and Other F&B Renovation Ideas — image 2",
         "width": 564,
         "height": 846
       },
       {
         "type": "image",
-        "src": "assets/images/trends/restaurant-interior-design-five-styles/article-02.jpg",
+        "src": "../assets/images/trends/restaurant-interior-design-five-styles/article-02.jpg",
         "alt": "Introduction to 5 Styles of Restaurant Interior Design | HK Cafe, Snack Shops, and Other F&B Renovation Ideas — image 3",
         "width": 563,
         "height": 751
@@ -5000,7 +5000,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/restaurant-interior-design-five-styles/article-03.jpg",
+        "src": "../assets/images/trends/restaurant-interior-design-five-styles/article-03.jpg",
         "alt": "Introduction to 5 Styles of Restaurant Interior Design | HK Cafe, Snack Shops, and Other F&B Renovation Ideas — image 4",
         "width": 564,
         "height": 845
@@ -5021,21 +5021,21 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/restaurant-interior-design-five-styles/article-04.jpg",
+        "src": "../assets/images/trends/restaurant-interior-design-five-styles/article-04.jpg",
         "alt": "Introduction to 5 Styles of Restaurant Interior Design | HK Cafe, Snack Shops, and Other F&B Renovation Ideas — image 5",
         "width": 564,
         "height": 694
       },
       {
         "type": "image",
-        "src": "assets/images/trends/restaurant-interior-design-five-styles/article-05.jpg",
+        "src": "../assets/images/trends/restaurant-interior-design-five-styles/article-05.jpg",
         "alt": "Introduction to 5 Styles of Restaurant Interior Design | HK Cafe, Snack Shops, and Other F&B Renovation Ideas — image 6",
         "width": 564,
         "height": 846
       },
       {
         "type": "image",
-        "src": "assets/images/trends/restaurant-interior-design-five-styles/article-06.jpg",
+        "src": "../assets/images/trends/restaurant-interior-design-five-styles/article-06.jpg",
         "alt": "Introduction to 5 Styles of Restaurant Interior Design | HK Cafe, Snack Shops, and Other F&B Renovation Ideas — image 7",
         "width": 564,
         "height": 804
@@ -5056,14 +5056,14 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/restaurant-interior-design-five-styles/article-07.jpg",
+        "src": "../assets/images/trends/restaurant-interior-design-five-styles/article-07.jpg",
         "alt": "Introduction to 5 Styles of Restaurant Interior Design | HK Cafe, Snack Shops, and Other F&B Renovation Ideas — image 8",
         "width": 736,
         "height": 981
       },
       {
         "type": "image",
-        "src": "assets/images/trends/restaurant-interior-design-five-styles/article-08.jpg",
+        "src": "../assets/images/trends/restaurant-interior-design-five-styles/article-08.jpg",
         "alt": "Introduction to 5 Styles of Restaurant Interior Design | HK Cafe, Snack Shops, and Other F&B Renovation Ideas — image 9",
         "width": 275,
         "height": 496
@@ -5084,7 +5084,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/restaurant-interior-design-five-styles/article-09.jpg",
+        "src": "../assets/images/trends/restaurant-interior-design-five-styles/article-09.jpg",
         "alt": "Introduction to 5 Styles of Restaurant Interior Design | HK Cafe, Snack Shops, and Other F&B Renovation Ideas — image 10",
         "width": 1920,
         "height": 1440
@@ -5099,7 +5099,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/restaurant-interior-design-five-styles/article-10.jpg",
+        "src": "../assets/images/trends/restaurant-interior-design-five-styles/article-10.jpg",
         "alt": "Introduction to 5 Styles of Restaurant Interior Design | HK Cafe, Snack Shops, and Other F&B Renovation Ideas — image 11",
         "width": 1920,
         "height": 1440
@@ -5121,8 +5121,8 @@
     "title": "Commercial Interior Design and Branding: Interior Designer Eric Fung Shares Key Elements to Enhance the Value of Retail Spaces",
     "date": "2024-07-07",
     "author": "ONCE DESIGN",
-    "thumbnail": "assets/images/trends/commercial-interior-design-branding-eric-fung/cover.jpg",
-    "hero": "assets/images/trends/commercial-interior-design-branding-eric-fung/cover.jpg",
+    "thumbnail": "../assets/images/trends/commercial-interior-design-branding-eric-fung/cover.jpg",
+    "hero": "../assets/images/trends/commercial-interior-design-branding-eric-fung/cover.jpg",
     "description": "Commercial Interior Design and Branding: Interior Designer Eric Fung Shares Key Elements to Enhance the Value of Retail Spaces",
     "sourceUrl": "https://once-hk.com/design-trend/%e5%ba%97%e9%8b%aa%e8%a8%ad%e8%a8%88%e8%88%87%e5%93%81%e7%89%8c%e5%a6%82%e4%bd%95%e8%9e%8d%e5%90%88%e5%ae%a4%e5%85%a7%e8%a8%ad%e8%a8%88%e5%b8%aberic-fung%e5%88%86%e4%ba%ab%e9%97%9c%e9%8d%b5%e5%85%83/",
     "blocks": [
@@ -5134,7 +5134,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/commercial-interior-design-branding-eric-fung/cover.jpg",
+        "src": "../assets/images/trends/commercial-interior-design-branding-eric-fung/cover.jpg",
         "alt": "Commercial Interior Design and Branding — image 1",
         "width": 1440,
         "height": 1080
@@ -5153,7 +5153,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/commercial-interior-design-branding-eric-fung/article-01.jpg",
+        "src": "../assets/images/trends/commercial-interior-design-branding-eric-fung/article-01.jpg",
         "alt": "Commercial Interior Design and Branding — image 2",
         "width": 1884,
         "height": 976
@@ -5174,7 +5174,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/commercial-interior-design-branding-eric-fung/article-02.jpg",
+        "src": "../assets/images/trends/commercial-interior-design-branding-eric-fung/article-02.jpg",
         "alt": "Commercial Interior Design and Branding — image 3",
         "width": 1920,
         "height": 930
@@ -5195,7 +5195,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/commercial-interior-design-branding-eric-fung/article-03.jpg",
+        "src": "../assets/images/trends/commercial-interior-design-branding-eric-fung/article-03.jpg",
         "alt": "Commercial Interior Design and Branding — image 4",
         "width": 1920,
         "height": 1099
@@ -5214,7 +5214,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/commercial-interior-design-branding-eric-fung/article-04.jpg",
+        "src": "../assets/images/trends/commercial-interior-design-branding-eric-fung/article-04.jpg",
         "alt": "Commercial Interior Design and Branding — image 5",
         "width": 1316,
         "height": 980
@@ -5233,7 +5233,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/commercial-interior-design-branding-eric-fung/article-05.jpg",
+        "src": "../assets/images/trends/commercial-interior-design-branding-eric-fung/article-05.jpg",
         "alt": "Commercial Interior Design and Branding — image 6",
         "width": 1660,
         "height": 992
@@ -5263,8 +5263,8 @@
     "title": "Hong Kong Corporate Office Design: Key Considerations for 3 Types of Companies",
     "date": "2024-05-15",
     "author": "ONCE DESIGN",
-    "thumbnail": "assets/images/trends/corporate-office-design-hong-kong/cover.jpg",
-    "hero": "assets/images/trends/corporate-office-design-hong-kong/cover.jpg",
+    "thumbnail": "../assets/images/trends/corporate-office-design-hong-kong/cover.jpg",
+    "hero": "../assets/images/trends/corporate-office-design-hong-kong/cover.jpg",
     "description": "Hong Kong Corporate Office Design: Key Considerations for 3 Types of Companies",
     "sourceUrl": "https://once-hk.com/design-trend/%e8%be%a6%e5%85%ac%e5%ae%a4%e8%a8%ad%e8%a8%88%e8%a6%8f%e5%8a%833%e5%a4%a7%e9%a1%9e%e5%9e%8b%e5%85%ac%e5%8f%b8%e5%ae%a4%e5%85%a7%e8%a3%9d%e4%bf%ae%e9%87%8d%e9%bb%9e%e6%95%b4%e7%90%86%e5%8f%8a%e6%b3%a8/",
     "blocks": [
@@ -5276,7 +5276,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/corporate-office-design-hong-kong/cover.jpg",
+        "src": "../assets/images/trends/corporate-office-design-hong-kong/cover.jpg",
         "alt": "Hong Kong Corporate Office Design — image 1",
         "width": 1920,
         "height": 1440
@@ -5295,7 +5295,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/corporate-office-design-hong-kong/article-01.jpg",
+        "src": "../assets/images/trends/corporate-office-design-hong-kong/article-01.jpg",
         "alt": "Hong Kong Corporate Office Design — image 2",
         "width": 1920,
         "height": 1440
@@ -5331,7 +5331,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/corporate-office-design-hong-kong/article-02.jpg",
+        "src": "../assets/images/trends/corporate-office-design-hong-kong/article-02.jpg",
         "alt": "Hong Kong Corporate Office Design — image 3",
         "width": 1920,
         "height": 1080
@@ -5351,7 +5351,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/corporate-office-design-hong-kong/article-03.jpg",
+        "src": "../assets/images/trends/corporate-office-design-hong-kong/article-03.jpg",
         "alt": "Hong Kong Corporate Office Design — image 4",
         "width": 1920,
         "height": 1440
@@ -5371,7 +5371,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/corporate-office-design-hong-kong/article-04.jpg",
+        "src": "../assets/images/trends/corporate-office-design-hong-kong/article-04.jpg",
         "alt": "Hong Kong Corporate Office Design — image 5",
         "width": 1920,
         "height": 1440
@@ -5390,7 +5390,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/corporate-office-design-hong-kong/article-05.jpg",
+        "src": "../assets/images/trends/corporate-office-design-hong-kong/article-05.jpg",
         "alt": "Hong Kong Corporate Office Design — image 6",
         "width": 1920,
         "height": 1080
@@ -5442,7 +5442,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/corporate-office-design-hong-kong/article-06.jpg",
+        "src": "../assets/images/trends/corporate-office-design-hong-kong/article-06.jpg",
         "alt": "Hong Kong Corporate Office Design — image 7",
         "width": 1920,
         "height": 1440
@@ -5473,7 +5473,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/corporate-office-design-hong-kong/article-07.jpg",
+        "src": "../assets/images/trends/corporate-office-design-hong-kong/article-07.jpg",
         "alt": "Hong Kong Corporate Office Design — image 8",
         "width": 1920,
         "height": 1440
@@ -5496,8 +5496,8 @@
     "title": "2024 Interior Design Trends: 7 Popular Home Decoration Styles and Furniture Elements",
     "date": "2024-04-04",
     "author": "ONCE DESIGN",
-    "thumbnail": "assets/images/trends/interior-design-trends-2024/cover.jpg",
-    "hero": "assets/images/trends/interior-design-trends-2024/cover.jpg",
+    "thumbnail": "../assets/images/trends/interior-design-trends-2024/cover.jpg",
+    "hero": "../assets/images/trends/interior-design-trends-2024/cover.jpg",
     "description": "2024 Interior Design Trends: 7 Popular Home Decoration Styles and Furniture Elements",
     "sourceUrl": "https://once-hk.com/design-trend/2024%e5%ae%a4%e5%85%a7%e8%a8%ad%e8%a8%88%e8%b6%a8%e5%8b%a27%e5%a4%a7%e5%ae%b6%e5%b1%85%e8%a3%9d%e4%bf%ae%e9%a2%a8%e6%a0%bc%e6%b5%81%e8%a1%8c%e5%ae%b6%e5%85%b7%e5%85%83%e7%b4%a0%e4%b8%80%e8%a6%bd/",
     "blocks": [
@@ -5509,7 +5509,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/interior-design-trends-2024/cover.jpg",
+        "src": "../assets/images/trends/interior-design-trends-2024/cover.jpg",
         "alt": "2024 Interior Design Trends — image 1",
         "width": 558,
         "height": 558
@@ -5522,7 +5522,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/interior-design-trends-2024/article-01.jpg",
+        "src": "../assets/images/trends/interior-design-trends-2024/article-01.jpg",
         "alt": "2024 Interior Design Trends — image 2",
         "width": 1920,
         "height": 1080
@@ -5542,7 +5542,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/interior-design-trends-2024/article-02.jpg",
+        "src": "../assets/images/trends/interior-design-trends-2024/article-02.jpg",
         "alt": "2024 Interior Design Trends — image 3",
         "width": 1920,
         "height": 1080
@@ -5550,7 +5550,7 @@
       {
         "type": "text",
         "paragraphs": [
-          "In 2024, bright colors will dominate interior design trends. Dulux's trend color for 2024 is \"Sweet Embrace\" which creates a harmonious atmosphere with its gentle tones. Pantone's color for 2024 is \"<a href=\"trend.html?article=pantone-peach-fuzz-home-decor-2024\">Peach Fuzz</a>,\" a bright and soft peach color that injects vitality into the space. Consider using one of these colors as the primary tone or incorporating them into various details such as curtains, carpets, or even furniture to create visually contrasting layers. Bold use of colors will be a highlight of interior design styles in 2024."
+          "In 2024, bright colors will dominate interior design trends. Dulux's trend color for 2024 is \"Sweet Embrace\" which creates a harmonious atmosphere with its gentle tones. Pantone's color for 2024 is \"<a href=\"article.html?article=pantone-peach-fuzz-home-decor-2024\">Peach Fuzz</a>,\" a bright and soft peach color that injects vitality into the space. Consider using one of these colors as the primary tone or incorporating them into various details such as curtains, carpets, or even furniture to create visually contrasting layers. Bold use of colors will be a highlight of interior design styles in 2024."
         ],
         "variant": "trend-after-image"
       },
@@ -5562,7 +5562,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/interior-design-trends-2024/article-03.jpg",
+        "src": "../assets/images/trends/interior-design-trends-2024/article-03.jpg",
         "alt": "2024 Interior Design Trends — image 4",
         "width": 558,
         "height": 558
@@ -5582,21 +5582,21 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/interior-design-trends-2024/article-04.jpg",
+        "src": "../assets/images/trends/interior-design-trends-2024/article-04.jpg",
         "alt": "2024 Interior Design Trends — image 5",
         "width": 300,
         "height": 300
       },
       {
         "type": "image",
-        "src": "assets/images/trends/interior-design-trends-2024/article-05.jpg",
+        "src": "../assets/images/trends/interior-design-trends-2024/article-05.jpg",
         "alt": "2024 Interior Design Trends — image 6",
         "width": 593,
         "height": 593
       },
       {
         "type": "image",
-        "src": "assets/images/trends/interior-design-trends-2024/article-06.jpg",
+        "src": "../assets/images/trends/interior-design-trends-2024/article-06.jpg",
         "alt": "2024 Interior Design Trends — image 7",
         "width": 556,
         "height": 244
@@ -5616,7 +5616,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/interior-design-trends-2024/article-07.jpg",
+        "src": "../assets/images/trends/interior-design-trends-2024/article-07.jpg",
         "alt": "2024 Interior Design Trends — image 8",
         "width": 1920,
         "height": 1080
@@ -5636,14 +5636,14 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/interior-design-trends-2024/article-08.jpg",
+        "src": "../assets/images/trends/interior-design-trends-2024/article-08.jpg",
         "alt": "2024 Interior Design Trends — image 9",
         "width": 1920,
         "height": 1280
       },
       {
         "type": "image",
-        "src": "assets/images/trends/interior-design-trends-2024/article-09.jpg",
+        "src": "../assets/images/trends/interior-design-trends-2024/article-09.jpg",
         "alt": "2024 Interior Design Trends — image 10",
         "width": 1920,
         "height": 1280
@@ -5663,7 +5663,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/interior-design-trends-2024/article-10.jpg",
+        "src": "../assets/images/trends/interior-design-trends-2024/article-10.jpg",
         "alt": "2024 Interior Design Trends — image 11",
         "width": 563,
         "height": 563
@@ -5686,8 +5686,8 @@
     "title": "2024 Color Trend: Sweet Embrace: Decor Style, Interior Design Inspiration",
     "date": "2024-04-02",
     "author": "ONCE DESIGN",
-    "thumbnail": "assets/images/trends/sweet-embrace-color-trend-2024/cover.jpg",
-    "hero": "assets/images/trends/sweet-embrace-color-trend-2024/cover.jpg",
+    "thumbnail": "../assets/images/trends/sweet-embrace-color-trend-2024/cover.jpg",
+    "hero": "../assets/images/trends/sweet-embrace-color-trend-2024/cover.jpg",
     "description": "2024 Color Trend: Sweet Embrace: Decor Style, Interior Design Inspiration",
     "sourceUrl": "https://once-hk.com/design-trend/2024%e5%b9%b4%e5%ba%a6%e8%89%b2%e5%bd%a9%e8%b6%a8%e5%8b%a2sweet-embrace%e9%9b%b2%e9%9c%9e%e7%b2%89%e8%a3%9d%e4%bf%ae%e9%a2%a8%e6%a0%bc%e5%ae%a4%e5%85%a7%e8%a8%ad%e8%a8%88%e9%9d%88%e6%84%9f/",
     "blocks": [
@@ -5699,7 +5699,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/sweet-embrace-color-trend-2024/cover.jpg",
+        "src": "../assets/images/trends/sweet-embrace-color-trend-2024/cover.jpg",
         "alt": "2024 Color Trend — image 1",
         "width": 1080,
         "height": 1080
@@ -5718,14 +5718,14 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/sweet-embrace-color-trend-2024/article-01.jpg",
+        "src": "../assets/images/trends/sweet-embrace-color-trend-2024/article-01.jpg",
         "alt": "2024 Color Trend — image 2",
         "width": 493,
         "height": 493
       },
       {
         "type": "image",
-        "src": "assets/images/trends/sweet-embrace-color-trend-2024/article-02.jpg",
+        "src": "../assets/images/trends/sweet-embrace-color-trend-2024/article-02.jpg",
         "alt": "2024 Color Trend — image 3",
         "width": 512,
         "height": 512
@@ -5771,7 +5771,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/sweet-embrace-color-trend-2024/article-03.jpg",
+        "src": "../assets/images/trends/sweet-embrace-color-trend-2024/article-03.jpg",
         "alt": "2024 Color Trend — image 4",
         "width": 564,
         "height": 564
@@ -5784,14 +5784,14 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/sweet-embrace-color-trend-2024/article-04.jpg",
+        "src": "../assets/images/trends/sweet-embrace-color-trend-2024/article-04.jpg",
         "alt": "2024 Color Trend — image 5",
         "width": 564,
         "height": 564
       },
       {
         "type": "image",
-        "src": "assets/images/trends/sweet-embrace-color-trend-2024/article-05.jpg",
+        "src": "../assets/images/trends/sweet-embrace-color-trend-2024/article-05.jpg",
         "alt": "2024 Color Trend — image 6",
         "width": 564,
         "height": 564
@@ -5811,7 +5811,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/sweet-embrace-color-trend-2024/article-06.jpg",
+        "src": "../assets/images/trends/sweet-embrace-color-trend-2024/article-06.jpg",
         "alt": "2024 Color Trend — image 7",
         "width": 460,
         "height": 460
@@ -5831,14 +5831,14 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/sweet-embrace-color-trend-2024/article-07.jpg",
+        "src": "../assets/images/trends/sweet-embrace-color-trend-2024/article-07.jpg",
         "alt": "2024 Color Trend — image 8",
         "width": 564,
         "height": 705
       },
       {
         "type": "image",
-        "src": "assets/images/trends/sweet-embrace-color-trend-2024/article-08.jpg",
+        "src": "../assets/images/trends/sweet-embrace-color-trend-2024/article-08.jpg",
         "alt": "2024 Color Trend — image 9",
         "width": 564,
         "height": 564
@@ -5852,7 +5852,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/sweet-embrace-color-trend-2024/article-09.jpg",
+        "src": "../assets/images/trends/sweet-embrace-color-trend-2024/article-09.jpg",
         "alt": "2024 Color Trend — image 10",
         "width": 564,
         "height": 845
@@ -5881,8 +5881,8 @@
     "title": "Medical Aesthetics Clinic Interior Design | 5 Keys To Beauty Center Renovation",
     "date": "2024-04-01",
     "author": "ONCE DESIGN",
-    "thumbnail": "assets/images/trends/medical-aesthetics-clinic-design-five-keys/cover.jpg",
-    "hero": "assets/images/trends/medical-aesthetics-clinic-design-five-keys/cover.jpg",
+    "thumbnail": "../assets/images/trends/medical-aesthetics-clinic-design-five-keys/cover.jpg",
+    "hero": "../assets/images/trends/medical-aesthetics-clinic-design-five-keys/cover.jpg",
     "description": "Medical Aesthetics Clinic Interior Design | 5 Keys To Beauty Center Renovation",
     "sourceUrl": "https://once-hk.com/design-trend/%e9%86%ab%e7%be%8e%e8%a8%ba%e6%89%80%e8%a3%9d%e4%bf%ae%e8%a8%ad%e8%a8%88%e7%be%8e%e5%ae%b9%e9%99%a2%e4%b8%ad%e5%bf%83%e5%ae%a4%e5%85%a7%e8%a3%9d%e6%bd%a25%e5%a4%a7%e8%a6%8f%e5%8a%83%e9%87%8d%e9%bb%9e/",
     "blocks": [
@@ -5894,7 +5894,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/medical-aesthetics-clinic-design-five-keys/cover.jpg",
+        "src": "../assets/images/trends/medical-aesthetics-clinic-design-five-keys/cover.jpg",
         "alt": "Medical Aesthetics Clinic Interior Design | 5 Keys To Beauty Center Renovation — image 1",
         "width": 564,
         "height": 846
@@ -5914,7 +5914,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/medical-aesthetics-clinic-design-five-keys/article-01.jpg",
+        "src": "../assets/images/trends/medical-aesthetics-clinic-design-five-keys/article-01.jpg",
         "alt": "Medical Aesthetics Clinic Interior Design | 5 Keys To Beauty Center Renovation — image 2",
         "width": 564,
         "height": 845
@@ -5934,14 +5934,14 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/medical-aesthetics-clinic-design-five-keys/article-02.jpg",
+        "src": "../assets/images/trends/medical-aesthetics-clinic-design-five-keys/article-02.jpg",
         "alt": "Medical Aesthetics Clinic Interior Design | 5 Keys To Beauty Center Renovation — image 3",
         "width": 903,
         "height": 696
       },
       {
         "type": "image",
-        "src": "assets/images/trends/medical-aesthetics-clinic-design-five-keys/article-03.jpg",
+        "src": "../assets/images/trends/medical-aesthetics-clinic-design-five-keys/article-03.jpg",
         "alt": "Medical Aesthetics Clinic Interior Design | 5 Keys To Beauty Center Renovation — image 4",
         "width": 1175,
         "height": 903
@@ -5961,7 +5961,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/medical-aesthetics-clinic-design-five-keys/article-04.jpg",
+        "src": "../assets/images/trends/medical-aesthetics-clinic-design-five-keys/article-04.jpg",
         "alt": "Medical Aesthetics Clinic Interior Design | 5 Keys To Beauty Center Renovation — image 5",
         "width": 1200,
         "height": 1600
@@ -5981,7 +5981,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/medical-aesthetics-clinic-design-five-keys/article-05.jpg",
+        "src": "../assets/images/trends/medical-aesthetics-clinic-design-five-keys/article-05.jpg",
         "alt": "Medical Aesthetics Clinic Interior Design | 5 Keys To Beauty Center Renovation — image 6",
         "width": 1200,
         "height": 1600
@@ -6001,7 +6001,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/medical-aesthetics-clinic-design-five-keys/article-06.jpg",
+        "src": "../assets/images/trends/medical-aesthetics-clinic-design-five-keys/article-06.jpg",
         "alt": "Medical Aesthetics Clinic Interior Design | 5 Keys To Beauty Center Renovation — image 7",
         "width": 926,
         "height": 616
@@ -6020,21 +6020,21 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/medical-aesthetics-clinic-design-five-keys/article-07.jpg",
+        "src": "../assets/images/trends/medical-aesthetics-clinic-design-five-keys/article-07.jpg",
         "alt": "Medical Aesthetics Clinic Interior Design | 5 Keys To Beauty Center Renovation — image 8",
         "width": 431,
         "height": 601
       },
       {
         "type": "image",
-        "src": "assets/images/trends/medical-aesthetics-clinic-design-five-keys/article-08.jpg",
+        "src": "../assets/images/trends/medical-aesthetics-clinic-design-five-keys/article-08.jpg",
         "alt": "Medical Aesthetics Clinic Interior Design | 5 Keys To Beauty Center Renovation — image 9",
         "width": 1354,
         "height": 903
       },
       {
         "type": "image",
-        "src": "assets/images/trends/medical-aesthetics-clinic-design-five-keys/article-09.jpg",
+        "src": "../assets/images/trends/medical-aesthetics-clinic-design-five-keys/article-09.jpg",
         "alt": "Medical Aesthetics Clinic Interior Design | 5 Keys To Beauty Center Renovation — image 10",
         "width": 1245,
         "height": 908
@@ -6056,8 +6056,8 @@
     "title": "Beauty Facial Centre Renovation | 5 Key Considerations for Interior Design",
     "date": "2024-02-27",
     "author": "ONCE DESIGN",
-    "thumbnail": "assets/images/trends/beauty-facial-centre-renovation/cover.jpg",
-    "hero": "assets/images/trends/beauty-facial-centre-renovation/cover.jpg",
+    "thumbnail": "../assets/images/trends/beauty-facial-centre-renovation/cover.jpg",
+    "hero": "../assets/images/trends/beauty-facial-centre-renovation/cover.jpg",
     "description": "Beauty Facial Centre Renovation | 5 Key Considerations for Interior Design",
     "sourceUrl": "https://once-hk.com/design-trend/%e7%be%8e%e5%ae%b9%e9%99%a2%e8%a3%9d%e4%bf%ae%e8%a8%ad%e8%a8%885%e5%a4%a7%e6%b3%a8%e6%84%8f%e4%ba%8b%e9%a0%85-%e5%ae%a4%e5%85%a7%e8%a8%ad%e8%a8%88%e5%af%a6%e7%94%a8%e5%bb%ba%e8%ad%b0/",
     "blocks": [
@@ -6069,7 +6069,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/beauty-facial-centre-renovation/cover.jpg",
+        "src": "../assets/images/trends/beauty-facial-centre-renovation/cover.jpg",
         "alt": "Beauty Facial Centre Renovation | 5 Key Considerations for Interior Design — image 1",
         "width": 1920,
         "height": 1080
@@ -6091,7 +6091,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/beauty-facial-centre-renovation/article-01.jpg",
+        "src": "../assets/images/trends/beauty-facial-centre-renovation/article-01.jpg",
         "alt": "Beauty Facial Centre Renovation | 5 Key Considerations for Interior Design — image 2",
         "width": 1920,
         "height": 1080
@@ -6111,7 +6111,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/beauty-facial-centre-renovation/article-02.jpg",
+        "src": "../assets/images/trends/beauty-facial-centre-renovation/article-02.jpg",
         "alt": "Beauty Facial Centre Renovation | 5 Key Considerations for Interior Design — image 3",
         "width": 1920,
         "height": 1080
@@ -6131,7 +6131,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/beauty-facial-centre-renovation/article-03.jpg",
+        "src": "../assets/images/trends/beauty-facial-centre-renovation/article-03.jpg",
         "alt": "Beauty Facial Centre Renovation | 5 Key Considerations for Interior Design — image 4",
         "width": 1920,
         "height": 1080
@@ -6151,7 +6151,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/beauty-facial-centre-renovation/article-04.jpg",
+        "src": "../assets/images/trends/beauty-facial-centre-renovation/article-04.jpg",
         "alt": "Beauty Facial Centre Renovation | 5 Key Considerations for Interior Design — image 5",
         "width": 1920,
         "height": 1080
@@ -6171,7 +6171,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/beauty-facial-centre-renovation/article-05.jpg",
+        "src": "../assets/images/trends/beauty-facial-centre-renovation/article-05.jpg",
         "alt": "Beauty Facial Centre Renovation | 5 Key Considerations for Interior Design — image 6",
         "width": 1920,
         "height": 1080
@@ -6190,7 +6190,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/beauty-facial-centre-renovation/article-06.jpg",
+        "src": "../assets/images/trends/beauty-facial-centre-renovation/article-06.jpg",
         "alt": "Beauty Facial Centre Renovation | 5 Key Considerations for Interior Design — image 7",
         "width": 1920,
         "height": 1080
@@ -6205,7 +6205,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/beauty-facial-centre-renovation/article-07.jpg",
+        "src": "../assets/images/trends/beauty-facial-centre-renovation/article-07.jpg",
         "alt": "Beauty Facial Centre Renovation | 5 Key Considerations for Interior Design — image 8",
         "width": 1920,
         "height": 1080
@@ -6227,8 +6227,8 @@
     "title": "2024 Pantone Peach Fuzz Home Decor Style | Creating Home Design with the Year's Representative Color",
     "date": "2024-02-18",
     "author": "ONCE DESIGN",
-    "thumbnail": "assets/images/trends/pantone-peach-fuzz-home-decor-2024/cover.jpg",
-    "hero": "assets/images/trends/pantone-peach-fuzz-home-decor-2024/cover.jpg",
+    "thumbnail": "../assets/images/trends/pantone-peach-fuzz-home-decor-2024/cover.jpg",
+    "hero": "../assets/images/trends/pantone-peach-fuzz-home-decor-2024/cover.jpg",
     "description": "2024 Pantone Peach Fuzz Home Decor Style | Creating Home Design with the Year's Representative Color",
     "sourceUrl": "https://once-hk.com/design-trend/2024-pantone-peach-fuzz-2/",
     "blocks": [
@@ -6239,7 +6239,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/pantone-peach-fuzz-home-decor-2024/cover.jpg",
+        "src": "../assets/images/trends/pantone-peach-fuzz-home-decor-2024/cover.jpg",
         "alt": "2024 Pantone Peach Fuzz Home Decor Style | Creating Home Design with the Year's Representative Color — image 1",
         "width": 1119,
         "height": 1679
@@ -6258,14 +6258,14 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/pantone-peach-fuzz-home-decor-2024/article-01.jpg",
+        "src": "../assets/images/trends/pantone-peach-fuzz-home-decor-2024/article-01.jpg",
         "alt": "2024 Pantone Peach Fuzz Home Decor Style | Creating Home Design with the Year's Representative Color — image 2",
         "width": 799,
         "height": 1199
       },
       {
         "type": "image",
-        "src": "assets/images/trends/pantone-peach-fuzz-home-decor-2024/article-02.jpg",
+        "src": "../assets/images/trends/pantone-peach-fuzz-home-decor-2024/article-02.jpg",
         "alt": "2024 Pantone Peach Fuzz Home Decor Style | Creating Home Design with the Year's Representative Color — image 3",
         "width": 620,
         "height": 931
@@ -6286,14 +6286,14 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/pantone-peach-fuzz-home-decor-2024/article-03.jpg",
+        "src": "../assets/images/trends/pantone-peach-fuzz-home-decor-2024/article-03.jpg",
         "alt": "2024 Pantone Peach Fuzz Home Decor Style | Creating Home Design with the Year's Representative Color — image 4",
         "width": 896,
         "height": 1344
       },
       {
         "type": "image",
-        "src": "assets/images/trends/pantone-peach-fuzz-home-decor-2024/article-04.jpg",
+        "src": "../assets/images/trends/pantone-peach-fuzz-home-decor-2024/article-04.jpg",
         "alt": "2024 Pantone Peach Fuzz Home Decor Style | Creating Home Design with the Year's Representative Color — image 5",
         "width": 1067,
         "height": 1600
@@ -6313,14 +6313,14 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/pantone-peach-fuzz-home-decor-2024/article-05.jpg",
+        "src": "../assets/images/trends/pantone-peach-fuzz-home-decor-2024/article-05.jpg",
         "alt": "2024 Pantone Peach Fuzz Home Decor Style | Creating Home Design with the Year's Representative Color — image 6",
         "width": 1040,
         "height": 1560
       },
       {
         "type": "image",
-        "src": "assets/images/trends/pantone-peach-fuzz-home-decor-2024/article-06.jpg",
+        "src": "../assets/images/trends/pantone-peach-fuzz-home-decor-2024/article-06.jpg",
         "alt": "2024 Pantone Peach Fuzz Home Decor Style | Creating Home Design with the Year's Representative Color — image 7",
         "width": 526,
         "height": 789
@@ -6340,7 +6340,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/pantone-peach-fuzz-home-decor-2024/article-07.jpg",
+        "src": "../assets/images/trends/pantone-peach-fuzz-home-decor-2024/article-07.jpg",
         "alt": "2024 Pantone Peach Fuzz Home Decor Style | Creating Home Design with the Year's Representative Color — image 8",
         "width": 564,
         "height": 846
@@ -6355,21 +6355,21 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/pantone-peach-fuzz-home-decor-2024/article-08.jpg",
+        "src": "../assets/images/trends/pantone-peach-fuzz-home-decor-2024/article-08.jpg",
         "alt": "2024 Pantone Peach Fuzz Home Decor Style | Creating Home Design with the Year's Representative Color — image 9",
         "width": 1200,
         "height": 1800
       },
       {
         "type": "image",
-        "src": "assets/images/trends/pantone-peach-fuzz-home-decor-2024/article-09.jpg",
+        "src": "../assets/images/trends/pantone-peach-fuzz-home-decor-2024/article-09.jpg",
         "alt": "2024 Pantone Peach Fuzz Home Decor Style | Creating Home Design with the Year's Representative Color — image 10",
         "width": 933,
         "height": 1399
       },
       {
         "type": "image",
-        "src": "assets/images/trends/pantone-peach-fuzz-home-decor-2024/article-10.jpg",
+        "src": "../assets/images/trends/pantone-peach-fuzz-home-decor-2024/article-10.jpg",
         "alt": "2024 Pantone Peach Fuzz Home Decor Style | Creating Home Design with the Year's Representative Color — image 11",
         "width": 720,
         "height": 1080
@@ -6391,8 +6391,8 @@
     "title": "Moorgen Smart Home System: Remote Controls, Smart Panels, and More | Your Smart Home Device Solutions",
     "date": "2023-09-30",
     "author": "ONCE DESIGN",
-    "thumbnail": "assets/images/trends/moorgen-smart-home-products/cover.png",
-    "hero": "assets/images/trends/moorgen-smart-home-products/cover.png",
+    "thumbnail": "../assets/images/trends/moorgen-smart-home-products/cover.png",
+    "hero": "../assets/images/trends/moorgen-smart-home-products/cover.png",
     "description": "Moorgen Smart Home System: Remote Controls, Smart Panels, and More | Your Smart Home Device Solutions",
     "sourceUrl": "https://once-hk.com/design-trend/moorgen%e5%be%b7%e5%9c%8b%e6%91%a9%e6%a0%b9%e6%99%ba%e8%83%bd%e5%ae%b6%e5%b1%85%e7%b3%bb%e7%b5%b1/",
     "blocks": [
@@ -6411,7 +6411,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/moorgen-smart-home-products/article-01.png",
+        "src": "../assets/images/trends/moorgen-smart-home-products/article-01.png",
         "alt": "Moorgen Smart Home System — image 2",
         "width": 918,
         "height": 923
@@ -6431,7 +6431,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/moorgen-smart-home-products/article-02.png",
+        "src": "../assets/images/trends/moorgen-smart-home-products/article-02.png",
         "alt": "Moorgen Smart Home System — image 3",
         "width": 993,
         "height": 932
@@ -6451,7 +6451,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/moorgen-smart-home-products/article-03.png",
+        "src": "../assets/images/trends/moorgen-smart-home-products/article-03.png",
         "alt": "Moorgen Smart Home System — image 4",
         "width": 834,
         "height": 824
@@ -6471,7 +6471,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/moorgen-smart-home-products/article-04.png",
+        "src": "../assets/images/trends/moorgen-smart-home-products/article-04.png",
         "alt": "Moorgen Smart Home System — image 5",
         "width": 678,
         "height": 689
@@ -6491,7 +6491,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/moorgen-smart-home-products/article-05.png",
+        "src": "../assets/images/trends/moorgen-smart-home-products/article-05.png",
         "alt": "Moorgen Smart Home System — image 6",
         "width": 660,
         "height": 686
@@ -6511,7 +6511,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/moorgen-smart-home-products/article-06.png",
+        "src": "../assets/images/trends/moorgen-smart-home-products/article-06.png",
         "alt": "Moorgen Smart Home System — image 7",
         "width": 691,
         "height": 666
@@ -6531,7 +6531,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/moorgen-smart-home-products/article-07.png",
+        "src": "../assets/images/trends/moorgen-smart-home-products/article-07.png",
         "alt": "Moorgen Smart Home System — image 8",
         "width": 564,
         "height": 581
@@ -6551,7 +6551,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/moorgen-smart-home-products/article-08.png",
+        "src": "../assets/images/trends/moorgen-smart-home-products/article-08.png",
         "alt": "Moorgen Smart Home System — image 9",
         "width": 723,
         "height": 694
@@ -6566,7 +6566,7 @@
       {
         "type": "text",
         "paragraphs": [
-          "<a href=\"trend.html?article=moorgen\">Read More&gt;&gt;&gt;Moorgen Smart Home System Product Launch 2023: Insights from Once Design Studio</a>",
+          "<a href=\"article.html?article=moorgen\">Read More&gt;&gt;&gt;Moorgen Smart Home System Product Launch 2023: Insights from Once Design Studio</a>",
           "Want to create your ideal modern smart home? Explore Once Design Studio's free preliminary design consultation service today. You can provide us with your floor plan and schedule an appointment through WhatsApp to discuss and negotiate your design requirements with our designer. We will spend two weeks preparing an initial design proposal for you, including design floor plans, 3D renderings, and a budget quotation, and then arrange another presentation meeting with you."
         ],
         "variant": "trend-subsection"
@@ -6593,8 +6593,8 @@
     "title": "Hong Kong Commercial Interior Design: How to Boost Sales and Create Brand Value through Space Design?",
     "date": "2023-09-21",
     "author": "ONCE DESIGN",
-    "thumbnail": "assets/images/trends/commercial-interior-design-sales-brand-value/cover.jpg",
-    "hero": "assets/images/trends/commercial-interior-design-sales-brand-value/cover.jpg",
+    "thumbnail": "../assets/images/trends/commercial-interior-design-sales-brand-value/cover.jpg",
+    "hero": "../assets/images/trends/commercial-interior-design-sales-brand-value/cover.jpg",
     "description": "Hong Kong Commercial Interior Design: How to Boost Sales and Create Brand Value through Space Design?",
     "sourceUrl": "https://once-hk.com/post/%e9%a6%99%e6%b8%af%e5%95%86%e6%a5%ad%e5%ae%a4%e5%85%a7%e8%a8%ad%e8%a8%88-%e5%a6%82%e4%bd%95%e6%8f%90%e5%8d%87%e9%9b%b6%e5%94%ae%e6%a5%ad%e7%94%9f%e6%84%8f%e9%a1%8d%e5%8f%8a%e5%93%81%e7%89%8c/",
     "blocks": [
@@ -6613,7 +6613,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/commercial-interior-design-sales-brand-value/article-01.jpg",
+        "src": "../assets/images/trends/commercial-interior-design-sales-brand-value/article-01.jpg",
         "alt": "Hong Kong Commercial Interior Design — image 2",
         "width": 1920,
         "height": 1386
@@ -6634,7 +6634,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/commercial-interior-design-sales-brand-value/article-02.jpg",
+        "src": "../assets/images/trends/commercial-interior-design-sales-brand-value/article-02.jpg",
         "alt": "Hong Kong Commercial Interior Design — image 3",
         "width": 1920,
         "height": 1280
@@ -6655,7 +6655,7 @@
       },
       {
         "type": "image",
-        "src": "assets/images/trends/commercial-interior-design-sales-brand-value/article-03.jpg",
+        "src": "../assets/images/trends/commercial-interior-design-sales-brand-value/article-03.jpg",
         "alt": "Hong Kong Commercial Interior Design — image 4",
         "width": 1920,
         "height": 1027
