@@ -54,10 +54,10 @@
 
 /* Editable article titles use the same proportions as the reference title artwork. */
 .trend-text-title { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 27.96875vw; height: auto; padding: 5.5vw 20vw 4vw; background: #ebe7da; text-align: center; }
-.trend-kicker { font: 400 .9vw/1.4 'IvyOra Banner', serif; letter-spacing: .2em; }
+.trend-kicker { font: 400 .9vw/1.4 'Gotham Book', sans-serif; letter-spacing: .2em; color: #8b8370; text-transform: uppercase; }
 .trend-text-title h1 { margin: 2vw 0; font: 400 3.25vw/1.1 'IvyOra Banner', serif; letter-spacing: -.025em; overflow-wrap: anywhere; }
 .trend-title-rule { width: 2.2vw; border-top: 1px solid currentColor; margin: .3vw 0 1.5vw; }
-.trend-meta { font: 400 .78vw/1.5 'Moorgen Gotham', sans-serif; letter-spacing: .15em; }
+.trend-meta { font: 400 .78vw/1.5 'Gotham Book', sans-serif; letter-spacing: .15em; color: #8b8370; text-transform: uppercase; }
 .trend-auto-copy { padding: 5vw 0 3vw; min-height: 0; }
 .trend-auto-copy.trend-subsection { padding: 2vw 0 2vw; }
 .trend-subsection h2 { font-size: 1.875vw; line-height: 1.25; margin-bottom: 1vw; }
@@ -73,10 +73,10 @@
 .trend-loading { padding: 160px 10vw; min-height: 60vh; }
 @media (max-width: 750px) {
   .trend-text-title { min-height: 56.422276vw; padding: 9vw 10vw; }
-  .trend-kicker { font-size: 9px; }
+  .trend-kicker { font-size: 2.051282vw; }
   .trend-text-title h1 { font-size: 6.4vw; margin: 5vw 0; }
   .trend-title-rule { width: 6vw; margin: 1vw 0 4vw; }
-  .trend-meta { font-size: 8px; }
+  .trend-meta { font-size: 1.846154vw; }
   .trend-auto-copy { padding: 25px 0 30px; }
   .trend-auto-copy.trend-subsection { padding: 16px 0 20px; }
   .trend-subsection h2 { font-size: 18px; line-height: 1.3; margin-bottom: 12px; }

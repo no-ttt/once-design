@@ -1,41 +1,92 @@
-# Work 作品手機版檢查
+# Work 作品手機版比對
 
-檢查日期：2026-10-02。以 iPhone 13 瀏覽器識別讀取 Wix 參考頁，另於本機 320、390、430px 驗證全部 19 個作品。
+檢查日期：2026-10-05。以 390px iPhone 13 瀏覽器讀取 Wix 各作品原頁。
 
-## 已修正
+## 本次調整
 
-- 所有手機相簿按照片索引依序單欄顯示，回桌機還原原本雙欄與排列。
-- Banner 圖片與遮罩取消手機向下位移，頂部補滿。
-- 設計區由內容撐高，相簿與作品導覽之間留 32px，不沿用巨大的固定高度。
-- 原本 40.3125vw 的左右內距會把圖集壓到約 76px，手機內距改為不超過 10vw。
-- 引言區可隨文字高度增長，避免長文壓到下一區。
-- Logo 與表單保持現有 Work／NEBU 共用版本。
+- 新增 `assets/css/nebu-mobile.css`，僅於 750px 以下載入；所有規則排除 `data-project="nebu"`。
+- 依各作品原頁分別設定字級、行高、文字位置、區塊高度、相簿位置與圖片尺寸，不再將其他作品統一套成 NEBU 的排版。尺寸以 390px 量測並換算為 vw。
+- 手機 banner 恢復參考頁的區塊高度、圖片尺寸、標題與署名座標；只移除頂部 30px 留白與圖片位移。圖片使用參考頁原始裁切 URL 的尺寸，不放大 crop 參數。桌機原圖與樣式不變。
+- 保留原站窄欄、小字與區塊留白；依最新要求移除頂部 30px 空間。原站少數超出手機右邊界的 NEXT PROJECT 控制保留在可視範圍。
+- 第一個作品 NEBU、Logo、共用表單與使用者既有修改均保留。
 
-## 與參考站的差異
+## 各作品相簿
 
-此次不是所有頁面逐像素一致：部分 Wix 作品仍保留右側窄相簿、過小文字及長空白，本機沿用已確認的 NEBU 手機閱讀方式，將相簿展寬並移除固定空白；保留各作品內容與照片。
+| 作品 | 圖片數 | 原頁相簿欄數 |
+|---|---:|---:|
+| murad-counter | 4 | 1 |
+| klasse14 | 9 | 1 |
+| tatcha | 6 | 1 |
+| murad-popup | 5 | 1 |
+| klasse14-central | 3 | 1 |
+| tatcha-ifc | 3 | 1 |
+| moleskin | 2 | 1 |
+| park-mountain | 6 | 1 |
+| glamour | 4 | 1 |
+| sheng-chim | 5 | 1 |
+| st-regis | 5 | 1 |
+| amorepacific | 8 | 1 |
+| winfun | 10 | 1 |
+| fresh-office | 6 | 1 |
+| stem-classroom | 5 | 1 |
+| computer-classroom | 4 | 1 |
+| junior-versity | 5 | 1 |
+| stem-computer-lab | 4 | 1 |
 
-| 作品 | 參考頁 | 手機相簿 | 驗證 |
-|---|---|---|---|
-| klasse14 | [原站](https://liaovaco.wixstudio.com/oncedesign/blank-1-1) | 單欄，9 張 | 三種寬度、燈箱、專案切換通過 |
-| tatcha | [原站](https://liaovaco.wixstudio.com/oncedesign/blank-1-1-1-2-1-1) | 單欄，6 張 | 三種寬度、燈箱、專案切換通過 |
-| murad-counter | [原站](https://liaovaco.wixstudio.com/oncedesign/blank-1-1-1) | 單欄，4 張 | 三種寬度、燈箱、專案切換通過 |
-| murad-popup | [原站](https://liaovaco.wixstudio.com/oncedesign/blank-1-1-1-2) | 單欄，5 張 | 三種寬度、燈箱、專案切換通過 |
-| klasse14-central | [原站](https://liaovaco.wixstudio.com/oncedesign/blank-1-1-1-2-1) | 單欄，3 張 | 三種寬度、燈箱、專案切換通過 |
-| tatcha-ifc | [原站](https://liaovaco.wixstudio.com/oncedesign/blank-1-1-1-1-1) | 單欄，3 張 | 三種寬度、燈箱、專案切換通過 |
-| moleskin | [原站](https://liaovaco.wixstudio.com/oncedesign/blank-1-1-1-2-1-2) | 單欄，2 張 | 三種寬度、燈箱、專案切換通過 |
-| glamour | [原站](https://liaovaco.wixstudio.com/oncedesign/blank-1-1-2) | 單欄，4 張 | 三種寬度、燈箱、專案切換通過 |
-| park-mountain | [原站](https://liaovaco.wixstudio.com/oncedesign/blank-1-2) | 單欄，6 張 | 三種寬度、燈箱、專案切換通過 |
-| sheng-chim | [原站](https://liaovaco.wixstudio.com/oncedesign/blank-1-2-1) | 單欄，5 張 | 三種寬度、燈箱、專案切換通過 |
-| amorepacific | [原站](https://liaovaco.wixstudio.com/oncedesign/blank-1-1-1-2-1-2-1) | 單欄，8 張 | 三種寬度、燈箱、專案切換通過 |
-| st-regis | [原站](https://liaovaco.wixstudio.com/oncedesign/blank-1-3) | 單欄，5 張 | 三種寬度、燈箱、專案切換通過 |
-| winfun | [原站](https://liaovaco.wixstudio.com/oncedesign/blank-1-4) | 單欄，10 張 | 三種寬度、燈箱、專案切換通過 |
-| fresh-office | [原站](https://liaovaco.wixstudio.com/oncedesign/blank-1-5) | 單欄，6 張 | 三種寬度、燈箱、專案切換通過 |
-| stem-classroom | [原站](https://liaovaco.wixstudio.com/oncedesign/blank-1-5-1) | 單欄，5 張 | 三種寬度、燈箱、專案切換通過 |
-| computer-classroom | [原站](https://liaovaco.wixstudio.com/oncedesign/blank-1-5-1-1) | 單欄，4 張 | 三種寬度、燈箱、專案切換通過 |
-| junior-versity | [原站](https://liaovaco.wixstudio.com/oncedesign/blank-1-5-1-1-1) | 單欄，5 張 | 三種寬度、燈箱、專案切換通過 |
-| stem-computer-lab | [原站](https://liaovaco.wixstudio.com/oncedesign/blank-1-5-1-1-1-1) | 單欄，4 張 | 三種寬度、燈箱、專案切換通過 |
+## 驗證
 
-## 桌機與功能
+- 320、390、430px：全部 19 個作品無水平溢出，banner 與圖片頂端均為 0，區塊高度、圖片尺寸、文字座標與下一區塊位置符合參考頁（扣除頂部留白）。
+- 1440px：全部 19 個作品比較啟用及停用新增樣式後的區塊尺寸，結果一致。
+- NEBU：上述四種寬度的尺寸與字體比對均一致。
+- Logo 的位置、尺寸與字體，以及表單的寬高與字體，均與新增樣式前一致。
+- 其餘 18 個作品於 390px 檢查設計文字，無相鄰段落重疊。
+- 其餘 18 個作品在啟用動畫時，燈箱開啟、下一張、關閉與下一作品切換均通過；無 JavaScript 錯誤。
 
-全部 19 頁於 1440px 比較修改前後的 Logo、Banner、概覽、設計區、相簿和表單尺寸，結果相同。啟用動畫後逐頁測試相簿開啟、下一張、關閉、下一個作品與表單標題排列，無 JavaScript 錯誤。
+## KLASSE 14 換行修正
+
+內文依原頁保留固定 12px／13px 字級與字距，設計段落改為內容自然排列。375px、430px 的 7 段內文已逐行比對，與原頁一致；320px 額外保留資料列上方間距。修改限 KLASSE 14 手機版。
+
+## 其餘 17 個作品內文比對
+
+- 逐頁以 375px、430px 讀取原站：依實測保留固定或流動字級、字距、行高及欄寬；補上手機專用的粗體與 Medium 字型範圍。
+- 所有具有簡介／設計內文的作品完成逐行比對，忽略行尾空白後無差異。Sheung Sheung Chim 原頁將「J」單獨分行，本機僅在手機版保留該分行。
+- 其餘只有照片的頁面也檢查並修正資訊區與引言字級。
+- 原站部分簡介與資料列相互重疊；本機維持文字欄位尺寸與字級，改讓資料列接在內容下方。設計內文與引言也隨換行自然撐高。
+- 320、375、390、430px：無水平溢出、相鄰內文重疊或資料列重疊。
+- 全部 19 個作品桌機版，以及 NEBU／KLASSE 14 手機版，比對本次修改前後尺寸與字型，結果一致。
+- 其餘 17 個作品：燈箱開啟、下一張、關閉、下一作品切換均通過，無 JavaScript 錯誤。
+- 本次沒有調整 banner、Logo 或共用表單。
+
+## 其餘作品內文換行複查
+
+已使用目前工作區樣式，直接比對其餘 12 個有長篇內文作品的 Wix 原頁。375px、430px 共 210 段次（每段超過 100 字元）逐行一致；比對忽略行尾空白，並將 Sheung Sheung Chim 原頁獨立的 J 與下一段合併對應。原頁以 p 呈現、本站以 h2 呈現的標題不計入內文比較。本次只新增驗證紀錄，未改動樣式、banner、NEBU、Logo 或表單。
+
+## Design Detail 標籤與標題
+
+移除 18 個作品手機樣式中誤加的標籤隱藏規則，恢復原有標籤。標題字距改回原頁的 .02em，顏色修正為 #362e2c；保留各頁實測字級及 IvyOra Bold。若有特定標題視覺差異，仍需依使用者指出的作品定位。
+
+## 全作品手機引言與署名複查
+
+- 逐頁讀取全部 19 個作品原站，在 375、390、430px 比對引言換行、署名水平位置及與引言的間距，共 57 組；文字比較忽略大小寫。
+- TATCHA Harbour City 前次修正通過；另發現 TATCHA IFC 隱藏分段換行，且將第二段引言的位置誤用為署名位置。
+- 已恢復 TATCHA IFC 引言分段、署名上方間距與水平位置，並修正區塊底部留白；重新比對三種寬度通過。其餘作品未發現同類換行或署名位置差異。
+
+## 其餘作品引言與署名複查
+
+- TATCHA Harbour City 修正後，另以 Chrome 逐頁讀取其餘 18 個作品原頁，於 375、390、430px 比對，共 54 組。
+- 引言逐行文字在統一大小寫及空白後全部一致；署名水平位置及與引言的垂直間距差異均小於 0.1px。
+- 全部受測頁面無水平溢出。本輪未發現需要追加修正的引言或署名排版。
+
+## MURAD Harbour City 起改用共用手機排版
+
+依最新要求，MURAD Harbour City 起的 16 個作品不再以各原站手機座標為準，改用前面作品的共用閱讀規則：13px 內文、390px 時 13px 的段落標題、約 8% 左右留白、自然段落高度、單欄相簿、統一引言署名及前後作品控制。前三個作品維持現況；桌機樣式不變。這項要求取代上述 16 個作品先前逐頁對齊原站手機版的規則。
+
+驗證：19 個作品在 320、390、430、750px 無水平溢出，新排版的內文及署名無重疊；1440px 開關新排版標記後各區塊尺寸一致。16 個作品燈箱開啟、下一張、關閉及可用的下一作品切換通過，無 JavaScript 錯誤。截圖檢查後修正引言層級，並移除相簿連結舊比例，避免圖片下方殘留留白。
+
+### Banner cover 與邊距修正
+
+後續 16 個作品的 banner 高度及署名位置改用前面 TATCHA 手機頁的設定；圖片使用原始 hero 圖搭配 cover，移除舊手機裁切圖與位移。深色遮罩改為完整覆蓋 banner，避免沿用原站各頁不同的遮罩高度。內容左右邊距統一為 7.948718%，相簿維持 7.5%。320、390、430、750px 共 64 組的圖片／遮罩邊界與內容邊距檢查通過，無水平溢出；素材路徑檢查通過。
+
+### 內文以 NEBU 為基準
+
+依最新確認，兩個 MURAD 為不同作品，均保留。MURAD Harbour City 起的 16 個作品手機內文改用 NEBU 的欄寬 84.215vw、左緣 7.89vw、13px／1.3 內文、隨視窗縮放的段落標題與間距；文章間距為 2.564103vw，標題下方 1.025641vw，內文到相簿 48px。保留各作品既有粗體。19 頁在 320、390、430、750px 的排版檢查通過，1440px 桌機區塊尺寸不變。

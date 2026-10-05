@@ -12,6 +12,8 @@
   if (logo) { logo.src = 'assets/images/shared/logo.png'; logo.width = 181; logo.height = 83; }
   const escape = text => String(text).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
   const lines = text => escape(text).replace(/\n+/g, '<br>');
+  // Keep a separator with its preceding word without changing desktop wrapping.
+  const titleMarkup = text => escape(text).replace(/(\S+[^\S\n]+\|)/g, '<span class="nebu-title-separator">$1</span>');
   let dispose;
   let current;
   function render(id, focus = false) {
@@ -23,6 +25,7 @@
     current = project.id;
     document.body.classList.remove('klasse14-page', 'tatcha-page');
     document.body.classList.toggle('project-gallery-only', !project.articles.length);
+    document.body.classList.toggle('project-mobile-standard', projects.indexOf(project) >= projects.findIndex(item => item.id === 'murad-counter'));
     document.body.dataset.project = current;
     document.title = project.title + ' | ONCE DESIGN';
     document.querySelector('meta[name="description"]').content = project.intro || project.title + ' — Once Design Studio project.';
@@ -31,10 +34,14 @@
     const hero = container.querySelector('.nebu-hero img');
     hero.src = project.hero; hero.alt = project.title;
     const title = container.querySelector('h1');
-    title.textContent = project.heroTitle || project.title;
+    title.innerHTML = titleMarkup(project.heroTitle || project.title);
     const heading = container.querySelector('.nebu-heading h2');
     const inquiry = heading.querySelector('a');
-    heading.innerHTML = lines(project.heading) + ' ';
+    heading.innerHTML = titleMarkup(project.heading).replace(/\n+/g, '<br>') + ' ';
+    if (project.id === 'sheng-chim') {
+      heading.innerHTML = heading.innerHTML.replace('HONG KONG', '<span class="nebu-title-separator">HONG KONG</span>');
+      title.innerHTML = title.innerHTML.replace('HONG KONG', '<span class="nebu-title-separator">HONG KONG</span>');
+    }
     heading.append(inquiry);
     const crumbs = project.breadcrumb.split('>').map(text => text.trim());
     container.querySelector('.nebu-breadcrumb p').innerHTML = crumbs.map((text,index) => index === crumbs.length-1 ? '<strong>' + escape(text) + '</strong>' : '<a href="' + (index === 0 ? 'index.html' : 'work.html') + '">' + escape(text) + '</a>').join(' &gt; ');
@@ -59,6 +66,44 @@
       const paragraphClass = /^\d+\.\s+/.test(text.trim()) ? ' class="nebu-text-medium"' : '';
       return (isListItem && index === listStart ? '<ul>' : '') + (isListItem ? '<li>' : '') + '<p' + paragraphClass + '>' + html + '</p>' + (isListItem ? '</li>' : '');
     }).join('') + (article.list ? '</ul>' : '') + '</article>').join('');
+    if (project.id === 'nebu') {
+      const studioTitle = container.querySelector('.nebu-design-copy article:last-child h2');
+      const titleLines = ['Once Design Studio | Commercial Interior Design', 'and Store Construction'];
+      if (studioTitle && studioTitle.textContent === titleLines.join(' ')) {
+        studioTitle.innerHTML = titleLines.map(text => '<span class="nebu-mobile-title-line">' + escape(text) + '</span>').join(' ');
+      }
+    }
+    // Preserve desktop markup; these neutral spans gain font variants only on mobile.
+    for (const [phrase, variant] of window.projectMobileEmphasis?.[project.id] || []) {
+      container.querySelectorAll('.nebu-intro, .nebu-design-copy p').forEach(paragraph => {
+        const walker = document.createTreeWalker(paragraph, NodeFilter.SHOW_TEXT);
+        const nodes = [];
+        while (walker.nextNode()) nodes.push(walker.currentNode);
+        nodes.forEach(node => {
+          if (node.parentElement.closest('[data-mobile-font]')) return;
+          const index = project.id === 'murad-counter'
+            ? node.textContent.lastIndexOf(phrase) : node.textContent.indexOf(phrase);
+          if (index < 0) return;
+          const match = node.splitText(index);
+          match.splitText(phrase.length);
+          const span = document.createElement('span');
+          span.dataset.mobileFont = variant;
+          match.replaceWith(span);
+          span.append(match);
+        });
+      });
+    }
+    if (project.id === 'sheng-chim') {
+      const paragraph = container.querySelector('.nebu-design-copy article:first-child p:nth-of-type(2)');
+      if (paragraph?.firstChild?.nodeType === Node.TEXT_NODE && paragraph.textContent.startsWith('Just like')) {
+        const initial = paragraph.firstChild;
+        initial.splitText(1);
+        const span = document.createElement('span');
+        span.className = 'project-mobile-initial';
+        initial.replaceWith(span);
+        span.append(initial);
+      }
+    }
     const gallery = container.querySelector('.nebu-gallery');
     gallery.setAttribute('aria-label', project.title + ' photographs');
     gallery.innerHTML = '<div class="nebu-gallery-column"></div><div class="nebu-gallery-column"></div>';
@@ -87,6 +132,15 @@
         const span = link.querySelector('span');
         if (span) span.innerHTML = position === 'first' ? (target ? 'PREVIOUS<br>PROJECT' : 'BACK TO<br>COMMERCIAL') : 'NEXT<br>PROJECT';
       });
+    }
+    if (project.id === 'nebu') {
+      container.querySelectorAll('.nebu-project-nav svg').forEach(svg => {
+        svg.setAttribute('viewBox', '19.962 87.5 160.038 25');
+        svg.setAttribute('fill', 'currentColor');
+        svg.setAttribute('stroke', 'none');
+        svg.querySelector('path').setAttribute('d', 'M21.612 101.609h153.045l-7.656 8.117c-.55.583-.661 1.499-.172 2.135.623.81 1.789.845 2.46.133l10.272-10.891a1.606 1.606 0 0 0 0-2.206l-10.272-10.891a1.613 1.613 0 0 0-2.393.051c-.556.637-.458 1.619.122 2.234l7.639 8.099H21.612a1.61 1.61 0 1 0 0 3.219z');
+      });
+      container.querySelector('.nebu-project-nav a:first-child svg').style.rotate = '180deg';
     }
     scrollTo({top:0, behavior:'instant'});
     if (focus) { title.tabIndex = -1; title.focus({preventScroll:true}); }
@@ -247,7 +301,7 @@
     const widths = columns.map(column => Math.round(column.getBoundingClientRect().width));
     galleryLinks.forEach((link, index) => {
       // Keep paired photos in source order; an unpaired final image stays left.
-      const column = mobile.matches ? 0 : index % 2;
+      const column = mobile.matches && current !== 'nebu' ? 0 : index % 2;
       const image = link.querySelector('img');
       const ratio = current === 'stem-classroom' || (current === 'glamour' && index < 2) ? 3 / 4 : Number(image.getAttribute('height')) / Number(image.getAttribute('width'));
       const height = Math.round(widths[column] * ratio);

@@ -7,7 +7,7 @@
   <title>QUOTE | ONCE DESIGN</title>
   <link rel="stylesheet" href="assets/css/style.css?v=1.74">
   <link rel="stylesheet" href="assets/css/common.css?v=4">
-  <link rel="stylesheet" href="assets/css/quote.css?v=31">
+  <link rel="stylesheet" href="assets/css/quote.css?v=37">
 </head>
 <body class="quote-page" data-page="quote">
   <a class="skip-link" href="#main">Skip to content</a>
@@ -79,20 +79,20 @@
           </ul>
       </div>
       <form class="quote-form" id="quoteForm" novalidate>
-        <fieldset class="quote-field-full"><legend>PROJECT TYPE <span aria-hidden="true">*</span></legend><div class="quote-options">
+        <fieldset class="quote-field-full"><legend>PROJECT TYPE <span aria-hidden="true">*</span></legend><div class="quote-options quote-project-options">
 <label><input type="radio" name="projectType" value="RETAIL" required><span>RETAIL</span></label>
 <label><input type="radio" name="projectType" value="F&amp;B" required><span>F&amp;B</span></label>
 <label><input type="radio" name="projectType" value="HOSPITALITY" required><span>HOSPITALITY</span></label>
 <label><input type="radio" name="projectType" value="OFFICE" required><span>OFFICE</span></label>
 <label><input type="radio" name="projectType" value="EDUCATION" required><span>EDUCATION</span></label>
         </div></fieldset>
-        <label class="quote-field quote-field-full">COMPANY / SHOPPING MALL / BUILDING NAME <span aria-hidden="true">*</span><input type="text" name="company" autocomplete="organization" required></label>
-        <label class="quote-field">FLOOR PLAN (IF ANY)<input type="text" name="floorPlan"></label>
-        <label class="quote-field">AREA(SQFT) <span aria-hidden="true">*</span><input type="number" name="area" min="1" step="any" required></label>
-        <label class="quote-field quote-field-full">OTHER REQUIREMENT<textarea name="requirement" rows="3"></textarea></label>
-        <label class="quote-field">NAME <span aria-hidden="true">*</span><input type="text" name="name" autocomplete="name" required></label>
-        <label class="quote-field">CONTACT NUMBER <span aria-hidden="true">*</span><span class="quote-phone-control contact-phone-field"><span class="contact-country-icon" aria-hidden="true"></span><select name="countryCode" aria-label="Country code"><option value="+852">+852</option><option value="+86">+86</option><option value="+886">+886</option><option value="+1">+1</option><option value="+44">+44</option><option value="+81">+81</option><option value="+82">+82</option><option value="+65">+65</option><option value="+61">+61</option></select><span class="contact-country-chevron" aria-hidden="true">⌃</span><input type="tel" name="phone" autocomplete="tel" required></span></label>
-        <label class="quote-field quote-field-full">EMAIL<input type="email" name="email" autocomplete="email"></label>
+        <label class="quote-field quote-field-full"><span class="quote-field-caption">COMPANY / SHOPPING MALL / BUILDING NAME <span aria-hidden="true">*</span></span><input type="text" name="company" autocomplete="organization" required></label>
+        <label class="quote-field quote-field-full"><span class="quote-field-caption">FLOOR PLAN (IF ANY)</span><input type="text" name="floorPlan"></label>
+        <label class="quote-field quote-field-full"><span class="quote-field-caption">AREA(SQFT) <span aria-hidden="true">*</span></span><input type="text" name="area" required></label>
+        <label class="quote-field quote-field-full"><span class="quote-field-caption">OTHER REQUIREMENT</span><textarea name="requirement" rows="3"></textarea></label>
+        <label class="quote-field"><span class="quote-field-caption">NAME <span aria-hidden="true">*</span></span><input type="text" name="name" autocomplete="name" required></label>
+        <label class="quote-field"><span class="quote-field-caption">CONTACT NUMBER <span aria-hidden="true">*</span></span><span class="quote-phone-control contact-phone-field"><span class="contact-country-icon" aria-hidden="true"></span><select name="countryCode" aria-label="Country code"><option value="+852">+852</option><option value="+86">+86</option><option value="+886">+886</option><option value="+1">+1</option><option value="+44">+44</option><option value="+81">+81</option><option value="+82">+82</option><option value="+65">+65</option><option value="+61">+61</option></select><span class="contact-country-chevron" aria-hidden="true">⌃</span><input type="tel" name="phone" autocomplete="tel" required></span></label>
+        <label class="quote-field quote-field-full"><span class="quote-field-caption">EMAIL</span><input type="email" name="email" autocomplete="email"></label>
         <fieldset class="quote-field-full"><legend>HOW DO YOU KNOW ONCE DESIGN?</legend><div class="quote-options">
 <label><input type="checkbox" name="source" value="REFERRAL"><span>REFERRAL</span></label>
 <label><input type="checkbox" name="source" value="FACEBOOK"><span>FACEBOOK</span></label>
@@ -110,6 +110,6 @@
   </main>
   <div data-site-footer></div>
   <script src="assets/js/common.js?v=14"></script>
-  <script src="assets/js/quote.js?v=9"></script>
+  <script src="assets/js/quote.js?v=10"></script>
 </body>
 </html>

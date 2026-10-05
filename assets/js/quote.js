@@ -6,6 +6,7 @@
   const animated = [...document.querySelectorAll('.quote-services .quote-enter, .quote-icon-enter, .quote-benefit-copy, .quote-vision .quote-enter, .quote-request .quote-enter, .quote-hero-title')];
   const reveal = element => {
     if (motion.matches || !Element.prototype.animate) {
+      element.getAnimations?.().forEach(animation => animation.cancel());
       element.style.opacity = '1';
       element.style.transform = 'none';
       return;
@@ -39,6 +40,7 @@
     };
     addEventListener('scroll', updateQuoteTag, { passive: true });
     addEventListener('resize', updateQuoteTag);
+    updateQuoteTag();
   }
   const form = document.getElementById('quoteForm');
   if (!form) return;

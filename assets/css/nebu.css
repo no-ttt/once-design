@@ -74,6 +74,8 @@
 .nebu-design-copy li + li { margin-top: 1.3em; }
 .nebu-design-copy .nebu-text-medium { font-family: 'IvyOra Banner', serif; }
 .nebu-design-copy p strong { font-family: 'IvyOra Wix Bold', serif; font-weight: 400; }
+/* Murad follows the desktop reference's second-occurrence emphasis at every width. */
+.nebu-page[data-project="murad-counter"] .nebu-design-copy [data-mobile-font="bold"] { font-family: 'IvyOra Wix Bold', serif; font-weight: 400; }
 .nebu-design-copy a { color: inherit; text-decoration: none; }
 .nebu-design-copy a:hover { text-decoration: underline; }
 .nebu-gallery { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: 8px; }
@@ -388,6 +390,29 @@ body:has(.nebu-lightbox[open]) { overflow: hidden; }
   .nebu-page .nebu-quotation blockquote { overflow-wrap: anywhere; }
 }
 
+/* NEBU mobile refinements from the Wix reference. */
+@media (max-width: 750px) {
+  .nebu-page[data-project="nebu"] .nebu-breadcrumb p {
+    font-size: 2.564103vw;
+    line-height: 1.6;
+    color: #4b4740;
+  }
+  .nebu-page[data-project="nebu"] .nebu-breadcrumb strong { color: #5b564c; }
+  .nebu-page[data-project="nebu"] #nebuProjectContent .nebu-heading h2 a {
+    top: var(--heading-arrow-top);
+    bottom: auto;
+  }
+  .nebu-page[data-project="nebu"] .nebu-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); width: calc(100% + .5px); }
+  .nebu-page[data-project="nebu"] .nebu-gallery-column { gap: 8px; }
+  .nebu-page[data-project="nebu"] #nebuProjectContent .nebu-design { min-height: 0; }
+  .nebu-page[data-project="nebu"] .nebu-project-nav a:first-child,
+  .nebu-page[data-project="nebu"] .nebu-project-nav a:last-child { gap: 4px; }
+  .nebu-page[data-project="nebu"] .nebu-project-nav a:first-child span { transform: translateY(1.2px); }
+  .nebu-page[data-project="nebu"] .nebu-project-nav a:last-child span { width: 58.984375px; }
+  .nebu-page[data-project="nebu"] .nebu-project-nav svg { flex: 0 0 20px; width: 20px; height: 20px; }
+  .nebu-page[data-project="nebu"] .nebu-project-nav a:first-child svg { translate: 0 -2px; }
+}
+
 /* Mobile project typography: keep the reference faces and readable text rhythm. */
 @font-face {
   font-family: 'Project Mobile Caudex';
@@ -425,7 +450,16 @@ body:has(.nebu-lightbox[open]) { overflow: hidden; }
   .nebu-page[data-project] #nebuProjectContent .nebu-design-copy p + ul,
   .nebu-page[data-project] #nebuProjectContent .nebu-design-copy li + li { margin-top: 1.3em; }
   .nebu-page[data-project="nebu"] #nebuProjectContent .nebu-design-copy { width: 84.215vw; margin-left: .39vw; }
-  .nebu-page[data-project="nebu"] #nebuProjectContent .nebu-design-copy article:last-child h2 { max-width: 75.75vw; }
+  /* Wix scales these labels from a 390px canvas; body copy remains 13px. */
+  .nebu-page[data-project="nebu"] .nebu-inquiry { font-size: 3.076923vw; }
+  .nebu-page[data-project="nebu"] #nebuProjectContent .nebu-design-copy h2 {
+    font-size: 3.333333vw;
+    margin-bottom: 1.025641vw;
+  }
+  .nebu-page[data-project="nebu"] #nebuProjectContent .nebu-design-copy article + article { margin-top: 2.564103vw; }
+  .nebu-page[data-project="nebu"] .nebu-project-nav a:first-child { font-size: min(3.076923vw, 13px); }
+  .nebu-page[data-project="nebu"] #nebuProjectContent .nebu-design-copy article:last-child h2 { max-width: 100%; }
+  .nebu-page[data-project="nebu"] .nebu-mobile-title-line { display: block; white-space: nowrap; }
 }
 
 /* Shared project overview: inquiry and facts finish on the same baseline. */

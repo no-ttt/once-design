@@ -39,6 +39,8 @@ Trends 使用 `trends.html`、`assets/css/trends.css` 和 `assets/js/trends.js`�
 
 Quote 使用 `quote.html`、`assets/css/quote.css` 和 `assets/js/quote.js`，包括原版影片主視覺、Landlord Submission Services、三個服務圖示、聯絡資訊和獨立報價表單。共用 QUOTE 導覽連至 `quote.html`。表單支援專案類型、面積、聯絡資訊、選填樓層圖和多選得知管道；SUBMIT 產生 email 草稿連結，附件需手動加入 email，尚無寄件後端。
 
+Quote 對照 `/oncedesign/blank-4` 校正（2026-10-05）：手機主視覺改為上下排列，影片區高 109.29789vw，標題區保留原站頂端留白；服務區移除底框，使用 72.1254% 文字欄寬及本機紙張紋理。三項服務各高 51.28205vw，前兩項左圖右文，第三項依原站置中且保留原站較小字級。Vision 區高 45.97757vw；聯絡標題、分隔線與資訊間距依原站校正。桌機修正影片以視窗高度裁切、分欄比例及圖示長寬比。Logo 維持原有設計；報價表單依後續要求，桌機與手機皆加上淺色圓角矩形底塊（22px）及內距；桌機左側標題與表單底塊頂端對齊，保留既有欄位與功能。Wix 宣傳列及表單下方異常長留白不納入。
+
 Work 手機版（750px 以下）依 `/oncedesign/blank-2`：主視覺高 98.205128vw、手機專用斜線紋理、25px 主標、分類採 flex 自然換行（水平間距固定 27px、列距 2px；390px 為 3+2，430px 為 4+1），作品固定單欄，左右邊界 12.05%，作品名稱 20px。保留既有 Logo 與桌機樣式；Contact 與 About 共用手機樣式，work.js 在手機將諮詢標題移至 Logo 下方，回桌機還原。
 
 NEBU 手機版對照 `/oncedesign/blank-1`，保留作品內容；NEBU 手機相簿依使用者確認改成單欄，照片按 1–8 順序排列，回桌機還原雙欄。Banner 圖片及遮罩在手機停用下移，完整填滿頂部。依最新要求移除相簿下方的固定長留白，手機設計區由內容撐高，圖集下方留 32px 再接作品導覽；mobile-gallery-* 使用原站手機裁切，桌機與燈箱仍用原圖。主標 6.410256vw、引言 5.128205vw，主視覺最小高度 452.72px。Logo 尺寸、位置與圖檔沿用 Work；表單使用既有 data-page="work" 共用樣式，nebu.js 於手機移動諮詢標題，切換專案與回到桌機時均保持正確排列。所有新增版面規則限 750px 以下。
@@ -48,3 +50,9 @@ Trends 手機版依 `/oncedesign/blank-2-1` 的 iPhone 顯示校正：Banner 主
 Work 主頁手機卡片校正（2026-10-03）：Banner 左下文字依原站為 2.051282vw；作品名稱 5.128205vw，標題使用整個 caption 寬度，箭頭絕對定位於右側，不再壓縮標題。箭頭使用 mobile-card-arrow.png 原站圖，寬 4.615385vw；卡片列距 12.820513vw，圖片寬 75.553846vw。僅修改 750px 以下，保留桌機、Logo 與表單。
 
 作品詳情手機字體（2026-10-03）：所有 19 頁的署名使用 Aboreto，by 單獨套用原站 Caudex WOFF2（project-caudex-mobile.woff2）；一般署名 2.564103vw，Klasse14 Banner 為 3.076923vw。設計說明統一 IvyOra Story 13px／1.3、0.02em 字距，小標 IvyOra Wix Bold 13px／1，標題下 4px、文章間 10px、連續段落及清單項目間 1.3em。簡介預設 13px，Klasse14 與 Murad Counter 保留 12px；NEBU 文字欄寬按原站還原。以上僅套用 750px 以下，Logo、表單、單欄相簿和桌機維持既有版本。
+
+Quote 表單字型與排列校正：標題採 Quote Trajan 12px／15px，選項採 Quote Gotham 14px／24px，輸入文字 14px／17px；欄位高度 34px、需求欄 92px，列距 28px、桌機欄距 44px。PROJECT TYPE 依原站在標題下方排成三欄（3＋2），手機依可用寬度改為兩欄，360px 以下單欄。保留圓角底塊及桌機頂端對齊。
+
+Quote 表單尺寸複核：Trajan／Gotham 的本機 WOFF2 與原站 SHA-256 相同。底塊保留 1px 透明邊框，桌機 padding 24px 39px；手機底塊 90vw、padding 30px 33px。輸入底線採 rgba(0,0,0,.32)，文字色 #5b564c，電話選擇器占 52px。手機仍使用適應螢幕的換行，不複製 Wix 表單內容超出底塊的問題。
+
+Quote 表單後續調整：FLOOR PLAN (IF ANY) 與 AREA(SQFT)* 在桌機及手機皆各佔完整一列，上下排列；兩者皆為文字輸入框，AREA 保留必填設定。
