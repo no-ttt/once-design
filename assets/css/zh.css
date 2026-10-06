@@ -1,2 +1,172 @@
-/* Chinese edition layout overrides. Loaded only by zh/*.html.
-   Add translated typography and spacing here; shared styles remain in assets/css. */
+/* Chinese source measurements: 1440 × 900 desktop / 390 × 900 mobile.
+   Wix's 30px hosting banner is excluded from document coordinates.
+   Keep this file last; the language qualifier isolates these overrides from English pages. */
+@font-face { font-family: 'Mgen'; src: url('../fonts/mgen-light.woff2') format('woff2'); font-weight: 300; font-display: swap; }
+@font-face { font-family: 'Mgen'; src: url('../fonts/mgen-regular.woff2') format('woff2'); font-weight: 400; font-display: swap; }
+@font-face { font-family: 'Mgen'; src: url('../fonts/mgen-bold.woff2') format('woff2'); font-weight: 700; font-display: swap; }
+/* Wix synthesizes emphasis from Regular, separately from its Bold face. */
+@font-face { font-family: 'Mgen Regular'; src: url('../fonts/mgen-regular.woff2') format('woff2'); font-weight: 400; font-display: swap; }
+html[lang="zh-Hant"] { --zh-font: 'Mgen', 'PingFang TC', 'Microsoft JhengHei', sans-serif; }
+
+/* Shared Chinese navigation and consultation form. */
+html[lang="zh-Hant"] body[data-page] .nav-menu-list a { font-family: var(--zh-font); font-weight: 300; letter-spacing: .2em; }
+html[lang="zh-Hant"] body[data-page] .footer-nav{ gap: 2.385vw; }
+html[lang="zh-Hant"] body[data-page] .footer-nav a { font: 300 1.015625vw/.78 var(--zh-font); letter-spacing: .3em; }
+html[lang="zh-Hant"] body[data-page] .back-to-top{ font: 300 1.015625vw/1.4 var(--zh-font); letter-spacing: .2em; }
+html[lang="zh-Hant"] body[data-page] .back-to-top > span{ line-height: inherit; }
+html[lang="zh-Hant"] body[data-page] :is(.contact-consultation, .contact-info) h3 { font: 400 1.953125vw/1.3 var(--zh-font); letter-spacing: .3em; }
+html[lang="zh-Hant"] body[data-page] .contact-section .contact-field{ font: 300 16px/20px var(--zh-font); letter-spacing: 0; }
+html[lang="zh-Hant"] body[data-page] .contact-submit{ font: 300 16px/1.2 var(--zh-font); letter-spacing: 0; }
+html[lang="zh-Hant"] body[data-page] .contact-form-response, html[lang="zh-Hant"] body[data-page] .contact-error{ font-family: var(--zh-font); }
+html[lang="zh-Hant"] body[data-page] .contact-form{ column-gap: 2.5vw; }
+html[lang="zh-Hant"] body[data-page] .page-kicker, html[lang="zh-Hant"] body[data-page] .work-tabs, html[lang="zh-Hant"] body[data-page] .work-category-title, html[lang="zh-Hant"] body[data-page] .trends-tabs, html[lang="zh-Hant"] body[data-page] .trends-category-title{ font-family: var(--zh-font); }
+html[lang="zh-Hant"] body[data-page] :is(.about-badge, .portfolio-badge, .services-badge, .honors-badge, .inquiries-badge, .partners-badge, .contact-badge, .about-editorial .section-label){
+  font: 400 .833333vw/1.4 var(--zh-font); letter-spacing: .3em; height: 2.44vw; width: 8.1944vw; min-width: 0; padding: 0;
+}
+html[lang="zh-Hant"] body[data-page="home"] .about-badge{ width: 8.157vw; font-size: .85859vw; }
+html[lang="zh-Hant"] body[data-page="home"] :is(.partners-badge, .contact-badge){ width: 7.997vw; }
+
+/* Hero and brand statement. */
+html[lang="zh-Hant"] body[data-page="home"] .banner-container { height: 52.1072vw; min-height: 0; }
+html[lang="zh-Hant"] body[data-page="home"] .hero-content{ justify-content: flex-start; padding-left: 7.9vw; }
+html[lang="zh-Hant"] body[data-page="home"] .hero-text-row{ margin-top: 18.4896vw; gap: 1.416vw; }
+html[lang="zh-Hant"] body[data-page="home"] .banner-line{ font-family: 'IvyOra Banner', serif; font-size: 3.90625vw; font-weight: 400; line-height: 1; letter-spacing: .02em; }
+html[lang="zh-Hant"] body[data-page="home"] .hero-zh-tagline{ font: 400 2.734375vw/1.3 'Mgen Regular', sans-serif; letter-spacing: .2em; margin-top: 3.515625vw; white-space: nowrap; }
+html[lang="zh-Hant"] body[data-page="home"] .hero-zh-tagline strong{ font-family: 'Mgen Regular', sans-serif; font-weight: 700; }
+html[lang="zh-Hant"] body[data-page="home"] .hero-zh-tagline span{ font-family: var(--zh-font); font-weight: 300; }
+html[lang="zh-Hant"] body[data-page="home"] .author-credit-line{ font: 400 .9375vw/1.3 'Aboreto', sans-serif; letter-spacing: 0; margin-top: .7vw; margin-left: 19vw; }
+html[lang="zh-Hant"] body[data-page="home"] .hero-bottom-statement{ left: 9.118vw; bottom: 2.107vw; }
+html[lang="zh-Hant"] body[data-page="home"] .hero-bottom-statement p{ font: 300 .78125vw/1.2 'IvyOra Display', serif; letter-spacing: .03em; }
+html[lang="zh-Hant"] body[data-page="home"] .about-section{ min-height: 0; height: 34.8969vw; padding: 0 8.98vw; align-items: flex-start; }
+html[lang="zh-Hant"] body[data-page="home"] .about-content-wrapper{ margin-top: 0; padding-top: 17.42vw; align-items: flex-end; }
+html[lang="zh-Hant"] body[data-page="home"] .about-quote{ font: 300 1.71875vw/1.3 var(--zh-font); letter-spacing: .2em; max-width: 82%; }
+html[lang="zh-Hant"] body[data-page="home"] .quote-reveal-line:first-child{ font: 400 1.953125vw/1.3 'Mgen Regular', sans-serif; letter-spacing: .1em; margin: 0 0 4.327vw -2.656vw; }
+html[lang="zh-Hant"] body[data-page="home"] .quote-reveal-line:first-child em{ font-family: var(--zh-font); font-weight: 300; font-style: normal; }
+html[lang="zh-Hant"] body[data-page="home"] .about-section .about-action{ margin-right: 0; }
+html[lang="zh-Hant"] body[data-page="home"] :is(.see-more-text, .portfolio-action .see-more-text, .service-see-more > span:not(.service-action-divider)){ font: 400 .9375vw/1.2 'Gotham Book', sans-serif; letter-spacing: .2em; }
+html[lang="zh-Hant"] body[data-page="home"] .portfolio-section{ height: 50.7704vw; min-height: 0; }
+html[lang="zh-Hant"] body[data-page="home"] .portfolio-heading{ font: 400 2.34375vw/1.3 'Mgen Regular', sans-serif; letter-spacing: .3em; left: 81.17%; top: 8.506vw; }
+html[lang="zh-Hant"] body[data-page="home"] .portfolio-card .category{ font-family: var(--zh-font); font-size: .859375vw; font-weight: 300; letter-spacing: .05em; line-height: 1.3; }
+
+/* Services: measured columns, separator and text widths control line breaks. */
+html[lang="zh-Hant"] body[data-page="home"] .services-intro { height: 37.284vw; min-height: 0; padding: 5.94vw 11.412vw 0 56.536vw; color: #000; }
+html[lang="zh-Hant"] body[data-page="home"] .services-intro-copy{ position: relative; display: grid; grid-template-columns: 15.411vw 13.382vw; column-gap: 3.265vw; width: auto; max-width: none; }
+html[lang="zh-Hant"] body[data-page="home"] .services-intro-copy::after{ content: ''; position: absolute; left: 16.18vw; top: 0; height: 8.33vw; width: 1px; background: #5b564c; }
+html[lang="zh-Hant"] body[data-page="home"] .services-eyebrow{ font: 400 .9375vw/1 var(--zh-font); letter-spacing: .12em; margin-bottom: .7vw; }
+html[lang="zh-Hant"] body[data-page="home"] .services-intro h2 { grid-column: 1; font: 700 2.34375vw/1.3 var(--zh-font); letter-spacing: .1em; margin: 0; }
+html[lang="zh-Hant"] body[data-page="home"] .services-intro-copy > .services-description{ grid-column: 2; grid-row: 1 / 3; }
+html[lang="zh-Hant"] body[data-page="home"] .services-description{ font: 300 .9375vw/1.4 var(--zh-font); letter-spacing: .2em; white-space: normal; text-transform: none; color: #000; }
+html[lang="zh-Hant"] body[data-page="home"] .services-intro .services-description{ line-height: 1.6; }
+html[lang="zh-Hant"] body[data-page="home"] .service-panel{ height: 142vh; }
+html[lang="zh-Hant"] body[data-page="home"] .service-panel:first-of-type{ height: 128.2587vh; }
+html[lang="zh-Hant"] body[data-page="home"] .service-copy h3 { font: 400 1.71875vw/1.3 'Mgen Regular', sans-serif; letter-spacing: .03em; margin-bottom: 1.15vw; color: #000; }
+html[lang="zh-Hant"] body[data-page="home"] .service-copy .services-description{ width: 26.667vw; }
+html[lang="zh-Hant"] body[data-page="home"] [aria-labelledby="service-hospitality-title"] .services-description{ width: 30.56vw; }
+html[lang="zh-Hant"] body[data-page="home"] [aria-labelledby="service-management-title"] .services-description{ width: 26.167vw; }
+html[lang="zh-Hant"] body[data-page="home"] [aria-labelledby="service-sustainable-title"] .services-description{ width: 32.333vw; }
+html[lang="zh-Hant"] body[data-page="home"] .service-copy .services-description strong{ font-family: var(--zh-font); font-weight: 700; }
+
+/* Recognition, FAQs and client headings intentionally differ in line-height. */
+html[lang="zh-Hant"] body[data-page="home"] :is(.honors-title, .inquiries-title, .partners-title, .contact-title) { font: 700 2.34375vw/1.6 var(--zh-font); letter-spacing: .03em; width: auto; color: #000; }
+html[lang="zh-Hant"] body[data-page="home"] .honors-title{ line-height: 1.2; }
+html[lang="zh-Hant"] body[data-page="home"] .inquiries-section{ min-height: 76.665vw; }
+html[lang="zh-Hant"] body[data-page="home"] .inquiry-item summary{ font: 400 15px/1.26 var(--zh-font); letter-spacing: .05em; }
+html[lang="zh-Hant"] body[data-page="home"] .inquiry-answer, html[lang="zh-Hant"] body[data-page="home"] .inquiry-answer p{ font: 300 15px/1.4 var(--zh-font); letter-spacing: 0; color: #000; }
+html[lang="zh-Hant"] body[data-page="home"] .inquiry-item:first-child .inquiry-answer > p:first-child{ font-weight: 700; }
+html[lang="zh-Hant"] body[data-page="home"] .inquiry-answer p + p{ margin-top: 1em; }
+html[lang="zh-Hant"] body[data-page="home"] .partners-section{ min-height: 0; height: 21.6352vw; }
+
+/* Editorial pages share the source Chinese font families. */
+html[lang="zh-Hant"] .page-zh-tagline { font: 400 2.34375vw/1.3 var(--zh-font); letter-spacing: .2em; margin-top: 2.5vw; }
+html[lang="zh-Hant"] .work-page .page-zh-tagline, html[lang="zh-Hant"] .trends-page .page-zh-tagline{ letter-spacing: .1em; }
+html[lang="zh-Hant"] .about-page :is(.page-kicker, .about-heading-intro, .about-founded, .about-body-copy, .about-question, .about-studio h3){ font-family: var(--zh-font); font-weight: 300; line-height: 1.4; letter-spacing: .2em; }
+html[lang="zh-Hant"] .about-page :is(.about-story h2, .about-studio h2, .about-founder h2){ font: 700 2.34375vw/1.3 var(--zh-font); letter-spacing: .1em; }
+html[lang="zh-Hant"] .about-page .about-studio h2 { letter-spacing: .05em; }
+html[lang="zh-Hant"] .about-page .about-heading-intro, html[lang="zh-Hant"] .about-page .about-founded{ font-size: 1.25vw; letter-spacing: .12em; line-height: 1.6; }
+html[lang="zh-Hant"] .about-page .about-studio h3 { font-size: .9375vw; }
+html[lang="zh-Hant"] body[data-page] :is(.about-hero-copy, .work-hero-copy, .trends-hero-copy) .page-kicker{ font: 300 1.09375vw/1.4 var(--zh-font); letter-spacing: .2em; }
+
+@media (max-width: 750px) {
+  html[lang="zh-Hant"] body[data-page] .footer-nav{ gap: 14px; flex-wrap: nowrap; }
+  html[lang="zh-Hant"] body[data-page] .footer-nav a { font: 400 14px/.78 var(--zh-font); letter-spacing: .3em; }
+  html[lang="zh-Hant"] body[data-page] .back-to-top{ font-size: 12px; line-height: 1.4; }
+  html[lang="zh-Hant"] body[data-page] :is(.contact-consultation, .contact-info) h3 { font: 400 20px/1.3 var(--zh-font); letter-spacing: .3em; }
+  html[lang="zh-Hant"] body[data-page] .contact-section .contact-field, html[lang="zh-Hant"] body[data-page] .contact-section .contact-field-full:has(textarea){ font: 300 13px/16px var(--zh-font); letter-spacing: 0; }
+  html[lang="zh-Hant"] body[data-page] .contact-submit{ font-size: 13px; line-height: 1.2; }
+  html[lang="zh-Hant"] body[data-page] :is(.about-badge, .portfolio-badge, .services-badge, .honors-badge, .inquiries-badge, .partners-badge, .contact-badge, .about-editorial .section-label){ font: 400 10px/1.4 var(--zh-font); letter-spacing: .3em; height: 24px; width: 88px; }
+  html[lang="zh-Hant"] body[data-page="home"] .portfolio-badge{ width: 101px; }
+  html[lang="zh-Hant"] body[data-page="home"] .services-badge{ width: 74px; }
+  html[lang="zh-Hant"] body[data-page="home"] .inquiries-badge{ width: 90px; }
+  html[lang="zh-Hant"] body[data-page="home"] :is(.partners-badge, .contact-badge){ width: 82.8px; }
+  html[lang="zh-Hant"] body[data-page="home"] .banner-container{ height: 156.795vw; }
+  html[lang="zh-Hant"] body[data-page="home"] .hero-content{ padding-left: 14.35vw; }
+  html[lang="zh-Hant"] body[data-page="home"] .hero-text-row{ margin-top: 24.1vw; gap: 2.65vw; }
+  html[lang="zh-Hant"] body[data-page="home"] .banner-line{ font-size: 6.667vw; }
+  html[lang="zh-Hant"] body[data-page="home"] .hero-zh-tagline{ width: 54.05vw; font-size: 24px; letter-spacing: .1em; line-height: 1.3; white-space: normal; margin-top: 12.15vw; }
+  html[lang="zh-Hant"] body[data-page="home"] .author-credit-line{ margin: 2.2vw 0 0; font-size: 8px; }
+  html[lang="zh-Hant"] body[data-page="home"] .hero-bottom-statement{ left: 13.897vw; bottom: 7.4vw; }
+  html[lang="zh-Hant"] body[data-page="home"] .hero-bottom-statement p{ font-size: 7px; }
+  html[lang="zh-Hant"] body[data-page="home"] .about-section{ height: auto; min-height: 88.806vw; padding: 26.9vw 7.2vw 6.25vw 6.38vw; }
+  html[lang="zh-Hant"] body[data-page="home"] .about-content-wrapper{ padding-top: 0; flex-direction: column; gap: 15.3vw; }
+  html[lang="zh-Hant"] body[data-page="home"] .about-quote{ font-size: 18px; line-height: 1.3; letter-spacing: .2em; width: 100%; max-width: none; }
+  html[lang="zh-Hant"] body[data-page="home"] .quote-reveal-line{ white-space: normal; margin-left: 6.9vw; }
+  html[lang="zh-Hant"] body[data-page="home"] .quote-reveal-line:first-child{ font-size: 18px; line-height: 1.7; letter-spacing: .1em; margin: 0 0 4.2vw; }
+  html[lang="zh-Hant"] body[data-page="home"] .about-section .about-action{ align-self: flex-end; }
+  html[lang="zh-Hant"] body[data-page="home"] :is(.see-more-text, .portfolio-action .see-more-text, .service-see-more > span:not(.service-action-divider)){ font-size: 12px; line-height: 1.2; letter-spacing: .2em; }
+  html[lang="zh-Hant"] body[data-page="home"] .portfolio-section{ height: 148.145vw; }
+  html[lang="zh-Hant"] body[data-page="home"] .portfolio-heading{ left: 74.77%; top: 10.23vw; font-size: 18px; font-weight: 700; }
+  html[lang="zh-Hant"] body[data-page="home"] .portfolio-card .category{ font-size: 8px; }
+  html[lang="zh-Hant"] body[data-page="home"] .services-intro{ height: auto; min-height: 107.408vw; padding: 29.5vw 12.56% 15.4vw; }
+  html[lang="zh-Hant"] body[data-page="home"] .services-intro-copy{ display: block; width: auto; }
+  html[lang="zh-Hant"] body[data-page="home"] .services-intro-copy::after{ left: 0; top: 35.65vw; height: 24.6vw; }
+  html[lang="zh-Hant"] body[data-page="home"] .services-eyebrow{ font-size: 12px; line-height: 1; margin-bottom: 15px; }
+  html[lang="zh-Hant"] body[data-page="home"] .services-intro h2 { font-size: 35px; line-height: 1.2; margin: 0 0 9.4vw; }
+  html[lang="zh-Hant"] body[data-page="home"] .services-description{ font-size: 12px; line-height: 1.4; letter-spacing: .2em; }
+  html[lang="zh-Hant"] body[data-page="home"] .services-intro .services-description{ width: 48.31vw; margin-left: 8.56vw; line-height: 1.6; }
+  html[lang="zh-Hant"] body[data-page="home"] .service-panel, html[lang="zh-Hant"] body[data-page="home"] .service-panel:first-of-type{ height: max(145vw, 79.1svh); padding-left: 9.487%; padding-right: 9.487%; }
+  html[lang="zh-Hant"] body[data-page="home"] .service-copy{ padding: 0; margin-top: 3vw; }
+  html[lang="zh-Hant"] body[data-page="home"] .service-copy h3 { font-size: 20px; width: auto; margin-bottom: 3px; }
+  html[lang="zh-Hant"] body[data-page="home"] .service-copy .services-description{ width: 77.77vw; }
+  html[lang="zh-Hant"] body[data-page="home"] :is([aria-labelledby="service-retail-title"], [aria-labelledby="service-sustainable-title"]) .services-description{ width: 80vw; }
+  html[lang="zh-Hant"] body[data-page="home"] [aria-labelledby="service-hospitality-title"] .services-description{ line-height: 1.6; }
+  html[lang="zh-Hant"] body[data-page="home"] #service-sustainable-title{ width: 80vw; }
+  html[lang="zh-Hant"] body[data-page="home"] :is(.honors-title, .inquiries-title){ font-size: 25px; letter-spacing: .2em; width: 120px; margin-left: auto; }
+  html[lang="zh-Hant"] body[data-page="home"] :is(.partners-title, .contact-title){ font: 700 25px/1.6 'IvyOra Wix Bold', serif; letter-spacing: .03em; width: 103px; }
+  html[lang="zh-Hant"] body[data-page="home"] :is(.inquiries-title, .partners-title){ right: 10.7vw; }
+  html[lang="zh-Hant"] body[data-page="home"] .honors-title{ margin-right: -4.8vw; }
+  html[lang="zh-Hant"] body[data-page="home"] .inquiries-section{ min-height: 202.73vw; padding: 26.153846vw 14.35% 10vw 10.51%; }
+  html[lang="zh-Hant"] body[data-page="home"] .inquiry-item summary{ font: 400 12px/1.26 'IvyOra Wix Bold', serif; letter-spacing: .05em; }
+  html[lang="zh-Hant"] body[data-page="home"] .inquiry-answer, html[lang="zh-Hant"] body[data-page="home"] .inquiry-answer p{ font-size: 15px; line-height: 1.4; }
+  html[lang="zh-Hant"] body[data-page="home"] .inquiry-answer > p{ width: auto; }
+  html[lang="zh-Hant"] body[data-page="home"] .partners-section{ height: 51.278vw; }
+  html[lang="zh-Hant"] body[data-page="home"] .contact-section{ padding-top: 110px; }
+  html[lang="zh-Hant"] body[data-page="home"] .contact-section > .contact-badge{ display: grid; }
+  html[lang="zh-Hant"] body[data-page="home"] .contact-section > .contact-title{ display: block; position: absolute; top: 21px; right: 11vw; margin: 0; }
+  html[lang="zh-Hant"] .page-zh-tagline{ font-size: 4vw; letter-spacing: .1em; margin-top: 5vw; }
+  html[lang="zh-Hant"] .about-page :is(.about-story h2, .about-studio h2, .about-founder h2){ font-size: 22px; line-height: 1.4; }
+  html[lang="zh-Hant"] .about-page .about-heading-intro, html[lang="zh-Hant"] .about-page .about-founded{ font-size: 12px; }
+  html[lang="zh-Hant"] .about-page .about-studio h3, html[lang="zh-Hant"] .about-page .about-body-copy{ font-size: 12px; line-height: 1.6; letter-spacing: .12em; }
+  html[lang="zh-Hant"] body[data-page] :is(.about-hero-copy, .work-hero-copy, .trends-hero-copy) .page-kicker{ font-size: 12px; }
+  html[lang="zh-Hant"] body[data-page] :is(.work-tabs, .trends-tabs) button{ font-family: var(--zh-font); font-size: 12px; }
+}
+@media (max-width: 360px) {
+  html[lang="zh-Hant"] body[data-page] .footer-nav{ gap: 2vw; }
+  html[lang="zh-Hant"] body[data-page] .footer-nav a { font-size: 12px; }
+  html[lang="zh-Hant"] body[data-page="home"] .quote-reveal-line:first-child{ font-size: 4.615385vw; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html[lang="zh-Hant"] .quote-text-fill{ clip-path: none; }
+}
+
+/* Layout details measured after the entrance animations finish. */
+@media (min-width: 751px) {
+  html[lang="zh-Hant"] body[data-page="home"] .honors-section { min-height: 61.404vw; }
+  html[lang="zh-Hant"] body[data-page="home"] .about-badge { font-size: .85859vw; width: 8.157vw; }
+}
+@media (max-width: 750px) {
+  html[lang="zh-Hant"] body[data-page] .contact-info h3 { font: 400 20px/1.3 var(--zh-font); letter-spacing: .3em; }
+  html[lang="zh-Hant"] body[data-page="home"] .about-badge { width: 88px; }
+  html[lang="zh-Hant"] body[data-page="home"] .services-badge { width: 74px; }
+  html[lang="zh-Hant"] body[data-page="home"] .service-copy .services-description { white-space: normal; }
+  html[lang="zh-Hant"] body[data-page="home"] .service-image { height: 65.385vw; }
+}

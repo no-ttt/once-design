@@ -815,7 +815,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function fillCard(card, project) {
     card.dataset.brand = project.brand;
     card.querySelector('.num').textContent = project.num;
-    card.querySelector('.category').textContent = project.category;
+    card.querySelector('.category').textContent = document.documentElement.lang === 'zh-Hant' && project.brand === 'NEBU' ? '商業設計' : project.category;
     const brand = card.querySelector('.brand-name');
     brand.innerHTML = project.brand === 'NEBU'
       ? '<a href="project.html">NEBU</a>'
