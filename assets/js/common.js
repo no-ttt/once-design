@@ -1,36 +1,5 @@
 /** Shared page shell. Load before page-specific scripts; works on static hosting. */
 (() => {
-  const isChinese = document.documentElement.lang === 'zh-Hant';
-  // Translate only the shared shell; editorial copy lives in zh/*.html.
-  const shellLabels = {
-  "HOME": "故事",
-  "ABOUT": "關於",
-  "WORK": "作品",
-  "TRENDS": "動勢",
-  "FAQS": "問答",
-  "CONTACT": "聯絡",
-  "BACK TO TOP": "返回頂端",
-  "FIND US": "設計諮詢",
-  "START OUR CONSULTATION": "預約設計諮詢",
-  "FIRST NAME": "名字",
-  "LAST NAME": "姓氏",
-  "EMAIL": "電子信箱",
-  "PHONE NUMBER": "聯絡電話",
-  "COMPANY NAME": "公司名稱",
-  "DESIGN REQUIREMENT / PROJECT TYPE": "設計需求 / 空間類型",
-  "UPLOAD FLOOR PLAN ( JPG / PDF )": "上傳平面圖 ( JPG / PDF )",
-  "SUBMIT": "確認送出",
-  "Continue by email and attach your floor plan.": "請透過電子郵件繼續諮詢，並附上平面圖。",
-  "OPEN EMAIL ↗": "開啟電子郵件 ↗"
-};
-  const localizeShell = markup => {
-    if (!isChinese) return markup;
-    return markup.replace(/>([^<>]+)</g, (match, text) => {
-      const key = text.trim();
-      return shellLabels[key] ? '>' + text.replace(key, shellLabels[key]) + '<' : match;
-    });
-  };
-
   const header = `
   <header class="site-header">
     <a href="index.html" class="brand-logo" id="brandLogo" aria-label="ONCE DESIGN Home">
@@ -91,8 +60,8 @@
     <p class="footer-copyright">COPYRIGHT © ONCE DESIGN 2026. ALL RIGHTS RESERVED</p>
   </footer>
 `;
-  document.querySelector('[data-site-header]')?.insertAdjacentHTML('afterbegin', localizeShell(header));
-  document.querySelector('[data-site-footer]')?.insertAdjacentHTML('afterbegin', localizeShell(footer));
+  document.querySelector('[data-site-header]')?.insertAdjacentHTML('afterbegin', header);
+  document.querySelector('[data-site-footer]')?.insertAdjacentHTML('afterbegin', footer);
   const contact = `
     <section class="contact-section" id="contact" aria-labelledby="contactTitle">
       <div class="contact-badge">FIND US</div>
@@ -159,21 +128,7 @@
       </div>
     </section>
 `;
-  document.querySelector('[data-site-contact]')?.insertAdjacentHTML('afterbegin', localizeShell(contact));
-  if (isChinese) {
-    document.querySelector('.contact-title')?.replaceChildren('聯絡我們');
-    document.querySelectorAll('.nav-menu-list a[href="quote.html"], .footer-nav a[href="quote.html"]').forEach(link => {
-      if (link.parentElement.tagName === 'LI') link.parentElement.remove();
-      else link.remove();
-    });
-  }
-  const languagePage = location.pathname.split('/').pop() || 'index.html';
-  document.querySelectorAll('.lang-item').forEach(link => {
-    const chineseLink = link.lang === 'zh-Hant';
-    link.href = `../${chineseLink ? 'zh' : 'en'}/${languagePage}${location.search}${location.hash}`;
-    link.classList.toggle('active', chineseLink === isChinese);
-    if (chineseLink === isChinese) link.setAttribute('aria-current', 'true');
-  });
+  document.querySelector('[data-site-contact]')?.insertAdjacentHTML('afterbegin', contact);
   const toggle = document.getElementById('menuToggleBtn');
   const drawer = document.getElementById('navDrawer');
   const backdrop = document.getElementById('navDrawerBackdrop');
@@ -476,11 +431,11 @@
     const floorInput = consultationForm.querySelector('input[name="floorPlan"]');
     let valid = true;
     if (!email.value.trim() || !email.validity.valid) {
-      showFieldError(email, isChinese ? '請輸入有效的電子信箱，例如 example@mysite.com。' : 'Enter an email address like example@mysite.com.');
+      showFieldError(email, 'Enter an email address like example@mysite.com.');
       valid = false;
     } else clearFieldError(email);
     if (!floorInput.files.length) {
-      showFieldError(floorInput, isChinese ? '請上傳平面圖（JPG / PDF）。' : 'Enter an answer.');
+      showFieldError(floorInput, 'Enter an answer.');
       valid = false;
     } else clearFieldError(floorInput);
     if (!valid) return;

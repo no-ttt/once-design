@@ -1,13 +1,13 @@
 # Once Design
 
-靜態網站，英文 HTML 放在 `en/`，中文版放在 `zh/`。用 VS Code Live Server 或 `python3 -m http.server 8000` 預覽，再開啟 `http://localhost:8000/en/` 或 `http://localhost:8000/zh/`。Trends 透過 fetch 讀取 JSON，請勿直接用 file:// 開啟。
+靜態網站，英文 HTML 放在 `en/`，中文版起始副本放在 `zh/`。用 VS Code Live Server 或 `python3 -m http.server 8000` 預覽，再開啟 `http://localhost:8000/en/` 或 `http://localhost:8000/zh/`。Trends 透過 fetch 讀取 JSON，請勿直接用 file:// 開啟。
 
 ## 語言版本
 
 - `en/`：英文版，每個頁面可獨立編輯。
-- `zh/`：繁體中文版。首頁、關於、作品及動勢頁的中文標題、服務、問答、共用選單與聯絡表單依 Wix 中文參考站更新；原站保留的英文標題仍保留。作品／文章內文與詢價頁主要內容仍使用既有英文資料。
+- `zh/`：從英文版複製的中文版起點，目前尚未翻譯。完成翻譯時，請將各頁的 `lang="en"` 改為 `lang="zh-Hant"`。
 - `assets/`：兩版共用素材、基礎樣式、互動程式及資料。中文版專用排版可寫在 `assets/css/zh.css`，僅由 `zh/` 載入。
-- 作品與文章內容仍共用 `assets/data/projects.js`、`assets/data/trends-articles.json`，頁首、選單與聯絡區文字由 `assets/js/common.js` 依 HTML 的 `lang` 屬性產生；作品與文章內文若要翻譯，需另建中文資料或加入語言判斷，避免影響英文版。
+- 作品與文章內容仍共用 `assets/data/projects.js`、`assets/data/trends-articles.json`，頁首、選單與聯絡區文字由 `assets/js/common.js` 產生；翻譯這些內容前需另建中文資料或加入語言判斷，直接修改共用檔案會影響兩版。
 - 站內相對連結會留在目前語言資料夾，例如英文作品為 `/en/project.html?project=tatcha`，中文作品為 `/zh/project.html?project=tatcha`。部署時一起上傳 `en/`、`zh/`、`assets/`；根目錄不設轉址入口。
 
 ## 頁面入口與命名
@@ -34,7 +34,7 @@
 
 ```text
 ├── en/*.html                    英文頁面（7 頁）
-├── zh/*.html                    中文版頁面（7 頁）
+├── zh/*.html                    中文版起始副本（7 頁）
 ├── assets/
 │   ├── css/                     共用及各頁樣式
 │   ├── js/                      共用及各頁互動程式
@@ -94,9 +94,3 @@
 - 搬動或新增素材後執行 `python3 scripts/check-assets.py`，再用瀏覽器檢查頁面與互動。
 
 本次整理保留全部原始圖片與影片，包含目前未引用的素材，沒有刪除或重新壓縮圖片。作品與文章共用同一份專案圖片，避免重複存放。
-
-### 中文版參考與字型
-
-- 參考站：https://liaovaco.wixstudio.com/oncechinese（首頁）、`/blank`（關於）、`/blank-2`（作品）、`/blank-2-1`（動勢）。
-- 中文專用字體 Mgen Light / Regular / Bold 存放在 `assets/fonts/mgen-*.woff2`，僅由 `zh.css` 載入。
-- 中文排版與斷點覆寫集中在 `assets/css/zh.css`；中英切換保留目前頁面、查詢參數與錨點。
