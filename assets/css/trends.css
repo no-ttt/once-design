@@ -81,3 +81,11 @@
   .trends-tabs button:not([aria-selected='true']):hover { border-bottom-color: #e2e2e2; }
   .trends-card-image:hover, .trends-card-arrow:hover { transform: none; }
 }
+
+/* Use the Work banner's scroll cue proportions at every viewport size. */
+.trends-scroll span { flex: none; font-family: 'Trends IvyOra Light', serif; font-weight: 400; }
+.trends-scroll svg { flex: none; height: auto; aspect-ratio: 1; }
+@media (max-width: 750px) {
+  .trends-scroll span { height: 15.22231vw; margin-bottom: min(-.5px, -.12821vw); font-size: 2.05128vw; }
+  .trends-scroll svg { height: auto; aspect-ratio: 1 / 1.1451854; margin-left: min(-.5px, -.12821vw); }
+}

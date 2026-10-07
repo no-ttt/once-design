@@ -191,7 +191,7 @@
       if (motion.matches) continue;
       if (target === arrow) {
         track(target.animate([{ clipPath: 'inset(0 0 100% 0)' }, { clipPath: 'inset(0)' }], {
-          duration: 1200, delay: 100, easing: 'linear', fill: 'backwards'
+          duration: 1200, delay: 1, easing: 'linear', fill: 'backwards'
         }));
         continue;
       }

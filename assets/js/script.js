@@ -348,10 +348,9 @@ document.addEventListener('DOMContentLoaded', () => {
         addFindUsArc(contactSection.querySelector('.contact-title'));
       }
       if (inquiriesSection) {
-        // The reference reveals the heading and accordion as separate arc entrances.
+        // Keep the heading entrance separate from each question's text reveal.
         for (const [selector, duration, delay] of [
-          ['.inquiries-title', 1.5, 0.2],
-          ['.inquiries-list', 1.2, 0.001]
+          ['.inquiries-title', 1.5, 0.2]
         ]) {
           const element = inquiriesSection.querySelector(selector);
           const reveal = gsap.timeline({ scrollTrigger: {
@@ -416,23 +415,24 @@ document.addEventListener('DOMContentLoaded', () => {
           { y: 0, opacity: 1, duration: 1.2, ease: 'power2.out', scrollTrigger: {
             trigger: '.honors-gallery', start: 'top 90%', toggleActions: 'play none none reverse'
           } });
-        document.querySelectorAll('.honors-award').forEach(award => {
-          // Animate the two text blocks independently; the divider stays still.
-          const reveal = gsap.timeline({ scrollTrigger: {
-            trigger: award, start: 'top bottom',
-            toggleActions: 'play none none reverse', invalidateOnRefresh: true
-          } });
-          award.querySelectorAll('h3, p').forEach(text => {
-            const delay = text.tagName === 'P' ? 0.2 : 0.001;
-            reveal.fromTo(text,
-              { transform: () => arcTransform(text, 80) },
-              { transform: () => arcTransform(text, 0), duration: 1.2, ease: 'none' }, delay);
-            reveal.fromTo(text,
-              { opacity: 0 },
-              { opacity: 1, duration: 0.84, ease: 'power1.in' }, delay);
-          });
-        });
       }
+      document.querySelectorAll('.honors-award, .inquiry-item').forEach(row => {
+        // Reveal each row's text independently, keeping dividers and controls still.
+        const reveal = gsap.timeline({ scrollTrigger: {
+          trigger: row, start: 'top bottom',
+          toggleActions: 'play none none reverse', invalidateOnRefresh: true
+        } });
+        const textSelector = row.matches('.inquiry-item') ? 'summary > span:first-child' : 'h3, p';
+        row.querySelectorAll(textSelector).forEach(text => {
+          const delay = text.tagName === 'P' ? 0.2 : 0.001;
+          reveal.fromTo(text,
+            { transform: () => arcTransform(text, 80) },
+            { transform: () => arcTransform(text, 0), duration: 1.2, ease: 'none' }, delay);
+          reveal.fromTo(text,
+            { opacity: 0 },
+            { opacity: 1, duration: 0.84, ease: 'power1.in' }, delay);
+        });
+      });
     });
   }
 

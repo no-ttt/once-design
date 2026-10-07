@@ -50,14 +50,22 @@
     document.querySelector('meta[name="description"]').content = item.description || item.title;
     const meta = [date(item.date), item.author, item.readTime].filter(Boolean).join(' · ');
     const header = item.titleImage ? `<header class="moorgen-title"><h1 class="moorgen-sr-only">${escape(item.title)}</h1><p class="moorgen-sr-only">${escape(meta)}</p><img src="${escape(item.titleImage)}" alt="" fetchpriority="high"></header>` : `<header class="moorgen-title trend-text-title"><p class="trend-kicker">${item.category === 'press' ? 'PRESS' : 'DESIGN TREND'}</p><h1>${escape(item.title)}</h1><span class="trend-title-rule" aria-hidden="true"></span><p class="trend-meta">${escape(meta)}</p></header>`;
-    content.innerHTML = header + (item.heroInBlocks ? '' : `<figure class="moorgen-hero"><img src="${escape(item.hero)}" alt="${escape(item.title)}" fetchpriority="high"></figure>`) + item.blocks.map(block => {
+    const hero = item.heroInBlocks ? '' : `<figure class="moorgen-hero"><img src="${escape(item.hero)}" alt="${escape(item.title)}" fetchpriority="high"></figure>`;
+    const blocks = item.blocks.map(block => {
       const layout = escape(block.layout || '');
       if (block.type === 'image') {
         const imageWidth = Math.max(1, Number(block.displayWidth) || Number(block.width) || 1728);
         return `<figure class="moorgen-photo ${block.layout ? '' : 'trend-auto-photo'}" style="--image-max-width:${imageWidth}px;${layout}" data-reference="${escape(block.reference)}"><img src="${escape(block.src)}" alt="${escape(block.alt || item.title)}" width="${Number(block.width) || 1728}" height="${Number(block.height) || 972}" loading="lazy">${block.caption ? `<figcaption>${escape(block.caption)}</figcaption>` : ''}</figure>`;
       }
       return `<section class="moorgen-copy ${escape(block.variant || '')} ${block.layout ? '' : 'trend-auto-copy'}" style="${layout}">${block.heading ? `<h2>${escape(block.heading)}</h2>` : ''}<div class="moorgen-prose">${(block.paragraphs || []).map(p => `<p>${paragraph(p)}</p>`).join('')}</div></section>`;
-    }).join('') + `<div class="moorgen-back"><a href="trends.html#articles">BACK TO ALL TRENDS</a></div>` + (items.length > 1 ? `<nav class="moorgen-navigation" aria-label="Article navigation">${[[-1,'PREVIOUS'],[1,'NEXT']].map(([step,label]) => { const next = items[(index + step + items.length) % items.length]; return `<a href="${href(next)}"><span>${label}</span><p>${escape(next.title)}</p></a>`; }).join('')}</nav>` : '');
+    });
+    // Keep the article header first; only move leading body copy below its first image.
+    if (item.heroInBlocks) {
+      const firstImage = item.blocks.findIndex(block => block.type === 'image');
+      if (firstImage > 0) blocks.unshift(blocks.splice(firstImage, 1)[0]);
+    }
+    const opening = header + hero + blocks.join('');
+    content.innerHTML = opening + `<div class="moorgen-back"><a href="trends.html#articles">BACK TO ALL TRENDS</a></div>` + (items.length > 1 ? `<nav class="moorgen-navigation" aria-label="Article navigation">${[[-1,'PREVIOUS'],[1,'NEXT']].map(([step,label]) => { const next = items[(index + step + items.length) % items.length]; return `<a href="${href(next)}"><span>${label}</span><p>${escape(next.title)}</p></a>`; }).join('')}</nav>` : '');
     const motion = document.createElement('script');
     motion.src = '../assets/js/article.js?v=3';
     document.body.append(motion);

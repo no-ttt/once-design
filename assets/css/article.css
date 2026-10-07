@@ -131,7 +131,9 @@
 #trend-content > .trend-auto-copy:has(.moorgen-prose:empty) + :is(.trend-auto-copy, .trend-auto-photo) { margin-top: var(--trend-heading-gap); }
 #trend-content > .trend-auto-copy + .trend-auto-copy.trend-arrow-list { margin-top: 20px; }
 #trend-content > .moorgen-hero + .trend-auto-copy,
-#trend-content > .trend-text-title + :is(.trend-auto-copy, .trend-auto-photo) { margin-top: var(--trend-intro-gap); }
+#trend-content > .trend-text-title + .trend-auto-copy { margin-top: var(--trend-intro-gap); }
+/* Opening images meet the title banner just like the existing hero images. */
+#trend-content > .trend-text-title + .trend-auto-photo { margin-top: 0; }
 #trend-content > :is(.trend-auto-copy, .trend-auto-photo):has(+ .moorgen-back) { margin-bottom: var(--trend-heading-gap); }
 @media (max-width: 750px) {
   #trend-content { --trend-media-gap: 5vw; --trend-image-copy-gap: calc(5vw + 20px); --trend-heading-gap: 19.171875px; --trend-intro-gap: 25px; }
@@ -141,6 +143,12 @@
 }
 
 /* Related reading and image attribution share a consistent article treatment. */
+/* Keep the first paragraph closer to the opening banner at every viewport. */
+#trend-content > .moorgen-hero + .trend-auto-copy,
+#trend-content > .trend-text-title + .trend-auto-photo + .trend-auto-copy {
+  margin-top: clamp(24px, 3vw, 48px);
+}
+
 .moorgen-prose a[href^="article.html?article="] { text-decoration: underline; text-underline-offset: .18em; }
 #trend-content > .trend-auto-copy.trend-photo-credit { margin-top: 20px; }
 .trend-photo-credit .moorgen-prose { color: #5b564c; font-size: clamp(11px, .8vw, 13px); line-height: 1.5; }

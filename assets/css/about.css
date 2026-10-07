@@ -157,3 +157,18 @@
 @media (max-width: 750px) {
   .about-studio { background-position: center calc((117.19538vw - 225px) / 2); }
 }
+
+@font-face { font-family: 'About Scroll Light'; src: url('../fonts/ivyora-quote-light.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+
+/* Match Work's vertical scroll label and arrow proportions. */
+.about-scroll { display: flex; flex-direction: column; align-items: flex-start; gap: 0; right: 0; width: 5.628255vw; height: auto; text-decoration: none; }
+.about-scroll span { flex: none; height: 6.09375vw; margin-left: 2.19055vw; margin-bottom: -.10563vw; writing-mode: vertical-rl; font: 400 .78125vw/1.6 'About Scroll Light', serif; letter-spacing: .03em; }
+.about-scroll svg { display: block; flex: none; width: 100%; height: auto; aspect-ratio: 1; margin-left: -.07813vw; }
+@media (min-width: 751px) and (max-width: 1400px) and (any-pointer: coarse) {
+  .about-scroll span { font-size: 12px; height: 88px; }
+}
+@media (max-width: 750px) {
+  .about-scroll { right: 6.53846%; width: 5.96154vw; height: auto; }
+  .about-scroll span { align-self: center; height: 15.22231vw; margin-left: 0; margin-bottom: min(-.5px, -.12821vw); font-size: 2.05128vw; }
+  .about-scroll svg { aspect-ratio: 1 / 1.1451854; margin-left: min(-.5px, -.12821vw); }
+}

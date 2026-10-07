@@ -10,7 +10,7 @@
 .quote-enter-done.quote-enter { animation: quote-arc-in 1200ms linear both, quote-fade-in 840ms cubic-bezier(.47, 0, .745, .715) both; }
 .quote-enter-done.quote-reveal { animation: quote-clip-in 1200ms linear both; }
 .quote-hero-title { opacity: 0; }
-.quote-scroll { animation: quote-clip-in 1200ms 100ms linear both; }
+.quote-scroll { animation: quote-clip-in 1200ms 1ms linear both; }
 @keyframes quote-arc-in { from { opacity: 0; transform: perspective(1200px) rotateX(80deg); } to { opacity: 1; transform: perspective(1200px) rotateX(0); } }
 @keyframes quote-fade-in { from { opacity: 0; } to { opacity: 1; } }
 @keyframes quote-clip-in { from { opacity: 1; clip-path: polygon(0 0,100% 0,100% 0,0 0); } to { opacity: 1; clip-path: polygon(0 0,100% 0,100% 100%,0 100%); } }
@@ -48,7 +48,7 @@
 }
 .quote-benefits { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); min-height: 36.48438vw; padding: 0 4.29688vw; text-align: center; }
 .quote-benefits > div { display: flex; min-width: 0; height: 36.48438vw; flex-direction: column; align-items: center; justify-content: center; }
-.quote-benefits img { display: block; width: 25.44625%; height: auto; aspect-ratio: 1 / 1.007654; object-fit: contain; margin: 0 auto 4.33352vw; mix-blend-mode: multiply; }
+.quote-benefits img { display: block; width: 8.59375vw; height: auto; aspect-ratio: 1 / 1.007654; object-fit: cover; margin: 0 auto 4.33352vw; mix-blend-mode: multiply; }
 .quote-benefits h3 { width: 100%; margin: 0; color: #5b564c; font-family: 'IvyOra Banner', serif; font-size: 1.09375vw; font-weight: 400; line-height: 1.1; text-transform: uppercase; }
 .quote-vision { position: relative; display: grid; grid-template-columns: 1fr; grid-template-rows: minmax(23.04508vw, auto); min-height: 23.04508vw; padding: 0; background: #eee8d8; }
 .quote-vision::after { position: absolute; top: 17.26379vw; left: 10%; width: 80%; height: 1px; background: rgba(0,0,0,.3); content: ''; }
@@ -98,7 +98,7 @@
 .quote-upload-control { position: relative; display: flex; align-items: center; min-height: 52px; border-bottom: 1px solid #aaa494; }
 .quote-upload-control > span { overflow-wrap: anywhere; }
 .quote-upload input { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer; }
-.quote-upload-control:focus-within { outline: 2px solid #a69c85; outline-offset: 4px; }
+.quote-upload-control:focus-within { outline: none; }
 .quote-response { font: 14px/1.5 'IvyOra Display', serif; }
 .quote-response a { display: inline-block; margin-top: 12px; color: inherit; }
 .quote-form legend, .quote-form .quote-field { font: 400 12px/15px 'Quote Trajan', serif; letter-spacing: 0; color: #4b4740; }
@@ -112,7 +112,7 @@
 .quote-form .quote-upload-control { height: 40px; min-height: 40px; margin-top: 8px; }
 .quote-form .contact-submit { height: 40.8px; min-height: 40.8px; margin: 0; padding: 0 15px; }
 .quote-form input:focus, .quote-form textarea:focus, .quote-form .country-trigger:focus { outline: none; box-shadow: none; }
-.quote-form input:focus-visible, .quote-form textarea:focus-visible, .quote-form .country-trigger:focus-visible { outline: 1px solid #5b564c; outline-offset: 3px; }
+.quote-form .country-trigger:focus-visible { outline: 1px solid #5b564c; outline-offset: 3px; }
 .quote-field > input:focus, .quote-field textarea:focus, .quote-phone-control:focus-within { border-bottom-color: #000; }
 .quote-phone-control input { color: #5b564c; font: 400 14px/17px 'Quote Gotham', sans-serif; }
 .quote-form { --quote-error-color: #df3131; }
@@ -149,7 +149,7 @@
   .quote-benefits h3 { font-size: 3.846154vw; line-height: 1.1; }
   .quote-benefits > div:nth-child(-n+2) h3 { position: absolute; left: 47.34571vw; bottom: calc((51.28205vw - max(91.375px, 23.4256vw)) / 2 + 7.47997vw); width: 29.96995vw; text-align: left; }
   .quote-benefits > div:nth-child(2) h3 { width: 35.10016vw; }
-  .quote-benefits > div:last-child img { width: 23.257vw; margin-bottom: 4.33352vw; }
+  .quote-benefits > div:last-child img { width: 25.782051vw; margin-bottom: 4.33352vw; }
   .quote-benefits > div:last-child h3 { width: 78.515625%; font-size: 1.09375vw; }
   .quote-vision { grid-template-rows: minmax(39.56731vw, auto); min-height: 45.97757vw; padding: 6.41026vw 0 0; }
   .quote-vision::after { top: 34.44308vw; }
@@ -201,3 +201,16 @@
 
 
 .quote-field-caption { display: block; }
+
+/* Match Work's vertical scroll label and arrow proportions. */
+.quote-scroll { display: flex; flex-direction: column; align-items: flex-start; gap: 0; right: 0; width: 5.628255vw; height: auto; text-decoration: none; }
+.quote-scroll span { flex: none; height: 6.09375vw; margin-left: 2.19055vw; margin-bottom: -.10563vw; writing-mode: vertical-rl; font: 400 .78125vw/1.6 'Quote IvyOra Light', serif; letter-spacing: .03em; }
+.quote-scroll svg { display: block; flex: none; width: 100%; height: auto; aspect-ratio: 1; margin-left: -.07813vw; }
+@media (min-width: 751px) and (max-width: 1400px) and (any-pointer: coarse) {
+  .quote-scroll span { font-size: 12px; height: 88px; }
+}
+@media (max-width: 750px) {
+  .quote-scroll { right: 6.53846%; width: 5.96154vw; height: auto; }
+  .quote-scroll span { align-self: center; height: 15.22231vw; margin-left: 0; margin-bottom: min(-.5px, -.12821vw); font-size: 2.05128vw; }
+  .quote-scroll svg { aspect-ratio: 1 / 1.1451854; margin-left: min(-.5px, -.12821vw); }
+}
