@@ -6,7 +6,7 @@ window.projects = [
     "title": "NEBU | GRANND PLAZA",
     "heading": "NEBU |\nGRANND PLAZA",
     "breadcrumb": "HOME > WORK > COMMERICAL > RETAIL > NEBU",
-    "intro": "The Snowflake Crisp brand, Nebu, has opened its first store in Mong Kok Grand Plaza. This design project involved a brand overhaul and interior planning, seamlessly integrating the brand's story and customer experience into a dreamlike space dedicated to artisanal treats.",
+    "intro": "The Snowflake Crisp brand, Nebu, has opened its first store in Grand Plaza, Mong Kok. This design project involved a brand overhaul and interior planning, seamlessly integrating the brand's story and customer experience into a dreamlike space dedicated to artisanal treats.",
     "facts": [
       [
         "LOCATION",
@@ -43,13 +43,13 @@ window.projects = [
       {
         "title": "Subtle Color Palette & Materiality",
         "paragraphs": [
-          "The semi-open entrance design is centered around transparency, resembling a crystalline ice sculpture. The store features a chocolate fountain production area, drawing customers to observe the creation process up close. This enhances engagement and adds memorable touchpoints to the shopping experience, encouraging customers to spend more time in-store and ultimately leading to purchases."
+          "Soft whites interwoven with pale blues evoke the purest light of a winter morning. Wooden display fixtures paired with gentle lighting emit a natural warmth, creating a stunning contrast with the ethereal Snowflake Crisps. Customers linger in this space, making it easy for them to recall the brand in the future, thereby enhancing brand recognition."
         ]
       },
       {
-        "title": "Once Design Studio | Commercial Interior Design and Store Construction",
+        "title": "Commercial Interior Design and Construction",
         "paragraphs": [
-          "This design transcends the boundaries of conventional retail, transforming a commercial space into an engaging brand environment. Once Design Studio is committed to telling brand stories and improving customer experiences through interior design. Apart from Nebu, we have been involved in projects like KLASSE14 Concept Store and TATCHA Lane Crawford, showcasing our expertise in commercial space planning."
+          "This design transcends the boundaries of conventional retail, transforming a commercial space into an engaging brand environment. We are committed to telling brand stories and improving customer experiences through interior design."
         ]
       }
     ],
@@ -146,7 +146,7 @@ window.projects = [
     "awards": [
       "HOME JOURNAL AWARD 2022 - RETAIL DESIGN (GOLD)"
     ],
-    "quote": "\" EXTRAORDINARY IN THE ORDINARY \"",
+    "quote": "\" Retail Store Interior Design: Design Concept \"",
     "articles": [
       {
         "title": "KLASSE14: Commercial Interior Design Concept",
@@ -156,11 +156,10 @@ window.projects = [
         ]
       },
       {
-        "title": "Once Design Studio: Commercial Interior Design Services",
+        "title": "Commercial Interior Design and Construction",
         "paragraphs": [
           "Commercial interior design is a blend of art and science, aiming to create distinctive and captivating spaces. By employing creative design elements, appropriate color combinations, and design concepts aligned with brand values, designers can create a one-of-a-kind visual identity for the brand, attracting more customers.",
-          "Once Design Studio aims to enhance brand awareness, tell the brand story, improve customer dining/event experience, and enhance spatial interactivity through the use of interior design, coupled with information technology, to make the sales/service process smoother and more effective. Unique and thoughtful interior design and meticulously designed storefronts not only attract customers' attention and stimulate their desire to purchase but also strengthen the brand value and leave a lasting impression on the brand image.",
-          "In addition to KLASSE14's concept store, we have been involved in other commercial interior design projects, such as TATCHA Lane Crawford, which showcase our team's expertise and validate our rich experience in commercial space planning and design.",
+          "We aim to enhance brand awareness, tell the brand story, improve the overallcustomer dining/event experience, and enhance spatial interactivity through the use of interior design, coupled with information technology, to make the sales/service process smoother and more effective. Unique and thoughtful interior design and meticulously designed storefronts not only attract customers' attention and stimulate their desire to purchase but also strengthen the brand value and leave a lasting impression on the brand image.",
           "In today's fiercely competitive commercial landscape, having a unique and appealing store design is key to success. Whether it's creating an eye-catching exterior or cultivating a comfortable and brand-specific interior space, commercial interior design adds significant value to a brand's success."
         ]
       }
@@ -344,21 +343,19 @@ window.projects = [
       ]
     ],
     "awards": [],
-    "quote": "\"AN ELEGANT AND AIRYDANCE OF ELEMENTS \"",
+    "quote": "\"AN ELEGANT AND AIRY DANCE OF ELEMENTS \"",
     "articles": [
       {
-        "title": "Murad HK Counter: Interior Design Concept",
+        "title": "Retail Store Interior Design: Design Concept",
         "paragraphs": [
           "The brand's iconic four-color series blossoms on the product display shelves, not only focusing attention on the product range but also enhancing brand recognition. Through the electronic screens on the walls and meticulously designed display shelves, we present the brand's distinctive features in a comprehensive manner. The overall design seamlessly integrates the brand's professionalism and aesthetic appeal, creating a comfortable and relaxing shopping space for customers to easily appreciate the details of each product."
         ]
       },
       {
-        "title": "Once Design Studio | Specializing in Commercial Space Design and Retail Renovation Projects",
+        "title": "Specializing in Commercial Space Design and Retail Renovation Projects",
         "paragraphs": [
           "Commercial interior design plays a crucial role in shaping brand image and enhancing the customer experience, and Murad's counter at Lane Crawford in Harbour City showcases an exceptionally attractive and unique commercial interior design. This design not only demonstrates the brand's professional image and scientific background but also creates a captivating shopping experience through engaging design details. Customers in this space can not only experience the brand's unique value and professional knowledge but also enjoy a comfortable and pleasant shopping environment.",
-          "Once Design Studio is dedicated to commercial interior design and retail construction, aiming to enhance brand recognition, tell brand stories, and elevate customer dining and event experiences. We believe that a thoughtfully designed flagship store and unique interior design can not only attract customers' attention and stimulate their desire to purchase but also enhance the brand's value and leave a lasting impression on the brand image.",
-          "In addition to the Murad counter, we have also been involved in other commercial interior design projects, such as KLASSE14 concept store and TATCHA Lane Crawford. These projects not only showcase our design team's professional capabilities but also validate our extensive experience in commercial space planning and design.In addition to the Murad counter, we have also been involved in other commercial interior design projects, such as KLASSE14 concept store and TATCHA Lane Crawford. These projects not only showcase our design team's professional capabilities but also validate our extensive experience in commercial space planning and design.",
-          "To learn more about our retail interior design projects, please visit Once Design Studio's Facebook page."
+          "We are dedicated to commercial interior design and retail construction, aiming to enhance brand recognition, tell brand stories, and elevate customer experiences. We believe that a thoughtfully designed flagship store and unique interior design can not only attract customers' attention and stimulate their desire to purchase but also enhance the brand's value and leave a lasting impression on the brand image.",
         ]
       }
     ],
@@ -436,22 +433,20 @@ window.projects = [
     "quote": "\" AN ELEGANT AND AIRYDANCE OF ELEMENTS \"",
     "articles": [
       {
-        "title": "Murad HK Pop-Up Store: Store Design Concept",
+        "title": "Pop-Up Store Design: Store Design Concept",
         "paragraphs": [
           "On August 29th, Murad opened a Pop-Up limited store in Harbour City Lane Crawford, with the store design seamlessly extending the elegance of Murad's counter. Inspired by the periodic table of elements, the design complements the brand's background in medical research, immersing customers in a dance of elements.",
           "The professional and exquisite periodic table is displayed on a feature wall, with each color representing an independent element, interweaving and merging with one another. A centrally placed television screen showcases the brand's expertise in scientific research to customers.",
           "The unique L-shaped illuminated counter, also interpreted in the brand's iconic four colors, features a distinctive structure that is unconstrained. The elements intertwine, each showcasing its unique aspects while complementing one another, highlighting Murad's emphasis on scientific technology and medical ingredients.",
-          "Furthermore, to further showcase the brand's core values and story, we have incorporated the brand philosophy slogan (\"Skincare is Healthcare\") and quotes from the founder, Dr. Howard Murad. They whisper the brand's beliefs and fascinating story to guests, bringing them closer to the brand and allowing them to experience its unique charm."
+          "Additionally, to further showcase the brand's core values and story, we have incorporated the brand philosophy slogan (\"Skincare is Healthcare\") and quotes from the founder, Dr. Howard Murad. They whisper the brand's beliefs and fascinating story to guests, bringing them closer to the brand and allowing them to experience its unique charm."
         ]
       },
       {
-        "title": "Once Design Studio | Commercial Interior Design and Store Construction Services",
+        "title": "Commercial Interior Design and Construction",
         "emphasis": ["KLASSE14 Concept Store", "TATCHA Lane Crawford"],
         "paragraphs": [
           "The importance of commercial interior design cannot be overlooked, as it is one of the key factors in brand success. Murad's Pop-Up store in Harbour City Lane Crawford showcases an attractive and distinctive commercial interior design. It not only displays the brand's professional image and scientific background but also creates an engaging shopping experience through captivating design details, allowing customers to feel the brand's unique value and professional knowledge.",
-          "Once Design Studio is committed to enhancing brand awareness, telling brand stories, and improving customer dining/event experiences through interior design, while making the sales/service process smoother and more effective. We also integrate information technology to enhance spatial interactivity. Meticulously designed storefronts and unique design concepts not only attract customers' attention and stimulate their desire to purchase but also enhance brand value, leaving a lasting impression on the brand image.",
-          "Apart from Murad, we have also been involved in other commercial interior design projects such as KLASSE14 Concept Store and TATCHA Lane Crawford. These projects showcase the expertise of the Once Design Studio and validate our wealth of experience in commercial space planning and design.",
-          "To learn more about our retail interior design projects, please visit Once Design Studio's Facebook page."
+          "We are committed to enhancing brand awareness, telling brand stories, and improving customer dining/event experiences through interior design, while making the sales/service process smoother and more effective. We also integrate information technology to enhance spatial interactivity. Meticulously designed storefronts and unique design concepts not only attract customers' attention and stimulate their desire to purchase but also enhance brand value, leaving a lasting impression on the brand image.",
         ]
       }
     ],
@@ -710,7 +705,7 @@ window.projects = [
     "title": "GLAMOUR BEAUTY AFFAIRS |\nTIMES SQUARE",
     "heading": "GLAMOUR\nBEAUTY AFFAIRS |\nTIMES SQUARE",
     "breadcrumb": "HOME > WORK > COMMERICAL > RETAIL > GLAMOUR BEAUTY AFFAIRS",
-    "intro": "In today's competitive beauty market, exceptional store design serves not only as an extension of brand identity but as a crucial element in attracting customers and elevating brand value. As a professional interior design firm, Once Design has crafted a retail space for premium beauty care brand Glamour Beauty Affairs that masterfully balances modern aesthetics with functionality.",
+    "intro": "In today's competitive beauty market, exceptional store design serves not only as an extension of brand identity but also as a crucial element in attracting customers and elevating brand value. As a professional interior design firm, Once Design has crafted a retail space for premium beauty care brand Glamour Beauty Affairs that masterfully balances modern aesthetics with functionality.",
     "facts": [
       [
         "LOCATION",
@@ -733,9 +728,9 @@ window.projects = [
     "quote": "\"THE STORY OF LUXURY AND TASTE \"",
     "articles": [
       {
-        "title": "Causeway Bay Retail Store Interior Design Analysis",
+        "title": "Retail Store Interior Design: Design Concept",
         "paragraphs": [
-          "Located in the prime location of Times Square Mall in Causeway Bay, this retail project embraces a minimalist modern style infused with elegant luxury elements. The store features pristine white walls contrasting with dark flooring, while strategic use of mirrors and glass elements creates an expanded sense of space and enhanced sophistication. This design approach not only showcases the skincare brand's professional image but provides customers with a refined, high-end shopping environment."
+          "Located in the prime location of Times Square Mall in Causeway Bay, this retail project embraces a minimalist modern style infused with elegant luxury elements. The store features pristine white walls contrasting with dark flooring, while strategic use of mirrors and glass elements creates an expanded sense of space and enhanced sophistication. This design approach not only showcases the skincare brand's professional image but also provides customers with a refined, high-end shopping environment."
         ]
       },
       {
@@ -752,10 +747,9 @@ window.projects = [
         ]
       },
       {
-        "title": "Once Design Studio | Specializing in Commercial Interior Design and Beauty Brand Retail Construction",
+        "title": "Specializing in Commercial Interior Design",
         "paragraphs": [
-          "Once Design's precise attention to detail ensures optimal space utilization while maintaining clean, organized visual aesthetics. This design approach not only elevates the customer shopping experience but also establishes a professional and trustworthy brand image. Through modern luxury design language, perfect balance of functionality and aesthetics, and innovative application of technology and space optimization, the Once Design team has successfully created an engaging retail environment for Glamour Beauty Affairs.",
-          "Apart from Murad, we have also been involved in other commercial interior design projects such as KLASSE14 Concept Store and TATCHA Lane Crawford. These projects showcase the expertise of the Once Design Studio and validate our wealth of experience in commercial space planning and design."
+          "We precise attention to detail ensures optimal space utilization while maintaining clean, organized visual aesthetics. This design approach not only elevates the customer shopping experience but also establishes a professional and trustworthy brand image. Through a modern luxury design language, perfect balance of functionality and aesthetics, and the innovative application of technology and space optimization, the team has successfully created an engaging retail environment for Glamour Beauty Affairs."
         ]
       }
     ],
@@ -836,7 +830,7 @@ window.projects = [
         "title": "Design Concept: A Tapestry of Nature and Athletic Vitality",
         "paragraphs": [
           "The design inspiration is closely tied to the brand's \"Mountain\" imagery and its physical location within the \"Park\" (Kai Tak Sports Park). We heavily utilized warm, light wood tones as the foundational palette to carve out a tranquil, stress-free natural atmosphere amidst a bustling shopping mall.",
-          "To echo the athletic energy of Kai Tak Sports Park, our design team cleverly integrated sports-themed details throughout the space. For instance, the creative \"basketball hoop\" installation on the wall, the design fosters an engaging dialogue between casual dining and the spirit of sports."
+          "To echo the athletic energy of Kai Tak Sports Park, our design team cleverly integrated sports-themed details throughout the space. For instance, the creative \"basketball hoop\" installation on the wall, fosters an engaging dialogue between casual dining and the spirit of sports."
         ]
       },
       {
@@ -859,10 +853,10 @@ window.projects = [
         ]
       },
       {
-        "title": "Once Design Studio | Commercial Interior Design and Restaurant Construction",
+        "title": "Commercial Interior Design and Construction",
         "list": true,
         "paragraphs": [
-          "The design of the Park Mountain restaurant proves that interior design is not merely an accumulation of aesthetics, but a bridge that conveys brand value and social warmth. Through the careful curation of the Once Design Studio team, we have successfully established a new F&B benchmark at Kai Tak Sports Park—one that is vibrant, yet full of love and inclusivity. Apart from Park Mountain, we have been involved in projects like KLASSE14 Concept Store and TATCHA Lane Crawford, showcasing our expertise in commercial space planning."
+          "The design of the Park Mountain restaurant proves that interior design is not merely an accumulation of aesthetics, but a bridge that conveys brand value and social warmth. Through the careful curation of the team, we have successfully established a new F&B benchmark at Kai Tak Sports Park—one that is vibrant, yet full of love and inclusivity."
         ]
       }
     ],
@@ -951,18 +945,17 @@ window.projects = [
     "quote": "\" IZAKAYA IN A SECLUDED CAVE \"",
     "articles": [
       {
-        "title": "Restaurant Design Style: Japanese Izakaya",
+        "title": "Restaurant Design: Design Concept",
         "paragraphs": [
           "During the design process, Once Design studio carefully considers the restaurant's theme and style, providing tailored interior design solutions. Designers take into account every detail, including lighting, colors, and furniture arrangement, to create a unique and comfortable dining environment.",
-          "Just like in the case of Yakitori Restaurant, our designer selected appropriate colors and materials based on the concept of Japanese street stalls, seamlessly integrating them into the overall design. The use of wooden tables and chairs brings a sense of nature and warmth, while the rock wall panels add texture and uniqueness. Additionally, the inclusion of Japanese wall paintings brings an atmosphere of elegance and uniqueness, allowing customers to experience a touch of Japanese beauty while dining."
+          "Just like in the case of this Yakitori Restaurant, our designer selected appropriate colors and materials based on the concept of Japanese street stalls, seamlessly integrating them into the overall design. The use of wooden tables and chairs brings a sense of nature and warmth, while the rock wall panels add texture and uniqueness. Additionally, the inclusion of Japanese wall paintings brings an atmosphere of elegance and uniqueness, allowing customers to experience a touch of Japanese beauty while dining."
         ]
       },
       {
-        "title": "Once Design Studio | Restaurant Interior Design and Commercial Renovation Projects",
+        "title": "Commercial Interior Design and Construction",
         "paragraphs": [
-          "Once Design Studio not only offers interior design services but also provides comprehensive services such as pre-tenancy consultations, restaurant license application and fire safety consulting. Whether you are opening a new restaurant or looking to renovate an existing one, we welcome you to contact us and let us help you create your ideal dining environment.",
-          "Once Design Studio is committed to enhancing brand recognition, telling brand stories, and improving the customer dining experience through interior design. Thoughtfully designed distinctive storefronts and unique interior designs not only attract customers' attention and stimulate their desire to consume but also enhance brand value, leaving a lasting impression on customers' minds.",
-          "Apart from Sheung Sheung Chim, we have also been involved in other commercial interior design projects such as KLASSE14 Concept Store and TATCHA Lane Crawford. These projects showcase the expertise of the Once Design Studio and validate our wealth of experience in commercial space planning and design."
+          "We are not only offer interior design services but also provides comprehensive services such as pre-tenancy consultations, restaurant license applications, and fire safety consulting. Whether you are opening a new restaurant or looking to renovate an existing one, we welcome you to contact us and let us help you create your ideal dining environment.",
+          "We are committed to enhancing brand recognition, telling brand stories, and improving the customer dining experience through interior design. Thoughtfully designed distinctive storefronts and unique interior designs not only attract customers' attention and stimulate their desire to consume but also enhance brand value, leaving a lasting impression on customers' minds.",
         ]
       }
     ],
@@ -1116,7 +1109,7 @@ window.projects = [
     "title": "THE ST. REGIS | HONG KONG",
     "heading": "THE ST. REGIS |\nHONG KONG",
     "breadcrumb": "HOME > WORK > COMMERICAL > HOSPITALITY > THE ST. REGIS",
-    "intro": "As a pinnacle of luxury hospitality, The St. Regis Hong Kong requires holiday decorations that not only exude ultimate elegance but also demand the most rigorous professional execution during installation. For this project, Once Design Studio was deeply honored to execute the large-scale Christmas decoration for the hotel. We seamlessly blended timeless festive aesthetics with top-tier construction standards to create a dazzling, warm, and brand-exclusive winter wonderland for the guests.",
+    "intro": "As a pinnacle of luxury hospitality, The St. Regis Hong Kong requires holiday decorations that not only exude ultimate elegance but also demand the most rigorous professional execution during installation. For this project, Once Design Studio was deeply honored to execute the large-scale Christmas decorations for the hotel. We seamlessly blended timeless festive aesthetics with top-tier construction standards to create a dazzling, warm, and brand-exclusive winter wonderland for the guests.",
     "facts": [
       [
         "LOCATION",
@@ -1149,9 +1142,9 @@ window.projects = [
         ]
       },
       {
-        "title": "Once Design Studio | Commercial Interior Design and Festive Decoration",
+        "title": "Commercial Decoration and Production",
         "paragraphs": [
-          "The St. Regis Hong Kong Christmas decoration project perfectly demonstrates our team's exceptional execution capabilities when handling commercial projects with \"high difficulty, high specifications, and high standards.\" From aesthetic design and custom fabrication to precise and safe on-site installation, we are committed to providing top-tier clients with the most reliable and professional one-stop visual merchandising services. Apart from The St. Regis, we have been involved in projects like KLASSE14 Concept Store and TATCHA Lane Crawford, showcasing our expertise in commercial space planning and holiday displays."
+          "The St. Regis Hong Kong Christmas decoration project perfectly demonstrates our team's exceptional execution capabilities when handling commercial projects with \"high difficulty, high specifications, and high standards.\" From aesthetic design and custom fabrication to precise and safe on-site installation, we are committed to providing top-tier clients with the most reliable and professional one-stop visual merchandising services."
         ]
       }
     ],
@@ -1262,9 +1255,9 @@ window.projects = [
         ]
       },
       {
-        "title": "Once Design Studio | Commercial Interior Design and Store Construction",
+        "title": "Commercial Interior Design Construction",
         "paragraphs": [
-          "The design of the WinFun Toy Showroom is our successful case study in translating \"brand language\" into a tangible \"spatial experience.\" Through precise color planning, smooth visitor circulation, and a comfortable meeting environment, we helped the brand establish a more powerful commercial presence. Here, every B2B meeting unfolds in an atmosphere full of inspiration and vitality. Apart from Nebu, we have been involved in projects like KLASSE14 Concept Store and TATCHA Lane Crawford, showcasing our expertise in commercial space planning."
+          "The design of the WinFun Toy Showroom is our successful case study in translating \"brand language\" into a tangible \"spatial experience.\" Through precise color planning, smooth visitor circulation, and a comfortable meeting environment, we helped the brand establish a more powerful commercial presence. Here, every B2B meeting unfolds in an atmosphere full of inspiration and vitality."
         ]
       }
     ],
@@ -1372,9 +1365,9 @@ window.projects = [
     "quote": "\" ESG - DRIVING SUSTAINABILITY, OPERATING FOR THE FUTURE \"",
     "articles": [
       {
-        "title": "Office Interior Design Case Study: Fresh Taikoo Place",
+        "title": "Office Interior Design",
         "paragraphs": [
-          "Upon entering the reception area of the Fresh office, one is greeted by a magnificent view of the mountains framed by floor-to-ceiling windows. This space creates a casual and comfortable atmosphere with wooden furniture, cozy sofas, and chairs, giving the impression of being immersed in nature. This design not only provides a relaxing space for visitors but also reflects Fresh's love for and respect for the natural world."
+          "Upon entering the reception area of the Fresh office, one is greeted by a magnificent view of the mountains framed by floor-to-ceiling windows. This space creates a casual and comfortable atmosphere with wooden furniture, cozy sofas, and chairs, giving the impression of being immersed in nature. This design not only provides a relaxing space for visitors but also reflects Fresh's love and respect for the natural world."
         ]
       },
       {
@@ -1386,10 +1379,9 @@ window.projects = [
         ]
       },
       {
-        "title": "Once Design Studio | Office Interior Design and Commercial Renovation Projects",
+        "title": "Commercial Interior Design and Construction",
         "paragraphs": [
-          "Once Design Studio is dedicated to enhancing brand visibility, telling brand stories, and improving customer experiences through interior design. Thoughtfully designed offices enable employees to work efficiently while showcasing brand features and values.",
-          "Apart from the Fresh office, we have also been involved in other office interior design projects, such as ENW Office. These projects not only showcase the professional capabilities of Once Design Studio but also validate our extensive experience in commercial space planning and design."
+          "We are dedicated to enhancing brand visibility, telling brand stories, and improving the employee and client experiences through interior design. Thoughtfully designed offices enable employees to work efficiently while showcasing brand features and values.",
         ]
       }
     ],
@@ -1478,7 +1470,7 @@ window.projects = [
     "quote": "\" INTERSTELLAR HUB OF CREATIVITY \"",
     "articles": [
       {
-        "title": "Hong Kong Educational School Design | Key Design Features",
+        "title": "",
         "list": true,
         "paragraphs": [
           "Geometric Lighting Matrix: The ceiling features a striking array of suspended hexagonal (honeycomb) and Y-shaped LED lights set against a dark, exposed ceiling. This creates a \"sky full of stars\" effect, adding depth and a futuristic atmosphere that stimulates visual interest and focus.",
@@ -1492,8 +1484,8 @@ window.projects = [
         "listStart": 1,
         "paragraphs": [
           "For the design of the STEM Innovation Lab at St. Patrick's Catholic Primary School, we went beyond modern and high-tech visual aesthetics to deeply integrate ESG (Environmental, Social, and Governance) principles into our spatial planning. We are dedicated to creating a high-quality learning environment for the next generation that is both eco-friendly and focused on physical and mental well-being:",
-          "Optimizing Indoor Air Quality and Natural Light: Student health is our top priority. We utilized a comprehensive low VOC (Volatile Organic Compounds) material system throughout the space, including eco-friendly paints, adhesives, and premium boards. By strictly controlling materials from the source, we significantly improved the Indoor Air Quality (IAQ). Additionally, we incorporated an optimized natural daylighting design, using light-colored reflective surfaces and strategic layout planning to maximize natural light. This not only creates a bright and comfortable visual experience but also effectively reduces the energy load of artificial lighting, promoting green energy conservation.",
-          "Flexible and Inclusive Learning Layout: To meet the demands of modern education, we created a highly Flexible Learning Space. The classroom is equipped with ergonomic desk and chair designs that adapt to the physical development of students across different age groups. Their movable nature perfectly supports STEM experiments, interactive group discussions, and hybrid teaching models.",
+          "Optimizing Indoor Air Quality and Natural Light: Student health is our top priority. We utilized a comprehensive low-VOC (Volatile Organic Compounds) material system throughout the space, including eco-friendly paints, adhesives, and premium boards. By strictly controlling materials from the source, we significantly improved the indoor air quality (IAQ). Additionally, we incorporated an optimized natural daylighting design, using light-colored reflective surfaces and strategic layout planning to maximize natural light. This not only creates a bright and comfortable visual experience but also effectively reduces the energy load of artificial lighting, promoting green energy conservation.",
+          "Flexible and Inclusive Learning Layout: To meet the demands of modern education, we created a highly flexible learning space. The classroom is equipped with ergonomic desk and chair designs that adapt to the physical development of students across different age groups. Their movable nature perfectly supports STEM experiments, interactive group discussions, and hybrid teaching models.",
           "Comprehensive Safety and Health Protection: Attention to detail is key. All desk edges and wall corners feature a safe rounded corner design and anti-collision system, providing the safest possible activity area for active primary school students. Furthermore, the desks and frequently touched wall surfaces specifically utilize antibacterial and easy-to-clean materials, effectively reducing the risk of cross-infection within the campus.",
           "Emotionally Friendly Color Psychology: We integrated color psychology into the space using an emotionally friendly color strategy. By utilizing calming Cool Blue and Industrial Grey as the base, paired with futuristic Cyber Purple accents, this sci-fi-inspired yet grounded color palette stimulates students' innovative thinking while achieving the dual effects of stress reduction and enhanced learning focus."
         ]
@@ -1505,9 +1497,9 @@ window.projects = [
         ]
       },
       {
-        "title": "Once Design Studio | Specializing in Commercial Interior Design | School Classroom Design & Renovation",
+        "title": "School Design & Renovation",
         "paragraphs": [
-          "At Once Design Studio, we believe that interior architecture goes far beyond mere aesthetics; it is a fundamental component of the learning experience. When tasked with designing educational spaces, our studio’s approach is rooted in pedagogical psychology. We understand that the physical environment profoundly impacts a student's focus, creativity, and willingness to collaborate. For St. Patrick's Catholic Primary School, our mission was to craft an environment that speaks the language of tomorrow—a space that actively participates in the school’s STEM curriculum rather than just hosting it.",
+          "We believe that interior architecture goes far beyond mere aesthetics; it is a fundamental component of the learning experience. When tasked with designing educational spaces, our studio’s approach is rooted in pedagogical psychology. We understand that the physical environment profoundly impacts a student's focus, creativity, and willingness to collaborate. For St. Patrick's Catholic Primary School, our mission was to craft an environment that speaks the language of tomorrow—a space that actively participates in the school’s STEM curriculum rather than just hosting it.",
           "The St. Patrick's STEM Room represents a perfect dialogue between visionary pedagogy and sophisticated interior design. It stands as a testament to Once Design Studio’s capability to translate a conceptual brief into a tangible, elegant reality—elevating the standard curriculum into an inspiring journey of discovery for the next generation."
         ]
       }
@@ -1591,10 +1583,10 @@ window.projects = [
     "quote": "\" PLAYFUL TECH, ENDLESS IMAGINATION \"",
     "articles": [
       {
-        "title": "Hong Kong Educational Computer Room | Design Concept",
+        "title": "Educational School Design: Design Concept",
         "paragraphs": [
           "For this school interior design project, we selected a highly contrasting \"Sky Blue\" and \"Vibrant Orange\" as the primary color palette. The expansive blue helps students remain focused and calm while engaging with computer screens and technology, while the large pops of bright orange instantly awaken their energy and enthusiasm.",
-          "The ceiling design serves as the visual focal point of the entire space. We abandoned traditional grid lighting in favor of unique, hexagonal (honeycomb) LED pendant lights. This not only provides ample and even illumination but also injects a strong sense of technology and futurism into the room, symbolizing digital connectivity and infinite possibilities."
+          "The ceiling design serves as the visual focal point of the entire space. We abandoned traditional grid lighting in favor of unique hexagonal (honeycomb) LED pendant lights. This not only provides ample and even illumination but also injects a strong sense of technology and futurism into the room, symbolizing digital connectivity and infinite possibilities."
         ]
       },
       {
@@ -1612,14 +1604,14 @@ window.projects = [
         "listStart": 1,
         "paragraphs": [
           "For the design of the Computer Room at St. Patrick's Catholic Primary School, we went beyond modern and high-tech visual aesthetics to deeply integrate ESG (Environmental, Social, and Governance) principles into our spatial planning. We are dedicated to creating a high-quality learning environment for the next generation that is both eco-friendly and focused on physical and mental well-being:",
-          "Optimizing Indoor Air Quality and Natural Light: Student health is our top priority. We utilized a comprehensive low VOC (Volatile Organic Compounds) material system throughout the space, including eco-friendly paints, adhesives, and premium boards. By strictly controlling materials from the source, we significantly improved the Indoor Air Quality (IAQ). Additionally, we incorporated an optimized natural daylighting design, using light-colored reflective surfaces and strategic layout planning to maximize natural light. This not only creates a bright and comfortable visual experience but also effectively reduces the energy load of artificial lighting, promoting green energy conservation.",
-          "Flexible and Inclusive Learning Layout: To meet the demands of modern education, we created a highly Flexible Learning Space. The classroom is equipped with ergonomic desk and chair designs that adapt to the physical development of students across different age groups. Their movable nature perfectly supports diverse computer science classes, interactive group discussions, and hybrid teaching models.",
+          "Optimizing Indoor Air Quality and Natural Light: Student health is our top priority. We utilized a comprehensive low-VOC (Volatile Organic Compounds) material system throughout the space, including eco-friendly paints, adhesives, and premium boards. By strictly controlling materials from the source, we significantly improved the indoor air quality (IAQ). Additionally, we incorporated an optimized natural daylighting design, using light-colored reflective surfaces and strategic layout planning to maximize natural light. This not only creates a bright and comfortable visual experience but also effectively reduces the energy load of artificial lighting, promoting green energy conservation.",
+          "Flexible and Inclusive Learning Layout: To meet the demands of modern education, we created a highly flexible learning space. The classroom is equipped with ergonomic desk and chair designs that adapt to the physical development of students across different age groups. Their movable nature perfectly supports diverse computer science classes, interactive group discussions, and hybrid teaching models.",
           "Comprehensive Safety and Health Protection: Attention to detail is key. All desk edges and wall corners feature a safe rounded corner design and anti-collision system, providing the safest possible activity area for active primary school students. Furthermore, the desks and frequently touched wall surfaces specifically utilize antibacterial and easy-to-clean materials, effectively reducing the risk of cross-infection within the campus.",
           "Emotionally Friendly Color Psychology: We integrated color psychology into the space using an emotionally friendly color strategy. By pairing large areas of calming blue with vibrant orange accents, this low-stimulation yet richly layered color palette not only stimulates students' creative thinking but also achieves the dual effects of stress reduction and enhanced focus during screen time."
         ]
       },
       {
-        "title": "Once Design Studio | Specializing in Commercial Interior Design | School Classroom Design & Renovation",
+        "title": "School Design & Renovation",
         "paragraphs": [
           "The renovation of the St. Patrick's Catholic Primary School Computer Room is our perfect interpretation of a \"next-generation learning environment.\" We firmly believe that an excellent school interior design subtly influences students' attitudes toward learning. In this space, technology education is no longer tedious but rather a wondrous journey full of interaction and inspiration."
         ]
@@ -1676,7 +1668,7 @@ window.projects = [
     "title": "JUNIOR VERSITY | LAI CHI KOK & YUEN LONG",
     "heading": "JUNIOR VERSITY | BANYAN MALL  & YOHO PLUS",
     "breadcrumb": "HOME > WORK > COMMERICAL > EDUCATION > JUNIOR VERSITY",
-    "intro": "In today's competitive education market, a premium learning environment not only enhances students' learning experience but also establishes a professional image for educational institutions. As a specialized interior design firm, Once Design Studio had the privilege of crafting interior spaces for two Junior Versity Cambridge English Center branches (at Lai Chi Kok Banyan Mall and Yuen Long YOHO Plus), successfully elevating the aesthetic quality of educational centers while infusing vitality into early childhood education spaces.",
+    "intro": "",
     "facts": [
       [
         "LOCATION",
@@ -1697,35 +1689,7 @@ window.projects = [
     ],
     "awards": [],
     "quote": "\" THE FUN AND INSPIRING LEARNING WONDERLAND \"",
-    "articles": [
-      {
-        "title": "Hong Kong Educational Institution Design | Design Philosophy",
-        "list": true,
-        "paragraphs": [
-          "Brand Consistency: Both branches feature vibrant green as the primary color scheme, complemented by an endearing owl mascot cartoon image, perfectly integrating brand identity and enhancing market recognition.",
-          "Spatial Functionality: Based on each location's unique characteristics, the Lai Chi Kok branch features a compact glass door entrance, while the Yuen Long branch adopts a semi-open entrance to accommodate different reception needs.",
-          "Child-Friendly Design: From small-scale seating to bright lighting, every element is tailored to meet children's needs, creating a safe and comfortable learning environment."
-        ]
-      },
-      {
-        "title": "HK Educational Center Design | Key Features",
-        "paragraphs": [
-          "1. Perfect Harmony of Colors and Atmosphere",
-          "Green, serving as the primary color scheme, symbolizes vitality and growth, aligning perfectly with the mission of early childhood education. We further incorporated yellow and white as complementary colors, along with cartoon decorations and backlit designs, creating a lively yet cozy atmosphere.",
-          "2. Intelligent Space Planning",
-          "The Lai Chi Kok branch emphasizes compact efficiency, with transparent glass doors enhancing openness - ideal for limited mall spaces. In contrast, the Yuen Long branch offers more spacious accommodations, featuring an elegant reception area and semi-circular decorative facade, demonstrating greater inclusivity and comfort. This flexible spatial planning exemplifies our expertise in educational facility design.",
-          "3. Sophisticated Lighting and Furniture Integration",
-          "We employed recessed lighting fixtures to ensure uniform, soft illumination while enhancing spatial depth. In furniture selection, child-sized seating harmoniously complements modern reception counters, with the Lai Chi Kok branch prioritizing practicality while the Yuen Long branch balances aesthetics and functionality, showcasing high-quality design standards."
-        ]
-      },
-      {
-        "title": "Once Design Studio | Specializing in Commercial Interior Design | Educational Center and School Renovation",
-        "paragraphs": [
-          "Through this project, Once Design successfully created two branches for Junior Versity that combine professionalism with playfulness. The Lai Chi Kok branch captivates parents and students with its striking visual impact, while the Yuen Long branch wins long-term customer loyalty through its warm and comfortable environment. This differentiated design approach not only meets brand expansion needs but also sets new industry standards for educational facility design.",
-          "Once Design deeply understands the unique requirements of educational institutions. Whether it's unified brand presentation or optimized spatial functionality, we provide tailored solutions. From initial design concepts to final implementation, we are dedicated to creating exceptional learning and working environments for every client."
-        ]
-      }
-    ],
+    "articles": [],
     "hero": "../assets/images/projects/junior-versity/junior-versity-gallery-4.jpg",
     "photos": [
       {
@@ -1777,12 +1741,12 @@ window.projects = [
     }
   },
   {
-"id": "stem-computer-lab",
+    "id": "stem-computer-lab",
     "source": "https://liaovaco.wixstudio.com/oncedesign/blank-1-5-1-1-1-1",
     "title": "STEM COMPUTER LAB | KWUN TONG",
     "heading": "STEM COMPUTER LAB | KWUN TONG",
     "breadcrumb": "HOME > WORK > COMMERICAL > EDUCATION > STEM COMPUTER LAB",
-    "intro": "In today's competitive education market, a premium learning environment not only enhances students' learning experience but also establishes a professional image for educational institutions. As a specialized interior design firm, Once Design Studio had the privilege of crafting interior spaces for two Junior Versity Cambridge English Center branches (at Lai Chi Kok Banyan Mall and Yuen Long YOHO Plus), successfully elevating the aesthetic quality of educational centers while infusing vitality into early childhood education spaces.",
+    "intro": "",
     "facts": [
       [
         "LOCATION",
@@ -1805,7 +1769,7 @@ window.projects = [
     "quote": "\" CHILD & TEENAGE  FRIENDLY LEARNING \"",
     "articles": [
       {
-        "title": "Hong Kong Educational Institution Design | Design Philosophy",
+        "title": "Educational Institution Design",
         "list": true,
         "paragraphs": [
           "Brand Consistency: Both branches feature vibrant green as the primary color scheme, complemented by an endearing owl mascot cartoon image, perfectly integrating brand identity and enhancing market recognition.",
@@ -1824,13 +1788,6 @@ window.projects = [
           "We employed recessed lighting fixtures to ensure uniform, soft illumination while enhancing spatial depth. In furniture selection, child-sized seating harmoniously complements modern reception counters, with the Lai Chi Kok branch prioritizing practicality while the Yuen Long branch balances aesthetics and functionality, showcasing high-quality design standards."
         ]
       },
-      {
-        "title": "Once Design Studio | Specializing in Commercial Interior Design | Educational Center and School Renovation",
-        "paragraphs": [
-          "Through this project, Once Design successfully created two branches for Junior Versity that combine professionalism with playfulness. The Lai Chi Kok branch captivates parents and students with its striking visual impact, while the Yuen Long branch wins long-term customer loyalty through its warm and comfortable environment. This differentiated design approach not only meets brand expansion needs but also sets new industry standards for educational facility design.",
-          "Once Design deeply understands the unique requirements of educational institutions. Whether it's unified brand presentation or optimized spatial functionality, we provide tailored solutions. From initial design concepts to final implementation, we are dedicated to creating exceptional learning and working environments for every client."
-        ]
-      }
     ],
     "hero": "../assets/images/projects/stem-computer-lab/stem-computer-lab-gallery-1.jpg",
     "photos": [
