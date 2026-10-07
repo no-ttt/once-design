@@ -1896,3 +1896,18 @@
   .project-mobile-standard:is([data-project="stem-classroom"], [data-project="computer-classroom"]) #main #nebuProjectContent .nebu-heading h2 { padding-right: 0; }
   .project-mobile-standard[data-project="computer-classroom"] #main #nebuProjectContent .nebu-heading h2 a { left: auto; right: 0; }
 }
+
+/* Give the project facts' final divider more space before the next section. */
+@media (max-width: 750px) {
+  body.nebu-page #main #nebuProjectContent .nebu-overview {
+    padding-bottom: 10.25641vw;
+  }
+}
+
+/* A display:contents facts wrapper cannot paint its own closing divider. */
+@media (max-width: 750px) {
+  body.nebu-page #main #nebuProjectContent .nebu-facts { border-bottom: 0; }
+  body.nebu-page #main #nebuProjectContent .nebu-facts > div:last-child {
+    border-bottom: 1px solid #cdc9c0;
+  }
+}

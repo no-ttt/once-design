@@ -255,10 +255,16 @@ document.addEventListener('DOMContentLoaded', () => {
     const consultation = contactSection.querySelector('.contact-consultation');
     const consultationTitle = consultation.querySelector('h3');
     const contactLinks = contactSection.querySelector('.contact-links');
-    // Mobile reference places the consultation heading between logo and links.
+    const contactInfo = contactSection.querySelector('.contact-info');
+    // Mobile: logo and heading, then the form, then the business details.
     const arrangeContact = () => {
-      if (contactDesktop.matches) consultation.prepend(consultationTitle);
-      else contactLinks.before(consultationTitle);
+      if (contactDesktop.matches) {
+        consultation.prepend(consultationTitle);
+        contactInfo.append(contactLinks);
+      } else {
+        contactInfo.append(consultationTitle);
+        consultation.after(contactLinks);
+      }
     };
     arrangeContact();
     contactDesktop.addEventListener('change', arrangeContact);
@@ -688,11 +694,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const track = partnersGallery.querySelector('.partners-track');
     const viewport = partnersGallery.querySelector('.partners-viewport');
     const motionPreference = window.matchMedia('(prefers-reduced-motion: reduce)');
+    const hoverPointer = window.matchMedia('(hover: hover) and (pointer: fine)');
     let visible = false;
     let manualOffset = 0;
     const updatePlayback = () => {
       track.style.animationPlayState = visible && !motionPreference.matches && !document.hidden &&
-        !partnersGallery.matches(':hover') && !partnersGallery.contains(document.activeElement) ? 'running' : 'paused';
+        !(hoverPointer.matches && partnersGallery.matches(':hover')) &&
+        !partnersGallery.querySelector(':focus-visible') ? 'running' : 'paused';
     };
     const moveClients = direction => {
       const group = track.firstElementChild;
@@ -718,6 +726,7 @@ document.addEventListener('DOMContentLoaded', () => {
     partnersGallery.addEventListener('mouseleave', updatePlayback);
     partnersGallery.addEventListener('focusin', updatePlayback);
     partnersGallery.addEventListener('focusout', () => window.setTimeout(updatePlayback, 0));
+    hoverPointer.addEventListener('change', updatePlayback);
     motionPreference.addEventListener('change', () => {
       track.style.removeProperty('transform');
       manualOffset = 0;
@@ -729,6 +738,9 @@ document.addEventListener('DOMContentLoaded', () => {
         visible = entries[0].isIntersecting;
         updatePlayback();
       }, { threshold: 0.5 }).observe(viewport);
+    } else {
+      visible = true;
+      updatePlayback();
     }
   }
 

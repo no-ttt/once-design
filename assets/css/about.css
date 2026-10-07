@@ -72,7 +72,7 @@
   .about-page .menu-btn-icon { width: 23px; height: 20px; }
   .about-page .menu-toggle-btn { color: #362e2b; }
   .about-hero-copy { min-height: 76.7vw; padding: 35px 12.1vw 7.8vw; }
-  .about-hero h1 { font-size: 25px; }
+  .about-hero h1 { font-size: 7.692308vw; }
   .about-hero-copy .page-kicker { font-family: 'Aboreto', sans-serif; font-size: 12px; line-height: normal; margin-bottom: 10px; }
   .about-hero-media > p { font-size: 8px; bottom: 24px; left: 12.1vw; right: 10px; max-width: 210px; }
   .about-scroll { right: 9vw; bottom: 7.8vw; height: 70px; }

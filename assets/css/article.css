@@ -29,7 +29,10 @@
 .moorgen-navigation p { margin-top: .74327vw; font: 400 .9375vw/1.3 'IvyOra Banner', serif; letter-spacing: .02em; }
 .moorgen-page .contact-badge, .moorgen-page .contact-title { display: none; }
 @media (max-width: 750px) {
-  .moorgen-page .site-header, .moorgen-page .menu-toggle-btn { display: none; }
+  .moorgen-page .site-header { display: flex; }
+  .moorgen-page .menu-toggle-btn { display: inline-flex; }
+  .moorgen-page .brand-logo { width: 118px; margin: 16px 0 0 16px; }
+  .moorgen-page #main { padding-top: 82px; }
   .moorgen-title { height: 56.422276vw; }
   .moorgen-hero { height: 43.553686vw; }
   .moorgen-photo { height: var(--mobile-height); }

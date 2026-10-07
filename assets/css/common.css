@@ -16,3 +16,31 @@
   [data-reveal], .text-link span, .nav-drawer, .nav-drawer-backdrop { transition: none; }
   .reveal-pending { opacity: 1; transform: none; }
 }
+
+/* Shared header sizing across listings, projects and articles. */
+body[data-page] .site-header .brand-logo {
+  width: 14.140625vw;
+}
+body[data-page] .site-navigation-layer .menu-toggle-btn {
+  width: 44px;
+  height: 44px;
+  padding: 8px;
+}
+body[data-page] .site-navigation-layer .menu-btn-icon {
+  width: 23px;
+  height: 20px;
+  flex-shrink: 0;
+}
+@media (min-width: 751px) and (max-width: 1400px) and (any-pointer: coarse) {
+  body[data-page] .site-header .brand-logo { width: clamp(150px, 16vw, 195px); }
+}
+@media (max-width: 750px) {
+  body[data-page] .site-header .brand-logo { width: 48.946314vw; }
+  body[data-page] .site-header .brand-logo img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 181 / 83;
+    object-fit: contain;
+  }
+  body.moorgen-page #main { padding-top: calc(22.445vw + 32px); }
+}
