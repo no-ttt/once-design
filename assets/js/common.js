@@ -130,7 +130,7 @@
 `;
   document.querySelector('[data-site-contact]')?.insertAdjacentHTML('afterbegin', contact);
   // Mobile contact flow: introduction, form, then business details.
-  if (document.body.dataset.page !== 'home') {
+  {
     const section = document.querySelector('.contact-section');
     const consultation = section?.querySelector('.contact-consultation');
     const info = section?.querySelector('.contact-info');

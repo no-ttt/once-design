@@ -175,15 +175,7 @@
     const listeners = new AbortController();
     const listen = (target, type, handler, options = {}) => target.addEventListener(type, handler, {...options, signal:listeners.signal});
   const consultationTitle = document.querySelector('.nebu-contact h3');
-  const consultation = document.querySelector('.nebu-contact .contact-consultation');
-  const contactLinks = document.querySelector('.nebu-contact .contact-links');
   const mobile = matchMedia('(max-width: 750px)');
-  const arrangeContact = () => {
-    if (mobile.matches) contactLinks.before(consultationTitle);
-    else consultation.prepend(consultationTitle);
-  };
-  arrangeContact();
-  listen(mobile, 'change', arrangeContact);
   consultationTitle.id = 'nebuConsultationTitle';
   document.querySelector('.nebu-contact .contact-section').setAttribute('aria-labelledby', consultationTitle.id);
   const gallery = document.querySelector('.nebu-gallery');

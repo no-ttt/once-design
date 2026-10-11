@@ -2876,28 +2876,28 @@ body[data-page="home"] .contact-badge { --section-tag-width: 7.369vw; }
   body[data-page="home"] .inquiry-answer-lead { font-family: 'IvyOra Banner', serif; font-weight: 400; }
   body[data-page="home"] .inquiry-answer-lead-regular { font-family: 'IvyOra Story', serif; width: calc(64.82vw - 35px); }
   body[data-page="home"] .mobile-word-space { display: inline; }
-  body:is([data-page="home"], [data-page="about"], [data-page="work"], .trends-page) .contact-field-full { white-space: nowrap; }
-  body:is([data-page="home"], [data-page="about"], [data-page="work"], .trends-page) .contact-field-full:has(textarea) { font-size: min(12px, 3.36vw); }
+  body:is([data-page="home"], [data-page="about"], [data-page="work"], [data-page="trends"]) .contact-field-full { white-space: nowrap; }
+  body:is([data-page="home"], [data-page="about"], [data-page="work"], [data-page="trends"]) .contact-field-full:has(textarea) { font-size: min(12px, 3.36vw); }
   body[data-page="home"] .inquiry-answer br { display: none; }
 
-  body:is([data-page="home"], [data-page="about"], [data-page="work"], .trends-page) .contact-section { position: relative; top: auto; padding: 40px 12.05% 90px; }
-  body:is([data-page="home"], [data-page="about"], [data-page="work"], .trends-page) .contact-title { margin-bottom: 35px; }
-  body:is([data-page="home"], [data-page="about"], [data-page="work"], .trends-page) .contact-layout { position: relative; gap: 0; }
-  body:is([data-page="home"], [data-page="about"], [data-page="work"], .trends-page) .contact-logo { width: 14vw; height: 14.53vw; margin: 0 auto; }
-  body:is([data-page="home"], [data-page="about"], [data-page="work"], .trends-page) .contact-info h3 { margin: 20px 0 0; font: 400 clamp(12px, 4.1vw, 18px)/1.3 'Aboreto', sans-serif; text-align: center; color: #000; }
-  body:is([data-page="home"], [data-page="about"], [data-page="work"], .trends-page) .contact-links { display: block; margin-top: 45px; }
-  body:is([data-page="home"], [data-page="about"], [data-page="work"], .trends-page) .contact-link { min-height: 60px; }
-  body:is([data-page="home"], [data-page="about"], [data-page="work"], .trends-page) .contact-link-address { min-height: 66px; }
-  body:is([data-page="home"], [data-page="about"], [data-page="work"], .trends-page) .contact-link-address .contact-link-label { max-width: 223px; }
-  body:is([data-page="home"], [data-page="about"], [data-page="work"], .trends-page) .contact-link-address::after { top: auto; bottom: 0; }
-  body:is([data-page="home"], [data-page="about"], [data-page="work"], .trends-page) .contact-form { margin-top: 60px; gap: 30px 20px; }
-  body:is([data-page="home"], [data-page="about"], [data-page="work"], .trends-page) .contact-field { font: 400 12px/1.3 'Trajan Pro', serif; letter-spacing: 0; }
-  body:is([data-page="home"], [data-page="about"], [data-page="work"], .trends-page) .contact-field :is(input, textarea) { height: 33px; min-height: 33px; margin-top: 8px; padding: 5px 0; font-size: 16px; }
-  body:is([data-page="home"], [data-page="about"], [data-page="work"], .trends-page) .contact-phone-field { height: 33px; margin-top: 8px; }
-  body:is([data-page="home"], [data-page="about"], [data-page="work"], .trends-page) .contact-field .contact-phone-field > input { margin: 0; }
-  body:is([data-page="home"], [data-page="about"], [data-page="work"], .trends-page) .contact-upload-control { min-height: 105px; }
-  body:is([data-page="home"], [data-page="about"], [data-page="work"], .trends-page) .contact-upload input { height: 100%; margin: 0; }
-  body:is([data-page="home"], [data-page="about"], [data-page="work"], .trends-page) .contact-sticky-space { height: 0; }
+  body:is([data-page="home"], [data-page="about"], [data-page="work"], [data-page="trends"]) .contact-section { position: relative; top: auto; padding: 40px 12.05% 90px; }
+  body:is([data-page="home"], [data-page="about"], [data-page="work"], [data-page="trends"]) .contact-title { margin-bottom: 35px; }
+  body:is([data-page="home"], [data-page="about"], [data-page="work"], [data-page="trends"]) .contact-layout { position: relative; gap: 0; }
+  body:is([data-page="home"], [data-page="about"], [data-page="work"], [data-page="trends"]) .contact-logo { width: 14vw; height: 14.53vw; margin: 0 auto; }
+  body:is([data-page="home"], [data-page="about"], [data-page="work"], [data-page="trends"]) .contact-info h3 { margin: 20px 0 0; font: 400 clamp(12px, 4.1vw, 18px)/1.3 'Aboreto', sans-serif; text-align: center; color: #000; }
+  body:is([data-page="home"], [data-page="about"], [data-page="work"], [data-page="trends"]) .contact-links { display: block; margin-top: 45px; }
+  body:is([data-page="home"], [data-page="about"], [data-page="work"], [data-page="trends"]) .contact-link { min-height: 60px; }
+  body:is([data-page="home"], [data-page="about"], [data-page="work"], [data-page="trends"]) .contact-link-address { min-height: 66px; }
+  body:is([data-page="home"], [data-page="about"], [data-page="work"], [data-page="trends"]) .contact-link-address .contact-link-label { max-width: 223px; }
+  body:is([data-page="home"], [data-page="about"], [data-page="work"], [data-page="trends"]) .contact-link-address::after { top: auto; bottom: 0; }
+  body:is([data-page="home"], [data-page="about"], [data-page="work"], [data-page="trends"]) .contact-form { margin-top: 60px; gap: 30px 20px; }
+  body:is([data-page="home"], [data-page="about"], [data-page="work"], [data-page="trends"]) .contact-field { font: 400 12px/1.3 'Trajan Pro', serif; letter-spacing: 0; }
+  body:is([data-page="home"], [data-page="about"], [data-page="work"], [data-page="trends"]) .contact-field :is(input, textarea) { height: 33px; min-height: 33px; margin-top: 8px; padding: 5px 0; font-size: 16px; }
+  body:is([data-page="home"], [data-page="about"], [data-page="work"], [data-page="trends"]) .contact-phone-field { height: 33px; margin-top: 8px; }
+  body:is([data-page="home"], [data-page="about"], [data-page="work"], [data-page="trends"]) .contact-field .contact-phone-field > input { margin: 0; }
+  body:is([data-page="home"], [data-page="about"], [data-page="work"], [data-page="trends"]) .contact-upload-control { min-height: 105px; }
+  body:is([data-page="home"], [data-page="about"], [data-page="work"], [data-page="trends"]) .contact-upload input { height: 100%; margin: 0; }
+  body:is([data-page="home"], [data-page="about"], [data-page="work"], [data-page="trends"]) .contact-sticky-space { height: 0; }
 }
 
 /* Picture sources keep the original image as the grid/animation target. */
@@ -2994,66 +2994,7 @@ body[data-page] .contact-form-response {
   body[data-page] .contact-section .contact-layout > .contact-links {
     margin-top: 100px;
   }
-  body[data-page="home"] .contact-info {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: end;
-    gap: 0;
-  }
-  body[data-page="home"] .contact-info > a { justify-self: start; }
-  body[data-page="home"] .contact-info .contact-logo {
-    width: 21vw;
-    height: auto;
-    margin: 0;
-  }
-  body[data-page="home"] .contact-info h3 {
-    margin: 0 0 1vw;
-    padding-left: 3.8vw;
-    border-left: 1px solid #362e2b;
-    font: 400 4.6vw/1.2 'IvyOra Display', serif;
-    text-align: left;
-    color: #362e2b;
-  }
-  body[data-page="home"] .contact-layout > .contact-links {
-    width: 100%;
-    min-width: 0;
-    font-size: 14px;
-  }
-  body[data-page="home"] .contact-layout > .contact-links .contact-link {
-    grid-template-columns: 15px minmax(0, 1fr) 15px;
-    column-gap: 15px;
-    align-items: center;
-    padding: 16px 0;
-    min-height: 60px;
-  }
-  body[data-page="home"] .contact-layout > .contact-links .contact-link-label {
-    min-width: 0;
-    white-space: normal;
-    overflow-wrap: anywhere;
-    line-height: 1.4;
-    max-width: none;
-  }
-  body[data-page="home"] .contact-layout > .contact-links .contact-address-street {
-    line-height: inherit;
-  }
-  body[data-page="home"] .contact-layout > .contact-links .contact-link-arrow {
-    align-self: center;
-  }
-  body[data-page="home"] .contact-layout > .contact-links .contact-link-address {
-    align-items: start;
-  }
-  body[data-page="home"] .contact-layout > .contact-links .contact-link-address .contact-link-icon {
-    height: 18px;
-    margin-top: 2px;
-  }
-  body[data-page="home"] .contact-layout > .contact-links .contact-link-address .contact-link-arrow {
-    align-self: start;
-    margin-top: 2px;
-  }
-  body[data-page="home"] .contact-layout > .contact-links .contact-link::after {
-    top: auto;
-    bottom: 0;
-  }
+
 }
 
 @media (max-width: 750px) {

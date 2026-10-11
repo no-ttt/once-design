@@ -252,22 +252,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const motionPreference = window.matchMedia('(prefers-reduced-motion: reduce)');
     const elements = [...contactSection.querySelectorAll('.contact-logo, .contact-links')];
     const contactDesktop = window.matchMedia('(min-width: 751px)');
-    const consultation = contactSection.querySelector('.contact-consultation');
-    const consultationTitle = consultation.querySelector('h3');
-    const contactLinks = contactSection.querySelector('.contact-links');
-    const contactInfo = contactSection.querySelector('.contact-info');
-    // Mobile: logo and heading, then the form, then the business details.
-    const arrangeContact = () => {
-      if (contactDesktop.matches) {
-        consultation.prepend(consultationTitle);
-        contactInfo.append(contactLinks);
-      } else {
-        contactInfo.append(consultationTitle);
-        consultation.after(contactLinks);
-      }
-    };
-    arrangeContact();
-    contactDesktop.addEventListener('change', arrangeContact);
     const animations = new Set();
     const observer = new IntersectionObserver(entries => {
       entries.forEach(({ target, isIntersecting }) => {
