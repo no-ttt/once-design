@@ -124,17 +124,6 @@
   }
   // The About contact block uses the same Wix arc + fade entrance as Home.
   const contactSection = document.querySelector('.about-contact #contact');
-  if (contactSection) {
-    const consultation = contactSection.querySelector('.contact-consultation');
-    const heading = consultation.querySelector('h3');
-    const links = contactSection.querySelector('.contact-links');
-    const arrangeContact = () => {
-      if (mobile.matches) links.before(heading);
-      else consultation.prepend(heading);
-    };
-    arrangeContact();
-    mobile.addEventListener('change', arrangeContact);
-  }
   if (contactSection && Element.prototype.animate) {
     const contactElements = [...contactSection.querySelectorAll('.contact-logo, .contact-links, .contact-title')];
     const contactAnimations = new Set();
@@ -179,6 +168,13 @@
     });
   }
   if (motion.matches || !Element.prototype.animate) return;
+  const benefitDelays = new Map();
+  document.querySelectorAll('.about-benefits > div').forEach((item, index) => {
+    item.querySelectorAll('img, h3').forEach(element => {
+      benefitDelays.set(element, index * 500);
+      element.style.opacity = '0';
+    });
+  });
   const animations = new Set();
   const track = animation => {
     animations.add(animation);
@@ -188,29 +184,33 @@
     for (const { target, isIntersecting } of entries) {
       if (!isIntersecting) continue;
       observer.unobserve(target);
+      if (benefitDelays.has(target)) target.style.opacity = '';
       if (motion.matches) continue;
       if (target === arrow) {
         track(target.animate([{ clipPath: 'inset(0 0 100% 0)' }, { clipPath: 'inset(0)' }], {
-          duration: 1200, delay: 1, easing: 'linear', fill: 'backwards'
+          duration: 2000, delay: 1, easing: 'linear', fill: 'backwards'
         }));
         continue;
       }
       const depth = target.offsetHeight / 2;
+      const delay = (benefitDelays.get(target) || 0) + 1;
       const transform = angle => `perspective(800px) translateZ(-${depth}px) rotateX(${angle}deg) translateZ(${depth}px)`;
       track(target.animate([{ transform: transform(80) }, { transform: transform(0) }], {
-        duration: 1200, delay: 1, easing: 'linear', fill: 'backwards'
+        duration: 1200, delay, easing: 'linear', fill: 'backwards'
       }));
       track(target.animate([{ opacity: 0 }, { opacity: 1 }], {
-        duration: 840, delay: 1, easing: 'cubic-bezier(0.47, 0, 0.745, 0.715)', fill: 'backwards'
+        duration: 840, delay, easing: 'cubic-bezier(0.47, 0, 0.745, 0.715)', fill: 'backwards'
       }));
     }
   });
   targets.forEach(target => observer.observe(target));
+  benefitDelays.forEach((delay, element) => observer.observe(element));
   if (arrow) observer.observe(arrow);
   motion.addEventListener('change', ({ matches }) => {
     if (!matches) return;
     observer.disconnect();
     animations.forEach(animation => animation.cancel());
     animations.clear();
+    benefitDelays.forEach((delay, element) => { element.style.opacity = ''; });
   });
 })();

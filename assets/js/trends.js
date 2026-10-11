@@ -20,7 +20,7 @@
           target.animate([
             { clipPath: 'polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%)' },
             { clipPath: 'polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)' },
-          ], { duration: 1200, delay: 1, fill: 'backwards', easing: 'linear' });
+          ], { duration: 2000, delay: 1, fill: 'backwards', easing: 'linear' });
         } else {
           target.animate([{ opacity: 0 }, { opacity: 1 }], {
             duration: 840, delay: 1, fill: 'backwards', easing: 'cubic-bezier(.47, 0, .745, .715)',
@@ -81,20 +81,4 @@
   });
   select(0);
   projects.classList.add('trends-tabs-ready');
-})();
-
-/* Keep the mobile consultation layout identical to Work. */
-(() => {
-  const section = document.querySelector('.trends-contact');
-  if (!section) return;
-  const consultation = section.querySelector('.contact-consultation');
-  const heading = consultation.querySelector('h3');
-  const links = section.querySelector('.contact-links');
-  const mobile = matchMedia('(max-width: 750px)');
-  const arrange = () => {
-    if (mobile.matches) links.before(heading);
-    else consultation.prepend(heading);
-  };
-  arrange();
-  mobile.addEventListener('change', arrange);
 })();

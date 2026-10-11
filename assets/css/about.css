@@ -172,3 +172,24 @@
   .about-scroll span { align-self: center; height: 15.22231vw; margin-left: 0; margin-bottom: min(-.5px, -.12821vw); font-size: 2.05128vw; }
   .about-scroll svg { aspect-ratio: 1 / 1.1451854; margin-left: min(-.5px, -.12821vw); }
 }
+
+
+/* Consultancy benefits, matching Quote with a slightly deeper warm background. */
+.about-benefits { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); min-height: 36.48438vw; padding: 0 4.29688vw; text-align: center; }
+.about-benefits > div { display: flex; min-width: 0; height: 36.48438vw; flex-direction: column; align-items: center; justify-content: center; }
+.about-benefits img { display: block; width: 8.59375vw; height: auto; aspect-ratio: 1 / 1.007654; object-fit: cover; margin: 0 auto 4.33352vw; mix-blend-mode: multiply; }
+.about-page .about-benefits h3 { width: 100%; margin: 0; color: #5b564c; font-family: 'IvyOra Banner', serif; font-size: 1.09375vw; font-weight: 400; line-height: 1.1; text-transform: uppercase; }
+.about-benefits { background: #e5decd; }
+@media (max-width: 750px) {
+  .about-benefits { padding: 10.25641vw 4.29692vw; grid-template-columns: minmax(0, 1fr); gap: 0; }
+  .about-benefits > div { position: relative; height: 51.28205vw; }
+  .about-benefits img { width: 23.25333vw; height: auto; margin: 0; }
+  .about-benefits > div img { position: absolute; top: calc((51.28205vw - max(91.375px, 23.4256vw)) / 2); left: 14.09346vw; }
+  .about-page .about-benefits h3 { font-size: 3.846154vw; line-height: 1.1; }
+  .about-page .about-benefits > div h3 { position: absolute; left: 47.34571vw; bottom: calc((51.28205vw - max(91.375px, 23.4256vw)) / 2 + 7.47997vw); width: 29.96995vw; text-align: left; }
+  .about-page .about-benefits > div:nth-child(2) h3 { width: 35.10016vw; }
+}
+@media (min-width: 751px) and (max-width: 1400px) and (any-pointer: coarse) {
+  .about-benefits > div { height: auto; min-height: 300px; padding: 32px 12px; }
+  .about-page .about-benefits h3 { font-size: 15px; line-height: 1.4; }
+}

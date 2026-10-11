@@ -3,6 +3,20 @@
   // Keep Quote entrances identical to Homepage: an 80-degree arc around the
   // element's midpoint, linear 1.2s rotation plus the shared 840ms fade.
   const motion = matchMedia('(prefers-reduced-motion: reduce)');
+  const request = document.querySelector('.quote-request');
+  const details = request?.querySelector('.quote-details');
+  const links = details?.querySelector('.contact-links');
+  const inquiryForm = request?.querySelector('.quote-form');
+  if (details && links && inquiryForm) {
+    const mobile = matchMedia('(max-width: 750px)');
+    const arrangeContact = () => {
+      if (mobile.matches) inquiryForm.after(links);
+      else details.append(links);
+    };
+    arrangeContact();
+    mobile.addEventListener('change', arrangeContact);
+  }
+
   const animated = [...document.querySelectorAll('.quote-services .quote-enter, .quote-icon-enter, .quote-benefit-copy, .quote-vision .quote-enter, .quote-request .quote-enter, .quote-hero-title')];
   const reveal = element => {
     if (motion.matches || !Element.prototype.animate) {
@@ -15,12 +29,19 @@
     const arc = angle => `perspective(800px) translateZ(-${depth}px) rotateX(${angle}deg) translateZ(${depth}px)`;
     element.style.opacity = '0';
     const delay = Number(element.dataset.quoteDelay || 0) + 1;
-    element.animate([{ transform: arc(80) }, { transform: arc(0) }], {
+    const rotation = element.animate([{ transform: arc(80) }, { transform: arc(0) }], {
       duration: 1200, delay, easing: 'linear', fill: 'forwards'
     });
-    element.animate([{ opacity: 0 }, { opacity: 1 }], {
+    const fade = element.animate([{ opacity: 0 }, { opacity: 1 }], {
       duration: 840, delay, easing: 'cubic-bezier(0.47, 0, 0.745, 0.715)', fill: 'forwards'
     });
+    // Release the 3D layer after the entrance so text renders without a transform.
+    rotation.onfinish = () => {
+      element.style.opacity = '1';
+      element.style.transform = 'none';
+      rotation.cancel();
+      fade.cancel();
+    };
   };
   const observer = 'IntersectionObserver' in window && !motion.matches
     ? new IntersectionObserver(entries => entries.forEach(entry => {

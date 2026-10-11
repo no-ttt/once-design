@@ -31,6 +31,7 @@
   .work-page [data-work-motion='reveal'][data-work-enter='running'] {
     animation: work-reveal-in 1200ms 1ms linear backwards;
   }
+  .work-page .work-scroll[data-work-enter='running'] { animation-duration: 2000ms; }
 }
 @keyframes work-fade-in {
   from { opacity: 0; }
@@ -62,6 +63,8 @@
 .work-panel + .work-panel { margin-top: 80px; }
 .work-tabs-ready .work-panel { margin-top: 0; }
 .work-panel[hidden] { display: none; }
+/* Fragment navigation can focus the panel; avoid outlining the entire grid. */
+.work-panel:focus { outline: none; }
 .work-project-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8.8vw 2vw; }
 .work-card a { display: block; color: inherit; text-decoration: none; }
 .work-card-media { position: relative; aspect-ratio: 1 / .9696; border-radius: 5px; overflow: hidden; transition: transform .3s ease; }

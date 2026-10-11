@@ -10,7 +10,7 @@
 .quote-enter-done.quote-enter { animation: quote-arc-in 1200ms linear both, quote-fade-in 840ms cubic-bezier(.47, 0, .745, .715) both; }
 .quote-enter-done.quote-reveal { animation: quote-clip-in 1200ms linear both; }
 .quote-hero-title { opacity: 0; }
-.quote-scroll { animation: quote-clip-in 1200ms 1ms linear both; }
+.quote-scroll { animation: quote-clip-in 2000ms 1ms linear both; }
 @keyframes quote-arc-in { from { opacity: 0; transform: perspective(1200px) rotateX(80deg); } to { opacity: 1; transform: perspective(1200px) rotateX(0); } }
 @keyframes quote-fade-in { from { opacity: 0; } to { opacity: 1; } }
 @keyframes quote-clip-in { from { opacity: 1; clip-path: polygon(0 0,100% 0,100% 0,0 0); } to { opacity: 1; clip-path: polygon(0 0,100% 0,100% 100%,0 100%); } }
@@ -130,27 +130,26 @@
   .quote-hero { grid-template-columns: minmax(0, 1fr); grid-template-rows: 109.29789vw auto; min-height: 0; }
   .quote-hero-media video { height: 100lvh; }
   .quote-hero-copy { display: flex; align-items: end; padding: 38.46154vw 6.41026vw 7.69231vw 12.05128vw; }
-  .quote-hero-title { position: static; width: 62.148245%; margin-left: -.5px; margin-bottom: .5px; }
-  .quote-hero h1 { margin-left: .5px; font-size: 6.410256vw; }
+  .quote-hero-title { position: static; width: 80%; margin-left: -.5px; margin-bottom: .5px; }
+  .quote-hero h1 { margin-left: .5px; font-size: 7.692308vw; }
   .quote-hero-copy .page-kicker { margin: 0 0 2.82055vw .23234vw; font: 12px/normal 'Aboreto', sans-serif; letter-spacing: 0; }
   .quote-hero-media > p { top: auto; width: 53.924279vw; left: 12.04728vw; right: auto; bottom: 6.4083vw; font-size: 2.051282vw; line-height: 1.2; }
   .quote-hero-media > p br { display: none; }
   .quote-scroll { right: 6.41026vw; bottom: 7.69231vw; width: 8.014vw; height: 14.913vw; }
-  .quote-services { display: flow-root; min-height: 95.99769vw; padding: 0; background-position: center, center; }
-  .quote-services .section-label { width: 16.881%; height: 6.16179vw; font-size: 2.82051vw; }
-  .quote-services-copy { width: 72.1254%; margin: 54.35907vw 0 0 11.92107vw; padding: 0; background: transparent; }
-  .quote-services-copy .page-kicker { margin: 0 0 1.02163vw; font-size: 3.076923vw; letter-spacing: 0; }
-  .quote-services h2 { margin: 0 0 3.51383vw .5px; font-size: 5.128205vw; line-height: 1; letter-spacing: .02em; }
-  .quote-services-copy > p:last-child { width: 100%; max-width: none; margin: 0 0 42px .5px; color: #362e2b; font-size: 13px; line-height: 1.3; }
-  .quote-benefits { padding: 0 4.29692vw; grid-template-columns: minmax(0, 1fr); gap: 0; }
+  .quote-services { display: flow-root; min-height: 95.99769vw; padding: 0; background-image: url('../images/quote/quote-paper-texture.png'), url('../images/quote/quote-blueprint-mobile.jpg'); background-position: center, left top; background-size: 170px 180px, 100% 100%; }
+  body[data-page] .quote-services .section-label { width: 16.881%; height: 6.16179vw; padding: 0; font-size: 2.564103vw; }
+  .quote-services-copy { width: 77.508%; margin: 40.761218vw 0 0 22.492vw; padding: 0; background: transparent; }
+  .quote-services-copy .page-kicker { margin: 0 0 1.02163vw; font-size: 3.076923vw; letter-spacing: .02em; }
+  .quote-services h2 { margin: 0 0 4.54vw .5px; font-size: 5.128205vw; line-height: 1; letter-spacing: .02em; }
+  .quote-services-copy > p:last-child { position: relative; width: 55.46vw; max-width: none; margin: 0 0 .3125px 10.879vw; color: #362e2b; font-size: 13px; line-height: 1.3; }
+  .quote-services-copy > p:last-child::before { position: absolute; top: 0; left: -10.879vw; width: 1px; height: calc(100% + 4.403vw); background: rgba(0,0,0,.59); content: ''; }
+  .quote-benefits { padding: 10.25641vw 4.29692vw; grid-template-columns: minmax(0, 1fr); gap: 0; }
   .quote-benefits > div { position: relative; height: 51.28205vw; }
   .quote-benefits img { width: 23.25333vw; height: auto; margin: 0; }
-  .quote-benefits > div:nth-child(-n+2) img { position: absolute; top: calc((51.28205vw - max(91.375px, 23.4256vw)) / 2); left: 14.09346vw; }
+  .quote-benefits > div img { position: absolute; top: calc((51.28205vw - max(91.375px, 23.4256vw)) / 2); left: 14.09346vw; }
   .quote-benefits h3 { font-size: 3.846154vw; line-height: 1.1; }
-  .quote-benefits > div:nth-child(-n+2) h3 { position: absolute; left: 47.34571vw; bottom: calc((51.28205vw - max(91.375px, 23.4256vw)) / 2 + 7.47997vw); width: 29.96995vw; text-align: left; }
+  .quote-benefits > div h3 { position: absolute; left: 47.34571vw; bottom: calc((51.28205vw - max(91.375px, 23.4256vw)) / 2 + 7.47997vw); width: 29.96995vw; text-align: left; }
   .quote-benefits > div:nth-child(2) h3 { width: 35.10016vw; }
-  .quote-benefits > div:last-child img { width: 25.782051vw; margin-bottom: 4.33352vw; }
-  .quote-benefits > div:last-child h3 { width: 78.515625%; font-size: 1.09375vw; }
   .quote-vision { grid-template-rows: minmax(39.56731vw, auto); min-height: 45.97757vw; padding: 6.41026vw 0 0; }
   .quote-vision::after { top: 34.44308vw; }
   .quote-vision h2 { width: 50.15224%; margin-top: 4.60537vw; padding: 0; font-size: 7.6923vw; }
@@ -172,18 +171,16 @@
 }
 
 /* Quote uses the reference form's own fonts and spacing. */
-.quote-details .contact-links { position: absolute; bottom: 126.18px; left: 11.17188vw; width: 27.4305vw; max-width: none; margin: 0; }
+.quote-request .contact-links { position: absolute; bottom: 126.18px; left: 11.17188vw; width: 27.4305vw; max-width: none; margin: 0; }
 .quote-request .quote-form { padding: 24px 39px; border: 1px solid transparent; border-radius: 22px; background: rgba(255,255,255,.37); gap: 28px 44px; color: #5b564c; }
-.quote-details .contact-link-label { text-transform: uppercase; }
-.quote-details .contact-link { min-height: 3.046875vw; }
-.quote-details .contact-link::after, .quote-details .contact-link-arrow { display: none; }
+.quote-request .contact-link { min-height: 3.046875vw; }
 .quote-address-line-one { font-family: 'IvyOra Display', serif; font-weight: 500; }
 .quote-address-line-two, .quote-address-line-two .quote-address-number { font-family: 'IvyOra Display', serif; font-weight: 300; line-height: 1.1; }
 @media (max-width: 750px) {
-  .quote-details .contact-links { position: static; width: 64.62vw; margin: 11.028vw 0 0 12.766vw; }
-  .quote-details .contact-link { min-height: 41.125px; }
-  .quote-details .contact-links li:first-child .contact-link { min-height: 40px; }
-  .quote-details .contact-link-address .contact-link-label { max-width: 223px; }
+  .quote-request .contact-links { position: static; width: 64.62vw; margin: 11.028vw 0 0 12.766vw; }
+  .quote-request .contact-link { min-height: 41.125px; }
+  .quote-request .contact-links li:first-child .contact-link { min-height: 40px; }
+  .quote-request .contact-link-address .contact-link-label { max-width: 223px; }
   .quote-request .quote-form { width: 90vw; padding: 30px 33px; gap: 28px 20px; }
   .quote-form legend, .quote-form .quote-field { font-size: 12px; }
 }
@@ -192,9 +189,9 @@
 @media (min-width: 751px) {
   .quote-request { padding-bottom: 126.18px; }
   .quote-details { min-height: 775.82px; }
-  .quote-details .contact-links { bottom: 0; }
-  .quote-details .contact-link-address { min-height: 0; padding-bottom: 0; }
-  .quote-details .contact-link-address::after { top: auto; bottom: 0; }
+  .quote-request .contact-links { bottom: 0; }
+  .quote-request .contact-link-address { min-height: 0; padding-bottom: 0; }
+  .quote-request .contact-link-address::after { top: auto; bottom: 0; }
   .quote-heading-group { margin-top: 0; }
   .quote-request .quote-form { align-self: start; margin-top: 0; }
 }
@@ -213,4 +210,35 @@
   .quote-scroll { right: 6.53846%; width: 5.96154vw; height: auto; }
   .quote-scroll span { align-self: center; height: 15.22231vw; margin-left: 0; margin-bottom: min(-.5px, -.12821vw); font-size: 2.05128vw; }
   .quote-scroll svg { aspect-ratio: 1 / 1.1451854; margin-left: min(-.5px, -.12821vw); }
+}
+
+/* Mobile inquiry: heading, form, then contact details. */
+@media (max-width: 750px) {
+  .quote-request { grid-template-columns: minmax(0, 1fr); min-height: 0; padding: 16px 12.05% 90px; row-gap: 0; }
+  .quote-heading-group { margin-left: 8.716vw; margin-right: 0; }
+  .quote-request .quote-form { justify-self: center; width: 83.9vw; max-width: none; margin: 36px 0 0; gap: 30px 20px; }
+  .quote-request > .contact-links { width: 100%; margin: 100px 0 0; }
+  .quote-request .contact-link,
+  .quote-request .contact-links li:first-child .contact-link { min-height: 60px; column-gap: 15px; }
+  .quote-request .contact-link-address { min-height: 66px; }
+  .quote-form .quote-options,
+  .quote-form .quote-project-options { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 8px; }
+  .quote-form .quote-options label { min-width: 0; gap: 8px; font-size: 11px; }
+  .quote-options label input[type="radio"] + span::before { margin-right: 8px; }
+}
+
+@media (max-width: 750px) {
+  .quote-request .contact-link-address::after { top: auto; bottom: 0; }
+}
+
+/* Keep the closing phrase together; only its w uses IvyOra Light. */
+.quote-vision h2 .quote-vision-w { font-family: 'Quote IvyOra Light', serif; font-weight: 400; font-style: normal; }
+.quote-vision-ending { white-space: nowrap; }
+@media (max-width: 750px) {
+  .quote-vision h2 { width: 62.204%; }
+  .quote-heading-group::before { display: none; }
+  .quote-heading-group { align-items: start; min-height: 0; }
+  .quote-heading-group > h2 { align-self: start; }
+  .quote-heading-group > p { position: relative; align-self: start; margin-top: 0; }
+  .quote-heading-group > p::before { position: absolute; top: 0; bottom: 0; left: -3.95946vw; width: 1px; background: #000; content: ''; }
 }

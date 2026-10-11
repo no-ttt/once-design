@@ -44,10 +44,10 @@
   .moorgen-copy-narrow h2, .moorgen-copy-narrow .moorgen-prose { width: 72.1194vw; }
   .moorgen-back { height: 20.268429vw; padding: 32.625px 0 0 12.179487vw; }
   .moorgen-back a { font-size: 12px; letter-spacing: .1em; }
-  .moorgen-navigation { height: 35.685096vw; padding: 64.6875px 8.46474vw 0 10vw; font-size: 13px; letter-spacing: .1em; }
+  .moorgen-navigation { height: auto; min-height: 35.685096vw; padding: 64.6875px 10vw 32px; gap: 24px; align-items: flex-start; font-size: 13px; letter-spacing: .1em; }
   .moorgen-navigation::before { top: 52px; left: 10vw; width: 80vw; }
-  .moorgen-navigation a { width: auto; }
-  .moorgen-navigation p { display: none; }
+  .moorgen-navigation a { flex: 1; min-width: 0; width: auto; }
+  .moorgen-navigation p { display: block; margin-top: 12px; color: inherit; font: inherit; letter-spacing: inherit; overflow-wrap: anywhere; }
 }
 @media (prefers-reduced-motion: no-preference) {
   .moorgen-scroll-reveal { clip-path: inset(0 var(--reveal-clip, 0%) 0 0); }
@@ -76,10 +76,10 @@
 .trend-loading { padding: 160px 10vw; min-height: 60vh; }
 @media (max-width: 750px) {
   .trend-text-title { min-height: 56.422276vw; padding: 9vw 10vw; }
-  .trend-kicker { font-size: 2.051282vw; }
+  .trend-kicker { font-size: 14px; }
   .trend-text-title h1 { font-size: 6.4vw; margin: 5vw 0; }
   .trend-title-rule { width: 6vw; margin: 1vw 0 4vw; }
-  .trend-meta { font-size: 1.846154vw; }
+  .trend-meta { width: 94vw; flex-shrink: 0; font-size: clamp(10px, 3.1vw, 13px); letter-spacing: .03em; white-space: nowrap; }
   .trend-auto-copy { padding: 25px 0 30px; }
   .trend-auto-copy.trend-subsection { padding: 16px 0 20px; }
   .trend-subsection h2 { font-size: 18px; line-height: 1.3; margin-bottom: 12px; }
@@ -155,3 +155,11 @@
 .moorgen-prose a[href^="article.html?article="] { text-decoration: underline; text-underline-offset: .18em; }
 #trend-content > .trend-auto-copy.trend-photo-credit { margin-top: 20px; }
 .trend-photo-credit .moorgen-prose { color: #5b564c; font-size: clamp(11px, .8vw, 13px); line-height: 1.5; }
+
+/* Align the return link with the article copy rather than the heading inset. */
+@media (max-width: 750px) {
+  .moorgen-back { text-align: left; }
+  #trend-content .moorgen-back { padding-left: 12.047276vw; }
+  #trend-content:has(> .trend-auto-copy) .moorgen-back { padding-left: 10vw; }
+  #trend-content > .moorgen-copy-paragraph + .moorgen-back { padding-left: 10.42468vw; }
+}

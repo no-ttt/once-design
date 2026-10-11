@@ -396,7 +396,7 @@ body:has(.nebu-lightbox[open]) { overflow: hidden; }
     top: var(--heading-arrow-top);
     bottom: auto;
   }
-  .nebu-page[data-project="nebu"] .nebu-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); width: calc(100% + .5px); }
+  .nebu-page[data-project="nebu"] .nebu-gallery { grid-template-columns: minmax(0, 1fr); width: 100%; }
   .nebu-page[data-project="nebu"] .nebu-gallery-column { gap: 8px; }
   .nebu-page[data-project="nebu"] #nebuProjectContent .nebu-design { min-height: 0; }
   .nebu-page[data-project="nebu"] .nebu-project-nav a:first-child,
@@ -571,4 +571,12 @@ body:has(.nebu-lightbox[open]) { overflow: hidden; }
   .nebu-page[data-project="computer-classroom"] { --project-nav-size: 1.5625vw; --project-nav-gap: 0.78125vw; --project-nav-right: 8.004808vw; }
   .nebu-page[data-project="junior-versity"] { --project-nav-size: 1.5625vw; --project-nav-gap: 0.78125vw; --project-nav-right: 8.004808vw; }
   .nebu-page[data-project="stem-computer-lab"] { --project-nav-size: 1.5625vw; --project-nav-gap: 0.0vw; --project-nav-right: 7.96875vw; }
+}
+
+@media (max-width: 750px) {
+
+.nebu-page[data-project="st-regis"] .nebu-hero h1 { white-space: pre-line; }
+
+.nebu-page[data-project="fresh-office"] .nebu-hero h1 { white-space: pre-line; }
+
 }

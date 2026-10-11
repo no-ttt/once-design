@@ -1911,3 +1911,61 @@
     border-bottom: 1px solid #cdc9c0;
   }
 }
+
+/* Align mobile gallery edges with the previous/next project controls. */
+@media (max-width: 750px) {
+  body.nebu-page[data-project="klasse14"] #main #nebuProjectContent .nebu-gallery { width: 85vw; margin-left: 7.5vw; margin-right: 7.5vw; }
+  body.nebu-page[data-project="tatcha"] #main #nebuProjectContent .nebu-gallery a[data-index] { left: 7.5vw; width: 85vw; }
+  body.nebu-page #main #nebuProjectContent .nebu-facts > div:last-child { height: auto; min-height: 28px; padding-top: 7px; padding-bottom: 7px; }
+  body.nebu-page[data-project="klasse14"] #main #nebuProjectContent .nebu-facts > div:last-child { display: grid; grid-template-columns: 35% 65%; }
+  body.nebu-page[data-project="klasse14"] #main #nebuProjectContent .nebu-facts > div:last-child :is(dt, dd, dd p) { position: static; display: block; width: auto; margin: 0; }
+}
+
+@media (max-width: 750px) {
+  body.nebu-page:is([data-project="klasse14"], [data-project="tatcha"]) #main #nebuProjectContent .nebu-facts > div:last-child { padding-top: 6px; padding-bottom: 6px; }
+}
+
+/* Use one breadcrumb position across every mobile project. */
+@media (max-width: 750px) {
+  body.nebu-page[data-project] #main #nebuProjectContent .nebu-breadcrumb {
+    position: relative; display: flex; align-items: flex-start; justify-content: space-between;
+    width: 100%; height: auto; min-height: 60px; margin: 0; padding: 18px 7.5% 13px; gap: 12px;
+  }
+  body.nebu-page[data-project] #main #nebuProjectContent .nebu-breadcrumb > p:nth-of-type(1) {
+    position: static; flex: 1; min-width: 0; width: auto; max-width: none; margin: 0; padding: 0;
+    font: 400 10px/1.3 'Nebu Gotham Light', sans-serif; letter-spacing: 0; text-align: left; white-space: normal;
+  }
+  body.nebu-page[data-project] #main #nebuProjectContent .nebu-arrows {
+    position: static; display: flex; flex: 0 0 auto; align-items: center; gap: 8px; margin: 0; padding: 0;
+  }
+  body.nebu-page[data-project] #main #nebuProjectContent .nebu-arrows a { width: 20px; height: 20px; }
+}
+
+/* Mobile title wrapping, inquiry arrow and shared quotation breathing room. */
+@media (max-width: 750px) {
+  body.nebu-page[data-project="murad-popup"] #main #nebuProjectContent .nebu-hero .nebu-mobile-location { display: block; }
+  body.nebu-page[data-project="murad-popup"] #main #nebuProjectContent .nebu-heading h2 a { left: 61vw; right: auto; }
+  body.nebu-page[data-project] #main #nebuProjectContent .nebu-quotation { height: auto; min-height: 0; padding-top: 54px; padding-bottom: 54px; }
+}
+
+@media (max-width: 750px) {
+  body.nebu-page[data-project="klasse14-central"] #main #nebuProjectContent .nebu-heading h2 a { left: 37vw; right: auto; }
+}
+
+@media (max-width: 750px) {
+  body.nebu-page[data-project] #main #nebuProjectContent .nebu-facts :is(dt, dd, dd p) { letter-spacing: 1pt; }
+  body.nebu-page[data-project] #main #nebuProjectContent .nebu-inquiry { letter-spacing: calc(.03em + 1pt); }
+}
+
+@media (max-width: 750px) {
+  body.nebu-page[data-project="tatcha-ifc"] #main #nebuProjectContent .nebu-heading h2 a { left: 34vw; right: auto; }
+}
+
+@media (max-width: 750px) {
+  body.nebu-page[data-project="sheng-chim"] #main #nebuProjectContent .nebu-hero h1 { white-space: pre-line; }
+  body.nebu-page[data-project="sheng-chim"] #main #nebuProjectContent .nebu-heading h2 { padding-right: 0; }
+}
+
+@media (max-width: 750px) {
+  body.nebu-page[data-project="stem-classroom"] #main #nebuProjectContent .nebu-heading h2 a { left: auto; right: 0; }
+}

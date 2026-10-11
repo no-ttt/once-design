@@ -37,7 +37,7 @@
       <li><a href="about.html">ABOUT</a></li>
       <li><a href="work.html">WORK</a></li>
       <li><a href="trends.html">TRENDS</a></li>
-      <li><a href="index.html#faqs">FAQS</a></li>
+      <li><a href="index.html#faqs">FAQs</a></li>
       <li><a href="index.html#contact">CONTACT</a></li>
       <li><a href="quote.html">QUOTE</a></li>
     </ul>
@@ -51,7 +51,7 @@
         <a href="about.html">ABOUT</a>
         <a href="work.html">WORK</a>
         <a href="trends.html">TRENDS</a>
-        <a href="index.html#faqs">FAQS</a>
+        <a href="index.html#faqs">FAQs</a>
         <a href="index.html#contact">CONTACT</a>
         <a href="quote.html">QUOTE</a>
       </nav>
@@ -129,6 +129,29 @@
     </section>
 `;
   document.querySelector('[data-site-contact]')?.insertAdjacentHTML('afterbegin', contact);
+  // Mobile contact flow: introduction, form, then business details.
+  if (document.body.dataset.page !== 'home') {
+    const section = document.querySelector('.contact-section');
+    const consultation = section?.querySelector('.contact-consultation');
+    const info = section?.querySelector('.contact-info');
+    const links = section?.querySelector('.contact-links');
+    const heading = consultation?.querySelector('h3');
+    if (consultation && info && links && heading) {
+      const mobileContact = matchMedia('(max-width: 750px)');
+      const arrangeContact = () => {
+        if (mobileContact.matches) {
+          info.append(heading);
+          consultation.after(links);
+        } else {
+          consultation.prepend(heading);
+          info.append(links);
+        }
+      };
+      arrangeContact();
+      mobileContact.addEventListener('change', arrangeContact);
+    }
+  }
+
   const toggle = document.getElementById('menuToggleBtn');
   const drawer = document.getElementById('navDrawer');
   const backdrop = document.getElementById('navDrawerBackdrop');

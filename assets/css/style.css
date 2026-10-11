@@ -554,6 +554,7 @@ body {
   transition: color .2s ease;
 }
 .nav-menu-list a:hover { color: #afa385; }
+.nav-menu-list a[href="index.html#faqs"] { text-transform: none; }
 .lang-item:first-child { width: 2.388671875em; }
 .lang-item:last-child { margin-left: -.5px; font-family: 'IvyOra Banner', sans-serif; font-weight: 400; }
 @media (max-width: 750px) {
@@ -1017,8 +1018,8 @@ body[data-page="home"] .brand-logo {
 
 /* Wix About 未揭示文字底色。 */
 .quote-text-underlay {
-  /* Original Wix unrevealed text color. */
-  color: #e6dfcf;
+  /* Keep unrevealed text visible before the black scroll reveal. */
+  color: #c9bfac;
   display: block;
   user-select: none;
 }
@@ -2068,7 +2069,7 @@ body[data-page="home"] .brand-logo {
 .inquiry-item {
   --inquiry-text-inset: 29px;
   /* A solid divider keeps its appearance over every part of the plan image. */
-  border-bottom: 1px solid #766f68;
+  border-bottom: 1px solid #6e6e6e;
   color: #111;
 }
 
@@ -2124,6 +2125,8 @@ body[data-page="home"] .brand-logo {
 .inquiry-item summary[aria-expanded="false"] .inquiry-icon::after { transform: scaleY(1); }
 
 .inquiry-answer {
+  /* Match mobile: stack a warm divider above the item's grey divider. */
+  border-bottom: 1px solid #afa385;
   padding: 20px 35px 70px var(--inquiry-text-inset);
   font-family: 'IvyOra Display', serif;
   font-size: 15px;
@@ -2487,7 +2490,7 @@ body .contact-submit:is(:hover, :focus-visible) {
 }
 @media (max-width: 750px) {
   body .contact-logo { width: 14vw; height: 14.53vw; margin: 0 auto; }
-  body[data-page] .contact-section > :is(.contact-title, .contact-badge) { display: none; }
+  body[data-page]:not([data-page="home"]) .contact-section > :is(.contact-title, .contact-badge) { display: none; }
   body .contact-links { max-width: 100%; margin-top: 85px; }
   body .contact-link { grid-template-columns: 15px minmax(0, 1fr) 15px; gap: 15px; min-height: 60px; }
   body .contact-link::after { top: 25px; left: 30px; right: 0; }
@@ -2547,12 +2550,12 @@ body .contact-submit:is(:hover, :focus-visible) {
   .contact-form { gap: 28px 20px; }
   .contact-field { font-size: 11px; }
   .contact-upload-control { min-height: 100px; gap: 12px; }
-  .site-footer { min-height: 147px; padding: 63px 15px 36px 30px; }
+  .site-footer { min-height: 147px; padding: 63px 20px 36px; }
   .footer-top-row { display: block; min-height: 25.36px; }
-  .back-to-top { position: absolute; top: 10px; right: 15px; font-size: 12px; gap: 4px; }
-  .footer-nav { justify-content: flex-start; flex-wrap: wrap; gap: 12px 7px; padding: 0 0 15px; }
-  .footer-nav a { font: 400 12px/.78 'Footer Madefor', sans-serif; letter-spacing: 0; }
-  .footer-copyright { margin-top: 9.6px; text-align: center; font-size: 8px; }
+  .back-to-top { position: absolute; top: 10px; right: 20px; font-size: 12px; gap: 4px; }
+  .footer-nav { justify-content: center; flex-wrap: wrap; gap: 12px 14px; padding: 0 0 15px; }
+  .footer-nav a { flex: 0 0 auto; white-space: nowrap; font: 400 12px/1.4 'Footer Madefor', sans-serif; letter-spacing: 0; }
+  .footer-copyright { margin-top: 9.6px; text-align: center; font-size: 9px; line-height: 1.5; text-wrap: balance; }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -2981,6 +2984,16 @@ body[data-page] .contact-form-response {
 }
 
 @media (max-width: 750px) {
+  body[data-page] .contact-section .contact-form {
+    width: calc(100% + 8vw);
+    margin-inline: -4vw;
+  }
+  body[data-page] .contact-section .contact-layout {
+    row-gap: 0;
+  }
+  body[data-page] .contact-section .contact-layout > .contact-links {
+    margin-top: 100px;
+  }
   body[data-page="home"] .contact-info {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -3004,7 +3017,6 @@ body[data-page] .contact-form-response {
   body[data-page="home"] .contact-layout > .contact-links {
     width: 100%;
     min-width: 0;
-    margin-top: 120px;
     font-size: 14px;
   }
   body[data-page="home"] .contact-layout > .contact-links .contact-link {

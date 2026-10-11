@@ -14,6 +14,7 @@
   const lines = text => escape(text).replace(/\n+/g, '<br>');
   // Keep a separator with its preceding word without changing desktop wrapping.
   const titleMarkup = text => escape(text).replace(/(\S+[^\S\n]+\|)/g, '<span class="nebu-title-separator">$1</span>');
+  const mobileLayout = matchMedia('(max-width: 750px)');
   let dispose;
   let current;
   function render(id, focus = false) {
@@ -34,20 +35,31 @@
     const hero = container.querySelector('.nebu-hero img');
     hero.src = project.hero; hero.alt = project.title;
     const title = container.querySelector('h1');
-    title.innerHTML = titleMarkup(project.heroTitle || project.title);
+    title.innerHTML = titleMarkup((mobileLayout.matches && project.mobileHeroTitle) || project.heroTitle || project.title);
+    if (project.id === 'murad-popup') {
+      title.innerHTML = title.innerHTML.replace('HARBOUR CITY', '<span class="nebu-mobile-location">HARBOUR CITY</span>');
+    }
     const heading = container.querySelector('.nebu-heading h2');
     const inquiry = heading.querySelector('a');
-    heading.innerHTML = titleMarkup(project.heading).replace(/\n+/g, '<br>') + ' ';
+    heading.innerHTML = titleMarkup((mobileLayout.matches && project.mobileHeading) || project.heading).replace(/\n+/g, '<br>') + ' ';
     if (project.id === 'sheng-chim') {
       heading.innerHTML = heading.innerHTML.replace('HONG KONG', '<span class="nebu-title-separator">HONG KONG</span>');
       title.innerHTML = title.innerHTML.replace('HONG KONG', '<span class="nebu-title-separator">HONG KONG</span>');
     }
     heading.append(inquiry);
-    const crumbs = project.breadcrumb.split('>').map(text => text.trim());
-    container.querySelector('.nebu-breadcrumb p').innerHTML = crumbs.map((text,index) => index === crumbs.length-1 ? '<strong>' + escape(text) + '</strong>' : '<a href="' + (index === 0 ? 'index.html' : 'work.html') + '">' + escape(text) + '</a>').join(' &gt; ');
+    const crumbs = project.breadcrumb.split('>').map(text => text.trim()).filter(text => !mobileLayout.matches || !/^(COMMERCIAL|COMMERICAL)$/i.test(text));
+    const categoryPanels = { RETAIL: 'retail', 'F&B': 'food', HOSPITALITY: 'hospitality', CORPORATE: 'corporate', EDUCATION: 'education' };
+    container.querySelector('.nebu-breadcrumb p').innerHTML = crumbs.map((text, index) => {
+      const isCurrent = index === crumbs.length - 1;
+      if (!mobileLayout.matches) return isCurrent ? '<strong>' + escape(text) + '</strong>' : '<a href="' + (index === 0 ? 'index.html' : 'work.html') + '">' + escape(text) + '</a>';
+      const panel = categoryPanels[text.toUpperCase()];
+      const href = isCurrent ? 'project.html?project=' + encodeURIComponent(project.id)
+        : text.toUpperCase() === 'HOME' ? 'index.html' : 'work.html' + (panel ? '#panel-' + panel : '');
+      return '<a href="' + escape(href) + '"' + (isCurrent ? ' aria-current="page"' : '') + '>' + (isCurrent ? '<strong>' + escape(text) + '</strong>' : escape(text)) + '</a>';
+    }).join(' &gt; ');
     const intro = container.querySelector('.nebu-intro');
     intro.textContent = project.intro; intro.hidden = !project.intro;
-    const facts = project.facts.map(([label,value]) => '<div><dt>' + escape(label) + '</dt><dd>' + escape(value) + '</dd></div>').join('');
+    const facts = project.facts.map(([label,value]) => '<div><dt>' + escape(label) + '</dt><dd>' + escape(mobileLayout.matches && label === 'AREA' && project.mobileArea ? project.mobileArea : value) + '</dd></div>').join('');
     const awards = project.awards.length ? '<div class="nebu-awards"><dt>AWARDS</dt><dd>' + project.awards.map(text => '<p>' + escape(text) + '</p>').join('') + '</dd></div>' : '';
     container.querySelector('.nebu-facts').innerHTML = facts + awards;
     container.querySelector('blockquote').innerHTML = lines(project.quote);
@@ -157,6 +169,7 @@
     history.pushState({nebuProject:link.dataset.project}, '', link.href);
     render(link.dataset.project, true);
   });
+  mobileLayout.addEventListener('change', () => { const id = current; const y = scrollY; current = null; render(id); scrollTo(0, y); });
   addEventListener('popstate', event => render(new URLSearchParams(location.search).get('project') || event.state?.nebuProject || 'nebu', true));
   function initialize() {
     const listeners = new AbortController();
@@ -218,7 +231,7 @@
       const placeRight = (current === 'tatcha-ifc' && index === galleryLinks.length - 1)
         || (current === 'winfun' && index >= 6);
       const desktopColumn = placeRight ? 1 : index % 2;
-      const column = mobile.matches && current !== 'nebu' ? 0 : desktopColumn;
+      const column = mobile.matches ? 0 : desktopColumn;
       const image = link.querySelector('img');
       const ratio = current === 'stem-classroom' || (current === 'glamour' && index < 2) ? 3 / 4 : Number(image.getAttribute('height')) / Number(image.getAttribute('width'));
       const height = Math.round(widths[column] * ratio);

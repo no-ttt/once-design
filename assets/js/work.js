@@ -123,22 +123,13 @@
       tabs[next].focus();
     });
   });
-  select(0);
-  projects.classList.add('work-tabs-ready');
-})();
-
-/* Share About's mobile consultation order, restoring desktop on resize. */
-(() => {
-  const section = document.getElementById('contact');
-  if (!section) return;
-  const mobile = matchMedia('(max-width: 750px)');
-  const consultation = section.querySelector('.contact-consultation');
-  const heading = consultation.querySelector('h3');
-  const logo = section.querySelector('.contact-logo');
-  const update = () => {
-    if (mobile.matches) logo.after(heading);
-    else consultation.prepend(heading);
+  const selectFromHash = () => {
+    const index = panels.findIndex((panel, position) =>
+      `#${panel.id}` === location.hash || `#${tabs[position].id}` === location.hash);
+    select(index < 0 ? 0 : index);
+    if (index >= 0) projects.scrollIntoView({ behavior: 'instant', block: 'start' });
   };
-  update();
-  mobile.addEventListener('change', update);
+  projects.classList.add('work-tabs-ready');
+  selectFromHash();
+  window.addEventListener('hashchange', selectFromHash);
 })();

@@ -2,6 +2,14 @@
 .skip-link { position: fixed; top: 12px; left: 12px; z-index: 2000; padding: 12px 20px; background: #f2eee2; color: #28271f; transform: translateY(-150%); }
 .skip-link:focus { transform: translateY(0); }
 .section-label { display: inline-block; padding: 10px 22px; background: #413f37; color: #f2eee2; font: 12px/1.5 'Gotham Book', sans-serif; letter-spacing: .12em; }
+
+/* Section tags share About's 16px side spacing at every viewport size. */
+body[data-page] :is(.about-section .about-badge, .portfolio-badge, .services-badge, .honors-badge, .inquiries-badge, .partners-badge, .contact-badge, .about-editorial .section-label, .quote-services .section-label) {
+  width: max-content;
+  min-width: 0;
+  padding-inline: 16px;
+  white-space: nowrap;
+}
 .page-kicker { font: 12px/1.6 'Gotham Book', sans-serif; letter-spacing: .18em; }
 .text-link { display: inline-flex; align-items: center; justify-content: space-between; gap: 40px; border-top: 1px solid currentColor; padding: 18px 0; color: inherit; text-decoration: none; font: 12px/1.6 'Gotham Book', sans-serif; letter-spacing: .07em; }
 .text-link span { font-size: 24px; transition: transform .25s; }
