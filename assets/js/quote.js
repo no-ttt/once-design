@@ -52,6 +52,31 @@
   animated.forEach(element => observer ? observer.observe(element) : reveal(element));
   motion.addEventListener('change', () => { if (motion.matches) animated.forEach(element => reveal(element)); });
   const quoteSection = document.getElementById('quote-services');
+  if (quoteSection) {
+    const desktop = matchMedia('(min-width: 751px)');
+    let backgroundFrame = 0;
+    const updateBackground = () => {
+      backgroundFrame = 0;
+      const enabled = desktop.matches && !motion.matches;
+      quoteSection.classList.toggle('quote-parallax', enabled);
+      if (!enabled) {
+        quoteSection.style.removeProperty('--quote-background-offset');
+        return;
+      }
+      const bounds = quoteSection.getBoundingClientRect();
+      // Keep the image anchored to the viewport with Homepage's 20% scroll translation.
+      const offset = Math.max(-innerHeight, Math.min(innerHeight, bounds.top)) * .2;
+      quoteSection.style.setProperty('--quote-background-offset', `${offset.toFixed(2)}px`);
+    };
+    const scheduleBackground = () => {
+      if (!backgroundFrame) backgroundFrame = requestAnimationFrame(updateBackground);
+    };
+    addEventListener('scroll', scheduleBackground, { passive: true });
+    addEventListener('resize', scheduleBackground);
+    desktop.addEventListener('change', scheduleBackground);
+    motion.addEventListener('change', scheduleBackground);
+    updateBackground();
+  }
   const quoteTag = quoteSection?.querySelector('.quote-tag');
   if (quoteSection && quoteTag) {
     const updateQuoteTag = () => {

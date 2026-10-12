@@ -483,7 +483,7 @@ window.projects = [
     "layout": {
       "overview": 37.49782986111111,
       "quote": 20.233289930555554,
-      "design": 75.3125,
+      "design": 65.625,
       "photoX": 40.3125,
       "photoWidth": 26.59722222222222,
       "factsTop": 15.131527777777778
@@ -1731,8 +1731,8 @@ window.projects = [
       "overview": 43.59157986111111,
       "quote": 20.233289930555554,
       "design": 67.76909722222221,
-      "photoX": 40.3125,
-      "photoWidth": 26.59722222222222,
+      "photoX": 5,
+      "photoWidth": 44.72222222222222,
       "factsTop": 20.299713541666666
     },
     "mobile": {
@@ -1824,7 +1824,7 @@ window.projects = [
     "layout": {
       "overview": 46.32595486111111,
       "quote": 20.233289930555554,
-      "design": 67.76909722222221,
+      "design": 56.625,
       "photoX": 40.3125,
       "photoWidth": 26.59722222222222,
       "factsTop": 23.346588541666666

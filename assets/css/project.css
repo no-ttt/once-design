@@ -138,7 +138,7 @@ body:has(.nebu-lightbox[open]) { overflow: hidden; }
   .nebu-hero-scene::after { transform: translateY(var(--nebu-mobile-image-shift, 40.92px)); }
   .nebu-hero h1 { font-size: 25px; top: 46.412%; }
   .nebu-byline { font-size: 10px; left: 42.2636%; top: 91.607%; }
-  .nebu-byline::before { display: none; }
+  .nebu-byline::before { display: block; right: calc(100% + 1.5vw); }
   .nebu-breadcrumb { height: 15.3686vw; padding: 0 4.35897% 3.355vw 7.71635%; gap: 8px; }
   .nebu-breadcrumb p { font-size: 10px; }
   .nebu-arrows { gap: 2.05128vw; padding-bottom: 0; }
@@ -217,7 +217,6 @@ body:has(.nebu-lightbox[open]) { overflow: hidden; }
   .nebu-page[data-project="junior-versity"] .nebu-heading { margin-left: -.26758vw; }
   .nebu-page[data-project="junior-versity"] .nebu-heading h2 { width: 23.38433vw; }
   .nebu-page[data-project="junior-versity"] .nebu-heading h2 a { left: 28.16758vw; top: 6.45vw; width: 2.1vw; height: 2.1vw; }
-  .nebu-page[data-project="junior-versity"] #nebuProjectContent .nebu-design { grid-template-columns: 27vw 53.75vw; column-gap: 5.3125vw; }
 }
 @media (max-width: 750px) {
   .nebu-page[data-project="junior-versity"] .nebu-hero h1 { left: 7.5%; width: 85%; }
@@ -250,7 +249,7 @@ body:has(.nebu-lightbox[open]) { overflow: hidden; }
 .nebu-page[data-project="st-regis"] .nebu-heading h2 a { left: 20.8vw; top: 3.4vw; }
 @media (min-width: 751px) {
   .nebu-page[data-project="st-regis"] .nebu-quotation blockquote { max-width: min(46.666667vw, 746.6667px); }
-  .nebu-page[data-project="fresh-office"] .nebu-quotation blockquote { max-width: min(29.583333vw, 473.3333px); }
+  .nebu-page[data-project="fresh-office"] .nebu-quotation blockquote { max-width: 90%; font-size: min(1.5625vw, 25px); white-space: nowrap; }
 }
 @media (max-width: 750px) {
   .nebu-page[data-project="st-regis"] .nebu-heading h2 a { left: 225px; top: 36px; }
