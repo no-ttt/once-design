@@ -1,0 +1,68 @@
+/* Loaded exclusively by zh/index.html; shared and English styles stay untouched. */
+@font-face { font-family: 'Once Chinese'; src: url('../fonts/zh-mgen-light.woff2') format('woff2'); font-weight: 300; font-display: swap; }
+@font-face { font-family: 'Once Chinese'; src: url('../fonts/zh-mgen-regular.woff2') format('woff2'); font-weight: 400; font-display: swap; }
+@font-face { font-family: 'Once Chinese'; src: url('../fonts/zh-mgen-bold.woff2') format('woff2'); font-weight: 700; font-display: swap; }
+body[data-page="home"] { --zh-font: 'Once Chinese', 'PingFang TC', 'Microsoft JhengHei', sans-serif; }
+body[data-page="home"] :is(.about-quote, .portfolio-heading, .services-eyebrow, .services-intro h2, .services-description, .service-copy h3, .services-description strong, .honors-title, .inquiries-title, .partners-title, .contact-title, .inquiry-item summary, .inquiry-answer, .inquiry-answer-lead, .inquiry-answer-emphasis, .contact-field, .contact-submit, .contact-consultation h3, .contact-info h3, .nav-menu-list, .footer-nav, .back-to-top, .see-more-text, .service-see-more) { font-family: var(--zh-font); text-transform: none; }
+body[data-page="home"] :is(.about-badge, .portfolio-badge, .services-badge, .honors-badge, .inquiries-badge, .partners-badge, .contact-badge) { font-family: var(--zh-font); letter-spacing: .2em; min-width: 6em; }
+body[data-page="home"] .banner-container { height: 52.08333vw; --banner-font-size: 4.16667vw; }
+body[data-page="home"] .hero-content { padding: 0; justify-content: flex-start; }
+body[data-page="home"] .hero-text-row { margin: 18.88889vw 0 0 6.73611vw; gap: 2.63889vw; }
+body[data-page="home"] .architectural-line-v { height: 15.27778vw; margin: 0; }
+body[data-page="home"] .hero-chinese-tagline { font: 300 2.734375vw/1.3 var(--zh-font); letter-spacing: .2em; color: white; margin: 3.6vw 0 .6vw; }
+.hero-chinese-tagline strong { font-weight: 700; }
+body[data-page="home"] .author-credit-line { display: flex; justify-content: flex-end; font-size: .85vw; letter-spacing: 0; margin: 0; }
+body[data-page="home"] .author-credit-line .dash-line { display: none; }
+body[data-page="home"] .hero-bottom-statement { left: 9.1%; bottom: 2.2vw; }
+body[data-page="home"] .about-quote { max-width: 82%; font-size: 1.953125vw; line-height: 1.3; letter-spacing: .1em; }
+body[data-page="home"] .quote-reveal-line { white-space: normal; }
+body[data-page="home"] .quote-reveal-line:first-child { margin-bottom: 4.32739vw; }
+body[data-page="home"] .quote-reveal-line:not(:first-child) { margin-left: 2.7vw; font-size: .88em; font-weight: 300; line-height: 1.4; letter-spacing: .2em; }
+body[data-page="home"] .portfolio-heading { letter-spacing: .1em; white-space: nowrap; }
+body[data-page="home"] .services-intro { padding: 5.94vw 11.41vw 4vw 56.54vw; height: auto; min-height: 24.84vw; }
+body[data-page="home"] .services-intro-copy { display: grid; grid-template-columns: 48.1% 41.8%; column-gap: 10.1%; max-width: none; width: 100%; margin: 0; }
+body[data-page="home"] .services-eyebrow { grid-column: 1; font-size: .9375vw; line-height: 1.6; letter-spacing: .1em; }
+body[data-page="home"] .services-intro h2 { grid-column: 1; font-size: 2.34375vw; font-weight: 700; line-height: 1.3; letter-spacing: .1em; margin: .7vw 0 0; }
+body[data-page="home"] .services-intro-copy > .services-description { grid-column: 2; grid-row: 1 / 3; white-space: normal; align-self: start; font-size: .9375vw; line-height: 1.6; letter-spacing: .2em; }
+body[data-page="home"] .services-description { font-weight: 300; line-height: 1.8; letter-spacing: .1em; overflow-wrap: break-word; }
+body[data-page="home"] .service-copy h3 { line-height: 1.5; letter-spacing: .1em; }
+body[data-page="home"] .inquiry-item summary { line-height: 1.7; letter-spacing: .1em; }
+body[data-page="home"] .inquiry-answer { font-weight: 300; line-height: 1.8; letter-spacing: .08em; }
+body[data-page="home"] :is(.inquiry-answer-lead, .inquiry-answer-emphasis) { line-height: 1.7; }
+body[data-page="home"] :is(.honors-title, .inquiries-title, .partners-title, .contact-title) { letter-spacing: .1em; }
+body[data-page="home"] :is(.contact-consultation h3, .contact-info h3) { line-height: 1.5; letter-spacing: .1em; }
+@media (min-width: 751px) and (max-width: 1100px) {
+  body[data-page="home"] .services-intro { padding: 6vw 8%; }
+  body[data-page="home"] .services-intro-copy { grid-template-columns: 1fr 43%; column-gap: 6%; }
+  body[data-page="home"] .services-eyebrow { font-size: 14px; }
+  body[data-page="home"] .services-intro h2 { font-size: 32px; }
+  body[data-page="home"] .services-intro-copy > .services-description { font-size: 14px; }
+}
+@media (max-width: 750px) {
+  body[data-page="home"] .brand-logo { width: 25vw; margin-top: 5.5vw; }
+  body[data-page="home"] .banner-container { height: 156.92308vw; --banner-font-size: 7.17949vw; }
+  body[data-page="home"] .hero-content { display: block; padding: 0; }
+  body[data-page="home"] .hero-text-row { width: 60%; margin: 23.84615vw 0 0 17.17949vw; }
+  body[data-page="home"] .text-slab { width: 100%; align-self: start; }
+  body[data-page="home"] .architectural-line-v { left: 14.35897vw; top: 23.84615vw; height: 44.35897vw; }
+  body[data-page="home"] .hero-chinese-tagline { width: 50vw; font-size: 6.15385vw; line-height: 1.3; letter-spacing: .05em; margin: 9.2vw 0 2vw; }
+  body[data-page="home"] .author-credit-line { align-self: flex-start; font-size: 8px; margin: 0 0 0 18vw; white-space: nowrap; }
+  body[data-page="home"] .hero-bottom-statement { left: 13%; bottom: 7.5vw; }
+  body[data-page="home"] .about-section { padding: 27vw 8% 12vw; }
+  body[data-page="home"] .about-content-wrapper { flex-direction: column; gap: 8vw; }
+  body[data-page="home"] .about-quote { font-size: 4.61538vw; max-width: 100%; line-height: 1.7; letter-spacing: .05em; }
+  body[data-page="home"] .quote-reveal-line:first-child { margin-bottom: 5vw; }
+  body[data-page="home"] .quote-reveal-line:not(:first-child) { font-size: 1em; margin-left: 5vw; line-height: 1.4; letter-spacing: .1em; }
+  body[data-page="home"] .about-section .about-action { align-self: flex-end; }
+  body[data-page="home"] .services-intro { padding: 18vw 12% 10vw; min-height: 0; }
+  body[data-page="home"] .services-intro-copy { display: block; width: 100%; }
+  body[data-page="home"] .services-eyebrow { font-size: 12px; line-height: 1.6; }
+  body[data-page="home"] .services-intro h2 { font-size: 8.97436vw; line-height: 1.2; margin: 2vw 0 6vw; }
+  body[data-page="home"] .services-intro-copy > .services-description { font-size: 12px; line-height: 1.6; letter-spacing: .1em; }
+  body[data-page="home"] .services-description { font-size: 13px; }
+  body[data-page="home"] .service-copy h3 { font-size: 5vw; margin-bottom: 3vw; }
+  body[data-page="home"] :is(.portfolio-heading, .honors-title, .inquiries-title, .partners-title, .contact-title) { font-size: 6vw; width: auto; }
+  body[data-page="home"] .inquiry-answer :is(p, .inquiry-answer-lead) { width: auto !important; }
+  body[data-page="home"] .inquiry-answer-emphasis { font-size: 16px; }
+  body[data-page="home"] .footer-nav { flex-wrap: wrap; }
+}

@@ -44,10 +44,10 @@
   .moorgen-copy-narrow h2, .moorgen-copy-narrow .moorgen-prose { width: 72.1194vw; }
   .moorgen-back { height: 20.268429vw; padding: 32.625px 0 0 12.179487vw; }
   .moorgen-back a { font-size: 12px; letter-spacing: .1em; }
-  .moorgen-navigation { height: auto; min-height: 35.685096vw; padding: 64.6875px 10vw 32px; gap: 24px; align-items: flex-start; font-size: 13px; letter-spacing: .1em; }
+  .moorgen-navigation { height: auto; min-height: 35.685096vw; padding: 64.6875px 10vw 32px; gap: 24px; align-items: flex-start; font-size: 12px; letter-spacing: .1em; }
   .moorgen-navigation::before { top: 52px; left: 10vw; width: 80vw; }
   .moorgen-navigation a { flex: 1; min-width: 0; width: auto; }
-  .moorgen-navigation p { display: block; margin-top: 12px; color: inherit; font: inherit; letter-spacing: inherit; overflow-wrap: anywhere; }
+  .moorgen-navigation p { display: block; margin-top: 12px; color: inherit; font: inherit; font-size: 8px; letter-spacing: inherit; overflow-wrap: anywhere; }
 }
 @media (prefers-reduced-motion: no-preference) {
   .moorgen-scroll-reveal { clip-path: inset(0 var(--reveal-clip, 0%) 0 0); }
