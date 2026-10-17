@@ -1,0 +1,71 @@
+/* Homepage contact layout, shared directly with Trends. */
+@media (max-width: 750px) {
+  body[data-contact-layout="home"] .contact-section .contact-layout { row-gap: 0; }
+  body[data-contact-layout="home"] .contact-section .contact-consultation { padding-top: 0; }
+  body[data-contact-layout="home"] .contact-section .contact-form {
+    margin-top: 60px;
+    width: calc(100% + 8vw);
+    margin-inline: -4vw;
+    gap: 30px 20px;
+  }
+  body[data-contact-layout="home"] .contact-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: end;
+    gap: 0;
+  }
+  body[data-contact-layout="home"] .contact-info > a { justify-self: start; }
+  body[data-contact-layout="home"] .contact-info .contact-logo {
+    width: 21vw;
+    height: auto;
+    margin: 0;
+  }
+  body[data-contact-layout="home"] .contact-info h3 {
+    margin: 0 0 1vw;
+    padding-left: 3.8vw;
+    border-left: 1px solid #362e2b;
+    font: 400 4.6vw/1.2 'IvyOra Display', serif;
+    text-align: left;
+    color: #362e2b;
+  }
+  body[data-contact-layout="home"] .contact-layout > .contact-links {
+    width: 100%;
+    min-width: 0;
+    font-size: 14px;
+  }
+  body[data-contact-layout="home"] .contact-layout > .contact-links .contact-link {
+    grid-template-columns: 15px minmax(0, 1fr) 15px;
+    column-gap: 15px;
+    align-items: center;
+    padding: 16px 0;
+    min-height: 60px;
+  }
+  body[data-contact-layout="home"] .contact-layout > .contact-links .contact-link-label {
+    min-width: 0;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    line-height: 1.4;
+    max-width: none;
+  }
+  body[data-contact-layout="home"] .contact-layout > .contact-links .contact-address-street {
+    line-height: inherit;
+  }
+  body[data-contact-layout="home"] .contact-layout > .contact-links .contact-link-arrow {
+    align-self: center;
+  }
+  body[data-contact-layout="home"] .contact-layout > .contact-links .contact-link-address {
+    align-items: start;
+  }
+  body[data-contact-layout="home"] .contact-layout > .contact-links .contact-link-address .contact-link-icon {
+    height: 18px;
+    margin-top: 2px;
+  }
+  body[data-contact-layout="home"] .contact-layout > .contact-links .contact-link-address .contact-link-arrow {
+    align-self: start;
+    margin-top: 2px;
+  }
+  body[data-contact-layout="home"] .contact-layout > .contact-links .contact-link::after {
+    top: auto;
+    bottom: 0;
+  }
+}

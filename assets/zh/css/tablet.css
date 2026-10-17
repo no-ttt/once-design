@@ -1,0 +1,224 @@
+/* Tablet-only overrides. Loaded after page styles on every entry point.
+   any-pointer keeps the layout when an iPad has a trackpad attached.
+   Mouse-only desktops and the existing <=750px mobile layout are excluded. */
+@media (min-width: 751px) and (max-width: 1400px) and (any-pointer: coarse) {
+  body { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+  body .brand-logo { width: clamp(150px, 16vw, 195px); }
+  body .menu-toggle-btn { min-width: 44px; min-height: 44px; }
+  .nav-close-btn { width: 44px; height: 44px; }
+  .nav-menu-list a { display: inline-flex; align-items: center; min-height: 44px; }
+  .nav-drawer { padding-top: 140px; }
+  .footer-nav { gap: 12px 24px; }
+  .footer-nav a, .back-to-top { min-height: 44px; display: inline-flex; align-items: center; }
+  .footer-top-row { align-items: start; }
+
+  /* Shared contact block: readable details and usable form columns. */
+  body .contact-layout { grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); gap: 5vw; }
+  body .contact-logo { width: 120px; height: auto; }
+  body .contact-links { max-width: none; }
+  body .contact-link { grid-template-columns: 16px minmax(0, 1fr) 16px; gap: 12px; min-height: 60px; }
+  body .contact-link-icon { width: 16px; height: 18px; }
+  body .contact-link-address .contact-link-icon { height: 22px; }
+  body .contact-link-arrow { width: 16px; height: 16px; }
+  body .contact-link::after { top: auto; bottom: 12px; left: 28px; right: 0; }
+  body .contact-link .contact-link-label,
+  body .contact-links li:nth-child(-n+2) .contact-link-label,
+  body .contact-link[href^="mailto:"] .contact-link-label,
+  body .contact-link-address .contact-link-label { font-size: 13px; line-height: 1.4; }
+  body .contact-consultation h3 { font-size: 20px; margin-bottom: 36px; }
+  .contact-form { gap: 24px 20px; }
+
+  /* Keep the homepage hero compact on tall iPad screens. */
+  body[data-page="home"] .banner-container,
+  body[data-page="home"] .bg-photo-wrapper {
+    height: clamp(480px, 70svh, 820px);
+  }
+
+  /* Homepage retains its image-led composition with flexible text flow. */
+  /* Share a content-aware hand-off line so the complete card fits before stacking. */
+  body[data-page="home"] .services-intro { position: sticky; top: 0; height: auto; min-height: 0; padding: 64px 8%; }
+  /* Cover the gap above the cards' 35svh sticky line. Later cards paint
+     over this extension; it does not change layout or intercept controls. */
+  body[data-page="home"] .services-intro::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    height: 35svh;
+    background: var(--services-paper);
+    pointer-events: none;
+  }
+  body[data-page="home"] .services-intro-copy { max-width: 620px; margin-left: auto; }
+  body[data-page="home"] .services-eyebrow { font-size: 18px; }
+  body[data-page="home"] .services-intro h2 { font-size: 32px; margin-bottom: 24px; }
+  body[data-page="home"] .services-description { font-size: 15px; line-height: 1.5; white-space: normal; }
+  body[data-page="home"] .services-tablet-break { display: none !important; }
+  body[data-page="home"] .service-panel {
+    --service-tablet-top: min(35svh, max(0px, calc(100svh - var(--service-content-height, 50svh) - 128px)));
+    position: sticky;
+    top: var(--service-tablet-top);
+    height: auto;
+    /* Extend the opaque card below the viewport without shifting its content. */
+    min-height: calc(max(calc(var(--service-content-height, 50svh) + 104px), calc(100svh - var(--service-tablet-top))) + 35svh);
+    padding: 24px 8% 80px;
+  }
+  body[data-page="home"] .service-panel-inner { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 24px 5vw; padding-top: 24px; }
+  body[data-page="home"] .service-copy h3 { font-size: 23px; }
+  body[data-page="home"] .honors-awards { width: 75%; }
+  body[data-page="home"] .honors-award { padding-block: 18px; }
+  body[data-page="home"] .honors-award h3, body[data-page="home"] .honors-award p { font-size: 14px; }
+  body[data-page="home"] .inquiries-section { position: relative; }
+
+  /* Section landing pages. */
+  .about-hero, .work-hero, .trends-hero, .quote-hero { min-height: 520px; height: auto; }
+  .about-hero h1 { font-size: clamp(32px, 3.90625vw, 55px); }
+  .about-hero-media > p, .work-hero-media > p, .trends-hero-media > p, .quote-hero-media > p { font-size: 12px; line-height: 1.4; max-width: 30vw; width: 30vw; top: auto; bottom: 28px; }
+  .about-hero-copy .page-kicker, .work-hero-copy .page-kicker, .trends-hero-copy .page-kicker { font-size: 13px; }
+  .quote-hero-title { top: auto; bottom: 60px; }
+  .work-scroll span, .trends-scroll span { font-size: 12px; height: 88px; }
+  .about-editorial .section-label, .quote-services .section-label { width: auto; min-width: 90px; height: 32px; padding-inline: 16px; font-size: 11px; }
+  .about-story-layout { padding: 72px 8%; gap: 6vw; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: center; }
+  .about-story h2, .about-studio h2, .about-founder h2 { font-size: 28px; line-height: 1.15; top: auto; }
+  .about-story .about-heading-intro, .about-founder .about-heading-intro, .about-founded, .about-studio h3 { font-size: 16px; line-height: 1.4; }
+  .about-story .about-body-copy, .about-studio .about-body-copy, .about-founder .about-body-copy { font-size: 15px; line-height: 1.5; margin-top: 24px; }
+  .about-story img { height: 48vw; }
+  .about-studio-layout { padding: 72px 12%; }
+  .about-studio-layout > div + div { gap: 7vw; }
+  .about-founder-layout { padding: 72px 8%; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: 6vw; align-items: center; }
+  .about-founder img { width: 100%; height: 46vw; }
+
+  .work-projects, .trends-articles { padding: 80px 8%; }
+  .work-tabs, .trends-tabs { flex-wrap: wrap; gap: 16px 32px; margin-bottom: 48px; }
+  .work-tabs button, .trends-tabs button { min-height: 44px; font-size: 14px; }
+  .work-project-grid, .trends-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 56px 28px; }
+  .work-card h3 { font-size: 16px; }
+  .trends-card { height: auto; gap: 16px; }
+  .trends-card-image { flex-shrink: 0; }
+  .trends-card-meta { height: auto; min-height: 44px; padding-top: 0; font-size: 12px; align-items: center; }
+  .trends-card-arrow { width: 44px; height: 44px; background-size: 20px; }
+  .trends-card h3 { width: 100%; font-size: 16px; }
+  .trends-read-more { width: 120px; height: 44px; font-size: 11px; }
+
+  /* Every Work project shares these content-sized sections. */
+  /* The desktop cover timeline shifts the entire scene down on tall screens,
+     exposing the hero background and clipping the byline. Anchor it on iPad. */
+  .nebu-page { --nebu-hero-shift: 0px !important; }
+  /* Override project-specific desktop title coordinates only on tablets.
+     Use translate rather than transform so the entrance animation can coexist. */
+  .nebu-page #nebuProjectContent .nebu-hero h1 {
+    left: 8%;
+    top: 50%;
+    width: 84%;
+    translate: 0 -50%;
+    text-align: center;
+    font-size: clamp(26px, 3vw, 40px);
+    line-height: 1.3;
+    overflow-wrap: anywhere;
+  }
+  .nebu-byline { font-size: 12px; }
+  #nebuProjectContent .nebu-breadcrumb { height: auto; min-height: 80px; align-items: center; padding: 16px 8%; }
+  .nebu-breadcrumb p { font-size: 12px; white-space: normal; }
+  #nebuProjectContent .nebu-arrows { gap: 8px; flex-shrink: 0; }
+  #nebuProjectContent .nebu-arrows a { width: 44px; height: 44px; padding: 10px; }
+  #nebuProjectContent .nebu-overview { grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: 5vw; min-height: 0; padding: 56px 8%; }
+  #nebuProjectContent .nebu-heading { min-width: 0; margin: 0; gap: 40px; }
+  #nebuProjectContent .nebu-heading h2 { width: auto; font-size: clamp(26px, 2.8vw, 36px); padding-right: 0; overflow-wrap: anywhere; }
+  #nebuProjectContent .nebu-heading h2 a { position: static; display: inline-flex; vertical-align: middle; width: 44px; height: 44px; padding: 10px; }
+  #nebuProjectContent .nebu-information { display: block; min-width: 0; }
+  #nebuProjectContent .nebu-intro { font-size: 15px; line-height: 1.5; margin-bottom: 32px; }
+  #nebuProjectContent .nebu-facts { position: static; width: 100%; font-size: 14px; line-height: 1.5; }
+  #nebuProjectContent .nebu-facts > div { height: auto; min-height: 48px; padding: 14px 0; grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); gap: 12px; }
+  .nebu-facts > div:nth-child(2) dd { font-size: 14px; }
+  .nebu-inquiry { font-size: 14px; min-height: 44px; }
+  #nebuProjectContent .nebu-quotation { height: auto; min-height: 220px; padding: 64px 8%; }
+  .nebu-quotation blockquote { max-width: 680px; font-size: 24px; line-height: 1.3; }
+  .nebu-quotation-copy > p { font-size: 12px; margin-top: 20px; }
+  .nebu-page[data-project] #nebuProjectContent .nebu-design { grid-template-columns: minmax(0, 1fr); min-height: 0; gap: 40px; padding: 72px 8% 48px; }
+  .nebu-detail-label { width: auto; min-width: 120px; height: 32px; padding-inline: 16px; font-size: 11px; }
+  .nebu-design-copy { font-size: 15px; line-height: 1.5; columns: 2; column-gap: 5vw; }
+  .nebu-design-copy article { break-inside: avoid; }
+  .nebu-design-copy h2 { font-size: 16px; line-height: 1.3; margin-bottom: 10px; }
+  .nebu-design-copy article + article { margin-top: 24px; }
+  .nebu-gallery, .nebu-gallery-column { gap: 12px; }
+  .nebu-project-nav a { min-height: 44px; font-size: 12px; }
+  .nebu-lightbox { padding: 72px 60px; }
+  .nebu-lightbox button { min-width: 44px; min-height: 44px; }
+
+  /* Article body text must not shrink with the desktop canvas. */
+  .moorgen-copy { min-height: 0; padding: 48px 0; }
+  .moorgen-copy h2 { width: 76%; margin-left: 12%; font-size: 28px; line-height: 1.25; margin-bottom: 24px; }
+  .moorgen-prose { width: 76%; margin-left: 12%; font-size: 15px; line-height: 1.6; }
+  .moorgen-photo { height: auto; padding-bottom: 40px; }
+  .moorgen-photo img, .moorgen-photo[data-reference="comp-mrvtg8yw"] img { width: 76%; height: auto; }
+  .moorgen-photo figcaption { width: 76%; }
+  .trend-text-title { padding: 120px 16% 56px; }
+  .trend-text-title h1 { font-size: 36px; }
+  .trend-kicker, .trend-meta { font-size: 12px; }
+  .trend-subsection h2, .trend-subheading-size h2 { font-size: 24px; }
+  .moorgen-back { height: auto; padding: 32px 12%; }
+  .moorgen-back a, .moorgen-navigation { font-size: 13px; }
+  .moorgen-back a { display: inline-flex; min-height: 44px; align-items: center; }
+  .moorgen-navigation { height: auto; min-height: 200px; padding: 72px 12% 48px; gap: 32px; }
+  .moorgen-navigation::before { top: 32px; left: 12%; width: 76%; }
+  .moorgen-navigation a { width: 45%; }
+  .moorgen-navigation p { font-size: 15px; }
+
+  .quote-services { padding: 80px 12%; min-height: 0; }
+  .quote-services-copy { width: 65%; margin: 0 0 0 auto; }
+  .quote-services-copy .page-kicker { width: auto; font-size: 16px; }
+  .quote-services h2 { font-size: 30px; margin-bottom: 28px; }
+  .quote-services-copy > p:last-child { width: auto; font-size: 15px; line-height: 1.5; }
+  .quote-benefits > div { height: auto; min-height: 300px; padding: 32px 12px; }
+  .quote-benefits h3 { font-size: 15px; line-height: 1.4; }
+  .quote-request { grid-template-columns: minmax(0, 1fr); padding: 32px 8% 80px; gap: 40px; min-height: 0; }
+  .quote-details { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 5vw; min-height: 0; }
+  .quote-heading-group { display: block; margin: 0; }
+  .quote-heading-group::before { display: none; }
+  .quote-details h2 { width: auto; font-size: 30px; margin-bottom: 20px; }
+  .quote-heading-group > p { width: auto; font-size: 16px; }
+  .quote-details .contact-links { position: static; width: 100%; margin: 0; }
+  .quote-request .quote-form { width: 100%; margin: 0; padding: 32px; gap: 28px; }
+  .quote-options label { min-height: 44px; font-size: 12px; }
+}
+
+/* Narrow iPads need full-width contact fields and more room for project facts. */
+@media (min-width: 751px) and (max-width: 900px) and (any-pointer: coarse) {
+  body .contact-layout { grid-template-columns: minmax(0, 1fr); gap: 48px; }
+  body[data-page] .contact-section .contact-info .contact-links { padding-top: 32px; }
+  #nebuProjectContent .nebu-overview { grid-template-columns: minmax(0, 1fr); gap: 32px; }
+  #nebuProjectContent .nebu-heading { flex-direction: row; align-items: start; }
+  .nebu-inquiry { flex-shrink: 0; }
+  .nebu-design-copy { columns: auto; }
+  .about-story-layout { grid-template-columns: minmax(0, 1fr); gap: 36px; }
+  .about-story img { height: 60vw; }
+}
+
+/* Keep the shared SEE / MORE treatment aligned at every iPad width.
+   The desktop vw arrow shrinks while text margins stay in pixels. */
+@media (min-width: 751px) and (max-width: 1400px) and (any-pointer: coarse) {
+  body[data-page="home"] :is(.about-action, .about-see-more, .service-see-more) {
+    align-items: center;
+    gap: 0;
+    min-height: 44px;
+  }
+  body[data-page="home"] :is(.about-action .about-action-divider, .service-see-more .service-action-divider) {
+    flex: 0 0 1px;
+    width: 1px;
+    height: 30px;
+    margin: 0 24px 0 0;
+  }
+  body[data-page="home"] :is(.about-action .see-more-text, .service-see-more > span:not(.service-action-divider)) {
+    flex: 0 0 50px;
+    width: 50px;
+    margin: 0 20px 0 0;
+    font-size: 12px;
+    line-height: 1;
+  }
+  body[data-page="home"] :is(.about-action .see-more-arrow, .service-see-more svg) {
+    display: block;
+    flex: 0 0 40px;
+    width: 40px;
+    height: 40px;
+  }
+}

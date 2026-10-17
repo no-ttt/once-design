@@ -1,0 +1,91 @@
+@font-face { font-family: 'Trends IvyOra Light'; src: url('../../fonts/ivyora-quote-light.woff2') format('woff2'); font-weight: 400; font-display: swap; }
+/* TRENDS: original Wix imagery with the shared site shell. */
+@font-face { font-family: 'Trends Gotham'; src: url('../../fonts/gotham-quote.woff2') format('woff2'); font-display: swap; }
+@font-face { font-family: 'Trends Trajan'; src: url('../../fonts/trajan-quote.woff2') format('woff2'); font-display: swap; }
+.trends-page { background: #f2eee2; color: #5b564c; }
+.trends-page .brand-logo { width: clamp(150px, 14.2vw, 220px); margin: 29px 0 0 2.5vw; }
+.trends-page .brand-logo img { filter: none; mix-blend-mode: multiply; }
+.trends-hero { display: grid; grid-template-columns: 42.734375% 57.265625%; height: 51.09158vw; }
+.trends-hero-media { position: relative; overflow: hidden; clip-path: inset(0); }
+.trends-hero-media video { position: fixed; inset: 0; width: 100vw; height: 100vh; object-fit: cover; }
+.trends-hero-grid { position: absolute; inset: 0; background: repeating-linear-gradient(135deg, #0006 0 .5px, transparent .5px 4px); pointer-events: none; }
+.trends-hero-media > p { position: absolute; bottom: 2.34375vw; left: 2.5vw; width: 25.9006vw; margin: 0; color: #000; font: 300 .80805vw/1.2 'IvyOra Display', serif; letter-spacing: .03em; }
+.trends-hero-copy { position: relative; display: flex; align-items: end; padding: 0 0 2.34375vw 5.9809vw; }
+.trends-hero-copy > div { width: 36.26736vw; }
+.trends-hero-copy .page-kicker { margin: 0 0 3.31706vw .1953vw; font: 400 .9375vw/1.333333 'IvyOra Banner', serif; letter-spacing: 0; }
+.trends-hero h1 { margin: 0; font: 400 3.90625vw/.9 'IvyOra Banner', serif; letter-spacing: .02em; }
+.trends-hero h1 em { font: italic 400 1em/.9 'Didot-W01-Italic', serif; }
+.trends-scroll { position: absolute; right: 0; bottom: 2.34375vw; width: 5.62825vw; display: flex; align-items: flex-start; gap: 0; flex-direction: column; color: #242323; text-decoration: none; }
+.trends-scroll span { height: 6.09375vw; margin-left: 2.19055vw; margin-bottom: -.10563vw; writing-mode: vertical-rl; font: 300 .78125vw/1.6 'IvyOra Display', serif; letter-spacing: .03em; }
+.trends-scroll svg { display: block; flex-shrink: 0; width: 100%; height: 5.62825vw; margin-left: -.07813vw; }
+
+.trends-articles { padding: 12.857vw 7.8125vw 3.114vw; scroll-margin-top: 30px; }
+.trends-tabs { display: none; justify-content: center; gap: 49px; margin-bottom: 5.208333vw; }
+.trends-tabs button { padding: 8px 0; border: 0; border-bottom: 2px solid #e2e2e2; background: transparent; color: inherit; cursor: pointer; font: 400 16px/1.4 'Aboreto', serif; }
+.trends-tabs button:hover, .trends-tabs button[aria-selected='true'] { border-bottom-color: #5b564c; }
+.trends-tabs-ready .trends-tabs { display: flex; }
+.trends-category-title { margin-bottom: 30px; font: 400 22px/1.2 'IvyOra Display', serif; }
+.trends-tabs-ready .trends-category-title { display: none; }
+.trends-panel + .trends-panel { margin-top: 80px; }
+.trends-tabs-ready .trends-panel { margin-top: 0; }
+.trends-panel[hidden] { display: none; }
+.trends-card-grid { display: grid; grid-template-columns: repeat(3, 26.71224vw); gap: 9.28277vw 1.98459vw; }
+.trends-card { position: relative; display: flex; flex-direction: column; min-width: 0; height: 36.41819vw; }
+.trends-card a { color: inherit; text-decoration: none; }
+.trends-card-image { display: block; aspect-ratio: 1 / .9696; border-radius: 5px; overflow: hidden; transition: transform .3s ease-in-out; }
+.trends-card img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.trends-card-image:hover, .trends-card-image:focus-visible { transform: translateY(-10px); }
+.trends-card-meta { display: flex; justify-content: space-between; align-items: start; gap: 12px; height: 3.16949vw; padding-top: .81814vw; font: 400 .78125vw/1.3 'Trends Gotham', sans-serif; letter-spacing: .02em; }
+.trends-card-arrow { display: block; width: 1.32704vw; height: 1.32161vw; flex-shrink: 0; background: url('../../images/shared/work-arrow.png') center / contain no-repeat; font-size: 0; transition: transform .3s linear; }
+.trends-card-arrow:hover, .trends-card-arrow:focus-visible { transform: translateY(-8px); }
+.trends-card h3 { width: 80.09%; margin: 0; font: 400 .9375vw/1.3 'IvyOra Wix Bold', serif; letter-spacing: .05em; text-transform: uppercase; }
+.trends-card h3 a { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; line-clamp: 3; overflow: hidden; height: 3.9em; }
+.trends-read-more { display: grid; place-items: center; align-self: start; margin-top: auto; width: 7.53798vw; height: 2.38932vw; border: 1px solid #00000080; border-radius: 30px; background-color: transparent; font: 400 9px/1.6 'Trends Gotham', sans-serif; letter-spacing: normal; transition: border-color .4s ease, background-color .4s ease, color .4s ease; }
+.trends-card .trends-read-more { color: #000; }
+.trends-card .trends-read-more:hover, .trends-card .trends-read-more:focus-visible { background-color: #8e8367; border-color: #fef9ed; color: #fff; }
+@media (max-width: 750px) {
+  .trends-page .brand-logo { width: 150px; margin: 20px 0 0 16px; }
+  .trends-page { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+  .trends-hero { grid-template-columns: 1fr; grid-template-rows: 98.076923vw 70.51282vw; height: auto; }
+  .trends-hero-copy { padding: 0 0 7.820513vw 12.047276vw; }
+  .trends-hero-copy > div { width: 61.63862vw; max-width: 75vw; }
+  .trends-hero h1 { font-size: 6.410256vw; }
+  .trends-hero-grid { background: url('../../images/work/mobile-hero-pattern.png'); }
+  .trends-hero-media > p, .trends-scroll span { font-family: 'Trends IvyOra Light', serif; font-weight: 400; }
+  .trends-hero-copy .page-kicker { margin: 0 0 11px .1vw; font: 400 12px/15px 'IvyOra Story', serif; }
+  .trends-hero-media > p { width: 63.3293vw; left: 12.04327vw; bottom: 25px; font-size: 8px; line-height: 1.2; }
+  .trends-scroll { width: 5.961538vw; right: 6.538462vw; bottom: 30px; }
+  .trends-scroll span { align-self: center; height: 15.22234vw; margin-left: 0; margin-bottom: -.5px; font-size: 8px; }
+  .trends-scroll svg { height: 6.826923vw; width: 100%; margin-left: -.5px; }
+  .trends-articles { padding: 12.85256vw 12.047276vw 17.62vw; }
+  .trends-tabs { gap: 27px; margin-bottom: 56px; }
+  .trends-tabs button { flex: 1 1 auto; font-size: 13px; color: #000; border-radius: 0; appearance: none; }
+  .trends-tabs button[aria-selected='true'] { border-bottom-color: #000; }
+  .trends-card-image { border-radius: 0; }
+  .trends-card-grid { grid-template-columns: 75.55385vw; row-gap: 18.3897vw; }
+  .trends-card { height: 105.633012vw; }
+  .trends-card-meta { font-size: 10px; padding-top: 3.413462vw; height: 8.277244vw; }
+  .trends-card-arrow { width: 18px; height: 17.921875px; }
+  .trends-card h3 { width: 64.871795vw; max-width: 100%; font-size: 3.333333vw; }
+  .trends-read-more { width: 118.5px; height: 30px; }
+}
+@media (prefers-reduced-motion: reduce) { .trends-card-image, .trends-card-arrow, .trends-read-more { transition: none; } .trends-card-image:hover, .trends-card-image:focus-visible, .trends-card-arrow:hover, .trends-card-arrow:focus-visible { transform: none; } }
+@media (prefers-reduced-motion: no-preference) {
+  .trends-motion-pending { opacity: 0; }
+}
+
+/* Match Work’s shared contact section. */
+.trends-page .contact-badge, .trends-page .contact-title { display: none; }
+
+@media (max-width: 750px) and (hover: none) {
+  .trends-tabs button:not([aria-selected='true']):hover { border-bottom-color: #e2e2e2; }
+  .trends-card-image:hover, .trends-card-arrow:hover { transform: none; }
+}
+
+/* Use the Work banner's scroll cue proportions at every viewport size. */
+.trends-scroll span { flex: none; font-family: 'Trends IvyOra Light', serif; font-weight: 400; }
+.trends-scroll svg { flex: none; height: auto; aspect-ratio: 1; }
+@media (max-width: 750px) {
+  .trends-scroll span { height: 15.22231vw; margin-bottom: min(-.5px, -.12821vw); font-size: 2.05128vw; }
+  .trends-scroll svg { height: auto; aspect-ratio: 1 / 1.1451854; margin-left: min(-.5px, -.12821vw); }
+}

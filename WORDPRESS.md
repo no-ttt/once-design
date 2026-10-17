@@ -1,5 +1,7 @@
 # ONCE DESIGN：用 HTML 區塊放入 WordPress
 
+中英文程式碼分別位於 `assets/en/`、`assets/zh/`，移植時須分別載入對應語言的檔案。下文的「共用」僅指同一語言內的多個頁面。
+
 採用「每個頁面貼 HTML，共用 CSS／JavaScript 集中管理」的方式。不必將整個網站改成自訂佈景主題，仍可重用導覽、頁尾、表單與互動。
 
 本文件是移植步驟。目前 `index.html`、`about.html` 和 assets 還是靜態網站版本，尚未轉換成可直接貼入的 WordPress 版本。

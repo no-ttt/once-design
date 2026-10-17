@@ -1,0 +1,146 @@
+@font-face { font-family: 'Once Chinese'; src: url('../../fonts/zh-mgen-light.woff2') format('woff2'); font-weight: 300; font-display: swap; }
+@font-face { font-family: 'Once Chinese'; src: url('../../fonts/zh-mgen-regular.woff2') format('woff2'); font-weight: 400; font-display: swap; }
+@font-face { font-family: 'Once Chinese'; src: url('../../fonts/zh-mgen-bold.woff2') format('woff2'); font-weight: 700; font-display: swap; }
+body:is(.work-page,.trends-page) { --zh-font: 'Once Chinese', sans-serif; }
+:is(.work-page,.trends-page) .nav-menu-list { font-family: var(--zh-font); }
+body:is(.work-page,.trends-page) .site-header .brand-logo { width:14.125vw; margin:2.03vw 0 0 2.5vw; }
+:is(.work-hero-copy,.trends-hero-copy) .page-kicker { font:300 1.09375vw/1.4 var(--zh-font); letter-spacing:.2em; margin-bottom:3.32vw; }
+.work-hero h1 { font-size:3.515625vw; }
+.work-hero-copy,.trends-hero-copy { padding-bottom: .9vw; }
+.listing-subtitle { margin:4.53vw 0 0; font:400 2.34375vw/1.3 var(--zh-font); letter-spacing:.12em; white-space:nowrap; color:#000; }
+.listing-subtitle span { font-weight:300; }
+.trends-page .listing-subtitle { color: #5b564c; }
+.trends-page .trends-scroll { color: #000; }
+/* Work banner uses the reference's physical Light face at normal weight. */
+@font-face { font-family: 'Work Chinese Light'; src: url('../../fonts/zh-mgen-light.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+.work-page .work-hero-copy .page-kicker { font-family: 'Work Chinese Light', sans-serif; font-weight: 400; font-size: 1.015625vw; color: #000; font-synthesis: none; }
+.work-page .listing-subtitle { letter-spacing: .1em; color: #5b564c; }
+.work-page .listing-subtitle span { font-family: 'Work Chinese Light', sans-serif; font-weight: 400; font-synthesis: none; }
+.work-tabs button,.trends-tabs button { font-family:var(--zh-font); font-weight:300; letter-spacing:.2em; }
+.work-page .work-tabs button { font: 400 16px/1.4 'Work Chinese Light', sans-serif; font-synthesis: none; letter-spacing: .1em; padding: 8px 0; min-height: 0; border-bottom: 2px solid #e1e1e1; }
+.work-page .work-tabs button::after { display: none; }
+.work-page .work-tabs button:is(:hover, [aria-selected='true']) { border-bottom-color: #000; }
+.work-hero-media > p { width:31.84vw; }
+.trends-read-more { font-family:var(--zh-font); }
+@media(max-width:750px) {
+ body:is(.work-page,.trends-page) .site-header .brand-logo { width:15.745vw; margin:4.459vw 0 0 4.403vw; }
+ :is(.work-page,.trends-page) .menu-toggle-btn { top:18.4px; right:8.09vw; }
+ .work-hero-copy,.trends-hero-copy { padding:0 12.05vw 0; min-height:76vw; align-items:flex-start; }
+ .work-hero-heading,.trends-hero-copy > div { padding-top:27vw; }
+ .trends-hero { height:auto; grid-template-rows:98.076923vw 76vw; }
+ .work-hero h1,.trends-hero h1 { font-size:25px; }
+ :is(.work-hero-copy,.trends-hero-copy) .page-kicker { font-size:12px; margin-bottom:5px; }
+ .listing-subtitle { font-size:22px; margin-top:26px; letter-spacing:.05em; }
+ .work-page .work-hero-copy .page-kicker { font-size:12px; }
+ .work-hero-media > p { width:57.43vw; }
+ .work-tabs button,.trends-tabs button { font-size:13px; }
+ .work-page .work-tabs button { font-family: var(--zh-font); font-size: 13px; font-weight: 400; }
+}
+/* Chinese Homepage consultation layout, with its tag and section title hidden. */
+body:is(.work-page,.trends-page) :is(.contact-field, .contact-submit, .contact-consultation h3, .contact-info h3) { font-family: var(--zh-font); text-transform: none; }
+body:is(.work-page,.trends-page) :is(.contact-consultation h3, .contact-info h3) { line-height: 1.5; letter-spacing: .1em; }
+body:is(.work-page,.trends-page) .contact-consultation h3 { font-size: 1.953125vw; line-height: 1.3; letter-spacing: .3em; }
+body:is(.work-page,.trends-page) .contact-section .contact-field { font-family: var(--zh-font); font-size: 16px; font-weight: 300; line-height: 1.25; }
+body:is(.work-page,.trends-page) .contact-submit { font-size: 16px; font-weight: 300; }
+body:is(.work-page,.trends-page) .contact-badge,
+body:is(.work-page,.trends-page) .contact-title { display: none; }
+@media (max-width: 750px) {
+  body:is(.work-page,.trends-page) .contact-section { padding-top: 20px; }
+  body:is(.work-page,.trends-page) .contact-layout { display: flex; flex-direction: column; }
+  body:is(.work-page,.trends-page) .contact-info { display: flex; flex-direction: column; align-items: center; }
+  body:is(.work-page,.trends-page) .contact-info .contact-logo { width: 48px; height: 50px; margin: 0; }
+  body:is(.work-page,.trends-page) .contact-info h3 { width: 100%; padding: 0; margin: 24px 0 0; border: 0; font: 400 20px/1.3 var(--zh-font); text-align: center; letter-spacing: .3em; }
+  body:is(.work-page,.trends-page) .contact-section .contact-layout > .contact-links { margin-top: 28px; }
+  body:is(.work-page,.trends-page) .contact-layout > .contact-links .contact-link-address .contact-link-label { max-width: 180px; line-height: 1; }
+  body:is(.work-page,.trends-page) .contact-section .contact-form { width: 100%; margin-inline: 0; margin-top: 60px; column-gap: 20px; }
+  body:is(.work-page,.trends-page) .contact-section .contact-field { font-size: 14px; }
+  body:is(.work-page,.trends-page) .contact-section .contact-field-full:has(textarea) { font-size: 14px; }
+}
+html[lang="zh-Hant"] body:is(.work-page,.trends-page) .site-footer { height: 118px; min-height: 0; padding: 0; position: relative; }
+html[lang="zh-Hant"] body:is(.work-page,.trends-page) .footer-top-row { position: static; }
+html[lang="zh-Hant"] body:is(.work-page,.trends-page) .footer-nav {
+  position: absolute; left: 7.480469%; top: 32.5625px;
+  display: flex; flex-wrap: nowrap; justify-content: flex-start;
+  width: auto; padding: 0; margin: 0; gap: 2.383681vw;
+}
+html[lang="zh-Hant"] body:is(.work-page,.trends-page) .footer-nav a {
+  font: 300 1.015625vw/.78 'Once Chinese', sans-serif;
+  letter-spacing: .3em; color: #fff;
+}
+html[lang="zh-Hant"] body:is(.work-page,.trends-page) .footer-nav a:first-child,
+html[lang="zh-Hant"] body:is(.work-page,.trends-page) .footer-nav a:hover { color: #afa385; }
+html[lang="zh-Hant"] body:is(.work-page,.trends-page) .footer-copyright {
+  position: absolute; left: 7.480469%; top: 76.046875px;
+  width: auto; margin: 0; padding: 0;
+  font: 400 11px/1.3 'Trajan Pro', serif; letter-spacing: .03em; color: #fff;
+}
+html[lang="zh-Hant"] body:is(.work-page,.trends-page) .back-to-top {
+  position: absolute; top: 25.84375px; right: 7.5%;
+  display: flex; align-items: center; gap: 0; padding: 0; margin: 0;
+  font: 300 1.015625vw/1.4 'Once Chinese', sans-serif; letter-spacing: .2em; color: #fff;
+}
+html[lang="zh-Hant"] body:is(.work-page,.trends-page) .back-to-top span { width: 5.46875vw; }
+html[lang="zh-Hant"] body:is(.work-page,.trends-page) .back-to-top svg { width: 18px; height: 18px; }
+@media (max-width: 750px) {
+  html[lang="zh-Hant"] body:is(.work-page,.trends-page) .site-footer { height: 147px; }
+  html[lang="zh-Hant"] body:is(.work-page,.trends-page) .footer-nav {
+    left: 7.948718%; right: 7.948718%; top: 62.984375px;
+    justify-content: center; gap: 14px;
+  }
+  html[lang="zh-Hant"] body:is(.work-page,.trends-page) .footer-nav a { font-size: 14px; font-weight: 400; }
+  html[lang="zh-Hant"] body:is(.work-page,.trends-page) .footer-copyright {
+    left: 7.948718%; right: 7.948718%; top: 99.5px;
+    font-size: 7px; text-align: left;
+  }
+  html[lang="zh-Hant"] body:is(.work-page,.trends-page) .back-to-top { right: 7.948718%; top: 9.984375px; font-size: 12px; }
+  html[lang="zh-Hant"] body:is(.work-page,.trends-page) .back-to-top span { width: 59.390625px; }
+  html[lang="zh-Hant"] body:is(.work-page,.trends-page) .back-to-top svg { width: 15px; height: 12.90625px; }
+}
+
+/* Footer visual alignment, including the divider independent of navigation flow. */
+html[lang="zh-Hant"] body:is(.work-page,.trends-page) .footer-top-row {
+  min-height: 0;
+  border: 0;
+}
+html[lang="zh-Hant"] body:is(.work-page,.trends-page) .site-footer::after {
+  content: '';
+  position: absolute;
+  left: 7.519531%;
+  width: 85%;
+  top: calc(3.359375vw + 13.9375px);
+  height: 1px;
+  background: #9d9d9d;
+  pointer-events: none;
+}
+html[lang="zh-Hant"] body:is(.work-page,.trends-page) .footer-nav {
+  display: grid;
+  grid-template-columns: repeat(6, 72.333333px);
+  gap: 0;
+  top: calc(1.777344vw + 6.96875px);
+}
+html[lang="zh-Hant"] body:is(.work-page,.trends-page) .footer-copyright { top: calc(4.244792vw + 14.921875px); }
+html[lang="zh-Hant"] body:is(.work-page,.trends-page) .back-to-top { top: 1.794705vw; }
+html[lang="zh-Hant"] body:is(.work-page,.trends-page) .back-to-top > span {
+  text-box: normal;
+  line-height: 1.4;
+  text-align: left;
+}
+html[lang="zh-Hant"] body:is(.work-page,.trends-page) .back-to-top svg {
+  flex: 0 0 1.25vw;
+  width: 1.25vw;
+  height: 1.25vw;
+}
+@media (max-width: 750px) {
+  html[lang="zh-Hant"] body:is(.work-page,.trends-page) .site-footer::after {
+    left: 12.155449%; width: 75.689103%; top: 88.984375px;
+  }
+  html[lang="zh-Hant"] body:is(.work-page,.trends-page) .footer-nav { display: flex; top: 62.984375px; gap: 14px; }
+  html[lang="zh-Hant"] body:is(.work-page,.trends-page) .footer-copyright { top: 99.5px; text-align: center; }
+  html[lang="zh-Hant"] body:is(.work-page,.trends-page) .back-to-top { top: 9.984375px; }
+  html[lang="zh-Hant"] body:is(.work-page,.trends-page) .back-to-top svg { flex-basis: 15px; width: 15px; height: 12.90625px; }
+}
+
+
+body:is(.work-page,.trends-page) .contact-section { padding-bottom:calc(max(55px,3.7vw) + 2vh); }
+body:is(.work-page,.trends-page) .contact-sticky-space { height:0; }
+@media(max-width:750px) { body:is(.work-page,.trends-page) .contact-section { padding-bottom:90px; } }

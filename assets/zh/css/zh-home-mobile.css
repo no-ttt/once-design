@@ -1,0 +1,67 @@
+/* The mobile banner retains its English layout; lower sections use zh-home.css. */
+/* Preserve the existing Chinese logo sizes. */
+body[data-page="home"] .brand-logo { width: 25vw; margin-top: 5.5vw; }
+body[data-page="home"] .contact-info .contact-logo { width: 48px; height: 50px; margin: 0; }
+/* Keep the Chinese tagline above the English hero title without shifting it. */
+body[data-page="home"] .hero-chinese-tagline { position: absolute; top: -20vw; left: 0; margin: 0; width: 72vw; font: 300 4.5vw/1.5 var(--zh-font); color: #fff; letter-spacing: .05em; }
+body[data-page="home"] .hero-chinese-tagline strong { font-weight: 700; }
+
+/* Measured from the Chinese reference at 390px; keep the form inside the viewport. */
+body[data-page="home"] .partners-space { --space-height: 61.67067vw; height: var(--space-height); }
+body[data-page="home"] .contact-title { margin-right: -1.28vw; margin-bottom: 52px; }
+body[data-page="home"] .contact-section .contact-layout > .contact-links { margin-top: 23.5px; }
+body[data-page="home"] .contact-section .contact-field,
+body[data-page="home"] .contact-section .contact-field-full:has(textarea) { font-size: 13px; line-height: 16px; }
+body[data-page="home"] .contact-submit { height: 40px; font-size: 13px; line-height: 1.3; }
+
+/* Keep the complete Chinese service design in zh-home.css.
+   Only vertical spacing and sticky hand-off follow the English mobile layout. */
+body[data-page="home"] #services .services-intro {
+  height: auto;
+  min-height: 77.40785vw;
+  padding-top: 22.075vw;
+  padding-bottom: 10vw;
+  top: var(--service-intro-top, 0px);
+}
+body[data-page="home"] #services .service-panel,
+body[data-page="home"] #services .service-panel:first-of-type {
+  height: max(145vw, 79.11svh);
+  top: min(35svh, calc(100svh - var(--service-content-height, 60svh) - 24px));
+}
+body[data-page="home"] #services .service-copy { margin-top: 8.77vw; }
+body[data-page="home"] #services .service-copy h3 { margin-bottom: 4px; }
+body[data-page="home"] #services .service-see-more { margin-top: 20px; margin-bottom: 0; }
+
+/* Match the Chinese reference FAQ without synthetic bold or full-width overrides. */
+html[lang="zh-Hant"] body[data-page="home"] .inquiry-item summary {
+  font-weight: 400;
+  font-synthesis: none;
+}
+html[lang="zh-Hant"] body[data-page="home"] .inquiry-item summary > span:first-child {
+  flex: 1;
+  max-width: calc(100% - 46px);
+}
+html[lang="zh-Hant"] body[data-page="home"] .inquiry-answer {
+  padding-left: 35px;
+  padding-right: 33.8px;
+}
+/* The first answer's emphasis wraps in a 100.6px column at 390px, as on Wix. */
+html[lang="zh-Hant"] body[data-page="home"] .inquiry-item:first-child .inquiry-answer-emphasis {
+  padding-left: 1.41026vw;
+}
+html[lang="zh-Hant"] body[data-page="home"] .inquiry-item:first-child .inquiry-answer-emphasis p {
+  width: 25.79487vw !important;
+}
+html[lang="zh-Hant"] body[data-page="home"] .inquiry-item:nth-child(3) .inquiry-answer-lead {
+  width: 48.93029vw !important;
+  letter-spacing: .03em;
+}
+html[lang="zh-Hant"] body[data-page="home"] .inquiry-item:nth-child(3) .inquiry-answer-emphasis {
+  padding-left: 1.48237vw;
+}
+html[lang="zh-Hant"] body[data-page="home"] .inquiry-item:nth-child(3) .inquiry-answer-emphasis p {
+  width: 48.9383vw !important;
+}
+html[lang="zh-Hant"] body[data-page="home"] .inquiry-item:nth-child(3) .inquiry-answer > p {
+  width: 60.15625vw !important;
+}

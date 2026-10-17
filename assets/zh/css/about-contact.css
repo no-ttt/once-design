@@ -1,0 +1,20 @@
+/* Chinese Homepage consultation layout, with its tag and section title hidden. */
+body[data-page="about"] :is(.contact-field, .contact-submit, .contact-consultation h3, .contact-info h3) { font-family: var(--zh-font); text-transform: none; }
+body[data-page="about"] :is(.contact-consultation h3, .contact-info h3) { line-height: 1.5; letter-spacing: .1em; }
+body[data-page="about"] .contact-consultation h3 { font-size: 1.953125vw; line-height: 1.3; letter-spacing: .3em; }
+body[data-page="about"] .contact-section .contact-field { font-family: var(--zh-font); font-size: 16px; font-weight: 300; line-height: 1.25; }
+body[data-page="about"] .contact-submit { font-size: 16px; font-weight: 300; }
+body[data-page="about"] .contact-badge,
+body[data-page="about"] .contact-title { display: none; }
+@media (max-width: 750px) {
+  body[data-page="about"] .contact-section { padding-top: 20px; }
+  body[data-page="about"] .contact-layout { display: flex; flex-direction: column; }
+  body[data-page="about"] .contact-info { display: flex; flex-direction: column; align-items: center; }
+  body[data-page="about"] .contact-info .contact-logo { width: 48px; height: 50px; margin: 0; }
+  body[data-page="about"] .contact-info h3 { width: 100%; padding: 0; margin: 24px 0 0; border: 0; font: 400 20px/1.3 var(--zh-font); text-align: center; letter-spacing: .3em; }
+  body[data-page="about"] .contact-section .contact-layout > .contact-links { margin-top: 28px; }
+  body[data-page="about"] .contact-layout > .contact-links .contact-link-address .contact-link-label { max-width: 180px; line-height: 1; }
+  body[data-page="about"] .contact-section .contact-form { width: 100%; margin-inline: 0; margin-top: 60px; column-gap: 20px; }
+  body[data-page="about"] .contact-section .contact-field { font-size: 14px; }
+  body[data-page="about"] .contact-section .contact-field-full:has(textarea) { font-size: 14px; }
+}

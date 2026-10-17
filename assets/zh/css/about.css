@@ -1,0 +1,195 @@
+/* About layout, based on the Wix About page. Shared shell is in common.js. */
+.about-page { background: #f2eee2; color: #5b564c; }
+.about-page picture > source { display: none; }
+.about-page .brand-logo { width: clamp(150px,14.2vw,220px); margin: 29px 0 0 2.5vw; }
+.about-page .brand-logo img { filter: none; mix-blend-mode: multiply; }
+.about-page h1,.about-page h2,.about-page h3 { font-family: 'IvyOra Display',serif; font-weight: 500; }
+/* The reference combines IvyOra Medium with the actual Didot W01 italic face.
+   Keep the italic declaration as well: it preserves the original face selection
+   when the browser resolves the WOFF's internal style metadata. */
+.about-page em { font-family: 'Didot Wix Italic', serif; font-style: italic; font-weight: 400; }
+.about-contact .contact-badge,
+.about-contact .contact-title { display: none; }
+.about-hero { display: grid; grid-template-columns: 42.7% 57.3%; min-height: 51.09158vw; }
+.about-hero-media { position: relative; overflow: hidden; }
+.about-hero-media video { position: absolute; inset: 0; width: 100vw; height: max(100svh, 51.09158vw); object-fit: cover; object-position: 100% 0%; filter: brightness(1.18) contrast(.94); }
+.about-hero-grid { position: absolute; inset: 0; background: url('../../images/about/about-grid.png'); opacity: 1; pointer-events: none; }
+.about-hero-media > p { position: absolute; bottom: 35px; left: 2.5vw; right: 20px; max-width: 21.3vw; font: 300 .80805vw/1.2 'IvyOra Display',serif; letter-spacing: .03em; color: #000; }
+.about-hero-copy { position: relative; display: flex; align-items: end; padding: 0 6.013vw 4.274vw; }
+.about-hero-copy .page-kicker { margin-bottom: 3.2vw; font: 400 .9375vw/normal 'IvyOra Banner',serif; letter-spacing: normal; }
+.about-hero h1 { font-family: 'IvyOra Banner', serif; font-weight: 400; font-size: clamp(44px,3.90625vw,78px); line-height: .9; letter-spacing: .02em; }
+.about-hero h1 em { font-size: 1em; }
+.about-hero h1 > span { display: block; white-space: nowrap; }
+.about-scroll { position: absolute; right: 2.5vw; bottom: 4.274vw; width: 12px; height: 6.7vw; color: #000; }
+.about-scroll svg { display: block; width: 100%; height: 100%; }
+.about-editorial { position: relative; }
+.about-editorial .section-label { position: absolute; left: 0; top: 0; display: grid; place-items: center; box-sizing: border-box; height: 2.42vw; min-height: 0; padding: 0 1.25vw; font-family: 'Aboreto', sans-serif; font-size: clamp(10px, .833333vw, 17px); font-weight: 700; line-height: 1.2; letter-spacing: 0; background: #362e2b; color: #fff; text-transform: uppercase; }
+.about-story .section-label { clip-path: inset(0 calc(100% - var(--badge-grow, 100%)) 0 0); will-change: clip-path; }
+.about-story .section-label { width: 6.36827vw; padding: 0; font-size: .85859vw; }
+.about-story [data-story-copy], .about-story img[data-reveal] { transition: none; will-change: clip-path; }
+.about-story img[data-reveal].reveal-pending { opacity: 1; transform: none; }
+.about-story-layout { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: 7.1vw; padding: 5.15vw 7.1vw 4.6vw; align-items: center; }
+.about-story h2,.about-founder h2 { font-size: clamp(25px,2.08vw,40px); line-height: 1.2; text-transform: uppercase; }
+.about-story { color: #362e2c; }
+.about-story .about-heading-main { display: block; transform-origin: center bottom; will-change: transform, opacity; }
+.about-story-mobile-break { display: none; }
+.about-body-copy { font: 15px/1.55 'IvyOra Display',serif; }
+.about-body-copy p + p { margin-top: 28px; }
+.about-story .about-body-copy,.about-founder .about-body-copy { margin-top: 45px; }
+.about-question { font-family: 'Didot',serif; font-style: italic; }
+.about-story img { display: block; width: 100%; height: 33.75vw; object-fit: cover; object-position: 13% 48%; }
+/* Match the reference: centered, unscaled paper overlay on a warm base. */
+.about-studio {
+  background-color: #eee8d8;
+  background-image: url('../../images/about/about-paper.avif');
+  background-repeat: repeat;
+  background-position: center calc((38.59375vw - 225px) / 2);
+  background-size: 300px 225px;
+}
+.about-studio { color: #362e2c; }
+.about-studio-layout { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: 8vw; padding: 6.5vw 10%; }
+.about-founded { font: 19px/1.4 'IvyOra Display',serif; text-transform: uppercase; margin-bottom: 36px; }
+.about-studio h2 { font-size: clamp(28px,2.73vw,46px); line-height: 1.12; text-transform: uppercase; }
+.about-studio h3 { font-size: clamp(22px,1.8vw,32px); line-height: 1.2; text-transform: uppercase; margin-bottom: 35px; }
+.about-founder-layout { display: grid; grid-template-columns: minmax(0,.65fr) minmax(0,1.35fr); gap: 9vw; align-items: center; padding: 6.1vw 10% 11.3vw; }
+.about-founder img { display: block; width: 100%; height: 34.72vw; object-fit: cover; object-position: 40% 53%; }
+.about-founder img[data-reveal], .about-founder [data-founder-copy] { transition: none; will-change: clip-path; }
+.about-founder img[data-reveal].reveal-pending { opacity: 1; transform: none; }
+.about-founder strong { font-weight: 700; }
+@media (max-width: 1000px) {
+  .about-body-copy { font-size: 14px; }
+  .about-story .about-body-copy,.about-founder .about-body-copy { margin-top: 25px; }
+  .about-body-copy p + p { margin-top: 18px; }
+}
+@media (max-width: 750px) {
+  .about-page .site-header { padding: 0; }
+  .about-page .brand-logo img { aspect-ratio: 10755 / 4500; object-fit: cover; }
+  .about-hero { grid-template-columns: 1fr; min-height: 0; }
+  .about-hero-media { height: 109.1vw; }
+  .about-hero-media video { height: 100svh; object-position: 63% 0%; filter: none; }
+  .about-page .brand-logo { width: 42.672vw; margin: 11.4px 0 0 7.324vw; }
+  .about-page .menu-toggle-btn { top: 18.4px; right: 8.092vw; width: 25.2px; height: 40px; padding: 0; }
+  .about-page .menu-btn-icon { width: 23px; height: 20px; }
+  .about-page .menu-toggle-btn { color: #362e2b; }
+  .about-hero-copy { min-height: 76.7vw; padding: 35px 12.1vw 7.8vw; }
+  .about-hero h1 { font-size: 7.692308vw; }
+  .about-hero-copy .page-kicker { font-family: 'Aboreto', sans-serif; font-size: 12px; line-height: normal; margin-bottom: 10px; }
+  .about-hero-media > p { font-size: 8px; bottom: 24px; left: 12.1vw; right: 10px; max-width: 210px; }
+  .about-scroll { right: 9vw; bottom: 7.8vw; height: 70px; }
+  .about-editorial .section-label { width: 66px; height: 24px; min-height: 24px; font-family: 'Aboreto', sans-serif; font-size: 10px; padding: 0; }
+  .about-story .section-label { width: 62px; clip-path: none; will-change: auto; }
+  .about-studio .section-label,
+  .about-founder .section-label { clip-path: inset(0 calc(100% - var(--badge-grow, 0%)) 0 0); }
+  .about-story .about-heading-main,
+  .about-story [data-story-copy],
+  .about-founder [data-founder-copy] { will-change: auto; }
+  .about-founder { color: #362e2c; }
+  .about-founder .section-label { width: 86px; }
+  .about-story-layout,.about-studio-layout,.about-founder-layout { grid-template-columns: 1fr; }
+  .about-story { background-color: #f5f2e9; }
+  .about-story-layout { gap: 59px; padding: 76px 11.2% 69px 12.22%; }
+  .about-story .about-heading-main { width: 66.515vw; }
+  .about-story-mobile-break { display: initial; }
+  .about-story h2 { font-family: 'IvyOra Banner', serif; font-size: 20px; font-weight: 400; line-height: 1; letter-spacing: .02em; }
+  .about-story .about-heading-intro { font-family: 'IvyOra Story', serif; font-size: 12px; font-weight: 400; line-height: 1; letter-spacing: .02em; margin-bottom: 4px; }
+  .about-story .about-body-copy { margin-top: 13px; font-family: 'IvyOra Story', serif; font-size: 13px; line-height: 1.1; letter-spacing: .02em; }
+  .about-story .about-question { margin-top: 0; font-family: inherit; font-style: normal; font-weight: 700; }
+  .about-story .about-body-copy p + p { margin-top: 0; }
+  .about-story .about-body-copy p:last-child { margin-top: 14.3px; }
+  .about-story .about-question { font-family: 'IvyOra Wix Bold', serif; font-weight: 400; }
+  .about-story picture, .about-founder picture { display: contents; }
+  .about-story img { width: 100%; height: 67.456vw; object-position: 13% 48%; }
+  .about-studio-layout { gap: 0; padding: 76px 15.7% 59px 12.05%; }
+  .about-founded { margin-bottom: 4px; font-family: 'IvyOra Story', serif; font-size: 3.076923vw; line-height: 1; letter-spacing: .02em; }
+  .about-studio h2 { width: 72.12vw; font-family: 'IvyOra Banner', serif; font-size: 5.128205vw; font-weight: 400; line-height: 1; letter-spacing: .02em; }
+  .about-mobile-phrase { white-space: nowrap; }
+  .about-studio-layout > div + div { margin-top: 19px; }
+  .about-studio h3 { width: 68.3vw; margin-bottom: 8px; font-family: 'IvyOra Story', serif; font-size: 3.076923vw; font-weight: 400; line-height: 1.3; letter-spacing: .02em; }
+  .about-studio .about-body-copy { font-family: 'IvyOra Story', serif; font-size: 13px; line-height: 1.3; letter-spacing: .02em; }
+  .about-founder-layout { gap: 71px; padding: 87px 12.05% 56px; }
+  .about-founder img { width: 99%; height: 77.112vw; margin: auto; object-position: 40% 53%; }
+  .about-founder h2 { width: 75.545vw; font-family: 'IvyOra Banner', serif; font-size: 5.128205vw; font-weight: 400; line-height: 1; letter-spacing: .02em; }
+  .about-founder .about-heading-intro { font-family: 'IvyOra Story', serif; font-size: 2.564103vw; font-weight: 400; line-height: 1; letter-spacing: .02em; margin-bottom: 3px; }
+  .about-founder .about-body-copy { margin-top: 16px; font-family: 'IvyOra Story', serif; font-size: 13px; line-height: 1.3; letter-spacing: .02em; }
+  .about-founder .about-body-copy p + p { margin-top: 17px; }
+  .about-founder .about-body-copy br { display: none; }
+
+}
+@media (min-width: 751px) {
+  .about-story picture, .about-founder picture { display: contents; }
+}
+/* Desktop editorial alignment follows the reference's generous left margin. */
+@media (min-width: 751px) {
+  .about-story-layout { grid-template-columns: minmax(0,1fr) minmax(0,1.34fr); gap: 6.5vw; padding-left: 23.5vw; align-items: end; }
+  .about-story h2 { font-family: 'IvyOra Banner', serif; font-size: 2.34375vw; font-weight: 400; line-height: 1; letter-spacing: .02em; }
+  .about-founder h2 { font-size: 2.73vw; line-height: .95; }
+  .about-story .about-heading-intro { font-family: 'IvyOra Story', serif; font-size: 1.25vw; font-weight: 400; line-height: 1; letter-spacing: .02em; margin-bottom: .55vw; }
+  .about-heading-intro { display: block; font-size: 1.4vw; line-height: 1.25; margin-bottom: 8px; }
+  .about-story h2 { position: relative; top: 1.32vw; }
+  .about-story .about-body-copy { position: relative; top: 0; margin-top: 1.875vw; font-family: 'IvyOra Story', serif; font-size: .9375vw; font-weight: 400; line-height: 1.3; letter-spacing: .02em; }
+  .about-story img { width: calc(100% - 2.34px); margin-left: 2.77px; }
+  .about-founder .about-body-copy { margin-top: 30px; }
+  .about-story .about-question { margin-top: 0; font-family: inherit; font-style: normal; font-weight: 700; }
+  .about-studio .section-label { width: 6.36827vw; padding: 0; font-size: .85859vw; }
+  .about-studio-layout { display: flex; flex-direction: column; justify-content: center; gap: 0; padding: calc(6.5vw + 11px) 17.1vw calc(6.5vw + 11px) 26.1vw; min-height: 38.6vw; }
+  .about-founded { margin-bottom: 8px; font-family: 'IvyOra Story', serif; font-size: 1.25vw; font-weight: 400; line-height: 1; letter-spacing: .02em; }
+  .about-studio h2 { font-family: 'IvyOra Banner', serif; font-size: 2.34375vw; font-weight: 400; line-height: 1; letter-spacing: .02em; }
+  .about-studio-layout > div + div { display: grid; grid-template-columns: minmax(0,.392fr) minmax(0,.608fr); gap: 7.9vw; margin-top: 5vw; align-items: center; min-height: 8.7565vw; }
+  .about-studio h3 { position: relative; font-family: 'IvyOra Story', serif; font-size: 1.25vw; font-weight: 400; line-height: 1.3; letter-spacing: .02em; margin: 0; padding-right: 0; }
+  .about-studio h3::after { content: ''; position: absolute; top: 50%; transform: translateY(-50%); right: -3.93vw; width: 1px; height: 8.7565vw; background: #362e2c; }
+  .about-studio .about-body-copy { font-family: 'IvyOra Story', serif; font-size: .9375vw; font-weight: 400; line-height: 1.3; letter-spacing: .02em; }
+  .about-founder-layout { grid-template-columns: minmax(0,.65fr) minmax(0,1.15fr); align-items: end; gap: 10vw; padding-right: 7.1vw; padding-bottom: 11.3vw; }
+  .about-founder { color: #362e2c; }
+  .about-founder .section-label { width: 6.36827vw; padding: 0; font-size: .85859vw; }
+  .about-founder-layout { grid-template-columns: 25.2376vw 36.8965vw; justify-content: space-between; gap: 0; padding: 6.1vw 18.1vw calc(11.3vw + 28px) 9.88vw; }
+  .about-founder img { width: 25.2376vw; height: 34.7016vw; }
+  .about-founder h2 { font-family: 'IvyOra Banner', serif; font-size: 2.34375vw; font-weight: 400; line-height: 1; letter-spacing: .02em; }
+  .about-founder .about-heading-intro { font-family: 'IvyOra Story', serif; font-size: 1.25vw; font-weight: 400; line-height: 1; letter-spacing: .02em; margin-bottom: .55vw; }
+  .about-founder .about-body-copy { margin-top: 1.875vw; font-family: 'IvyOra Story', serif; font-size: .9375vw; font-weight: 400; line-height: 1.3; letter-spacing: .02em; }
+  .about-founder .about-body-copy p + p { margin-top: 1.21875vw; }
+}
+@media (max-width: 750px) {
+  .about-heading-intro { display: block; }
+}
+.about-page .brand-logo img { filter: brightness(0); }
+
+/* Preserve the reference tile phase even when our content makes the section taller. */
+@media (max-width: 750px) {
+  .about-studio { background-position: center calc((117.19538vw - 225px) / 2); }
+}
+
+@font-face { font-family: 'About Scroll Light'; src: url('../../fonts/ivyora-quote-light.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+
+/* Match Work's vertical scroll label and arrow proportions. */
+.about-scroll { display: flex; flex-direction: column; align-items: flex-start; gap: 0; right: 0; width: 5.628255vw; height: auto; text-decoration: none; }
+.about-scroll span { flex: none; height: 6.09375vw; margin-left: 2.19055vw; margin-bottom: -.10563vw; writing-mode: vertical-rl; font: 400 .78125vw/1.6 'About Scroll Light', serif; letter-spacing: .03em; }
+.about-scroll svg { display: block; flex: none; width: 100%; height: auto; aspect-ratio: 1; margin-left: -.07813vw; }
+@media (min-width: 751px) and (max-width: 1400px) and (any-pointer: coarse) {
+  .about-scroll span { font-size: 12px; height: 88px; }
+}
+@media (max-width: 750px) {
+  .about-scroll { right: 6.53846%; width: 5.96154vw; height: auto; }
+  .about-scroll span { align-self: center; height: 15.22231vw; margin-left: 0; margin-bottom: min(-.5px, -.12821vw); font-size: 2.05128vw; }
+  .about-scroll svg { aspect-ratio: 1 / 1.1451854; margin-left: min(-.5px, -.12821vw); }
+}
+
+
+/* Consultancy benefits, matching Quote with a slightly deeper warm background. */
+.about-benefits { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); min-height: 36.48438vw; padding: 0 4.29688vw; text-align: center; }
+.about-benefits > div { display: flex; min-width: 0; height: 36.48438vw; flex-direction: column; align-items: center; justify-content: center; }
+.about-benefits img { display: block; width: 8.59375vw; height: auto; aspect-ratio: 1 / 1.007654; object-fit: cover; margin: 0 auto 4.33352vw; mix-blend-mode: multiply; }
+.about-page .about-benefits h3 { width: 100%; margin: 0; color: #5b564c; font-family: 'IvyOra Banner', serif; font-size: 1.09375vw; font-weight: 400; line-height: 1.1; text-transform: uppercase; }
+.about-benefits { background: #e5decd; }
+@media (max-width: 750px) {
+  .about-benefits { padding: 10.25641vw 4.29692vw; grid-template-columns: minmax(0, 1fr); gap: 0; }
+  .about-benefits > div { position: relative; height: 51.28205vw; }
+  .about-benefits img { width: 23.25333vw; height: auto; margin: 0; }
+  .about-benefits > div img { position: absolute; top: calc((51.28205vw - max(91.375px, 23.4256vw)) / 2); left: 14.09346vw; }
+  .about-page .about-benefits h3 { font-size: 3.846154vw; line-height: 1.1; }
+  .about-page .about-benefits > div h3 { position: absolute; left: 47.34571vw; bottom: calc((51.28205vw - max(91.375px, 23.4256vw)) / 2 + 7.47997vw); width: 29.96995vw; text-align: left; }
+  .about-page .about-benefits > div:nth-child(2) h3 { width: 35.10016vw; }
+}
+@media (min-width: 751px) and (max-width: 1400px) and (any-pointer: coarse) {
+  .about-benefits > div { height: auto; min-height: 300px; padding: 32px 12px; }
+  .about-page .about-benefits h3 { font-size: 15px; line-height: 1.4; }
+}

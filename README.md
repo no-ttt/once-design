@@ -1,13 +1,15 @@
 # Once Design
 
-靜態網站，英文 HTML 放在 `en/`，中文版起始副本放在 `zh/`。用 VS Code Live Server 或 `python3 -m http.server 8000` 預覽，再開啟 `http://localhost:8000/en/` 或 `http://localhost:8000/zh/`。Trends 透過 fetch 讀取 JSON，請勿直接用 file:// 開啟。
+靜態網站，英文 HTML 放在 `en/`，中文版放在 `zh/`。用 VS Code Live Server 或 `python3 -m http.server 8000` 預覽，再開啟 `http://localhost:8000/en/` 或 `http://localhost:8000/zh/`。Trends 透過 fetch 讀取 JSON，請勿直接用 file:// 開啟。
 
 ## 語言版本
 
 - `en/`：英文版，每個頁面可獨立編輯。
-- `zh/`：從英文版複製的中文版起點，目前尚未翻譯。完成翻譯時，請將各頁的 `lang="en"` 改為 `lang="zh-Hant"`。
-- `assets/`：兩版共用素材、基礎樣式、互動程式及資料。中文版專用排版可寫在 `assets/css/zh.css`，僅由 `zh/` 載入。
-- 作品與文章內容仍共用 `assets/data/projects.js`、`assets/data/trends-articles.json`，頁首、選單與聯絡區文字由 `assets/js/common.js` 產生；翻譯這些內容前需另建中文資料或加入語言判斷，直接修改共用檔案會影響兩版。
+- `zh/`：中文版，每個頁面可獨立編輯；首頁、About 與 Quote 已有中文內容，其餘頁面可逐步翻譯。
+- `assets/en/`：英文版獨立的 CSS、JavaScript 與資料。
+- `assets/zh/`：中文版獨立的 CSS、JavaScript 與資料；中文專用排版位於 `css/zh.css`、`css/zh-home.css`。
+- 兩個語言不互相載入程式碼或資料，也沒有自動同步；修改頁首、諮詢資訊、樣式或文章時，請只編輯目標語言下的檔案。同一語言內的頁面仍使用各自的 `common.js`。
+- `assets/images/`、`assets/videos/`、`assets/fonts/` 為共用媒體素材。
 - 站內相對連結會留在目前語言資料夾，例如英文作品為 `/en/project.html?project=tatcha`，中文作品為 `/zh/project.html?project=tatcha`。部署時一起上傳 `en/`、`zh/`、`assets/`；根目錄不設轉址入口。
 
 ## 頁面入口與命名
@@ -28,20 +30,18 @@
 
 共用檔案依用途命名：作品內頁使用 `project.html`、`project.css`、`project-mobile.css`、`project.js`，作品資料使用 `projects.js`；文章內頁使用 `article.html`、`article.css`、`article.js`。`trends-content.js` 負責列表與內頁共用的文章資料呈現。
 
+中文版作品內頁已改用獨立的 `project-reference.css`、`project-reference.js` 與 `data/project-reference.js`，對應中文版原站的 19 個作品；不再載入原本的英文內容範本。
+
 作品與文章統一使用上述入口，不保留舊頁面或轉址。Moorgen 文章使用 `article.html?article=moorgen`。CSS 類別與素材資料夾中的 `nebu`、`moorgen` 名稱保留，以維持既有樣式與作品素材對應。
 
 ## 目錄
 
 ```text
 ├── en/*.html                    英文頁面（7 頁）
-├── zh/*.html                    中文版起始副本（7 頁）
+├── zh/*.html                    中文頁面（7 頁）
 ├── assets/
-│   ├── css/                     共用及各頁樣式
-│   ├── js/                      共用及各頁互動程式
-│   ├── data/
-│   │   ├── projects.js           Work 作品資料（window.projects）
-│   │   ├── project-mobile-emphasis.js  作品手機版文字強調設定
-│   │   └── trends-articles.json  Trends / Press 文章資料
+│   ├── en/{css,js,data}/        英文版樣式、互動程式與內容資料
+│   ├── zh/{css,js,data}/        中文版樣式、互動程式與內容資料
 │   ├── images/
 │   │   ├── shared/              共用 Logo、社群圖示、箭頭及紋理
 │   │   ├── home/                首頁、服務、合作品牌及獎項圖片
@@ -64,19 +64,22 @@
 
 ### 要修改哪個檔案
 
+下列 `<lang>` 請替換為 `en` 或 `zh`；HTML 也請選擇同一語言資料夾。
+
 | 修改項目 | 主要檔案 |
 | --- | --- |
-| 共用頁首、選單、聯絡區與頁尾 | `assets/js/common.js`、`assets/css/common.css` |
-| 首頁排版與動畫 | `index.html`、`assets/css/style.css`、`assets/js/script.js` |
-| About 頁面 | `about.html`、`assets/css/about.css`、`assets/js/about.js` |
-| Work 列表 banner、作品卡片與分類 | `work.html`、`assets/css/work.css`、`assets/js/work.js` |
-| Work 作品內頁文字與圖片資料 | `assets/data/projects.js` |
-| Work 作品內頁 banner、內容排版與互動 | `project.html`、`assets/css/project.css`、`assets/css/project-mobile.css`、`assets/js/project.js` |
-| Trends 列表 banner、卡片樣式與分類互動 | `trends.html`、`assets/css/trends.css`、`assets/js/trends.js` |
-| Trends / Press 文章標題、日期、縮圖與內文 | `assets/data/trends-articles.json` |
-| 單篇文章版型與樣式 | `article.html`、`assets/js/trends-content.js`、`assets/css/article.css`、`assets/js/article.js` |
-| 詢價頁 | `quote.html`、`assets/css/quote.css`、`assets/js/quote.js` |
-| iPad／平板專用排版 | `assets/css/tablet.css` |
+| 共用頁首、選單、聯絡區與頁尾 | `assets/<lang>/js/common.js`、`assets/<lang>/css/common.css` |
+| 首頁排版與動畫 | `index.html`、`assets/<lang>/css/style.css`、`assets/<lang>/js/script.js` |
+| About 頁面 | `about.html`、`assets/<lang>/css/about.css`、`assets/<lang>/js/about.js` |
+| Work 列表 banner、作品卡片與分類 | `work.html`、`assets/<lang>/css/work.css`、`assets/<lang>/js/work.js` |
+| 中文 Work 作品內頁文字、圖片與桌面／手機尺寸 | `assets/zh/data/project-reference.js` |
+| 中文 Work 作品內頁樣式與互動 | `zh/project.html`、`assets/zh/css/project-reference.css`、`assets/zh/js/project-reference.js` |
+| 英文 Work 作品內頁資料、樣式與互動 | `assets/en/data/projects.js`、`assets/en/css/project.css`、`assets/en/css/project-mobile.css`、`assets/en/js/project.js` |
+| Trends 列表 banner、卡片樣式與分類互動 | `trends.html`、`assets/<lang>/css/trends.css`、`assets/<lang>/js/trends.js` |
+| Trends / Press 文章標題、日期、縮圖與內文 | `assets/<lang>/data/trends-articles.json` |
+| 單篇文章版型與樣式 | `article.html`、`assets/<lang>/js/trends-content.js`、`assets/<lang>/css/article.css`、`assets/<lang>/js/article.js` |
+| 詢價頁 | `quote.html`、`assets/<lang>/css/quote.css`、`assets/<lang>/js/quote.js` |
+| iPad／平板專用排版 | `assets/<lang>/css/tablet.css` |
 
 `trends-content.js` 同時負責把 JSON 資料呈現在文章列表與文章內頁。修改文章內容時，優先編輯 JSON；列表 HTML 中的預設卡片可能會被載入的資料替換。Work 列表卡片則寫在 `work.html`，新增作品時需一併維護列表及作品資料。
 
@@ -84,13 +87,14 @@
 
 - 首頁排版：先讀 [桌面版保留紀錄](HOMEPAGE-DESKTOP.md)，手機樣式修改須保留既有桌面排版。
 
-- iPad／平板排版：編輯 `assets/css/tablet.css`，由所有 HTML 最後載入。僅於 751–1400px 且具觸控輸入（`any-pointer: coarse`）時生效；750px 以下保留手機版，純滑鼠桌機不套用。瀏覽器模擬時需啟用觸控，單純縮小桌機視窗不會啟用。
+- iPad／平板排版：編輯 `assets/<lang>/css/tablet.css`，由所有 HTML 最後載入。僅於 751–1400px 且具觸控輸入（`any-pointer: coarse`）時生效；750px 以下保留手機版，純滑鼠桌機不套用。瀏覽器模擬時需啟用觸控，單純縮小桌機視窗不會啟用。
 
-- 新增文章：編輯 `assets/data/trends-articles.json`，詳見 [TRENDS.md](TRENDS.md)。
-- 修改作品：編輯 `assets/data/projects.js`。它是 JavaScript 資料檔，保留 `window.projects =`。
+- 新增文章：編輯 `assets/<lang>/data/trends-articles.json`，詳見 [TRENDS.md](TRENDS.md)。
+- 修改英文作品：編輯 `assets/en/data/projects.js`，保留 `window.projects =`。
+- 修改中文作品：編輯 `assets/zh/data/project-reference.js`，保留 `window.projectReferences =`。19 個作品各自保存原站連結、中文內容與 `1440`／`390` 兩種版面；區塊座標和尺寸以 `vw` 表示。圖片位於 `assets/images/zh/projects/`，共用外觀與互動由 `project-reference.css`、`project-reference.js` 管理。
 - 新增圖片：放進對應頁面或 `assets/images/projects/專案名稱/`，檔名使用英文小寫及連字號。
 - HTML、JS、JSON 裡供瀏覽器載入的素材路徑以目前 HTML 所在的語言資料夾為基準，例如 `../assets/images/trends/new-story.jpg`。
-- CSS 的 `url()` 以 CSS 所在目錄為基準，例如 `../images/shared/logo.png`、`../fonts/gotham-quote.woff2`。
+- CSS 的 `url()` 以 CSS 所在目錄為基準，例如 `../../images/shared/logo.png`、`../../fonts/gotham-quote.woff2`。
 - 搬動或新增素材後執行 `python3 scripts/check-assets.py`，再用瀏覽器檢查頁面與互動。
 
 本次整理保留全部原始圖片與影片，包含目前未引用的素材，沒有刪除或重新壓縮圖片。作品與文章共用同一份專案圖片，避免重複存放。

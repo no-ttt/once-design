@@ -1,6 +1,6 @@
 # 新增 Trends / Press 文章
 
-所有內容放在 `assets/data/trends-articles.json`，列表與子頁會自動讀取。新增文章不用複製 HTML，也不用修改 JavaScript。請用本機網站伺服器（例如 VS Code Live Server）預覽；JSON 需要透過 HTTP 載入。
+英文內容放在 `assets/en/data/trends-articles.json`，中文內容放在 `assets/zh/data/trends-articles.json`，兩份獨立維護，列表與子頁會自動讀取。新增文章不用複製 HTML，也不用修改 JavaScript。請用本機網站伺服器（例如 VS Code Live Server）預覽；JSON 需要透過 HTTP 載入。
 
 在最外層陣列新增物件（與上一筆之間記得加逗號）：
 

@@ -1,0 +1,331 @@
+/* Chinese About and Quote only; these pages never load the English assets. */
+@font-face { font-family: 'Once Chinese'; src: url('../../fonts/zh-mgen-light.woff2') format('woff2'); font-weight: 300; font-display: swap; }
+@font-face { font-family: 'Once Chinese'; src: url('../../fonts/zh-mgen-regular.woff2') format('woff2'); font-weight: 400; font-display: swap; }
+@font-face { font-family: 'Once Chinese'; src: url('../../fonts/zh-mgen-bold.woff2') format('woff2'); font-weight: 700; font-display: swap; }
+body:is(.about-page,.quote-page) { --zh-font: 'Once Chinese', 'PingFang TC', 'Microsoft JhengHei', sans-serif; }
+:is(.about-page,.quote-page) .nav-menu-list { font-family: var(--zh-font); }
+body:is(.about-page,.quote-page) .site-header .brand-logo { width: 14.125vw; margin: 2.03vw 0 0 2.5vw; }
+body:is(.about-page,.quote-page) .site-header .brand-logo img { object-fit: contain; }
+:is(.about-page,.quote-page) .page-kicker { font: 300 1.09375vw/1.4 var(--zh-font); letter-spacing: .2em; color: #000; }
+.about-hero { min-height: 51.09158vw; }
+.about-hero-copy { display: block; padding: 0; }
+.about-hero-heading { position: absolute; left: 6.425vw; top: 23.3127vw; }
+.about-hero-copy .page-kicker { margin: 0 0 3.32vw .1944vw; }
+.about-hero h1 { font-size: 3.515625vw; line-height: .9; }
+.about-hero h1 > span:has(em) { line-height: .9; }
+body.about-page .about-hero-subtitle { margin-top: 4.55vw; font: 400 2.34375vw/1.3 var(--zh-font); letter-spacing: .2em; white-space: nowrap; }
+.about-hero-media video { height: 51.09158vw; object-position: 60% 58%; filter: none; }
+.about-editorial { color: #000; }
+.about-editorial .section-label { width: 8.203125vw; height: 2.42vw; font: 300 .833333vw/1.4 var(--zh-font); letter-spacing: .3em; }
+.about-story-layout { grid-template-columns: 23.41146vw 36.13715vw; align-items: end; gap: 7.198vw; padding: 12.59549vw 7.12674vw 17.04861vw 26.12847vw; }
+.about-story-layout > div { padding-bottom: 1.01vw; }
+.about-story h2, .about-founder h2 { position: static; width: auto; font: 700 2.34375vw/1.3 var(--zh-font); letter-spacing: .1em; }
+.about-story .about-heading-intro, .about-founder .about-heading-intro { display: block; margin: 0; font: 300 1.25vw/1.6 var(--zh-font); letter-spacing: .12em; }
+.about-story .about-body-copy, .about-founder .about-body-copy, .about-studio .about-body-copy { position: static; font: 300 .9375vw/1.4 var(--zh-font); letter-spacing: .2em; }
+.about-body-copy strong { font-weight: 700; }
+.about-story .about-body-copy { margin-top: 5.625vw; }
+.about-story .about-body-copy p + p, .about-founder .about-body-copy p + p { margin-top: 1.3125vw; }
+.about-story img { width: 100%; height: 33.99197vw; margin: 0; }
+.about-studio { background-position: center; }
+.about-studio-layout { display: block; min-height: 47.265625vw; padding: 12.75716vw 28.97352vw 13.16319vw; }
+.about-founded { margin: 0; font: 300 1.25vw/1.6 var(--zh-font); letter-spacing: .12em; }
+.about-studio h2 { width: auto; font: 700 2.34375vw/1.3 var(--zh-font); letter-spacing: .05em; }
+.about-studio-layout > .about-studio-paragraphs { display: grid; grid-template-columns: 15.8vw 18.535vw; gap: 7.666vw; margin-top: 4.9175vw; min-height: 0; }
+.about-studio-paragraphs { position: relative; }
+.about-studio-paragraphs::before { content: ''; position: absolute; left: 19.633vw; top: 0; width: 1px; height: 5.469vw; background: #99978d; }
+.about-founder-layout { grid-template-columns: 25.2376vw 28.533vw; padding: 12.297vw 26.3889vw 12.313vw 9.8806vw; align-items: end; }
+.about-founder .about-body-copy { margin-top: 4.2285vw; }
+.about-founder img { width: 25.2376vw; height: 34.7016vw; }
+/* Retain all three original consultancy benefits at the user's request. */
+.about-benefits { background: #eee8d8; }
+
+.quote-hero-media video { height: 51.09195vw; }
+.quote-hero-title { top: 24.59vw; }
+.quote-hero-copy .page-kicker { margin: 0 0 3.32vw .23437vw; }
+.quote-hero h1 { font-size: 3.515625vw; }
+.quote-page .quote-hero-subtitle { margin-top: 4.53vw; font: 400 2.34375vw/1.3 var(--zh-font); letter-spacing: .1em; white-space: nowrap; color: #000; }
+.quote-services { min-height: 46.71875vw; }
+.quote-services-copy { width: 27.744vw; margin: 21.559vw 22.211vw 0 auto; }
+.quote-services h2 { margin: 0 0 3.514vw; font: 300 2.34375vw/1.3 var(--zh-font); letter-spacing: .12em; }
+.quote-services h2 strong { font-weight: 400; }
+.quote-services-copy > p:last-child { width: 22.909vw; margin-left: 4.836vw; font: 300 1.25vw/1.6 var(--zh-font); letter-spacing: .12em; }
+.quote-services-copy > p:last-child::before { left: -4.836vw; height: 100%; }
+.quote-benefits h3 { font: 300 1.5625vw/1.1 var(--zh-font); letter-spacing: .12em; }
+.quote-benefits > div:first-child h3 { line-height: 1.4; }
+.quote-page .quote-vision h2 { width: 28.61511vw; margin-top: 4.60571vw; text-align: center; font: 300 3.125vw/1.4 var(--zh-font); letter-spacing: .12em; }
+.quote-vision h2 > span, .quote-vision h2 > strong { display: block; white-space: nowrap; }
+.quote-vision h2 > strong { font-weight: 700; }
+.quote-request { grid-template-columns: 43.3915vw minmax(0, 1fr); gap: 0; padding: 0 7.58% 7.86vw 0; min-height: 945px; }
+.quote-details { min-height: 0; }
+.quote-heading-group { display: flex; flex-direction: column; width: fit-content; margin: 0 0 0 11.326vw; }
+.quote-heading-group::before { display: none; }
+.quote-details h2 { width: auto; margin: 0; padding-bottom: 1.1vw; border-bottom: 1px solid #7e796e; font: 700 1.953125vw/1.3 var(--zh-font); letter-spacing: .12em; white-space: nowrap; }
+.quote-heading-group > p { width: auto; margin: .532vw 0 0; font: 400 1.953125vw/1.3 var(--zh-font); letter-spacing: .12em; color: #000; }
+.quote-request .contact-links { width: 31.2vw; left: 11.326vw; bottom: 0; }
+.quote-request .contact-link::after, .quote-request .contact-link-arrow { display: none; }
+.quote-request .contact-link { grid-template-columns: 16px minmax(0,1fr); }
+.quote-request .quote-form { justify-self: stretch; width: 100%; margin: 0; gap: 25px 50px; padding: 24px 39px; }
+.quote-form legend, .quote-form .quote-field { font: 400 15px/18px var(--zh-font); }
+.quote-form .quote-options label { font-family: var(--zh-font); font-size: 14px; font-weight: 300; }
+.quote-form legend { margin-bottom: 8px; }
+.quote-form .contact-submit { grid-column: 1 / -1; width: 100%; font: 400 15px/1.3 var(--zh-font); }
+.quote-field-error { font-family: var(--zh-font); }
+.quote-form [hidden] { display: none; }
+
+@media (max-width: 750px) {
+  body:is(.about-page,.quote-page) .site-header .brand-logo { width: 15.745vw; margin: 4.459vw 0 0 4.403vw; }
+  body:is(.about-page,.quote-page) .site-header .brand-logo img { aspect-ratio: 61.4 / 35.2; object-fit: contain; }
+  :is(.about-page,.quote-page) .menu-toggle-btn { top: 18.4px; right: 8.09vw; }
+  :is(.about-page,.quote-page) .page-kicker { font-size: 12px; }
+  .about-hero { grid-template-columns: 1fr; }
+  /* Mobile banner video matches the English about page. */
+  .about-hero-media { height: 109.1vw; }
+  .about-hero-media video { height: 100svh; object-position: 63% 0%; }
+  .about-hero-media > p { width: 46.743vw; max-width: none; left: 12.047vw; bottom: 7.55vw; font-size: 10px; }
+  .about-hero-media > p br { display: none; }
+  .about-hero-copy { min-height: 69.539vw; padding: 18.285vw 6.77vw 8.08vw 12.047vw; }
+  .about-hero-heading { position: static; }
+  .about-hero-copy .page-kicker { margin: 0 0 1.279vw .1vw; }
+  .about-hero h1 { font-size: 6.410256vw; }
+  body.about-page .about-hero-subtitle { margin-top: 6.667vw; font-size: 5.641026vw; letter-spacing: .1em; }
+  .about-editorial .section-label { width: 81px; height: 26px; min-height: 0; font-size: 10px; }
+  .about-founder .section-label { width: 86px; }
+  .about-story-layout { display: grid; grid-template-columns: 1fr; gap: 15.745vw; padding: 33.3615vw 11.15% 0 12.18%; }
+  .about-story-layout > div { padding: 0; }
+  .about-story h2, .about-founder h2 { font-size: 25px; line-height: 1.3; }
+  .about-story .about-heading-main { width: auto; }
+  .about-story .about-heading-intro { font-size: 10px; margin-bottom: 4px; }
+  .about-story .about-body-copy, .about-founder .about-body-copy, .about-studio .about-body-copy { font-size: 12px; line-height: 1.4; }
+  .about-story .about-body-copy { margin-top: 13px; }
+  .about-story .about-body-copy p + p, .about-founder .about-body-copy p + p { margin-top: 16.8px; }
+  .about-story img { height: 67.456vw; }
+  /* Vertical padding follows the English ABOUT section (76px above, 59px below). */
+  .about-studio-layout { min-height: 0; padding: 76px 10% 59px; }
+  .about-founded { font-size: 12px; margin-bottom: 5px; }
+  .about-studio h2 { font-size: 25px; line-height: 1.3; letter-spacing: 0; }
+  .about-studio-layout > .about-studio-paragraphs { display: block; margin-top: 19px; }
+  .about-studio-paragraphs::before { display: none; }
+  .about-studio-paragraphs p + p { margin-top: 15px; }
+  .about-founder-layout { grid-template-columns: 1fr; gap: 22.472vw; padding: 26.571vw 7.95% 21.1vw 12.047%; }
+  .about-founder img { width: 75.697vw; height: 77.112vw; margin: 0; }
+  .about-founder .about-heading-intro { font-size: 12px; margin-bottom: 5px; }
+  .about-founder .about-body-copy { margin-top: 19px; }
+  .quote-hero { grid-template-rows: 109.29789vw auto; }
+  .quote-hero-media video { height: 194.0308vw; }
+  .quote-hero-copy { min-height: 84.7338vw; padding: 34.4vw 6.41vw 7.82vw 12.047vw; }
+  .quote-hero-title { width: 100%; position: static; margin: 0; }
+  .quote-hero-copy .page-kicker { margin-bottom: 4.1vw; }
+  .quote-hero h1 { font-size: 6.410256vw; margin: 0; }
+  .quote-page .quote-hero-subtitle { margin-top: 6.667vw; font-size: 5.641026vw; }
+  .quote-services { min-height: 95.99769vw; }
+  .quote-services-copy { width: 64%; margin: 37.432vw 0 0 30.032vw; }
+  .quote-services h2 { margin: 0 0 5.128vw; font-size: 20px; line-height: 1.5; }
+  .quote-services-copy > p:last-child { width: 57.2155vw; margin: 0 0 13vw 6.763vw; font-size: 13px; line-height: 1.5; letter-spacing: .16em; }
+  .quote-services-copy > p:last-child::before { left: -6.763vw; height: 100%; }
+  .quote-benefits { padding: 8.97436vw 4.29692vw; }
+  .quote-benefits h3 { font-size: 15px; line-height: 1.1; }
+  .quote-benefits > div { height: 51.28205vw; }
+  .quote-benefits > div img { width: 25.641vw; left: 12.898vw; }
+  .quote-benefits > div h3 { left: 48.54vw; bottom: auto; top: 50%; transform: translateY(-50%); }
+  .quote-benefits > div:nth-child(2) img { left: 11.7vw; }
+  .quote-benefits > div:nth-child(2) h3 { left: 47.35vw; }
+  .quote-page .quote-vision h2 { width: 65%; font-size: 30px; margin-top: 4.60537vw; }
+  .quote-request { display: flex; flex-direction: column; gap: 0; padding: 0 12.05% 90px; min-height: 0; }
+  .quote-heading-group { margin: 0 auto; text-align: center; }
+  .quote-details h2 { font-size: 20px; padding-bottom: 10px; }
+  .quote-heading-group > p { margin: 10px 0 0; font-size: 20px; }
+  .quote-heading-group > p::before { display: none; }
+  .quote-request .contact-links { position: static; width: 100%; margin: 42px 0 0; }
+  .quote-request .contact-link, .quote-request .contact-links li:first-child .contact-link { min-height: 41.125px; column-gap: 15px; padding: 10px 0; }
+  .quote-request .contact-link-address { min-height: 66px; }
+  .quote-request .quote-form { align-self: center; width: 90vw; margin: 36px 0 0; padding: 25px; gap: 25px 20px; }
+  .quote-form .quote-field { grid-column: 1 / -1; }
+  .quote-form .quote-project-options { grid-template-columns: 1fr; }
+  .quote-form .quote-options label { font-size: 13px; }
+  .quote-form legend, .quote-form .quote-field { font-size: 15px; }
+}
+@media (min-width: 751px) and (max-width: 1100px) {
+  .quote-request { grid-template-columns: 36% 64%; padding-right: 5%; }
+  .quote-heading-group { margin-left: 6vw; }
+  .quote-request .contact-links { left: 6vw; width: 27vw; }
+  .quote-request .quote-form { padding: 25px; column-gap: 24px; }
+  .quote-form .quote-options { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .about-story .about-body-copy, .about-founder .about-body-copy, .about-studio .about-body-copy { font-size: 12px; }
+}
+
+/* Chinese footer: six links, reference typography and independent row placement. */
+html[lang="zh-Hant"] body[data-page="about"] .site-footer { height: 118px; min-height: 0; padding: 0; position: relative; }
+html[lang="zh-Hant"] body[data-page="about"] .footer-top-row { position: static; }
+html[lang="zh-Hant"] body[data-page="about"] .footer-nav {
+  position: absolute; left: 7.480469%; top: 32.5625px;
+  display: flex; flex-wrap: nowrap; justify-content: flex-start;
+  width: auto; padding: 0; margin: 0; gap: 2.383681vw;
+}
+html[lang="zh-Hant"] body[data-page="about"] .footer-nav a {
+  font: 300 1.015625vw/.78 'Once Chinese', sans-serif;
+  letter-spacing: .3em; color: #fff;
+}
+html[lang="zh-Hant"] body[data-page="about"] .footer-nav a:first-child,
+html[lang="zh-Hant"] body[data-page="about"] .footer-nav a:hover { color: #afa385; }
+html[lang="zh-Hant"] body[data-page="about"] .footer-copyright {
+  position: absolute; left: 7.480469%; top: 76.046875px;
+  width: auto; margin: 0; padding: 0;
+  font: 400 11px/1.3 'Trajan Pro', serif; letter-spacing: .03em; color: #fff;
+}
+html[lang="zh-Hant"] body[data-page="about"] .back-to-top {
+  position: absolute; top: 25.84375px; right: 7.5%;
+  display: flex; align-items: center; gap: 0; padding: 0; margin: 0;
+  font: 300 1.015625vw/1.4 'Once Chinese', sans-serif; letter-spacing: .2em; color: #fff;
+}
+html[lang="zh-Hant"] body[data-page="about"] .back-to-top span { width: 5.46875vw; }
+html[lang="zh-Hant"] body[data-page="about"] .back-to-top svg { width: 18px; height: 18px; }
+@media (max-width: 750px) {
+  html[lang="zh-Hant"] body[data-page="about"] .site-footer { height: 147px; }
+  html[lang="zh-Hant"] body[data-page="about"] .footer-nav {
+    left: 7.948718%; right: 7.948718%; top: 62.984375px;
+    justify-content: center; gap: 14px;
+  }
+  html[lang="zh-Hant"] body[data-page="about"] .footer-nav a { font-size: 14px; font-weight: 400; }
+  html[lang="zh-Hant"] body[data-page="about"] .footer-copyright {
+    left: 7.948718%; right: 7.948718%; top: 99.5px;
+    font-size: 7px; text-align: left;
+  }
+  html[lang="zh-Hant"] body[data-page="about"] .back-to-top { right: 7.948718%; top: 9.984375px; font-size: 12px; }
+  html[lang="zh-Hant"] body[data-page="about"] .back-to-top span { width: 59.390625px; }
+  html[lang="zh-Hant"] body[data-page="about"] .back-to-top svg { width: 15px; height: 12.90625px; }
+}
+
+/* Footer visual alignment, including the divider independent of navigation flow. */
+html[lang="zh-Hant"] body[data-page="about"] .footer-top-row {
+  min-height: 0;
+  border: 0;
+}
+html[lang="zh-Hant"] body[data-page="about"] .site-footer::after {
+  content: '';
+  position: absolute;
+  left: 7.519531%;
+  width: 85%;
+  top: calc(3.359375vw + 13.9375px);
+  height: 1px;
+  background: #9d9d9d;
+  pointer-events: none;
+}
+html[lang="zh-Hant"] body[data-page="about"] .footer-nav {
+  display: grid;
+  grid-template-columns: repeat(6, 72.333333px);
+  gap: 0;
+  top: calc(1.777344vw + 6.96875px);
+}
+html[lang="zh-Hant"] body[data-page="about"] .footer-copyright { top: calc(4.244792vw + 14.921875px); }
+html[lang="zh-Hant"] body[data-page="about"] .back-to-top { top: 1.794705vw; }
+html[lang="zh-Hant"] body[data-page="about"] .back-to-top > span {
+  text-box: normal;
+  line-height: 1.4;
+  text-align: left;
+}
+html[lang="zh-Hant"] body[data-page="about"] .back-to-top svg {
+  flex: 0 0 1.25vw;
+  width: 1.25vw;
+  height: 1.25vw;
+}
+@media (max-width: 750px) {
+  html[lang="zh-Hant"] body[data-page="about"] .site-footer::after {
+    left: 12.155449%; width: 75.689103%; top: 88.984375px;
+  }
+  html[lang="zh-Hant"] body[data-page="about"] .footer-nav { display: flex; top: 62.984375px; gap: 14px; }
+  html[lang="zh-Hant"] body[data-page="about"] .footer-copyright { top: 99.5px; text-align: center; }
+  html[lang="zh-Hant"] body[data-page="about"] .back-to-top { top: 9.984375px; }
+  html[lang="zh-Hant"] body[data-page="about"] .back-to-top svg { flex-basis: 15px; width: 15px; height: 12.90625px; }
+}
+
+/* Final reference alignment; higher specificity keeps base shell rules scoped out. */
+body.about-page .about-editorial .section-label { width: 8.203125vw; padding: 0; }
+@media (min-width: 751px) {
+  .quote-services { background-image: url('../../images/quote/quote-paper-texture.png'), url('../../images/zh/quote/blueprint.jpg'); }
+  .quote-services.quote-parallax::before { background-image: url('../../images/quote/quote-paper-texture.png'), url('../../images/zh/quote/blueprint.jpg'); }
+}
+@media (max-width: 750px) {
+  body.about-page .about-editorial .section-label { width: 81px; }
+  body.about-page .about-founder .section-label { width: 86px; }
+}
+@media (max-width: 750px) {
+  .quote-page .site-footer { position: relative; height: 147px; min-height: 147px; padding: 0; }
+  .quote-page .footer-top-row { position: static; padding: 0; min-height: 0; border: 0; }
+  .quote-page .footer-nav { position: absolute; top: 62px; left: 7.7%; right: 7.7%; width: auto; display: flex; flex-wrap: nowrap; justify-content: space-between; gap: 5px; padding: 0; }
+  .quote-page .footer-nav a { font: 400 9px/1.3 'Trajan Pro',serif; }
+  .quote-page .back-to-top { position: absolute; top: 10px; right: 7.7%; padding: 0; font-size: 12px; }
+  .quote-page .footer-copyright { position: absolute; top: 99px; left: 7.7%; right: 7.7%; padding: 0; margin: 0; font-size: 7px; text-align: center; }
+  .quote-page .site-footer::after { content: ''; position: absolute; left: 12%; right: 12%; top: 89px; height: 1px; background: #9d9d9d; }
+}
+
+/* About typography follows the physical Light / Bold faces in the Chinese reference. */
+@font-face { font-family: 'About Chinese Light'; src: url('../../fonts/zh-mgen-light.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'About Chinese Bold'; src: url('../../fonts/zh-mgen-bold.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+body.about-page .about-hero-subtitle-light,
+body.about-page .about-story .about-heading-intro,
+body.about-page .about-story .about-body-copy,
+body.about-page .about-studio .about-founded,
+body.about-page .about-studio .about-body-copy {
+  font-family: 'About Chinese Light', sans-serif;
+  font-weight: 400;
+  font-synthesis: none;
+}
+body.about-page .about-story .about-heading-main,
+body.about-page .about-story .about-body-copy strong,
+body.about-page .about-studio h2 {
+  font-family: 'About Chinese Bold', sans-serif;
+  font-weight: 400;
+  font-synthesis: none;
+}
+/* Match the Chinese Homepage's story tag without importing its page styles. */
+html[lang="zh-Hant"] body.about-page main .about-editorial .section-label {
+  width: 8.1658936vw;
+  height: 2.421875vw;
+  min-width: 0;
+  max-width: none;
+  padding: 0;
+  box-sizing: border-box;
+  font: 400 .85859vw/1.5 var(--zh-font);
+  letter-spacing: .3em;
+  background: #362e2b;
+  color: #fff;
+}
+@media (max-width: 750px) {
+  html[lang="zh-Hant"] body.about-page main .about-editorial .section-label {
+    width: 22.564103vw;
+    height: 26px;
+    font-size: 10px;
+  }
+}
+
+/* The reference adds bold weight specifically to 值 within the Bold font face. */
+body.about-page .about-story .about-value-emphasis {
+  font-weight: 700;
+  font-synthesis: weight;
+}
+
+/* Chinese consultancy captions, matching the supplied reference. */
+body.about-page .about-benefits h3 {
+  font: 400 1.5625vw/1.1 'About Chinese Light', sans-serif;
+  font-synthesis: none;
+  letter-spacing: .12em;
+  text-transform: none;
+}
+body.about-page .about-benefits > div:first-child h3 { line-height: 1.4; }
+@media (max-width: 750px) {
+  body.about-page .about-benefits h3 { font-size: 3.846154vw; }
+}
+@media (min-width: 751px) and (max-width: 1400px) and (any-pointer: coarse) {
+  body.about-page .about-benefits h3 { font-size: 15px; }
+}
+
+@font-face { font-family: 'About Year Montserrat'; src: url('../../fonts/zh-about-montserrat-regular.woff2') format('woff2'); font-style: normal; font-weight: 400; font-display: swap; }
+body.about-page .about-founded-year { font-family: 'About Year Montserrat', sans-serif; font-weight: 400; }
+
+@font-face { font-family: 'Quote Chinese Light'; src: url('../../fonts/zh-mgen-light.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+.quote-page .quote-hero-subtitle-light { font-family: 'Quote Chinese Light', sans-serif; font-weight: 400; font-synthesis: none; }
+@media (min-width: 751px) {
+  /* Let the form determine the row height so the contact list ends at its bottom. */
+  .quote-page .quote-request { min-height: 0; }
+  .quote-page .quote-request .quote-details { align-self: stretch; min-height: 0; }
+}

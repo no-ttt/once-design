@@ -1,0 +1,14 @@
+/* One footer gap for the three Chinese consultation pages. */
+body:is([data-page="home"], [data-page="about"], [data-page="quote"]) {
+  --consultation-footer-gap: calc(max(55px, 3.7vw) + 2vh);
+}
+body:is([data-page="home"], [data-page="about"]) .contact-section,
+body[data-page="quote"] .quote-request {
+  padding-bottom: var(--consultation-footer-gap);
+}
+body:is([data-page="home"], [data-page="about"]) .contact-sticky-space { height: 0; }
+@media (max-width: 750px) {
+  body:is([data-page="home"], [data-page="about"], [data-page="quote"]) {
+    --consultation-footer-gap: 90px;
+  }
+}
