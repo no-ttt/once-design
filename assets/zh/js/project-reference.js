@@ -22,6 +22,15 @@
     nav.style.bottom = 'auto';
     nav.style.top = (path.offsetTop + (path.offsetHeight - nav.offsetHeight) / 2) + 'px';
   }
+  // Place the mobile gallery below the rendered text and size the section to fit it.
+  function fitDesignGallery(section) {
+    const gallery = section.querySelector('.project-design-gallery');
+    if (!gallery || !section.isConnected) return;
+    const vw = px => px / innerWidth * 100 + 'vw';
+    const text = [...section.querySelectorAll('.project-design-article > *')];
+    if (text.length) gallery.style.top = vw(Math.max(...text.map(e => e.parentElement.offsetTop + e.offsetTop + e.offsetHeight)) + innerWidth * 0.14);
+    section.style.height = vw(gallery.offsetTop + gallery.offsetHeight + innerWidth * 0.16);
+  }
   function render(focus = false) {
     const view = current.views[mobile.matches ? '390' : '1440'];
     document.title = current.title.replace(/\n/g, ' ') + ' | ONCE DESIGN';
@@ -42,6 +51,7 @@
           element.src = block.src;
           element.alt = block.alt;
           element.style.height = block.height + 'vw';
+          if (block.position) element.style.objectPosition = block.position;
           element.loading = index === 0 ? 'eager' : 'lazy';
           if (index === 0) element.fetchPriority = 'high';
         } else {
@@ -218,6 +228,20 @@
             e.style.top = (parseFloat(e.style.top)-top)+'vw';
           });
         });
+        // Mobile matches the English page: one full-width column at each photo's own proportions.
+        const images = [...section.querySelectorAll('img.project-block')]
+          .sort((a, b) => parseFloat(a.style.top) - parseFloat(b.style.top) || parseFloat(a.style.left) - parseFloat(b.style.left));
+        if (mobile.matches && images.length) {
+          const gallery = document.createElement('div');
+          gallery.className = 'project-design-gallery';
+          gallery.style.top = Math.min(...images.map(e => parseFloat(e.style.top))) + 'vw';
+          images.forEach(image => {
+            ['left', 'top', 'width', 'height'].forEach(key => image.style.removeProperty(key));
+            image.addEventListener('load', () => fitDesignGallery(section), {once:true});
+            gallery.append(image);
+          });
+          section.append(gallery);
+        }
       }
       root.append(section);
     });
@@ -267,6 +291,7 @@
           const bottom = Math.max(...content.map(element => element.offsetTop + element.offsetHeight));
           section.style.height = (bottom + innerWidth * 0.18) + 'px';
         });
+        root.querySelectorAll('.project-design').forEach(fitDesignGallery);
       }
       centerBreadcrumbNav();
     });

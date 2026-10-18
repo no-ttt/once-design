@@ -146,7 +146,7 @@ window.projects = [
     "awards": [
       "HOME JOURNAL AWARD 2022 - RETAIL DESIGN (GOLD)"
     ],
-    "quote": "\" Retail Store Interior Design: Design Concept \"",
+    "quote": "\" Retail Store Interior Design: Design Concept\u00a0\"",
     "articles": [
       {
         "title": "KLASSE14: Commercial Interior Design Concept",

@@ -128,7 +128,7 @@ window.projectReferences = [
               "height": 3.9388020833333335,
               "type": "text",
               "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">在旺角這個繁囂鬧市中，<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">NEBU</span>店鋪成了一處安靜且美麗的角落，如同一片飄落的雪花，輕盈而優雅。這是一個關於雪花酥的夢幻空間，不僅是銷售的場域，更是感官與情感交織的藝術殿堂，完美示範了如何將「瞬間之美」轉化為令人難忘的購物體驗。</span></p>",
-              "text": "在旺角這個繁囂鬧市中，NEBU店鋪成了一處安靜且美麗的角落，如同一片飄落的雪花，輕盈而優雅。這是一個關於雪花酥的夢幻空間，不僅是銷售的場域，更是感官與情感交織的藝術殿堂，完美示範了如何將「瞬間之美」轉化為令人難忘的購物體驗。",
+              "text": "在旺角這個繁囂鬧市中，NEBU店舖成了一處安靜且美麗的角落，如同一片飄落的雪花，輕盈而優雅。這是一個關於雪花酥的夢幻空間，不僅是銷售的場域，更是感官與情感交織的藝術殿堂，完美示範了如何將「瞬間之美」轉化為令人難忘的購物體驗。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -403,8 +403,8 @@ window.projectReferences = [
               "width": 35.58051215277778,
               "height": 2.234157986111111,
               "type": "text",
-              "html": "<h5 style=\"font-family:'Project Chinese Regular', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:1.718750vw;line-height:2.234375vw;letter-spacing:0.051563vw\">「 像雪花般入口即化，捉住瞬間幸福時刻 」</h5>",
-              "text": "「 像雪花般入口即化，捉住瞬間幸福時刻 」",
+              "html": "<h5 style=\"font-family:'Project Chinese Regular', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:1.718750vw;line-height:2.234375vw;letter-spacing:0.051563vw\">「 像雪花般入口即化，捕捉瞬間的幸福時刻 」</h5>",
+              "text": "「 像雪花般入口即化，捕捉瞬間的幸福時刻 」",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -445,8 +445,8 @@ window.projectReferences = [
               "width": 24.26974826388889,
               "height": 1.4995659722222223,
               "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">商店門面設計｜透明如初的邂逅</h6>",
-              "text": "商店門面設計｜透明如初的邂逅",
+              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">透明如初的邂逅</h6>",
+              "text": "透明如初的邂逅",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -481,8 +481,8 @@ window.projectReferences = [
               "width": 24.26974826388889,
               "height": 1.4995659722222223,
               "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">店面裝潢設計｜開放式佈局與互動體驗</h6>",
-              "text": "店面裝潢設計｜開放式佈局與互動體驗",
+              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">開放式佈局與互動體驗</h6>",
+              "text": "開放式佈局與互動體驗",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -499,8 +499,8 @@ window.projectReferences = [
               "width": 24.26974826388889,
               "height": 9.190538194444445,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">店面設有朱古力噴泉製作區，吸引顧客近距離觀賞製作過程，彷彿參與一場美學的朝聖。這不僅增強了顧客的參與感，還為購物體驗增加記憶點。展示架上排列的雪花酥猶如藝術品般精心擺設，邀請顧客用目光和味蕾去感受。設計師透過研究產品特性，捕捉客人的購物心理，令整個銷售過程更加高效。</span></p>",
-              "text": "店面設有朱古力噴泉製作區，吸引顧客近距離觀賞製作過程，彷彿參與一場美學的朝聖。這不僅增強了顧客的參與感，還為購物體驗增加記憶點。展示架上排列的雪花酥猶如藝術品般精心擺設，邀請顧客用目光和味蕾去感受。設計師透過研究產品特性，捕捉客人的購物心理，令整個銷售過程更加高效。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">店面設有朱古力噴泉製作區，吸引顧客近距離觀賞製作過程，彷彿參與一場美學的朝聖。這不僅增強了顧客的參與感，還為購物體驗增添記憶點。展示架上精心擺設的雪花酥猶如藝術品般，邀請顧客用目光和味蕾去感受。設計師透過研究產品特性，捕捉客人的購物心理，令整個銷售過程更加高效。</span></p>",
+              "text": "店面設有朱古力噴泉製作區，吸引顧客近距離觀賞製作過程，彷彿參與一場美學的朝聖。這不僅增強了顧客的參與感，還為購物體驗增添記憶點。展示架上精心擺設的雪花酥猶如藝術品般，邀請顧客用目光和味蕾去感受。設計師透過研究產品特性，捕捉客人的購物心理，令整個銷售過程更加高效。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -517,8 +517,8 @@ window.projectReferences = [
               "width": 24.26974826388889,
               "height": 1.4995659722222223,
               "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">環境色彩｜淡雅清新的視覺享受</h6>",
-              "text": "環境色彩｜淡雅清新的視覺享受",
+              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">淡雅清新的視覺享受</h6>",
+              "text": "淡雅清新的視覺享受",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -535,44 +535,8 @@ window.projectReferences = [
               "width": 24.26974826388889,
               "height": 6.564670138888889,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">柔和的白色與淡藍色交織，猶如冬日清晨最純粹的光影。不鏽鋼展示架搭配燈光散發著自然的柔和感，與雪花酥的輕盈形成絕美的對比。顧客在此流連忘返，亦能在未來輕易回想起品牌，有效增強品牌識別度。</span></p>",
-              "text": "柔和的白色與淡藍色交織，猶如冬日清晨最純粹的光影。不鏽鋼展示架搭配燈光散發著自然的柔和感，與雪花酥的輕盈形成絕美的對比。顧客在此流連忘返，亦能在未來輕易回想起品牌，有效增強品牌識別度。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "0.694444vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 7.962239583333333,
-              "y": 46.149088541666664,
-              "width": 24.26974826388889,
-              "height": 1.4995659722222223,
-              "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">一場設計｜專營商業室內設計及店鋪工程</h6>",
-              "text": "一場設計｜專營商業室內設計及店鋪工程",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "0.694444vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 8.01974826388889,
-              "y": 48.046875,
-              "width": 24.26974826388889,
-              "height": 9.190538194444445,
-              "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">這個雪花酥商店設計已然超越了傳統零售店的界限。設計不僅僅是空間的佈局，更是情感的建築。它用最溫柔的方式，邀請每一個人駐足、感受、珍藏。除了 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">NEBU</span>，我們還參與了其他項目，例如 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">KLASSE14</span> 概念店、<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">TATCHA Lane Crawford</span> 等，驗證了我們在商業空間規劃方面的豐富經驗。</span></p>",
-              "text": "這個雪花酥商店設計已然超越了傳統零售店的界限。設計不僅僅是空間的佈局，更是情感的建築。它用最溫柔的方式，邀請每一個人駐足、感受、珍藏。除了 NEBU，我們還參與了其他項目，例如 KLASSE14 概念店、TATCHA Lane Crawford 等，驗證了我們在商業空間規劃方面的豐富經驗。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">柔和的白色與淡藍色交織，猶如冬日清晨最純粹的光影。不鏽鋼展示架搭配燈光，散發出自然的柔和感，與雪花酥的輕盈形成絕美的對比。顧客在此流連忘返，亦能在未來輕易回想起品牌，有效增強品牌識別度。</span></p>",
+              "text": "柔和的白色與淡藍色交織，猶如冬日清晨最純粹的光影。不鏽鋼展示架搭配燈光，散發出自然的柔和感，與雪花酥的輕盈形成絕美的對比。顧客在此流連忘返，亦能在未來輕易回想起品牌，有效增強品牌識別度。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -607,7 +571,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 17.77777777777778,
               "type": "image",
-              "src": "../assets/images/zh/projects/e6807df4b6c6cf18.jpg",
+              "src": "../assets/images/projects/nebu/nebu-gallery-1.jpg",
               "alt": "NEBU | GRANND PLAZA"
             },
             {
@@ -616,7 +580,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 39.93055555555556,
               "type": "image",
-              "src": "../assets/images/zh/projects/7ae5d82a53f37547.jpg",
+              "src": "../assets/images/projects/nebu/nebu-gallery-2.jpg",
               "alt": "NEBU | GRANND PLAZA"
             },
             {
@@ -625,7 +589,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 39.861111111111114,
               "type": "image",
-              "src": "../assets/images/zh/projects/8b484cc218aed82a.jpg",
+              "src": "../assets/images/projects/nebu/nebu-gallery-3.jpg",
               "alt": "NEBU | GRANND PLAZA"
             },
             {
@@ -634,7 +598,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 17.77777777777778,
               "type": "image",
-              "src": "../assets/images/zh/projects/28a59af328cea123.jpg",
+              "src": "../assets/images/projects/nebu/nebu-gallery-4.jpg",
               "alt": "NEBU | GRANND PLAZA"
             },
             {
@@ -643,7 +607,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 39.861111111111114,
               "type": "image",
-              "src": "../assets/images/zh/projects/96be0d3b255f77ba.jpg",
+              "src": "../assets/images/projects/nebu/nebu-gallery-5.jpg",
               "alt": "NEBU | GRANND PLAZA"
             },
             {
@@ -652,7 +616,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 39.861111111111114,
               "type": "image",
-              "src": "../assets/images/zh/projects/74dbdaa8c12c373f.jpg",
+              "src": "../assets/images/projects/nebu/nebu-gallery-6.jpg",
               "alt": "NEBU | GRANND PLAZA"
             },
             {
@@ -661,7 +625,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 17.77777777777778,
               "type": "image",
-              "src": "../assets/images/zh/projects/86c34620c738def2.jpg",
+              "src": "../assets/images/projects/nebu/nebu-gallery-7.jpg",
               "alt": "NEBU | GRANND PLAZA"
             },
             {
@@ -670,7 +634,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 17.77777777777778,
               "type": "image",
-              "src": "../assets/images/zh/projects/669ff587bfef829d.jpg",
+              "src": "../assets/images/projects/nebu/nebu-gallery-8.jpg",
               "alt": "NEBU | GRANND PLAZA"
             }
           ],
@@ -734,7 +698,7 @@ window.projectReferences = [
               "width": 100.0,
               "height": 115.64102564102565,
               "type": "image",
-              "src": "../assets/images/zh/projects/d99a05634e87bd83.jpg",
+              "src": "../assets/images/projects/nebu/nebu-gallery-1.jpg",
               "alt": "20241122_FineEdit_01.jpg"
             },
             {
@@ -846,7 +810,7 @@ window.projectReferences = [
               "height": 21.534455128205128,
               "type": "text",
               "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">在旺角這個繁囂鬧市中，<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">NEBU</span>店鋪成了一處安靜且美麗的角落，如同一片飄落的雪花，輕盈而優雅。這是一個關於雪花酥的夢幻空間，不僅是銷售的場域，更是感官與情感交織的藝術殿堂，完美示範了如何將「瞬間之美」轉化為令人難忘的購物體驗。</span></p>",
-              "text": "在旺角這個繁囂鬧市中，NEBU店鋪成了一處安靜且美麗的角落，如同一片飄落的雪花，輕盈而優雅。這是一個關於雪花酥的夢幻空間，不僅是銷售的場域，更是感官與情感交織的藝術殿堂，完美示範了如何將「瞬間之美」轉化為令人難忘的購物體驗。",
+              "text": "在旺角這個繁囂鬧市中，NEBU店舖成了一處安靜且美麗的角落，如同一片飄落的雪花，輕盈而優雅。這是一個關於雪花酥的夢幻空間，不僅是銷售的場域，更是感官與情感交織的藝術殿堂，完美示範了如何將「瞬間之美」轉化為令人難忘的購物體驗。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -1121,8 +1085,8 @@ window.projectReferences = [
               "width": 78.43349358974359,
               "height": 4.667467948717949,
               "type": "text",
-              "html": "<h5 style=\"font-family:'Project Chinese Regular', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:3.589744vw;line-height:4.666667vw;letter-spacing:0.107692vw\">「 像雪花般入口即化，捉住瞬間幸福時刻 」</h5>",
-              "text": "「 像雪花般入口即化，捉住瞬間幸福時刻 」",
+              "html": "<h5 style=\"font-family:'Project Chinese Regular', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:3.589744vw;line-height:4.666667vw;letter-spacing:0.107692vw\">「 像雪花般入口即化，捕捉瞬間的幸福時刻」</h5>",
+              "text": "「 像雪花般入口即化，捕捉瞬間的幸福時刻 」",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -1155,7 +1119,7 @@ window.projectReferences = [
           "kind": "quote"
         },
         {
-          "height": 907.3116987179487,
+          "height": 332.7,
           "blocks": [
             {
               "x": 7.884615384615384,
@@ -1163,8 +1127,8 @@ window.projectReferences = [
               "width": 84.08253205128206,
               "height": 4.923878205128205,
               "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">商店門面設計｜透明如初的邂逅</h6>",
-              "text": "商店門面設計｜透明如初的邂逅",
+              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">透明如初的邂逅</h6>",
+              "text": "透明如初的邂逅",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -1199,8 +1163,8 @@ window.projectReferences = [
               "width": 84.08253205128206,
               "height": 4.923878205128205,
               "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">店面裝潢設計｜開放式佈局與互動體驗</h6>",
-              "text": "店面裝潢設計｜開放式佈局與互動體驗",
+              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">開放式佈局與互動體驗</h6>",
+              "text": "開放式佈局與互動體驗",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -1217,8 +1181,8 @@ window.projectReferences = [
               "width": 84.08253205128206,
               "height": 25.841346153846157,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">店面設有朱古力噴泉製作區，吸引顧客近距離觀賞製作過程，彷彿參與一場美學的朝聖。這不僅增強了顧客的參與感，還為購物體驗增加記憶點。展示架上排列的雪花酥猶如藝術品般精心擺設，邀請顧客用目光和味蕾去感受。設計師透過研究產品特性，捕捉客人的購物心理，令整個銷售過程更加高效。</span></p>",
-              "text": "店面設有朱古力噴泉製作區，吸引顧客近距離觀賞製作過程，彷彿參與一場美學的朝聖。這不僅增強了顧客的參與感，還為購物體驗增加記憶點。展示架上排列的雪花酥猶如藝術品般精心擺設，邀請顧客用目光和味蕾去感受。設計師透過研究產品特性，捕捉客人的購物心理，令整個銷售過程更加高效。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">店面設有朱古力噴泉製作區，吸引顧客近距離觀賞製作過程，彷彿參與一場美學的朝聖。這不僅增強了顧客的參與感，還為購物體驗增添記憶點。展示架上精心擺設的雪花酥猶如藝術品般，邀請顧客用目光和味蕾去感受。設計師透過研究產品特性，捕捉客人的購物心理，令整個銷售過程更加高效。</span></p>",
+              "text": "店面設有朱古力噴泉製作區，吸引顧客近距離觀賞製作過程，彷彿參與一場美學的朝聖。這不僅增強了顧客的參與感，還為購物體驗增添記憶點。展示架上精心擺設的雪花酥猶如藝術品般，邀請顧客用目光和味蕾去感受。設計師透過研究產品特性，捕捉客人的購物心理，令整個銷售過程更加高效。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -1235,8 +1199,8 @@ window.projectReferences = [
               "width": 75.63301282051282,
               "height": 4.923878205128205,
               "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">環境色彩｜淡雅清新的視覺享受</h6>",
-              "text": "環境色彩｜淡雅清新的視覺享受",
+              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">淡雅清新的視覺享受</h6>",
+              "text": "淡雅清新的視覺享受",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -1253,44 +1217,8 @@ window.projectReferences = [
               "width": 84.08253205128206,
               "height": 17.227564102564102,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">柔和的白色與淡藍色交織，猶如冬日清晨最純粹的光影。不鏽鋼展示架搭配燈光散發著自然的柔和感，與雪花酥的輕盈形成絕美的對比。顧客在此流連忘返，亦能在未來輕易回想起品牌，有效增強品牌識別度。</span></p>",
-              "text": "柔和的白色與淡藍色交織，猶如冬日清晨最純粹的光影。不鏽鋼展示架搭配燈光散發著自然的柔和感，與雪花酥的輕盈形成絕美的對比。顧客在此流連忘返，亦能在未來輕易回想起品牌，有效增強品牌識別度。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "2.564103vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 7.756410256410256,
-              "y": 122.64423076923077,
-              "width": 84.08253205128206,
-              "height": 4.923878205128205,
-              "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">一場設計｜專營商業室內設計及店鋪工程</h6>",
-              "text": "一場設計｜專營商業室內設計及店鋪工程",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "2.564103vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 7.884615384615384,
-              "y": 127.96474358974359,
-              "width": 84.08653846153847,
-              "height": 25.841346153846157,
-              "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">這個雪花酥商店設計已然超越了傳統零售店的界限。設計不僅僅是空間的佈局，更是情感的建築。它用最溫柔的方式，邀請每一個人駐足、感受、珍藏。除了 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">NEBU</span>，我們還參與了其他項目，例如 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">KLASSE14</span> 概念店、<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">TATCHA Lane Crawford</span> 等，驗證了我們在商業空間規劃方面的豐富經驗。</span></p>",
-              "text": "這個雪花酥商店設計已然超越了傳統零售店的界限。設計不僅僅是空間的佈局，更是情感的建築。它用最溫柔的方式，邀請每一個人駐足、感受、珍藏。除了 NEBU，我們還參與了其他項目，例如 KLASSE14 概念店、TATCHA Lane Crawford 等，驗證了我們在商業空間規劃方面的豐富經驗。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">柔和的白色與淡藍色交織，猶如冬日清晨最純粹的光影。不鏽鋼展示架搭配燈光，散發出自然的柔和感，與雪花酥的輕盈形成絕美的對比。顧客在此流連忘返，亦能在未來輕易回想起品牌，有效增強品牌識別度。</span></p>",
+              "text": "柔和的白色與淡藍色交織，猶如冬日清晨最純粹的光影。不鏽鋼展示架搭配燈光，散發出自然的柔和感，與雪花酥的輕盈形成絕美的對比。顧客在此流連忘返，亦能在未來輕易回想起品牌，有效增強品牌識別度。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -1321,74 +1249,74 @@ window.projectReferences = [
             },
             {
               "x": 7.5,
-              "y": 168.07692307692307,
+              "y": 130.496923,
               "width": 41.53846153846154,
               "height": 27.692307692307693,
               "type": "image",
-              "src": "../assets/images/zh/projects/280a05460ede8cbc.jpg",
+              "src": "../assets/images/projects/nebu/nebu-gallery-1.jpg",
               "alt": "NEBU | GRANND PLAZA"
             },
             {
               "x": 51.089743589743584,
-              "y": 168.07692307692307,
+              "y": 130.496923,
               "width": 41.53846153846154,
               "height": 62.30769230769231,
               "type": "image",
-              "src": "../assets/images/zh/projects/f251e0fe5cfeee59.jpg",
+              "src": "../assets/images/projects/nebu/nebu-gallery-2.jpg",
               "alt": "NEBU | GRANND PLAZA"
             },
             {
               "x": 7.5,
-              "y": 197.82051282051282,
+              "y": 160.240513,
               "width": 41.53846153846154,
               "height": 62.30769230769231,
               "type": "image",
-              "src": "../assets/images/zh/projects/b22d9337e413cfba.jpg",
+              "src": "../assets/images/projects/nebu/nebu-gallery-3.jpg",
               "alt": "NEBU | GRANND PLAZA"
             },
             {
               "x": 51.089743589743584,
-              "y": 232.43589743589746,
+              "y": 194.855897,
               "width": 41.53846153846154,
               "height": 27.692307692307693,
               "type": "image",
-              "src": "../assets/images/zh/projects/aca909eb15abf8ce.jpg",
+              "src": "../assets/images/projects/nebu/nebu-gallery-4.jpg",
               "alt": "NEBU | GRANND PLAZA"
             },
             {
               "x": 7.5,
-              "y": 262.1794871794872,
+              "y": 224.599487,
               "width": 41.53846153846154,
               "height": 62.30769230769231,
               "type": "image",
-              "src": "../assets/images/zh/projects/e00317f423d54a48.jpg",
+              "src": "../assets/images/projects/nebu/nebu-gallery-5.jpg",
               "alt": "NEBU | GRANND PLAZA"
             },
             {
               "x": 51.089743589743584,
-              "y": 262.1794871794872,
+              "y": 224.599487,
               "width": 41.53846153846154,
               "height": 62.30769230769231,
               "type": "image",
-              "src": "../assets/images/zh/projects/02916bf63fa75767.jpg",
+              "src": "../assets/images/projects/nebu/nebu-gallery-6.jpg",
               "alt": "NEBU | GRANND PLAZA"
             },
             {
               "x": 7.5,
-              "y": 326.53846153846155,
+              "y": 288.958462,
               "width": 41.53846153846154,
               "height": 27.692307692307693,
               "type": "image",
-              "src": "../assets/images/zh/projects/859de39854924ef6.jpg",
+              "src": "../assets/images/projects/nebu/nebu-gallery-7.jpg",
               "alt": "NEBU | GRANND PLAZA"
             },
             {
               "x": 51.089743589743584,
-              "y": 326.53846153846155,
+              "y": 288.958462,
               "width": 41.53846153846154,
               "height": 27.692307692307693,
               "type": "image",
-              "src": "../assets/images/zh/projects/ae01fb4f2fea4f7c.jpg",
+              "src": "../assets/images/projects/nebu/nebu-gallery-8.jpg",
               "alt": "NEBU | GRANND PLAZA"
             }
           ],
@@ -1461,7 +1389,7 @@ window.projectReferences = [
               "width": 100.0,
               "height": 53.02083333333333,
               "type": "image",
-              "src": "../assets/images/zh/projects/8c71175ee9f447a8.jpg",
+              "src": "../assets/images/projects/klasse14/klasse14-hero.jpg",
               "alt": "A-1.jpg"
             },
             {
@@ -1536,8 +1464,8 @@ window.projectReferences = [
               "width": 22.579210069444443,
               "height": 6.09375,
               "type": "text",
-              "html": "<h2 style=\"font-family:'IvyOra Banner', 'Project Chinese Light', serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:2.343750vw;line-height:3.046875vw;letter-spacing:normal\">Klasse 14 HK |<br/>\nK1 <span style=\"font-family:'IvyOra Banner', 'Project Chinese Light', serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:2.343750vw;line-height:3.046875vw;letter-spacing:0.468750vw\"><span style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:2.343750vw;line-height:3.046875vw;letter-spacing:0.468750vw\">購物藝術館</span></span></h2>",
-              "text": "KLASSE 14 HK |\nK1 購物藝術館",
+              "html": "<h2 style=\"font-family:'IvyOra Banner', 'Project Chinese Light', serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:2.343750vw;line-height:3.046875vw;letter-spacing:normal\">Klasse 14 HK |<br/>\nK11 <span style=\"font-family:'IvyOra Banner', 'Project Chinese Light', serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:2.343750vw;line-height:3.046875vw;letter-spacing:0.468750vw\"><span style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:2.343750vw;line-height:3.046875vw;letter-spacing:0.468750vw\">購物藝術館</span></span></h2>",
+              "text": "KLASSE 14 HK |\nK11 購物藝術館",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -1572,8 +1500,8 @@ window.projectReferences = [
               "width": 42.81141493055556,
               "height": 2.625868055555556,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">一場設計早前為 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">KLASSE14 K11 Art Mall </span>商場店舖進行室內設計規劃。主要目標是通過設計來展現.    <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">KLASSE14 </span>品牌的獨特性和創新性。</p>",
-              "text": "一場設計早前為 KLASSE14 K11 Art Mall 商場店舖進行室內設計規劃。主要目標是通過設計來展現.    KLASSE14 品牌的獨特性和創新性。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\"><span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">KLASSE14 </span>品牌的獨特性和創新性。</p>",
+              "text": "KLASSE14 品牌的獨特性和創新性。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -1818,8 +1746,8 @@ window.projectReferences = [
               "width": 24.270833333333332,
               "height": 1.4995659722222223,
               "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">店鋪室內設計案例分析</h6>",
-              "text": "店鋪室內設計案例分析",
+              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">想像力和色彩的繽紛世界</h6>",
+              "text": "想像力和色彩的繽紛世界",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -1836,26 +1764,8 @@ window.projectReferences = [
               "width": 24.270833333333332,
               "height": 24.94574652777778,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">店鋪設計理念圍繞著 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">KLASSE14 </span>的品牌基因「平凡中的不平凡」展開。概念店外觀看起來像一個普通的白色盒子，但一旦進入店內，你就會發現一個充滿想像力和色彩的繽紛世界。概念店保留了中環分店的黑、白、灰主色調，並在內部特別加入了一面由炫彩玻璃製成的幾何特色牆，融合了 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">KLASSE14 </span>標誌系列<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">「Volare Rainbow」</span>的線條和顏色。這面牆的色彩會隨著燈光的變化而變幻，為空間帶來無限變化。通過在純白極簡的基調上添加適度的斑斕用色，並使用俐落的線條、炫彩的飾面和霓虹燈，突出了品牌「個人化」的設計精神，讓整個空間充滿未來感。</span></p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">概念店不僅僅通過設計來傳達品牌理念，還放棄了傳統手錶和珠寶店的裝潢設計，取而代之的是一個引人注目的中島展示櫃檯作為中心。顧客可以在這裡試戴各款經典和熱賣產品，創造出與眾不同的零售體驗，亦可迎合品牌年輕客戶群的時尚品味。</span></p>",
-              "text": "店鋪設計理念圍繞著 KLASSE14 的品牌基因「平凡中的不平凡」展開。概念店外觀看起來像一個普通的白色盒子，但一旦進入店內，你就會發現一個充滿想像力和色彩的繽紛世界。概念店保留了中環分店的黑、白、灰主色調，並在內部特別加入了一面由炫彩玻璃製成的幾何特色牆，融合了 KLASSE14 標誌系列「Volare Rainbow」的線條和顏色。這面牆的色彩會隨著燈光的變化而變幻，為空間帶來無限變化。通過在純白極簡的基調上添加適度的斑斕用色，並使用俐落的線條、炫彩的飾面和霓虹燈，突出了品牌「個人化」的設計精神，讓整個空間充滿未來感。\n\n概念店不僅僅通過設計來傳達品牌理念，還放棄了傳統手錶和珠寶店的裝潢設計，取而代之的是一個引人注目的中島展示櫃檯作為中心。顧客可以在這裡試戴各款經典和熱賣產品，創造出與眾不同的零售體驗，亦可迎合品牌年輕客戶群的時尚品味。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "0.694444vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 8.017578125,
-              "y": 38.196614583333336,
-              "width": 24.270833333333332,
-              "height": 1.4995659722222223,
-              "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">一場設計｜專營商業室內設計及店鋪工程</h6>",
-              "text": "一場設計｜專營商業室內設計及店鋪工程",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">店鋪設計理念圍繞著 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">KLASSE14 </span>的品牌基因「平凡中的不平凡」展開。概念店外觀看起來像一個普通的白色盒子，但一旦進入店內，你就會發現一個充滿想像力和色彩的繽紛世界。概念店保留了中環分店的黑、白、灰主色調，並在內部特別加入了一面由炫彩玻璃製成的幾何特色牆，融合了 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">KLASSE14 </span>標誌系列<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">「Volare Rainbow」</span>的線條和顏色。這面牆的色彩會隨著燈光的變化而變幻，為空間帶來無限層次。透過在純白極簡的基調上添加適度的斑斕用色，並使用俐落的線條、炫彩的飾面和霓虹燈，突出了品牌「個人化」的設計精神，讓整個空間充滿未來感。</span></p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">概念店不僅僅通過設計來傳達品牌理念，還打破了傳統手錶和珠寶店的設計框架，取而代之的是一個引人注目的中島展示櫃檯作為中心。顧客可以在這裡試戴各款經典和熱賣產品，享受出與眾不同的零售體驗，這項設計亦迎合品牌年輕客戶群的時尚品味。</span></p>",
+              "text": "店鋪設計理念圍繞著 KLASSE14 的品牌基因「平凡中的不平凡」展開。概念店外觀看起來像一個普通的白色盒子，但一旦進入店內，你就會發現一個充滿想像力和色彩的繽紛世界。概念店保留了中環分店的黑、白、灰主色調，並在內部特別加入了一面由炫彩玻璃製成的幾何特色牆，融合了 KLASSE14 標誌系列「Volare Rainbow」的線條和顏色。這面牆的色彩會隨著燈光的變化而變幻，為空間帶來無限層次。透過在純白極簡的基調上添加適度的斑斕用色，並使用俐落的線條、炫彩的飾面和霓虹燈，突出了品牌「個人化」的設計精神，讓整個空間充滿未來感。\n\n概念店不僅僅通過設計來傳達品牌理念，還打破了傳統手錶和珠寶店的設計框架，取而代之的是一個引人注目的中島展示櫃檯作為中心。顧客可以在這裡試戴各款經典和熱賣產品，享受出與眾不同的零售體驗，這項設計亦迎合品牌年輕客戶群的時尚品味。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -1872,26 +1782,8 @@ window.projectReferences = [
               "width": 24.270833333333332,
               "height": 28.88454861111111,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">商業室內設計是一門結合藝術與科學的技術，旨在創造獨特而引人注目的空間。通過運用創意設計元素、適當的色彩搭配和符合品牌價值的設計理念，一場設計能夠為品牌打造一個獨一無二的視覺形象，吸引更多的顧客。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">我們旨在透過運用室內設計提升品牌知名度，講述品牌故事，提升顧客餐飲、活動體驗，並搭配資訊科技強化空間互動性，能夠使銷售服務過程更加順暢和有效。獨特巧思的室內設計和精心設計的特色店面，不僅能夠吸引顧客的目光，激發他們的購買慾望，還能增強品牌價值，讓品牌形象深植人心。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">除了 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">KLASSE14 </span>的概念店，我們還參與了其他商業室內設計項目，例如 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">TATCHA Lane Crawford </span>等。這些項目不僅展示了一場設計團隊的專業能力，也驗證了我們在商業空間規劃 and 設計方面的豐富經驗。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">在現代競爭激烈的商業環境中，擁有一個獨特而吸引人的店面設計是成功的關鍵之一。無論是創建一個引人注目的外觀還是營造一個舒適且具有品牌特色的內部空間，商業室內設計都能夠為品牌的成功增添不少價值。</p>",
-              "text": "商業室內設計是一門結合藝術與科學的技術，旨在創造獨特而引人注目的空間。通過運用創意設計元素、適當的色彩搭配和符合品牌價值的設計理念，一場設計能夠為品牌打造一個獨一無二的視覺形象，吸引更多的顧客。\n\n我們旨在透過運用室內設計提升品牌知名度，講述品牌故事，提升顧客餐飲、活動體驗，並搭配資訊科技強化空間互動性，能夠使銷售服務過程更加順暢和有效。獨特巧思的室內設計和精心設計的特色店面，不僅能夠吸引顧客的目光，激發他們的購買慾望，還能增強品牌價值，讓品牌形象深植人心。\n\n除了 KLASSE14 的概念店，我們還參與了其他商業室內設計項目，例如 TATCHA Lane Crawford 等。這些項目不僅展示了一場設計團隊的專業能力，也驗證了我們在商業空間規劃 and 設計方面的豐富經驗。\n\n在現代競爭激烈的商業環境中，擁有一個獨特而吸引人的店面設計是成功的關鍵之一。無論是創建一個引人注目的外觀還是營造一個舒適且具有品牌特色的內部空間，商業室內設計都能夠為品牌的成功增添不少價值。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "0.694444vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 8.056640625,
-              "y": 71.71223958333334,
-              "width": 24.270833333333332,
-              "height": 3.9388020833333335,
-              "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">如欲了解更多關於我們的商業室內設計項目，請訪問<span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw;text-decoration:underline\"><a href=\"https://www.facebook.com/oncedesignhk/\">一場設計<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">FACEBOOK</span>專頁</a></span>，了解更多詳細內容。</p>",
-              "text": "如欲了解更多關於我們的商業室內設計項目，請訪問一場設計FACEBOOK專頁，了解更多詳細內容。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">商業室內設計是一門結合藝術與科學的專業，旨在創造獨特而引人注目的空間。通過運用創意設計元素、適當的色彩搭配和符合品牌價值的設計理念，一場設計能夠為品牌打造一個獨一無二的視覺形象，吸引更多的顧客。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">透過運用室內設計提升品牌知名度，講述品牌故事，提升顧客餐飲、活動體驗，並搭配資訊科技強化空間互動性，使銷售與服務過程更加順暢高效。獨具巧思的室內設計和精心設計的特色店面，不僅能夠吸引顧客的目光，激發他們的購買慾望，還能增強品牌價值，讓品牌形象深植人心。</p>",
+              "text": "商業室內設計是一門結合藝術與科學的專業，旨在創造獨特而引人注目的空間。通過運用創意設計元素、適當的色彩搭配和符合品牌價值的設計理念，一場設計能夠為品牌打造一個獨一無二的視覺形象，吸引更多的顧客。\n\n透過運用室內設計提升品牌知名度，講述品牌故事，提升顧客餐飲、活動體驗，並搭配資訊科技強化空間互動性，使銷售與服務過程更加順暢高效。獨具巧思的室內設計和精心設計的特色店面，不僅能夠吸引顧客的目光，激發他們的購買慾望，還能增強品牌價值，讓品牌形象深植人心。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -1926,7 +1818,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 13.88888888888889,
               "type": "image",
-              "src": "../assets/images/zh/projects/1e98bc17a20ea5fa.jpg",
+              "src": "../assets/images/projects/klasse14/klasse14-hero.jpg",
               "alt": "KLASSE 14 | K11 ART MALL"
             },
             {
@@ -1935,7 +1827,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 17.708333333333336,
               "type": "image",
-              "src": "../assets/images/zh/projects/b5922d0a547592c2.jpg",
+              "src": "../assets/images/projects/klasse14/klasse14-gallery-4.jpg",
               "alt": "KLASSE 14 | K11 ART MALL"
             },
             {
@@ -1944,7 +1836,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 18.055555555555554,
               "type": "image",
-              "src": "../assets/images/zh/projects/058d0706dacc8b60.jpg",
+              "src": "../assets/images/projects/klasse14/klasse14-gallery-5.jpg",
               "alt": "KLASSE 14 | K11 ART MALL"
             },
             {
@@ -1953,7 +1845,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 17.708333333333336,
               "type": "image",
-              "src": "../assets/images/zh/projects/37016835121915b8.jpg",
+              "src": "../assets/images/projects/klasse14/klasse14-gallery-2.jpg",
               "alt": "KLASSE 14 | K11 ART MALL"
             },
             {
@@ -1962,7 +1854,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 17.708333333333336,
               "type": "image",
-              "src": "../assets/images/zh/projects/6722486c9d9de2bb.jpg",
+              "src": "../assets/images/projects/klasse14/klasse14-gallery-3.jpg",
               "alt": "KLASSE 14 | K11 ART MALL"
             },
             {
@@ -1971,7 +1863,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 17.708333333333336,
               "type": "image",
-              "src": "../assets/images/zh/projects/a166781dc7a0a75f.jpg",
+              "src": "../assets/images/projects/klasse14/klasse14-gallery-6.jpg",
               "alt": "KLASSE 14 | K11 ART MALL"
             },
             {
@@ -1980,7 +1872,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 16.59722222222222,
               "type": "image",
-              "src": "../assets/images/zh/projects/b74646157a6167d1.jpg",
+              "src": "../assets/images/projects/klasse14/klasse14-gallery-8.jpg",
               "alt": "KLASSE 14 | K11 ART MALL"
             },
             {
@@ -1989,7 +1881,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 17.708333333333336,
               "type": "image",
-              "src": "../assets/images/zh/projects/2037892d4a3c022b.jpg",
+              "src": "../assets/images/projects/klasse14/klasse14-gallery-9.jpg",
               "alt": "KLASSE 14 | K11 ART MALL"
             },
             {
@@ -1998,7 +1890,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 15.0,
               "type": "image",
-              "src": "../assets/images/zh/projects/3637d5efcedf52d0.jpg",
+              "src": "../assets/images/projects/klasse14/klasse14-gallery-1.jpg",
               "alt": "KLASSE 14 | K11 ART MALL"
             }
           ],
@@ -2062,7 +1954,7 @@ window.projectReferences = [
               "width": 100.0,
               "height": 115.64102564102565,
               "type": "image",
-              "src": "../assets/images/zh/projects/01699ed38dad18dc.jpg",
+              "src": "../assets/images/projects/klasse14/klasse14-hero.jpg",
               "alt": "A-1.jpg"
             },
             {
@@ -2137,8 +2029,8 @@ window.projectReferences = [
               "width": 73.56169871794872,
               "height": 16.666666666666664,
               "type": "text",
-              "html": "<h2 style=\"font-family:'IvyOra Banner', 'Project Chinese Light', serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:6.410256vw;line-height:8.333333vw;letter-spacing:normal\">Klasse 14 HK |<br/>\nK1 <span style=\"font-family:'IvyOra Banner', 'Project Chinese Light', serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:6.410256vw;line-height:8.333333vw;letter-spacing:1.282051vw\"><span style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:6.410256vw;line-height:8.333333vw;letter-spacing:1.282051vw\">購物藝術館</span></span></h2>",
-              "text": "KLASSE 14 HK |\nK1 購物藝術館",
+              "html": "<h2 style=\"font-family:'IvyOra Banner', 'Project Chinese Light', serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:6.410256vw;line-height:8.333333vw;letter-spacing:normal\">Klasse 14 HK |<br/>\nK11 <span style=\"font-family:'IvyOra Banner', 'Project Chinese Light', serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:6.410256vw;line-height:8.333333vw;letter-spacing:1.282051vw\"><span style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:6.410256vw;line-height:8.333333vw;letter-spacing:1.282051vw\">購物藝術館</span></span></h2>",
+              "text": "KLASSE 14 HK |\nK11 購物藝術館",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -2173,8 +2065,8 @@ window.projectReferences = [
               "width": 84.1025641025641,
               "height": 12.920673076923078,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">一場設計早前為 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">KLASSE14 K11 Art Mall </span>商場店舖進行室內設計規劃。主要目標是通過設計來展現.    <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">KLASSE14 </span>品牌的獨特性和創新性。</p>",
-              "text": "一場設計早前為 KLASSE14 K11 Art Mall 商場店舖進行室內設計規劃。主要目標是通過設計來展現.    KLASSE14 品牌的獨特性和創新性。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">KLASSE14 </span>品牌的獨特性和創新性。</p>",
+              "text": "KLASSE14 品牌的獨特性和創新性。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -2411,7 +2303,7 @@ window.projectReferences = [
           "kind": "quote"
         },
         {
-          "height": 727.6442307692307,
+          "height": 319.63,
           "blocks": [
             {
               "x": 10.064102564102564,
@@ -2419,8 +2311,8 @@ window.projectReferences = [
               "width": 79.87179487179488,
               "height": 4.923878205128205,
               "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">店鋪室內設計案例分析</h6>",
-              "text": "店鋪室內設計案例分析",
+              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">想像力和色彩的繽紛世界</h6>",
+              "text": "想像力和色彩的繽紛世界",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -2437,26 +2329,8 @@ window.projectReferences = [
               "width": 79.87179487179488,
               "height": 68.91025641025641,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">店鋪設計理念圍繞著 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">KLASSE14 </span>的品牌基因「平凡中的不平凡」展開。概念店外觀看起來像一個普通的白色盒子，但一旦進入店內，你就會發現一個充滿想像力和色彩的繽紛世界。概念店保留了中環分店的黑、白、灰主色調，並在內部特別加入了一面由炫彩玻璃製成的幾何特色牆，融合了 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">KLASSE14 </span>標誌系列<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">「Volare Rainbow」</span>的線條和顏色。這面牆的色彩會隨著燈光的變化而變幻，為空間帶來無限變化。通過在純白極簡的基調上添加適度的斑斕用色，並使用俐落的線條、炫彩的飾面和霓虹燈，突出了品牌「個人化」的設計精神，讓整個空間充滿未來感。</span></p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">概念店不僅僅通過設計來傳達品牌理念，還放棄了傳統手錶和珠寶店的裝潢設計，取而代之的是一個引人注目的中島展示櫃檯作為中心。顧客可以在這裡試戴各款經典和熱賣產品，創造出與眾不同的零售體驗，亦可迎合品牌年輕客戶群的時尚品味。</span></p>",
-              "text": "店鋪設計理念圍繞著 KLASSE14 的品牌基因「平凡中的不平凡」展開。概念店外觀看起來像一個普通的白色盒子，但一旦進入店內，你就會發現一個充滿想像力和色彩的繽紛世界。概念店保留了中環分店的黑、白、灰主色調，並在內部特別加入了一面由炫彩玻璃製成的幾何特色牆，融合了 KLASSE14 標誌系列「Volare Rainbow」的線條和顏色。這面牆的色彩會隨著燈光的變化而變幻，為空間帶來無限變化。通過在純白極簡的基調上添加適度的斑斕用色，並使用俐落的線條、炫彩的飾面和霓虹燈，突出了品牌「個人化」的設計精神，讓整個空間充滿未來感。\n\n概念店不僅僅通過設計來傳達品牌理念，還放棄了傳統手錶和珠寶店的裝潢設計，取而代之的是一個引人注目的中島展示櫃檯作為中心。顧客可以在這裡試戴各款經典和熱賣產品，創造出與眾不同的零售體驗，亦可迎合品牌年輕客戶群的時尚品味。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "2.564103vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 10.064102564102564,
-              "y": 97.9326923076923,
-              "width": 79.87179487179488,
-              "height": 4.923878205128205,
-              "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">一場設計｜專營商業室內設計及店鋪工程</h6>",
-              "text": "一場設計｜專營商業室內設計及店鋪工程",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">店鋪設計理念圍繞著 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">KLASSE14 </span>的品牌基因「平凡中的不平凡」展開。概念店外觀看起來像一個普通的白色盒子，但一旦進入店內，你就會發現一個充滿想像力和色彩的繽紛世界。概念店保留了中環分店的黑、白、灰主色調，並在內部特別加入了一面由炫彩玻璃製成的幾何特色牆，融合了 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">KLASSE14 </span>標誌系列<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">「Volare Rainbow」</span>的線條和顏色。這面牆的色彩會隨著燈光的變化而變幻，為空間帶來無限層次。透過在純白極簡的基調上添加適度的斑斕用色，並使用俐落的線條、炫彩的飾面和霓虹燈，突出了品牌「個人化」的設計精神，讓整個空間充滿未來感。</span></p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">概念店不僅僅通過設計來傳達品牌理念，還打破了傳統手錶和珠寶店的設計框架，取而代之的是一個引人注目的中島展示櫃檯作為中心。顧客可以在這裡試戴各款經典和熱賣產品，享受出與眾不同的零售體驗，這項設計亦迎合品牌年輕客戶群的時尚品味。</span></p>",
+              "text": "店鋪設計理念圍繞著 KLASSE14 的品牌基因「平凡中的不平凡」展開。概念店外觀看起來像一個普通的白色盒子，但一旦進入店內，你就會發現一個充滿想像力和色彩的繽紛世界。概念店保留了中環分店的黑、白、灰主色調，並在內部特別加入了一面由炫彩玻璃製成的幾何特色牆，融合了 KLASSE14 標誌系列「Volare Rainbow」的線條和顏色。這面牆的色彩會隨著燈光的變化而變幻，為空間帶來無限層次。透過在純白極簡的基調上添加適度的斑斕用色，並使用俐落的線條、炫彩的飾面和霓虹燈，突出了品牌「個人化」的設計精神，讓整個空間充滿未來感。\n\n概念店不僅僅通過設計來傳達品牌理念，還打破了傳統手錶和珠寶店的設計框架，取而代之的是一個引人注目的中島展示櫃檯作為中心。顧客可以在這裡試戴各款經典和熱賣產品，享受出與眾不同的零售體驗，這項設計亦迎合品牌年輕客戶群的時尚品味。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -2473,26 +2347,8 @@ window.projectReferences = [
               "width": 79.87179487179488,
               "height": 94.75160256410257,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.615385vw\">商業室內設計是一門結合藝術與科學的技術，旨在創造獨特而引人注目的空間。通過運用創意設計元素、適當的色彩搭配和符合品牌價值的設計理念，一場設計能夠為品牌打造一個獨一無二的視覺形象，吸引更多的顧客。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.615385vw\">我們旨在透過運用室內設計提升品牌知名度，講述品牌故事，提升顧客餐飲、活動體驗，並搭配資訊科技強化空間互動性，能夠使銷售服務過程更加順暢和有效。獨特巧思的室內設計和精心設計的特色店面，不僅能夠吸引顧客的目光，激發他們的購買慾望，還能增強品牌價值，讓品牌形象深植人心。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.615385vw\">除了 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.615385vw\">KLASSE14 </span>的概念店，我們還參與了其他商業室內設計項目，例如 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.615385vw\">TATCHA Lane Crawford </span>等。這些項目不僅展示了一場設計團隊的專業能力，也驗證了我們在商業空間規劃 and 設計方面的豐富經驗。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.615385vw\">在現代競爭激烈的商業環境中，擁有一個獨特而吸引人的店面設計是成功的關鍵之一。無論是創建一個引人注目的外觀還是營造一個舒適且具有品牌特色的內部空間，商業室內設計都能夠為品牌的成功增添不少價值。</p>",
-              "text": "商業室內設計是一門結合藝術與科學的技術，旨在創造獨特而引人注目的空間。通過運用創意設計元素、適當的色彩搭配和符合品牌價值的設計理念，一場設計能夠為品牌打造一個獨一無二的視覺形象，吸引更多的顧客。\n\n我們旨在透過運用室內設計提升品牌知名度，講述品牌故事，提升顧客餐飲、活動體驗，並搭配資訊科技強化空間互動性，能夠使銷售服務過程更加順暢和有效。獨特巧思的室內設計和精心設計的特色店面，不僅能夠吸引顧客的目光，激發他們的購買慾望，還能增強品牌價值，讓品牌形象深植人心。\n\n除了 KLASSE14 的概念店，我們還參與了其他商業室內設計項目，例如 TATCHA Lane Crawford 等。這些項目不僅展示了一場設計團隊的專業能力，也驗證了我們在商業空間規劃 and 設計方面的豐富經驗。\n\n在現代競爭激烈的商業環境中，擁有一個獨特而吸引人的店面設計是成功的關鍵之一。無論是創建一個引人注目的外觀還是營造一個舒適且具有品牌特色的內部空間，商業室內設計都能夠為品牌的成功增添不少價值。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "2.564103vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 10.192307692307692,
-              "y": 205.04006410256412,
-              "width": 79.87179487179488,
-              "height": 8.613782051282051,
-              "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">如欲了解更多關於我們的商業室內設計項目，請訪問<span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw;text-decoration:underline\"><a href=\"https://www.facebook.com/oncedesignhk/\">一場設計<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">FACEBOOK</span>專頁</a></span>，了解更多詳細內容。</p>",
-              "text": "如欲了解更多關於我們的商業室內設計項目，請訪問一場設計FACEBOOK專頁，了解更多詳細內容。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.615385vw\">商業室內設計是一門結合藝術與科學的專業，旨在創造獨特而引人注目的空間。通過運用創意設計元素、適當的色彩搭配和符合品牌價值的設計理念，一場設計能夠為品牌打造一個獨一無二的視覺形象，吸引更多的顧客。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.615385vw\">透過運用室內設計提升品牌知名度，講述品牌故事，提升顧客餐飲、活動體驗，並搭配資訊科技強化空間互動性，使銷售與服務過程更加順暢高效。獨具巧思的室內設計和精心設計的特色店面，不僅能夠吸引顧客的目光，激發他們的購買慾望，還能增強品牌價值，讓品牌形象深植人心。</p>",
+              "text": "商業室內設計是一門結合藝術與科學的專業，旨在創造獨特而引人注目的空間。通過運用創意設計元素、適當的色彩搭配和符合品牌價值的設計理念，一場設計能夠為品牌打造一個獨一無二的視覺形象，吸引更多的顧客。\n\n透過運用室內設計提升品牌知名度，講述品牌故事，提升顧客餐飲、活動體驗，並搭配資訊科技強化空間互動性，使銷售與服務過程更加順暢高效。獨具巧思的室內設計和精心設計的特色店面，不僅能夠吸引顧客的目光，激發他們的購買慾望，還能增強品牌價值，讓品牌形象深植人心。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -2523,83 +2379,83 @@ window.projectReferences = [
             },
             {
               "x": 7.5,
-              "y": 233.40144230769232,
+              "y": 168.501442,
               "width": 41.53846153846154,
               "height": 21.794871794871796,
               "type": "image",
-              "src": "../assets/images/zh/projects/fa6890c610c2838f.jpg",
+              "src": "../assets/images/projects/klasse14/klasse14-hero.jpg",
               "alt": "KLASSE 14 | K11 ART MALL"
             },
             {
               "x": 51.089743589743584,
-              "y": 233.40144230769232,
+              "y": 168.501442,
               "width": 41.53846153846154,
               "height": 27.692307692307693,
               "type": "image",
-              "src": "../assets/images/zh/projects/b47c65afdb9304e1.jpg",
+              "src": "../assets/images/projects/klasse14/klasse14-gallery-4.jpg",
               "alt": "KLASSE 14 | K11 ART MALL"
             },
             {
               "x": 7.5,
-              "y": 257.24759615384613,
+              "y": 192.347596,
               "width": 41.53846153846154,
               "height": 28.205128205128204,
               "type": "image",
-              "src": "../assets/images/zh/projects/171702bed1783a82.jpg",
+              "src": "../assets/images/projects/klasse14/klasse14-gallery-5.jpg",
               "alt": "KLASSE 14 | K11 ART MALL"
             },
             {
               "x": 51.089743589743584,
-              "y": 263.14503205128204,
+              "y": 198.245032,
               "width": 41.53846153846154,
               "height": 27.692307692307693,
               "type": "image",
-              "src": "../assets/images/zh/projects/37896f98136cd672.jpg",
+              "src": "../assets/images/projects/klasse14/klasse14-gallery-2.jpg",
               "alt": "KLASSE 14 | K11 ART MALL"
             },
             {
               "x": 7.5,
-              "y": 287.5040064102564,
+              "y": 222.604006,
               "width": 41.53846153846154,
               "height": 27.692307692307693,
               "type": "image",
-              "src": "../assets/images/zh/projects/e9139a20bc8a653a.jpg",
+              "src": "../assets/images/projects/klasse14/klasse14-gallery-3.jpg",
               "alt": "KLASSE 14 | K11 ART MALL"
             },
             {
               "x": 51.089743589743584,
-              "y": 292.8886217948718,
+              "y": 227.988622,
               "width": 41.53846153846154,
               "height": 27.692307692307693,
               "type": "image",
-              "src": "../assets/images/zh/projects/8b4ce98fe84fed08.jpg",
+              "src": "../assets/images/projects/klasse14/klasse14-gallery-6.jpg",
               "alt": "KLASSE 14 | K11 ART MALL"
             },
             {
               "x": 7.5,
-              "y": 317.2475961538462,
+              "y": 252.347596,
               "width": 41.53846153846154,
               "height": 25.8974358974359,
               "type": "image",
-              "src": "../assets/images/zh/projects/f360a619191af1b3.jpg",
+              "src": "../assets/images/projects/klasse14/klasse14-gallery-8.jpg",
               "alt": "KLASSE 14 | K11 ART MALL"
             },
             {
               "x": 51.089743589743584,
-              "y": 322.63221153846155,
+              "y": 257.732212,
               "width": 41.53846153846154,
               "height": 27.692307692307693,
               "type": "image",
-              "src": "../assets/images/zh/projects/bfb64b376d816744.jpg",
+              "src": "../assets/images/projects/klasse14/klasse14-gallery-9.jpg",
               "alt": "KLASSE 14 | K11 ART MALL"
             },
             {
               "x": 7.5,
-              "y": 345.1963141025641,
+              "y": 280.296314,
               "width": 41.53846153846154,
               "height": 23.333333333333332,
               "type": "image",
-              "src": "../assets/images/zh/projects/c25d1914ba98dfa2.jpg",
+              "src": "../assets/images/projects/klasse14/klasse14-gallery-1.jpg",
               "alt": "KLASSE 14 | K11 ART MALL"
             }
           ],
@@ -2672,7 +2528,7 @@ window.projectReferences = [
               "width": 100.0,
               "height": 53.02083333333333,
               "type": "image",
-              "src": "../assets/images/zh/projects/19763392dd17ab74.jpg",
+              "src": "../assets/images/projects/tatcha/tatcha-e7385e34715c4f1a98872a973fd23da0.jpg",
               "alt": "B-4-1536x911.jpg"
             },
             {
@@ -2975,7 +2831,7 @@ window.projectReferences = [
               "width": 44.72222222222222,
               "height": 24.930555555555557,
               "type": "image",
-              "src": "../assets/images/zh/projects/fed3bd096e3af102.jpg",
+              "src": "../assets/images/projects/tatcha/tatcha-8e84ae5501b54e60beb0b7aca6aa28ab.jpg",
               "alt": "TATCHA | HARBOUR CITY"
             },
             {
@@ -2984,7 +2840,7 @@ window.projectReferences = [
               "width": 44.72222222222222,
               "height": 32.29166666666667,
               "type": "image",
-              "src": "../assets/images/zh/projects/0e25d47b030ea45a.jpg",
+              "src": "../assets/images/projects/tatcha/tatcha-1c4f4833f0ca4d2d9e0e40fb4734001d.jpg",
               "alt": "TATCHA | HARBOUR CITY"
             },
             {
@@ -2993,7 +2849,7 @@ window.projectReferences = [
               "width": 44.72222222222222,
               "height": 26.52777777777778,
               "type": "image",
-              "src": "../assets/images/zh/projects/2b0ce692efa167d5.jpg",
+              "src": "../assets/images/projects/tatcha/tatcha-e7385e34715c4f1a98872a973fd23da0.jpg",
               "alt": "TATCHA | HARBOUR CITY"
             },
             {
@@ -3002,7 +2858,7 @@ window.projectReferences = [
               "width": 44.72222222222222,
               "height": 25.763888888888886,
               "type": "image",
-              "src": "../assets/images/zh/projects/4f2bd94f55281020.jpg",
+              "src": "../assets/images/projects/tatcha/tatcha-3700c756432944c184f66e01b6dbb30c.jpg",
               "alt": "TATCHA | HARBOUR CITY"
             },
             {
@@ -3011,7 +2867,7 @@ window.projectReferences = [
               "width": 44.72222222222222,
               "height": 67.08333333333333,
               "type": "image",
-              "src": "../assets/images/zh/projects/ccac473910f62a3b.jpg",
+              "src": "../assets/images/projects/tatcha/tatcha-c6aca82f0149445abdec37bbc6d1f8d6.jpg",
               "alt": "TATCHA | HARBOUR CITY"
             },
             {
@@ -3020,7 +2876,7 @@ window.projectReferences = [
               "width": 44.72222222222222,
               "height": 67.08333333333333,
               "type": "image",
-              "src": "../assets/images/zh/projects/7667472deab1d4a2.jpg",
+              "src": "../assets/images/projects/tatcha/tatcha-d682485bd89c47b3ab63d7994a7941d1.jpg",
               "alt": "TATCHA | HARBOUR CITY"
             },
             {
@@ -3102,7 +2958,7 @@ window.projectReferences = [
               "width": 100.0,
               "height": 115.64102564102565,
               "type": "image",
-              "src": "../assets/images/zh/projects/e68037ed8d3a81c6.jpg",
+              "src": "../assets/images/projects/tatcha/tatcha-e7385e34715c4f1a98872a973fd23da0.jpg",
               "alt": "B-4-1536x911.jpg"
             },
             {
@@ -3405,7 +3261,7 @@ window.projectReferences = [
               "width": 38.97435897435898,
               "height": 21.794871794871796,
               "type": "image",
-              "src": "../assets/images/zh/projects/3a9b92a1475a9c7e.jpg",
+              "src": "../assets/images/projects/tatcha/tatcha-8e84ae5501b54e60beb0b7aca6aa28ab.jpg",
               "alt": "TATCHA | HARBOUR CITY"
             },
             {
@@ -3414,7 +3270,7 @@ window.projectReferences = [
               "width": 38.97435897435898,
               "height": 28.205128205128204,
               "type": "image",
-              "src": "../assets/images/zh/projects/2ffb87d07960dc0f.jpg",
+              "src": "../assets/images/projects/tatcha/tatcha-1c4f4833f0ca4d2d9e0e40fb4734001d.jpg",
               "alt": "TATCHA | HARBOUR CITY"
             },
             {
@@ -3423,7 +3279,7 @@ window.projectReferences = [
               "width": 38.97435897435898,
               "height": 23.076923076923077,
               "type": "image",
-              "src": "../assets/images/zh/projects/b6e2319740bae5aa.jpg",
+              "src": "../assets/images/projects/tatcha/tatcha-e7385e34715c4f1a98872a973fd23da0.jpg",
               "alt": "TATCHA | HARBOUR CITY"
             },
             {
@@ -3432,7 +3288,7 @@ window.projectReferences = [
               "width": 38.97435897435898,
               "height": 22.30769230769231,
               "type": "image",
-              "src": "../assets/images/zh/projects/82dab012e128c775.jpg",
+              "src": "../assets/images/projects/tatcha/tatcha-3700c756432944c184f66e01b6dbb30c.jpg",
               "alt": "TATCHA | HARBOUR CITY"
             },
             {
@@ -3441,7 +3297,7 @@ window.projectReferences = [
               "width": 38.97435897435898,
               "height": 58.46153846153847,
               "type": "image",
-              "src": "../assets/images/zh/projects/17a122f68fcfaa28.jpg",
+              "src": "../assets/images/projects/tatcha/tatcha-c6aca82f0149445abdec37bbc6d1f8d6.jpg",
               "alt": "TATCHA | HARBOUR CITY"
             },
             {
@@ -3450,7 +3306,7 @@ window.projectReferences = [
               "width": 38.97435897435898,
               "height": 58.46153846153847,
               "type": "image",
-              "src": "../assets/images/zh/projects/b5faf06c59bebec7.jpg",
+              "src": "../assets/images/projects/tatcha/tatcha-d682485bd89c47b3ab63d7994a7941d1.jpg",
               "alt": "TATCHA | HARBOUR CITY"
             },
             {
@@ -3541,7 +3397,7 @@ window.projectReferences = [
               "width": 100,
               "height": 115.64102564102565,
               "type": "image",
-              "src": "../assets/images/zh/projects/225aa9889352a956.jpg",
+              "src": "../assets/images/projects/murad-counter/murad-counter-gallery-1.jpg",
               "alt": "20230907_Edited_06-1.jpg"
             },
             {
@@ -3652,8 +3508,8 @@ window.projectReferences = [
               "width": 84.1025641025641,
               "height": 25.841346153846157,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">商業空間設計｜室內裝修設計可以為商業空間的店面加不少分，<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">Murad</span> 於<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">2023</span>年<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">8</span>月初在海港城連卡佛開設了第一個香港專櫃！由國際知名皮膚科專家<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">Dr. Howard Murad</span>創立的<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">Murad</span>以革命性醫學護膚配方聞名，因此一場設計採用簡約現代的設計風格及裝修規劃，意在展現品牌專業科研的深厚底蘊。</p>",
-              "text": "商業空間設計｜室內裝修設計可以為商業空間的店面加不少分，Murad 於2023年8月初在海港城連卡佛開設了第一個香港專櫃！由國際知名皮膚科專家Dr. Howard Murad創立的Murad以革命性醫學護膚配方聞名，因此一場設計採用簡約現代的設計風格及裝修規劃，意在展現品牌專業科研的深厚底蘊。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">國際知名皮膚科專家<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">Dr. Howard Murad</span>創立的<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">Murad</span>以革命性醫學護膚配方聞名，採用簡約現代的設計風格及規劃，意在展現品牌專業科研的深厚底蘊。</p>",
+              "text": "國際知名皮膚科專家Dr. Howard Murad創立的Murad以革命性醫學護膚配方聞名，採用簡約現代的設計風格及規劃，意在展現品牌專業科研的深厚底蘊。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -3862,8 +3718,8 @@ window.projectReferences = [
               "width": 84.86378205128206,
               "height": 4.923878205128205,
               "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">室內設計規劃案例細節</h6>",
-              "text": "室內設計規劃案例細節",
+              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">標誌性的四色系列</h6>",
+              "text": "標誌性的四色系列",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -3880,26 +3736,8 @@ window.projectReferences = [
               "width": 84.86378205128206,
               "height": 25.841346153846157,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">品牌標誌性的四色系列綻放於產品陳列架上，除了能將焦點聚焦於產品系列，亦能加強品牌的識別性。透過牆上的電子屏幕和精心設計的陳列架，我們將品牌的特色一覽無遺。整體設計將品牌的專業性和美感融為一體，為顧客營造出一個舒適放鬆的購物空間，讓客人能輕鬆地欣賞每個產品的細節。</p>",
-              "text": "品牌標誌性的四色系列綻放於產品陳列架上，除了能將焦點聚焦於產品系列，亦能加強品牌的識別性。透過牆上的電子屏幕和精心設計的陳列架，我們將品牌的特色一覽無遺。整體設計將品牌的專業性和美感融為一體，為顧客營造出一個舒適放鬆的購物空間，讓客人能輕鬆地欣賞每個產品的細節。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "2.564103vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 7.564102564102564,
-              "y": 54.86378205128205,
-              "width": 84.86378205128206,
-              "height": 4.923878205128205,
-              "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">一場設計｜專營商業空間設計及店面裝修工程</h6>",
-              "text": "一場設計｜專營商業空間設計及店面裝修工程",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">品牌標誌性的四色系列綻放於產品陳列架上，除了能將目光聚焦於產品系列，亦能加強品牌的識別性。透過牆上的電子屏幕和精心設計的陳列架，讓品牌的特色一覽無遺。整體設計將品牌的專業性和美感融為一體，為顧客營造出一個舒適放鬆的購物空間，讓客人能輕鬆地欣賞每個產品的細節。</p>",
+              "text": "品牌標誌性的四色系列綻放於產品陳列架上，除了能將目光聚焦於產品系列，亦能加強品牌的識別性。透過牆上的電子屏幕和精心設計的陳列架，讓品牌的特色一覽無遺。整體設計將品牌的專業性和美感融為一體，為顧客營造出一個舒適放鬆的購物空間，讓客人能輕鬆地欣賞每個產品的細節。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -3912,30 +3750,12 @@ window.projectReferences = [
             },
             {
               "x": 7.6923076923076925,
-              "y": 60.809294871794876,
+              "y": 54.86378205128205,
               "width": 84.86378205128206,
               "height": 77.52403846153845,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.615385vw\">商業室內設計在塑造品牌形象和提升顧客體驗方面起著重要作用，而Murad在海港城連卡佛的專櫃展示了一個極具吸引力和獨特性的商業室內設計。這個設計不僅展現了品牌的專業形象和科研背景，還通過引人入勝的設計細節，營造出令人著迷的購物體驗。顧客在這個空間中不僅可以感受到品牌的獨特價值和專業知識，還能夠享受到舒適愉悅的購物環境。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.615385vw\">一場設計專注於商業室內設計和店舖工程，致力於提升品牌知名度、講述品牌故事以及提升顧客餐飲和活動體驗。我們相信，一個精心設計的特色店面和獨特巧思的室內設計不僅能夠吸引顧客的目光，激發他們的購買慾望，還能夠增強品牌的價值，讓品牌形象深植人心。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.615385vw\">除了Murad專櫃，我們還參與了其他商業室內設計項目，例如KLASSE14概念店、TATCHA Lane Crawford等。這些項目不僅展示了我們設計團隊的專業能力，也驗證了我們在商業空間規劃和設計方面的豐富經驗。</p>",
-              "text": "商業室內設計在塑造品牌形象和提升顧客體驗方面起著重要作用，而Murad在海港城連卡佛的專櫃展示了一個極具吸引力和獨特性的商業室內設計。這個設計不僅展現了品牌的專業形象和科研背景，還通過引人入勝的設計細節，營造出令人著迷的購物體驗。顧客在這個空間中不僅可以感受到品牌的獨特價值和專業知識，還能夠享受到舒適愉悅的購物環境。\n\n一場設計專注於商業室內設計和店舖工程，致力於提升品牌知名度、講述品牌故事以及提升顧客餐飲和活動體驗。我們相信，一個精心設計的特色店面和獨特巧思的室內設計不僅能夠吸引顧客的目光，激發他們的購買慾望，還能夠增強品牌的價值，讓品牌形象深植人心。\n\n除了Murad專櫃，我們還參與了其他商業室內設計項目，例如KLASSE14概念店、TATCHA Lane Crawford等。這些項目不僅展示了我們設計團隊的專業能力，也驗證了我們在商業空間規劃和設計方面的豐富經驗。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "2.564103vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 7.6923076923076925,
-              "y": 141.06570512820514,
-              "width": 84.86378205128206,
-              "height": 8.613782051282051,
-              "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">如欲了解更多關於我們的店舖室內設計項目，請訪問<span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw;text-decoration:underline\"><a href=\"https://www.facebook.com/oncedesignhk\">一場設計<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">Facebook</span>專頁</a></span>。</p>",
-              "text": "如欲了解更多關於我們的店舖室內設計項目，請訪問一場設計Facebook專頁。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.615385vw\">商業室內設計在塑造品牌形象和提升顧客體驗方面扮演著關鍵角色，而店舖展示了一個極具吸引力和獨特性的商業室內設計。這不僅展現了品牌的專業形象和科研背景，還透過引人入勝的設計細節，營造出令人著迷的購物體驗。顧客在這個空間中不僅可以感受到品牌的獨特價值和專業知識，還能夠享受到舒適愉悅的購物環境。</p>",
+              "text": "商業室內設計在塑造品牌形象和提升顧客體驗方面扮演著關鍵角色，而店舖展示了一個極具吸引力和獨特性的商業室內設計。這不僅展現了品牌的專業形象和科研背景，還透過引人入勝的設計細節，營造出令人著迷的購物體驗。顧客在這個空間中不僅可以感受到品牌的獨特價值和專業知識，還能夠享受到舒適愉悅的購物環境。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -3970,7 +3790,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 19.48717948717949,
               "type": "image",
-              "src": "../assets/images/zh/projects/919b998443d5e776.jpg",
+              "src": "../assets/images/projects/murad-counter/murad-counter-gallery-1.jpg",
               "alt": "MURAD | HARBOUR CITY"
             },
             {
@@ -3979,7 +3799,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 46.92307692307692,
               "type": "image",
-              "src": "../assets/images/zh/projects/937ac42903e55c45.jpg",
+              "src": "../assets/images/projects/murad-counter/murad-counter-gallery-4.jpg",
               "alt": "MURAD | HARBOUR CITY"
             },
             {
@@ -3988,7 +3808,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 55.12820512820513,
               "type": "image",
-              "src": "../assets/images/zh/projects/5a99cd1e65918ae5.jpg",
+              "src": "../assets/images/projects/murad-counter/murad-counter-gallery-2.jpg",
               "alt": "MURAD | HARBOUR CITY"
             },
             {
@@ -3997,7 +3817,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 48.46153846153846,
               "type": "image",
-              "src": "../assets/images/zh/projects/a0557c5731bd2bc3.jpg",
+              "src": "../assets/images/projects/murad-counter/murad-counter-gallery-3.jpg",
               "alt": "MURAD | HARBOUR CITY"
             }
           ],
@@ -4061,7 +3881,7 @@ window.projectReferences = [
               "width": 100,
               "height": 53.02083333333333,
               "type": "image",
-              "src": "../assets/images/zh/projects/a68cebf6d4441e32.jpg",
+              "src": "../assets/images/projects/murad-counter/murad-counter-gallery-1.jpg",
               "alt": "20230907_Edited_06-1.jpg"
             },
             {
@@ -4172,8 +3992,8 @@ window.projectReferences = [
               "width": 42.18641493055556,
               "height": 5.251736111111112,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">商業空間設計｜室內裝修設計可以為商業空間的店面加不少分，<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">Murad</span> 於<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">2023</span>年<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">8</span>月初在海港城連卡佛開設了第一個香港專櫃！由國際知名皮膚科專家<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">Dr. Howard Murad</span>創立的<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">Murad</span>以革命性醫學護膚配方聞名，因此一場設計採用簡約現代的設計風格及裝修規劃，意在展現品牌專業科研的深厚底蘊。</p>",
-              "text": "商業空間設計｜室內裝修設計可以為商業空間的店面加不少分，Murad 於2023年8月初在海港城連卡佛開設了第一個香港專櫃！由國際知名皮膚科專家Dr. Howard Murad創立的Murad以革命性醫學護膚配方聞名，因此一場設計採用簡約現代的設計風格及裝修規劃，意在展現品牌專業科研的深厚底蘊。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">國際知名皮膚科專家<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">Dr. Howard Murad</span>創立的<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">Murad</span>以革命性醫學護膚配方聞名，採用簡約現代的設計風格及規劃，意在展現品牌專業科研的深厚底蘊。</p>",
+              "text": "國際知名皮膚科專家Dr. Howard Murad創立的Murad以革命性醫學護膚配方聞名，採用簡約現代的設計風格及規劃，意在展現品牌專業科研的深厚底蘊。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -4382,8 +4202,8 @@ window.projectReferences = [
               "width": 24.270833333333332,
               "height": 1.4995659722222223,
               "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">室內設計規劃案例細節</h6>",
-              "text": "室內設計規劃案例細節",
+              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">標誌性的四色系列</h6>",
+              "text": "標誌性的四色系列",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -4400,26 +4220,8 @@ window.projectReferences = [
               "width": 24.270833333333332,
               "height": 9.190538194444445,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">品牌標誌性的四色系列綻放於產品陳列架上，除了能將焦點聚焦於產品系列，亦能加強品牌的識別性。透過牆上的電子屏幕和精心設計的陳列架，我們將品牌的特色一覽無遺。整體設計將品牌的專業性和美感融為一體，為顧客營造出一個舒適放鬆的購物空間，讓客人能輕鬆地欣賞每個產品的細節。</p>",
-              "text": "品牌標誌性的四色系列綻放於產品陳列架上，除了能將焦點聚焦於產品系列，亦能加強品牌的識別性。透過牆上的電子屏幕和精心設計的陳列架，我們將品牌的特色一覽無遺。整體設計將品牌的專業性和美感融為一體，為顧客營造出一個舒適放鬆的購物空間，讓客人能輕鬆地欣賞每個產品的細節。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "0.694444vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 8.017578125,
-              "y": 22.44140625,
-              "width": 24.270833333333332,
-              "height": 1.4995659722222223,
-              "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">一場設計｜專營商業空間設計及店面裝修工程</h6>",
-              "text": "一場設計｜專營商業空間設計及店面裝修工程",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">品牌標誌性的四色系列綻放於產品陳列架上，除了能將目光聚焦於產品系列，亦能加強品牌的識別性。透過牆上的電子屏幕和精心設計的陳列架，讓品牌的特色一覽無遺。整體設計將品牌的專業性和美感融為一體，為顧客營造出一個舒適放鬆的購物空間，讓客人能輕鬆地欣賞每個產品的細節。</p>",
+              "text": "品牌標誌性的四色系列綻放於產品陳列架上，除了能將目光聚焦於產品系列，亦能加強品牌的識別性。透過牆上的電子屏幕和精心設計的陳列架，讓品牌的特色一覽無遺。整體設計將品牌的專業性和美感融為一體，為顧客營造出一個舒適放鬆的購物空間，讓客人能輕鬆地欣賞每個產品的細節。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -4432,30 +4234,12 @@ window.projectReferences = [
             },
             {
               "x": 8.056640625,
-              "y": 24.339192708333332,
+              "y": 22.44140625,
               "width": 24.270833333333332,
               "height": 24.94574652777778,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">商業室內設計在塑造品牌形象和提升顧客體驗方面起著重要作用，而Murad在海港城連卡佛的專櫃展示了一個極具吸引力和獨特性的商業室內設計。這個設計不僅展現了品牌的專業形象和科研背景，還通過引人入勝的設計細節，營造出令人著迷的購物體驗。顧客在這個空間中不僅可以感受到品牌的獨特價值和專業知識，還能夠享受到舒適愉悅的購物環境。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">一場設計專注於商業室內設計和店舖工程，致力於提升品牌知名度、講述品牌故事以及提升顧客餐飲和活動體驗。我們相信，一個精心設計的特色店面和獨特巧思的室內設計不僅能夠吸引顧客的目光，激發他們的購買慾望，還能夠增強品牌的價值，讓品牌形象深植人心。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">除了Murad專櫃，我們還參與了其他商業室內設計項目，例如KLASSE14概念店、TATCHA Lane Crawford等。這些項目不僅展示了我們設計團隊的專業能力，也驗證了我們在商業空間規劃和設計方面的豐富經驗。</p>",
-              "text": "商業室內設計在塑造品牌形象和提升顧客體驗方面起著重要作用，而Murad在海港城連卡佛的專櫃展示了一個極具吸引力和獨特性的商業室內設計。這個設計不僅展現了品牌的專業形象和科研背景，還通過引人入勝的設計細節，營造出令人著迷的購物體驗。顧客在這個空間中不僅可以感受到品牌的獨特價值和專業知識，還能夠享受到舒適愉悅的購物環境。\n\n一場設計專注於商業室內設計和店舖工程，致力於提升品牌知名度、講述品牌故事以及提升顧客餐飲和活動體驗。我們相信，一個精心設計的特色店面和獨特巧思的室內設計不僅能夠吸引顧客的目光，激發他們的購買慾望，還能夠增強品牌的價值，讓品牌形象深植人心。\n\n除了Murad專櫃，我們還參與了其他商業室內設計項目，例如KLASSE14概念店、TATCHA Lane Crawford等。這些項目不僅展示了我們設計團隊的專業能力，也驗證了我們在商業空間規劃和設計方面的豐富經驗。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "0.694444vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 8.056640625,
-              "y": 52.018229166666664,
-              "width": 24.270833333333332,
-              "height": 2.625868055555556,
-              "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">如欲了解更多關於我們的店舖室內設計項目，請訪問<span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw;text-decoration:underline\"><a href=\"https://www.facebook.com/oncedesignhk\">一場設計<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">Facebook</span>專頁</a></span>。</p>",
-              "text": "如欲了解更多關於我們的店舖室內設計項目，請訪問一場設計Facebook專頁。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">商業室內設計在塑造品牌形象和提升顧客體驗方面扮演著關鍵角色，而店舖展示了一個極具吸引力和獨特性的商業室內設計。這不僅展現了品牌的專業形象和科研背景，還透過引人入勝的設計細節，營造出令人著迷的購物體驗。顧客在這個空間中不僅可以感受到品牌的獨特價值和專業知識，還能夠享受到舒適愉悅的購物環境。</p>",
+              "text": "商業室內設計在塑造品牌形象和提升顧客體驗方面扮演著關鍵角色，而店舖展示了一個極具吸引力和獨特性的商業室內設計。這不僅展現了品牌的專業形象和科研背景，還透過引人入勝的設計細節，營造出令人著迷的購物體驗。顧客在這個空間中不僅可以感受到品牌的獨特價值和專業知識，還能夠享受到舒適愉悅的購物環境。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -4490,7 +4274,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 12.569444444444445,
               "type": "image",
-              "src": "../assets/images/zh/projects/da6f664a756d92c3.jpg",
+              "src": "../assets/images/projects/murad-counter/murad-counter-gallery-1.jpg",
               "alt": "MURAD | HARBOUR CITY"
             },
             {
@@ -4499,7 +4283,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 30.069444444444443,
               "type": "image",
-              "src": "../assets/images/zh/projects/b171dd6e9e43cac2.jpg",
+              "src": "../assets/images/projects/murad-counter/murad-counter-gallery-4.jpg",
               "alt": "MURAD | HARBOUR CITY"
             },
             {
@@ -4508,7 +4292,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 35.34722222222222,
               "type": "image",
-              "src": "../assets/images/zh/projects/d4fdf3718305eb8e.jpg",
+              "src": "../assets/images/projects/murad-counter/murad-counter-gallery-2.jpg",
               "alt": "MURAD | HARBOUR CITY"
             },
             {
@@ -4517,7 +4301,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 30.97222222222222,
               "type": "image",
-              "src": "../assets/images/zh/projects/f93c42513ed33495.jpg",
+              "src": "../assets/images/projects/murad-counter/murad-counter-gallery-3.jpg",
               "alt": "MURAD | HARBOUR CITY"
             }
           ],
@@ -4590,7 +4374,7 @@ window.projectReferences = [
               "width": 100.0,
               "height": 53.02083333333333,
               "type": "image",
-              "src": "../assets/images/zh/projects/6dacf988c6a84834.jpg",
+              "src": "../assets/images/projects/murad-popup/murad-popup-gallery-1.jpg",
               "alt": "20230907_Edited_05-1-1536x902.jpg"
             },
             {
@@ -4617,8 +4401,8 @@ window.projectReferences = [
               "width": 18.83029513888889,
               "height": 3.046875,
               "type": "text",
-              "html": "<h2 style=\"font-family:'IvyOra Banner', 'Project Chinese Light', serif;font-weight:400;color:rgb(255, 255, 255);text-transform:uppercase;font-size:2.343750vw;line-height:3.046875vw;letter-spacing:normal\">Murad | <span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(255, 255, 255);text-transform:uppercase;font-size:2.343750vw;line-height:3.046875vw;letter-spacing:normal\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(255, 255, 255);text-transform:uppercase;font-size:2.343750vw;line-height:3.046875vw;letter-spacing:0.468750vw\">海港城</span></span></h2>",
-              "text": "MURAD | 海港城",
+              "html": "<h2 style=\"font-family:'IvyOra Banner', 'Project Chinese Light', serif;font-weight:400;color:rgb(255, 255, 255);text-transform:uppercase;font-size:2.343750vw;line-height:3.046875vw;letter-spacing:normal\">Murad 限定店 | <span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(255, 255, 255);text-transform:uppercase;font-size:2.343750vw;line-height:3.046875vw;letter-spacing:normal\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(255, 255, 255);text-transform:uppercase;font-size:2.343750vw;line-height:3.046875vw;letter-spacing:0.468750vw\">海港城</span></span></h2>",
+              "text": "MURAD 限定店 | 海港城",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -4701,8 +4485,8 @@ window.projectReferences = [
               "width": 40.62391493055556,
               "height": 3.9388020833333335,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\"><span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">Murad</span> 於<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">8月29</span>日在海港城連卡佛開設了<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">Pop-Up</span>限定店，店舖設計如同<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">Murad</span>專櫃的翩翩延伸，靈感來自於化學元素表，與品牌的醫學科研背景相得益彰，讓顧客彷彿置身於一場元素之舞。</p>",
-              "text": "Murad 於8月29日在海港城連卡佛開設了Pop-Up限定店，店舖設計如同Murad專櫃的翩翩延伸，靈感來自於化學元素表，與品牌的醫學科研背景相得益彰，讓顧客彷彿置身於一場元素之舞。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">設計靈感源自於化學元素表，與品牌的醫學科研背景相得益彰，讓顧客彷彿置身於一場元素之舞。</p>",
+              "text": "設計靈感源自於化學元素表，與品牌的醫學科研背景相得益彰，讓顧客彷彿置身於一場元素之舞。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -4903,7 +4687,7 @@ window.projectReferences = [
           "kind": "quote"
         },
         {
-          "height": 75.41449652777777,
+          "height": 53.961,
           "blocks": [
             {
               "x": 7.524956597222222,
@@ -4911,8 +4695,8 @@ window.projectReferences = [
               "width": 25.960286458333332,
               "height": 1.4995659722222223,
               "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">店鋪室內設計案例分析</h6>",
-              "text": "店鋪室內設計案例分析",
+              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">元素相互交織</h6>",
+              "text": "元素相互交織",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -4929,62 +4713,8 @@ window.projectReferences = [
               "width": 25.96137152777778,
               "height": 21.202256944444446,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">專業且華麗的元素表展示在特色牆上，每種色彩猶如獨立的元素，相互交織、彼此融合。中央更添置電視屏幕，向顧客展現品牌專業的科研知識。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\"> </p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">獨特的L字形發光櫃台，同樣以品牌標誌性的四種色彩演繹，結構獨特且不受拘束，元素相互交織，各自展現獨特之處卻又相互補足，彰顯了<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">Murad</span>對科研技術和醫學成分的重視。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\"> </p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">此外，為了進一步展示品牌的核心價值觀和故事，我們還特別加入了品牌哲學標語<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">（Skincare is Healthcare）</span>和創辦人<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">Dr. Howard Murad</span>的語錄，彷彿細語間向客人述說著品牌的信念與精彩故事，讓顧客更貼近品牌，感受到品牌的獨特魅力。</p>",
-              "text": "專業且華麗的元素表展示在特色牆上，每種色彩猶如獨立的元素，相互交織、彼此融合。中央更添置電視屏幕，向顧客展現品牌專業的科研知識。\n\n \n\n獨特的L字形發光櫃台，同樣以品牌標誌性的四種色彩演繹，結構獨特且不受拘束，元素相互交織，各自展現獨特之處卻又相互補足，彰顯了Murad對科研技術和醫學成分的重視。\n\n \n\n此外，為了進一步展示品牌的核心價值觀和故事，我們還特別加入了品牌哲學標語（Skincare is Healthcare）和創辦人Dr. Howard Murad的語錄，彷彿細語間向客人述說著品牌的信念與精彩故事，讓顧客更貼近品牌，感受到品牌的獨特魅力。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "0.694444vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 7.524956597222222,
-              "y": 34.68858506944444,
-              "width": 25.960286458333332,
-              "height": 1.4995659722222223,
-              "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">一場設計｜專營商業室內設計及店鋪工程</h6>",
-              "text": "一場設計｜專營商業室內設計及店鋪工程",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "0.694444vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 7.564019097222221,
-              "y": 36.58637152777778,
-              "width": 25.96137152777778,
-              "height": 27.131076388888886,
-              "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">商業室內設計的重要性不可忽視，它是品牌成功的關鍵之一。<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">Murad</span>在海港城連卡佛的<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">Pop-Up</span>限定店中展示了一個極具吸引力和獨特性的商業室內設計，它不僅展示了品牌的專業形象和科研背景，還通過引人入勝的設計細節，營造出一個引人入勝的購物體驗，同時讓他們感受到品牌的獨特價值和專業知識。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\"> </p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">一場設計致力透過室內設計提升品牌知名度、講述品牌故事以及提升顧客餐飲/活動體驗的方式，使銷售服務過程更加順暢和有效，更能結合資訊科技以增強空間互動性。精心設計的特色店面和獨特巧思的室內設計不僅能夠吸引顧客的目光，激發他們的購買慾望，還能增強品牌價值，讓品牌形象深植人心。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\"> </p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">除了，我們還參與了其他商業室內設計項目，例如<span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw;text-decoration:underline\"><a href=\"https://once-hk.com/retail_design_02/\"><span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">KLASSE14</span>概念店</a></span>、<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\"><span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw;text-decoration:underline\"><a href=\"https://once-hk.com/retail_design_01/\">TATCHA Lane Crawford</a></span></span>等。這些項目不僅展示了一場設計團隊的專業能力，也驗證了我們在商業空間規劃和設計方面的豐富經驗。</p>",
-              "text": "商業室內設計的重要性不可忽視，它是品牌成功的關鍵之一。Murad在海港城連卡佛的Pop-Up限定店中展示了一個極具吸引力和獨特性的商業室內設計，它不僅展示了品牌的專業形象和科研背景，還通過引人入勝的設計細節，營造出一個引人入勝的購物體驗，同時讓他們感受到品牌的獨特價值和專業知識。\n\n \n\n一場設計致力透過室內設計提升品牌知名度、講述品牌故事以及提升顧客餐飲/活動體驗的方式，使銷售服務過程更加順暢和有效，更能結合資訊科技以增強空間互動性。精心設計的特色店面和獨特巧思的室內設計不僅能夠吸引顧客的目光，激發他們的購買慾望，還能增強品牌價值，讓品牌形象深植人心。\n\n \n\n除了，我們還參與了其他商業室內設計項目，例如KLASSE14概念店、TATCHA Lane Crawford等。這些項目不僅展示了一場設計團隊的專業能力，也驗證了我們在商業空間規劃和設計方面的豐富經驗。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "0.694444vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 7.564019097222221,
-              "y": 66.45073784722221,
-              "width": 25.96137152777778,
-              "height": 2.625868055555556,
-              "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">如欲了解更多關於我們的商業室內設計項目，請訪問<span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw;text-decoration:underline\"><a href=\"https://www.facebook.com/oncedesignhk/\">一場設計<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">FACEBOOK</span>專頁</a></span>，了解更多詳細內容。</p>",
-              "text": "如欲了解更多關於我們的商業室內設計項目，請訪問一場設計FACEBOOK專頁，了解更多詳細內容。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">專業且華麗的元素表展示在特色牆上，每種色彩猶如獨立的元素，相互輝映、彼此融合。中央更添置電視屏幕，向顧客傳遞品牌專業的科研知識。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\"> </p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">別具一格的L字形發光櫃檯，同樣以品牌標誌性的四種色彩演繹，結構獨特且不受拘束，元素互相映襯，各自展現各自的特色卻又相互補足，彰顯了<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">Murad</span>對科研技術和醫學成分的重視。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\"> </p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">此外，為了進一步展示品牌的核心價值觀和故事，我們還特別加入了品牌哲學標語<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">（Skincare is Healthcare）</span>和創辦人<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">Dr. Howard Murad</span>的語錄，彷彿細語間向客人述說著品牌的信念與精彩故事，讓顧客更貼近品牌，感受到品牌的非凡魅力。</p>",
+              "text": "專業且華麗的元素表展示在特色牆上，每種色彩猶如獨立的元素，相互輝映、彼此融合。中央更添置電視屏幕，向顧客傳遞品牌專業的科研知識。\n\n \n\n別具一格的L字形發光櫃檯，同樣以品牌標誌性的四種色彩演繹，結構獨特且不受拘束，元素互相映襯，各自展現各自的特色卻又相互補足，彰顯了Murad對科研技術和醫學成分的重視。\n\n \n\n此外，為了進一步展示品牌的核心價值觀和故事，我們還特別加入了品牌哲學標語（Skincare is Healthcare）和創辦人Dr. Howard Murad的語錄，彷彿細語間向客人述說著品牌的信念與精彩故事，讓顧客更貼近品牌，感受到品牌的非凡魅力。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -5019,7 +4749,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 15.625,
               "type": "image",
-              "src": "../assets/images/zh/projects/db89b0a6551c51ec.jpg",
+              "src": "../assets/images/projects/murad-popup/murad-popup-gallery-1.jpg",
               "alt": "MURAD POP-UP | HARBOUR CITY"
             },
             {
@@ -5028,7 +4758,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 17.77777777777778,
               "type": "image",
-              "src": "../assets/images/zh/projects/3d0ae0cba49244a3.jpg",
+              "src": "../assets/images/projects/murad-popup/murad-popup-gallery-3.jpg",
               "alt": "MURAD POP-UP | HARBOUR CITY"
             },
             {
@@ -5037,7 +4767,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 12.847222222222221,
               "type": "image",
-              "src": "../assets/images/zh/projects/a2fb91d98c3c532e.jpg",
+              "src": "../assets/images/projects/murad-popup/murad-popup-gallery-2.jpg",
               "alt": "MURAD POP-UP | HARBOUR CITY"
             },
             {
@@ -5046,7 +4776,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 23.26388888888889,
               "type": "image",
-              "src": "../assets/images/zh/projects/6f355bd6d3aff3b6.jpg",
+              "src": "../assets/images/projects/murad-popup/murad-popup-gallery-4.jpg",
               "alt": "MURAD POP-UP | HARBOUR CITY"
             },
             {
@@ -5055,7 +4785,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 11.25,
               "type": "image",
-              "src": "../assets/images/zh/projects/1199de0c7fa2b0c1.jpg",
+              "src": "../assets/images/projects/murad-popup/murad-popup-gallery-5.jpg",
               "alt": "MURAD POP-UP | HARBOUR CITY"
             }
           ],
@@ -5119,7 +4849,7 @@ window.projectReferences = [
               "width": 100.0,
               "height": 115.64102564102565,
               "type": "image",
-              "src": "../assets/images/zh/projects/841b5184dec06530.jpg",
+              "src": "../assets/images/projects/murad-popup/murad-popup-gallery-1.jpg",
               "alt": "20230907_Edited_05-1-1536x902.jpg"
             },
             {
@@ -5146,8 +4876,8 @@ window.projectReferences = [
               "width": 51.7948717948718,
               "height": 8.333333333333332,
               "type": "text",
-              "html": "<h2 style=\"font-family:'IvyOra Banner', 'Project Chinese Light', serif;font-weight:400;color:rgb(255, 255, 255);text-transform:uppercase;font-size:6.410256vw;line-height:8.333333vw;letter-spacing:normal\">Murad | <span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(255, 255, 255);text-transform:uppercase;font-size:6.410256vw;line-height:8.333333vw;letter-spacing:normal\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(255, 255, 255);text-transform:uppercase;font-size:6.410256vw;line-height:8.333333vw;letter-spacing:1.282051vw\">海港城</span></span></h2>",
-              "text": "MURAD | 海港城",
+              "html": "<h2 style=\"font-family:'IvyOra Banner', 'Project Chinese Light', serif;font-weight:400;color:rgb(255, 255, 255);text-transform:uppercase;font-size:6.410256vw;line-height:8.333333vw;letter-spacing:normal\">Murad 限定店 | <span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(255, 255, 255);text-transform:uppercase;font-size:6.410256vw;line-height:8.333333vw;letter-spacing:normal\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(255, 255, 255);text-transform:uppercase;font-size:6.410256vw;line-height:8.333333vw;letter-spacing:1.282051vw\">海港城</span></span></h2>",
+              "text": "MURAD 限定店 | 海港城",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -5230,8 +4960,8 @@ window.projectReferences = [
               "width": 84.1025641025641,
               "height": 17.227564102564102,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">Murad</span> 於<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">8月29</span>日在海港城連卡佛開設了<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">Pop-Up</span>限定店，店舖設計如同<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">Murad</span>專櫃的翩翩延伸，靈感來自於化學元素表，與品牌的醫學科研背景相得益彰，讓顧客彷彿置身於一場元素之舞。</p>",
-              "text": "Murad 於8月29日在海港城連卡佛開設了Pop-Up限定店，店舖設計如同Murad專櫃的翩翩延伸，靈感來自於化學元素表，與品牌的醫學科研背景相得益彰，讓顧客彷彿置身於一場元素之舞。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">設計靈感源自於化學元素表，與品牌的醫學科研背景相得益彰，讓顧客彷彿置身於一場元素之舞。</p>",
+              "text": "設計靈感源自於化學元素表，與品牌的醫學科研背景相得益彰，讓顧客彷彿置身於一場元素之舞。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -5440,8 +5170,8 @@ window.projectReferences = [
               "width": 79.87179487179488,
               "height": 4.923878205128205,
               "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">店鋪室內設計案例分析</h6>",
-              "text": "店鋪室內設計案例分析",
+              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">元素相互交織</h6>",
+              "text": "元素相互交織",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -5458,62 +5188,8 @@ window.projectReferences = [
               "width": 79.87179487179488,
               "height": 68.93429487179488,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">專業且華麗的元素表展示在特色牆上，每種色彩猶如獨立的元素，相互交織、彼此融合。中央更添置電視屏幕，向顧客展現品牌專業的科研知識。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"> </p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">獨特的L字形發光櫃台，同樣以品牌標誌性的四種色彩演繹，結構獨特且不受拘束，元素相互交織，各自展現獨特之處卻又相互補足，彰顯了<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">Murad</span>對科研技術和醫學成分的重視。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"> </p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">此外，為了進一步展示品牌的核心價值觀和故事，我們還特別加入了品牌哲學標語<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">（Skincare is Healthcare）</span>和創辦人<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">Dr. Howard Murad</span>的語錄，彷彿細語間向客人述說著品牌的信念與精彩故事，讓顧客更貼近品牌，感受到品牌的獨特魅力。</p>",
-              "text": "專業且華麗的元素表展示在特色牆上，每種色彩猶如獨立的元素，相互交織、彼此融合。中央更添置電視屏幕，向顧客展現品牌專業的科研知識。\n\n \n\n獨特的L字形發光櫃台，同樣以品牌標誌性的四種色彩演繹，結構獨特且不受拘束，元素相互交織，各自展現獨特之處卻又相互補足，彰顯了Murad對科研技術和醫學成分的重視。\n\n \n\n此外，為了進一步展示品牌的核心價值觀和故事，我們還特別加入了品牌哲學標語（Skincare is Healthcare）和創辦人Dr. Howard Murad的語錄，彷彿細語間向客人述說著品牌的信念與精彩故事，讓顧客更貼近品牌，感受到品牌的獨特魅力。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "2.564103vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 10.064102564102564,
-              "y": 97.95272435897436,
-              "width": 79.87179487179488,
-              "height": 4.923878205128205,
-              "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">一場設計｜專營商業室內設計及店鋪工程</h6>",
-              "text": "一場設計｜專營商業室內設計及店鋪工程",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "2.564103vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 10.192307692307692,
-              "y": 103.89823717948718,
-              "width": 79.87179487179488,
-              "height": 93.5536858974359,
-              "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">商業室內設計的重要性不可忽視，它是品牌成功的關鍵之一。<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">Murad</span>在海港城連卡佛的<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">Pop-Up</span>限定店中展示了一個極具吸引力和獨特性的商業室內設計，它不僅展示了品牌的專業形象和科研背景，還通過引人入勝的設計細節，營造出一個引人入勝的購物體驗，同時讓他們感受到品牌的獨特價值和專業知識。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"> </p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">一場設計致力透過室內設計提升品牌知名度、講述品牌故事以及提升顧客餐飲/活動體驗的方式，使銷售服務過程更加順暢和有效，更能結合資訊科技以增強空間互動性。精心設計的特色店面和獨特巧思的室內設計不僅能夠吸引顧客的目光，激發他們的購買慾望，還能增強品牌價值，讓品牌形象深植人心。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"> </p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">除了，我們還參與了其他商業室內設計項目，例如<span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw;text-decoration:underline\"><a href=\"https://once-hk.com/retail_design_02/\"><span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">KLASSE14</span>概念店</a></span>、<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw;text-decoration:underline\"><a href=\"https://once-hk.com/retail_design_01/\">TATCHA Lane Crawford</a></span></span>等。這些項目不僅展示了一場設計團隊的專業能力，也驗證了我們在商業空間規劃和設計方面的豐富經驗。</p>",
-              "text": "商業室內設計的重要性不可忽視，它是品牌成功的關鍵之一。Murad在海港城連卡佛的Pop-Up限定店中展示了一個極具吸引力和獨特性的商業室內設計，它不僅展示了品牌的專業形象和科研背景，還通過引人入勝的設計細節，營造出一個引人入勝的購物體驗，同時讓他們感受到品牌的獨特價值和專業知識。\n\n \n\n一場設計致力透過室內設計提升品牌知名度、講述品牌故事以及提升顧客餐飲/活動體驗的方式，使銷售服務過程更加順暢和有效，更能結合資訊科技以增強空間互動性。精心設計的特色店面和獨特巧思的室內設計不僅能夠吸引顧客的目光，激發他們的購買慾望，還能增強品牌價值，讓品牌形象深植人心。\n\n \n\n除了，我們還參與了其他商業室內設計項目，例如KLASSE14概念店、TATCHA Lane Crawford等。這些項目不僅展示了一場設計團隊的專業能力，也驗證了我們在商業空間規劃和設計方面的豐富經驗。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "2.564103vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 10.192307692307692,
-              "y": 200.18429487179486,
-              "width": 79.87179487179488,
-              "height": 8.613782051282051,
-              "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">如欲了解更多關於我們的商業室內設計項目，請訪問<span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw;text-decoration:underline\"><a href=\"https://www.facebook.com/oncedesignhk/\">一場設計<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">FACEBOOK</span>專頁</a></span>，了解更多詳細內容。</p>",
-              "text": "如欲了解更多關於我們的商業室內設計項目，請訪問一場設計FACEBOOK專頁，了解更多詳細內容。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">專業且華麗的元素表展示在特色牆上，每種色彩猶如獨立的元素，相互輝映、彼此融合。中央更添置電視屏幕，向顧客傳遞品牌專業的科研知識。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"> </p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">別具一格的L字形發光櫃檯，同樣以品牌標誌性的四種色彩演繹，結構獨特且不受拘束，元素互相映襯，各自展現各自的特色卻又相互補足，彰顯了<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">Murad</span>對科研技術和醫學成分的重視。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"> </p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">此外，為了進一步展示品牌的核心價值觀和故事，我們還特別加入了品牌哲學標語<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">（Skincare is Healthcare）</span>和創辦人<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">Dr. Howard Murad</span>的語錄，彷彿細語間向客人述說著品牌的信念與精彩故事，讓顧客更貼近品牌，感受到品牌的非凡魅力。</p>",
+              "text": "專業且華麗的元素表展示在特色牆上，每種色彩猶如獨立的元素，相互輝映、彼此融合。中央更添置電視屏幕，向顧客傳遞品牌專業的科研知識。\n\n \n\n別具一格的L字形發光櫃檯，同樣以品牌標誌性的四種色彩演繹，結構獨特且不受拘束，元素互相映襯，各自展現各自的特色卻又相互補足，彰顯了Murad對科研技術和醫學成分的重視。\n\n \n\n此外，為了進一步展示品牌的核心價值觀和故事，我們還特別加入了品牌哲學標語（Skincare is Healthcare）和創辦人Dr. Howard Murad的語錄，彷彿細語間向客人述說著品牌的信念與精彩故事，讓顧客更貼近品牌，感受到品牌的非凡魅力。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -5548,7 +5224,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 24.358974358974358,
               "type": "image",
-              "src": "../assets/images/zh/projects/7b0ca6b2895ea05a.jpg",
+              "src": "../assets/images/projects/murad-popup/murad-popup-gallery-1.jpg",
               "alt": "MURAD POP-UP | HARBOUR CITY"
             },
             {
@@ -5557,7 +5233,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 27.692307692307693,
               "type": "image",
-              "src": "../assets/images/zh/projects/3f8d07fcb8d745f1.jpg",
+              "src": "../assets/images/projects/murad-popup/murad-popup-gallery-3.jpg",
               "alt": "MURAD POP-UP | HARBOUR CITY"
             },
             {
@@ -5566,7 +5242,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 20.0,
               "type": "image",
-              "src": "../assets/images/zh/projects/eb470ddc0f01be6f.jpg",
+              "src": "../assets/images/projects/murad-popup/murad-popup-gallery-2.jpg",
               "alt": "MURAD POP-UP | HARBOUR CITY"
             },
             {
@@ -5575,7 +5251,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 36.41025641025641,
               "type": "image",
-              "src": "../assets/images/zh/projects/a495b53257573e87.jpg",
+              "src": "../assets/images/projects/murad-popup/murad-popup-gallery-4.jpg",
               "alt": "MURAD POP-UP | HARBOUR CITY"
             },
             {
@@ -5584,7 +5260,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 17.435897435897434,
               "type": "image",
-              "src": "../assets/images/zh/projects/7ad642675f49fbbc.jpg",
+              "src": "../assets/images/projects/murad-popup/murad-popup-gallery-5.jpg",
               "alt": "MURAD POP-UP | HARBOUR CITY"
             }
           ],
@@ -5639,7 +5315,7 @@ window.projectReferences = [
         }
       ]
     },
-    "title": "MURAD | 海港城"
+    "title": "MURAD 限定店 | 海港城"
   },
   {
     "id": "klasse14-central",
@@ -5657,7 +5333,7 @@ window.projectReferences = [
               "width": 100.0,
               "height": 53.02083333333333,
               "type": "image",
-              "src": "../assets/images/zh/projects/b6b9d70e24e460d5.jpg",
+              "src": "../assets/images/projects/klasse14-central/klasse14-central-gallery-2.jpg",
               "alt": "D-1.jpg"
             },
             {
@@ -5960,7 +5636,7 @@ window.projectReferences = [
               "width": 44.72222222222222,
               "height": 33.541666666666664,
               "type": "image",
-              "src": "../assets/images/zh/projects/3e65ad436fa775e7.jpg",
+              "src": "../assets/images/projects/klasse14-central/klasse14-central-gallery-2.jpg",
               "alt": "KLASSE 14 | CENTRAL"
             },
             {
@@ -5969,7 +5645,7 @@ window.projectReferences = [
               "width": 44.72222222222222,
               "height": 33.541666666666664,
               "type": "image",
-              "src": "../assets/images/zh/projects/953585d6a1691378.jpg",
+              "src": "../assets/images/projects/klasse14-central/klasse14-central-gallery-1.jpg",
               "alt": "KLASSE 14 | CENTRAL"
             },
             {
@@ -5978,7 +5654,7 @@ window.projectReferences = [
               "width": 44.72222222222222,
               "height": 33.541666666666664,
               "type": "image",
-              "src": "../assets/images/zh/projects/6ffc6ed3dbb6963d.jpg",
+              "src": "../assets/images/projects/klasse14-central/klasse14-central-gallery-3.jpg",
               "alt": "KLASSE 14 | CENTRAL"
             },
             {
@@ -6060,7 +5736,7 @@ window.projectReferences = [
               "width": 100.0,
               "height": 115.64102564102565,
               "type": "image",
-              "src": "../assets/images/zh/projects/8c5c8623e71bd6a5.jpg",
+              "src": "../assets/images/projects/klasse14-central/klasse14-central-gallery-2.jpg",
               "alt": "D-1.jpg"
             },
             {
@@ -6363,7 +6039,7 @@ window.projectReferences = [
               "width": 38.97435897435898,
               "height": 29.230769230769234,
               "type": "image",
-              "src": "../assets/images/zh/projects/57a6658d2f703cdc.jpg",
+              "src": "../assets/images/projects/klasse14-central/klasse14-central-gallery-2.jpg",
               "alt": "KLASSE 14 | CENTRAL"
             },
             {
@@ -6372,7 +6048,7 @@ window.projectReferences = [
               "width": 38.97435897435898,
               "height": 29.230769230769234,
               "type": "image",
-              "src": "../assets/images/zh/projects/98462eb8a7e743da.jpg",
+              "src": "../assets/images/projects/klasse14-central/klasse14-central-gallery-1.jpg",
               "alt": "KLASSE 14 | CENTRAL"
             },
             {
@@ -6381,7 +6057,7 @@ window.projectReferences = [
               "width": 38.97435897435898,
               "height": 29.230769230769234,
               "type": "image",
-              "src": "../assets/images/zh/projects/56fc89fc8e65fa83.jpg",
+              "src": "../assets/images/projects/klasse14-central/klasse14-central-gallery-3.jpg",
               "alt": "KLASSE 14 | CENTRAL"
             },
             {
@@ -6472,7 +6148,7 @@ window.projectReferences = [
               "width": 100.0,
               "height": 53.02083333333333,
               "type": "image",
-              "src": "../assets/images/zh/projects/2f5d79f5c5648c59.jpg",
+              "src": "../assets/images/projects/tatcha-ifc/tatcha-ifc-hero.jpg",
               "alt": "2025_0218_OnceDesign_Website_Banner_R4-18.jpg"
             },
             {
@@ -6775,7 +6451,7 @@ window.projectReferences = [
               "width": 44.72222222222222,
               "height": 59.65277777777778,
               "type": "image",
-              "src": "../assets/images/zh/projects/6d3301cf9789b992.jpg",
+              "src": "../assets/images/projects/tatcha-ifc/tatcha-ifc-gallery-1.jpg",
               "alt": "TATCHA | HK IFC MALL"
             },
             {
@@ -6784,7 +6460,7 @@ window.projectReferences = [
               "width": 44.72222222222222,
               "height": 33.541666666666664,
               "type": "image",
-              "src": "../assets/images/zh/projects/501826982cd5f0d5.jpg",
+              "src": "../assets/images/projects/tatcha-ifc/tatcha-ifc-gallery-3.jpg",
               "alt": "TATCHA | HK IFC MALL"
             },
             {
@@ -6793,7 +6469,7 @@ window.projectReferences = [
               "width": 44.72222222222222,
               "height": 33.541666666666664,
               "type": "image",
-              "src": "../assets/images/zh/projects/022abef26b0ccb3b.jpg",
+              "src": "../assets/images/projects/tatcha-ifc/tatcha-ifc-gallery-2.jpg",
               "alt": "TATCHA | HK IFC MALL"
             },
             {
@@ -6875,7 +6551,7 @@ window.projectReferences = [
               "width": 100.0,
               "height": 115.64102564102565,
               "type": "image",
-              "src": "../assets/images/zh/projects/a8700c62ffb26359.jpg",
+              "src": "../assets/images/projects/tatcha-ifc/tatcha-ifc-hero.jpg",
               "alt": "2025_0218_OnceDesign_Website_Banner_R4-18.jpg"
             },
             {
@@ -7178,7 +6854,7 @@ window.projectReferences = [
               "width": 38.97435897435898,
               "height": 52.05128205128206,
               "type": "image",
-              "src": "../assets/images/zh/projects/0fb5014c4a4e2580.jpg",
+              "src": "../assets/images/projects/tatcha-ifc/tatcha-ifc-gallery-1.jpg",
               "alt": "TATCHA | HK IFC MALL"
             },
             {
@@ -7187,7 +6863,7 @@ window.projectReferences = [
               "width": 38.97435897435898,
               "height": 29.230769230769234,
               "type": "image",
-              "src": "../assets/images/zh/projects/0ddedd2da34cc8c6.jpg",
+              "src": "../assets/images/projects/tatcha-ifc/tatcha-ifc-gallery-3.jpg",
               "alt": "TATCHA | HK IFC MALL"
             },
             {
@@ -7196,7 +6872,7 @@ window.projectReferences = [
               "width": 38.97435897435898,
               "height": 29.230769230769234,
               "type": "image",
-              "src": "../assets/images/zh/projects/1790c70ca908ed92.jpg",
+              "src": "../assets/images/projects/tatcha-ifc/tatcha-ifc-gallery-2.jpg",
               "alt": "TATCHA | HK IFC MALL"
             },
             {
@@ -7590,7 +7266,7 @@ window.projectReferences = [
               "width": 44.72222222222222,
               "height": 25.13888888888889,
               "type": "image",
-              "src": "../assets/images/zh/projects/7eeb7372955eb6ed.jpg",
+              "src": "../assets/images/projects/moleskin/moleskin-gallery-1.jpg",
               "alt": "MOLESKINE  |\nHK INTERNATIONAL AIRPORT"
             },
             {
@@ -7599,7 +7275,7 @@ window.projectReferences = [
               "width": 44.72222222222222,
               "height": 25.13888888888889,
               "type": "image",
-              "src": "../assets/images/zh/projects/c11b097669453979.jpg",
+              "src": "../assets/images/projects/moleskin/moleskin-gallery-2.jpg",
               "alt": "MOLESKINE  |\nHK INTERNATIONAL AIRPORT"
             },
             {
@@ -7984,7 +7660,7 @@ window.projectReferences = [
               "width": 38.97435897435898,
               "height": 22.05128205128205,
               "type": "image",
-              "src": "../assets/images/zh/projects/08dce9b4cbab59ce.jpg",
+              "src": "../assets/images/projects/moleskin/moleskin-gallery-1.jpg",
               "alt": "MOLESKINE  |\nHK INTERNATIONAL AIRPORT"
             },
             {
@@ -7993,7 +7669,7 @@ window.projectReferences = [
               "width": 38.97435897435898,
               "height": 22.05128205128205,
               "type": "image",
-              "src": "../assets/images/zh/projects/5781522b3ea01d47.jpg",
+              "src": "../assets/images/projects/moleskin/moleskin-gallery-2.jpg",
               "alt": "MOLESKINE  |\nHK INTERNATIONAL AIRPORT"
             },
             {
@@ -8084,7 +7760,7 @@ window.projectReferences = [
               "width": 100.0,
               "height": 53.02083333333333,
               "type": "image",
-              "src": "../assets/images/zh/projects/8f1779a1926a6c37.jpg",
+              "src": "../assets/images/projects/glamour/glamour-gallery-4.jpg",
               "alt": "未命名-1.jpg"
             },
             {
@@ -8195,8 +7871,8 @@ window.projectReferences = [
               "width": 40.62391493055556,
               "height": 5.251736111111112,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">在當今競爭激烈的美容市場中，一個卓越的店面設計不僅是品牌形象的延伸，更是吸引顧客、提升品牌價值的關鍵。作為專業的室內設計公司，一場設計以精湛的工藝和創意，為高端美容護理品牌 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">Glamour Beauty Affairs</span> 打造了一個兼具現代美學與功能性的零售店。</p>",
-              "text": "在當今競爭激烈的美容市場中，一個卓越的店面設計不僅是品牌形象的延伸，更是吸引顧客、提升品牌價值的關鍵。作為專業的室內設計公司，一場設計以精湛的工藝和創意，為高端美容護理品牌 Glamour Beauty Affairs 打造了一個兼具現代美學與功能性的零售店。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">一個卓越的店面設計不僅是品牌形象的延伸，更是吸引顧客、提升品牌價值的關鍵。</p>",
+              "text": "一個卓越的店面設計不僅是品牌形象的延伸，更是吸引顧客、提升品牌價值的關鍵。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -8397,7 +8073,7 @@ window.projectReferences = [
           "kind": "quote"
         },
         {
-          "height": 79.71245659722223,
+          "height": 68.336,
           "blocks": [
             {
               "x": 7.019314236111112,
@@ -8405,8 +8081,8 @@ window.projectReferences = [
               "width": 26.209852430555557,
               "height": 1.4995659722222223,
               "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">銅鑼灣店舖室內設計案例分析</h6>",
-              "text": "銅鑼灣店舖室內設計案例分析",
+              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">高雅的奢華</h6>",
+              "text": "高雅的奢華",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -8423,8 +8099,8 @@ window.projectReferences = [
               "width": 26.209852430555557,
               "height": 9.190538194444445,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">這個商舖項目位於銅鑼灣 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">Times Square</span> 商場這個核心地帶，其店鋪設計以簡約現代風格為基調，融入高雅的奢華元素。店內採用潔白的牆面搭配深色地板，創造出鮮明的視覺對比，同時透過鏡面與玻璃材質的巧妙運用，擴展空間感並提升整體質感。這種設計不僅彰顯護膚品牌的專業形象，更為顧客提供了一個舒適而高端的消費環境。</p>",
-              "text": "這個商舖項目位於銅鑼灣 Times Square 商場這個核心地帶，其店鋪設計以簡約現代風格為基調，融入高雅的奢華元素。店內採用潔白的牆面搭配深色地板，創造出鮮明的視覺對比，同時透過鏡面與玻璃材質的巧妙運用，擴展空間感並提升整體質感。這種設計不僅彰顯護膚品牌的專業形象，更為顧客提供了一個舒適而高端的消費環境。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">設計以簡約現代風格為基調，融入高雅的奢華元素。店內採用潔白的牆面搭配深色地板，創造出鮮明的視覺對比，同時透過鏡面與玻璃材質的巧妙運用，擴展空間感並提升整體質感。這種設計不僅彰顯護膚品牌的專業形象，更為顧客提供了一個舒適而高端的消費環境。</p>",
+              "text": "設計以簡約現代風格為基調，融入高雅的奢華元素。店內採用潔白的牆面搭配深色地板，創造出鮮明的視覺對比，同時透過鏡面與玻璃材質的巧妙運用，擴展空間感並提升整體質感。這種設計不僅彰顯護膚品牌的專業形象，更為顧客提供了一個舒適而高端的消費環境。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -8441,8 +8117,8 @@ window.projectReferences = [
               "width": 26.209852430555557,
               "height": 1.4995659722222223,
               "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">店面裝潢設計｜功能性與美感的巧妙平衡</h6>",
-              "text": "店面裝潢設計｜功能性與美感的巧妙平衡",
+              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">功能性與美感的巧妙平衡</h6>",
+              "text": "功能性與美感的巧妙平衡",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -8459,8 +8135,8 @@ window.projectReferences = [
               "width": 26.209852430555557,
               "height": 11.996527777777779,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">在這個商業設計項目中，功能性與美感並重是我們的設計核心。店內配置了現代化的高腳椅，奶油色皮革設計與黑色金屬框架兼具舒適性與時尚感。中央展示區採用透明玻璃架，精緻陳列美容產品，吸引顧客目光並方便試用體驗。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">每個試用區均配備鏡子與充足的燈光，確保顧客在試用產品時能清楚觀察肌膚變化，充分體現了設計的實用性與人性化考量，提升顧客體驗。</p>",
-              "text": "在這個商業設計項目中，功能性與美感並重是我們的設計核心。店內配置了現代化的高腳椅，奶油色皮革設計與黑色金屬框架兼具舒適性與時尚感。中央展示區採用透明玻璃架，精緻陳列美容產品，吸引顧客目光並方便試用體驗。\n\n每個試用區均配備鏡子與充足的燈光，確保顧客在試用產品時能清楚觀察肌膚變化，充分體現了設計的實用性與人性化考量，提升顧客體驗。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">功能性與美感並重是我們的設計核心。店內配置了現代化的高腳椅，奶油色皮革材質與黑色金屬框架兼具舒適性與時尚感。中央展示區採用透明玻璃架，精緻陳列美容產品，吸引顧客目光並提升試用體驗。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">每個試用區均配備鏡子與充足的燈光，確保顧客在試用產品時能清楚觀察肌膚變化。這項細節充分體現了設計的實用性與人性化考量，進一步提升顧客體驗。</p>",
+              "text": "功能性與美感並重是我們的設計核心。店內配置了現代化的高腳椅，奶油色皮革材質與黑色金屬框架兼具舒適性與時尚感。中央展示區採用透明玻璃架，精緻陳列美容產品，吸引顧客目光並提升試用體驗。\n\n每個試用區均配備鏡子與充足的燈光，確保顧客在試用產品時能清楚觀察肌膚變化。這項細節充分體現了設計的實用性與人性化考量，進一步提升顧客體驗。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -8477,8 +8153,8 @@ window.projectReferences = [
               "width": 26.209852430555557,
               "height": 1.4995659722222223,
               "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">店舖裝潢設計｜資訊科技與品牌宣傳的完美融合</h6>",
-              "text": "店舖裝潢設計｜資訊科技與品牌宣傳的完美融合",
+              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">資訊科技與品牌宣傳的完美融合</h6>",
+              "text": "資訊科技與品牌宣傳的完美融合",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -8495,62 +8171,8 @@ window.projectReferences = [
               "width": 26.209852430555557,
               "height": 7.567274305555556,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">為了提升品牌互動體驗，我們在商店設計中融入了先進的資訊科技元素。店內的大型數位螢幕滾動播放產品廣告與品牌故事，展現 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">Glamour Beauty Affairs</span> 品牌的高端定位與專業服務，亦加強空間互動性 ，令品牌吸引更多的潛在顧客，提高銷售量和盈利能力。</p>",
-              "text": "為了提升品牌互動體驗，我們在商店設計中融入了先進的資訊科技元素。店內的大型數位螢幕滾動播放產品廣告與品牌故事，展現 Glamour Beauty Affairs 品牌的高端定位與專業服務，亦加強空間互動性 ，令品牌吸引更多的潛在顧客，提高銷售量和盈利能力。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "0.694444vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 6.967230902777779,
-              "y": 48.92686631944444,
-              "width": 26.252170138888886,
-              "height": 1.4995659722222223,
-              "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">一場設計｜專營商業室內設計及美容品牌零售店鋪工程</h6>",
-              "text": "一場設計｜專營商業室內設計及美容品牌零售店鋪工程",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "0.694444vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 7.006293402777778,
-              "y": 50.82465277777778,
-              "width": 26.209852430555557,
-              "height": 16.634114583333336,
-              "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">一場設計精準規劃每一個細節，確保空間充分利用，同時保持整潔有序的視覺效果。這種設計不僅提升了顧客的購物體驗，也營造出專業與可信賴的品牌價值與形象。透過現代奢華風格的設計語言、功能性與美感的完美平衡，以及資訊科技與空間優化的創新應用，一場設計團隊成功為 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">Glamour Beauty Affairs</span> 規劃了一個引人入勝的消費空間。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">除了，我們還參與了其他商業室內設計項目，例如<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">KLASSE14 </span>概念店、<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">TATCHA Lane Crawford</span>等。這些項目不僅展示了一場設計團隊的專業能力，也驗證了我們在商業空間規劃和設計方面的豐富經驗。</p>",
-              "text": "一場設計精準規劃每一個細節，確保空間充分利用，同時保持整潔有序的視覺效果。這種設計不僅提升了顧客的購物體驗，也營造出專業與可信賴的品牌價值與形象。透過現代奢華風格的設計語言、功能性與美感的完美平衡，以及資訊科技與空間優化的創新應用，一場設計團隊成功為 Glamour Beauty Affairs 規劃了一個引人入勝的消費空間。\n\n除了，我們還參與了其他商業室內設計項目，例如KLASSE14 概念店、TATCHA Lane Crawford等。這些項目不僅展示了一場設計團隊的專業能力，也驗證了我們在商業空間規劃和設計方面的豐富經驗。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "0.694444vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 7.084418402777779,
-              "y": 69.41189236111111,
-              "width": 26.251085069444446,
-              "height": 2.625868055555556,
-              "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">如欲了解更多關於我們的商業室內設計項目，請訪問<span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw;text-decoration:underline\"><a href=\"https://www.facebook.com/oncedesignhk/\">一場設計<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">FACEBOOK</span>專頁</a></span>，了解更多詳細內容。</p>",
-              "text": "如欲了解更多關於我們的商業室內設計項目，請訪問一場設計FACEBOOK專頁，了解更多詳細內容。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">為了提升品牌互動體驗，設計中融入了先進的資訊科技元素。店內的大型電子屏幕滾動播放產品廣告與品牌故事，展現品牌的高端定位與專業服務，亦加強空間互動性 ，令品牌吸引更多的潛在顧客，進而轉化為實質的商業效益。</p>",
+              "text": "為了提升品牌互動體驗，設計中融入了先進的資訊科技元素。店內的大型電子屏幕滾動播放產品廣告與品牌故事，展現品牌的高端定位與專業服務，亦加強空間互動性 ，令品牌吸引更多的潛在顧客，進而轉化為實質的商業效益。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -8585,7 +8207,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 19.51388888888889,
               "type": "image",
-              "src": "../assets/images/zh/projects/63b3dd50ded750fe.jpg",
+              "src": "../assets/images/projects/glamour/glamour-gallery-4.jpg",
               "alt": "GLAMOUR BEAUTY AFFAIRS |\nTIMES SQUARE"
             },
             {
@@ -8594,7 +8216,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 19.930555555555557,
               "type": "image",
-              "src": "../assets/images/zh/projects/37f9bf96b60ff5a0.jpg",
+              "src": "../assets/images/projects/glamour/glamour-gallery-1.jpg",
               "alt": "GLAMOUR BEAUTY AFFAIRS |\nTIMES SQUARE"
             },
             {
@@ -8603,7 +8225,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 19.930555555555557,
               "type": "image",
-              "src": "../assets/images/zh/projects/ac1c94b5bc428c21.jpg",
+              "src": "../assets/images/projects/glamour/glamour-gallery-2.jpg",
               "alt": "GLAMOUR BEAUTY AFFAIRS |\nTIMES SQUARE"
             },
             {
@@ -8612,7 +8234,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 35.486111111111114,
               "type": "image",
-              "src": "../assets/images/zh/projects/528bd6c9a39ed510.jpg",
+              "src": "../assets/images/projects/glamour/glamour-gallery-3.jpg",
               "alt": "GLAMOUR BEAUTY AFFAIRS |\nTIMES SQUARE"
             }
           ],
@@ -8676,7 +8298,7 @@ window.projectReferences = [
               "width": 100.0,
               "height": 115.64102564102565,
               "type": "image",
-              "src": "../assets/images/zh/projects/939d821842fbb0aa.jpg",
+              "src": "../assets/images/projects/glamour/glamour-gallery-4.jpg",
               "alt": "未命名-1.jpg"
             },
             {
@@ -8787,8 +8409,8 @@ window.projectReferences = [
               "width": 84.1025641025641,
               "height": 21.534455128205128,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">在當今競爭激烈的美容市場中，一個卓越的店面設計不僅是品牌形象的延伸，更是吸引顧客、提升品牌價值的關鍵。作為專業的室內設計公司，一場設計以精湛的工藝和創意，為高端美容護理品牌 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">Glamour Beauty Affairs</span> 打造了一個兼具現代美學與功能性的零售店。</p>",
-              "text": "在當今競爭激烈的美容市場中，一個卓越的店面設計不僅是品牌形象的延伸，更是吸引顧客、提升品牌價值的關鍵。作為專業的室內設計公司，一場設計以精湛的工藝和創意，為高端美容護理品牌 Glamour Beauty Affairs 打造了一個兼具現代美學與功能性的零售店。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">一個卓越的店面設計不僅是品牌形象的延伸，更是吸引顧客、提升品牌價值的關鍵。</p>",
+              "text": "一個卓越的店面設計不僅是品牌形象的延伸，更是吸引顧客、提升品牌價值的關鍵。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -8997,8 +8619,8 @@ window.projectReferences = [
               "width": 81.6025641025641,
               "height": 4.923878205128205,
               "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">銅鑼灣店舖室內設計案例分析</h6>",
-              "text": "銅鑼灣店舖室內設計案例分析",
+              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">高雅的奢華</h6>",
+              "text": "高雅的奢華",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -9015,8 +8637,8 @@ window.projectReferences = [
               "width": 81.6025641025641,
               "height": 30.148237179487182,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">這個商舖項目位於銅鑼灣 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">Times Square</span> 商場這個核心地帶，其店鋪設計以簡約現代風格為基調，融入高雅的奢華元素。店內採用潔白的牆面搭配深色地板，創造出鮮明的視覺對比，同時透過鏡面與玻璃材質的巧妙運用，擴展空間感並提升整體質感。這種設計不僅彰顯護膚品牌的專業形象，更為顧客提供了一個舒適而高端的消費環境。</p>",
-              "text": "這個商舖項目位於銅鑼灣 Times Square 商場這個核心地帶，其店鋪設計以簡約現代風格為基調，融入高雅的奢華元素。店內採用潔白的牆面搭配深色地板，創造出鮮明的視覺對比，同時透過鏡面與玻璃材質的巧妙運用，擴展空間感並提升整體質感。這種設計不僅彰顯護膚品牌的專業形象，更為顧客提供了一個舒適而高端的消費環境。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">設計以簡約現代風格為基調，融入高雅的奢華元素。店內採用潔白的牆面搭配深色地板，創造出鮮明的視覺對比，同時透過鏡面與玻璃材質的巧妙運用，擴展空間感並提升整體質感。這種設計不僅彰顯護膚品牌的專業形象，更為顧客提供了一個舒適而高端的消費環境。</p>",
+              "text": "設計以簡約現代風格為基調，融入高雅的奢華元素。店內採用潔白的牆面搭配深色地板，創造出鮮明的視覺對比，同時透過鏡面與玻璃材質的巧妙運用，擴展空間感並提升整體質感。這種設計不僅彰顯護膚品牌的專業形象，更為顧客提供了一個舒適而高端的消費環境。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -9033,8 +8655,8 @@ window.projectReferences = [
               "width": 81.6025641025641,
               "height": 4.923878205128205,
               "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">店面裝潢設計｜功能性與美感的巧妙平衡</h6>",
-              "text": "店面裝潢設計｜功能性與美感的巧妙平衡",
+              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">功能性與美感的巧妙平衡</h6>",
+              "text": "功能性與美感的巧妙平衡",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -9051,8 +8673,8 @@ window.projectReferences = [
               "width": 81.6025641025641,
               "height": 39.39102564102564,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">在這個商業設計項目中，功能性與美感並重是我們的設計核心。店內配置了現代化的高腳椅，奶油色皮革設計與黑色金屬框架兼具舒適性與時尚感。中央展示區採用透明玻璃架，精緻陳列美容產品，吸引顧客目光並方便試用體驗。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">每個試用區均配備鏡子與充足的燈光，確保顧客在試用產品時能清楚觀察肌膚變化，充分體現了設計的實用性與人性化考量，提升顧客體驗。</p>",
-              "text": "在這個商業設計項目中，功能性與美感並重是我們的設計核心。店內配置了現代化的高腳椅，奶油色皮革設計與黑色金屬框架兼具舒適性與時尚感。中央展示區採用透明玻璃架，精緻陳列美容產品，吸引顧客目光並方便試用體驗。\n\n每個試用區均配備鏡子與充足的燈光，確保顧客在試用產品時能清楚觀察肌膚變化，充分體現了設計的實用性與人性化考量，提升顧客體驗。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">功能性與美感並重是我們的設計核心。店內配置了現代化的高腳椅，奶油色皮革材質與黑色金屬框架兼具舒適性與時尚感。中央展示區採用透明玻璃架，精緻陳列美容產品，吸引顧客目光並提升試用體驗。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">每個試用區均配備鏡子與充足的燈光，確保顧客在試用產品時能清楚觀察肌膚變化。這項細節充分體現了設計的實用性與人性化考量，進一步提升顧客體驗。</p>",
+              "text": "功能性與美感並重是我們的設計核心。店內配置了現代化的高腳椅，奶油色皮革材質與黑色金屬框架兼具舒適性與時尚感。中央展示區採用透明玻璃架，精緻陳列美容產品，吸引顧客目光並提升試用體驗。\n\n每個試用區均配備鏡子與充足的燈光，確保顧客在試用產品時能清楚觀察肌膚變化。這項細節充分體現了設計的實用性與人性化考量，進一步提升顧客體驗。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -9069,8 +8691,8 @@ window.projectReferences = [
               "width": 81.6025641025641,
               "height": 4.923878205128205,
               "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">店舖裝潢設計｜資訊科技與品牌宣傳的完美融合</h6>",
-              "text": "店舖裝潢設計｜資訊科技與品牌宣傳的完美融合",
+              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">資訊科技與品牌宣傳的完美融合</h6>",
+              "text": "資訊科技與品牌宣傳的完美融合",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -9087,62 +8709,8 @@ window.projectReferences = [
               "width": 81.6025641025641,
               "height": 29.54326923076923,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">為了提升品牌互動體驗，我們在商店設計中融入了先進的資訊科技元素。店內的大型數位螢幕滾動播放產品廣告與品牌故事，展現 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">Glamour Beauty Affairs</span> 品牌的高端定位與專業服務，亦加強空間互動性 ，令品牌吸引更多的潛在顧客，提高銷售量和盈利能力。</p>",
-              "text": "為了提升品牌互動體驗，我們在商店設計中融入了先進的資訊科技元素。店內的大型數位螢幕滾動播放產品廣告與品牌故事，展現 Glamour Beauty Affairs 品牌的高端定位與專業服務，亦加強空間互動性 ，令品牌吸引更多的潛在顧客，提高銷售量和盈利能力。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "2.564103vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 8.934294871794872,
-              "y": 152.8165064102564,
-              "width": 81.73477564102564,
-              "height": 4.923878205128205,
-              "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">一場設計｜專營商業室內設計及美容品牌零售店鋪工程</h6>",
-              "text": "一場設計｜專營商業室內設計及美容品牌零售店鋪工程",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "2.564103vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 9.0625,
-              "y": 158.76201923076923,
-              "width": 81.6025641025641,
-              "height": 59.08653846153846,
-              "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">一場設計精準規劃每一個細節，確保空間充分利用，同時保持整潔有序的視覺效果。這種設計不僅提升了顧客的購物體驗，也營造出專業與可信賴的品牌價值與形象。透過現代奢華風格的設計語言、功能性與美感的完美平衡，以及資訊科技與空間優化的創新應用，一場設計團隊成功為 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">Glamour Beauty Affairs</span> 規劃了一個引人入勝的消費空間。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">除了，我們還參與了其他商業室內設計項目，例如<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">KLASSE14 </span>概念店、<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">TATCHA Lane Crawford</span>等。這些項目不僅展示了一場設計團隊的專業能力，也驗證了我們在商業空間規劃和設計方面的豐富經驗。</p>",
-              "text": "一場設計精準規劃每一個細節，確保空間充分利用，同時保持整潔有序的視覺效果。這種設計不僅提升了顧客的購物體驗，也營造出專業與可信賴的品牌價值與形象。透過現代奢華風格的設計語言、功能性與美感的完美平衡，以及資訊科技與空間優化的創新應用，一場設計團隊成功為 Glamour Beauty Affairs 規劃了一個引人入勝的消費空間。\n\n除了，我們還參與了其他商業室內設計項目，例如KLASSE14 概念店、TATCHA Lane Crawford等。這些項目不僅展示了一場設計團隊的專業能力，也驗證了我們在商業空間規劃和設計方面的豐富經驗。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "2.564103vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 9.0625,
-              "y": 224.2588141025641,
-              "width": 81.6025641025641,
-              "height": 8.613782051282051,
-              "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">如欲了解更多關於我們的商業室內設計項目，請訪問<span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw;text-decoration:underline\"><a href=\"https://www.facebook.com/oncedesignhk/\">一場設計<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">FACEBOOK</span>專頁</a></span>，了解更多詳細內容。</p>",
-              "text": "如欲了解更多關於我們的商業室內設計項目，請訪問一場設計FACEBOOK專頁，了解更多詳細內容。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">為了提升品牌互動體驗，設計中融入了先進的資訊科技元素。店內的大型電子屏幕滾動播放產品廣告與品牌故事，展現品牌的高端定位與專業服務，亦加強空間互動性 ，令品牌吸引更多的潛在顧客，進而轉化為實質的商業效益。</p>",
+              "text": "為了提升品牌互動體驗，設計中融入了先進的資訊科技元素。店內的大型電子屏幕滾動播放產品廣告與品牌故事，展現品牌的高端定位與專業服務，亦加強空間互動性 ，令品牌吸引更多的潛在顧客，進而轉化為實質的商業效益。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -9177,7 +8745,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 30.512820512820515,
               "type": "image",
-              "src": "../assets/images/zh/projects/42c3f8c9905b4101.jpg",
+              "src": "../assets/images/projects/glamour/glamour-gallery-4.jpg",
               "alt": "GLAMOUR BEAUTY AFFAIRS |\nTIMES SQUARE"
             },
             {
@@ -9186,7 +8754,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 31.28205128205128,
               "type": "image",
-              "src": "../assets/images/zh/projects/0185f31b53c10953.jpg",
+              "src": "../assets/images/projects/glamour/glamour-gallery-1.jpg",
               "alt": "GLAMOUR BEAUTY AFFAIRS |\nTIMES SQUARE"
             },
             {
@@ -9195,7 +8763,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 31.28205128205128,
               "type": "image",
-              "src": "../assets/images/zh/projects/104a50d58591c5ef.jpg",
+              "src": "../assets/images/projects/glamour/glamour-gallery-2.jpg",
               "alt": "GLAMOUR BEAUTY AFFAIRS |\nTIMES SQUARE"
             },
             {
@@ -9204,7 +8772,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 55.38461538461539,
               "type": "image",
-              "src": "../assets/images/zh/projects/3f801f6900c37907.jpg",
+              "src": "../assets/images/projects/glamour/glamour-gallery-3.jpg",
               "alt": "GLAMOUR BEAUTY AFFAIRS |\nTIMES SQUARE"
             }
           ],
@@ -9277,7 +8845,7 @@ window.projectReferences = [
               "width": 100.0,
               "height": 53.02083333333333,
               "type": "image",
-              "src": "../assets/images/zh/projects/52a655c29cf44267.jpg",
+              "src": "../assets/images/projects/park-mountain/park-mountain-gallery-2.jpg",
               "alt": "ChatGPT-Image-2026年4月4日-下午05_36_34.jpg"
             },
             {
@@ -9388,8 +8956,8 @@ window.projectReferences = [
               "width": 40.62391493055556,
               "height": 6.564670138888889,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">位於香港全新地標「啟德體育園 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">(Kai Tak Sports Park</span>)」商場內的 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">Park Mountain</span>，不僅是一間提供「<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">Easygoing Dining</span>」的休閒餐廳，更是一間致力於推動社會共融、聘用自閉症人士的社企餐廳。一場設計 非常榮幸能參與這個極具意義的商業空間設計案例。我們將品牌的溫暖初心化為具體的空間語言，打造出一個完美結合自然山林、運動活力與社會共融理念的城市綠洲。</p>",
-              "text": "位於香港全新地標「啟德體育園 (Kai Tak Sports Park)」商場內的 Park Mountain，不僅是一間提供「Easygoing Dining」的休閒餐廳，更是一間致力於推動社會共融、聘用自閉症人士的社企餐廳。一場設計 非常榮幸能參與這個極具意義的商業空間設計案例。我們將品牌的溫暖初心化為具體的空間語言，打造出一個完美結合自然山林、運動活力與社會共融理念的城市綠洲。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\"><span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">Park Mountain</span>不僅是一間提供「<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">Easygoing Dining</span>」的休閒餐廳，更是一間致力於推動社會共融、聘用自閉症人士的社企餐廳。品牌的溫暖初心化為具體的空間語言，打造出一個完美結合自然山林、運動活力與社會共融理念的城市綠洲。</p>",
+              "text": "Park Mountain不僅是一間提供「Easygoing Dining」的休閒餐廳，更是一間致力於推動社會共融、聘用自閉症人士的社企餐廳。品牌的溫暖初心化為具體的空間語言，打造出一個完美結合自然山林、運動活力與社會共融理念的城市綠洲。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -9594,12 +9162,12 @@ window.projectReferences = [
           "blocks": [
             {
               "x": 7.019314236111112,
-              "y": 8.619791666666666,
+              "y": 8.59,
               "width": 26.209852430555557,
-              "height": 1.4995659722222223,
+              "height": 1.496,
               "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">銅鑼灣店舖室內設計案例分析</h6>",
-              "text": "銅鑼灣店舖室內設計案例分析",
+              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">山脈意象與空間基底</h6>",
+              "text": "山脈意象與空間基底",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -9612,12 +9180,30 @@ window.projectReferences = [
             },
             {
               "x": 7.058376736111111,
-              "y": 10.517578125,
+              "y": 10.486,
               "width": 26.209852430555557,
-              "height": 9.190538194444445,
+              "height": 3.926,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">這個商舖項目位於銅鑼灣 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">Times Square</span> 商場這個核心地帶，其店鋪設計以簡約現代風格為基調，融入高雅的奢華元素。店內採用潔白的牆面搭配深色地板，創造出鮮明的視覺對比，同時透過鏡面與玻璃材質的巧妙運用，擴展空間感並提升整體質感。這種設計不僅彰顯護膚品牌的專業形象，更為顧客提供了一個舒適而高端的消費環境。</p>",
-              "text": "這個商舖項目位於銅鑼灣 Times Square 商場這個核心地帶，其店鋪設計以簡約現代風格為基調，融入高雅的奢華元素。店內採用潔白的牆面搭配深色地板，創造出鮮明的視覺對比，同時透過鏡面與玻璃材質的巧妙運用，擴展空間感並提升整體質感。這種設計不僅彰顯護膚品牌的專業形象，更為顧客提供了一個舒適而高端的消費環境。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">設計靈感緊扣品牌的「山脈」意象與所處的「體育園」環境。設計運用溫潤的淺木色調作為空間基底，在繁華的商場中營造出一片寧靜、無壓的自然氛圍。</p>",
+              "text": "設計靈感緊扣品牌的「山脈」意象與所處的「體育園」環境。設計運用溫潤的淺木色調作為空間基底，在繁華的商場中營造出一片寧靜、無壓的自然氛圍。",
+              "style": {
+                "font-family": "'Project Chinese Light', sans-serif",
+                "font-weight": "400",
+                "color": "rgb(0, 0, 0)",
+                "text-transform": "none",
+                "font-size": "0.694444vw",
+                "line-height": "normal",
+                "letter-spacing": "normal"
+              }
+            },
+            {
+              "x": 7.058376736111111,
+              "y": 15.712,
+              "width": 26.209852430555557,
+              "height": 5.234,
+              "type": "text",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">為了呼應啟德體育園的運動活力，設計團隊在細節中巧妙融入了運動元素，例如牆面上極具創意的「籃球框」裝飾，讓休閒餐飲與體育精神在同一個空間中產生有趣的對話。</p>",
+              "text": "為了呼應啟德體育園的運動活力，設計團隊在細節中巧妙融入了運動元素，例如牆面上極具創意的「籃球框」裝飾，讓休閒餐飲與體育精神在同一個空間中產生有趣的對話。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -9630,12 +9216,12 @@ window.projectReferences = [
             },
             {
               "x": 7.019314236111112,
-              "y": 21.661241319444443,
+              "y": 23.676,
               "width": 26.209852430555557,
-              "height": 1.4995659722222223,
+              "height": 1.496,
               "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">店面裝潢設計｜功能性與美感的巧妙平衡</h6>",
-              "text": "店面裝潢設計｜功能性與美感的巧妙平衡",
+              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">流線型木格柵門面與外賣區</h6>",
+              "text": "流線型木格柵門面與外賣區",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -9648,12 +9234,12 @@ window.projectReferences = [
             },
             {
               "x": 7.058376736111111,
-              "y": 23.55902777777778,
+              "y": 25.572,
               "width": 26.209852430555557,
-              "height": 11.996527777777779,
+              "height": 6.543,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">在這個商業設計項目中，功能性與美感並重是我們的設計核心。店內配置了現代化的高腳椅，奶油色皮革設計與黑色金屬框架兼具舒適性與時尚感。中央展示區採用透明玻璃架，精緻陳列美容產品，吸引顧客目光並方便試用體驗。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">每個試用區均配備鏡子與充足的燈光，確保顧客在試用產品時能清楚觀察肌膚變化，充分體現了設計的實用性與人性化考量，提升顧客體驗。</p>",
-              "text": "在這個商業設計項目中，功能性與美感並重是我們的設計核心。店內配置了現代化的高腳椅，奶油色皮革設計與黑色金屬框架兼具舒適性與時尚感。中央展示區採用透明玻璃架，精緻陳列美容產品，吸引顧客目光並方便試用體驗。\n\n每個試用區均配備鏡子與充足的燈光，確保顧客在試用產品時能清楚觀察肌膚變化，充分體現了設計的實用性與人性化考量，提升顧客體驗。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">餐廳外觀採用極具現代感的淺色木格柵與溫和的弧形轉角設計，削弱了商業空間的冰冷感。清晰獨立的「<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">Cashier</span>」與「<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">Pick-up</span>」外賣吧枱動線，不僅提升了營運效率，更有效吸引並消化商場的龐大人流。</p>",
+              "text": "餐廳外觀採用極具現代感的淺色木格柵與溫和的弧形轉角設計，削弱了商業空間的冰冷感。清晰獨立的「Cashier」與「Pick-up」外賣吧枱動線，不僅提升了營運效率，更有效吸引並消化商場的龐大人流。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -9665,13 +9251,13 @@ window.projectReferences = [
               }
             },
             {
-              "x": 6.993272569444445,
-              "y": 37.50868055555556,
+              "x": 7.019314236111112,
+              "y": 34.845,
               "width": 26.209852430555557,
-              "height": 1.4995659722222223,
+              "height": 1.496,
               "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">店舖裝潢設計｜資訊科技與品牌宣傳的完美融合</h6>",
-              "text": "店舖裝潢設計｜資訊科技與品牌宣傳的完美融合",
+              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">ESG 永續與共融設計理念｜以人為本的餐飲空間</h6>",
+              "text": "ESG 永續與共融設計理念｜以人為本的餐飲空間",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -9683,13 +9269,13 @@ window.projectReferences = [
               }
             },
             {
-              "x": 7.032335069444444,
-              "y": 39.40646701388889,
+              "x": 7.019314236111112,
+              "y": 37.241,
               "width": 26.209852430555557,
-              "height": 7.567274305555556,
+              "height": 1.496,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">為了提升品牌互動體驗，我們在商店設計中融入了先進的資訊科技元素。店內的大型數位螢幕滾動播放產品廣告與品牌故事，展現 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">Glamour Beauty Affairs</span> 品牌的高端定位與專業服務，亦加強空間互動性 ，令品牌吸引更多的潛在顧客，提高銷售量和盈利能力。</p>",
-              "text": "為了提升品牌互動體驗，我們在商店設計中融入了先進的資訊科技元素。店內的大型數位螢幕滾動播放產品廣告與品牌故事，展現 Glamour Beauty Affairs 品牌的高端定位與專業服務，亦加強空間互動性 ，令品牌吸引更多的潛在顧客，提高銷售量和盈利能力。",
+              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">社會共融與低壓環境設計</h6>",
+              "text": "社會共融與低壓環境設計",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -9701,31 +9287,13 @@ window.projectReferences = [
               }
             },
             {
-              "x": 6.967230902777779,
-              "y": 48.92686631944444,
-              "width": 26.252170138888886,
-              "height": 1.4995659722222223,
-              "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">一場設計｜專營商業室內設計及美容品牌零售店鋪工程</h6>",
-              "text": "一場設計｜專營商業室內設計及美容品牌零售店鋪工程",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "0.694444vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 7.006293402777778,
-              "y": 50.82465277777778,
+              "x": 7.058376736111111,
+              "y": 39.137,
               "width": 26.209852430555557,
-              "height": 16.634114583333336,
+              "height": 9.16,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">一場設計精準規劃每一個細節，確保空間充分利用，同時保持整潔有序的視覺效果。這種設計不僅提升了顧客的購物體驗，也營造出專業與可信賴的品牌價值與形象。透過現代奢華風格的設計語言、功能性與美感的完美平衡，以及資訊科技與空間優化的創新應用，一場設計團隊成功為 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">Glamour Beauty Affairs</span> 規劃了一個引人入勝的消費空間。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">除了，我們還參與了其他商業室內設計項目，例如<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">KLASSE14 </span>概念店、<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">TATCHA Lane Crawford</span>等。這些項目不僅展示了一場設計團隊的專業能力，也驗證了我們在商業空間規劃和設計方面的豐富經驗。</p>",
-              "text": "一場設計精準規劃每一個細節，確保空間充分利用，同時保持整潔有序的視覺效果。這種設計不僅提升了顧客的購物體驗，也營造出專業與可信賴的品牌價值與形象。透過現代奢華風格的設計語言、功能性與美感的完美平衡，以及資訊科技與空間優化的創新應用，一場設計團隊成功為 Glamour Beauty Affairs 規劃了一個引人入勝的消費空間。\n\n除了，我們還參與了其他商業室內設計項目，例如KLASSE14 概念店、TATCHA Lane Crawford等。這些項目不僅展示了一場設計團隊的專業能力，也驗證了我們在商業空間規劃和設計方面的豐富經驗。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">呼應品牌聘用自閉症員工的核心理念，我們在空間佈局上強調動線的直觀與寬敞（<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">Universal Design</span>）。全區運用低刺激性的自然大地色系、圓潤的無銳角傢俬，以及柔和的防眩光間接照明。這種「情緒友善」的環境設計能有效降低感官壓力，為員工提供安心的工作場域，也為食客帶來極致療癒的用餐體驗。</p>",
+              "text": "呼應品牌聘用自閉症員工的核心理念，我們在空間佈局上強調動線的直觀與寬敞（Universal Design）。全區運用低刺激性的自然大地色系、圓潤的無銳角傢俬，以及柔和的防眩光間接照明。這種「情緒友善」的環境設計能有效降低感官壓力，為員工提供安心的工作場域，也為食客帶來極致療癒的用餐體驗。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -9737,13 +9305,31 @@ window.projectReferences = [
               }
             },
             {
-              "x": 7.084418402777779,
-              "y": 69.41189236111111,
-              "width": 26.251085069444446,
-              "height": 2.625868055555556,
+              "x": 7.019314236111112,
+              "y": 51.027,
+              "width": 26.209852430555557,
+              "height": 1.496,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">如欲了解更多關於我們的商業室內設計項目，請訪問<span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw;text-decoration:underline\"><a href=\"https://www.facebook.com/oncedesignhk/\">一場設計<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">FACEBOOK</span>專頁</a></span>，了解更多詳細內容。</p>",
-              "text": "如欲了解更多關於我們的商業室內設計項目，請訪問一場設計FACEBOOK專頁，了解更多詳細內容。",
+              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">品牌理念展示牆</h6>",
+              "text": "品牌理念展示牆",
+              "style": {
+                "font-family": "'Project Chinese Light', sans-serif",
+                "font-weight": "400",
+                "color": "rgb(0, 0, 0)",
+                "text-transform": "none",
+                "font-size": "0.694444vw",
+                "line-height": "normal",
+                "letter-spacing": "normal"
+              }
+            },
+            {
+              "x": 7.058376736111111,
+              "y": 52.923,
+              "width": 26.209852430555557,
+              "height": 6.543,
+              "type": "text",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">在入口顯眼處，我們特別設計了一面極具質感的透光石材牆，清晰刻劃了「<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">PARK</span>」與「<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">A (Autism)</span>」背後的動人理念。實體空間成為了品牌發聲的最佳媒介，讓每一位顧客在踏入餐廳的那一刻，就能感受到這份善意與社會責任。</p>",
+              "text": "在入口顯眼處，我們特別設計了一面極具質感的透光石材牆，清晰刻劃了「PARK」與「A (Autism)」背後的動人理念。實體空間成為了品牌發聲的最佳媒介，讓每一位顧客在踏入餐廳的那一刻，就能感受到這份善意與社會責任。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -9778,7 +9364,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 39.93055555555556,
               "type": "image",
-              "src": "../assets/images/zh/projects/f2b98b0316d8d1ef.jpg",
+              "src": "../assets/images/projects/park-mountain/park-mountain-gallery-1.jpg",
               "alt": "PARK MOUNTAIN | KAI TAK MALLL"
             },
             {
@@ -9787,7 +9373,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 17.708333333333336,
               "type": "image",
-              "src": "../assets/images/zh/projects/c2708c6c637f37be.jpg",
+              "src": "../assets/images/projects/park-mountain/park-mountain-gallery-2.jpg",
               "alt": "PARK MOUNTAIN | KAI TAK MALLL"
             },
             {
@@ -9796,7 +9382,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 17.708333333333336,
               "type": "image",
-              "src": "../assets/images/zh/projects/41175d15448e5d04.jpg",
+              "src": "../assets/images/projects/park-mountain/park-mountain-gallery-3.jpg",
               "alt": "PARK MOUNTAIN | KAI TAK MALLL"
             },
             {
@@ -9805,7 +9391,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 39.93055555555556,
               "type": "image",
-              "src": "../assets/images/zh/projects/fab3e7b681e3877f.jpg",
+              "src": "../assets/images/projects/park-mountain/park-mountain-gallery-4.jpg",
               "alt": "PARK MOUNTAIN | KAI TAK MALLL"
             },
             {
@@ -9814,7 +9400,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 17.708333333333336,
               "type": "image",
-              "src": "../assets/images/zh/projects/0b033eeb082b214e.jpg",
+              "src": "../assets/images/projects/park-mountain/park-mountain-gallery-5.jpg",
               "alt": "PARK MOUNTAIN | KAI TAK MALLL"
             },
             {
@@ -9823,7 +9409,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 17.708333333333336,
               "type": "image",
-              "src": "../assets/images/zh/projects/0615fcba467c6812.jpg",
+              "src": "../assets/images/projects/park-mountain/park-mountain-gallery-6.jpg",
               "alt": "PARK MOUNTAIN | KAI TAK MALLL"
             }
           ],
@@ -9887,7 +9473,7 @@ window.projectReferences = [
               "width": 100.0,
               "height": 115.64102564102565,
               "type": "image",
-              "src": "../assets/images/zh/projects/dcb89d09960a9b80.jpg",
+              "src": "../assets/images/projects/park-mountain/park-mountain-gallery-2.jpg",
               "alt": "ChatGPT-Image-2026年4月4日-下午05_36_34.jpg"
             },
             {
@@ -9998,8 +9584,8 @@ window.projectReferences = [
               "width": 84.1025641025641,
               "height": 34.455128205128204,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">位於香港全新地標「啟德體育園 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">(Kai Tak Sports Park</span>)」商場內的 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">Park Mountain</span>，不僅是一間提供「<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">Easygoing Dining</span>」的休閒餐廳，更是一間致力於推動社會共融、聘用自閉症人士的社企餐廳。一場設計 非常榮幸能參與這個極具意義的商業空間設計案例。我們將品牌的溫暖初心化為具體的空間語言，打造出一個完美結合自然山林、運動活力與社會共融理念的城市綠洲。</p>",
-              "text": "位於香港全新地標「啟德體育園 (Kai Tak Sports Park)」商場內的 Park Mountain，不僅是一間提供「Easygoing Dining」的休閒餐廳，更是一間致力於推動社會共融、聘用自閉症人士的社企餐廳。一場設計 非常榮幸能參與這個極具意義的商業空間設計案例。我們將品牌的溫暖初心化為具體的空間語言，打造出一個完美結合自然山林、運動活力與社會共融理念的城市綠洲。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">Park Mountain</span>不僅是一間提供「<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">Easygoing Dining</span>」的休閒餐廳，更是一間致力於推動社會共融、聘用自閉症人士的社企餐廳。品牌的溫暖初心化為具體的空間語言，打造出一個完美結合自然山林、運動活力與社會共融理念的城市綠洲。</p>",
+              "text": "Park Mountain不僅是一間提供「Easygoing Dining」的休閒餐廳，更是一間致力於推動社會共融、聘用自閉症人士的社企餐廳。品牌的溫暖初心化為具體的空間語言，打造出一個完美結合自然山林、運動活力與社會共融理念的城市綠洲。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -10204,12 +9790,12 @@ window.projectReferences = [
           "blocks": [
             {
               "x": 9.0625,
-              "y": 16.662660256410255,
+              "y": 16.66,
               "width": 81.6025641025641,
-              "height": 4.923878205128205,
+              "height": 4.872,
               "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">銅鑼灣店舖室內設計案例分析</h6>",
-              "text": "銅鑼灣店舖室內設計案例分析",
+              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">山脈意象與空間基底</h6>",
+              "text": "山脈意象與空間基底",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -10222,30 +9808,12 @@ window.projectReferences = [
             },
             {
               "x": 9.19070512820513,
-              "y": 22.608173076923077,
+              "y": 22.552,
               "width": 81.6025641025641,
-              "height": 30.148237179487182,
+              "height": 12.788,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">這個商舖項目位於銅鑼灣 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">Times Square</span> 商場這個核心地帶，其店鋪設計以簡約現代風格為基調，融入高雅的奢華元素。店內採用潔白的牆面搭配深色地板，創造出鮮明的視覺對比，同時透過鏡面與玻璃材質的巧妙運用，擴展空間感並提升整體質感。這種設計不僅彰顯護膚品牌的專業形象，更為顧客提供了一個舒適而高端的消費環境。</p>",
-              "text": "這個商舖項目位於銅鑼灣 Times Square 商場這個核心地帶，其店鋪設計以簡約現代風格為基調，融入高雅的奢華元素。店內採用潔白的牆面搭配深色地板，創造出鮮明的視覺對比，同時透過鏡面與玻璃材質的巧妙運用，擴展空間感並提升整體質感。這種設計不僅彰顯護膚品牌的專業形象，更為顧客提供了一個舒適而高端的消費環境。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "2.564103vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 9.0625,
-              "y": 59.16266025641026,
-              "width": 81.6025641025641,
-              "height": 4.923878205128205,
-              "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">店面裝潢設計｜功能性與美感的巧妙平衡</h6>",
-              "text": "店面裝潢設計｜功能性與美感的巧妙平衡",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">設計靈感緊扣品牌的「山脈」意象與所處的「體育園」環境。設計運用溫潤的淺木色調作為空間基底，在繁華的商場中營造出一片寧靜、無壓的自然氛圍。</p>",
+              "text": "設計靈感緊扣品牌的「山脈」意象與所處的「體育園」環境。設計運用溫潤的淺木色調作為空間基底，在繁華的商場中營造出一片寧靜、無壓的自然氛圍。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -10258,12 +9826,12 @@ window.projectReferences = [
             },
             {
               "x": 9.19070512820513,
-              "y": 65.10817307692308,
+              "y": 38.54,
               "width": 81.6025641025641,
-              "height": 39.39102564102564,
+              "height": 17.051,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">在這個商業設計項目中，功能性與美感並重是我們的設計核心。店內配置了現代化的高腳椅，奶油色皮革設計與黑色金屬框架兼具舒適性與時尚感。中央展示區採用透明玻璃架，精緻陳列美容產品，吸引顧客目光並方便試用體驗。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">每個試用區均配備鏡子與充足的燈光，確保顧客在試用產品時能清楚觀察肌膚變化，充分體現了設計的實用性與人性化考量，提升顧客體驗。</p>",
-              "text": "在這個商業設計項目中，功能性與美感並重是我們的設計核心。店內配置了現代化的高腳椅，奶油色皮革設計與黑色金屬框架兼具舒適性與時尚感。中央展示區採用透明玻璃架，精緻陳列美容產品，吸引顧客目光並方便試用體驗。\n\n每個試用區均配備鏡子與充足的燈光，確保顧客在試用產品時能清楚觀察肌膚變化，充分體現了設計的實用性與人性化考量，提升顧客體驗。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">為了呼應啟德體育園的運動活力，設計團隊在細節中巧妙融入了運動元素，例如牆面上極具創意的「籃球框」裝飾，讓休閒餐飲與體育精神在同一個空間中產生有趣的對話。</p>",
+              "text": "為了呼應啟德體育園的運動活力，設計團隊在細節中巧妙融入了運動元素，例如牆面上極具創意的「籃球框」裝飾，讓休閒餐飲與體育精神在同一個空間中產生有趣的對話。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -10276,12 +9844,12 @@ window.projectReferences = [
             },
             {
               "x": 9.0625,
-              "y": 110.90544871794872,
+              "y": 61.991,
               "width": 81.6025641025641,
-              "height": 4.923878205128205,
+              "height": 4.872,
               "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">店舖裝潢設計｜資訊科技與品牌宣傳的完美融合</h6>",
-              "text": "店舖裝潢設計｜資訊科技與品牌宣傳的完美融合",
+              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">流線型木格柵門面與外賣區</h6>",
+              "text": "流線型木格柵門面與外賣區",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -10294,30 +9862,12 @@ window.projectReferences = [
             },
             {
               "x": 9.19070512820513,
-              "y": 116.85096153846153,
+              "y": 67.883,
               "width": 81.6025641025641,
-              "height": 29.54326923076923,
+              "height": 17.051,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">為了提升品牌互動體驗，我們在商店設計中融入了先進的資訊科技元素。店內的大型數位螢幕滾動播放產品廣告與品牌故事，展現 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">Glamour Beauty Affairs</span> 品牌的高端定位與專業服務，亦加強空間互動性 ，令品牌吸引更多的潛在顧客，提高銷售量和盈利能力。</p>",
-              "text": "為了提升品牌互動體驗，我們在商店設計中融入了先進的資訊科技元素。店內的大型數位螢幕滾動播放產品廣告與品牌故事，展現 Glamour Beauty Affairs 品牌的高端定位與專業服務，亦加強空間互動性 ，令品牌吸引更多的潛在顧客，提高銷售量和盈利能力。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "2.564103vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 8.934294871794872,
-              "y": 152.80048076923077,
-              "width": 81.73477564102564,
-              "height": 4.923878205128205,
-              "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">一場設計｜專營商業室內設計及美容品牌零售店鋪工程</h6>",
-              "text": "一場設計｜專營商業室內設計及美容品牌零售店鋪工程",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">餐廳外觀採用極具現代感的淺色木格柵與溫和的弧形轉角設計，削弱了商業空間的冰冷感。清晰獨立的「<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">Cashier</span>」與「<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">Pick-up</span>」外賣吧枱動線，不僅提升了營運效率，更有效吸引並消化商場的龐大人流。</p>",
+              "text": "餐廳外觀採用極具現代感的淺色木格柵與溫和的弧形轉角設計，削弱了商業空間的冰冷感。清晰獨立的「Cashier」與「Pick-up」外賣吧枱動線，不僅提升了營運效率，更有效吸引並消化商場的龐大人流。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -10330,12 +9880,12 @@ window.projectReferences = [
             },
             {
               "x": 9.0625,
-              "y": 158.7459935897436,
+              "y": 91.334,
               "width": 81.6025641025641,
-              "height": 59.08653846153846,
+              "height": 4.872,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">一場設計精準規劃每一個細節，確保空間充分利用，同時保持整潔有序的視覺效果。這種設計不僅提升了顧客的購物體驗，也營造出專業與可信賴的品牌價值與形象。透過現代奢華風格的設計語言、功能性與美感的完美平衡，以及資訊科技與空間優化的創新應用，一場設計團隊成功為 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">Glamour Beauty Affairs</span> 規劃了一個引人入勝的消費空間。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">除了，我們還參與了其他商業室內設計項目，例如<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">KLASSE14 </span>概念店、<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">TATCHA Lane Crawford</span>等。這些項目不僅展示了一場設計團隊的專業能力，也驗證了我們在商業空間規劃和設計方面的豐富經驗。</p>",
-              "text": "一場設計精準規劃每一個細節，確保空間充分利用，同時保持整潔有序的視覺效果。這種設計不僅提升了顧客的購物體驗，也營造出專業與可信賴的品牌價值與形象。透過現代奢華風格的設計語言、功能性與美感的完美平衡，以及資訊科技與空間優化的創新應用，一場設計團隊成功為 Glamour Beauty Affairs 規劃了一個引人入勝的消費空間。\n\n除了，我們還參與了其他商業室內設計項目，例如KLASSE14 概念店、TATCHA Lane Crawford等。這些項目不僅展示了一場設計團隊的專業能力，也驗證了我們在商業空間規劃和設計方面的豐富經驗。",
+              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">ESG 永續與共融設計理念｜以人為本的餐飲空間</h6>",
+              "text": "ESG 永續與共融設計理念｜以人為本的餐飲空間",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -10348,12 +9898,66 @@ window.projectReferences = [
             },
             {
               "x": 9.0625,
-              "y": 224.23878205128207,
+              "y": 98.706,
               "width": 81.6025641025641,
-              "height": 8.613782051282051,
+              "height": 4.872,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">如欲了解更多關於我們的商業室內設計項目，請訪問<span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw;text-decoration:underline\"><a href=\"https://www.facebook.com/oncedesignhk/\">一場設計<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">FACEBOOK</span>專頁</a></span>，了解更多詳細內容。</p>",
-              "text": "如欲了解更多關於我們的商業室內設計項目，請訪問一場設計FACEBOOK專頁，了解更多詳細內容。",
+              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">社會共融與低壓環境設計</h6>",
+              "text": "社會共融與低壓環境設計",
+              "style": {
+                "font-family": "'Project Chinese Light', sans-serif",
+                "font-weight": "400",
+                "color": "rgb(0, 0, 0)",
+                "text-transform": "none",
+                "font-size": "2.564103vw",
+                "line-height": "normal",
+                "letter-spacing": "normal"
+              }
+            },
+            {
+              "x": 9.19070512820513,
+              "y": 104.598,
+              "width": 81.6025641025641,
+              "height": 29.84,
+              "type": "text",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">呼應品牌聘用自閉症員工的核心理念，我們在空間佈局上強調動線的直觀與寬敞（<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">Universal Design</span>）。全區運用低刺激性的自然大地色系、圓潤的無銳角傢俬，以及柔和的防眩光間接照明。這種「情緒友善」的環境設計能有效降低感官壓力，為員工提供安心的工作場域，也為食客帶來極致療癒的用餐體驗。</p>",
+              "text": "呼應品牌聘用自閉症員工的核心理念，我們在空間佈局上強調動線的直觀與寬敞（Universal Design）。全區運用低刺激性的自然大地色系、圓潤的無銳角傢俬，以及柔和的防眩光間接照明。這種「情緒友善」的環境設計能有效降低感官壓力，為員工提供安心的工作場域，也為食客帶來極致療癒的用餐體驗。",
+              "style": {
+                "font-family": "'Project Chinese Light', sans-serif",
+                "font-weight": "400",
+                "color": "rgb(0, 0, 0)",
+                "text-transform": "none",
+                "font-size": "2.564103vw",
+                "line-height": "normal",
+                "letter-spacing": "normal"
+              }
+            },
+            {
+              "x": 9.0625,
+              "y": 140.838,
+              "width": 81.6025641025641,
+              "height": 4.872,
+              "type": "text",
+              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">品牌理念展示牆</h6>",
+              "text": "品牌理念展示牆",
+              "style": {
+                "font-family": "'Project Chinese Light', sans-serif",
+                "font-weight": "400",
+                "color": "rgb(0, 0, 0)",
+                "text-transform": "none",
+                "font-size": "2.564103vw",
+                "line-height": "normal",
+                "letter-spacing": "normal"
+              }
+            },
+            {
+              "x": 9.19070512820513,
+              "y": 146.73,
+              "width": 81.6025641025641,
+              "height": 21.314,
+              "type": "text",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">在入口顯眼處，我們特別設計了一面極具質感的透光石材牆，清晰刻劃了「<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">PARK</span>」與「<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">A (Autism)</span>」背後的動人理念。實體空間成為了品牌發聲的最佳媒介，讓每一位顧客在踏入餐廳的那一刻，就能感受到這份善意與社會責任。</p>",
+              "text": "在入口顯眼處，我們特別設計了一面極具質感的透光石材牆，清晰刻劃了「PARK」與「A (Autism)」背後的動人理念。實體空間成為了品牌發聲的最佳媒介，讓每一位顧客在踏入餐廳的那一刻，就能感受到這份善意與社會責任。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -10388,7 +9992,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 62.30769230769231,
               "type": "image",
-              "src": "../assets/images/zh/projects/fd09144fbf764e56.jpg",
+              "src": "../assets/images/projects/park-mountain/park-mountain-gallery-1.jpg",
               "alt": "PARK MOUNTAIN | KAI TAK MALLL"
             },
             {
@@ -10397,7 +10001,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 27.692307692307693,
               "type": "image",
-              "src": "../assets/images/zh/projects/4c2b912b17fc5a33.jpg",
+              "src": "../assets/images/projects/park-mountain/park-mountain-gallery-2.jpg",
               "alt": "PARK MOUNTAIN | KAI TAK MALLL"
             },
             {
@@ -10406,7 +10010,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 27.692307692307693,
               "type": "image",
-              "src": "../assets/images/zh/projects/81591fefa9ec0cac.jpg",
+              "src": "../assets/images/projects/park-mountain/park-mountain-gallery-3.jpg",
               "alt": "PARK MOUNTAIN | KAI TAK MALLL"
             },
             {
@@ -10415,7 +10019,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 62.30769230769231,
               "type": "image",
-              "src": "../assets/images/zh/projects/4cd94748eaee12ea.jpg",
+              "src": "../assets/images/projects/park-mountain/park-mountain-gallery-4.jpg",
               "alt": "PARK MOUNTAIN | KAI TAK MALLL"
             },
             {
@@ -10424,7 +10028,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 27.692307692307693,
               "type": "image",
-              "src": "../assets/images/zh/projects/75ffbad2fc84325f.jpg",
+              "src": "../assets/images/projects/park-mountain/park-mountain-gallery-5.jpg",
               "alt": "PARK MOUNTAIN | KAI TAK MALLL"
             },
             {
@@ -10433,7 +10037,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 27.692307692307693,
               "type": "image",
-              "src": "../assets/images/zh/projects/c375ab37ae40c6c2.jpg",
+              "src": "../assets/images/projects/park-mountain/park-mountain-gallery-6.jpg",
               "alt": "PARK MOUNTAIN | KAI TAK MALLL"
             }
           ],
@@ -10506,7 +10110,7 @@ window.projectReferences = [
               "width": 100.0,
               "height": 53.02083333333333,
               "type": "image",
-              "src": "../assets/images/zh/projects/dca11e9705120b51.jpg",
+              "src": "../assets/images/projects/sheng-chim/sheng-chim-gallery-1.jpg",
               "alt": "IMG_9124.jpg"
             },
             {
@@ -10533,8 +10137,8 @@ window.projectReferences = [
               "width": 34.37717013888889,
               "height": 3.046875,
               "type": "text",
-              "html": "<h2 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(255, 255, 255);text-transform:uppercase;font-size:2.343750vw;line-height:3.046875vw;letter-spacing:0.468750vw\"><span style=\"font-family:'Project Chinese Regular', sans-serif;font-weight:400;color:rgb(255, 255, 255);text-transform:uppercase;font-size:2.343750vw;line-height:3.046875vw;letter-spacing:0.468750vw\">上上籤</span> <span style=\"font-family:'IvyOra Banner', 'Project Chinese Light', serif;font-weight:400;color:rgb(255, 255, 255);text-transform:uppercase;font-size:2.343750vw;line-height:3.046875vw;letter-spacing:0.468750vw\">|</span> <span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(255, 255, 255);text-transform:uppercase;font-size:2.343750vw;line-height:3.046875vw;letter-spacing:0.468750vw\">北 角</span></h2>",
-              "text": "上上籤 | 北 角",
+              "html": "<h2 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(255, 255, 255);text-transform:uppercase;font-size:2.343750vw;line-height:3.046875vw;letter-spacing:0.468750vw\"><span style=\"font-family:'Project Chinese Regular', sans-serif;font-weight:400;color:rgb(255, 255, 255);text-transform:uppercase;font-size:2.343750vw;line-height:3.046875vw;letter-spacing:0.468750vw\">上上籤</span> <span style=\"font-family:'IvyOra Banner', 'Project Chinese Light', serif;font-weight:400;color:rgb(255, 255, 255);text-transform:uppercase;font-size:2.343750vw;line-height:3.046875vw;letter-spacing:0.468750vw\">|</span> <span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(255, 255, 255);text-transform:uppercase;font-size:2.343750vw;line-height:3.046875vw;letter-spacing:0.468750vw\">香港</span></h2>",
+              "text": "上上籤 | 香港",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -10581,8 +10185,8 @@ window.projectReferences = [
               "width": 13.847656250000002,
               "height": 6.09375,
               "type": "text",
-              "html": "<h2 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:2.343750vw;line-height:3.046875vw;letter-spacing:0.468750vw\"><span style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:2.343750vw;line-height:3.046875vw;letter-spacing:0.468750vw\"><span style=\"font-family:'Project Chinese Regular', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:2.343750vw;line-height:3.046875vw;letter-spacing:0.468750vw\">上上籤</span><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:2.343750vw;line-height:3.046875vw;letter-spacing:0.468750vw\">|</span><br/>\n北  角</span></h2>",
-              "text": "上上籤|\n北  角",
+              "html": "<h2 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:2.343750vw;line-height:3.046875vw;letter-spacing:0.468750vw\"><span style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:2.343750vw;line-height:3.046875vw;letter-spacing:0.468750vw\"><span style=\"font-family:'Project Chinese Regular', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:2.343750vw;line-height:3.046875vw;letter-spacing:0.468750vw\">上上籤</span><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:2.343750vw;line-height:3.046875vw;letter-spacing:0.468750vw\">|</span><br/>\n香港</span></h2>",
+              "text": "上上籤|\n香港",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -10617,8 +10221,8 @@ window.projectReferences = [
               "width": 40.62391493055556,
               "height": 6.564670138888889,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">上上籤串燒店以日本屋台為設計概念，意在營造「讓顧客置身於隱秘洞穴裡」的悠閒居酒屋氛圍。整個空間的主色調以灰、白、啡為主，木質餐桌椅營造出溫暖氣氛，配以岩石牆板的特色牆面，賦予了空間一份獨特質感。吧枱設計彰顯了日本居酒屋文化的精髓，日式牆貼畫更為串燒店增添一抹雅致和風色彩，亦點亮了整體的寧靜舒適格調。</p>",
-              "text": "上上籤串燒店以日本屋台為設計概念，意在營造「讓顧客置身於隱秘洞穴裡」的悠閒居酒屋氛圍。整個空間的主色調以灰、白、啡為主，木質餐桌椅營造出溫暖氣氛，配以岩石牆板的特色牆面，賦予了空間一份獨特質感。吧枱設計彰顯了日本居酒屋文化的精髓，日式牆貼畫更為串燒店增添一抹雅致和風色彩，亦點亮了整體的寧靜舒適格調。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">結合日本屋台的熱鬧文化與隱秘洞穴的私密感。整個空間的主色調以灰、白、啡為主，營造出溫暖格調。</p>",
+              "text": "結合日本屋台的熱鬧文化與隱秘洞穴的私密感。整個空間的主色調以灰、白、啡為主，營造出溫暖格調。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -10827,8 +10431,8 @@ window.projectReferences = [
               "width": 26.209852430555557,
               "height": 1.4995659722222223,
               "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">餐廳設計風格：日式居酒屋</h6>",
-              "text": "餐廳設計風格：日式居酒屋",
+              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">日本屋台</h6>",
+              "text": "日本屋台",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -10845,62 +10449,8 @@ window.projectReferences = [
               "width": 26.209852430555557,
               "height": 14.995659722222221,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">在設計過程中，一場設計工作室會充分考慮餐廳的主題和風格，並提供量身定制的室內設計方案。設計師會考慮到每一個細節，包括燈光、色彩、家具擺設等，以創造出獨特而舒適的用餐環境。就像上上籤串燒店這個案例般，設計師便根據日本屋台的概念，選擇相應的色彩和材質，並將其融入到整體設計中。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">木質餐桌和椅子的使用帶來了自然和溫暖的感覺，而岩石牆板則增添了一份質感和獨特性。此外，日式牆貼畫的加入為整個空間帶來了一種雅致和獨特的氛圍，讓顧客在用餐的同時感受到一絲和風之美。</p>",
-              "text": "在設計過程中，一場設計工作室會充分考慮餐廳的主題和風格，並提供量身定制的室內設計方案。設計師會考慮到每一個細節，包括燈光、色彩、家具擺設等，以創造出獨特而舒適的用餐環境。就像上上籤串燒店這個案例般，設計師便根據日本屋台的概念，選擇相應的色彩和材質，並將其融入到整體設計中。\n\n木質餐桌和椅子的使用帶來了自然和溫暖的感覺，而岩石牆板則增添了一份質感和獨特性。此外，日式牆貼畫的加入為整個空間帶來了一種雅致和獨特的氛圍，讓顧客在用餐的同時感受到一絲和風之美。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "0.694444vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 7.019314236111112,
-              "y": 27.46636284722222,
-              "width": 26.209852430555557,
-              "height": 1.4995659722222223,
-              "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">一場設計｜專營餐廳室內設計及商業裝修工程</h6>",
-              "text": "一場設計｜專營餐廳室內設計及商業裝修工程",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "0.694444vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 7.058376736111111,
-              "y": 29.364149305555554,
-              "width": 26.209852430555557,
-              "height": 27.131076388888886,
-              "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">一場設計不僅注重營造舒適的用餐環境，還提供一系列全方位的服務，包括租舖前諮詢、飲食出牌、冷氣消防顧問等。無論你是計劃開設一家新的餐廳還是想要對現有的餐廳進行翻新，一場設計工作室都能夠滿足你的需求。設計師具有豐富的經驗和創意，瞭解餐廳室內設計的重要性，並致力於為客戶創造出獨一無二的用餐體驗。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">一場設計致力透過室內設計提升品牌知名度、講述品牌故事以及提升顧客餐飲體驗的方式，使餐飲服務過程更加順暢和有效，更能結合資訊科技以增強空間互動性。精心設計的特色店面和獨特巧思的室內設計不僅能夠吸引顧客的目光，激發他們的消費慾望，還能增強品牌價值，讓品牌形象深植人心。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">除了上上籤串燒店，我們還參與了其他商業室內設計項目，例如 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">KLASSE14</span> 概念店、<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">TATCHA Lane Crawford</span> 等。這些項目不僅展示了一場設計團隊的專業能力，也驗證了我們在商業空間規劃和設計方面的豐富經驗。</p>",
-              "text": "一場設計不僅注重營造舒適的用餐環境，還提供一系列全方位的服務，包括租舖前諮詢、飲食出牌、冷氣消防顧問等。無論你是計劃開設一家新的餐廳還是想要對現有的餐廳進行翻新，一場設計工作室都能夠滿足你的需求。設計師具有豐富的經驗和創意，瞭解餐廳室內設計的重要性，並致力於為客戶創造出獨一無二的用餐體驗。\n\n一場設計致力透過室內設計提升品牌知名度、講述品牌故事以及提升顧客餐飲體驗的方式，使餐飲服務過程更加順暢和有效，更能結合資訊科技以增強空間互動性。精心設計的特色店面和獨特巧思的室內設計不僅能夠吸引顧客的目光，激發他們的消費慾望，還能增強品牌價值，讓品牌形象深植人心。\n\n除了上上籤串燒店，我們還參與了其他商業室內設計項目，例如 KLASSE14 概念店、TATCHA Lane Crawford 等。這些項目不僅展示了一場設計團隊的專業能力，也驗證了我們在商業空間規劃和設計方面的豐富經驗。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "0.694444vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 7.084418402777779,
-              "y": 58.44835069444444,
-              "width": 26.251085069444446,
-              "height": 2.625868055555556,
-              "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">如欲了解更多關於我們的商業室內設計項目，請訪問<span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw;text-decoration:underline\"><a href=\"https://www.facebook.com/oncedesignhk/\">一場設計<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">FACEBOOK</span>專頁</a></span>，了解更多詳細內容。</p>",
-              "text": "如欲了解更多關於我們的商業室內設計項目，請訪問一場設計FACEBOOK專頁，了解更多詳細內容。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">為了展現日本屋台的概念，選擇相應的色彩和材質，運用木質餐桌和椅子，帶來了自然和溫暖的感覺，而岩石牆板則增添了一份質感和層次感，吧枱設計彰顯了日本居酒屋文化的精髓。此外，點綴其間的日式牆貼畫，為整個空間帶來了一種雅致和別緻的氛圍，讓顧客在用餐的同時感受到一絲和風之美。</p>",
+              "text": "為了展現日本屋台的概念，選擇相應的色彩和材質，運用木質餐桌和椅子，帶來了自然和溫暖的感覺，而岩石牆板則增添了一份質感和層次感，吧枱設計彰顯了日本居酒屋文化的精髓。此外，點綴其間的日式牆貼畫，為整個空間帶來了一種雅致和別緻的氛圍，讓顧客在用餐的同時感受到一絲和風之美。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -10935,7 +10485,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 19.930555555555557,
               "type": "image",
-              "src": "../assets/images/zh/projects/89e934d02117ce03.jpg",
+              "src": "../assets/images/projects/sheng-chim/sheng-chim-gallery-1.jpg",
               "alt": "SHEUNG SHEUNG CHIM | HONG KONG"
             },
             {
@@ -10944,7 +10494,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 35.486111111111114,
               "type": "image",
-              "src": "../assets/images/zh/projects/b4973b998d4998dd.jpg",
+              "src": "../assets/images/projects/sheng-chim/sheng-chim-gallery-2.jpg",
               "alt": "SHEUNG SHEUNG CHIM | HONG KONG"
             },
             {
@@ -10953,7 +10503,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 19.930555555555557,
               "type": "image",
-              "src": "../assets/images/zh/projects/a2674eed9a65d9d3.jpg",
+              "src": "../assets/images/projects/sheng-chim/sheng-chim-gallery-5.jpg",
               "alt": "SHEUNG SHEUNG CHIM | HONG KONG"
             },
             {
@@ -10962,7 +10512,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 35.486111111111114,
               "type": "image",
-              "src": "../assets/images/zh/projects/fa369129965c7a1a.jpg",
+              "src": "../assets/images/projects/sheng-chim/sheng-chim-gallery-4.jpg",
               "alt": "SHEUNG SHEUNG CHIM | HONG KONG"
             },
             {
@@ -10971,7 +10521,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 35.486111111111114,
               "type": "image",
-              "src": "../assets/images/zh/projects/ed66624564e8ef16.jpg",
+              "src": "../assets/images/projects/sheng-chim/sheng-chim-gallery-3.jpg",
               "alt": "SHEUNG SHEUNG CHIM | HONG KONG"
             }
           ],
@@ -11035,7 +10585,7 @@ window.projectReferences = [
               "width": 100.0,
               "height": 115.64102564102565,
               "type": "image",
-              "src": "../assets/images/zh/projects/eeae5e6322a0f830.jpg",
+              "src": "../assets/images/projects/sheng-chim/sheng-chim-gallery-1.jpg",
               "alt": "IMG_9124.jpg"
             },
             {
@@ -11062,8 +10612,8 @@ window.projectReferences = [
               "width": 53.34935897435897,
               "height": 16.666666666666664,
               "type": "text",
-              "html": "<h2 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(255, 255, 255);text-transform:uppercase;font-size:6.410231vw;line-height:8.333308vw;letter-spacing:1.282046vw\"><span style=\"font-family:'Project Chinese Regular', sans-serif;font-weight:400;color:rgb(255, 255, 255);text-transform:uppercase;font-size:6.410231vw;line-height:8.333308vw;letter-spacing:1.282046vw\">上上籤</span> <span style=\"font-family:'IvyOra Banner', 'Project Chinese Light', serif;font-weight:400;color:rgb(255, 255, 255);text-transform:uppercase;font-size:6.410231vw;line-height:8.333308vw;letter-spacing:1.282046vw\">|</span> <span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(255, 255, 255);text-transform:uppercase;font-size:6.410231vw;line-height:8.333308vw;letter-spacing:1.282046vw\">北 角</span></h2>",
-              "text": "上上籤 | 北 角",
+              "html": "<h2 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(255, 255, 255);text-transform:uppercase;font-size:6.410231vw;line-height:8.333308vw;letter-spacing:1.282046vw\"><span style=\"font-family:'Project Chinese Regular', sans-serif;font-weight:400;color:rgb(255, 255, 255);text-transform:uppercase;font-size:6.410231vw;line-height:8.333308vw;letter-spacing:1.282046vw\">上上籤</span> <span style=\"font-family:'IvyOra Banner', 'Project Chinese Light', serif;font-weight:400;color:rgb(255, 255, 255);text-transform:uppercase;font-size:6.410231vw;line-height:8.333308vw;letter-spacing:1.282046vw\">|</span> <span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(255, 255, 255);text-transform:uppercase;font-size:6.410231vw;line-height:8.333308vw;letter-spacing:1.282046vw\">香港</span></h2>",
+              "text": "上上籤 | 香港",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -11110,8 +10660,8 @@ window.projectReferences = [
               "width": 36.750801282051285,
               "height": 16.666666666666664,
               "type": "text",
-              "html": "<h2 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:6.410231vw;line-height:8.333308vw;letter-spacing:1.282046vw\"><span style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:6.410231vw;line-height:8.333308vw;letter-spacing:1.282046vw\"><span style=\"font-family:'Project Chinese Regular', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:6.410231vw;line-height:8.333308vw;letter-spacing:1.282046vw\">上上籤</span><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:6.410231vw;line-height:8.333308vw;letter-spacing:1.282046vw\">|</span><br/>\n北  角</span></h2>",
-              "text": "上上籤|\n北  角",
+              "html": "<h2 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:6.410231vw;line-height:8.333308vw;letter-spacing:1.282046vw\"><span style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:6.410231vw;line-height:8.333308vw;letter-spacing:1.282046vw\"><span style=\"font-family:'Project Chinese Regular', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:6.410231vw;line-height:8.333308vw;letter-spacing:1.282046vw\">上上籤</span><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:6.410231vw;line-height:8.333308vw;letter-spacing:1.282046vw\">|</span><br/>\n香港</span></h2>",
+              "text": "上上籤|\n香港",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -11146,8 +10696,8 @@ window.projectReferences = [
               "width": 84.1025641025641,
               "height": 30.148237179487182,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">上上籤串燒店以日本屋台為設計概念，意在營造「讓顧客置身於隱秘洞穴裡」的悠閒居酒屋氛圍。整個空間的主色調以灰、白、啡為主，木質餐桌椅營造出溫暖氣氛，配以岩石牆板的特色牆面，賦予了空間一份獨特質感。吧枱設計彰顯了日本居酒屋文化的精髓，日式牆貼畫更為串燒店增添一抹雅致和風色彩，亦點亮了整體的寧靜舒適格調。</p>",
-              "text": "上上籤串燒店以日本屋台為設計概念，意在營造「讓顧客置身於隱秘洞穴裡」的悠閒居酒屋氛圍。整個空間的主色調以灰、白、啡為主，木質餐桌椅營造出溫暖氣氛，配以岩石牆板的特色牆面，賦予了空間一份獨特質感。吧枱設計彰顯了日本居酒屋文化的精髓，日式牆貼畫更為串燒店增添一抹雅致和風色彩，亦點亮了整體的寧靜舒適格調。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">結合日本屋台的熱鬧文化與隱秘洞穴的私密感。整個空間的主色調以灰、白、啡為主，營造出溫暖格調。</p>",
+              "text": "結合日本屋台的熱鬧文化與隱秘洞穴的私密感。整個空間的主色調以灰、白、啡為主，營造出溫暖格調。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -11356,8 +10906,8 @@ window.projectReferences = [
               "width": 81.6025641025641,
               "height": 4.923878205128205,
               "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">餐廳設計風格：日式居酒屋</h6>",
-              "text": "餐廳設計風格：日式居酒屋",
+              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">日本屋台</h6>",
+              "text": "日本屋台",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -11374,62 +10924,8 @@ window.projectReferences = [
               "width": 81.6025641025641,
               "height": 49.23878205128205,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">在設計過程中，一場設計工作室會充分考慮餐廳的主題和風格，並提供量身定制的室內設計方案。設計師會考慮到每一個細節，包括燈光、色彩、家具擺設等，以創造出獨特而舒適的用餐環境。就像上上籤串燒店這個案例般，設計師便根據日本屋台的概念，選擇相應的色彩和材質，並將其融入到整體設計中。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">木質餐桌和椅子的使用帶來了自然和溫暖的感覺，而岩石牆板則增添了一份質感和獨特性。此外，日式牆貼畫的加入為整個空間帶來了一種雅致和獨特的氛圍，讓顧客在用餐的同時感受到一絲和風之美。</p>",
-              "text": "在設計過程中，一場設計工作室會充分考慮餐廳的主題和風格，並提供量身定制的室內設計方案。設計師會考慮到每一個細節，包括燈光、色彩、家具擺設等，以創造出獨特而舒適的用餐環境。就像上上籤串燒店這個案例般，設計師便根據日本屋台的概念，選擇相應的色彩和材質，並將其融入到整體設計中。\n\n木質餐桌和椅子的使用帶來了自然和溫暖的感覺，而岩石牆板則增添了一份質感和獨特性。此外，日式牆貼畫的加入為整個空間帶來了一種雅致和獨特的氛圍，讓顧客在用餐的同時感受到一絲和風之美。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "2.564103vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 9.0625,
-              "y": 78.25320512820512,
-              "width": 81.6025641025641,
-              "height": 4.923878205128205,
-              "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">一場設計｜專營餐廳室內設計及商業裝修工程</h6>",
-              "text": "一場設計｜專營餐廳室內設計及商業裝修工程",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "2.564103vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 9.19070512820513,
-              "y": 84.19871794871796,
-              "width": 81.6025641025641,
-              "height": 88.6298076923077,
-              "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">一場設計不僅注重營造舒適的用餐環境，還提供一系列全方位的服務，包括租舖前諮詢、飲食出牌、冷氣消防顧問等。無論你是計劃開設一家新的餐廳還是想要對現有的餐廳進行翻新，一場設計工作室都能夠滿足你的需求。設計師具有豐富的經驗和創意，瞭解餐廳室內設計的重要性，並致力於為客戶創造出獨一無二的用餐體驗。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">一場設計致力透過室內設計提升品牌知名度、講述品牌故事以及提升顧客餐飲體驗的方式，使餐飲服務過程更加順暢和有效，更能結合資訊科技以增強空間互動性。精心設計的特色店面和獨特巧思的室內設計不僅能夠吸引顧客的目光，激發他們的消費慾望，還能增強品牌價值，讓品牌形象深植人心。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">除了上上籤串燒店，我們還參與了其他商業室內設計項目，例如 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">KLASSE14</span> 概念店、<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">TATCHA Lane Crawford</span> 等。這些項目不僅展示了一場設計團隊的專業能力，也驗證了我們在商業空間規劃和設計方面的豐富經驗。</p>",
-              "text": "一場設計不僅注重營造舒適的用餐環境，還提供一系列全方位的服務，包括租舖前諮詢、飲食出牌、冷氣消防顧問等。無論你是計劃開設一家新的餐廳還是想要對現有的餐廳進行翻新，一場設計工作室都能夠滿足你的需求。設計師具有豐富的經驗和創意，瞭解餐廳室內設計的重要性，並致力於為客戶創造出獨一無二的用餐體驗。\n\n一場設計致力透過室內設計提升品牌知名度、講述品牌故事以及提升顧客餐飲體驗的方式，使餐飲服務過程更加順暢和有效，更能結合資訊科技以增強空間互動性。精心設計的特色店面和獨特巧思的室內設計不僅能夠吸引顧客的目光，激發他們的消費慾望，還能增強品牌價值，讓品牌形象深植人心。\n\n除了上上籤串燒店，我們還參與了其他商業室內設計項目，例如 KLASSE14 概念店、TATCHA Lane Crawford 等。這些項目不僅展示了一場設計團隊的專業能力，也驗證了我們在商業空間規劃和設計方面的豐富經驗。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "2.564103vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 9.0625,
-              "y": 179.23477564102564,
-              "width": 81.6025641025641,
-              "height": 8.613782051282051,
-              "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">如欲了解更多關於我們的商業室內設計項目，請訪問<span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw;text-decoration:underline\"><a href=\"https://www.facebook.com/oncedesignhk/\">一場設計<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">FACEBOOK</span>專頁</a></span>，了解更多詳細內容。</p>",
-              "text": "如欲了解更多關於我們的商業室內設計項目，請訪問一場設計FACEBOOK專頁，了解更多詳細內容。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">為了展現日本屋台的概念，選擇相應的色彩和材質，運用木質餐桌和椅子，帶來了自然和溫暖的感覺，而岩石牆板則增添了一份質感和層次感，吧枱設計彰顯了日本居酒屋文化的精髓。此外，點綴其間的日式牆貼畫，為整個空間帶來了一種雅致和別緻的氛圍，讓顧客在用餐的同時感受到一絲和風之美。</p>",
+              "text": "為了展現日本屋台的概念，選擇相應的色彩和材質，運用木質餐桌和椅子，帶來了自然和溫暖的感覺，而岩石牆板則增添了一份質感和層次感，吧枱設計彰顯了日本居酒屋文化的精髓。此外，點綴其間的日式牆貼畫，為整個空間帶來了一種雅致和別緻的氛圍，讓顧客在用餐的同時感受到一絲和風之美。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -11464,7 +10960,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 31.28205128205128,
               "type": "image",
-              "src": "../assets/images/zh/projects/38af7138bd0b3607.jpg",
+              "src": "../assets/images/projects/sheng-chim/sheng-chim-gallery-1.jpg",
               "alt": "SHEUNG SHEUNG CHIM | HONG KONG"
             },
             {
@@ -11473,7 +10969,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 55.38461538461539,
               "type": "image",
-              "src": "../assets/images/zh/projects/195984d0d5334dcd.jpg",
+              "src": "../assets/images/projects/sheng-chim/sheng-chim-gallery-2.jpg",
               "alt": "SHEUNG SHEUNG CHIM | HONG KONG"
             },
             {
@@ -11482,7 +10978,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 31.28205128205128,
               "type": "image",
-              "src": "../assets/images/zh/projects/ddf1094b286e1841.jpg",
+              "src": "../assets/images/projects/sheng-chim/sheng-chim-gallery-5.jpg",
               "alt": "SHEUNG SHEUNG CHIM | HONG KONG"
             },
             {
@@ -11491,7 +10987,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 55.38461538461539,
               "type": "image",
-              "src": "../assets/images/zh/projects/c5c502c92f307022.jpg",
+              "src": "../assets/images/projects/sheng-chim/sheng-chim-gallery-4.jpg",
               "alt": "SHEUNG SHEUNG CHIM | HONG KONG"
             },
             {
@@ -11500,7 +10996,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 55.38461538461539,
               "type": "image",
-              "src": "../assets/images/zh/projects/bd18f3fa9c319926.jpg",
+              "src": "../assets/images/projects/sheng-chim/sheng-chim-gallery-3.jpg",
               "alt": "SHEUNG SHEUNG CHIM | HONG KONG"
             }
           ],
@@ -11555,7 +11051,7 @@ window.projectReferences = [
         }
       ]
     },
-    "title": "上上籤 | 北 角"
+    "title": "上上籤 | 香港"
   },
   {
     "id": "amorepacific",
@@ -11573,7 +11069,7 @@ window.projectReferences = [
               "width": 100.0,
               "height": 53.02083333333333,
               "type": "image",
-              "src": "../assets/images/zh/projects/224fd5c4d1a0f4f0.jpg",
+              "src": "../assets/images/projects/amorepacific/amorepacific-gallery-5.jpg",
               "alt": "C-1.jpg"
             },
             {
@@ -11876,7 +11372,7 @@ window.projectReferences = [
               "width": 44.72222222222222,
               "height": 27.361111111111114,
               "type": "image",
-              "src": "../assets/images/zh/projects/1d410ca8364c2de3.jpg",
+              "src": "../assets/images/projects/amorepacific/amorepacific-gallery-6.jpg",
               "alt": "AMOREPACIFIC CLUB LOUNGE  |  OCEAN CENTRE"
             },
             {
@@ -11885,7 +11381,7 @@ window.projectReferences = [
               "width": 44.72222222222222,
               "height": 25.13888888888889,
               "type": "image",
-              "src": "../assets/images/zh/projects/48a3412b74dbc7d3.jpg",
+              "src": "../assets/images/projects/amorepacific/amorepacific-gallery-5.jpg",
               "alt": "AMOREPACIFIC CLUB LOUNGE  |  OCEAN CENTRE"
             },
             {
@@ -11894,7 +11390,7 @@ window.projectReferences = [
               "width": 44.72222222222222,
               "height": 24.166666666666668,
               "type": "image",
-              "src": "../assets/images/zh/projects/d52eb7f4671f5f9b.jpg",
+              "src": "../assets/images/projects/amorepacific/amorepacific-gallery-1.jpg",
               "alt": "AMOREPACIFIC CLUB LOUNGE  |  OCEAN CENTRE"
             },
             {
@@ -11903,7 +11399,7 @@ window.projectReferences = [
               "width": 44.72222222222222,
               "height": 25.069444444444443,
               "type": "image",
-              "src": "../assets/images/zh/projects/c1bbb01ee09b7779.jpg",
+              "src": "../assets/images/projects/amorepacific/amorepacific-gallery-7.jpg",
               "alt": "AMOREPACIFIC CLUB LOUNGE  |  OCEAN CENTRE"
             },
             {
@@ -11912,7 +11408,7 @@ window.projectReferences = [
               "width": 44.72222222222222,
               "height": 23.958333333333336,
               "type": "image",
-              "src": "../assets/images/zh/projects/a789fde276bd9484.jpg",
+              "src": "../assets/images/projects/amorepacific/amorepacific-gallery-8.jpg",
               "alt": "AMOREPACIFIC CLUB LOUNGE  |  OCEAN CENTRE"
             },
             {
@@ -11921,7 +11417,7 @@ window.projectReferences = [
               "width": 44.72222222222222,
               "height": 30.0,
               "type": "image",
-              "src": "../assets/images/zh/projects/54a6ca87415c70df.jpg",
+              "src": "../assets/images/projects/amorepacific/amorepacific-gallery-2.jpg",
               "alt": "AMOREPACIFIC CLUB LOUNGE  |  OCEAN CENTRE"
             },
             {
@@ -11930,7 +11426,7 @@ window.projectReferences = [
               "width": 44.72222222222222,
               "height": 20.833333333333336,
               "type": "image",
-              "src": "../assets/images/zh/projects/eb6dd8fcdcd29192.jpg",
+              "src": "../assets/images/projects/amorepacific/amorepacific-gallery-3.jpg",
               "alt": "AMOREPACIFIC CLUB LOUNGE  |  OCEAN CENTRE"
             },
             {
@@ -11939,7 +11435,7 @@ window.projectReferences = [
               "width": 44.72222222222222,
               "height": 19.51388888888889,
               "type": "image",
-              "src": "../assets/images/zh/projects/ad78d74e347f4a26.jpg",
+              "src": "../assets/images/projects/amorepacific/amorepacific-gallery-4.jpg",
               "alt": "AMOREPACIFIC CLUB LOUNGE  |  OCEAN CENTRE"
             },
             {
@@ -12021,7 +11517,7 @@ window.projectReferences = [
               "width": 100.0,
               "height": 115.64102564102565,
               "type": "image",
-              "src": "../assets/images/zh/projects/e16702712e702a31.jpg",
+              "src": "../assets/images/projects/amorepacific/amorepacific-gallery-5.jpg",
               "alt": "C-1.jpg"
             },
             {
@@ -12324,7 +11820,7 @@ window.projectReferences = [
               "width": 38.97435897435898,
               "height": 23.846153846153847,
               "type": "image",
-              "src": "../assets/images/zh/projects/925b8ddc8f86725a.jpg",
+              "src": "../assets/images/projects/amorepacific/amorepacific-gallery-6.jpg",
               "alt": "AMOREPACIFIC CLUB LOUNGE  |  OCEAN CENTRE"
             },
             {
@@ -12333,7 +11829,7 @@ window.projectReferences = [
               "width": 38.97435897435898,
               "height": 21.794871794871796,
               "type": "image",
-              "src": "../assets/images/zh/projects/223aa3db17fc6ca4.jpg",
+              "src": "../assets/images/projects/amorepacific/amorepacific-gallery-5.jpg",
               "alt": "AMOREPACIFIC CLUB LOUNGE  |  OCEAN CENTRE"
             },
             {
@@ -12342,7 +11838,7 @@ window.projectReferences = [
               "width": 38.97435897435898,
               "height": 21.025641025641026,
               "type": "image",
-              "src": "../assets/images/zh/projects/7f6c79ea41f35cbb.jpg",
+              "src": "../assets/images/projects/amorepacific/amorepacific-gallery-1.jpg",
               "alt": "AMOREPACIFIC CLUB LOUNGE  |  OCEAN CENTRE"
             },
             {
@@ -12351,7 +11847,7 @@ window.projectReferences = [
               "width": 38.97435897435898,
               "height": 21.794871794871796,
               "type": "image",
-              "src": "../assets/images/zh/projects/54fc0578c23f9158.jpg",
+              "src": "../assets/images/projects/amorepacific/amorepacific-gallery-7.jpg",
               "alt": "AMOREPACIFIC CLUB LOUNGE  |  OCEAN CENTRE"
             },
             {
@@ -12360,7 +11856,7 @@ window.projectReferences = [
               "width": 38.97435897435898,
               "height": 20.76923076923077,
               "type": "image",
-              "src": "../assets/images/zh/projects/90cf1ad83378c7e9.jpg",
+              "src": "../assets/images/projects/amorepacific/amorepacific-gallery-8.jpg",
               "alt": "AMOREPACIFIC CLUB LOUNGE  |  OCEAN CENTRE"
             },
             {
@@ -12369,7 +11865,7 @@ window.projectReferences = [
               "width": 38.97435897435898,
               "height": 26.153846153846157,
               "type": "image",
-              "src": "../assets/images/zh/projects/6016179b49766e25.jpg",
+              "src": "../assets/images/projects/amorepacific/amorepacific-gallery-2.jpg",
               "alt": "AMOREPACIFIC CLUB LOUNGE  |  OCEAN CENTRE"
             },
             {
@@ -12378,7 +11874,7 @@ window.projectReferences = [
               "width": 38.97435897435898,
               "height": 18.205128205128204,
               "type": "image",
-              "src": "../assets/images/zh/projects/d8462d9605d14cba.jpg",
+              "src": "../assets/images/projects/amorepacific/amorepacific-gallery-3.jpg",
               "alt": "AMOREPACIFIC CLUB LOUNGE  |  OCEAN CENTRE"
             },
             {
@@ -12387,7 +11883,7 @@ window.projectReferences = [
               "width": 38.97435897435898,
               "height": 16.923076923076923,
               "type": "image",
-              "src": "../assets/images/zh/projects/5862e398af58dc5f.jpg",
+              "src": "../assets/images/projects/amorepacific/amorepacific-gallery-4.jpg",
               "alt": "AMOREPACIFIC CLUB LOUNGE  |  OCEAN CENTRE"
             },
             {
@@ -12478,7 +11974,7 @@ window.projectReferences = [
               "width": 100.0,
               "height": 53.02083333333333,
               "type": "image",
-              "src": "../assets/images/zh/projects/cc530a1b2df20bd7.jpg",
+              "src": "../assets/images/projects/st-regis/st-regis-gallery-1.jpg",
               "alt": "IMG_3370.jpg"
             },
             {
@@ -12589,8 +12085,8 @@ window.projectReferences = [
               "width": 40.62391493055556,
               "height": 6.564670138888889,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">香港瑞吉酒店（<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">The St. Regis Hong Kong</span>）作為頂尖奢華酒店的代表，其節日佈置不僅需要展現極致的優雅美學，更對施工過程的專業度與安全性有著最嚴苛的要求。一場設計團隊非常榮幸能為瑞吉酒店策劃並執行大型聖誕裝飾工程。我們將雋永的節日氣氛與頂級的施工標準完美結合，為賓客打造出一個璀璨、溫馨且充滿品牌尊榮感的冬日幻境。</p>",
-              "text": "香港瑞吉酒店（The St. Regis Hong Kong）作為頂尖奢華酒店的代表，其節日佈置不僅需要展現極致的優雅美學，更對施工過程的專業度與安全性有著最嚴苛的要求。一場設計團隊非常榮幸能為瑞吉酒店策劃並執行大型聖誕裝飾工程。我們將雋永的節日氣氛與頂級的施工標準完美結合，為賓客打造出一個璀璨、溫馨且充滿品牌尊榮感的冬日幻境。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">打造出一個璀璨、溫馨且充滿品牌尊榮感的冬日幻境。</p>",
+              "text": "打造出一個璀璨、溫馨且充滿品牌尊榮感的冬日幻境。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -12794,85 +12290,13 @@ window.projectReferences = [
           "height": 100.60763888888889,
           "blocks": [
             {
-              "x": 7.524956597222222,
-              "y": 8.619791666666666,
-              "width": 25.960286458333332,
-              "height": 1.4995659722222223,
-              "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">核心亮點與專業施工細節</h6>",
-              "text": "核心亮點與專業施工細節",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "0.694444vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
               "x": 7.564019097222221,
-              "y": 10.517578125,
+              "y": 8.62,
               "width": 25.96137152777778,
               "height": 34.837239583333336,
               "type": "text",
-              "html": "<blockquote style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<ul style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 0.46875vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<li style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 1.21875vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">22</span><span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 700; list-style-type: disc; list-style-position: outside; text-transform: none;\"> 呎高巨型聖誕樹與專屬裝飾製作：</span>&nbsp;酒店大堂的視覺焦點是一棵高達 22 呎的巨型聖誕樹。我們精心挑選了香檳金、古銅與暖白色的掛飾，營造出低調奢華的層次感。樹上更特別客製化了印有「<span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">St. Regis Hong Kong</span>」標誌的專屬聖誕球，將品牌尊榮感巧妙融入節日喜悅中。</p>\n</li>\n<li style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 1.21875vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 700; list-style-type: disc; list-style-position: outside; text-transform: none;\">極高規格的場地保護工作：</span>&nbsp;奢華酒店的石材地面與精緻裝潢需要絕對的呵護。在施工階段，我們於大堂全面鋪設了高等級的地坪保護墊與防撞措施。從重型機具的進場到巨型聖誕樹的組裝，我們確保每一個環節都做到「零損害」，完美維護酒店的頂級資產。</p>\n</li>\n<li style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 1.21875vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 700; list-style-type: disc; list-style-position: outside; text-transform: none;\">註冊高台車駕駛員與嚴格高空作業安全：</span>&nbsp;針對 <span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">22</span> 呎高的聖誕樹組裝以及大門入口處的巨型冰柱燈飾安裝，現場出動了專業的剪叉式高空作業車。所有設備均由持牌的註冊高台車駕駛員操作，嚴格遵守職業安全健康規範，確保在有限的夜間施工時段內，安全、高效且無聲地完成高空佈置，絕不影響酒店的高尚營運。</p>\n</li>\n<li style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 1.21875vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 700; list-style-type: disc; list-style-position: outside; text-transform: none;\">大門與延伸區域的氛圍營造：</span>&nbsp;除了大堂主樹，我們也在酒店正門入口處精心佈置了垂墜式 <span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">LED</span> 冰柱燈海與松針花環，搭配酒店各個角落的中型聖誕樹與精緻禮物盒，讓賓客從踏入酒店的那一刻起，便完全沉浸在溫暖的節日氛圍中。</p>\n</li>\n</ul>\n</blockquote>",
-              "text": "22 呎高巨型聖誕樹與專屬裝飾製作： 酒店大堂的視覺焦點是一棵高達 22 呎的巨型聖誕樹。我們精心挑選了香檳金、古銅與暖白色的掛飾，營造出低調奢華的層次感。樹上更特別客製化了印有「St. Regis Hong Kong」標誌的專屬聖誕球，將品牌尊榮感巧妙融入節日喜悅中。\n\n極高規格的場地保護工作： 奢華酒店的石材地面與精緻裝潢需要絕對的呵護。在施工階段，我們於大堂全面鋪設了高等級的地坪保護墊與防撞措施。從重型機具的進場到巨型聖誕樹的組裝，我們確保每一個環節都做到「零損害」，完美維護酒店的頂級資產。\n\n註冊高台車駕駛員與嚴格高空作業安全： 針對 22 呎高的聖誕樹組裝以及大門入口處的巨型冰柱燈飾安裝，現場出動了專業的剪叉式高空作業車。所有設備均由持牌的註冊高台車駕駛員操作，嚴格遵守職業安全健康規範，確保在有限的夜間施工時段內，安全、高效且無聲地完成高空佈置，絕不影響酒店的高尚營運。\n\n大門與延伸區域的氛圍營造： 除了大堂主樹，我們也在酒店正門入口處精心佈置了垂墜式 LED 冰柱燈海與松針花環，搭配酒店各個角落的中型聖誕樹與精緻禮物盒，讓賓客從踏入酒店的那一刻起，便完全沉浸在溫暖的節日氛圍中。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "0.694444vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 7.524956597222222,
-              "y": 48.32356770833333,
-              "width": 25.960286458333332,
-              "height": 1.4995659722222223,
-              "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">一場設計｜專營商業室內設計及酒店商場佈置工程</h6>",
-              "text": "一場設計｜專營商業室內設計及酒店商場佈置工程",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "0.694444vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 7.564019097222221,
-              "y": 50.221354166666664,
-              "width": 25.96137152777778,
-              "height": 13.773871527777779,
-              "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">香港瑞吉酒店的聖誕裝飾工程，完美展現了我們團隊在面對「高難度、高規格、高標準」商業項目時的卓越執行力。從美學設計、客製化製作到精密安全的現場施工，我們致力於為頂級客戶提供最安心、最專業的一站式空間陳列與節日佈置服務。除了 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">The St. Regis Hong Kong，</span>我們還參與了其他商業設計項目，例如 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">nebu、 KLASSE14 </span>概念店、<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">TATCHA Lane Crawford</span> 等，驗證了我們在商業空間規劃與視覺陳列方面的豐富經驗。</p>",
-              "text": "香港瑞吉酒店的聖誕裝飾工程，完美展現了我們團隊在面對「高難度、高規格、高標準」商業項目時的卓越執行力。從美學設計、客製化製作到精密安全的現場施工，我們致力於為頂級客戶提供最安心、最專業的一站式空間陳列與節日佈置服務。除了 The St. Regis Hong Kong，我們還參與了其他商業設計項目，例如 nebu、 KLASSE14 概念店、TATCHA Lane Crawford 等，驗證了我們在商業空間規劃與視覺陳列方面的豐富經驗。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "0.694444vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 7.564019097222221,
-              "y": 66.728515625,
-              "width": 25.96137152777778,
-              "height": 2.625868055555556,
-              "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">如欲了解更多關於我們的商業室內設計項目，請訪問<span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw;text-decoration:underline\"><a href=\"https://www.facebook.com/oncedesignhk/\">一場設計<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">FACEBOOK</span>專頁</a></span>，了解更多詳細內容。</p>",
-              "text": "如欲了解更多關於我們的商業室內設計項目，請訪問一場設計FACEBOOK專頁，了解更多詳細內容。",
+              "html": "<blockquote style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<ul style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 0.46875vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<li style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 1.21875vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">22</span><span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 700; list-style-type: disc; list-style-position: outside; text-transform: none;\"> 呎高巨型聖誕樹：</span>&nbsp;酒店大堂的視覺焦點是一棵高達 22 呎的巨型聖誕樹。我們精心挑選了香檳金、古銅與暖白色的掛飾，營造出低調奢華的層次感。樹上更特別專屬訂製了印有「<span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">St. Regis Hong Kong</span>」標誌的專屬聖誕球，將品牌尊榮感巧妙融入節日喜悅中。</p>\n</li>\n<li style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 1.21875vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 700; list-style-type: disc; list-style-position: outside; text-transform: none;\">高規格的保護措施：</span>&nbsp;奢華酒店的石材地面與精緻裝潢需要絕對的呵護。在施工階段，我們於大堂全面鋪設了高等級的地坪保護墊與防撞措施。從重型機具的進場到巨型聖誕樹的組裝，我們確保每一個環節都做到「零損害」，完美維護酒店的頂級資產及賓客安全。</p>\n</li>\n<li style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 1.21875vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 700; list-style-type: disc; list-style-position: outside; text-transform: none;\">嚴謹的高空作業安全：</span>&nbsp;針對 <span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">22</span> 呎高的聖誕樹組裝以及大門入口處的巨型冰柱燈飾安裝，現場出動了專業的剪叉式高空作業車。所有設備均由持牌的註冊高台車駕駛員操作，嚴格遵守職業安全健康規範，確保在有限的夜間施工時段內，安全、高效且無聲地完成高空佈置，絕不影響酒店的日常營運。</p>\n</li>\n</ul>\n</blockquote>",
+              "text": "22 呎高巨型聖誕樹： 酒店大堂的視覺焦點是一棵高達 22 呎的巨型聖誕樹。我們精心挑選了香檳金、古銅與暖白色的掛飾，營造出低調奢華的層次感。樹上更特別專屬訂製了印有「St. Regis Hong Kong」標誌的專屬聖誕球，將品牌尊榮感巧妙融入節日喜悅中。\n\n高規格的保護措施： 奢華酒店的石材地面與精緻裝潢需要絕對的呵護。在施工階段，我們於大堂全面鋪設了高等級的地坪保護墊與防撞措施。從重型機具的進場到巨型聖誕樹的組裝，我們確保每一個環節都做到「零損害」，完美維護酒店的頂級資產及賓客安全。\n\n嚴謹的高空作業安全： 針對 22 呎高的聖誕樹組裝以及大門入口處的巨型冰柱燈飾安裝，現場出動了專業的剪叉式高空作業車。所有設備均由持牌的註冊高台車駕駛員操作，嚴格遵守職業安全健康規範，確保在有限的夜間施工時段內，安全、高效且無聲地完成高空佈置，絕不影響酒店的日常營運。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -12907,7 +12331,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 19.930555555555557,
               "type": "image",
-              "src": "../assets/images/zh/projects/e770a484b0d86910.jpg",
+              "src": "../assets/images/projects/st-regis/st-regis-gallery-1.jpg",
               "alt": "THE ST. REGIS | HONG KONG"
             },
             {
@@ -12916,7 +12340,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 35.486111111111114,
               "type": "image",
-              "src": "../assets/images/zh/projects/42006f4246c0e40c.jpg",
+              "src": "../assets/images/projects/st-regis/st-regis-gallery-2.jpg",
               "alt": "THE ST. REGIS | HONG KONG"
             },
             {
@@ -12925,7 +12349,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 35.486111111111114,
               "type": "image",
-              "src": "../assets/images/zh/projects/5b9ace12b3879c0a.jpg",
+              "src": "../assets/images/projects/st-regis/st-regis-gallery-3.jpg",
               "alt": "THE ST. REGIS | HONG KONG"
             },
             {
@@ -12934,7 +12358,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 35.486111111111114,
               "type": "image",
-              "src": "../assets/images/zh/projects/3ccf4da3a2d7c62a.jpg",
+              "src": "../assets/images/projects/st-regis/st-regis-gallery-4.jpg",
               "alt": "THE ST. REGIS | HONG KONG"
             },
             {
@@ -12943,7 +12367,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 35.486111111111114,
               "type": "image",
-              "src": "../assets/images/zh/projects/e253a9ea1a4cd4d9.jpg",
+              "src": "../assets/images/projects/st-regis/st-regis-gallery-5.jpg",
               "alt": "THE ST. REGIS | HONG KONG"
             }
           ],
@@ -13007,7 +12431,7 @@ window.projectReferences = [
               "width": 100.0,
               "height": 115.64102564102565,
               "type": "image",
-              "src": "../assets/images/zh/projects/d0fd23a22cdc64b0.jpg",
+              "src": "../assets/images/projects/st-regis/st-regis-gallery-1.jpg",
               "alt": "IMG_3370.jpg"
             },
             {
@@ -13118,8 +12542,8 @@ window.projectReferences = [
               "width": 84.1025641025641,
               "height": 30.148237179487182,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">香港瑞吉酒店（<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">The St. Regis Hong Kong</span>）作為頂尖奢華酒店的代表，其節日佈置不僅需要展現極致的優雅美學，更對施工過程的專業度與安全性有著最嚴苛的要求。一場設計團隊非常榮幸能為瑞吉酒店策劃並執行大型聖誕裝飾工程。我們將雋永的節日氣氛與頂級的施工標準完美結合，為賓客打造出一個璀璨、溫馨且充滿品牌尊榮感的冬日幻境。</p>",
-              "text": "香港瑞吉酒店（The St. Regis Hong Kong）作為頂尖奢華酒店的代表，其節日佈置不僅需要展現極致的優雅美學，更對施工過程的專業度與安全性有著最嚴苛的要求。一場設計團隊非常榮幸能為瑞吉酒店策劃並執行大型聖誕裝飾工程。我們將雋永的節日氣氛與頂級的施工標準完美結合，為賓客打造出一個璀璨、溫馨且充滿品牌尊榮感的冬日幻境。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">打造出一個璀璨、溫馨且充滿品牌尊榮感的冬日幻境。</p>",
+              "text": "打造出一個璀璨、溫馨且充滿品牌尊榮感的冬日幻境。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -13323,85 +12747,13 @@ window.projectReferences = [
           "height": 484.84775641025635,
           "blocks": [
             {
-              "x": 10.064102564102564,
-              "y": 16.662660256410255,
-              "width": 79.87179487179488,
-              "height": 4.923878205128205,
-              "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">核心亮點與專業施工細節</h6>",
-              "text": "核心亮點與專業施工細節",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "2.564103vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
               "x": 10.192307692307692,
-              "y": 22.608173076923077,
+              "y": 16.66,
               "width": 79.87179487179488,
               "height": 118.17307692307692,
               "type": "text",
-              "html": "<blockquote style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<ul style=\"font-size: 3.07692vw; line-height: normal; letter-spacing: 0.369231vw; margin: 0vw 0vw 0vw 1.53846vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<li style=\"font-size: 3.07692vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 4vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">22</span><span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 700; list-style-type: disc; list-style-position: outside; text-transform: none;\"> 呎高巨型聖誕樹與專屬裝飾製作：</span>&nbsp;酒店大堂的視覺焦點是一棵高達 22 呎的巨型聖誕樹。我們精心挑選了香檳金、古銅與暖白色的掛飾，營造出低調奢華的層次感。樹上更特別客製化了印有「<span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">St. Regis Hong Kong</span>」標誌的專屬聖誕球，將品牌尊榮感巧妙融入節日喜悅中。</p>\n</li>\n<li style=\"font-size: 3.07692vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 4vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 700; list-style-type: disc; list-style-position: outside; text-transform: none;\">極高規格的場地保護工作：</span>&nbsp;奢華酒店的石材地面與精緻裝潢需要絕對的呵護。在施工階段，我們於大堂全面鋪設了高等級的地坪保護墊與防撞措施。從重型機具的進場到巨型聖誕樹的組裝，我們確保每一個環節都做到「零損害」，完美維護酒店的頂級資產。</p>\n</li>\n<li style=\"font-size: 3.07692vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 4vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 700; list-style-type: disc; list-style-position: outside; text-transform: none;\">註冊高台車駕駛員與嚴格高空作業安全：</span>&nbsp;針對 <span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">22</span> 呎高的聖誕樹組裝以及大門入口處的巨型冰柱燈飾安裝，現場出動了專業的剪叉式高空作業車。所有設備均由持牌的註冊高台車駕駛員操作，嚴格遵守職業安全健康規範，確保在有限的夜間施工時段內，安全、高效且無聲地完成高空佈置，絕不影響酒店的高尚營運。</p>\n</li>\n<li style=\"font-size: 3.07692vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 4vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 700; list-style-type: disc; list-style-position: outside; text-transform: none;\">大門與延伸區域的氛圍營造：</span>&nbsp;除了大堂主樹，我們也在酒店正門入口處精心佈置了垂墜式 <span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">LED</span> 冰柱燈海與松針花環，搭配酒店各個角落的中型聖誕樹與精緻禮物盒，讓賓客從踏入酒店的那一刻起，便完全沉浸在溫暖的節日氛圍中。</p>\n</li>\n</ul>\n</blockquote>",
-              "text": "22 呎高巨型聖誕樹與專屬裝飾製作： 酒店大堂的視覺焦點是一棵高達 22 呎的巨型聖誕樹。我們精心挑選了香檳金、古銅與暖白色的掛飾，營造出低調奢華的層次感。樹上更特別客製化了印有「St. Regis Hong Kong」標誌的專屬聖誕球，將品牌尊榮感巧妙融入節日喜悅中。\n\n極高規格的場地保護工作： 奢華酒店的石材地面與精緻裝潢需要絕對的呵護。在施工階段，我們於大堂全面鋪設了高等級的地坪保護墊與防撞措施。從重型機具的進場到巨型聖誕樹的組裝，我們確保每一個環節都做到「零損害」，完美維護酒店的頂級資產。\n\n註冊高台車駕駛員與嚴格高空作業安全： 針對 22 呎高的聖誕樹組裝以及大門入口處的巨型冰柱燈飾安裝，現場出動了專業的剪叉式高空作業車。所有設備均由持牌的註冊高台車駕駛員操作，嚴格遵守職業安全健康規範，確保在有限的夜間施工時段內，安全、高效且無聲地完成高空佈置，絕不影響酒店的高尚營運。\n\n大門與延伸區域的氛圍營造： 除了大堂主樹，我們也在酒店正門入口處精心佈置了垂墜式 LED 冰柱燈海與松針花環，搭配酒店各個角落的中型聖誕樹與精緻禮物盒，讓賓客從踏入酒店的那一刻起，便完全沉浸在溫暖的節日氛圍中。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "2.564103vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 10.064102564102564,
-              "y": 147.1875,
-              "width": 79.87179487179488,
-              "height": 4.923878205128205,
-              "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">一場設計｜專營商業室內設計及酒店商場佈置工程</h6>",
-              "text": "一場設計｜專營商業室內設計及酒店商場佈置工程",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "2.564103vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 10.192307692307692,
-              "y": 153.13301282051282,
-              "width": 79.87179487179488,
-              "height": 44.31490384615385,
-              "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">香港瑞吉酒店的聖誕裝飾工程，完美展現了我們團隊在面對「高難度、高規格、高標準」商業項目時的卓越執行力。從美學設計、客製化製作到精密安全的現場施工，我們致力於為頂級客戶提供最安心、最專業的一站式空間陳列與節日佈置服務。除了 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">The St. Regis Hong Kong，</span>我們還參與了其他商業設計項目，例如 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">nebu、 KLASSE14 </span>概念店、<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">TATCHA Lane Crawford</span> 等，驗證了我們在商業空間規劃與視覺陳列方面的豐富經驗。</p>",
-              "text": "香港瑞吉酒店的聖誕裝飾工程，完美展現了我們團隊在面對「高難度、高規格、高標準」商業項目時的卓越執行力。從美學設計、客製化製作到精密安全的現場施工，我們致力於為頂級客戶提供最安心、最專業的一站式空間陳列與節日佈置服務。除了 The St. Regis Hong Kong，我們還參與了其他商業設計項目，例如 nebu、 KLASSE14 概念店、TATCHA Lane Crawford 等，驗證了我們在商業空間規劃與視覺陳列方面的豐富經驗。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "2.564103vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 10.192307692307692,
-              "y": 200.18028846153845,
-              "width": 79.87179487179488,
-              "height": 8.613782051282051,
-              "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">如欲了解更多關於我們的商業室內設計項目，請訪問<span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw;text-decoration:underline\"><a href=\"https://www.facebook.com/oncedesignhk/\">一場設計<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">FACEBOOK</span>專頁</a></span>，了解更多詳細內容。</p>",
-              "text": "如欲了解更多關於我們的商業室內設計項目，請訪問一場設計FACEBOOK專頁，了解更多詳細內容。",
+              "html": "<blockquote style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<ul style=\"font-size: 3.07692vw; line-height: normal; letter-spacing: 0.369231vw; margin: 0vw 0vw 0vw 1.53846vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<li style=\"font-size: 3.07692vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 4vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">22</span><span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 700; list-style-type: disc; list-style-position: outside; text-transform: none;\"> 呎高巨型聖誕樹：</span>&nbsp;酒店大堂的視覺焦點是一棵高達 22 呎的巨型聖誕樹。我們精心挑選了香檳金、古銅與暖白色的掛飾，營造出低調奢華的層次感。樹上更特別專屬訂製了印有「<span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">St. Regis Hong Kong</span>」標誌的專屬聖誕球，將品牌尊榮感巧妙融入節日喜悅中。</p>\n</li>\n<li style=\"font-size: 3.07692vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 4vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 700; list-style-type: disc; list-style-position: outside; text-transform: none;\">高規格的保護措施：</span>&nbsp;奢華酒店的石材地面與精緻裝潢需要絕對的呵護。在施工階段，我們於大堂全面鋪設了高等級的地坪保護墊與防撞措施。從重型機具的進場到巨型聖誕樹的組裝，我們確保每一個環節都做到「零損害」，完美維護酒店的頂級資產及賓客安全。</p>\n</li>\n<li style=\"font-size: 3.07692vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 4vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 700; list-style-type: disc; list-style-position: outside; text-transform: none;\">嚴謹的高空作業安全：</span>&nbsp;針對 <span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">22</span> 呎高的聖誕樹組裝以及大門入口處的巨型冰柱燈飾安裝，現場出動了專業的剪叉式高空作業車。所有設備均由持牌的註冊高台車駕駛員操作，嚴格遵守職業安全健康規範，確保在有限的夜間施工時段內，安全、高效且無聲地完成高空佈置，絕不影響酒店的日常營運。</p>\n</li>\n</ul>\n</blockquote>",
+              "text": "22 呎高巨型聖誕樹： 酒店大堂的視覺焦點是一棵高達 22 呎的巨型聖誕樹。我們精心挑選了香檳金、古銅與暖白色的掛飾，營造出低調奢華的層次感。樹上更特別專屬訂製了印有「St. Regis Hong Kong」標誌的專屬聖誕球，將品牌尊榮感巧妙融入節日喜悅中。\n\n高規格的保護措施： 奢華酒店的石材地面與精緻裝潢需要絕對的呵護。在施工階段，我們於大堂全面鋪設了高等級的地坪保護墊與防撞措施。從重型機具的進場到巨型聖誕樹的組裝，我們確保每一個環節都做到「零損害」，完美維護酒店的頂級資產及賓客安全。\n\n嚴謹的高空作業安全： 針對 22 呎高的聖誕樹組裝以及大門入口處的巨型冰柱燈飾安裝，現場出動了專業的剪叉式高空作業車。所有設備均由持牌的註冊高台車駕駛員操作，嚴格遵守職業安全健康規範，確保在有限的夜間施工時段內，安全、高效且無聲地完成高空佈置，絕不影響酒店的日常營運。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -13436,7 +12788,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 31.28205128205128,
               "type": "image",
-              "src": "../assets/images/zh/projects/38256f49a06966b1.jpg",
+              "src": "../assets/images/projects/st-regis/st-regis-gallery-1.jpg",
               "alt": "THE ST. REGIS | HONG KONG"
             },
             {
@@ -13445,7 +12797,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 55.38461538461539,
               "type": "image",
-              "src": "../assets/images/zh/projects/f8f3502b2cd7efad.jpg",
+              "src": "../assets/images/projects/st-regis/st-regis-gallery-2.jpg",
               "alt": "THE ST. REGIS | HONG KONG"
             },
             {
@@ -13454,7 +12806,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 55.38461538461539,
               "type": "image",
-              "src": "../assets/images/zh/projects/2d658b88bf1facb1.jpg",
+              "src": "../assets/images/projects/st-regis/st-regis-gallery-3.jpg",
               "alt": "THE ST. REGIS | HONG KONG"
             },
             {
@@ -13463,7 +12815,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 55.38461538461539,
               "type": "image",
-              "src": "../assets/images/zh/projects/afefbcd525775e90.jpg",
+              "src": "../assets/images/projects/st-regis/st-regis-gallery-4.jpg",
               "alt": "THE ST. REGIS | HONG KONG"
             },
             {
@@ -13472,7 +12824,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 55.38461538461539,
               "type": "image",
-              "src": "../assets/images/zh/projects/29ea22a531cd73fc.jpg",
+              "src": "../assets/images/projects/st-regis/st-regis-gallery-5.jpg",
               "alt": "THE ST. REGIS | HONG KONG"
             }
           ],
@@ -13545,7 +12897,8 @@ window.projectReferences = [
               "width": 100.0,
               "height": 53.02083333333333,
               "type": "image",
-              "src": "../assets/images/zh/projects/15acf1c728b69297.jpg",
+              "src": "../assets/images/projects/winfun/winfun-gallery-10.jpg",
+              "position": "50% 0%",
               "alt": "IMG_8916-1536x864.jpg"
             },
             {
@@ -13656,8 +13009,8 @@ window.projectReferences = [
               "width": 40.62391493055556,
               "height": 6.564670138888889,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">對於國際知名的嬰幼兒玩具品牌 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">WinFun </span>而言，展示廳（<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">Showroom</span>）不僅僅是擺放產品的倉庫，更是向全球買家與合作夥伴傳遞品牌價值的核心樞紐。本次專案我們打破了傳統展廳的刻板陳列，將 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">WinFun</span> 獨有的「<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">CPS</span> 育兒系統（<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">Cognitive, Physical, Social</span>）」核心理念融入空間佈局，打造出一個兼具童趣活力與高度商業專業的現代化展示空間。</p>",
-              "text": "對於國際知名的嬰幼兒玩具品牌 WinFun 而言，展示廳（Showroom）不僅僅是擺放產品的倉庫，更是向全球買家與合作夥伴傳遞品牌價值的核心樞紐。本次專案我們打破了傳統展廳的刻板陳列，將 WinFun 獨有的「CPS 育兒系統（Cognitive, Physical, Social）」核心理念融入空間佈局，打造出一個兼具童趣活力與高度商業專業的現代化展示空間。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">「<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">CPS</span> 育兒系統（<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">Cognitive, Physical, Social</span>）」核心理念融入空間佈局，打造出一個兼具童趣活力與高度商業專業的現代化展示空間。</p>",
+              "text": "「CPS 育兒系統（Cognitive, Physical, Social）」核心理念融入空間佈局，打造出一個兼具童趣活力與高度商業專業的現代化展示空間。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -13884,8 +13237,8 @@ window.projectReferences = [
               "width": 25.959201388888886,
               "height": 1.5690104166666667,
               "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">展廳陳列室設計 | <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\"><span style=\"font-family:'Project Montserrat', sans-serif;font-weight:700;color:rgb(0, 0, 0);text-transform:uppercase;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">Winfun Showroom</span></span>設計理念</h6>",
-              "text": "展廳陳列室設計 | WINFUN SHOWROOM設計理念",
+              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">成長階段的色彩分區：</h6>",
+              "text": "成長階段的色彩分區：",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -13902,26 +13255,8 @@ window.projectReferences = [
               "width": 25.960286458333332,
               "height": 13.704427083333334,
               "type": "text",
-              "html": "<blockquote style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside;\">走進 <span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside;\">WinFun</span> 展示廳，首先映入眼簾的是充滿活力的品牌色彩。我們以純淨的白色作為展櫃主調，讓色彩繽紛的玩具成為絕對的主角。同時，巧妙運用了桃紅、天藍、鮮綠等高飽和度色彩作為空間導航。</p>\n\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside;\">設計團隊將空間按嬰幼兒的成長階段（<span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside;\">Stage 1: 0m+ 至 Stage 4: 18m+</span>）進行了明確的色彩分區，搭配頂部的鮮明燈箱與圖文並茂的解說面板。這不僅幫助參觀者（買家）一目了然地了解產品線架構，也大幅提升了空間的層次感與專業度。</p>\n</blockquote>",
-              "text": "走進 WinFun 展示廳，首先映入眼簾的是充滿活力的品牌色彩。我們以純淨的白色作為展櫃主調，讓色彩繽紛的玩具成為絕對的主角。同時，巧妙運用了桃紅、天藍、鮮綠等高飽和度色彩作為空間導航。\n\n設計團隊將空間按嬰幼兒的成長階段（Stage 1: 0m+ 至 Stage 4: 18m+）進行了明確的色彩分區，搭配頂部的鮮明燈箱與圖文並茂的解說面板。這不僅幫助參觀者（買家）一目了然地了解產品線架構，也大幅提升了空間的層次感與專業度。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "0.694444vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 7.491319444444445,
-              "y": 26.99978298611111,
-              "width": 25.959201388888886,
-              "height": 1.4995659722222223,
-              "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">零售空間設計｜空間亮點</h6>",
-              "text": "零售空間設計｜空間亮點",
+              "html": "<blockquote style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside;\">以純淨的白色作為展櫃主調，讓色彩繽紛的玩具成為絕對的主角。同時，巧妙運用了桃紅、天藍、鮮綠等高飽和度色彩作為空間導航。空間按嬰幼兒的成長階段（<span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside;\">Stage 1: 0m+ 至 Stage 4: 18m+</span>）進行了明確的色彩分區，搭配頂部的鮮明燈箱與圖文並茂的解說面板。這不僅幫助客戶一目了然地掌握產品線架構，也大幅提升了空間的層次感與專業度。</p>\n</blockquote>",
+              "text": "以純淨的白色作為展櫃主調，讓色彩繽紛的玩具成為絕對的主角。同時，巧妙運用了桃紅、天藍、鮮綠等高飽和度色彩作為空間導航。空間按嬰幼兒的成長階段（Stage 1: 0m+ 至 Stage 4: 18m+）進行了明確的色彩分區，搭配頂部的鮮明燈箱與圖文並茂的解說面板。這不僅幫助客戶一目了然地掌握產品線架構，也大幅提升了空間的層次感與專業度。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -13934,12 +13269,12 @@ window.projectReferences = [
             },
             {
               "x": 7.530381944444445,
-              "y": 28.897569444444443,
+              "y": 23.6976,
               "width": 25.960286458333332,
               "height": 21.1328125,
               "type": "text",
-              "html": "<ul style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 0.46875vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<li style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 1.21875vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 700; list-style-type: disc; list-style-position: outside; text-transform: none;\">系統化的模組展櫃：</span>&nbsp;採用簡潔明亮的層架系統，搭配頂部 <span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">LED</span> 均勻洗牆光，讓每一件玩具都能展現最佳質感。展櫃中更無縫嵌入了多媒體螢幕，動態展示玩具的互動玩法，提升產品說服力。</p>\n</li>\n<li style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 1.21875vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 700; list-style-type: disc; list-style-position: outside; text-transform: none;\">吸睛的中央洽談區：</span>&nbsp;空間中央鋪設了一道醒目的桃紅色地毯，猶如品牌的專屬伸展台。上方配置了長型極簡會議桌與現代感十足的單椅，為<span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"> B2B </span>商業洽談提供了一個開放、舒適且隨時能拿取周邊產品進行討論的絕佳場域。</p>\n</li>\n<li style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 1.21875vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 700; list-style-type: disc; list-style-position: outside; text-transform: none;\">充滿細節的迎賓視覺：</span>&nbsp;入口的霧面玻璃門運用了半透明的玩具手繪草圖（火車、積木、動物）作為裝飾。這種設計既保持了展廳內部的隱私性，又在顧客推開門之前，就已悄悄喚醒了他們心中的童心與對品牌的期待。</p>\n</li>\n</ul>",
-              "text": "系統化的模組展櫃： 採用簡潔明亮的層架系統，搭配頂部 LED 均勻洗牆光，讓每一件玩具都能展現最佳質感。展櫃中更無縫嵌入了多媒體螢幕，動態展示玩具的互動玩法，提升產品說服力。\n\n吸睛的中央洽談區： 空間中央鋪設了一道醒目的桃紅色地毯，猶如品牌的專屬伸展台。上方配置了長型極簡會議桌與現代感十足的單椅，為 B2B 商業洽談提供了一個開放、舒適且隨時能拿取周邊產品進行討論的絕佳場域。\n\n充滿細節的迎賓視覺： 入口的霧面玻璃門運用了半透明的玩具手繪草圖（火車、積木、動物）作為裝飾。這種設計既保持了展廳內部的隱私性，又在顧客推開門之前，就已悄悄喚醒了他們心中的童心與對品牌的期待。",
+              "html": "<ul style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 0.46875vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<li style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 1.21875vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 700; list-style-type: disc; list-style-position: outside; text-transform: none;\">系統化的模組展櫃：</span>&nbsp;採用簡潔明亮的層架系統，搭配頂部 <span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">LED</span> 均勻洗牆光，讓每一件玩具都能展現最佳質感。展櫃中更無縫嵌入了多媒體屏幕，動態展示玩具的互動玩法，提升產品說服力。</p>\n</li>\n<li style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 1.21875vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 700; list-style-type: disc; list-style-position: outside; text-transform: none;\">吸睛的中央洽談區：</span>&nbsp;空間中央鋪設了一道觸目的桃紅色地毯，猶如品牌的專屬伸展台。上方配置了長型極簡會議桌與現代感十足的會議椅，為<span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"> B2B </span>商業洽談提供了一個開放、舒適且隨時能拿取周邊產品進行討論的絕佳場地。</p>\n</li>\n<li style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 1.21875vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 700; list-style-type: disc; list-style-position: outside; text-transform: none;\">充滿細節的迎賓視覺：</span>&nbsp;入口的霧面玻璃門運用了半透明的玩具手繪草圖（火車、積木、動物）作為裝飾。這種設計既保持了展廳內部的隱私性，又在顧客推開門之前，就已悄悄喚醒了他們心中的童心與對品牌的期待。</p>\n</li>\n</ul>",
+              "text": "系統化的模組展櫃： 採用簡潔明亮的層架系統，搭配頂部 LED 均勻洗牆光，讓每一件玩具都能展現最佳質感。展櫃中更無縫嵌入了多媒體屏幕，動態展示玩具的互動玩法，提升產品說服力。\n\n吸睛的中央洽談區： 空間中央鋪設了一道觸目的桃紅色地毯，猶如品牌的專屬伸展台。上方配置了長型極簡會議桌與現代感十足的會議椅，為 B2B 商業洽談提供了一個開放、舒適且隨時能拿取周邊產品進行討論的絕佳場地。\n\n充滿細節的迎賓視覺： 入口的霧面玻璃門運用了半透明的玩具手繪草圖（火車、積木、動物）作為裝飾。這種設計既保持了展廳內部的隱私性，又在顧客推開門之前，就已悄悄喚醒了他們心中的童心與對品牌的期待。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -13952,7 +13287,7 @@ window.projectReferences = [
             },
             {
               "x": 7.526041666666666,
-              "y": 52.76475694444444,
+              "y": 47.5648,
               "width": 25.959201388888886,
               "height": 1.5690104166666667,
               "type": "text",
@@ -13970,66 +13305,12 @@ window.projectReferences = [
             },
             {
               "x": 7.565104166666667,
-              "y": 54.73198784722222,
+              "y": 49.532,
               "width": 25.960286458333332,
               "height": 39.544270833333336,
               "type": "text",
-              "html": "<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">在本次<span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"> WinFun</span> 展示廳的設計企劃中，我們不僅專注於視覺美學與商業機能，更將&nbsp;<span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">ESG</span>（環境、社會、企業管治）&nbsp;永續理念深植於空間的每一個細節中，協助品牌展現對社會與環境的承諾：</p>\n\n<ul style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 0.46875vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<li style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 1.21875vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 700; list-style-type: disc; list-style-position: outside; text-transform: none;\">循環經濟與模組化設計：</span>&nbsp;為了減少傳統商業裝修帶來的建築垃圾，我們全面導入了模組化展示結構（<span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">Modular Display System</span>），並搭配了可拆式牆身與展板系統。這種靈活的設計不僅方便展示櫃的重組與重用，更確保了未來品牌重塑（<span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">Rebranding</span>）或換季時能夠循環使用，大幅減少頻繁拆裝所造成的浪費。</p>\n</li>\n<li style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 1.21875vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 700; list-style-type: disc; list-style-position: outside; text-transform: none;\">低碳節能照明系統：</span>&nbsp;展廳內廣泛採用高效 <span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">LED </span>軌道燈。同時，我們進行了自然採光優化與眩光控制設計，透過低反射材料的運用，有效減少空間對人工照明的依賴，進一步降低整體能源消耗。</p>\n</li>\n<li style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 1.21875vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 700; list-style-type: disc; list-style-position: outside; text-transform: none;\">共融無障礙與安全規範：</span>&nbsp;在動線規劃上，我們導入了&nbsp;<span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">Universal Design</span> 無障礙動線規劃，並參考了聯合國 <span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">SDGs</span> 的共融原則，確保展廳走道寬敞平坦，讓不同能力人士皆可輕鬆、無礙地體驗產品。此外，全區皆採用安全材料與防火標準合規設計，嚴格遵循當地消防與安全法規，保障每一位參觀者與員工的健康安全。</p>\n</li>\n<li style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 1.21875vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 700; list-style-type: disc; list-style-position: outside; text-transform: none;\">永續理念傳遞：</span>&nbsp;實體的展示空間也是品牌發聲的最佳媒介。我們在設計中預留了教育型展示內容的空間，協助<span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"> WinFun</span> 能夠清晰呈現品牌在可持續供應鏈與綠色製造流程上的努力與成果。</p>\n</li>\n</ul>",
-              "text": "在本次 WinFun 展示廳的設計企劃中，我們不僅專注於視覺美學與商業機能，更將 ESG（環境、社會、企業管治） 永續理念深植於空間的每一個細節中，協助品牌展現對社會與環境的承諾：\n\n循環經濟與模組化設計： 為了減少傳統商業裝修帶來的建築垃圾，我們全面導入了模組化展示結構（Modular Display System），並搭配了可拆式牆身與展板系統。這種靈活的設計不僅方便展示櫃的重組與重用，更確保了未來品牌重塑（Rebranding）或換季時能夠循環使用，大幅減少頻繁拆裝所造成的浪費。\n\n低碳節能照明系統： 展廳內廣泛採用高效 LED 軌道燈。同時，我們進行了自然採光優化與眩光控制設計，透過低反射材料的運用，有效減少空間對人工照明的依賴，進一步降低整體能源消耗。\n\n共融無障礙與安全規範： 在動線規劃上，我們導入了 Universal Design 無障礙動線規劃，並參考了聯合國 SDGs 的共融原則，確保展廳走道寬敞平坦，讓不同能力人士皆可輕鬆、無礙地體驗產品。此外，全區皆採用安全材料與防火標準合規設計，嚴格遵循當地消防與安全法規，保障每一位參觀者與員工的健康安全。\n\n永續理念傳遞： 實體的展示空間也是品牌發聲的最佳媒介。我們在設計中預留了教育型展示內容的空間，協助 WinFun 能夠清晰呈現品牌在可持續供應鏈與綠色製造流程上的努力與成果。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "0.694444vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 7.492404513888889,
-              "y": 97.01063368055556,
-              "width": 25.959201388888886,
-              "height": 1.4995659722222223,
-              "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">一場設計｜專營商業室內設計及店鋪工程</h6>",
-              "text": "一場設計｜專營商業室內設計及店鋪工程",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "0.694444vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 7.531467013888888,
-              "y": 98.90733506944444,
-              "width": 25.960286458333332,
-              "height": 12.34375,
-              "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\"><span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">WinFun</span> 玩具展示廳的設計，是我們將「品牌語言」轉化為「空間體驗」的成功案例。透過精準的色彩規劃、流暢的參觀動線以及舒適的洽談環境，我們協助品牌建立起更強大的商業展示力，讓每一次的 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">B2B</span> 會議都在充滿靈感與活力的氛圍中展開。除了<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\"> Winfun</span>，我們還參與了其他項目，例如 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">nebu、 KLASSE14 </span>概念店、<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">TATCHA Lane Crawford</span> 等，驗證了我們在商業空間規劃方面的豐富經驗。</p>",
-              "text": "WinFun 玩具展示廳的設計，是我們將「品牌語言」轉化為「空間體驗」的成功案例。透過精準的色彩規劃、流暢的參觀動線以及舒適的洽談環境，我們協助品牌建立起更強大的商業展示力，讓每一次的 B2B 會議都在充滿靈感與活力的氛圍中展開。除了 Winfun，我們還參與了其他項目，例如 nebu、 KLASSE14 概念店、TATCHA Lane Crawford 等，驗證了我們在商業空間規劃方面的豐富經驗。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "0.694444vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 7.565104166666667,
-              "y": 113.98546006944446,
-              "width": 25.96137152777778,
-              "height": 2.625868055555556,
-              "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">如欲了解更多關於我們的商業室內設計項目，請訪問<span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw;text-decoration:underline\"><a href=\"https://www.facebook.com/oncedesignhk/\">一場設計<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">FACEBOOK</span>專頁</a></span>，了解更多詳細內容。</p>",
-              "text": "如欲了解更多關於我們的商業室內設計項目，請訪問一場設計FACEBOOK專頁，了解更多詳細內容。",
+              "html": "<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">ESG</span>（環境、社會、企業管治）&nbsp;永續理念深植於空間的每一個細節中，協助品牌展現對社會與環境的承諾：</p>\n\n<ul style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 0.46875vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<li style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 1.21875vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 700; list-style-type: disc; list-style-position: outside; text-transform: none;\">循環經濟與模組化設計：</span>&nbsp;為了減少傳統商業裝修帶來的建築垃圾，我們全面導入了模組化展示結構（<span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">Modular Display System</span>），並搭配了可拆式牆身與展板系統。這種靈活的設計不僅方便展示櫃的重組與重複使用，更確保了未來品牌重塑（<span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">Rebranding</span>）或換季時能夠循環使用，大幅減少頻繁拆裝所造成的浪費。</p>\n</li>\n<li style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 1.21875vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 700; list-style-type: disc; list-style-position: outside; text-transform: none;\">低碳節能照明系統：</span>&nbsp;展廳內廣泛採用高效 <span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">LED </span>軌道燈。同時，我們進行了自然採光優化與眩光控制設計，透過低反射材料的運用，有效減少空間對人工照明的依賴，進一步降低整體能源消耗。</p>\n</li>\n<li style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 1.21875vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 700; list-style-type: disc; list-style-position: outside; text-transform: none;\">共融無障礙與安全規範：</span>&nbsp;在動線規劃上，我們導入了通用設計（<span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">Universal Design</span>）理念，優化無障礙動線，並參考了聯合國 <span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">SDGs</span> 的共融原則，確保展廳走道寬敞平坦，讓不同能力人士皆可輕鬆、無礙地體驗產品。此外，全區皆採用安全材料與防火標準合規設計，嚴格遵循當地消防與安全法規，保障每一位參觀者與員工的健康安全。</p>\n</li>\n</ul>",
+              "text": "ESG（環境、社會、企業管治） 永續理念深植於空間的每一個細節中，協助品牌展現對社會與環境的承諾：\n\n循環經濟與模組化設計： 為了減少傳統商業裝修帶來的建築垃圾，我們全面導入了模組化展示結構（Modular Display System），並搭配了可拆式牆身與展板系統。這種靈活的設計不僅方便展示櫃的重組與重複使用，更確保了未來品牌重塑（Rebranding）或換季時能夠循環使用，大幅減少頻繁拆裝所造成的浪費。\n\n低碳節能照明系統： 展廳內廣泛採用高效 LED 軌道燈。同時，我們進行了自然採光優化與眩光控制設計，透過低反射材料的運用，有效減少空間對人工照明的依賴，進一步降低整體能源消耗。\n\n共融無障礙與安全規範： 在動線規劃上，我們導入了 Universal Design 無障礙動線規劃，並參考了聯合國 SDGs 的共融原則，確保展廳走道寬敞平坦，讓不同能力人士皆可輕鬆、無礙地體驗產品。此外，全區皆採用安全材料與防火標準合規設計，嚴格遵循當地消防與安全法規，保障每一位參觀者與員工的健康安全。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -14046,7 +13327,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 14.930555555555555,
               "type": "image",
-              "src": "../assets/images/zh/projects/01a6cec853a8f5ac.jpg",
+              "src": "../assets/images/projects/winfun/winfun-gallery-1.jpg",
               "alt": "WINFUN | HONG KONG"
             },
             {
@@ -14055,7 +13336,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 14.930555555555555,
               "type": "image",
-              "src": "../assets/images/zh/projects/c48c7a293c7df79f.jpg",
+              "src": "../assets/images/projects/winfun/winfun-gallery-2.jpg",
               "alt": "WINFUN | HONG KONG"
             },
             {
@@ -14064,7 +13345,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 47.291666666666664,
               "type": "image",
-              "src": "../assets/images/zh/projects/829fdc67c21b8d4b.jpg",
+              "src": "../assets/images/projects/winfun/winfun-gallery-3.jpg",
               "alt": "WINFUN | HONG KONG"
             },
             {
@@ -14073,7 +13354,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 14.930555555555555,
               "type": "image",
-              "src": "../assets/images/zh/projects/b8d4c7c4c2f1394c.jpg",
+              "src": "../assets/images/projects/winfun/winfun-gallery-8.jpg",
               "alt": "WINFUN | HONG KONG"
             },
             {
@@ -14082,7 +13363,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 47.291666666666664,
               "type": "image",
-              "src": "../assets/images/zh/projects/753e17efce647177.jpg",
+              "src": "../assets/images/projects/winfun/winfun-gallery-5.jpg",
               "alt": "WINFUN | HONG KONG"
             },
             {
@@ -14091,7 +13372,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 14.930555555555555,
               "type": "image",
-              "src": "../assets/images/zh/projects/35599c8fa5dd4556.jpg",
+              "src": "../assets/images/projects/winfun/winfun-gallery-4.jpg",
               "alt": "WINFUN | HONG KONG"
             },
             {
@@ -14100,7 +13381,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 14.930555555555555,
               "type": "image",
-              "src": "../assets/images/zh/projects/5c39dc52f444f131.jpg",
+              "src": "../assets/images/projects/winfun/winfun-gallery-6.jpg",
               "alt": "WINFUN | HONG KONG"
             },
             {
@@ -14109,7 +13390,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 14.930555555555555,
               "type": "image",
-              "src": "../assets/images/zh/projects/7a65f56625001598.jpg",
+              "src": "../assets/images/projects/winfun/winfun-gallery-7.jpg",
               "alt": "WINFUN | HONG KONG"
             },
             {
@@ -14118,7 +13399,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 14.930555555555555,
               "type": "image",
-              "src": "../assets/images/zh/projects/1d1bd28654822094.jpg",
+              "src": "../assets/images/projects/winfun/winfun-gallery-9.jpg",
               "alt": "WINFUN | HONG KONG"
             },
             {
@@ -14127,7 +13408,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 14.930555555555555,
               "type": "image",
-              "src": "../assets/images/zh/projects/9a130ef21e52740b.jpg",
+              "src": "../assets/images/projects/winfun/winfun-gallery-10.jpg",
               "alt": "WINFUN | HONG KONG"
             }
           ],
@@ -14191,7 +13472,8 @@ window.projectReferences = [
               "width": 100.0,
               "height": 115.64102564102565,
               "type": "image",
-              "src": "../assets/images/zh/projects/52f7ad2347781afd.jpg",
+              "src": "../assets/images/projects/winfun/winfun-gallery-10.jpg",
+              "position": "0% 50%",
               "alt": "IMG_8916-1536x864.jpg"
             },
             {
@@ -14302,8 +13584,8 @@ window.projectReferences = [
               "width": 84.1025641025641,
               "height": 30.148237179487182,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">對於國際知名的嬰幼兒玩具品牌 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">WinFun </span>而言，展示廳（<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">Showroom</span>）不僅僅是擺放產品的倉庫，更是向全球買家與合作夥伴傳遞品牌價值的核心樞紐。本次專案我們打破了傳統展廳的刻板陳列，將 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">WinFun</span> 獨有的「<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">CPS</span> 育兒系統（<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">Cognitive, Physical, Social</span>）」核心理念融入空間佈局，打造出一個兼具童趣活力與高度商業專業的現代化展示空間。</p>",
-              "text": "對於國際知名的嬰幼兒玩具品牌 WinFun 而言，展示廳（Showroom）不僅僅是擺放產品的倉庫，更是向全球買家與合作夥伴傳遞品牌價值的核心樞紐。本次專案我們打破了傳統展廳的刻板陳列，將 WinFun 獨有的「CPS 育兒系統（Cognitive, Physical, Social）」核心理念融入空間佈局，打造出一個兼具童趣活力與高度商業專業的現代化展示空間。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">「<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">CPS</span> 育兒系統（<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">Cognitive, Physical, Social</span>）」核心理念融入空間佈局，打造出一個兼具童趣活力與高度商業專業的現代化展示空間。</p>",
+              "text": "「CPS 育兒系統（Cognitive, Physical, Social）」核心理念融入空間佈局，打造出一個兼具童趣活力與高度商業專業的現代化展示空間。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -14530,8 +13812,8 @@ window.projectReferences = [
               "width": 84.7275641025641,
               "height": 4.923878205128205,
               "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:3.076949vw;line-height:4.923128vw;letter-spacing:0.307695vw\">展廳陳列室設計 | <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:3.076949vw;line-height:4.923128vw;letter-spacing:0.307695vw\"><span style=\"font-family:'Project Montserrat', sans-serif;font-weight:700;color:rgb(0, 0, 0);text-transform:uppercase;font-size:3.076949vw;line-height:4.923128vw;letter-spacing:0.307695vw\">Winfun Showroom</span></span>設計理念</h6>",
-              "text": "展廳陳列室設計 | WINFUN SHOWROOM設計理念",
+              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:3.076949vw;line-height:4.923128vw;letter-spacing:0.307695vw\">成長階段的色彩分區：</h6>",
+              "text": "成長階段的色彩分區：",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -14548,26 +13830,8 @@ window.projectReferences = [
               "width": 84.7275641025641,
               "height": 44.31490384615385,
               "type": "text",
-              "html": "<blockquote style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside;\">走進 <span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside;\">WinFun</span> 展示廳，首先映入眼簾的是充滿活力的品牌色彩。我們以純淨的白色作為展櫃主調，讓色彩繽紛的玩具成為絕對的主角。同時，巧妙運用了桃紅、天藍、鮮綠等高飽和度色彩作為空間導航。</p>\n\n<p style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside;\">設計團隊將空間按嬰幼兒的成長階段（<span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside;\">Stage 1: 0m+ 至 Stage 4: 18m+</span>）進行了明確的色彩分區，搭配頂部的鮮明燈箱與圖文並茂的解說面板。這不僅幫助參觀者（買家）一目了然地了解產品線架構，也大幅提升了空間的層次感與專業度。</p>\n</blockquote>",
-              "text": "走進 WinFun 展示廳，首先映入眼簾的是充滿活力的品牌色彩。我們以純淨的白色作為展櫃主調，讓色彩繽紛的玩具成為絕對的主角。同時，巧妙運用了桃紅、天藍、鮮綠等高飽和度色彩作為空間導航。\n\n設計團隊將空間按嬰幼兒的成長階段（Stage 1: 0m+ 至 Stage 4: 18m+）進行了明確的色彩分區，搭配頂部的鮮明燈箱與圖文並茂的解說面板。這不僅幫助參觀者（買家）一目了然地了解產品線架構，也大幅提升了空間的層次感與專業度。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "2.564103vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 7.628205128205129,
-              "y": 75.9014423076923,
-              "width": 84.7275641025641,
-              "height": 4.923878205128205,
-              "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">零售空間設計｜空間亮點</h6>",
-              "text": "零售空間設計｜空間亮點",
+              "html": "<blockquote style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside;\">以純淨的白色作為展櫃主調，讓色彩繽紛的玩具成為絕對的主角。同時，巧妙運用了桃紅、天藍、鮮綠等高飽和度色彩作為空間導航。空間按嬰幼兒的成長階段（<span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside;\">Stage 1: 0m+ 至 Stage 4: 18m+</span>）進行了明確的色彩分區，搭配頂部的鮮明燈箱與圖文並茂的解說面板。這不僅幫助客戶一目了然地掌握產品線架構，也大幅提升了空間的層次感與專業度。</p>\n</blockquote>",
+              "text": "以純淨的白色作為展櫃主調，讓色彩繽紛的玩具成為絕對的主角。同時，巧妙運用了桃紅、天藍、鮮綠等高飽和度色彩作為空間導航。空間按嬰幼兒的成長階段（Stage 1: 0m+ 至 Stage 4: 18m+）進行了明確的色彩分區，搭配頂部的鮮明燈箱與圖文並茂的解說面板。這不僅幫助客戶一目了然地掌握產品線架構，也大幅提升了空間的層次感與專業度。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -14580,12 +13844,12 @@ window.projectReferences = [
             },
             {
               "x": 7.756410256410256,
-              "y": 81.84695512820512,
+              "y": 63.847,
               "width": 84.7275641025641,
               "height": 68.93429487179488,
               "type": "text",
-              "html": "<ul style=\"font-size: 3.07692vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 1.53846vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<li style=\"font-size: 3.07692vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 4vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 700; list-style-type: disc; list-style-position: outside; text-transform: none;\">系統化的模組展櫃：</span>&nbsp;採用簡潔明亮的層架系統，搭配頂部 <span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">LED</span> 均勻洗牆光，讓每一件玩具都能展現最佳質感。展櫃中更無縫嵌入了多媒體螢幕，動態展示玩具的互動玩法，提升產品說服力。</p>\n</li>\n<li style=\"font-size: 3.07692vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 4vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 700; list-style-type: disc; list-style-position: outside; text-transform: none;\">吸睛的中央洽談區：</span>&nbsp;空間中央鋪設了一道醒目的桃紅色地毯，猶如品牌的專屬伸展台。上方配置了長型極簡會議桌與現代感十足的單椅，為<span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"> B2B </span>商業洽談提供了一個開放、舒適且隨時能拿取周邊產品進行討論的絕佳場域。</p>\n</li>\n<li style=\"font-size: 3.07692vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 4vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 700; list-style-type: disc; list-style-position: outside; text-transform: none;\">充滿細節的迎賓視覺：</span>&nbsp;入口的霧面玻璃門運用了半透明的玩具手繪草圖（火車、積木、動物）作為裝飾。這種設計既保持了展廳內部的隱私性，又在顧客推開門之前，就已悄悄喚醒了他們心中的童心與對品牌的期待。</p>\n</li>\n</ul>",
-              "text": "系統化的模組展櫃： 採用簡潔明亮的層架系統，搭配頂部 LED 均勻洗牆光，讓每一件玩具都能展現最佳質感。展櫃中更無縫嵌入了多媒體螢幕，動態展示玩具的互動玩法，提升產品說服力。\n\n吸睛的中央洽談區： 空間中央鋪設了一道醒目的桃紅色地毯，猶如品牌的專屬伸展台。上方配置了長型極簡會議桌與現代感十足的單椅，為 B2B 商業洽談提供了一個開放、舒適且隨時能拿取周邊產品進行討論的絕佳場域。\n\n充滿細節的迎賓視覺： 入口的霧面玻璃門運用了半透明的玩具手繪草圖（火車、積木、動物）作為裝飾。這種設計既保持了展廳內部的隱私性，又在顧客推開門之前，就已悄悄喚醒了他們心中的童心與對品牌的期待。",
+              "html": "<ul style=\"font-size: 3.07692vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 1.53846vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<li style=\"font-size: 3.07692vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 4vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 700; list-style-type: disc; list-style-position: outside; text-transform: none;\">系統化的模組展櫃：</span>&nbsp;採用簡潔明亮的層架系統，搭配頂部 <span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">LED</span> 均勻洗牆光，讓每一件玩具都能展現最佳質感。展櫃中更無縫嵌入了多媒體屏幕，動態展示玩具的互動玩法，提升產品說服力。</p>\n</li>\n<li style=\"font-size: 3.07692vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 4vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 700; list-style-type: disc; list-style-position: outside; text-transform: none;\">吸睛的中央洽談區：</span>&nbsp;空間中央鋪設了一道觸目的桃紅色地毯，猶如品牌的專屬伸展台。上方配置了長型極簡會議桌與現代感十足的會議椅，為<span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"> B2B </span>商業洽談提供了一個開放、舒適且隨時能拿取周邊產品進行討論的絕佳場地。</p>\n</li>\n<li style=\"font-size: 3.07692vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 4vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 700; list-style-type: disc; list-style-position: outside; text-transform: none;\">充滿細節的迎賓視覺：</span>&nbsp;入口的霧面玻璃門運用了半透明的玩具手繪草圖（火車、積木、動物）作為裝飾。這種設計既保持了展廳內部的隱私性，又在顧客推開門之前，就已悄悄喚醒了他們心中的童心與對品牌的期待。</p>\n</li>\n</ul>",
+              "text": "系統化的模組展櫃： 採用簡潔明亮的層架系統，搭配頂部 LED 均勻洗牆光，讓每一件玩具都能展現最佳質感。展櫃中更無縫嵌入了多媒體屏幕，動態展示玩具的互動玩法，提升產品說服力。\n\n吸睛的中央洽談區： 空間中央鋪設了一道觸目的桃紅色地毯，猶如品牌的專屬伸展台。上方配置了長型極簡會議桌與現代感十足的會議椅，為 B2B 商業洽談提供了一個開放、舒適且隨時能拿取周邊產品進行討論的絕佳場地。\n\n充滿細節的迎賓視覺： 入口的霧面玻璃門運用了半透明的玩具手繪草圖（火車、積木、動物）作為裝飾。這種設計既保持了展廳內部的隱私性，又在顧客推開門之前，就已悄悄喚醒了他們心中的童心與對品牌的期待。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -14598,7 +13862,7 @@ window.projectReferences = [
             },
             {
               "x": 7.636217948717949,
-              "y": 159.75560897435898,
+              "y": 141.7556,
               "width": 84.7275641025641,
               "height": 4.923878205128205,
               "type": "text",
@@ -14616,66 +13880,12 @@ window.projectReferences = [
             },
             {
               "x": 7.764423076923077,
-              "y": 165.7011217948718,
+              "y": 147.7011,
               "width": 84.7275641025641,
               "height": 128.02083333333334,
               "type": "text",
-              "html": "<p style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">在本次<span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"> WinFun</span> 展示廳的設計企劃中，我們不僅專注於視覺美學與商業機能，更將&nbsp;<span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">ESG</span>（環境、社會、企業管治）&nbsp;永續理念深植於空間的每一個細節中，協助品牌展現對社會與環境的承諾：</p>\n\n<ul style=\"font-size: 3.07692vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 1.53846vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<li style=\"font-size: 3.07692vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 4vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 700; list-style-type: disc; list-style-position: outside; text-transform: none;\">循環經濟與模組化設計：</span>&nbsp;為了減少傳統商業裝修帶來的建築垃圾，我們全面導入了模組化展示結構（<span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">Modular Display System</span>），並搭配了可拆式牆身與展板系統。這種靈活的設計不僅方便展示櫃的重組與重用，更確保了未來品牌重塑（<span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">Rebranding</span>）或換季時能夠循環使用，大幅減少頻繁拆裝所造成的浪費。</p>\n</li>\n<li style=\"font-size: 3.07692vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 4vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 700; list-style-type: disc; list-style-position: outside; text-transform: none;\">低碳節能照明系統：</span>&nbsp;展廳內廣泛採用高效 <span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">LED </span>軌道燈。同時，我們進行了自然採光優化與眩光控制設計，透過低反射材料的運用，有效減少空間對人工照明的依賴，進一步降低整體能源消耗。</p>\n</li>\n<li style=\"font-size: 3.07692vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 4vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 700; list-style-type: disc; list-style-position: outside; text-transform: none;\">共融無障礙與安全規範：</span>&nbsp;在動線規劃上，我們導入了&nbsp;<span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">Universal Design</span> 無障礙動線規劃，並參考了聯合國 <span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">SDGs</span> 的共融原則，確保展廳走道寬敞平坦，讓不同能力人士皆可輕鬆、無礙地體驗產品。此外，全區皆採用安全材料與防火標準合規設計，嚴格遵循當地消防與安全法規，保障每一位參觀者與員工的健康安全。</p>\n</li>\n<li style=\"font-size: 3.07692vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 4vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 700; list-style-type: disc; list-style-position: outside; text-transform: none;\">永續理念傳遞：</span>&nbsp;實體的展示空間也是品牌發聲的最佳媒介。我們在設計中預留了教育型展示內容的空間，協助<span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"> WinFun</span> 能夠清晰呈現品牌在可持續供應鏈與綠色製造流程上的努力與成果。</p>\n</li>\n</ul>",
-              "text": "在本次 WinFun 展示廳的設計企劃中，我們不僅專注於視覺美學與商業機能，更將 ESG（環境、社會、企業管治） 永續理念深植於空間的每一個細節中，協助品牌展現對社會與環境的承諾：\n\n循環經濟與模組化設計： 為了減少傳統商業裝修帶來的建築垃圾，我們全面導入了模組化展示結構（Modular Display System），並搭配了可拆式牆身與展板系統。這種靈活的設計不僅方便展示櫃的重組與重用，更確保了未來品牌重塑（Rebranding）或換季時能夠循環使用，大幅減少頻繁拆裝所造成的浪費。\n\n低碳節能照明系統： 展廳內廣泛採用高效 LED 軌道燈。同時，我們進行了自然採光優化與眩光控制設計，透過低反射材料的運用，有效減少空間對人工照明的依賴，進一步降低整體能源消耗。\n\n共融無障礙與安全規範： 在動線規劃上，我們導入了 Universal Design 無障礙動線規劃，並參考了聯合國 SDGs 的共融原則，確保展廳走道寬敞平坦，讓不同能力人士皆可輕鬆、無礙地體驗產品。此外，全區皆採用安全材料與防火標準合規設計，嚴格遵循當地消防與安全法規，保障每一位參觀者與員工的健康安全。\n\n永續理念傳遞： 實體的展示空間也是品牌發聲的最佳媒介。我們在設計中預留了教育型展示內容的空間，協助 WinFun 能夠清晰呈現品牌在可持續供應鏈與綠色製造流程上的努力與成果。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "2.564103vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 7.628205128205129,
-              "y": 302.69631410256414,
-              "width": 84.7275641025641,
-              "height": 4.923878205128205,
-              "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">一場設計｜專營商業室內設計及店鋪工程</h6>",
-              "text": "一場設計｜專營商業室內設計及店鋪工程",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "2.564103vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 7.756410256410256,
-              "y": 308.0168269230769,
-              "width": 84.7275641025641,
-              "height": 39.39102564102564,
-              "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">WinFun</span> 玩具展示廳的設計，是我們將「品牌語言」轉化為「空間體驗」的成功案例。透過精準的色彩規劃、流暢的參觀動線以及舒適的洽談環境，我們協助品牌建立起更強大的商業展示力，讓每一次的 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">B2B</span> 會議都在充滿靈感與活力的氛圍中展開。除了<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"> Winfun</span>，我們還參與了其他項目，例如 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">nebu、 KLASSE14 </span>概念店、<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">TATCHA Lane Crawford</span> 等，驗證了我們在商業空間規劃方面的豐富經驗。</p>",
-              "text": "WinFun 玩具展示廳的設計，是我們將「品牌語言」轉化為「空間體驗」的成功案例。透過精準的色彩規劃、流暢的參觀動線以及舒適的洽談環境，我們協助品牌建立起更強大的商業展示力，讓每一次的 B2B 會議都在充滿靈感與活力的氛圍中展開。除了 Winfun，我們還參與了其他項目，例如 nebu、 KLASSE14 概念店、TATCHA Lane Crawford 等，驗證了我們在商業空間規劃方面的豐富經驗。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "2.564103vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 7.628205128205129,
-              "y": 356.38221153846155,
-              "width": 84.7275641025641,
-              "height": 8.613782051282051,
-              "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">如欲了解更多關於我們的商業室內設計項目，請訪問<span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw;text-decoration:underline\"><a href=\"https://www.facebook.com/oncedesignhk/\">一場設計<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">FACEBOOK</span>專頁</a></span>，了解更多詳細內容。</p>",
-              "text": "如欲了解更多關於我們的商業室內設計項目，請訪問一場設計FACEBOOK專頁，了解更多詳細內容。",
+              "html": "<p style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">ESG</span>（環境、社會、企業管治）&nbsp;永續理念深植於空間的每一個細節中，協助品牌展現對社會與環境的承諾：</p>\n\n<ul style=\"font-size: 3.07692vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 1.53846vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<li style=\"font-size: 3.07692vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 4vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 700; list-style-type: disc; list-style-position: outside; text-transform: none;\">循環經濟與模組化設計：</span>&nbsp;為了減少傳統商業裝修帶來的建築垃圾，我們全面導入了模組化展示結構（<span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">Modular Display System</span>），並搭配了可拆式牆身與展板系統。這種靈活的設計不僅方便展示櫃的重組與重複使用，更確保了未來品牌重塑（<span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">Rebranding</span>）或換季時能夠循環使用，大幅減少頻繁拆裝所造成的浪費。</p>\n</li>\n<li style=\"font-size: 3.07692vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 4vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 700; list-style-type: disc; list-style-position: outside; text-transform: none;\">低碳節能照明系統：</span>&nbsp;展廳內廣泛採用高效 <span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">LED </span>軌道燈。同時，我們進行了自然採光優化與眩光控制設計，透過低反射材料的運用，有效減少空間對人工照明的依賴，進一步降低整體能源消耗。</p>\n</li>\n<li style=\"font-size: 3.07692vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 4vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 700; list-style-type: disc; list-style-position: outside; text-transform: none;\">共融無障礙與安全規範：</span>&nbsp;在動線規劃上，我們導入了通用設計（<span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">Universal Design</span>）理念，優化無障礙動線，並參考了聯合國 <span style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Montserrat&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">SDGs</span> 的共融原則，確保展廳走道寬敞平坦，讓不同能力人士皆可輕鬆、無礙地體驗產品。此外，全區皆採用安全材料與防火標準合規設計，嚴格遵循當地消防與安全法規，保障每一位參觀者與員工的健康安全。</p>\n</li>\n</ul>",
+              "text": "ESG（環境、社會、企業管治） 永續理念深植於空間的每一個細節中，協助品牌展現對社會與環境的承諾：\n\n循環經濟與模組化設計： 為了減少傳統商業裝修帶來的建築垃圾，我們全面導入了模組化展示結構（Modular Display System），並搭配了可拆式牆身與展板系統。這種靈活的設計不僅方便展示櫃的重組與重複使用，更確保了未來品牌重塑（Rebranding）或換季時能夠循環使用，大幅減少頻繁拆裝所造成的浪費。\n\n低碳節能照明系統： 展廳內廣泛採用高效 LED 軌道燈。同時，我們進行了自然採光優化與眩光控制設計，透過低反射材料的運用，有效減少空間對人工照明的依賴，進一步降低整體能源消耗。\n\n共融無障礙與安全規範： 在動線規劃上，我們導入了 Universal Design 無障礙動線規劃，並參考了聯合國 SDGs 的共融原則，確保展廳走道寬敞平坦，讓不同能力人士皆可輕鬆、無礙地體驗產品。此外，全區皆採用安全材料與防火標準合規設計，嚴格遵循當地消防與安全法規，保障每一位參觀者與員工的健康安全。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -14692,7 +13902,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 23.333333333333332,
               "type": "image",
-              "src": "../assets/images/zh/projects/bce592ac02a116ae.jpg",
+              "src": "../assets/images/projects/winfun/winfun-gallery-1.jpg",
               "alt": "WINFUN | HONG KONG"
             },
             {
@@ -14701,7 +13911,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 23.333333333333332,
               "type": "image",
-              "src": "../assets/images/zh/projects/e6366391c6694b71.jpg",
+              "src": "../assets/images/projects/winfun/winfun-gallery-2.jpg",
               "alt": "WINFUN | HONG KONG"
             },
             {
@@ -14710,7 +13920,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 73.84615384615385,
               "type": "image",
-              "src": "../assets/images/zh/projects/f46f690eab024025.jpg",
+              "src": "../assets/images/projects/winfun/winfun-gallery-3.jpg",
               "alt": "WINFUN | HONG KONG"
             },
             {
@@ -14719,7 +13929,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 23.333333333333332,
               "type": "image",
-              "src": "../assets/images/zh/projects/8d1f80bc0c3e0414.jpg",
+              "src": "../assets/images/projects/winfun/winfun-gallery-8.jpg",
               "alt": "WINFUN | HONG KONG"
             },
             {
@@ -14728,7 +13938,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 73.84615384615385,
               "type": "image",
-              "src": "../assets/images/zh/projects/29aae170f45fd9eb.jpg",
+              "src": "../assets/images/projects/winfun/winfun-gallery-5.jpg",
               "alt": "WINFUN | HONG KONG"
             },
             {
@@ -14737,7 +13947,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 23.333333333333332,
               "type": "image",
-              "src": "../assets/images/zh/projects/edb43be2e86e889c.jpg",
+              "src": "../assets/images/projects/winfun/winfun-gallery-4.jpg",
               "alt": "WINFUN | HONG KONG"
             },
             {
@@ -14746,7 +13956,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 23.333333333333332,
               "type": "image",
-              "src": "../assets/images/zh/projects/f751df0571531c2d.jpg",
+              "src": "../assets/images/projects/winfun/winfun-gallery-6.jpg",
               "alt": "WINFUN | HONG KONG"
             },
             {
@@ -14755,7 +13965,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 23.333333333333332,
               "type": "image",
-              "src": "../assets/images/zh/projects/4bd4b968acebc00a.jpg",
+              "src": "../assets/images/projects/winfun/winfun-gallery-7.jpg",
               "alt": "WINFUN | HONG KONG"
             },
             {
@@ -14764,7 +13974,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 23.333333333333332,
               "type": "image",
-              "src": "../assets/images/zh/projects/6122c08e100d2757.jpg",
+              "src": "../assets/images/projects/winfun/winfun-gallery-9.jpg",
               "alt": "WINFUN | HONG KONG"
             },
             {
@@ -14773,7 +13983,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 23.333333333333332,
               "type": "image",
-              "src": "../assets/images/zh/projects/3169671d4f41271f.jpg",
+              "src": "../assets/images/projects/winfun/winfun-gallery-10.jpg",
               "alt": "WINFUN | HONG KONG"
             }
           ],
@@ -14846,7 +14056,7 @@ window.projectReferences = [
               "width": 100,
               "height": 115.64102564102565,
               "type": "image",
-              "src": "../assets/images/zh/projects/46c8f168bcfd3632.jpg",
+              "src": "../assets/images/projects/fresh-office/fresh-office-gallery-2.jpg",
               "alt": "IMG_0683-scaled.jpg"
             },
             {
@@ -14957,8 +14167,8 @@ window.projectReferences = [
               "width": 84.1025641025641,
               "height": 21.534455128205128,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">在現代商業界中，辦公室早已超越了僅僅作為員工工作場所的功能，而成為一個能夠展現品牌精神和價值觀的實體空間。Fresh品牌以其獨特的精神和理念贏得了廣大顧客的青睞，而一場設計為品牌打造的辦公室設計同樣展現了這種活力和創新。</p>",
-              "text": "在現代商業界中，辦公室早已超越了僅僅作為員工工作場所的功能，而成為一個能夠展現品牌精神和價值觀的實體空間。Fresh品牌以其獨特的精神和理念贏得了廣大顧客的青睞，而一場設計為品牌打造的辦公室設計同樣展現了這種活力和創新。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">辦公室早已超越了僅僅作為員工工作場所的功能，而成為一個能夠展現品牌精神和價值觀的實體空間。</p>",
+              "text": "辦公室早已超越了僅僅作為員工工作場所的功能，而成為一個能夠展現品牌精神和價值觀的實體空間。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -15167,8 +14377,8 @@ window.projectReferences = [
               "width": 81.86298076923076,
               "height": 4.923878205128205,
               "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:3.076949vw;line-height:4.923128vw;letter-spacing:0.307695vw\">辦公室室內設計案例 | <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:3.076949vw;line-height:4.923128vw;letter-spacing:0.307695vw\"><span style=\"font-family:'Project Montserrat', sans-serif;font-weight:700;color:rgb(0, 0, 0);text-transform:uppercase;font-size:3.076949vw;line-height:4.923128vw;letter-spacing:0.307695vw\">Fresh </span></span>太古坊公司</h6>",
-              "text": "辦公室室內設計案例 | FRESH 太古坊公司",
+              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:3.076949vw;line-height:4.923128vw;letter-spacing:0.307695vw\">對大自然的熱愛與尊重</h6>",
+              "text": "對大自然的熱愛與尊重",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -15185,8 +14395,8 @@ window.projectReferences = [
               "width": 81.86298076923076,
               "height": 21.534455128205128,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">一進入 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">Fresh</span> 辦公室的會客室，就會看到落地玻璃窗襯托出的壯麗山景。這個空間以木製傢俬、舒適的梳化和椅子營造出一種休閒舒適的氛圍，讓人彷彿置身於大自然中。這種設計不僅為訪客提供了放鬆的空間，也呼應了 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">Fresh</span> 品牌對大自然的熱愛和尊重。</p>",
-              "text": "一進入 Fresh 辦公室的會客室，就會看到落地玻璃窗襯托出的壯麗山景。這個空間以木製傢俬、舒適的梳化和椅子營造出一種休閒舒適的氛圍，讓人彷彿置身於大自然中。這種設計不僅為訪客提供了放鬆的空間，也呼應了 Fresh 品牌對大自然的熱愛和尊重。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">在辦公室的會客室中，可以看到落地玻璃窗襯托出的壯麗山景。這個空間以木製傢俬、舒適的梳化和椅子營造出一種休閒舒適的氛圍，讓人彷彿置身於大自然中。這種設計不僅為訪客提供了放鬆的空間，也呼應了品牌對大自然的熱愛和尊重。</p>",
+              "text": "在辦公室的會客室中，可以看到落地玻璃窗襯托出的壯麗山景。這個空間以木製傢俬、舒適的梳化和椅子營造出一種休閒舒適的氛圍，讓人彷彿置身於大自然中。這種設計不僅為訪客提供了放鬆的空間，也呼應了品牌對大自然的熱愛和尊重。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -15203,8 +14413,8 @@ window.projectReferences = [
               "width": 81.9951923076923,
               "height": 4.923878205128205,
               "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">辦公室設計風格 | 現代化元素</h6>",
-              "text": "辦公室設計風格 | 現代化元素",
+              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">現代化與藝術元素</h6>",
+              "text": "現代化與藝術元素",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -15221,62 +14431,8 @@ window.projectReferences = [
               "width": 81.86298076923076,
               "height": 88.6298076923077,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">在會議室和共用空間中，設計師加入了大量展示櫃，陳列著品牌的皇牌產品和富有象徵意義的物品。這些展示櫃不僅富有藝術裝飾感，還增添了現代化氣息，亦為辦公空間增添了獨特的品牌特色。這種設計不僅讓人們感受到 <span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw;font-style:normal\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">Fresh</span></span></span></span></span><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw;font-style:normal\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"> </span></span></span></span></span>品牌的創新和時尚，同時也提醒著訪客和員工品牌的核心價值。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">辦公室的整體用色方面，設計師選擇了深灰色配以木色，營造出沉穩自然的氛圍。這種色彩組合不僅展現了專業性，同時也與 <span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw;font-style:normal\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">Fresh</span></span></span></span></span><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw;font-style:normal\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"> </span></span></span></span></span>品牌的形象相呼應。深灰色代表著穩定和專注，而木色則象徵著自然和溫暖。這樣的用色選擇為辦公室注入了一種平衡的感覺，讓人們在工作中能夠更加專注舒適。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">除了獨立的辦公室和會議室，設計師亦加入了共同工作空間和開放式區域，以促進團隊間的合作和溝通。這種設計理念體現了 <span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw;font-style:normal\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">Fresh</span></span></span></span></span><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw;font-style:normal\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"> </span></span></span></span></span>品牌對於創新和協作的追求。共同工作空間提供了一個開放的環境，讓團隊成員可以輕鬆交流和分享想法，同時也促進了團隊的凝聚力。</p>",
-              "text": "在會議室和共用空間中，設計師加入了大量展示櫃，陳列著品牌的皇牌產品和富有象徵意義的物品。這些展示櫃不僅富有藝術裝飾感，還增添了現代化氣息，亦為辦公空間增添了獨特的品牌特色。這種設計不僅讓人們感受到 Fresh 品牌的創新和時尚，同時也提醒著訪客和員工品牌的核心價值。\n\n辦公室的整體用色方面，設計師選擇了深灰色配以木色，營造出沉穩自然的氛圍。這種色彩組合不僅展現了專業性，同時也與 Fresh 品牌的形象相呼應。深灰色代表著穩定和專注，而木色則象徵著自然和溫暖。這樣的用色選擇為辦公室注入了一種平衡的感覺，讓人們在工作中能夠更加專注舒適。\n\n除了獨立的辦公室和會議室，設計師亦加入了共同工作空間和開放式區域，以促進團隊間的合作和溝通。這種設計理念體現了 Fresh 品牌對於創新和協作的追求。共同工作空間提供了一個開放的環境，讓團隊成員可以輕鬆交流和分享想法，同時也促進了團隊的凝聚力。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "2.564103vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 9.0625,
-              "y": 151.54246794871796,
-              "width": 81.86298076923076,
-              "height": 4.923878205128205,
-              "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">一場設計｜專營辦公室室內設計及商業裝修工程</h6>",
-              "text": "一場設計｜專營辦公室室內設計及商業裝修工程",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "2.564103vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 9.19070512820513,
-              "y": 157.48798076923077,
-              "width": 81.86298076923076,
-              "height": 34.46714743589744,
-              "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">一場設計致力透過室內設計提升品牌知名度、講述品牌故事以及提升顧客體驗，精心設計的辦公室可以讓員工有效率地工作，亦能展示品牌特色和價值。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">除了 <span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw;font-style:normal\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">Fresh</span></span></span></span></span><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw;font-style:normal\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"> </span></span></span></span></span>辦公室外，我們還參與了其他辦公室室內設計項目，例如<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"> ENW Office </span>等。這些項目不僅展示了一場設計團隊的專業能力，也驗證了我們在商業空間規劃和設計方面的豐富經驗。</p>",
-              "text": "一場設計致力透過室內設計提升品牌知名度、講述品牌故事以及提升顧客體驗，精心設計的辦公室可以讓員工有效率地工作，亦能展示品牌特色和價值。\n\n除了 Fresh 辦公室外，我們還參與了其他辦公室室內設計項目，例如 ENW Office 等。這些項目不僅展示了一場設計團隊的專業能力，也驗證了我們在商業空間規劃和設計方面的豐富經驗。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "2.564103vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 9.19070512820513,
-              "y": 198.3653846153846,
-              "width": 81.86698717948718,
-              "height": 8.613782051282051,
-              "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">如欲了解更多關於我們的店舖室內設計項目，請訪問<span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw;text-decoration:underline\"><a href=\"https://www.facebook.com/oncedesignhk\">一場設計<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">Facebook</span>專頁</a></span>。</p>",
-              "text": "如欲了解更多關於我們的店舖室內設計項目，請訪問一場設計Facebook專頁。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">在會議室和共用空間中，加入了大量展示櫃，陳列著品牌的皇牌產品和富有象徵意義的物品。這些展示櫃不僅富有藝術裝飾感，還注入了現代化氣息，亦為辦公空間賦予了獨特的品牌特色。這種設計不僅讓人們感受到品牌的創新和時尚，同時也向客戶與員工時刻傳遞著品牌的核心價值。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">辦公室的整體用色方面，選擇了深灰色配以木色，營造出沉穩自然的氛圍。這種色彩組合不僅展現了專業性，同時也與品牌的形象相呼應。深灰色代表著穩定和專注，而木色則象徵著自然和溫暖。這樣的用色選擇為辦公室注入了一種平衡的感覺，讓人們在工作中能夠更加專注與舒適。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">除了獨立的辦公室和會議室，空間內亦規劃了共同工作空間和開放式區域，以促進團隊間的合作和溝通。這種設計理念體現了品牌對於創新和協作的追求。共同工作空間提供了一個開放的環境，讓團隊成員可以輕鬆交流和分享想法，同時也促進了團隊的凝聚力。</p>",
+              "text": "在會議室和共用空間中，加入了大量展示櫃，陳列著品牌的皇牌產品和富有象徵意義的物品。這些展示櫃不僅富有藝術裝飾感，還注入了現代化氣息，亦為辦公空間賦予了獨特的品牌特色。這種設計不僅讓人們感受到品牌的創新和時尚，同時也向客戶與員工時刻傳遞著品牌的核心價值。\n\n辦公室的整體用色方面，選擇了深灰色配以木色，營造出沉穩自然的氛圍。這種色彩組合不僅展現了專業性，同時也與品牌的形象相呼應。深灰色代表著穩定和專注，而木色則象徵著自然和溫暖。這樣的用色選擇為辦公室注入了一種平衡的感覺，讓人們在工作中能夠更加專注與舒適。\n\n除了獨立的辦公室和會議室，空間內亦規劃了共同工作空間和開放式區域，以促進團隊間的合作和溝通。這種設計理念體現了品牌對於創新和協作的追求。共同工作空間提供了一個開放的環境，讓團隊成員可以輕鬆交流和分享想法，同時也促進了團隊的凝聚力。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -15311,7 +14467,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 31.28205128205128,
               "type": "image",
-              "src": "../assets/images/zh/projects/407c1f396b3ac0f3.jpg",
+              "src": "../assets/images/projects/fresh-office/fresh-office-gallery-1.jpg",
               "alt": "FRESH OFFICE | TAIKOO PLACE"
             },
             {
@@ -15320,7 +14476,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 31.28205128205128,
               "type": "image",
-              "src": "../assets/images/zh/projects/0096471174f77617.jpg",
+              "src": "../assets/images/projects/fresh-office/fresh-office-gallery-2.jpg",
               "alt": "FRESH OFFICE | TAIKOO PLACE"
             },
             {
@@ -15329,7 +14485,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 31.28205128205128,
               "type": "image",
-              "src": "../assets/images/zh/projects/877c5f076cf35b5f.jpg",
+              "src": "../assets/images/projects/fresh-office/fresh-office-gallery-3.jpg",
               "alt": "FRESH OFFICE | TAIKOO PLACE"
             },
             {
@@ -15338,7 +14494,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 31.28205128205128,
               "type": "image",
-              "src": "../assets/images/zh/projects/330b25fac004a25e.jpg",
+              "src": "../assets/images/projects/fresh-office/fresh-office-gallery-4.jpg",
               "alt": "FRESH OFFICE | TAIKOO PLACE"
             },
             {
@@ -15347,7 +14503,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 31.28205128205128,
               "type": "image",
-              "src": "../assets/images/zh/projects/329652204ab4be8d.jpg",
+              "src": "../assets/images/projects/fresh-office/fresh-office-gallery-5.jpg",
               "alt": "FRESH OFFICE | TAIKOO PLACE"
             },
             {
@@ -15356,7 +14512,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 31.28205128205128,
               "type": "image",
-              "src": "../assets/images/zh/projects/54ddd5df66140239.jpg",
+              "src": "../assets/images/projects/fresh-office/fresh-office-gallery-6.jpg",
               "alt": "FRESH OFFICE | TAIKOO PLACE"
             }
           ],
@@ -15420,7 +14576,7 @@ window.projectReferences = [
               "width": 100,
               "height": 53.02083333333333,
               "type": "image",
-              "src": "../assets/images/zh/projects/1d4b1c4cd8b8d1e2.jpg",
+              "src": "../assets/images/projects/fresh-office/fresh-office-gallery-2.jpg",
               "alt": "IMG_0683-scaled.jpg"
             },
             {
@@ -15531,8 +14687,8 @@ window.projectReferences = [
               "width": 42.18641493055556,
               "height": 3.9388020833333335,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">在現代商業界中，辦公室早已超越了僅僅作為員工工作場所的功能，而成為一個能夠展現品牌精神和價值觀的實體空間。Fresh品牌以其獨特的精神和理念贏得了廣大顧客的青睞，而一場設計為品牌打造的辦公室設計同樣展現了這種活力和創新。</p>",
-              "text": "在現代商業界中，辦公室早已超越了僅僅作為員工工作場所的功能，而成為一個能夠展現品牌精神和價值觀的實體空間。Fresh品牌以其獨特的精神和理念贏得了廣大顧客的青睞，而一場設計為品牌打造的辦公室設計同樣展現了這種活力和創新。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">辦公室早已超越了僅僅作為員工工作場所的功能，而成為一個能夠展現品牌精神和價值觀的實體空間。</p>",
+              "text": "辦公室早已超越了僅僅作為員工工作場所的功能，而成為一個能夠展現品牌精神和價值觀的實體空間。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -15741,8 +14897,8 @@ window.projectReferences = [
               "width": 24.270833333333332,
               "height": 1.5690104166666667,
               "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">辦公室室內設計案例 | <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\"><span style=\"font-family:'Project Montserrat', sans-serif;font-weight:700;color:rgb(0, 0, 0);text-transform:uppercase;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">Fresh </span></span>太古坊公司</h6>",
-              "text": "辦公室室內設計案例 | FRESH 太古坊公司",
+              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">對大自然的熱愛與尊重</h6>",
+              "text": "對大自然的熱愛與尊重",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -15759,8 +14915,8 @@ window.projectReferences = [
               "width": 24.270833333333332,
               "height": 7.877604166666667,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">一進入 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">Fresh</span> 辦公室的會客室，就會看到落地玻璃窗襯托出的壯麗山景。這個空間以木製傢俬、舒適的梳化和椅子營造出一種休閒舒適的氛圍，讓人彷彿置身於大自然中。這種設計不僅為訪客提供了放鬆的空間，也呼應了 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">Fresh</span> 品牌對大自然的熱愛和尊重。</p>",
-              "text": "一進入 Fresh 辦公室的會客室，就會看到落地玻璃窗襯托出的壯麗山景。這個空間以木製傢俬、舒適的梳化和椅子營造出一種休閒舒適的氛圍，讓人彷彿置身於大自然中。這種設計不僅為訪客提供了放鬆的空間，也呼應了 Fresh 品牌對大自然的熱愛和尊重。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">在辦公室的會客室中，可以看到落地玻璃窗襯托出的壯麗山景。這個空間以木製傢俬、舒適的梳化和椅子營造出一種休閒舒適的氛圍，讓人彷彿置身於大自然中。這種設計不僅為訪客提供了放鬆的空間，也呼應了品牌對大自然的熱愛和尊重。</p>",
+              "text": "在辦公室的會客室中，可以看到落地玻璃窗襯托出的壯麗山景。這個空間以木製傢俬、舒適的梳化和椅子營造出一種休閒舒適的氛圍，讓人彷彿置身於大自然中。這種設計不僅為訪客提供了放鬆的空間，也呼應了品牌對大自然的熱愛和尊重。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -15777,8 +14933,8 @@ window.projectReferences = [
               "width": 24.309895833333332,
               "height": 1.4995659722222223,
               "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">辦公室設計風格 | 現代化元素</h6>",
-              "text": "辦公室設計風格 | 現代化元素",
+              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">現代化與藝術元素</h6>",
+              "text": "現代化與藝術元素",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -15795,62 +14951,8 @@ window.projectReferences = [
               "width": 24.270833333333332,
               "height": 27.200520833333336,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">在會議室和共用空間中，設計師加入了大量展示櫃，陳列著品牌的皇牌產品和富有象徵意義的物品。這些展示櫃不僅富有藝術裝飾感，還增添了現代化氣息，亦為辦公空間增添了獨特的品牌特色。這種設計不僅讓人們感受到 <span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw;font-style:normal\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.833333vw;line-height:1.500000vw;letter-spacing:0.112500vw\"><span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.833333vw;line-height:1.500000vw;letter-spacing:0.112500vw\">Fresh</span></span></span></span></span><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw;font-style:normal\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.833333vw;line-height:1.500000vw;letter-spacing:0.112500vw\"> </span></span></span></span></span>品牌的創新和時尚，同時也提醒著訪客和員工品牌的核心價值。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">辦公室的整體用色方面，設計師選擇了深灰色配以木色，營造出沉穩自然的氛圍。這種色彩組合不僅展現了專業性，同時也與 <span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw;font-style:normal\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.833333vw;line-height:1.500000vw;letter-spacing:0.112500vw\"><span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.833333vw;line-height:1.500000vw;letter-spacing:0.112500vw\">Fresh</span></span></span></span></span><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw;font-style:normal\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.833333vw;line-height:1.500000vw;letter-spacing:0.112500vw\"> </span></span></span></span></span>品牌的形象相呼應。深灰色代表著穩定和專注，而木色則象徵著自然和溫暖。這樣的用色選擇為辦公室注入了一種平衡的感覺，讓人們在工作中能夠更加專注舒適。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">除了獨立的辦公室和會議室，設計師亦加入了共同工作空間和開放式區域，以促進團隊間的合作和溝通。這種設計理念體現了 <span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw;font-style:normal\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.833333vw;line-height:1.500000vw;letter-spacing:0.112500vw\"><span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.833333vw;line-height:1.500000vw;letter-spacing:0.112500vw\">Fresh</span></span></span></span></span><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw;font-style:normal\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.833333vw;line-height:1.500000vw;letter-spacing:0.112500vw\"> </span></span></span></span></span>品牌對於創新和協作的追求。共同工作空間提供了一個開放的環境，讓團隊成員可以輕鬆交流和分享想法，同時也促進了團隊的凝聚力。</p>",
-              "text": "在會議室和共用空間中，設計師加入了大量展示櫃，陳列著品牌的皇牌產品和富有象徵意義的物品。這些展示櫃不僅富有藝術裝飾感，還增添了現代化氣息，亦為辦公空間增添了獨特的品牌特色。這種設計不僅讓人們感受到 Fresh 品牌的創新和時尚，同時也提醒著訪客和員工品牌的核心價值。\n\n辦公室的整體用色方面，設計師選擇了深灰色配以木色，營造出沉穩自然的氛圍。這種色彩組合不僅展現了專業性，同時也與 Fresh 品牌的形象相呼應。深灰色代表著穩定和專注，而木色則象徵著自然和溫暖。這樣的用色選擇為辦公室注入了一種平衡的感覺，讓人們在工作中能夠更加專注舒適。\n\n除了獨立的辦公室和會議室，設計師亦加入了共同工作空間和開放式區域，以促進團隊間的合作和溝通。這種設計理念體現了 Fresh 品牌對於創新和協作的追求。共同工作空間提供了一個開放的環境，讓團隊成員可以輕鬆交流和分享想法，同時也促進了團隊的凝聚力。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "0.694444vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 8.018663194444445,
-              "y": 53.004557291666664,
-              "width": 24.270833333333332,
-              "height": 1.4995659722222223,
-              "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">一場設計｜專營辦公室室內設計及商業裝修工程</h6>",
-              "text": "一場設計｜專營辦公室室內設計及商業裝修工程",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "0.694444vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 8.057725694444445,
-              "y": 54.90234375000001,
-              "width": 24.270833333333332,
-              "height": 10.635850694444445,
-              "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">一場設計致力透過室內設計提升品牌知名度、講述品牌故事以及提升顧客體驗，精心設計的辦公室可以讓員工有效率地工作，亦能展示品牌特色和價值。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">除了 <span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw;font-style:normal\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.833333vw;line-height:1.500000vw;letter-spacing:0.112500vw\"><span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.833333vw;line-height:1.500000vw;letter-spacing:0.112500vw\">Fresh</span></span></span></span></span><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw;font-style:normal\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.833333vw;line-height:1.500000vw;letter-spacing:0.112500vw\"> </span></span></span></span></span>辦公室外，我們還參與了其他辦公室室內設計項目，例如<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\"> ENW Office </span>等。這些項目不僅展示了一場設計團隊的專業能力，也驗證了我們在商業空間規劃和設計方面的豐富經驗。</p>",
-              "text": "一場設計致力透過室內設計提升品牌知名度、講述品牌故事以及提升顧客體驗，精心設計的辦公室可以讓員工有效率地工作，亦能展示品牌特色和價值。\n\n除了 Fresh 辦公室外，我們還參與了其他辦公室室內設計項目，例如 ENW Office 等。這些項目不僅展示了一場設計團隊的專業能力，也驗證了我們在商業空間規劃和設計方面的豐富經驗。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "0.694444vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 8.056640625,
-              "y": 68.27256944444444,
-              "width": 24.27191840277778,
-              "height": 2.625868055555556,
-              "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">如欲了解更多關於我們的店舖室內設計項目，請訪問<span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw;text-decoration:underline\"><a href=\"https://www.facebook.com/oncedesignhk\">一場設計<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">Facebook</span>專頁</a></span>。</p>",
-              "text": "如欲了解更多關於我們的店舖室內設計項目，請訪問一場設計Facebook專頁。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">在會議室和共用空間中，加入了大量展示櫃，陳列著品牌的皇牌產品和富有象徵意義的物品。這些展示櫃不僅富有藝術裝飾感，還注入了現代化氣息，亦為辦公空間賦予了獨特的品牌特色。這種設計不僅讓人們感受到品牌的創新和時尚，同時也向客戶與員工時刻傳遞著品牌的核心價值。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">辦公室的整體用色方面，選擇了深灰色配以木色，營造出沉穩自然的氛圍。這種色彩組合不僅展現了專業性，同時也與品牌的形象相呼應。深灰色代表著穩定和專注，而木色則象徵著自然和溫暖。這樣的用色選擇為辦公室注入了一種平衡的感覺，讓人們在工作中能夠更加專注與舒適。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">除了獨立的辦公室和會議室，空間內亦規劃了共同工作空間和開放式區域，以促進團隊間的合作和溝通。這種設計理念體現了品牌對於創新和協作的追求。共同工作空間提供了一個開放的環境，讓團隊成員可以輕鬆交流和分享想法，同時也促進了團隊的凝聚力。</p>",
+              "text": "在會議室和共用空間中，加入了大量展示櫃，陳列著品牌的皇牌產品和富有象徵意義的物品。這些展示櫃不僅富有藝術裝飾感，還注入了現代化氣息，亦為辦公空間賦予了獨特的品牌特色。這種設計不僅讓人們感受到品牌的創新和時尚，同時也向客戶與員工時刻傳遞著品牌的核心價值。\n\n辦公室的整體用色方面，選擇了深灰色配以木色，營造出沉穩自然的氛圍。這種色彩組合不僅展現了專業性，同時也與品牌的形象相呼應。深灰色代表著穩定和專注，而木色則象徵著自然和溫暖。這樣的用色選擇為辦公室注入了一種平衡的感覺，讓人們在工作中能夠更加專注與舒適。\n\n除了獨立的辦公室和會議室，空間內亦規劃了共同工作空間和開放式區域，以促進團隊間的合作和溝通。這種設計理念體現了品牌對於創新和協作的追求。共同工作空間提供了一個開放的環境，讓團隊成員可以輕鬆交流和分享想法，同時也促進了團隊的凝聚力。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -15885,7 +14987,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 19.930555555555557,
               "type": "image",
-              "src": "../assets/images/zh/projects/67918fc8e8a66abd.jpg",
+              "src": "../assets/images/projects/fresh-office/fresh-office-gallery-1.jpg",
               "alt": "FRESH OFFICE | TAIKOO PLACE"
             },
             {
@@ -15894,7 +14996,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 19.930555555555557,
               "type": "image",
-              "src": "../assets/images/zh/projects/328ace920a5193f4.jpg",
+              "src": "../assets/images/projects/fresh-office/fresh-office-gallery-2.jpg",
               "alt": "FRESH OFFICE | TAIKOO PLACE"
             },
             {
@@ -15903,7 +15005,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 19.930555555555557,
               "type": "image",
-              "src": "../assets/images/zh/projects/987d33b574772bf1.jpg",
+              "src": "../assets/images/projects/fresh-office/fresh-office-gallery-3.jpg",
               "alt": "FRESH OFFICE | TAIKOO PLACE"
             },
             {
@@ -15912,7 +15014,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 19.930555555555557,
               "type": "image",
-              "src": "../assets/images/zh/projects/3781e5732ecaac76.jpg",
+              "src": "../assets/images/projects/fresh-office/fresh-office-gallery-4.jpg",
               "alt": "FRESH OFFICE | TAIKOO PLACE"
             },
             {
@@ -15921,7 +15023,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 19.930555555555557,
               "type": "image",
-              "src": "../assets/images/zh/projects/091fec9bfbd204ce.jpg",
+              "src": "../assets/images/projects/fresh-office/fresh-office-gallery-5.jpg",
               "alt": "FRESH OFFICE | TAIKOO PLACE"
             },
             {
@@ -15930,7 +15032,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 19.930555555555557,
               "type": "image",
-              "src": "../assets/images/zh/projects/8bd4f1f15047b1a3.jpg",
+              "src": "../assets/images/projects/fresh-office/fresh-office-gallery-6.jpg",
               "alt": "FRESH OFFICE | TAIKOO PLACE"
             }
           ],
@@ -16003,7 +15105,7 @@ window.projectReferences = [
               "width": 100.0,
               "height": 53.02083333333333,
               "type": "image",
-              "src": "../assets/images/zh/projects/b80c103e4b586f2b.jpg",
+              "src": "../assets/images/projects/stem-classroom/stem-classroom-gallery-1.jpg",
               "alt": "IMG_4390.jpg"
             },
             {
@@ -16114,8 +15216,8 @@ window.projectReferences = [
               "width": 41.22938368055556,
               "height": 5.251736111111112,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">為了突破傳統教室的框架，我們為聖博德天主教小學的全新 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">STEM</span> 室被設計成一個激發創意的「星際樞紐」。設計語言深受科幻美學和太空探索的啟發，大膽運用了電光紫、冰川藍和工業灰作為主色調。這不僅僅是一個教室，更是一個想像力的載體，帶領學生進入一個讓科學、科技、工程和數學變得栩栩如生的世界。</p>",
-              "text": "為了突破傳統教室的框架，我們為聖博德天主教小學的全新 STEM 室被設計成一個激發創意的「星際樞紐」。設計語言深受科幻美學和太空探索的啟發，大膽運用了電光紫、冰川藍和工業灰作為主色調。這不僅僅是一個教室，更是一個想像力的載體，帶領學生進入一個讓科學、科技、工程和數學變得栩栩如生的世界。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">全新 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">STEM</span> 室被設計成一個激發創意的「星際樞紐」。設計語言深受科幻美學和太空探索的啟發，大膽運用了電光紫、冰川藍和工業灰作為主色調。這不僅僅是一個教室，更是一個想像力的載體，帶領學生進入一個讓科學、科技、工程和數學變得生動有趣的世界。</p>",
+              "text": "全新 STEM 室被設計成一個激發創意的「星際樞紐」。設計語言深受科幻美學和太空探索的啟發，大膽運用了電光紫、冰川藍和工業灰作為主色調。這不僅僅是一個教室，更是一個想像力的載體，帶領學生進入一個讓科學、科技、工程和數學變得生動有趣的世界。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -16316,34 +15418,16 @@ window.projectReferences = [
           "kind": "quote"
         },
         {
-          "height": 112.67578125,
+          "height": 73.2665,
           "blocks": [
             {
-              "x": 5.921223958333333,
-              "y": 8.59375,
-              "width": 28.538411458333336,
-              "height": 1.5690104166666667,
-              "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\"><span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\"><span style=\"font-family:'Project Montserrat', sans-serif;font-weight:700;color:rgb(0, 0, 0);text-transform:uppercase;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">STEM </span></span>教室裝修設計｜設計理念</h6>",
-              "text": "STEM 教室裝修設計｜設計理念",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "uppercase",
-                "font-size": "0.694444vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
               "x": 5.960286458333333,
-              "y": 10.560980902777779,
+              "y": 8.59375,
               "width": 28.538411458333336,
               "height": 20.99392361111111,
               "type": "text",
-              "html": "<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">一場設計團隊以品牌核心價值為導向，結合現代室內設計趨勢，精心規劃每一個細節。項目中，我們採用了以下關鍵設計策略：</p>\n\n<ul style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 0.46875vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<li style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 1.21875vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">幾何光影矩陣：天花板採用了引人注目的懸掛式六角形（蜂巢狀）和 Y 型 LED 燈具，映襯在深色的天花板背景下。這營造出如同「滿天星斗」的效果，增加了空間的層次感和未來氛圍，有助於激發視覺興趣和專注力。</p>\n</li>\n<li style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 1.21875vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">靈活模組化佈局：鑑於 STEM 教育對協作的需求，教室配備了可移動的紫色模組化桌椅。這些桌椅可以輕鬆地從個人工作站重新組合成大型小組討論區，促進動態的分組專題研習和實驗。</p>\n</li>\n<li style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 1.21875vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">綜合科技牆：教室的焦點是一面定制的媒體牆，安裝了雙互動式平面螢幕。兩側配有流線型的太空船風格飾板和充足的儲物空間，成為數碼學習和演示的「指揮中心」。</p>\n</li>\n</ul>",
-              "text": "一場設計團隊以品牌核心價值為導向，結合現代室內設計趨勢，精心規劃每一個細節。項目中，我們採用了以下關鍵設計策略：\n\n幾何光影矩陣：天花板採用了引人注目的懸掛式六角形（蜂巢狀）和 Y 型 LED 燈具，映襯在深色的天花板背景下。這營造出如同「滿天星斗」的效果，增加了空間的層次感和未來氛圍，有助於激發視覺興趣和專注力。\n\n靈活模組化佈局：鑑於 STEM 教育對協作的需求，教室配備了可移動的紫色模組化桌椅。這些桌椅可以輕鬆地從個人工作站重新組合成大型小組討論區，促進動態的分組專題研習和實驗。\n\n綜合科技牆：教室的焦點是一面定制的媒體牆，安裝了雙互動式平面螢幕。兩側配有流線型的太空船風格飾板和充足的儲物空間，成為數碼學習和演示的「指揮中心」。",
+              "html": "<ul style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 0.46875vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<li style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 1.21875vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">幾何光影矩陣：天花板採用了引人注目的懸掛式六角形（蜂巢狀）和 Y 型 LED 燈具，映襯在深色的天花板背景下。這營造出如同「滿天星斗」的效果，增加了空間的層次感和未來氛圍，有助於激發學童的探索興趣和專注力。</p>\n</li>\n<li style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 1.21875vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">靈活模組化佈局：鑑於 STEM 教育對協作的需求，教室配備了可移動的紫色模組化桌椅。這些桌椅可以輕鬆地從個人工作站重新組合成大型小組討論區，促進動態的分組專題研習和實驗。</p>\n</li>\n<li style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 1.21875vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">綜合科技牆：教室的焦點是一面定制的媒體牆，安裝了雙互動式平面屏幕。兩側配有流線型的太空船風格飾板和充足的儲物空間，成為數碼學習和演示的「指揮中心」。</p>\n</li>\n</ul>",
+              "text": "幾何光影矩陣：天花板採用了引人注目的懸掛式六角形（蜂巢狀）和 Y 型 LED 燈具，映襯在深色的天花板背景下。這營造出如同「滿天星斗」的效果，增加了空間的層次感和未來氛圍，有助於激發學童的探索興趣和專注力。\n\n靈活模組化佈局：鑑於 STEM 教育對協作的需求，教室配備了可移動的紫色模組化桌椅。這些桌椅可以輕鬆地從個人工作站重新組合成大型小組討論區，促進動態的分組專題研習和實驗。\n\n綜合科技牆：教室的焦點是一面定制的媒體牆，安裝了雙互動式平面屏幕。兩側配有流線型的太空船風格飾板和充足的儲物空間，成為數碼學習和演示的「指揮中心」。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -16356,7 +15440,7 @@ window.projectReferences = [
             },
             {
               "x": 5.921223958333333,
-              "y": 34.289279513888886,
+              "y": 27.7893,
               "width": 28.583984375,
               "height": 1.4995659722222223,
               "type": "text",
@@ -16374,102 +15458,12 @@ window.projectReferences = [
             },
             {
               "x": 5.966796875,
-              "y": 36.18598090277778,
+              "y": 29.686,
               "width": 28.538411458333336,
               "height": 38.98871527777778,
               "type": "text",
-              "html": "<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">在聖博德天主教小學的STEM創科實驗課室設計中，我們不僅追求視覺上的現代感與科技感，更將&nbsp;ESG（環境、社會、企業管治）&nbsp;理念深度落實於空間規劃中。我們致力於為新世代學童打造一個既環保又關注身心健康的優質學習環境：</p>\n\n<ul style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 0.46875vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<li style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 1.21875vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">優化室內空氣與採光：&nbsp;學童的健康是我們的首要考量。我們在全區採用了低 VOC（低揮發性有機化合物）建材系統，包含環保塗料、黏合劑與優質板材，從源頭嚴格把關，大幅提升課室的室內空氣質量（IAQ）。同時，我們導入了自然採光優化設計，透過淺色反射面與空間佈局提升日照利用率，不僅營造明亮舒適的視覺感受，更有效降低了人工照明的能源負荷，實踐綠色節能。</p>\n</li>\n<li style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 1.21875vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">靈活共融的學習佈局：&nbsp;為了因應現代化教育需求，我們打造了高度靈活學習空間。課室內配備了符合人體工學的課桌椅設計，不僅能適應不同年齡層學童的身形發展，其可移動的特性更完美支援了 STEM 實驗、小組互動討論與混合教學模式。</p>\n</li>\n<li style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 1.21875vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">全方位的安全與健康防護：&nbsp;在細節處理上，所有桌角及牆角均採用安全圓角設計與防撞系統，為活潑好動的小學生提供最安心的活動範圍。此外，桌面及高頻接觸的牆面特別選用了抗菌與易清潔材料，有效降低校園內交叉感染的風險。</p>\n</li>\n<li style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 1.21875vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">情緒友善的色彩心理學：&nbsp;我們將色彩心理學融入空間，運用了情緒友善色彩策略。透過沉穩的冰川藍與工業灰作為基調，搭配充滿未來感的電光紫點綴，這種充滿科幻感卻不失沉穩的色彩配置，能在激發學童創科思維的同時，達到減壓與提升學習專注力的雙重效果。</p>\n</li>\n</ul>",
-              "text": "在聖博德天主教小學的STEM創科實驗課室設計中，我們不僅追求視覺上的現代感與科技感，更將 ESG（環境、社會、企業管治） 理念深度落實於空間規劃中。我們致力於為新世代學童打造一個既環保又關注身心健康的優質學習環境：\n\n優化室內空氣與採光： 學童的健康是我們的首要考量。我們在全區採用了低 VOC（低揮發性有機化合物）建材系統，包含環保塗料、黏合劑與優質板材，從源頭嚴格把關，大幅提升課室的室內空氣質量（IAQ）。同時，我們導入了自然採光優化設計，透過淺色反射面與空間佈局提升日照利用率，不僅營造明亮舒適的視覺感受，更有效降低了人工照明的能源負荷，實踐綠色節能。\n\n靈活共融的學習佈局： 為了因應現代化教育需求，我們打造了高度靈活學習空間。課室內配備了符合人體工學的課桌椅設計，不僅能適應不同年齡層學童的身形發展，其可移動的特性更完美支援了 STEM 實驗、小組互動討論與混合教學模式。\n\n全方位的安全與健康防護： 在細節處理上，所有桌角及牆角均採用安全圓角設計與防撞系統，為活潑好動的小學生提供最安心的活動範圍。此外，桌面及高頻接觸的牆面特別選用了抗菌與易清潔材料，有效降低校園內交叉感染的風險。\n\n情緒友善的色彩心理學： 我們將色彩心理學融入空間，運用了情緒友善色彩策略。透過沉穩的冰川藍與工業灰作為基調，搭配充滿未來感的電光紫點綴，這種充滿科幻感卻不失沉穩的色彩配置，能在激發學童創科思維的同時，達到減壓與提升學習專注力的雙重效果。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "0.694444vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 5.921223958333333,
-              "y": 77.90907118055556,
-              "width": 28.538411458333336,
-              "height": 1.4995659722222223,
-              "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">學校課室裝潢設計｜設計成果</h6>",
-              "text": "學校課室裝潢設計｜設計成果",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "0.694444vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 5.960286458333333,
-              "y": 79.80685763888889,
-              "width": 28.538411458333336,
-              "height": 4.498697916666667,
-              "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">通過將高科技美學與人體工學功能相結合，這個 STEM 室重新定義了小學的學習體驗。這是一個功能與幻想交織的空間，鼓勵學生大膽夢想，無畏創新。</p>",
-              "text": "通過將高科技美學與人體工學功能相結合，這個 STEM 室重新定義了小學的學習體驗。這是一個功能與幻想交織的空間，鼓勵學生大膽夢想，無畏創新。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "0.694444vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 5.883246527777778,
-              "y": 87.03993055555556,
-              "width": 28.53732638888889,
-              "height": 1.4995659722222223,
-              "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">一場設計｜專營商業室內設計｜學校教室課室裝修工程</h6>",
-              "text": "一場設計｜專營商業室內設計｜學校教室課室裝修工程",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "0.694444vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 5.922309027777778,
-              "y": 88.93771701388889,
-              "width": 28.53732638888889,
-              "height": 16.495225694444443,
-              "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">在一場設計工作室，我們深信室內建築遠不止於表面的美學，它更是學習體驗中不可或缺的一環。在規劃教育空間時，我們工作室的設計方針始終扎根於教育心理學。我們明白，物理環境對學生的專注力、創造力以及協作意願有著深遠的影響。針對聖博德天主教小學的專案，我們的使命是打造一個能述說「未來語言」的環境——讓空間不再只是提供場地，而是積極參與到學校的 STEM 課程中。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">聖博德天主教小學的 STEM 室，完美體現了前瞻性教學法與精緻室內設計之間的深度對話。這項專案印證了 一場設計工作室將概念轉化為具體、優雅現實的卓越能力——我們成功將標準課程，昇華為下一代探索未來的啟迪之旅。</p>",
-              "text": "在一場設計工作室，我們深信室內建築遠不止於表面的美學，它更是學習體驗中不可或缺的一環。在規劃教育空間時，我們工作室的設計方針始終扎根於教育心理學。我們明白，物理環境對學生的專注力、創造力以及協作意願有著深遠的影響。針對聖博德天主教小學的專案，我們的使命是打造一個能述說「未來語言」的環境——讓空間不再只是提供場地，而是積極參與到學校的 STEM 課程中。\n\n聖博德天主教小學的 STEM 室，完美體現了前瞻性教學法與精緻室內設計之間的深度對話。這項專案印證了 一場設計工作室將概念轉化為具體、優雅現實的卓越能力——我們成功將標準課程，昇華為下一代探索未來的啟迪之旅。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "0.694444vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 5.968967013888888,
-              "y": 108.16731770833334,
-              "width": 28.538411458333336,
-              "height": 2.625868055555556,
-              "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">如欲了解更多關於我們的店舖室內設計項目，請訪問<span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw;text-decoration:underline\"><a href=\"https://www.facebook.com/oncedesignhk\">一場設計<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">Facebook</span>專頁</a></span>。</p>",
-              "text": "如欲了解更多關於我們的店舖室內設計項目，請訪問一場設計Facebook專頁。",
+              "html": "<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">ESG（環境、社會、企業管治）&nbsp;理念深度落實於空間規劃中，我們致力於為新世代學童打造一個既環保又關注身心健康的優質學習環境。</p>\n\n<ul style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 0.46875vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<li style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 1.21875vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">優化室內空氣與採光：&nbsp;學童的健康是我們的首要考量。我們在全區採用了低 VOC（低揮發性有機化合物）建材系統，包含環保塗料、黏合劑與優質板材，從源頭嚴格把關，大幅提升課室的室內空氣質量（IAQ）。同時，我們導入了自然採光優化設計，透過淺色反射面與空間佈局提升日照利用率，不僅營造明亮舒適的視覺感受，更有效降低了人工照明的能源負荷，實踐綠色節能。</p>\n</li>\n<li style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 1.21875vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">靈活共融的學習佈局：&nbsp;為了因應現代化教育需求，我們打造了高度靈活的學習空間。課室內配備了符合人體工學設計的課桌椅，不僅能適應不同年齡層學童的身形發展，其可移動的特性更完美支援了 STEM 實驗、小組互動討論與混合教學模式。</p>\n</li>\n<li style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 1.21875vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">全方位的安全與健康防護：&nbsp;在細節處理上，所有桌角及牆角均採用安全圓角設計與防撞系統，為活潑好動的小學生提供最安心的活動範圍。此外，桌面及高頻接觸的牆面特別選用了抗菌與易清潔材料，有效降低校園內交叉感染的風險。</p>\n</li>\n<li style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 1.21875vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">情緒友善的色彩心理學：&nbsp;我們將色彩心理學融入空間，運用了情緒友善色彩策略。透過沉穩的冰川藍與工業灰作為基調，搭配充滿未來感的電光紫點綴，這種充滿科幻感卻不失沉穩的色彩配置，能在激發學童創科思維的同時，達到減壓與提升學習專注力的雙重效果。</p>\n</li>\n</ul>",
+              "text": "ESG（環境、社會、企業管治） 理念深度落實於空間規劃中，我們致力於為新世代學童打造一個既環保又關注身心健康的優質學習環境。\n\n優化室內空氣與採光： 學童的健康是我們的首要考量。我們在全區採用了低 VOC（低揮發性有機化合物）建材系統，包含環保塗料、黏合劑與優質板材，從源頭嚴格把關，大幅提升課室的室內空氣質量（IAQ）。同時，我們導入了自然採光優化設計，透過淺色反射面與空間佈局提升日照利用率，不僅營造明亮舒適的視覺感受，更有效降低了人工照明的能源負荷，實踐綠色節能。\n\n靈活共融的學習佈局： 為了因應現代化教育需求，我們打造了高度靈活的學習空間。課室內配備了符合人體工學設計的課桌椅，不僅能適應不同年齡層學童的身形發展，其可移動的特性更完美支援了 STEM 實驗、小組互動討論與混合教學模式。\n\n全方位的安全與健康防護： 在細節處理上，所有桌角及牆角均採用安全圓角設計與防撞系統，為活潑好動的小學生提供最安心的活動範圍。此外，桌面及高頻接觸的牆面特別選用了抗菌與易清潔材料，有效降低校園內交叉感染的風險。\n\n情緒友善的色彩心理學： 我們將色彩心理學融入空間，運用了情緒友善色彩策略。透過沉穩的冰川藍與工業灰作為基調，搭配充滿未來感的電光紫點綴，這種充滿科幻感卻不失沉穩的色彩配置，能在激發學童創科思維的同時，達到減壓與提升學習專注力的雙重效果。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -16504,7 +15498,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 19.930555555555557,
               "type": "image",
-              "src": "../assets/images/zh/projects/a94ca597d8e75c03.jpg",
+              "src": "../assets/images/projects/stem-classroom/stem-classroom-gallery-1.jpg",
               "alt": "STEM CLASSROOM | ST. PATRICK'S CATHOLIC PRIMARY SCHOOL"
             },
             {
@@ -16513,7 +15507,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 19.930555555555557,
               "type": "image",
-              "src": "../assets/images/zh/projects/6c8f74db37d76130.jpg",
+              "src": "../assets/images/projects/stem-classroom/stem-classroom-gallery-2.jpg",
               "alt": "STEM CLASSROOM | ST. PATRICK'S CATHOLIC PRIMARY SCHOOL"
             },
             {
@@ -16522,7 +15516,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 19.930555555555557,
               "type": "image",
-              "src": "../assets/images/zh/projects/8df72180aedc8399.jpg",
+              "src": "../assets/images/projects/stem-classroom/stem-classroom-gallery-3.jpg",
               "alt": "STEM CLASSROOM | ST. PATRICK'S CATHOLIC PRIMARY SCHOOL"
             },
             {
@@ -16531,7 +15525,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 19.930555555555557,
               "type": "image",
-              "src": "../assets/images/zh/projects/5a034d0259de5936.jpg",
+              "src": "../assets/images/projects/stem-classroom/stem-classroom-gallery-4.jpg",
               "alt": "STEM CLASSROOM | ST. PATRICK'S CATHOLIC PRIMARY SCHOOL"
             },
             {
@@ -16540,7 +15534,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 19.930555555555557,
               "type": "image",
-              "src": "../assets/images/zh/projects/d2652682af23b9ed.jpg",
+              "src": "../assets/images/projects/stem-classroom/stem-classroom-gallery-5.jpg",
               "alt": "STEM CLASSROOM | ST. PATRICK'S CATHOLIC PRIMARY SCHOOL"
             }
           ],
@@ -16604,7 +15598,7 @@ window.projectReferences = [
               "width": 100.0,
               "height": 115.64102564102565,
               "type": "image",
-              "src": "../assets/images/zh/projects/d54c3af3af205cd9.jpg",
+              "src": "../assets/images/projects/stem-classroom/stem-classroom-gallery-1.jpg",
               "alt": "IMG_4390.jpg"
             },
             {
@@ -16715,8 +15709,8 @@ window.projectReferences = [
               "width": 84.1025641025641,
               "height": 25.841346153846157,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">為了突破傳統教室的框架，我們為聖博德天主教小學的全新 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">STEM</span> 室被設計成一個激發創意的「星際樞紐」。設計語言深受科幻美學和太空探索的啟發，大膽運用了電光紫、冰川藍和工業灰作為主色調。這不僅僅是一個教室，更是一個想像力的載體，帶領學生進入一個讓科學、科技、工程和數學變得栩栩如生的世界。</p>",
-              "text": "為了突破傳統教室的框架，我們為聖博德天主教小學的全新 STEM 室被設計成一個激發創意的「星際樞紐」。設計語言深受科幻美學和太空探索的啟發，大膽運用了電光紫、冰川藍和工業灰作為主色調。這不僅僅是一個教室，更是一個想像力的載體，帶領學生進入一個讓科學、科技、工程和數學變得栩栩如生的世界。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">全新 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">STEM</span> 室被設計成一個激發創意的「星際樞紐」。設計語言深受科幻美學和太空探索的啟發，大膽運用了電光紫、冰川藍和工業灰作為主色調。這不僅僅是一個教室，更是一個想像力的載體，帶領學生進入一個讓科學、科技、工程和數學變得生動有趣的世界。</p>",
+              "text": "全新 STEM 室被設計成一個激發創意的「星際樞紐」。設計語言深受科幻美學和太空探索的啟發，大膽運用了電光紫、冰川藍和工業灰作為主色調。這不僅僅是一個教室，更是一個想像力的載體，帶領學生進入一個讓科學、科技、工程和數學變得生動有趣的世界。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -16920,31 +15914,13 @@ window.projectReferences = [
           "height": 771.7347756410256,
           "blocks": [
             {
-              "x": 9.254807692307693,
-              "y": 16.662660256410255,
-              "width": 81.7588141025641,
-              "height": 4.923878205128205,
-              "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:3.076949vw;line-height:4.923128vw;letter-spacing:0.307695vw\"><span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:3.076949vw;line-height:4.923128vw;letter-spacing:0.307695vw\"><span style=\"font-family:'Project Montserrat', sans-serif;font-weight:700;color:rgb(0, 0, 0);text-transform:uppercase;font-size:3.076949vw;line-height:4.923128vw;letter-spacing:0.307695vw\">STEM </span></span>教室裝修設計｜設計理念</h6>",
-              "text": "STEM 教室裝修設計｜設計理念",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "uppercase",
-                "font-size": "2.564103vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
               "x": 9.383012820512821,
-              "y": 22.608173076923077,
+              "y": 16.662660256410255,
               "width": 81.7588141025641,
               "height": 68.91025641025641,
               "type": "text",
-              "html": "<p style=\"font-size: 3.07692vw; line-height: 4.30769vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">一場設計團隊以品牌核心價值為導向，結合現代室內設計趨勢，精心規劃每一個細節。項目中，我們採用了以下關鍵設計策略：</p>\n\n<ul style=\"font-size: 3.07692vw; line-height: 4.30769vw; letter-spacing: 0.369231vw; margin: 0vw 0vw 0vw 1.53846vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<li style=\"font-size: 3.07692vw; line-height: 4.30769vw; letter-spacing: normal; margin: 0vw 0vw 0vw 4vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.30769vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">幾何光影矩陣：天花板採用了引人注目的懸掛式六角形（蜂巢狀）和 Y 型 LED 燈具，映襯在深色的天花板背景下。這營造出如同「滿天星斗」的效果，增加了空間的層次感和未來氛圍，有助於激發視覺興趣和專注力。</p>\n</li>\n<li style=\"font-size: 3.07692vw; line-height: 4.30769vw; letter-spacing: normal; margin: 0vw 0vw 0vw 4vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.30769vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">靈活模組化佈局：鑑於 STEM 教育對協作的需求，教室配備了可移動的紫色模組化桌椅。這些桌椅可以輕鬆地從個人工作站重新組合成大型小組討論區，促進動態的分組專題研習和實驗。</p>\n</li>\n<li style=\"font-size: 3.07692vw; line-height: 4.30769vw; letter-spacing: normal; margin: 0vw 0vw 0vw 4vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.30769vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">綜合科技牆：教室的焦點是一面定制的媒體牆，安裝了雙互動式平面螢幕。兩側配有流線型的太空船風格飾板和充足的儲物空間，成為數碼學習和演示的「指揮中心」。</p>\n</li>\n</ul>",
-              "text": "一場設計團隊以品牌核心價值為導向，結合現代室內設計趨勢，精心規劃每一個細節。項目中，我們採用了以下關鍵設計策略：\n\n幾何光影矩陣：天花板採用了引人注目的懸掛式六角形（蜂巢狀）和 Y 型 LED 燈具，映襯在深色的天花板背景下。這營造出如同「滿天星斗」的效果，增加了空間的層次感和未來氛圍，有助於激發視覺興趣和專注力。\n\n靈活模組化佈局：鑑於 STEM 教育對協作的需求，教室配備了可移動的紫色模組化桌椅。這些桌椅可以輕鬆地從個人工作站重新組合成大型小組討論區，促進動態的分組專題研習和實驗。\n\n綜合科技牆：教室的焦點是一面定制的媒體牆，安裝了雙互動式平面螢幕。兩側配有流線型的太空船風格飾板和充足的儲物空間，成為數碼學習和演示的「指揮中心」。",
+              "html": "<ul style=\"font-size: 3.07692vw; line-height: 4.30769vw; letter-spacing: 0.369231vw; margin: 0vw 0vw 0vw 1.53846vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<li style=\"font-size: 3.07692vw; line-height: 4.30769vw; letter-spacing: normal; margin: 0vw 0vw 0vw 4vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.30769vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">幾何光影矩陣：天花板採用了引人注目的懸掛式六角形（蜂巢狀）和 Y 型 LED 燈具，映襯在深色的天花板背景下。這營造出如同「滿天星斗」的效果，增加了空間的層次感和未來氛圍，有助於激發學童的探索興趣和專注力。</p>\n</li>\n<li style=\"font-size: 3.07692vw; line-height: 4.30769vw; letter-spacing: normal; margin: 0vw 0vw 0vw 4vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.30769vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">靈活模組化佈局：鑑於 STEM 教育對協作的需求，教室配備了可移動的紫色模組化桌椅。這些桌椅可以輕鬆地從個人工作站重新組合成大型小組討論區，促進動態的分組專題研習和實驗。</p>\n</li>\n<li style=\"font-size: 3.07692vw; line-height: 4.30769vw; letter-spacing: normal; margin: 0vw 0vw 0vw 4vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.30769vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">綜合科技牆：教室的焦點是一面定制的媒體牆，安裝了雙互動式平面屏幕。兩側配有流線型的太空船風格飾板和充足的儲物空間，成為數碼學習和演示的「指揮中心」。</p>\n</li>\n</ul>",
+              "text": "幾何光影矩陣：天花板採用了引人注目的懸掛式六角形（蜂巢狀）和 Y 型 LED 燈具，映襯在深色的天花板背景下。這營造出如同「滿天星斗」的效果，增加了空間的層次感和未來氛圍，有助於激發學童的探索興趣和專注力。\n\n靈活模組化佈局：鑑於 STEM 教育對協作的需求，教室配備了可移動的紫色模組化桌椅。這些桌椅可以輕鬆地從個人工作站重新組合成大型小組討論區，促進動態的分組專題研習和實驗。\n\n綜合科技牆：教室的焦點是一面定制的媒體牆，安裝了雙互動式平面屏幕。兩側配有流線型的太空船風格飾板和充足的儲物空間，成為數碼學習和演示的「指揮中心」。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -16957,7 +15933,7 @@ window.projectReferences = [
             },
             {
               "x": 9.254807692307693,
-              "y": 97.9286858974359,
+              "y": 79.3287,
               "width": 81.89102564102564,
               "height": 4.923878205128205,
               "type": "text",
@@ -16975,102 +15951,12 @@ window.projectReferences = [
             },
             {
               "x": 9.383012820512821,
-              "y": 103.87419871794872,
+              "y": 85.2742,
               "width": 81.7588141025641,
               "height": 142.79246794871793,
               "type": "text",
-              "html": "<p style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">在聖博德天主教小學的STEM創科實驗課室設計中，我們不僅追求視覺上的現代感與科技感，更將&nbsp;ESG（環境、社會、企業管治）&nbsp;理念深度落實於空間規劃中。我們致力於為新世代學童打造一個既環保又關注身心健康的優質學習環境：</p>\n\n<ul style=\"font-size: 3.07692vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 1.53846vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<li style=\"font-size: 3.07692vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 4vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">優化室內空氣與採光：&nbsp;學童的健康是我們的首要考量。我們在全區採用了低 VOC（低揮發性有機化合物）建材系統，包含環保塗料、黏合劑與優質板材，從源頭嚴格把關，大幅提升課室的室內空氣質量（IAQ）。同時，我們導入了自然採光優化設計，透過淺色反射面與空間佈局提升日照利用率，不僅營造明亮舒適的視覺感受，更有效降低了人工照明的能源負荷，實踐綠色節能。</p>\n</li>\n<li style=\"font-size: 3.07692vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 4vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">靈活共融的學習佈局：&nbsp;為了因應現代化教育需求，我們打造了高度靈活學習空間。課室內配備了符合人體工學的課桌椅設計，不僅能適應不同年齡層學童的身形發展，其可移動的特性更完美支援了 STEM 實驗、小組互動討論與混合教學模式。</p>\n</li>\n<li style=\"font-size: 3.07692vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 4vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">全方位的安全與健康防護：&nbsp;在細節處理上，所有桌角及牆角均採用安全圓角設計與防撞系統，為活潑好動的小學生提供最安心的活動範圍。此外，桌面及高頻接觸的牆面特別選用了抗菌與易清潔材料，有效降低校園內交叉感染的風險。</p>\n</li>\n<li style=\"font-size: 3.07692vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 4vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">情緒友善的色彩心理學：&nbsp;我們將色彩心理學融入空間，運用了情緒友善色彩策略。透過沉穩的冰川藍與工業灰作為基調，搭配充滿未來感的電光紫點綴，這種充滿科幻感卻不失沉穩的色彩配置，能在激發學童創科思維的同時，達到減壓與提升學習專注力的雙重效果。</p>\n</li>\n</ul>",
-              "text": "在聖博德天主教小學的STEM創科實驗課室設計中，我們不僅追求視覺上的現代感與科技感，更將 ESG（環境、社會、企業管治） 理念深度落實於空間規劃中。我們致力於為新世代學童打造一個既環保又關注身心健康的優質學習環境：\n\n優化室內空氣與採光： 學童的健康是我們的首要考量。我們在全區採用了低 VOC（低揮發性有機化合物）建材系統，包含環保塗料、黏合劑與優質板材，從源頭嚴格把關，大幅提升課室的室內空氣質量（IAQ）。同時，我們導入了自然採光優化設計，透過淺色反射面與空間佈局提升日照利用率，不僅營造明亮舒適的視覺感受，更有效降低了人工照明的能源負荷，實踐綠色節能。\n\n靈活共融的學習佈局： 為了因應現代化教育需求，我們打造了高度靈活學習空間。課室內配備了符合人體工學的課桌椅設計，不僅能適應不同年齡層學童的身形發展，其可移動的特性更完美支援了 STEM 實驗、小組互動討論與混合教學模式。\n\n全方位的安全與健康防護： 在細節處理上，所有桌角及牆角均採用安全圓角設計與防撞系統，為活潑好動的小學生提供最安心的活動範圍。此外，桌面及高頻接觸的牆面特別選用了抗菌與易清潔材料，有效降低校園內交叉感染的風險。\n\n情緒友善的色彩心理學： 我們將色彩心理學融入空間，運用了情緒友善色彩策略。透過沉穩的冰川藍與工業灰作為基調，搭配充滿未來感的電光紫點綴，這種充滿科幻感卻不失沉穩的色彩配置，能在激發學童創科思維的同時，達到減壓與提升學習專注力的雙重效果。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "2.564103vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 9.254807692307693,
-              "y": 253.07692307692307,
-              "width": 81.7588141025641,
-              "height": 4.923878205128205,
-              "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">學校課室裝潢設計｜設計成果</h6>",
-              "text": "學校課室裝潢設計｜設計成果",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "2.564103vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 9.383012820512821,
-              "y": 259.02243589743586,
-              "width": 81.7588141025641,
-              "height": 14.771634615384615,
-              "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">通過將高科技美學與人體工學功能相結合，這個 STEM 室重新定義了小學的學習體驗。這是一個功能與幻想交織的空間，鼓勵學生大膽夢想，無畏創新。</p>",
-              "text": "通過將高科技美學與人體工學功能相結合，這個 STEM 室重新定義了小學的學習體驗。這是一個功能與幻想交織的空間，鼓勵學生大膽夢想，無畏創新。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "2.564103vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 9.126602564102564,
-              "y": 280.2043269230769,
-              "width": 81.7588141025641,
-              "height": 4.923878205128205,
-              "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">一場設計｜專營商業室內設計｜學校教室課室裝修工程</h6>",
-              "text": "一場設計｜專營商業室內設計｜學校教室課室裝修工程",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "2.564103vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 9.254807692307693,
-              "y": 286.1498397435898,
-              "width": 81.7588141025641,
-              "height": 64.01041666666667,
-              "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">在一場設計工作室，我們深信室內建築遠不止於表面的美學，它更是學習體驗中不可或缺的一環。在規劃教育空間時，我們工作室的設計方針始終扎根於教育心理學。我們明白，物理環境對學生的專注力、創造力以及協作意願有著深遠的影響。針對聖博德天主教小學的專案，我們的使命是打造一個能述說「未來語言」的環境——讓空間不再只是提供場地，而是積極參與到學校的 STEM 課程中。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">聖博德天主教小學的 STEM 室，完美體現了前瞻性教學法與精緻室內設計之間的深度對話。這項專案印證了 一場設計工作室將概念轉化為具體、優雅現實的卓越能力——我們成功將標準課程，昇華為下一代探索未來的啟迪之旅。</p>",
-              "text": "在一場設計工作室，我們深信室內建築遠不止於表面的美學，它更是學習體驗中不可或缺的一環。在規劃教育空間時，我們工作室的設計方針始終扎根於教育心理學。我們明白，物理環境對學生的專注力、創造力以及協作意願有著深遠的影響。針對聖博德天主教小學的專案，我們的使命是打造一個能述說「未來語言」的環境——讓空間不再只是提供場地，而是積極參與到學校的 STEM 課程中。\n\n聖博德天主教小學的 STEM 室，完美體現了前瞻性教學法與精緻室內設計之間的深度對話。這項專案印證了 一場設計工作室將概念轉化為具體、優雅現實的卓越能力——我們成功將標準課程，昇華為下一代探索未來的啟迪之旅。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "2.564103vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 9.254807692307693,
-              "y": 356.5705128205128,
-              "width": 81.76282051282051,
-              "height": 8.613782051282051,
-              "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">如欲了解更多關於我們的店舖室內設計項目，請訪問<span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw;text-decoration:underline\"><a href=\"https://www.facebook.com/oncedesignhk\">一場設計<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">Facebook</span>專頁</a></span>。</p>",
-              "text": "如欲了解更多關於我們的店舖室內設計項目，請訪問一場設計Facebook專頁。",
+              "html": "<p style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">ESG（環境、社會、企業管治）&nbsp;理念深度落實於空間規劃中，我們致力於為新世代學童打造一個既環保又關注身心健康的優質學習環境。</p>\n\n<ul style=\"font-size: 3.07692vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 1.53846vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<li style=\"font-size: 3.07692vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 4vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">優化室內空氣與採光：&nbsp;學童的健康是我們的首要考量。我們在全區採用了低 VOC（低揮發性有機化合物）建材系統，包含環保塗料、黏合劑與優質板材，從源頭嚴格把關，大幅提升課室的室內空氣質量（IAQ）。同時，我們導入了自然採光優化設計，透過淺色反射面與空間佈局提升日照利用率，不僅營造明亮舒適的視覺感受，更有效降低了人工照明的能源負荷，實踐綠色節能。</p>\n</li>\n<li style=\"font-size: 3.07692vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 4vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">靈活共融的學習佈局：&nbsp;為了因應現代化教育需求，我們打造了高度靈活的學習空間。課室內配備了符合人體工學設計的課桌椅，不僅能適應不同年齡層學童的身形發展，其可移動的特性更完美支援了 STEM 實驗、小組互動討論與混合教學模式。</p>\n</li>\n<li style=\"font-size: 3.07692vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 4vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">全方位的安全與健康防護：&nbsp;在細節處理上，所有桌角及牆角均採用安全圓角設計與防撞系統，為活潑好動的小學生提供最安心的活動範圍。此外，桌面及高頻接觸的牆面特別選用了抗菌與易清潔材料，有效降低校園內交叉感染的風險。</p>\n</li>\n<li style=\"font-size: 3.07692vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 4vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">情緒友善的色彩心理學：&nbsp;我們將色彩心理學融入空間，運用了情緒友善色彩策略。透過沉穩的冰川藍與工業灰作為基調，搭配充滿未來感的電光紫點綴，這種充滿科幻感卻不失沉穩的色彩配置，能在激發學童創科思維的同時，達到減壓與提升學習專注力的雙重效果。</p>\n</li>\n</ul>",
+              "text": "ESG（環境、社會、企業管治） 理念深度落實於空間規劃中，我們致力於為新世代學童打造一個既環保又關注身心健康的優質學習環境。\n\n優化室內空氣與採光： 學童的健康是我們的首要考量。我們在全區採用了低 VOC（低揮發性有機化合物）建材系統，包含環保塗料、黏合劑與優質板材，從源頭嚴格把關，大幅提升課室的室內空氣質量（IAQ）。同時，我們導入了自然採光優化設計，透過淺色反射面與空間佈局提升日照利用率，不僅營造明亮舒適的視覺感受，更有效降低了人工照明的能源負荷，實踐綠色節能。\n\n靈活共融的學習佈局： 為了因應現代化教育需求，我們打造了高度靈活的學習空間。課室內配備了符合人體工學設計的課桌椅，不僅能適應不同年齡層學童的身形發展，其可移動的特性更完美支援了 STEM 實驗、小組互動討論與混合教學模式。\n\n全方位的安全與健康防護： 在細節處理上，所有桌角及牆角均採用安全圓角設計與防撞系統，為活潑好動的小學生提供最安心的活動範圍。此外，桌面及高頻接觸的牆面特別選用了抗菌與易清潔材料，有效降低校園內交叉感染的風險。\n\n情緒友善的色彩心理學： 我們將色彩心理學融入空間，運用了情緒友善色彩策略。透過沉穩的冰川藍與工業灰作為基調，搭配充滿未來感的電光紫點綴，這種充滿科幻感卻不失沉穩的色彩配置，能在激發學童創科思維的同時，達到減壓與提升學習專注力的雙重效果。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -17105,7 +15991,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 31.28205128205128,
               "type": "image",
-              "src": "../assets/images/zh/projects/49aa23a60bea8f69.jpg",
+              "src": "../assets/images/projects/stem-classroom/stem-classroom-gallery-1.jpg",
               "alt": "STEM CLASSROOM | ST. PATRICK'S CATHOLIC PRIMARY SCHOOL"
             },
             {
@@ -17114,7 +16000,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 31.28205128205128,
               "type": "image",
-              "src": "../assets/images/zh/projects/dba62849a525d19d.jpg",
+              "src": "../assets/images/projects/stem-classroom/stem-classroom-gallery-2.jpg",
               "alt": "STEM CLASSROOM | ST. PATRICK'S CATHOLIC PRIMARY SCHOOL"
             },
             {
@@ -17123,7 +16009,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 31.28205128205128,
               "type": "image",
-              "src": "../assets/images/zh/projects/21fe55d997caac97.jpg",
+              "src": "../assets/images/projects/stem-classroom/stem-classroom-gallery-3.jpg",
               "alt": "STEM CLASSROOM | ST. PATRICK'S CATHOLIC PRIMARY SCHOOL"
             },
             {
@@ -17132,7 +16018,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 31.28205128205128,
               "type": "image",
-              "src": "../assets/images/zh/projects/dd41c98df91dd163.jpg",
+              "src": "../assets/images/projects/stem-classroom/stem-classroom-gallery-4.jpg",
               "alt": "STEM CLASSROOM | ST. PATRICK'S CATHOLIC PRIMARY SCHOOL"
             },
             {
@@ -17141,7 +16027,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 31.28205128205128,
               "type": "image",
-              "src": "../assets/images/zh/projects/eefe84130af144eb.jpg",
+              "src": "../assets/images/projects/stem-classroom/stem-classroom-gallery-5.jpg",
               "alt": "STEM CLASSROOM | ST. PATRICK'S CATHOLIC PRIMARY SCHOOL"
             }
           ],
@@ -17214,7 +16100,7 @@ window.projectReferences = [
               "width": 100.0,
               "height": 53.02083333333333,
               "type": "image",
-              "src": "../assets/images/zh/projects/68f357b3027e4d8c.jpg",
+              "src": "../assets/images/projects/computer-classroom/computer-classroom-gallery-2.jpg",
               "alt": "IMG_4401-1536x1152.jpg"
             },
             {
@@ -17325,8 +16211,8 @@ window.projectReferences = [
               "width": 41.22938368055556,
               "height": 5.251736111111112,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">告別傳統刻板、排列整齊的沉悶電腦室！我們為聖博德天主教小學精心打造了一個充滿活力與未來感的全新電腦室。現代的教育空間不僅需要滿足科技學習的硬體需求，更肩負著激發學童創造力與互動性的使命。我們透過大膽的色彩運用與打破常規的空間佈局，將這個空間轉化為學生們最喜愛的科技探索樂園。</p>",
-              "text": "告別傳統刻板、排列整齊的沉悶電腦室！我們為聖博德天主教小學精心打造了一個充滿活力與未來感的全新電腦室。現代的教育空間不僅需要滿足科技學習的硬體需求，更肩負著激發學童創造力與互動性的使命。我們透過大膽的色彩運用與打破常規的空間佈局，將這個空間轉化為學生們最喜愛的科技探索樂園。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">這是一個充滿活力與未來感的全新電腦室，透過大膽的色彩運用與打破常規的空間佈局，成功將這個空間轉化為學生們最喜愛的科技探索樂園。</p>",
+              "text": "這是一個充滿活力與未來感的全新電腦室，透過大膽的色彩運用與打破常規的空間佈局，成功將這個空間轉化為學生們最喜愛的科技探索樂園。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -17535,8 +16421,8 @@ window.projectReferences = [
               "width": 28.538411458333336,
               "height": 1.5690104166666667,
               "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\"><span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\"><span style=\"font-family:'Project Montserrat', sans-serif;font-weight:700;color:rgb(0, 0, 0);text-transform:uppercase;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">學校電腦室設計｜設計理念</span></span></h6>",
-              "text": "學校電腦室設計｜設計理念",
+              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">「天空藍」與「活力橙」</h6>",
+              "text": "「天空藍」與「活力橙」",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -17553,8 +16439,8 @@ window.projectReferences = [
               "width": 28.538411458333336,
               "height": 11.996527777777779,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">在這次的學校室內設計中，我們選用了對比鮮明的「天空藍」與「活力橙」作為空間主色調。藍色有助於學生在面對電腦螢幕與科技學習時保持專注與平靜；而大面積的亮橙色點綴，則能瞬間喚醒學童的活力與熱情。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">天花板的設計是整個空間的視覺焦點。我們摒棄了傳統的格柵燈，改用獨特的六角形（蜂巢狀）LED 幾何造型吊燈。這不僅提供了充足且均勻的照明，更為空間注入了濃厚的科技感與未來感，象徵著科技網路的連結與無窮的可能性。</p>",
-              "text": "在這次的學校室內設計中，我們選用了對比鮮明的「天空藍」與「活力橙」作為空間主色調。藍色有助於學生在面對電腦螢幕與科技學習時保持專注與平靜；而大面積的亮橙色點綴，則能瞬間喚醒學童的活力與熱情。\n\n天花板的設計是整個空間的視覺焦點。我們摒棄了傳統的格柵燈，改用獨特的六角形（蜂巢狀）LED 幾何造型吊燈。這不僅提供了充足且均勻的照明，更為空間注入了濃厚的科技感與未來感，象徵著科技網路的連結與無窮的可能性。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">設計選用了對比鮮明的「天空藍」與「活力橙」作為空間主色調。藍色有助於學生在面對電腦屏幕與科技學習時保持專注與平靜；而大面積的亮橙色點綴，則能瞬間喚醒學童的活力與熱情。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">天花板的設計是整個空間的視覺焦點。上方懸掛著獨特的六角形（蜂巢狀）LED 幾何造型吊燈。這不僅提供了充足且均勻的照明，更為空間注入了濃厚的科技感與未來感，象徵著科技網絡的連結與無窮的可能性。</p>",
+              "text": "設計選用了對比鮮明的「天空藍」與「活力橙」作為空間主色調。藍色有助於學生在面對電腦屏幕與科技學習時保持專注與平靜；而大面積的亮橙色點綴，則能瞬間喚醒學童的活力與熱情。\n\n天花板的設計是整個空間的視覺焦點。上方懸掛著獨特的六角形（蜂巢狀）LED 幾何造型吊燈。這不僅提供了充足且均勻的照明，更為空間注入了濃厚的科技感與未來感，象徵著科技網絡的連結與無窮的可能性。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -17589,98 +16475,8 @@ window.projectReferences = [
               "width": 28.538411458333336,
               "height": 38.98871527777778,
               "type": "text",
-              "html": "<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">在聖博德天主教小學的STEM創科實驗課室設計中，我們不僅追求視覺上的現代感與科技感，更將&nbsp;ESG（環境、社會、企業管治）&nbsp;理念深度落實於空間規劃中。我們致力於為新世代學童打造一個既環保又關注身心健康的優質學習環境：</p>\n\n<ul style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 0.46875vw; padding: 0vw 0vw 0vw 1.21875vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<li style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">優化室內空氣與採光：&nbsp;學童的健康是我們的首要考量。我們在全區採用了低 VOC（低揮發性有機化合物）建材系統，包含環保塗料、黏合劑與優質板材，從源頭嚴格把關，大幅提升課室的室內空氣質量（IAQ）。同時，我們導入了自然採光優化設計，透過淺色反射面與空間佈局提升日照利用率，不僅營造明亮舒適的視覺感受，更有效降低了人工照明的能源負荷，實踐綠色節能。</p>\n</li>\n<li style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">靈活共融的學習佈局：&nbsp;為了因應現代化教育需求，我們打造了高度靈活學習空間。課室內配備了符合人體工學的課桌椅設計，不僅能適應不同年齡層學童的身形發展，其可移動的特性更完美支援了 STEM 實驗、小組互動討論與混合教學模式。</p>\n</li>\n<li style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">全方位的安全與健康防護：&nbsp;在細節處理上，所有桌角及牆角均採用安全圓角設計與防撞系統，為活潑好動的小學生提供最安心的活動範圍。此外，桌面及高頻接觸的牆面特別選用了抗菌與易清潔材料，有效降低校園內交叉感染的風險。</p>\n</li>\n<li style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">情緒友善的色彩心理學：&nbsp;我們將色彩心理學融入空間，運用了情緒友善色彩策略。透過沉穩的冰川藍與工業灰作為基調，搭配充滿未來感的電光紫點綴，這種充滿科幻感卻不失沉穩的色彩配置，能在激發學童創科思維的同時，達到減壓與提升學習專注力的雙重效果。</p>\n</li>\n</ul>",
-              "text": "在聖博德天主教小學的STEM創科實驗課室設計中，我們不僅追求視覺上的現代感與科技感，更將 ESG（環境、社會、企業管治） 理念深度落實於空間規劃中。我們致力於為新世代學童打造一個既環保又關注身心健康的優質學習環境：\n\n優化室內空氣與採光： 學童的健康是我們的首要考量。我們在全區採用了低 VOC（低揮發性有機化合物）建材系統，包含環保塗料、黏合劑與優質板材，從源頭嚴格把關，大幅提升課室的室內空氣質量（IAQ）。同時，我們導入了自然採光優化設計，透過淺色反射面與空間佈局提升日照利用率，不僅營造明亮舒適的視覺感受，更有效降低了人工照明的能源負荷，實踐綠色節能。\n\n靈活共融的學習佈局： 為了因應現代化教育需求，我們打造了高度靈活學習空間。課室內配備了符合人體工學的課桌椅設計，不僅能適應不同年齡層學童的身形發展，其可移動的特性更完美支援了 STEM 實驗、小組互動討論與混合教學模式。\n\n全方位的安全與健康防護： 在細節處理上，所有桌角及牆角均採用安全圓角設計與防撞系統，為活潑好動的小學生提供最安心的活動範圍。此外，桌面及高頻接觸的牆面特別選用了抗菌與易清潔材料，有效降低校園內交叉感染的風險。\n\n情緒友善的色彩心理學： 我們將色彩心理學融入空間，運用了情緒友善色彩策略。透過沉穩的冰川藍與工業灰作為基調，搭配充滿未來感的電光紫點綴，這種充滿科幻感卻不失沉穩的色彩配置，能在激發學童創科思維的同時，達到減壓與提升學習專注力的雙重效果。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "0.694444vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 5.921223958333333,
-              "y": 68.91167534722223,
-              "width": 28.538411458333336,
-              "height": 1.4995659722222223,
-              "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">學校課室裝潢設計｜設計成果</h6>",
-              "text": "學校課室裝潢設計｜設計成果",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "0.694444vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 5.960286458333333,
-              "y": 70.80946180555556,
-              "width": 28.538411458333336,
-              "height": 4.498697916666667,
-              "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">通過將高科技美學與人體工學功能相結合，這個 STEM 室重新定義了小學的學習體驗。這是一個功能與幻想交織的空間，鼓勵學生大膽夢想，無畏創新。</p>",
-              "text": "通過將高科技美學與人體工學功能相結合，這個 STEM 室重新定義了小學的學習體驗。這是一個功能與幻想交織的空間，鼓勵學生大膽夢想，無畏創新。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "0.694444vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 5.883246527777778,
-              "y": 78.04253472222223,
-              "width": 28.53732638888889,
-              "height": 1.4995659722222223,
-              "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">一場設計｜專營商業室內設計｜學校教室課室裝修工程</h6>",
-              "text": "一場設計｜專營商業室內設計｜學校教室課室裝修工程",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "0.694444vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 5.922309027777778,
-              "y": 79.94032118055556,
-              "width": 28.53732638888889,
-              "height": 16.495225694444443,
-              "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">在一場設計工作室，我們深信室內建築遠不止於表面的美學，它更是學習體驗中不可或缺的一環。在規劃教育空間時，我們工作室的設計方針始終扎根於教育心理學。我們明白，物理環境對學生的專注力、創造力以及協作意願有著深遠的影響。針對聖博德天主教小學的專案，我們的使命是打造一個能述說「未來語言」的環境——讓空間不再只是提供場地，而是積極參與到學校的 STEM 課程中。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">聖博德天主教小學的 STEM 室，完美體現了前瞻性教學法與精緻室內設計之間的深度對話。這項專案印證了 一場設計工作室將概念轉化為具體、優雅現實的卓越能力——我們成功將標準課程，昇華為下一代探索未來的啟迪之旅。</p>",
-              "text": "在一場設計工作室，我們深信室內建築遠不止於表面的美學，它更是學習體驗中不可或缺的一環。在規劃教育空間時，我們工作室的設計方針始終扎根於教育心理學。我們明白，物理環境對學生的專注力、創造力以及協作意願有著深遠的影響。針對聖博德天主教小學的專案，我們的使命是打造一個能述說「未來語言」的環境——讓空間不再只是提供場地，而是積極參與到學校的 STEM 課程中。\n\n聖博德天主教小學的 STEM 室，完美體現了前瞻性教學法與精緻室內設計之間的深度對話。這項專案印證了 一場設計工作室將概念轉化為具體、優雅現實的卓越能力——我們成功將標準課程，昇華為下一代探索未來的啟迪之旅。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "0.694444vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 5.968967013888888,
-              "y": 99.169921875,
-              "width": 28.538411458333336,
-              "height": 2.625868055555556,
-              "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">如欲了解更多關於我們的店舖室內設計項目，請訪問<span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw;text-decoration:underline\"><a href=\"https://www.facebook.com/oncedesignhk\">一場設計<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">Facebook</span>專頁</a></span>。</p>",
-              "text": "如欲了解更多關於我們的店舖室內設計項目，請訪問一場設計Facebook專頁。",
+              "html": "<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">ESG（環境、社會、企業管治）&nbsp;理念深度落實於空間規劃中，我們致力於為新世代學童打造一個既環保又關注身心健康的優質學習環境。</p>\n\n<ul style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 0.46875vw; padding: 0vw 0vw 0vw 1.21875vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<li style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">優化室內空氣與採光：&nbsp;學童的健康是我們的首要考量。我們在全區採用了低 VOC（低揮發性有機化合物）建材系統，包含環保塗料、黏合劑與優質板材，從源頭嚴格把關，大幅提升課室的室內空氣質量（IAQ）。同時，我們導入了自然採光優化設計，透過淺色反射面與空間佈局提升日照利用率，不僅營造明亮舒適的視覺感受，更有效降低了人工照明的能源負荷，實踐綠色節能。</p>\n</li>\n<li style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">靈活共融的學習佈局：&nbsp;為了因應現代化教育需求，我們打造了高度靈活的學習空間。課室內配備了符合人體工學設計的課桌椅，不僅能適應不同年齡層學童的身形發展，其可移動的特性更完美支援了 STEM 實驗、小組互動討論與混合教學模式。</p>\n</li>\n<li style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">全方位的安全與健康防護：&nbsp;在細節處理上，所有桌角及牆角均採用安全圓角設計與防撞系統，為活潑好動的小學生提供最安心的活動範圍。此外，桌面及高頻接觸的牆面特別選用了抗菌與易清潔材料，有效降低校園內交叉感染的風險。</p>\n</li>\n<li style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">情緒友善的色彩心理學：&nbsp;我們將色彩心理學融入空間，運用了情緒友善色彩策略。透過沉穩的冰川藍與工業灰作為基調，搭配充滿未來感的電光紫點綴，這種充滿科幻感卻不失沉穩的色彩配置，能在激發學童創科思維的同時，達到減壓與提升學習專注力的雙重效果。</p>\n</li>\n</ul>",
+              "text": "ESG（環境、社會、企業管治） 理念深度落實於空間規劃中，我們致力於為新世代學童打造一個既環保又關注身心健康的優質學習環境。\n\n優化室內空氣與採光： 學童的健康是我們的首要考量。我們在全區採用了低 VOC（低揮發性有機化合物）建材系統，包含環保塗料、黏合劑與優質板材，從源頭嚴格把關，大幅提升課室的室內空氣質量（IAQ）。同時，我們導入了自然採光優化設計，透過淺色反射面與空間佈局提升日照利用率，不僅營造明亮舒適的視覺感受，更有效降低了人工照明的能源負荷，實踐綠色節能。\n\n靈活共融的學習佈局： 為了因應現代化教育需求，我們打造了高度靈活的學習空間。課室內配備了符合人體工學設計的課桌椅，不僅能適應不同年齡層學童的身形發展，其可移動的特性更完美支援了 STEM 實驗、小組互動討論與混合教學模式。\n\n全方位的安全與健康防護： 在細節處理上，所有桌角及牆角均採用安全圓角設計與防撞系統，為活潑好動的小學生提供最安心的活動範圍。此外，桌面及高頻接觸的牆面特別選用了抗菌與易清潔材料，有效降低校園內交叉感染的風險。\n\n情緒友善的色彩心理學： 我們將色彩心理學融入空間，運用了情緒友善色彩策略。透過沉穩的冰川藍與工業灰作為基調，搭配充滿未來感的電光紫點綴，這種充滿科幻感卻不失沉穩的色彩配置，能在激發學童創科思維的同時，達到減壓與提升學習專注力的雙重效果。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -17715,7 +16511,7 @@ window.projectReferences = [
               "width": 53.75,
               "height": 40.34722222222222,
               "type": "image",
-              "src": "../assets/images/zh/projects/721aa9fe9d7ed3fa.jpg",
+              "src": "../assets/images/projects/computer-classroom/computer-classroom-gallery-1.jpg",
               "alt": "COMPUTER ROOM | ST. PATRICK'S CATHOLIC PRIMARY SCHOOL"
             },
             {
@@ -17724,7 +16520,7 @@ window.projectReferences = [
               "width": 53.75,
               "height": 40.34722222222222,
               "type": "image",
-              "src": "../assets/images/zh/projects/f7ab4cf751d635a3.jpg",
+              "src": "../assets/images/projects/computer-classroom/computer-classroom-gallery-2.jpg",
               "alt": "COMPUTER ROOM | ST. PATRICK'S CATHOLIC PRIMARY SCHOOL"
             },
             {
@@ -17733,7 +16529,7 @@ window.projectReferences = [
               "width": 53.75,
               "height": 40.34722222222222,
               "type": "image",
-              "src": "../assets/images/zh/projects/4097292e8d4945fa.jpg",
+              "src": "../assets/images/projects/computer-classroom/computer-classroom-gallery-3.jpg",
               "alt": "COMPUTER ROOM | ST. PATRICK'S CATHOLIC PRIMARY SCHOOL"
             },
             {
@@ -17742,7 +16538,7 @@ window.projectReferences = [
               "width": 53.75,
               "height": 40.34722222222222,
               "type": "image",
-              "src": "../assets/images/zh/projects/667727817e6b5566.jpg",
+              "src": "../assets/images/projects/computer-classroom/computer-classroom-gallery-4.jpg",
               "alt": "COMPUTER ROOM | ST. PATRICK'S CATHOLIC PRIMARY SCHOOL"
             }
           ],
@@ -17806,7 +16602,7 @@ window.projectReferences = [
               "width": 100.0,
               "height": 115.64102564102565,
               "type": "image",
-              "src": "../assets/images/zh/projects/5a50eacd1a017d18.jpg",
+              "src": "../assets/images/projects/computer-classroom/computer-classroom-gallery-2.jpg",
               "alt": "IMG_4401-1536x1152.jpg"
             },
             {
@@ -17917,8 +16713,8 @@ window.projectReferences = [
               "width": 84.1025641025641,
               "height": 25.841346153846157,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">告別傳統刻板、排列整齊的沉悶電腦室！我們為聖博德天主教小學精心打造了一個充滿活力與未來感的全新電腦室。現代的教育空間不僅需要滿足科技學習的硬體需求，更肩負著激發學童創造力與互動性的使命。我們透過大膽的色彩運用與打破常規的空間佈局，將這個空間轉化為學生們最喜愛的科技探索樂園。</p>",
-              "text": "告別傳統刻板、排列整齊的沉悶電腦室！我們為聖博德天主教小學精心打造了一個充滿活力與未來感的全新電腦室。現代的教育空間不僅需要滿足科技學習的硬體需求，更肩負著激發學童創造力與互動性的使命。我們透過大膽的色彩運用與打破常規的空間佈局，將這個空間轉化為學生們最喜愛的科技探索樂園。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">這是一個充滿活力與未來感的全新電腦室，透過大膽的色彩運用與打破常規的空間佈局，成功將這個空間轉化為學生們最喜愛的科技探索樂園。</p>",
+              "text": "這是一個充滿活力與未來感的全新電腦室，透過大膽的色彩運用與打破常規的空間佈局，成功將這個空間轉化為學生們最喜愛的科技探索樂園。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -18127,8 +16923,8 @@ window.projectReferences = [
               "width": 81.7588141025641,
               "height": 4.923878205128205,
               "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:3.076949vw;line-height:4.923128vw;letter-spacing:0.307695vw\"><span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:3.076949vw;line-height:4.923128vw;letter-spacing:0.307695vw\"><span style=\"font-family:'Project Montserrat', sans-serif;font-weight:700;color:rgb(0, 0, 0);text-transform:uppercase;font-size:3.076949vw;line-height:4.923128vw;letter-spacing:0.307695vw\">學校電腦室設計｜設計理念</span></span></h6>",
-              "text": "學校電腦室設計｜設計理念",
+              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:3.076949vw;line-height:4.923128vw;letter-spacing:0.307695vw\">「天空藍」與「活力橙」</h6>",
+              "text": "「天空藍」與「活力橙」",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -18145,8 +16941,8 @@ window.projectReferences = [
               "width": 81.7588141025641,
               "height": 43.068910256410255,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">在這次的學校室內設計中，我們選用了對比鮮明的「天空藍」與「活力橙」作為空間主色調。藍色有助於學生在面對電腦螢幕與科技學習時保持專注與平靜；而大面積的亮橙色點綴，則能瞬間喚醒學童的活力與熱情。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">天花板的設計是整個空間的視覺焦點。我們摒棄了傳統的格柵燈，改用獨特的六角形（蜂巢狀）LED 幾何造型吊燈。這不僅提供了充足且均勻的照明，更為空間注入了濃厚的科技感與未來感，象徵著科技網路的連結與無窮的可能性。</p>",
-              "text": "在這次的學校室內設計中，我們選用了對比鮮明的「天空藍」與「活力橙」作為空間主色調。藍色有助於學生在面對電腦螢幕與科技學習時保持專注與平靜；而大面積的亮橙色點綴，則能瞬間喚醒學童的活力與熱情。\n\n天花板的設計是整個空間的視覺焦點。我們摒棄了傳統的格柵燈，改用獨特的六角形（蜂巢狀）LED 幾何造型吊燈。這不僅提供了充足且均勻的照明，更為空間注入了濃厚的科技感與未來感，象徵著科技網路的連結與無窮的可能性。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">設計選用了對比鮮明的「天空藍」與「活力橙」作為空間主色調。藍色有助於學生在面對電腦屏幕與科技學習時保持專注與平靜；而大面積的亮橙色點綴，則能瞬間喚醒學童的活力與熱情。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">天花板的設計是整個空間的視覺焦點。上方懸掛著獨特的六角形（蜂巢狀）LED 幾何造型吊燈。這不僅提供了充足且均勻的照明，更為空間注入了濃厚的科技感與未來感，象徵著科技網絡的連結與無窮的可能性。</p>",
+              "text": "設計選用了對比鮮明的「天空藍」與「活力橙」作為空間主色調。藍色有助於學生在面對電腦屏幕與科技學習時保持專注與平靜；而大面積的亮橙色點綴，則能瞬間喚醒學童的活力與熱情。\n\n天花板的設計是整個空間的視覺焦點。上方懸掛著獨特的六角形（蜂巢狀）LED 幾何造型吊燈。這不僅提供了充足且均勻的照明，更為空間注入了濃厚的科技感與未來感，象徵著科技網絡的連結與無窮的可能性。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -18159,7 +16955,7 @@ window.projectReferences = [
             },
             {
               "x": 9.254807692307693,
-              "y": 72.08333333333333,
+              "y": 67.8833,
               "width": 81.89102564102564,
               "height": 4.923878205128205,
               "type": "text",
@@ -18177,102 +16973,12 @@ window.projectReferences = [
             },
             {
               "x": 9.383012820512821,
-              "y": 78.02884615384616,
+              "y": 73.8288,
               "width": 81.7588141025641,
               "height": 142.79246794871793,
               "type": "text",
-              "html": "<p style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">在聖博德天主教小學的STEM創科實驗課室設計中，我們不僅追求視覺上的現代感與科技感，更將&nbsp;ESG（環境、社會、企業管治）&nbsp;理念深度落實於空間規劃中。我們致力於為新世代學童打造一個既環保又關注身心健康的優質學習環境：</p>\n\n<ul style=\"font-size: 3.07692vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 1.53846vw; padding: 0vw 0vw 0vw 4vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<li style=\"font-size: 3.07692vw; line-height: normal; letter-spacing: normal; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">優化室內空氣與採光：&nbsp;學童的健康是我們的首要考量。我們在全區採用了低 VOC（低揮發性有機化合物）建材系統，包含環保塗料、黏合劑與優質板材，從源頭嚴格把關，大幅提升課室的室內空氣質量（IAQ）。同時，我們導入了自然採光優化設計，透過淺色反射面與空間佈局提升日照利用率，不僅營造明亮舒適的視覺感受，更有效降低了人工照明的能源負荷，實踐綠色節能。</p>\n</li>\n<li style=\"font-size: 3.07692vw; line-height: normal; letter-spacing: normal; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">靈活共融的學習佈局：&nbsp;為了因應現代化教育需求，我們打造了高度靈活學習空間。課室內配備了符合人體工學的課桌椅設計，不僅能適應不同年齡層學童的身形發展，其可移動的特性更完美支援了 STEM 實驗、小組互動討論與混合教學模式。</p>\n</li>\n<li style=\"font-size: 3.07692vw; line-height: normal; letter-spacing: normal; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">全方位的安全與健康防護：&nbsp;在細節處理上，所有桌角及牆角均採用安全圓角設計與防撞系統，為活潑好動的小學生提供最安心的活動範圍。此外，桌面及高頻接觸的牆面特別選用了抗菌與易清潔材料，有效降低校園內交叉感染的風險。</p>\n</li>\n<li style=\"font-size: 3.07692vw; line-height: normal; letter-spacing: normal; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">情緒友善的色彩心理學：&nbsp;我們將色彩心理學融入空間，運用了情緒友善色彩策略。透過沉穩的冰川藍與工業灰作為基調，搭配充滿未來感的電光紫點綴，這種充滿科幻感卻不失沉穩的色彩配置，能在激發學童創科思維的同時，達到減壓與提升學習專注力的雙重效果。</p>\n</li>\n</ul>",
-              "text": "在聖博德天主教小學的STEM創科實驗課室設計中，我們不僅追求視覺上的現代感與科技感，更將 ESG（環境、社會、企業管治） 理念深度落實於空間規劃中。我們致力於為新世代學童打造一個既環保又關注身心健康的優質學習環境：\n\n優化室內空氣與採光： 學童的健康是我們的首要考量。我們在全區採用了低 VOC（低揮發性有機化合物）建材系統，包含環保塗料、黏合劑與優質板材，從源頭嚴格把關，大幅提升課室的室內空氣質量（IAQ）。同時，我們導入了自然採光優化設計，透過淺色反射面與空間佈局提升日照利用率，不僅營造明亮舒適的視覺感受，更有效降低了人工照明的能源負荷，實踐綠色節能。\n\n靈活共融的學習佈局： 為了因應現代化教育需求，我們打造了高度靈活學習空間。課室內配備了符合人體工學的課桌椅設計，不僅能適應不同年齡層學童的身形發展，其可移動的特性更完美支援了 STEM 實驗、小組互動討論與混合教學模式。\n\n全方位的安全與健康防護： 在細節處理上，所有桌角及牆角均採用安全圓角設計與防撞系統，為活潑好動的小學生提供最安心的活動範圍。此外，桌面及高頻接觸的牆面特別選用了抗菌與易清潔材料，有效降低校園內交叉感染的風險。\n\n情緒友善的色彩心理學： 我們將色彩心理學融入空間，運用了情緒友善色彩策略。透過沉穩的冰川藍與工業灰作為基調，搭配充滿未來感的電光紫點綴，這種充滿科幻感卻不失沉穩的色彩配置，能在激發學童創科思維的同時，達到減壓與提升學習專注力的雙重效果。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "2.564103vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 9.254807692307693,
-              "y": 227.22756410256412,
-              "width": 81.7588141025641,
-              "height": 4.923878205128205,
-              "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">學校課室裝潢設計｜設計成果</h6>",
-              "text": "學校課室裝潢設計｜設計成果",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "2.564103vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 9.383012820512821,
-              "y": 233.1730769230769,
-              "width": 81.7588141025641,
-              "height": 14.771634615384615,
-              "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">通過將高科技美學與人體工學功能相結合，這個 STEM 室重新定義了小學的學習體驗。這是一個功能與幻想交織的空間，鼓勵學生大膽夢想，無畏創新。</p>",
-              "text": "通過將高科技美學與人體工學功能相結合，這個 STEM 室重新定義了小學的學習體驗。這是一個功能與幻想交織的空間，鼓勵學生大膽夢想，無畏創新。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "2.564103vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 9.126602564102564,
-              "y": 254.35096153846155,
-              "width": 81.7588141025641,
-              "height": 4.923878205128205,
-              "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">一場設計｜專營商業室內設計｜學校教室課室裝修工程</h6>",
-              "text": "一場設計｜專營商業室內設計｜學校教室課室裝修工程",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "2.564103vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 9.254807692307693,
-              "y": 260.29647435897436,
-              "width": 81.7588141025641,
-              "height": 64.01041666666667,
-              "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">在一場設計工作室，我們深信室內建築遠不止於表面的美學，它更是學習體驗中不可或缺的一環。在規劃教育空間時，我們工作室的設計方針始終扎根於教育心理學。我們明白，物理環境對學生的專注力、創造力以及協作意願有著深遠的影響。針對聖博德天主教小學的專案，我們的使命是打造一個能述說「未來語言」的環境——讓空間不再只是提供場地，而是積極參與到學校的 STEM 課程中。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">聖博德天主教小學的 STEM 室，完美體現了前瞻性教學法與精緻室內設計之間的深度對話。這項專案印證了 一場設計工作室將概念轉化為具體、優雅現實的卓越能力——我們成功將標準課程，昇華為下一代探索未來的啟迪之旅。</p>",
-              "text": "在一場設計工作室，我們深信室內建築遠不止於表面的美學，它更是學習體驗中不可或缺的一環。在規劃教育空間時，我們工作室的設計方針始終扎根於教育心理學。我們明白，物理環境對學生的專注力、創造力以及協作意願有著深遠的影響。針對聖博德天主教小學的專案，我們的使命是打造一個能述說「未來語言」的環境——讓空間不再只是提供場地，而是積極參與到學校的 STEM 課程中。\n\n聖博德天主教小學的 STEM 室，完美體現了前瞻性教學法與精緻室內設計之間的深度對話。這項專案印證了 一場設計工作室將概念轉化為具體、優雅現實的卓越能力——我們成功將標準課程，昇華為下一代探索未來的啟迪之旅。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "2.564103vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 9.254807692307693,
-              "y": 330.713141025641,
-              "width": 81.76282051282051,
-              "height": 8.613782051282051,
-              "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">如欲了解更多關於我們的店舖室內設計項目，請訪問<span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw;text-decoration:underline\"><a href=\"https://www.facebook.com/oncedesignhk\">一場設計<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">Facebook</span>專頁</a></span>。</p>",
-              "text": "如欲了解更多關於我們的店舖室內設計項目，請訪問一場設計Facebook專頁。",
+              "html": "<p style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">ESG（環境、社會、企業管治）&nbsp;理念深度落實於空間規劃中，我們致力於為新世代學童打造一個既環保又關注身心健康的優質學習環境。</p>\n\n<ul style=\"font-size: 3.07692vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 1.53846vw; padding: 0vw 0vw 0vw 4vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<li style=\"font-size: 3.07692vw; line-height: normal; letter-spacing: normal; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">優化室內空氣與採光：&nbsp;學童的健康是我們的首要考量。我們在全區採用了低 VOC（低揮發性有機化合物）建材系統，包含環保塗料、黏合劑與優質板材，從源頭嚴格把關，大幅提升課室的室內空氣質量（IAQ）。同時，我們導入了自然採光優化設計，透過淺色反射面與空間佈局提升日照利用率，不僅營造明亮舒適的視覺感受，更有效降低了人工照明的能源負荷，實踐綠色節能。</p>\n</li>\n<li style=\"font-size: 3.07692vw; line-height: normal; letter-spacing: normal; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">靈活共融的學習佈局：&nbsp;為了因應現代化教育需求，我們打造了高度靈活的學習空間。課室內配備了符合人體工學設計的課桌椅，不僅能適應不同年齡層學童的身形發展，其可移動的特性更完美支援了 STEM 實驗、小組互動討論與混合教學模式。</p>\n</li>\n<li style=\"font-size: 3.07692vw; line-height: normal; letter-spacing: normal; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">全方位的安全與健康防護：&nbsp;在細節處理上，所有桌角及牆角均採用安全圓角設計與防撞系統，為活潑好動的小學生提供最安心的活動範圍。此外，桌面及高頻接觸的牆面特別選用了抗菌與易清潔材料，有效降低校園內交叉感染的風險。</p>\n</li>\n<li style=\"font-size: 3.07692vw; line-height: normal; letter-spacing: normal; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.92308vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">情緒友善的色彩心理學：&nbsp;我們將色彩心理學融入空間，運用了情緒友善色彩策略。透過沉穩的冰川藍與工業灰作為基調，搭配充滿未來感的電光紫點綴，這種充滿科幻感卻不失沉穩的色彩配置，能在激發學童創科思維的同時，達到減壓與提升學習專注力的雙重效果。</p>\n</li>\n</ul>",
+              "text": "ESG（環境、社會、企業管治） 理念深度落實於空間規劃中，我們致力於為新世代學童打造一個既環保又關注身心健康的優質學習環境。\n\n優化室內空氣與採光： 學童的健康是我們的首要考量。我們在全區採用了低 VOC（低揮發性有機化合物）建材系統，包含環保塗料、黏合劑與優質板材，從源頭嚴格把關，大幅提升課室的室內空氣質量（IAQ）。同時，我們導入了自然採光優化設計，透過淺色反射面與空間佈局提升日照利用率，不僅營造明亮舒適的視覺感受，更有效降低了人工照明的能源負荷，實踐綠色節能。\n\n靈活共融的學習佈局： 為了因應現代化教育需求，我們打造了高度靈活的學習空間。課室內配備了符合人體工學設計的課桌椅，不僅能適應不同年齡層學童的身形發展，其可移動的特性更完美支援了 STEM 實驗、小組互動討論與混合教學模式。\n\n全方位的安全與健康防護： 在細節處理上，所有桌角及牆角均採用安全圓角設計與防撞系統，為活潑好動的小學生提供最安心的活動範圍。此外，桌面及高頻接觸的牆面特別選用了抗菌與易清潔材料，有效降低校園內交叉感染的風險。\n\n情緒友善的色彩心理學： 我們將色彩心理學融入空間，運用了情緒友善色彩策略。透過沉穩的冰川藍與工業灰作為基調，搭配充滿未來感的電光紫點綴，這種充滿科幻感卻不失沉穩的色彩配置，能在激發學童創科思維的同時，達到減壓與提升學習專注力的雙重效果。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -18307,7 +17013,7 @@ window.projectReferences = [
               "width": 85.12820512820512,
               "height": 63.84615384615384,
               "type": "image",
-              "src": "../assets/images/zh/projects/637abc05f70ffa1c.jpg",
+              "src": "../assets/images/projects/computer-classroom/computer-classroom-gallery-1.jpg",
               "alt": "COMPUTER ROOM | ST. PATRICK'S CATHOLIC PRIMARY SCHOOL"
             },
             {
@@ -18316,7 +17022,7 @@ window.projectReferences = [
               "width": 85.12820512820512,
               "height": 63.84615384615384,
               "type": "image",
-              "src": "../assets/images/zh/projects/c1ea717375bf6d75.jpg",
+              "src": "../assets/images/projects/computer-classroom/computer-classroom-gallery-2.jpg",
               "alt": "COMPUTER ROOM | ST. PATRICK'S CATHOLIC PRIMARY SCHOOL"
             },
             {
@@ -18325,7 +17031,7 @@ window.projectReferences = [
               "width": 85.12820512820512,
               "height": 63.84615384615384,
               "type": "image",
-              "src": "../assets/images/zh/projects/01de98fd882bfe1f.jpg",
+              "src": "../assets/images/projects/computer-classroom/computer-classroom-gallery-3.jpg",
               "alt": "COMPUTER ROOM | ST. PATRICK'S CATHOLIC PRIMARY SCHOOL"
             },
             {
@@ -18334,7 +17040,7 @@ window.projectReferences = [
               "width": 85.12820512820512,
               "height": 63.84615384615384,
               "type": "image",
-              "src": "../assets/images/zh/projects/99f32e3ef932c5b4.jpg",
+              "src": "../assets/images/projects/computer-classroom/computer-classroom-gallery-4.jpg",
               "alt": "COMPUTER ROOM | ST. PATRICK'S CATHOLIC PRIMARY SCHOOL"
             }
           ],
@@ -18407,7 +17113,7 @@ window.projectReferences = [
               "width": 100.0,
               "height": 53.02083333333333,
               "type": "image",
-              "src": "../assets/images/zh/projects/2a1f1de581bcba85.jpg",
+              "src": "../assets/images/projects/junior-versity/junior-versity-gallery-4.jpg",
               "alt": "IMG_3701-1536x894.jpg"
             },
             {
@@ -18518,8 +17224,8 @@ window.projectReferences = [
               "width": 41.22938368055556,
               "height": 5.251736111111112,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">狀學堂劍橋英語中心（<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">Junior Versity</span>）作為一家專注於幼兒英語教育的機構，期望其分店不僅是教學場所，更是一個充滿童趣與啟發的學習樂園。一場設計團隊以品牌核心價值為導向，結合現代室內設計趨勢，精心規劃每一個細節。項目中，我們採用了以下關鍵設計策略：</p>",
-              "text": "狀學堂劍橋英語中心（Junior Versity）作為一家專注於幼兒英語教育的機構，期望其分店不僅是教學場所，更是一個充滿童趣與啟發的學習樂園。一場設計團隊以品牌核心價值為導向，結合現代室內設計趨勢，精心規劃每一個細節。項目中，我們採用了以下關鍵設計策略：",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">規劃每一個細節，打造出一個充滿童趣與啟發的學習樂園。</p>",
+              "text": "規劃每一個細節，打造出一個充滿童趣與啟發的學習樂園。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -18720,7 +17426,7 @@ window.projectReferences = [
           "kind": "quote"
         },
         {
-          "height": 89.94140625,
+          "height": 66.3221,
           "blocks": [
             {
               "x": 5.921223958333333,
@@ -18728,8 +17434,8 @@ window.projectReferences = [
               "width": 28.538411458333336,
               "height": 1.5690104166666667,
               "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\"><span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\"><span style=\"font-family:'Project Montserrat', sans-serif;font-weight:700;color:rgb(0, 0, 0);text-transform:uppercase;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">教育學校、補習社裝修｜設計理念</span></span></h6>",
-              "text": "教育學校、補習社裝修｜設計理念",
+              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">品牌識別與色彩的完美融合</h6>",
+              "text": "品牌識別與色彩的完美融合",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -18746,8 +17452,8 @@ window.projectReferences = [
               "width": 28.538411458333336,
               "height": 19.49435763888889,
               "type": "text",
-              "html": "<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">狀學堂劍橋英語中心（Junior Versity）作為一家專注於幼兒英語教育的機構，期望其分店不僅是教學場所，更是一個充滿童趣與啟發的學習樂園。一場設計團隊以品牌核心價值為導向，結合現代室內設計趨勢，精心規劃每一個細節。項目中，我們採用了以下關鍵設計策略：</p>\n\n<ul style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw 0vw 0vw 0.46875vw; padding: 0vw 0vw 0vw 1.21875vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<li style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 700; list-style-type: disc; list-style-position: outside; text-transform: none;\">品牌統一性：</span>荔枝角及元朗分店均以鮮豔的綠色作為主色調，搭配可愛的貓頭鷹吉祥物卡通形象，完美融入品牌識別，強化市場辨識度。</p>\n</li>\n<li style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 700; list-style-type: disc; list-style-position: outside; text-transform: none;\">空間功能性：</span>根據不同分店的場地特性，荔枝角分店採用緊湊的玻璃門入口設計，元朗分店則以半開放式入口，滿足不同規模的接待需求。</p>\n</li>\n<li style=\"font-size: 0.9375vw; line-height: normal; letter-spacing: normal; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 700; list-style-type: disc; list-style-position: outside; text-transform: none;\">兒童友好設計：</span>從小型座椅到明亮照明，每一元素均針對幼兒需求量身定制，創造安全、舒適的學習環境。</p>\n</li>\n</ul>",
-              "text": "狀學堂劍橋英語中心（Junior Versity）作為一家專注於幼兒英語教育的機構，期望其分店不僅是教學場所，更是一個充滿童趣與啟發的學習樂園。一場設計團隊以品牌核心價值為導向，結合現代室內設計趨勢，精心規劃每一個細節。項目中，我們採用了以下關鍵設計策略：\n\n品牌統一性：荔枝角及元朗分店均以鮮豔的綠色作為主色調，搭配可愛的貓頭鷹吉祥物卡通形象，完美融入品牌識別，強化市場辨識度。\n\n空間功能性：根據不同分店的場地特性，荔枝角分店採用緊湊的玻璃門入口設計，元朗分店則以半開放式入口，滿足不同規模的接待需求。\n\n兒童友好設計：從小型座椅到明亮照明，每一元素均針對幼兒需求量身定制，創造安全、舒適的學習環境。",
+              "html": "<p style=\"font-size: 0.9375vw; line-height: 1.5vw; letter-spacing: 0.1125vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">兩間分店均以鮮豔的綠色作為主色調，象徵著生機與成長，與幼兒教育的使命不謀而合。我們進一步融入黃、白等輔助色，搭配可愛的貓頭鷹吉祥物與背光設計，不僅完美呼應了品牌識別、強化市場辨識度，更營造出活潑且溫馨的學習氛圍。</p>",
+              "text": "兩間分店均以鮮豔的綠色作為主色調，象徵著生機與成長，與幼兒教育的使命不謀而合。我們進一步融入黃、白等輔助色，搭配可愛的貓頭鷹吉祥物與背光設計，不僅完美呼應了品牌識別、強化市場辨識度，更營造出活潑且溫馨的學習氛圍。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -18760,12 +17466,12 @@ window.projectReferences = [
             },
             {
               "x": 5.921223958333333,
-              "y": 32.789713541666664,
+              "y": 19.23,
               "width": 28.583984375,
               "height": 1.4995659722222223,
               "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">教育學校、補習社裝潢設計｜特色亮點</h6>",
-              "text": "教育學校、補習社裝潢設計｜特色亮點",
+              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">空間佈局的靈活與智慧</h6>",
+              "text": "空間佈局的靈活與智慧",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -18778,12 +17484,12 @@ window.projectReferences = [
             },
             {
               "x": 5.966796875,
-              "y": 34.68641493055556,
+              "y": 21.2,
               "width": 28.538411458333336,
               "height": 22.493489583333336,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:700;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">1. 色彩與氛圍的完美融合</span></p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">綠色作為教育學校、補習社裝修的主色調，象徵生機與成長，與幼兒教育的使命不謀而合。我們進一步融入黃色、白色等輔助色，以及卡通裝飾與背光設計，營造出活潑而溫馨的氛圍。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:700;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">2. 空間布局的智慧規劃</span></p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">荔枝角分店以緊湊高效為主，透明玻璃門增加開放感，適合商場內的有限空間。相較之下，元朗分店空間更寬敞，接待區設計精緻，配以半圓裝飾門面設計，展現出更大的包容性與舒適度。這種靈活的空間規劃，充分體現了我們在教育學校或補習社裝修中的專業性。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:700;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">3. 照明與傢俱的精緻搭配</span></p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">我們採用嵌入式燈飾，確保光線均勻柔和，同時提升空間層次感。傢俱選擇上，小型兒童座椅與現代接待櫃檯相得益彰，荔枝角分店注重實用性，元朗分店則更注重美觀與功能兼備，展現出高品質的設計水準。</p>",
-              "text": "1. 色彩與氛圍的完美融合\n\n綠色作為教育學校、補習社裝修的主色調，象徵生機與成長，與幼兒教育的使命不謀而合。我們進一步融入黃色、白色等輔助色，以及卡通裝飾與背光設計，營造出活潑而溫馨的氛圍。\n\n2. 空間布局的智慧規劃\n\n荔枝角分店以緊湊高效為主，透明玻璃門增加開放感，適合商場內的有限空間。相較之下，元朗分店空間更寬敞，接待區設計精緻，配以半圓裝飾門面設計，展現出更大的包容性與舒適度。這種靈活的空間規劃，充分體現了我們在教育學校或補習社裝修中的專業性。\n\n3. 照明與傢俱的精緻搭配\n\n我們採用嵌入式燈飾，確保光線均勻柔和，同時提升空間層次感。傢俱選擇上，小型兒童座椅與現代接待櫃檯相得益彰，荔枝角分店注重實用性，元朗分店則更注重美觀與功能兼備，展現出高品質的設計水準。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">根據不同分店的場地特性，我們進行了極具彈性的空間規劃。荔枝角分店以緊湊高效為主，採用透明玻璃門設計以增加視覺的開放感，完美適應商場內的空間限制；相較之下，元朗分店空間更為寬敞，其接待區配以精緻的半圓裝飾門面，展現出極大的包容性與舒適度。這種因地制宜的佈局，充分體現了我們在<span style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">教育機構空間設計</span>上的專業實力。</p>",
+              "text": "根據不同分店的場地特性，我們進行了極具彈性的空間規劃。荔枝角分店以緊湊高效為主，採用透明玻璃門設計以增加視覺的開放感，完美適應商場內的空間限制；相較之下，元朗分店空間更為寬敞，其接待區配以精緻的半圓裝飾門面，展現出極大的包容性與舒適度。這種因地制宜的佈局，充分體現了我們在教育機構空間設計上的專業實力。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -18796,12 +17502,12 @@ window.projectReferences = [
             },
             {
               "x": 5.921223958333333,
-              "y": 59.91427951388889,
+              "y": 32.93,
               "width": 28.538411458333336,
               "height": 2.9991319444444446,
               "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">一場設計｜專營商業室內設計｜教育中心、學校及補習社裝修工程</h6>",
-              "text": "一場設計｜專營商業室內設計｜教育中心、學校及補習社裝修工程",
+              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.093750vw\">兒童友善的細節與傢俬搭配</h6>",
+              "text": "兒童友善的細節與傢俬搭配",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -18814,30 +17520,12 @@ window.projectReferences = [
             },
             {
               "x": 5.960286458333333,
-              "y": 63.31163194444444,
+              "y": 34.9,
               "width": 28.538411458333336,
               "height": 20.99392361111111,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">通過此次項目，一場設計成功為狀學堂劍橋英語中心（Junior Versity）打造了兩間兼具專業性與童趣性的分店。荔枝角分店以其鮮明的視覺衝擊力，迅速吸引家長與學生的目光；元朗分店則以溫馨舒適的環境，贏得長期顧客的青睞。這種差異化設計，不僅滿足了品牌擴張的需求，更為教育學校/補習社裝修樹立了新的行業標杆。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">一場設計深諳教育機構的獨特需求。無論是品牌形象的統一呈現，還是空間功能的優化設計，我們都能提供量身定制的解決方案。從初期的設計概念到最終的實施落地，我們致力於為每一位客戶創造卓越的學習與工作環境。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">除了，我們還參與了其他教育室內設計項目，例如 Stem 電腦室、Stem 課室 等。這些項目不僅展示了一場設計團隊的專業能力，也驗證了我們在商業空間規劃和設計方面的豐富經驗。</p>",
-              "text": "通過此次項目，一場設計成功為狀學堂劍橋英語中心（Junior Versity）打造了兩間兼具專業性與童趣性的分店。荔枝角分店以其鮮明的視覺衝擊力，迅速吸引家長與學生的目光；元朗分店則以溫馨舒適的環境，贏得長期顧客的青睞。這種差異化設計，不僅滿足了品牌擴張的需求，更為教育學校/補習社裝修樹立了新的行業標杆。\n\n一場設計深諳教育機構的獨特需求。無論是品牌形象的統一呈現，還是空間功能的優化設計，我們都能提供量身定制的解決方案。從初期的設計概念到最終的實施落地，我們致力於為每一位客戶創造卓越的學習與工作環境。\n\n除了，我們還參與了其他教育室內設計項目，例如 Stem 電腦室、Stem 課室 等。這些項目不僅展示了一場設計團隊的專業能力，也驗證了我們在商業空間規劃和設計方面的豐富經驗。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "0.694444vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 5.968967013888888,
-              "y": 87.03993055555556,
-              "width": 28.538411458333336,
-              "height": 2.625868055555556,
-              "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">如欲了解更多關於我們的店舖室內設計項目，請訪問<span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw;text-decoration:underline\"><a href=\"https://www.facebook.com/oncedesignhk\">一場設計<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">Facebook</span>專頁</a></span>。</p>",
-              "text": "如欲了解更多關於我們的店舖室內設計項目，請訪問一場設計Facebook專頁。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">空間內的每一項元素均針對幼兒需求量身訂製。天花採用嵌入式燈飾，確保光線均勻柔和、保護學童視力，同時提升空間層次感。在傢俬選擇上，符合人體工學的兒童小型座椅與現代化的接待櫃枱相得益彰。無論是注重實用性的佈置，還是兼顧美觀與功能的細節，皆旨在為學童創造一個安全、舒適且高品質的學習環境。</p>",
+              "text": "空間內的每一項元素均針對幼兒需求量身訂製。天花採用嵌入式燈飾，確保光線均勻柔和、保護學童視力，同時提升空間層次感。在傢俬選擇上，符合人體工學的兒童小型座椅與現代化的接待櫃枱相得益彰。無論是注重實用性的佈置，還是兼顧美觀與功能的細節，皆旨在為學童創造一個安全、舒適且高品質的學習環境。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -18872,7 +17560,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 15.833333333333332,
               "type": "image",
-              "src": "../assets/images/zh/projects/ac8006241ab0c959.jpg",
+              "src": "../assets/images/projects/junior-versity/junior-versity-gallery-3.jpg",
               "alt": "JUNIOR VERSITY | LAI CHI KOK & YUEN LONG"
             },
             {
@@ -18881,7 +17569,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 15.48611111111111,
               "type": "image",
-              "src": "../assets/images/zh/projects/71905d3fb3caa52f.jpg",
+              "src": "../assets/images/projects/junior-versity/junior-versity-gallery-4.jpg",
               "alt": "JUNIOR VERSITY | LAI CHI KOK & YUEN LONG"
             },
             {
@@ -18890,7 +17578,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 24.583333333333332,
               "type": "image",
-              "src": "../assets/images/zh/projects/e9c6dc21095ceab7.jpg",
+              "src": "../assets/images/projects/junior-versity/junior-versity-gallery-2.jpg",
               "alt": "JUNIOR VERSITY | LAI CHI KOK & YUEN LONG"
             },
             {
@@ -18899,7 +17587,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 17.98611111111111,
               "type": "image",
-              "src": "../assets/images/zh/projects/18bbf8ae5a98b8c0.jpg",
+              "src": "../assets/images/projects/junior-versity/junior-versity-gallery-1.jpg",
               "alt": "JUNIOR VERSITY | LAI CHI KOK & YUEN LONG"
             },
             {
@@ -18908,7 +17596,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 19.02777777777778,
               "type": "image",
-              "src": "../assets/images/zh/projects/969f04ade05ccbec.jpg",
+              "src": "../assets/images/projects/junior-versity/junior-versity-gallery-5.jpg",
               "alt": "JUNIOR VERSITY | LAI CHI KOK & YUEN LONG"
             }
           ],
@@ -18972,7 +17660,7 @@ window.projectReferences = [
               "width": 100.0,
               "height": 115.64102564102565,
               "type": "image",
-              "src": "../assets/images/zh/projects/c1e513d04d78de0c.jpg",
+              "src": "../assets/images/projects/junior-versity/junior-versity-gallery-4.jpg",
               "alt": "IMG_3701-1536x894.jpg"
             },
             {
@@ -19083,8 +17771,8 @@ window.projectReferences = [
               "width": 84.1025641025641,
               "height": 25.841346153846157,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">狀學堂劍橋英語中心（<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">Junior Versity</span>）作為一家專注於幼兒英語教育的機構，期望其分店不僅是教學場所，更是一個充滿童趣與啟發的學習樂園。一場設計團隊以品牌核心價值為導向，結合現代室內設計趨勢，精心規劃每一個細節。項目中，我們採用了以下關鍵設計策略：</p>",
-              "text": "狀學堂劍橋英語中心（Junior Versity）作為一家專注於幼兒英語教育的機構，期望其分店不僅是教學場所，更是一個充滿童趣與啟發的學習樂園。一場設計團隊以品牌核心價值為導向，結合現代室內設計趨勢，精心規劃每一個細節。項目中，我們採用了以下關鍵設計策略：",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">規劃每一個細節，打造出一個充滿童趣與啟發的學習樂園。</p>",
+              "text": "規劃每一個細節，打造出一個充滿童趣與啟發的學習樂園。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -19293,8 +17981,8 @@ window.projectReferences = [
               "width": 81.7588141025641,
               "height": 4.923878205128205,
               "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:3.076949vw;line-height:4.923128vw;letter-spacing:0.307695vw\"><span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:3.076949vw;line-height:4.923128vw;letter-spacing:0.307695vw\"><span style=\"font-family:'Project Montserrat', sans-serif;font-weight:700;color:rgb(0, 0, 0);text-transform:uppercase;font-size:3.076949vw;line-height:4.923128vw;letter-spacing:0.307695vw\">教育學校、補習社裝修｜設計理念</span></span></h6>",
-              "text": "教育學校、補習社裝修｜設計理念",
+              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:3.076949vw;line-height:4.923128vw;letter-spacing:0.307695vw\">品牌識別與色彩的完美融合</h6>",
+              "text": "品牌識別與色彩的完美融合",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -19311,8 +17999,8 @@ window.projectReferences = [
               "width": 81.7588141025641,
               "height": 64.60336538461539,
               "type": "text",
-              "html": "<p style=\"font-size: 3.07692vw; line-height: 4.30769vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">狀學堂劍橋英語中心（Junior Versity）作為一家專注於幼兒英語教育的機構，期望其分店不僅是教學場所，更是一個充滿童趣與啟發的學習樂園。一場設計團隊以品牌核心價值為導向，結合現代室內設計趨勢，精心規劃每一個細節。項目中，我們採用了以下關鍵設計策略：</p>\n\n<ul style=\"font-size: 3.07692vw; line-height: 4.30769vw; letter-spacing: 0.369231vw; margin: 0vw 0vw 0vw 1.53846vw; padding: 0vw 0vw 0vw 4vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<li style=\"font-size: 3.07692vw; line-height: 4.30769vw; letter-spacing: normal; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.30769vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 3.07692vw; line-height: 4.30769vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 700; list-style-type: disc; list-style-position: outside; text-transform: none;\">品牌統一性：</span>荔枝角及元朗分店均以鮮豔的綠色作為主色調，搭配可愛的貓頭鷹吉祥物卡通形象，完美融入品牌識別，強化市場辨識度。</p>\n</li>\n<li style=\"font-size: 3.07692vw; line-height: 4.30769vw; letter-spacing: normal; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.30769vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 3.07692vw; line-height: 4.30769vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 700; list-style-type: disc; list-style-position: outside; text-transform: none;\">空間功能性：</span>根據不同分店的場地特性，荔枝角分店採用緊湊的玻璃門入口設計，元朗分店則以半開放式入口，滿足不同規模的接待需求。</p>\n</li>\n<li style=\"font-size: 3.07692vw; line-height: 4.30769vw; letter-spacing: normal; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">\n<p style=\"font-size: 3.07692vw; line-height: 4.30769vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\"><span style=\"font-size: 3.07692vw; line-height: 4.30769vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 700; list-style-type: disc; list-style-position: outside; text-transform: none;\">兒童友好設計：</span>從小型座椅到明亮照明，每一元素均針對幼兒需求量身定制，創造安全、舒適的學習環境。</p>\n</li>\n</ul>",
-              "text": "狀學堂劍橋英語中心（Junior Versity）作為一家專注於幼兒英語教育的機構，期望其分店不僅是教學場所，更是一個充滿童趣與啟發的學習樂園。一場設計團隊以品牌核心價值為導向，結合現代室內設計趨勢，精心規劃每一個細節。項目中，我們採用了以下關鍵設計策略：\n\n品牌統一性：荔枝角及元朗分店均以鮮豔的綠色作為主色調，搭配可愛的貓頭鷹吉祥物卡通形象，完美融入品牌識別，強化市場辨識度。\n\n空間功能性：根據不同分店的場地特性，荔枝角分店採用緊湊的玻璃門入口設計，元朗分店則以半開放式入口，滿足不同規模的接待需求。\n\n兒童友好設計：從小型座椅到明亮照明，每一元素均針對幼兒需求量身定制，創造安全、舒適的學習環境。",
+              "html": "<p style=\"font-size: 3.07692vw; line-height: 4.30769vw; letter-spacing: 0.369231vw; margin: 0vw; padding: 0vw; font-family: &quot;Project Chinese Light&quot;, sans-serif; font-weight: 400; list-style-type: disc; list-style-position: outside; text-transform: none;\">兩間分店均以鮮豔的綠色作為主色調，象徵著生機與成長，與幼兒教育的使命不謀而合。我們進一步融入黃、白等輔助色，搭配可愛的貓頭鷹吉祥物與背光設計，不僅完美呼應了品牌識別、強化市場辨識度，更營造出活潑且溫馨的學習氛圍。</p>",
+              "text": "兩間分店均以鮮豔的綠色作為主色調，象徵著生機與成長，與幼兒教育的使命不謀而合。我們進一步融入黃、白等輔助色，搭配可愛的貓頭鷹吉祥物與背光設計，不僅完美呼應了品牌識別、強化市場辨識度，更營造出活潑且溫馨的學習氛圍。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -19325,12 +18013,12 @@ window.projectReferences = [
             },
             {
               "x": 9.254807692307693,
-              "y": 93.61778846153847,
+              "y": 50.25,
               "width": 81.89102564102564,
               "height": 4.923878205128205,
               "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">教育學校、補習社裝潢設計｜特色亮點</h6>",
-              "text": "教育學校、補習社裝潢設計｜特色亮點",
+              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">空間佈局的靈活與智慧</h6>",
+              "text": "空間佈局的靈活與智慧",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -19343,12 +18031,12 @@ window.projectReferences = [
             },
             {
               "x": 9.383012820512821,
-              "y": 99.56330128205128,
+              "y": 56.2,
               "width": 81.7588141025641,
               "height": 83.70592948717949,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:700;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">1. 色彩與氛圍的完美融合</span></p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">綠色作為教育學校、補習社裝修的主色調，象徵生機與成長，與幼兒教育的使命不謀而合。我們進一步融入黃色、白色等輔助色，以及卡通裝飾與背光設計，營造出活潑而溫馨的氛圍。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:700;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">2. 空間布局的智慧規劃</span></p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">荔枝角分店以緊湊高效為主，透明玻璃門增加開放感，適合商場內的有限空間。相較之下，元朗分店空間更寬敞，接待區設計精緻，配以半圓裝飾門面設計，展現出更大的包容性與舒適度。這種靈活的空間規劃，充分體現了我們在教育學校或補習社裝修中的專業性。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:700;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">3. 照明與傢俱的精緻搭配</span></p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">我們採用嵌入式燈飾，確保光線均勻柔和，同時提升空間層次感。傢俱選擇上，小型兒童座椅與現代接待櫃檯相得益彰，荔枝角分店注重實用性，元朗分店則更注重美觀與功能兼備，展現出高品質的設計水準。</p>",
-              "text": "1. 色彩與氛圍的完美融合\n\n綠色作為教育學校、補習社裝修的主色調，象徵生機與成長，與幼兒教育的使命不謀而合。我們進一步融入黃色、白色等輔助色，以及卡通裝飾與背光設計，營造出活潑而溫馨的氛圍。\n\n2. 空間布局的智慧規劃\n\n荔枝角分店以緊湊高效為主，透明玻璃門增加開放感，適合商場內的有限空間。相較之下，元朗分店空間更寬敞，接待區設計精緻，配以半圓裝飾門面設計，展現出更大的包容性與舒適度。這種靈活的空間規劃，充分體現了我們在教育學校或補習社裝修中的專業性。\n\n3. 照明與傢俱的精緻搭配\n\n我們採用嵌入式燈飾，確保光線均勻柔和，同時提升空間層次感。傢俱選擇上，小型兒童座椅與現代接待櫃檯相得益彰，荔枝角分店注重實用性，元朗分店則更注重美觀與功能兼備，展現出高品質的設計水準。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">根據不同分店的場地特性，我們進行了極具彈性的空間規劃。荔枝角分店以緊湊高效為主，採用透明玻璃門設計以增加視覺的開放感，完美適應商場內的空間限制；相較之下，元朗分店空間更為寬敞，其接待區配以精緻的半圓裝飾門面，展現出極大的包容性與舒適度。這種因地制宜的佈局，充分體現了我們在<span style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">教育機構空間設計</span>上的專業實力。</p>",
+              "text": "根據不同分店的場地特性，我們進行了極具彈性的空間規劃。荔枝角分店以緊湊高效為主，採用透明玻璃門設計以增加視覺的開放感，完美適應商場內的空間限制；相較之下，元朗分店空間更為寬敞，其接待區配以精緻的半圓裝飾門面，展現出極大的包容性與舒適度。這種因地制宜的佈局，充分體現了我們在教育機構空間設計上的專業實力。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -19361,12 +18049,12 @@ window.projectReferences = [
             },
             {
               "x": 9.254807692307693,
-              "y": 189.67548076923077,
+              "y": 96.7,
               "width": 81.7588141025641,
               "height": 9.84775641025641,
               "type": "text",
-              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">一場設計｜專營商業室內設計｜教育中心、學校及補習社裝修工程</h6>",
-              "text": "一場設計｜專營商業室內設計｜教育中心、學校及補習社裝修工程",
+              "html": "<h6 style=\"font-family:'Project Chinese Bold', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.307692vw\">兒童友善的細節與傢俬搭配</h6>",
+              "text": "兒童友善的細節與傢俬搭配",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -19379,30 +18067,12 @@ window.projectReferences = [
             },
             {
               "x": 9.383012820512821,
-              "y": 200.54487179487182,
+              "y": 102.65,
               "width": 81.7588141025641,
               "height": 78.78205128205128,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">通過此次項目，一場設計成功為狀學堂劍橋英語中心（Junior Versity）打造了兩間兼具專業性與童趣性的分店。荔枝角分店以其鮮明的視覺衝擊力，迅速吸引家長與學生的目光；元朗分店則以溫馨舒適的環境，贏得長期顧客的青睞。這種差異化設計，不僅滿足了品牌擴張的需求，更為教育學校/補習社裝修樹立了新的行業標杆。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">一場設計深諳教育機構的獨特需求。無論是品牌形象的統一呈現，還是空間功能的優化設計，我們都能提供量身定制的解決方案。從初期的設計概念到最終的實施落地，我們致力於為每一位客戶創造卓越的學習與工作環境。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">除了，我們還參與了其他教育室內設計項目，例如 Stem 電腦室、Stem 課室 等。這些項目不僅展示了一場設計團隊的專業能力，也驗證了我們在商業空間規劃和設計方面的豐富經驗。</p>",
-              "text": "通過此次項目，一場設計成功為狀學堂劍橋英語中心（Junior Versity）打造了兩間兼具專業性與童趣性的分店。荔枝角分店以其鮮明的視覺衝擊力，迅速吸引家長與學生的目光；元朗分店則以溫馨舒適的環境，贏得長期顧客的青睞。這種差異化設計，不僅滿足了品牌擴張的需求，更為教育學校/補習社裝修樹立了新的行業標杆。\n\n一場設計深諳教育機構的獨特需求。無論是品牌形象的統一呈現，還是空間功能的優化設計，我們都能提供量身定制的解決方案。從初期的設計概念到最終的實施落地，我們致力於為每一位客戶創造卓越的學習與工作環境。\n\n除了，我們還參與了其他教育室內設計項目，例如 Stem 電腦室、Stem 課室 等。這些項目不僅展示了一場設計團隊的專業能力，也驗證了我們在商業空間規劃和設計方面的豐富經驗。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "2.564103vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 9.254807692307693,
-              "y": 285.7331730769231,
-              "width": 81.76282051282051,
-              "height": 8.613782051282051,
-              "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">如欲了解更多關於我們的店舖室內設計項目，請訪問<span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw;text-decoration:underline\"><a href=\"https://www.facebook.com/oncedesignhk\">一場設計<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">Facebook</span>專頁</a></span>。</p>",
-              "text": "如欲了解更多關於我們的店舖室內設計項目，請訪問一場設計Facebook專頁。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">空間內的每一項元素均針對幼兒需求量身訂製。天花採用嵌入式燈飾，確保光線均勻柔和、保護學童視力，同時提升空間層次感。在傢俬選擇上，符合人體工學的兒童小型座椅與現代化的接待櫃枱相得益彰。無論是注重實用性的佈置，還是兼顧美觀與功能的細節，皆旨在為學童創造一個安全、舒適且高品質的學習環境。</p>",
+              "text": "空間內的每一項元素均針對幼兒需求量身訂製。天花採用嵌入式燈飾，確保光線均勻柔和、保護學童視力，同時提升空間層次感。在傢俬選擇上，符合人體工學的兒童小型座椅與現代化的接待櫃枱相得益彰。無論是注重實用性的佈置，還是兼顧美觀與功能的細節，皆旨在為學童創造一個安全、舒適且高品質的學習環境。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -19437,7 +18107,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 24.871794871794872,
               "type": "image",
-              "src": "../assets/images/zh/projects/362cb7ce0e2ede5c.jpg",
+              "src": "../assets/images/projects/junior-versity/junior-versity-gallery-3.jpg",
               "alt": "JUNIOR VERSITY | LAI CHI KOK & YUEN LONG"
             },
             {
@@ -19446,7 +18116,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 24.102564102564102,
               "type": "image",
-              "src": "../assets/images/zh/projects/1bf8c0eb8546ac77.jpg",
+              "src": "../assets/images/projects/junior-versity/junior-versity-gallery-4.jpg",
               "alt": "JUNIOR VERSITY | LAI CHI KOK & YUEN LONG"
             },
             {
@@ -19455,7 +18125,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 38.46153846153847,
               "type": "image",
-              "src": "../assets/images/zh/projects/5fa5a439ea437ddd.jpg",
+              "src": "../assets/images/projects/junior-versity/junior-versity-gallery-2.jpg",
               "alt": "JUNIOR VERSITY | LAI CHI KOK & YUEN LONG"
             },
             {
@@ -19464,7 +18134,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 27.94871794871795,
               "type": "image",
-              "src": "../assets/images/zh/projects/ed38d6613ab0b39d.jpg",
+              "src": "../assets/images/projects/junior-versity/junior-versity-gallery-1.jpg",
               "alt": "JUNIOR VERSITY | LAI CHI KOK & YUEN LONG"
             },
             {
@@ -19473,7 +18143,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 29.743589743589745,
               "type": "image",
-              "src": "../assets/images/zh/projects/7e130f2989c07690.jpg",
+              "src": "../assets/images/projects/junior-versity/junior-versity-gallery-5.jpg",
               "alt": "JUNIOR VERSITY | LAI CHI KOK & YUEN LONG"
             }
           ],
@@ -19546,7 +18216,7 @@ window.projectReferences = [
               "width": 100.0,
               "height": 53.02083333333333,
               "type": "image",
-              "src": "../assets/images/zh/projects/bea2549c28d0604f.jpg",
+              "src": "../assets/images/projects/stem-computer-lab/stem-computer-lab-gallery-1.jpg",
               "alt": "DJI_0022-scaled.jpg"
             },
             {
@@ -19657,8 +18327,8 @@ window.projectReferences = [
               "width": 42.18641493055556,
               "height": 5.251736111111112,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\"><span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">STEM</span> [科學(<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">Science</span>) 、科技(<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">Technology</span>) 、工程(<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">Engineering</span>)及數學(<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">Mathematics</span>)] 學習課程越來越普及，加上政府推出優質教學基金資助，很多學校已經全面為學生提供STEM教學課程。而一個能夠為學生及教師的多元空間來授課，是不可缺少的一個重要元素。</p>",
-              "text": "STEM [科學(Science) 、科技(Technology) 、工程(Engineering)及數學(Mathematics)] 學習課程越來越普及，加上政府推出優質教學基金資助，很多學校已經全面為學生提供STEM教學課程。而一個能夠為學生及教師的多元空間來授課，是不可缺少的一個重要元素。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\"><span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">STEM</span> [科學(<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">Science</span>) 、科技(<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">Technology</span>) 、工程(<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">Engineering</span>)及數學(<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">Mathematics</span>)] 學習課程日漸普及，很多學校已經全面為學生提供<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">STEM</span>教學課程。因此，為師生打造一個能滿足多元教學需求的空間，已成為現代校園設計中不可或缺的一環。</p>",
+              "text": "STEM [科學(Science) 、科技(Technology) 、工程(Engineering)及數學(Mathematics)] 學習課程日漸普及，很多學校已經全面為學生提供STEM教學課程。因此，為師生打造一個能滿足多元教學需求的空間，已成為現代校園設計中不可或缺的一環。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -19867,8 +18537,8 @@ window.projectReferences = [
               "width": 24.270833333333332,
               "height": 11.81640625,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">由於 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">STEM </span>課程是需要配合一個多功能及多種教學模式的教學環境，<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">STEM </span>課室設計元素當然是需要考慮以上的元素，還有的就是教師與學生之間的互動，學生自我學習及啟發學生的創意等等。所以 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">STEM </span>課室是必須摒棄傳統的教學環境令學生在一個更有趣，更有效的上課環境而增加學生的學習意欲。有研究指出，學生在一個非傳統學習環境學習，是會更加主動學習及增加教師和學生之間的互動溝通。</p>",
-              "text": "由於 STEM 課程是需要配合一個多功能及多種教學模式的教學環境，STEM 課室設計元素當然是需要考慮以上的元素，還有的就是教師與學生之間的互動，學生自我學習及啟發學生的創意等等。所以 STEM 課室是必須摒棄傳統的教學環境令學生在一個更有趣，更有效的上課環境而增加學生的學習意欲。有研究指出，學生在一個非傳統學習環境學習，是會更加主動學習及增加教師和學生之間的互動溝通。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">由於 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">STEM</span> 課程是需要配合一個多功能及多種教學模式的教學環境，空間設計必須能靈活配合多種教學模式，並著重於促進師生互動、引導自主學習以及啟發學生創意。課室必須摒棄傳統的單向佈局，為學生創造富有趣味且高效的學習氛圍，進而激發他們的學習動機。有研究指出，學生在一個非傳統學習環境學習，是會更加主動學習及增加教師和學生之間的互動溝通。</p>",
+              "text": "由於 STEM 課程是需要配合一個多功能及多種教學模式的教學環境，空間設計必須能靈活配合多種教學模式，並著重於促進師生互動、引導自主學習以及啟發學生創意。課室必須摒棄傳統的單向佈局，為學生創造富有趣味且高效的學習氛圍，進而激發他們的學習動機。有研究指出，學生在一個非傳統學習環境學習，是會更加主動學習及增加教師和學生之間的互動溝通。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -19881,30 +18551,12 @@ window.projectReferences = [
             },
             {
               "x": 8.057725694444445,
-              "y": 23.14453125,
+              "y": 21.7445,
               "width": 24.270833333333332,
               "height": 7.63671875,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">除了一個嶄新及多功能的教學環境，硬件的配套也是重要的一環，課室需要提供<span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw;font-style:normal\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.833333vw;line-height:1.500000vw;letter-spacing:0.112500vw\"><span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.833333vw;line-height:1.500000vw;letter-spacing:0.112500vw\">STEM </span></span></span></span></span>教學工具，例如電子白板，智能控制系統，藍牙無線音頻傳輸系統，<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">VR </span>及 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">AR </span>學習系統，<span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw;font-style:normal\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.833333vw;line-height:1.500000vw;letter-spacing:0.112500vw\"><span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.833333vw;line-height:1.500000vw;letter-spacing:0.112500vw\">STEM </span></span></span></span></span>機械人組件及程式編寫軟件等等。</p>",
-              "text": "除了一個嶄新及多功能的教學環境，硬件的配套也是重要的一環，課室需要提供STEM 教學工具，例如電子白板，智能控制系統，藍牙無線音頻傳輸系統，VR 及 AR 學習系統，STEM 機械人組件及程式編寫軟件等等。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "0.694444vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 8.056640625,
-              "y": 33.515625,
-              "width": 24.27191840277778,
-              "height": 2.625868055555556,
-              "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">如欲了解更多關於我們的店舖室內設計項目，請訪問<span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw;text-decoration:underline\"><a href=\"https://www.facebook.com/oncedesignhk\">一場設計<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">Facebook</span>專頁</a></span>。</p>",
-              "text": "如欲了解更多關於我們的店舖室內設計項目，請訪問一場設計Facebook專頁。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">除了一個嶄新及多功能的教學環境，完善的硬件配套同樣至關重要，課室需要提供<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.833333vw;line-height:1.500000vw;letter-spacing:0.112500vw\">STEM</span> 教學工具，例如電子白板、智能控制系統、藍牙無線音頻傳輸系統、<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.833333vw;line-height:1.500000vw;letter-spacing:0.112500vw\">VR</span> 及 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.833333vw;line-height:1.500000vw;letter-spacing:0.112500vw\">AR</span> 學習系統、<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.833333vw;line-height:1.500000vw;letter-spacing:0.112500vw\">STEM</span> 機械人組件及程式編寫軟件等等。</p>",
+              "text": "除了一個嶄新及多功能的教學環境，完善的硬件配套同樣至關重要，課室需要提供STEM 教學工具，例如電子白板、智能控制系統、藍牙無線音頻傳輸系統、VR 及 AR 學習系統、STEM 機械人組件及程式編寫軟件等等。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -19939,7 +18591,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 14.930555555555555,
               "type": "image",
-              "src": "../assets/images/zh/projects/43017574c393885d.jpg",
+              "src": "../assets/images/projects/stem-computer-lab/stem-computer-lab-gallery-1.jpg",
               "alt": "STEM COMPUTER LAB | KWUN TONG"
             },
             {
@@ -19948,7 +18600,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 14.930555555555555,
               "type": "image",
-              "src": "../assets/images/zh/projects/372daa3f7a952bc5.jpg",
+              "src": "../assets/images/projects/stem-computer-lab/stem-computer-lab-gallery-2.jpg",
               "alt": "STEM COMPUTER LAB | KWUN TONG"
             },
             {
@@ -19957,7 +18609,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 14.930555555555555,
               "type": "image",
-              "src": "../assets/images/zh/projects/ec40a58fda64963f.jpg",
+              "src": "../assets/images/projects/stem-computer-lab/stem-computer-lab-gallery-3.jpg",
               "alt": "STEM COMPUTER LAB | KWUN TONG"
             },
             {
@@ -19966,7 +18618,7 @@ window.projectReferences = [
               "width": 26.59722222222222,
               "height": 14.930555555555555,
               "type": "image",
-              "src": "../assets/images/zh/projects/e1e44f151e034104.jpg",
+              "src": "../assets/images/projects/stem-computer-lab/stem-computer-lab-gallery-4.jpg",
               "alt": "STEM COMPUTER LAB | KWUN TONG"
             }
           ],
@@ -20012,7 +18664,7 @@ window.projectReferences = [
               "width": 100.0,
               "height": 115.64102564102565,
               "type": "image",
-              "src": "../assets/images/zh/projects/4784cfd1d9dfad34.jpg",
+              "src": "../assets/images/projects/stem-computer-lab/stem-computer-lab-gallery-1.jpg",
               "alt": "DJI_0022-scaled.jpg"
             },
             {
@@ -20123,8 +18775,8 @@ window.projectReferences = [
               "width": 84.1025641025641,
               "height": 25.841346153846157,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">STEM</span> [科學(<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">Science</span>) 、科技(<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">Technology</span>) 、工程(<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">Engineering</span>)及數學(<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">Mathematics</span>)] 學習課程越來越普及，加上政府推出優質教學基金資助，很多學校已經全面為學生提供STEM教學課程。而一個能夠為學生及教師的多元空間來授課，是不可缺少的一個重要元素。</p>",
-              "text": "STEM [科學(Science) 、科技(Technology) 、工程(Engineering)及數學(Mathematics)] 學習課程越來越普及，加上政府推出優質教學基金資助，很多學校已經全面為學生提供STEM教學課程。而一個能夠為學生及教師的多元空間來授課，是不可缺少的一個重要元素。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">STEM</span> [科學(<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">Science</span>) 、科技(<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">Technology</span>) 、工程(<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">Engineering</span>)及數學(<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">Mathematics</span>)] 學習課程日漸普及，很多學校已經全面為學生提供<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">STEM</span>教學課程。因此，為師生打造一個能滿足多元教學需求的空間，已成為現代校園設計中不可或缺的一環。</p>",
+              "text": "STEM [科學(Science) 、科技(Technology) 、工程(Engineering)及數學(Mathematics)] 學習課程日漸普及，很多學校已經全面為學生提供STEM教學課程。因此，為師生打造一個能滿足多元教學需求的空間，已成為現代校園設計中不可或缺的一環。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -20333,8 +18985,8 @@ window.projectReferences = [
               "width": 81.86298076923076,
               "height": 34.455128205128204,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">由於 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">STEM </span>課程是需要配合一個多功能及多種教學模式的教學環境，<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">STEM </span>課室設計元素當然是需要考慮以上的元素，還有的就是教師與學生之間的互動，學生自我學習及啟發學生的創意等等。所以 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">STEM </span>課室是必須摒棄傳統的教學環境令學生在一個更有趣，更有效的上課環境而增加學生的學習意欲。有研究指出，學生在一個非傳統學習環境學習，是會更加主動學習及增加教師和學生之間的互動溝通。</p>",
-              "text": "由於 STEM 課程是需要配合一個多功能及多種教學模式的教學環境，STEM 課室設計元素當然是需要考慮以上的元素，還有的就是教師與學生之間的互動，學生自我學習及啟發學生的創意等等。所以 STEM 課室是必須摒棄傳統的教學環境令學生在一個更有趣，更有效的上課環境而增加學生的學習意欲。有研究指出，學生在一個非傳統學習環境學習，是會更加主動學習及增加教師和學生之間的互動溝通。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">由於 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">STEM</span> 課程是需要配合一個多功能及多種教學模式的教學環境，空間設計必須能靈活配合多種教學模式，並著重於促進師生互動、引導自主學習以及啟發學生創意。課室必須摒棄傳統的單向佈局，為學生創造富有趣味且高效的學習氛圍，進而激發他們的學習動機。有研究指出，學生在一個非傳統學習環境學習，是會更加主動學習及增加教師和學生之間的互動溝通。</p>",
+              "text": "由於 STEM 課程是需要配合一個多功能及多種教學模式的教學環境，空間設計必須能靈活配合多種教學模式，並著重於促進師生互動、引導自主學習以及啟發學生創意。課室必須摒棄傳統的單向佈局，為學生創造富有趣味且高效的學習氛圍，進而激發他們的學習動機。有研究指出，學生在一個非傳統學習環境學習，是會更加主動學習及增加教師和學生之間的互動溝通。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -20351,26 +19003,8 @@ window.projectReferences = [
               "width": 81.86298076923076,
               "height": 24.619391025641026,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">除了一個嶄新及多功能的教學環境，硬件的配套也是重要的一環，課室需要提供<span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw;font-style:normal\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">STEM </span></span></span></span></span>教學工具，例如電子白板，智能控制系統，藍牙無線音頻傳輸系統，<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">VR </span>及 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">AR </span>學習系統，<span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw;font-style:normal\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"><span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">STEM </span></span></span></span></span>機械人組件及程式編寫軟件等等。</p>",
-              "text": "除了一個嶄新及多功能的教學環境，硬件的配套也是重要的一環，課室需要提供STEM 教學工具，例如電子白板，智能控制系統，藍牙無線音頻傳輸系統，VR 及 AR 學習系統，STEM 機械人組件及程式編寫軟件等等。",
-              "style": {
-                "font-family": "'Project Chinese Light', sans-serif",
-                "font-weight": "400",
-                "color": "rgb(0, 0, 0)",
-                "text-transform": "none",
-                "font-size": "2.564103vw",
-                "line-height": "normal",
-                "letter-spacing": "normal"
-              }
-            },
-            {
-              "x": 9.19070512820513,
-              "y": 88.54967948717949,
-              "width": 81.86698717948718,
-              "height": 8.613782051282051,
-              "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">如欲了解更多關於我們的店舖室內設計項目，請訪問<span style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw;text-decoration:underline\"><a href=\"https://www.facebook.com/oncedesignhk\">一場設計<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">Facebook</span>專頁</a></span>。</p>",
-              "text": "如欲了解更多關於我們的店舖室內設計項目，請訪問一場設計Facebook專頁。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">除了一個嶄新及多功能的教學環境，完善的硬件配套同樣至關重要，課室需要提供<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">STEM</span> 教學工具，例如電子白板、智能控制系統、藍牙無線音頻傳輸系統、<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">VR</span> 及 <span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">AR</span> 學習系統、<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">STEM</span> 機械人組件及程式編寫軟件等等。</p>",
+              "text": "除了一個嶄新及多功能的教學環境，完善的硬件配套同樣至關重要，課室需要提供STEM 教學工具，例如電子白板、智能控制系統、藍牙無線音頻傳輸系統、VR 及 AR 學習系統、STEM 機械人組件及程式編寫軟件等等。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -20405,7 +19039,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 23.333333333333332,
               "type": "image",
-              "src": "../assets/images/zh/projects/9309e2b4ffe52b70.jpg",
+              "src": "../assets/images/projects/stem-computer-lab/stem-computer-lab-gallery-1.jpg",
               "alt": "STEM COMPUTER LAB | KWUN TONG"
             },
             {
@@ -20414,7 +19048,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 23.333333333333332,
               "type": "image",
-              "src": "../assets/images/zh/projects/179372ef0ed635ec.jpg",
+              "src": "../assets/images/projects/stem-computer-lab/stem-computer-lab-gallery-2.jpg",
               "alt": "STEM COMPUTER LAB | KWUN TONG"
             },
             {
@@ -20423,7 +19057,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 23.333333333333332,
               "type": "image",
-              "src": "../assets/images/zh/projects/01814ff00d115690.jpg",
+              "src": "../assets/images/projects/stem-computer-lab/stem-computer-lab-gallery-3.jpg",
               "alt": "STEM COMPUTER LAB | KWUN TONG"
             },
             {
@@ -20432,7 +19066,7 @@ window.projectReferences = [
               "width": 41.53846153846154,
               "height": 23.333333333333332,
               "type": "image",
-              "src": "../assets/images/zh/projects/82078b873d26b6bb.jpg",
+              "src": "../assets/images/projects/stem-computer-lab/stem-computer-lab-gallery-4.jpg",
               "alt": "STEM COMPUTER LAB | KWUN TONG"
             }
           ],

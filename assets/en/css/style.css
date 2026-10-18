@@ -445,15 +445,19 @@ body {
 
 .lang-item {
   text-decoration: none;
-  color: #8e8367;
+  color: #ffffff;
   cursor: pointer;
   transition: color 0.25s ease;
   user-select: none;
 }
 
-.lang-item.active,
 .lang-item:hover {
   color: #ffffff;
+}
+
+/* The current language is shown muted; the other language is the bright link. */
+.lang-item.active {
+  color: #8e8367;
 }
 
 /* Close Button (✕) & Silky Smooth Micro-Animation */
@@ -561,10 +565,11 @@ body {
   .nav-drawer { width: min(315px, 100vw); background-color: rgba(91, 86, 76, 0.7); padding: 194.5px 50px 40px 84px; }
   .drawer-header { left: 84px; right: 50px; align-items: flex-start; }
   .lang-switch { font-size: 16px; line-height: 20px; gap: 4px; margin: -12px 0 -12px -12px; }
-  .lang-item { display: inline-flex; align-items: center; justify-content: center; min-width: 44px; min-height: 44px; color: #cdc3a9; }
+  .lang-item { display: inline-flex; align-items: center; justify-content: center; min-width: 44px; min-height: 44px; color: #fff; }
   .lang-item:first-child { width: 44px; }
   .lang-item:last-child { margin-left: 0; font-family: 'Gotham Book', sans-serif; }
-  .lang-item.active, .lang-item:hover { color: #fff; }
+  .lang-item:hover { color: #fff; }
+  .lang-item.active { color: #cdc3a9; }
 }
 @media (hover: none) {
   .nav-close-icon.spin-to-cross,

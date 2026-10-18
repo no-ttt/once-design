@@ -46,6 +46,9 @@
       return;
     }
     const item = items[index];
+    // Previous/next follow the listing: same category, newest first.
+    const listed = [...items].sort((a, b) => (b.date || '').localeCompare(a.date || '')).filter(entry => entry.category === item.category);
+    const position = listed.indexOf(item);
     document.title = `${item.title} | ONCE DESIGN`;
     document.querySelector('meta[name="description"]').content = item.description || item.title;
     const metaDate = item.date && matchMedia('(max-width: 750px)').matches ? new Date(item.date + 'T12:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) : date(item.date);
@@ -66,7 +69,7 @@
       if (firstImage > 0) blocks.unshift(blocks.splice(firstImage, 1)[0]);
     }
     const opening = header + hero + blocks.join('');
-    content.innerHTML = opening + `<div class="moorgen-back"><a href="trends.html#articles">BACK TO ALL TRENDS</a></div>` + (items.length > 1 ? `<nav class="moorgen-navigation" aria-label="Article navigation">${[[-1,'PREVIOUS'],[1,'NEXT']].map(([step,label]) => { const next = items[(index + step + items.length) % items.length]; return `<a href="${href(next)}"><span>${label}</span><p>${escape(next.title)}</p></a>`; }).join('')}</nav>` : '');
+    content.innerHTML = opening + `<div class="moorgen-back"><a href="trends.html#articles">BACK TO ALL TRENDS</a></div>` + (listed.length > 1 ? `<nav class="moorgen-navigation" aria-label="Article navigation">${[[-1,'PREVIOUS'],[1,'NEXT']].map(([step,label]) => { const next = listed[(position + step + listed.length) % listed.length]; return `<a href="${href(next)}"><span>${label}</span><p>${escape(next.title)}</p></a>`; }).join('')}</nav>` : '');
     const motion = document.createElement('script');
     motion.src = '../assets/en/js/article.js?v=3';
     document.body.append(motion);

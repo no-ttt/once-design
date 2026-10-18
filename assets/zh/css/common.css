@@ -96,3 +96,14 @@ body[data-page] .trends-title-ending { white-space: nowrap; }
 @media (max-width: 750px) {
   body[data-page] .trends-hero h1 { width: 113.727657%; max-width: 75vw; }
 }
+
+/* Align heading box bottoms with the visible final text baseline. */
+body[data-page] :is(.about-hero-copy, .work-hero-copy, .trends-hero-copy, .quote-hero-copy) h1 {
+  text-box-trim: trim-end;
+  text-box-edge: cap alphabetic;
+}
+
+body[data-page] :is(.about-hero-subtitle, .quote-hero-subtitle, .listing-subtitle) {
+  text-box-trim: trim-end;
+  text-box-edge: text;
+}

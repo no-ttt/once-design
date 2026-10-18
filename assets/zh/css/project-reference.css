@@ -23,6 +23,8 @@
 .project-block a:hover { text-decoration:underline; text-underline-offset:.2em; }
 .project-navigation .project-block a:hover { text-decoration:none; }
 .project-block img, img.project-block { display:block; object-fit:cover; }
+.project-design-gallery { position:absolute; left:7.5vw; width:85.1vw; display:flex; flex-direction:column; gap:8px; }
+.project-design-gallery img.project-block { position:static; width:100%; height:auto; aspect-ratio:auto 4 / 3; }
 .project-hero { isolation:isolate; overflow:clip; }
 /* Desktop moves the whole banner scene; mobile moves only the photo and its shade. */
 .project-hero > .project-block, .project-hero::after { translate:0 var(--zh-hero-shift, 0px); }
@@ -103,6 +105,11 @@ body.zh-project-page .contact-section { padding-top:0; }
 @media (max-width: 750px) {
   body[data-project="klasse14"] .project-quote { height: auto !important; min-height: 0; padding: 14vw 0; }
   body[data-project="klasse14"] .project-quote-copy { position: relative; top: auto !important; }
+}
+
+/* Keep the 上上籤 mobile banner title on one line. */
+@media (max-width: 750px) {
+  body[data-project="sheng-chim"] #projectTitle { white-space: nowrap; }
 }
 
 /* Keep the NEBU mobile banner title on two centered, unbroken lines. */

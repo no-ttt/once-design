@@ -22,6 +22,8 @@ body:is(.work-page,.trends-page) .site-header .brand-logo { width:14.125vw; marg
 .work-page .work-tabs button:is(:hover, [aria-selected='true']) { border-bottom-color: #000; }
 .work-hero-media > p { width:31.84vw; }
 .trends-read-more { font-family:var(--zh-font); }
+/* 網頁版：中文按鈕字放大，視覺寬度對齊英文版 LEARN MORE。 */
+@media (min-width: 751px) { .trends-read-more { font-size:12px; letter-spacing:.15em; } }
 @media(max-width:750px) {
  body:is(.work-page,.trends-page) .site-header .brand-logo { width:15.745vw; margin:4.459vw 0 0 4.403vw; }
  :is(.work-page,.trends-page) .menu-toggle-btn { top:18.4px; right:8.09vw; }

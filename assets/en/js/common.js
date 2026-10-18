@@ -516,17 +516,25 @@
   }
 })();
 
-// Align each exploration arrow with the banner copy, including translated subtitles.
+// Align the arrow tip with the final title line: translated subtitle when present.
 (() => {
   const pairs = [...document.querySelectorAll('.about-scroll, .work-scroll, .trends-scroll, .quote-scroll')]
-    .map(arrow => ({ arrow, container: arrow.parentElement, copy: arrow.parentElement.querySelector(':scope > div') }))
+    .map(arrow => ({ arrow, container: arrow.parentElement, copy: arrow.parentElement.querySelector('.about-hero-subtitle, .quote-hero-subtitle, .listing-subtitle') || arrow.parentElement.querySelector('h1') }))
     .filter(pair => pair.copy);
   const align = () => {
     pairs.forEach(({ arrow, container, copy }) => {
       arrow.style.top = 'auto';
-      const containerBounds = container.getBoundingClientRect();
-      const copyBounds = copy.getBoundingClientRect();
-      arrow.style.bottom = (containerBounds.bottom - copyBounds.bottom) + 'px';
+      // Layout offsets exclude the banner's animated transforms and scroll effects.
+      const layoutTop = element => {
+        let top = 0;
+        for (let node = element; node; node = node.offsetParent) top += node.offsetTop;
+        return top;
+      };
+      const copyBottom = layoutTop(copy) - layoutTop(container) + copy.offsetHeight;
+      // Chinese glyphs end slightly above the font's text-box bottom.
+      const subtitleInset = copy.matches('.about-hero-subtitle, .quote-hero-subtitle, .listing-subtitle')
+        ? parseFloat(getComputedStyle(copy).fontSize) * 0.12 : 0;
+      arrow.style.bottom = (container.clientHeight - copyBottom + subtitleInset) + 'px';
     });
   };
   let frame;
@@ -537,6 +545,8 @@
   }
   window.addEventListener('resize', schedule);
   window.addEventListener('banner-copy-ready', schedule);
+  document.addEventListener('animationend', schedule);
+  window.addEventListener('load', schedule);
   document.fonts.ready.then(schedule);
   schedule();
 })();
