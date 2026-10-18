@@ -257,3 +257,11 @@
   body.quote-page .quote-request { padding-top: 0; }
   body.quote-page .quote-heading-group { margin-top: 0; }
 }
+
+/* 手機版：標題 → 表單 → 聯絡資訊。 */
+@media (max-width: 750px) {
+  .quote-request .quote-details { display: contents; }
+  .quote-request .quote-heading-group { order: 1; }
+  .quote-request .quote-form { order: 2; }
+  .quote-request .contact-links { order: 3; margin-top: 0; }
+}
