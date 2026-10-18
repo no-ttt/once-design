@@ -1,0 +1,7 @@
+/* 手機版「預約設計諮詢」：標誌與標題 → 表單 → 聯絡資訊。 */
+@media (max-width: 750px) {
+  html[lang="zh-Hant"] .contact-section .contact-layout { grid-template-rows: none; }
+  html[lang="zh-Hant"] .contact-section .contact-layout > .contact-info { order: 1; grid-row: auto; }
+  html[lang="zh-Hant"] .contact-section .contact-layout > .contact-consultation { order: 2; grid-row: auto; }
+  html[lang="zh-Hant"] .contact-section .contact-layout > .contact-links { order: 3; grid-row: auto; margin-top: 28px; }
+}

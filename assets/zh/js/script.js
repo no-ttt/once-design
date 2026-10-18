@@ -238,7 +238,10 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!copy) return;
     const copyBottom = copy.offsetTop + copy.offsetHeight;
     const panelTop = parseFloat(getComputedStyle(servicePanels[0]).top) || 0;
-    servicesIntro.style.setProperty('--service-intro-top', `${Math.min(0, panelTop - copyBottom - 20)}px`);
+    // Prefer a 20px gap above the cards, but keep the copy clear of the pinned badge (8px below it) while space remains.
+    const clearBadge = (servicesBadge ? servicesBadge.offsetHeight + 8 : 0) - copy.offsetTop;
+    const lift = Math.min(Math.max(panelTop - copyBottom - 20, clearBadge), panelTop - copyBottom - 6);
+    servicesIntro.style.setProperty('--service-intro-top', `${Math.min(0, lift)}px`);
   };
   updateServiceContentHeight();
   updateServiceIntroTop();
@@ -250,6 +253,19 @@ document.addEventListener('DOMContentLoaded', () => {
     introSizeObserver.observe(servicesIntro);
     servicePanels.forEach(panel => introSizeObserver.observe(panel.querySelector('.service-panel-inner')));
   }
+  // The raised intro would carry its badge above the viewport; hold the badge at the top edge like the other sections.
+  let badgeFrame = 0;
+  const pinServiceBadge = () => {
+    badgeFrame = 0;
+    if (!servicesIntro || !servicesBadge) return;
+    const lift = servicePositionMedia.matches ? Math.max(0, -servicesIntro.getBoundingClientRect().top) : 0;
+    servicesBadge.style.translate = lift ? `0 ${lift}px` : '';
+  };
+  const queueServiceBadge = () => { if (!badgeFrame) badgeFrame = requestAnimationFrame(pinServiceBadge); };
+  window.addEventListener('scroll', queueServiceBadge, { passive: true });
+  window.addEventListener('resize', queueServiceBadge);
+  servicePositionMedia.addEventListener('change', queueServiceBadge);
+  pinServiceBadge();
   servicePositionMedia.addEventListener('change', updateServiceContentHeight);
   serviceTabletMedia.addEventListener('change', updateServiceContentHeight);
   window.addEventListener('resize', updateServiceContentHeight);
