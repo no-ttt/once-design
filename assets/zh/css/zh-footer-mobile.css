@@ -1,0 +1,31 @@
+/* 手機版 footer：報價頁、文章頁統一套用 About 頁的樣式（數值取自 zh-interior.css 的 About footer）。 */
+@media (max-width: 750px) {
+  html[lang="zh-Hant"] body:is(.quote-page, .moorgen-page) .site-footer { position: relative; height: 147px; min-height: 0; padding: 0; }
+  html[lang="zh-Hant"] body:is(.quote-page, .moorgen-page) .footer-top-row { position: static; min-height: 0; padding: 0; border: 0; }
+  html[lang="zh-Hant"] body:is(.quote-page, .moorgen-page) .site-footer::after {
+    content: ''; position: absolute; left: 12.155449%; right: auto; width: 75.689103%; top: 88.984375px;
+    height: 1px; background: #9d9d9d; pointer-events: none;
+  }
+  html[lang="zh-Hant"] body:is(.quote-page, .moorgen-page) .footer-nav {
+    position: absolute; left: 7.948718%; right: 7.948718%; top: 62.984375px;
+    display: flex; flex-wrap: nowrap; justify-content: center;
+    width: auto; padding: 0; margin: 0; gap: 14px;
+  }
+  html[lang="zh-Hant"] body:is(.quote-page, .moorgen-page) .footer-nav a {
+    font: 400 14px/.78 'Once Chinese', sans-serif; letter-spacing: .3em; color: #fff;
+  }
+  html[lang="zh-Hant"] body:is(.quote-page, .moorgen-page) .footer-nav a:first-child,
+  html[lang="zh-Hant"] body:is(.quote-page, .moorgen-page) .footer-nav a:hover { color: #afa385; }
+  html[lang="zh-Hant"] body:is(.quote-page, .moorgen-page) .footer-copyright {
+    position: absolute; left: 7.948718%; right: 7.948718%; top: 99.5px;
+    width: auto; margin: 0; padding: 0;
+    font: 400 7px/1.3 'Trajan Pro', serif; letter-spacing: .03em; color: #fff; text-align: center;
+  }
+  html[lang="zh-Hant"] body:is(.quote-page, .moorgen-page) .back-to-top {
+    position: absolute; top: 9.984375px; right: 7.948718%;
+    display: flex; align-items: center; gap: 0; padding: 0; margin: 0;
+    font: 300 12px/1.4 'Once Chinese', sans-serif; letter-spacing: .2em; color: #fff;
+  }
+  html[lang="zh-Hant"] body:is(.quote-page, .moorgen-page) .back-to-top > span { width: 59.390625px; text-box: normal; line-height: 1.4; text-align: left; }
+  html[lang="zh-Hant"] body:is(.quote-page, .moorgen-page) .back-to-top svg { flex: 0 0 15px; width: 15px; height: 12.90625px; }
+}
