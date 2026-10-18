@@ -48,7 +48,8 @@
     const item = items[index];
     document.title = `${item.title} | ONCE DESIGN`;
     document.querySelector('meta[name="description"]').content = item.description || item.title;
-    const meta = [date(item.date), item.author, item.readTime].filter(Boolean).join(' · ');
+    const metaDate = item.date && matchMedia('(max-width: 750px)').matches ? new Date(item.date + 'T12:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) : date(item.date);
+    const meta = [metaDate, item.author, item.readTime].filter(Boolean).join(' · ');
     const header = item.titleImage ? `<header class="moorgen-title"><h1 class="moorgen-sr-only">${escape(item.title)}</h1><p class="moorgen-sr-only">${escape(meta)}</p><img src="${escape(item.titleImage)}" alt="" fetchpriority="high"></header>` : `<header class="moorgen-title trend-text-title"><p class="trend-kicker">${item.category === 'press' ? 'PRESS' : 'DESIGN TREND'}</p><h1>${escape(item.title)}</h1><span class="trend-title-rule" aria-hidden="true"></span><p class="trend-meta">${escape(meta)}</p></header>`;
     const hero = item.heroInBlocks ? '' : `<figure class="moorgen-hero"><img src="${escape(item.hero)}" alt="${escape(item.title)}" fetchpriority="high"></figure>`;
     const blocks = item.blocks.map(block => {

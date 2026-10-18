@@ -53,7 +53,7 @@
 .project-fact-rule { position:absolute; height:1px; background:#cdc9c0; }
 body.zh-project-page .site-header .brand-logo { width:14.140625vw; margin:1.96164vw 0 0 3.17992vw; }
 body.zh-project-page .brand-logo img { aspect-ratio:181 / 83; filter:brightness(0) invert(1); mix-blend-mode:normal; }
-body.zh-project-page .menu-toggle-btn { color:#fef9ed; }
+body.zh-project-page .menu-toggle-btn { color:#afa385; }
 body.zh-project-page .contact-section { padding-top:0; }
 /* The reference caps this composition at its 1600px desktop canvas. */
 @media(min-width:751px) {
@@ -97,4 +97,21 @@ body.zh-project-page .contact-section { padding-top:0; }
  .project-nav-icon { top:-.4086538462vw; width:5.1282051282vw; height:5.1282051282vw; }
  .project-nav-back { left:-6.1418269231vw; }
  .project-inquiry::before { top:-3vw; width:5vw; }
+}
+
+/* Match the English mobile design-concept quote's vertical spacing. */
+@media (max-width: 750px) {
+  body[data-project="klasse14"] .project-quote { height: auto !important; min-height: 0; padding: 14vw 0; }
+  body[data-project="klasse14"] .project-quote-copy { position: relative; top: auto !important; }
+}
+
+/* Keep the NEBU mobile banner title on two centered, unbroken lines. */
+@media (max-width: 750px) {
+  body[data-project="nebu"] .project-hero > .project-block:has(#projectTitle) {
+    left: 10% !important;
+    top: calc(50% - 8.333333vw) !important;
+    width: 80% !important;
+  }
+  body[data-project="nebu"] .project-hero #projectTitle { white-space: nowrap; }
+  body[data-project="nebu"] .project-hero #projectTitle > span { display: block; }
 }

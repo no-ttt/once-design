@@ -47,7 +47,7 @@
       title.innerHTML = title.innerHTML.replace('HONG KONG', '<span class="nebu-title-separator">HONG KONG</span>');
     }
     heading.append(inquiry);
-    const crumbs = project.breadcrumb.split('>').map(text => text.trim()).filter(text => !mobileLayout.matches || !/^(COMMERCIAL|COMMERICAL)$/i.test(text));
+    const crumbs = project.breadcrumb.split('>').map(text => text.trim()).filter(text => !/^(COMMERCIAL|COMMERICAL)$/i.test(text));
     const categoryPanels = { RETAIL: 'retail', 'F&B': 'food', HOSPITALITY: 'hospitality', CORPORATE: 'corporate', EDUCATION: 'education' };
     container.querySelector('.nebu-breadcrumb p').innerHTML = crumbs.map((text, index) => {
       const isCurrent = index === crumbs.length - 1;

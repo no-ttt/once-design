@@ -23,7 +23,7 @@
     <div class="drawer-header">
       <div class="lang-switch" aria-label="Language Selector">
         <a class="lang-item active" href="index.html" lang="en" aria-label="English">EN</a>
-        <a class="lang-item" href="https://liaovaco.wixstudio.com/oncechinese" lang="zh-Hant" aria-label="中文">中</a>
+        <a class="lang-item" href="../zh/index.html" lang="zh-Hant" aria-label="中文">中</a>
       </div>
       <button class="nav-close-btn" id="navCloseBtn" aria-label="Close navigation menu">
         <svg class="nav-close-icon" viewBox="0 0 32 32" width="22" height="22" aria-hidden="true">
@@ -61,6 +61,21 @@
   </footer>
 `;
   document.querySelector('[data-site-header]')?.insertAdjacentHTML('afterbegin', header);
+  // Switch languages on the current page, preserving project/article parameters.
+  const updateLanguageLinks = () => {
+    const page = (location.pathname.split('/').pop() || 'index.html') + location.search + location.hash;
+    document.querySelectorAll('.lang-item').forEach(link => {
+      const language = link.lang === 'zh-Hant' ? 'zh' : 'en';
+      link.href = '../' + language + '/' + page;
+      const active = link.lang === document.documentElement.lang;
+      link.classList.toggle('active', active);
+      if (active) link.setAttribute('aria-current', 'page');
+      else link.removeAttribute('aria-current');
+    });
+  };
+  updateLanguageLinks();
+  document.getElementById('menuToggleBtn')?.addEventListener('click', updateLanguageLinks);
+
   document.querySelector('[data-site-footer]')?.insertAdjacentHTML('afterbegin', footer);
   const contact = `
     <section class="contact-section" id="contact" aria-labelledby="contactTitle">
@@ -499,4 +514,29 @@
     }), { threshold: 0.12 });
     reveal.forEach(element => { element.classList.add('reveal-pending'); observer.observe(element); });
   }
+})();
+
+// Align each exploration arrow with the banner copy, including translated subtitles.
+(() => {
+  const pairs = [...document.querySelectorAll('.about-scroll, .work-scroll, .trends-scroll, .quote-scroll')]
+    .map(arrow => ({ arrow, container: arrow.parentElement, copy: arrow.parentElement.querySelector(':scope > div') }))
+    .filter(pair => pair.copy);
+  const align = () => {
+    pairs.forEach(({ arrow, container, copy }) => {
+      arrow.style.top = 'auto';
+      const containerBounds = container.getBoundingClientRect();
+      const copyBounds = copy.getBoundingClientRect();
+      arrow.style.bottom = (containerBounds.bottom - copyBounds.bottom) + 'px';
+    });
+  };
+  let frame;
+  const schedule = () => { cancelAnimationFrame(frame); frame = requestAnimationFrame(align); };
+  if ('ResizeObserver' in window) {
+    const observer = new ResizeObserver(schedule);
+    pairs.forEach(({ container, copy }) => { observer.observe(container); observer.observe(copy); });
+  }
+  window.addEventListener('resize', schedule);
+  window.addEventListener('banner-copy-ready', schedule);
+  document.fonts.ready.then(schedule);
+  schedule();
 })();

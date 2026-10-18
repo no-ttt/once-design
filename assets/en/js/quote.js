@@ -41,6 +41,7 @@
       element.style.transform = 'none';
       rotation.cancel();
       fade.cancel();
+      window.dispatchEvent(new Event('banner-copy-ready'));
     };
   };
   const observer = 'IntersectionObserver' in window && !motion.matches

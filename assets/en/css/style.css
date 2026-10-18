@@ -1019,7 +1019,7 @@ body[data-page="home"] .brand-logo {
 /* Wix About 未揭示文字底色。 */
 .quote-text-underlay {
   /* Keep unrevealed text visible before the black scroll reveal. */
-  color: #c9bfac;
+  color: #d0c5b2;
   display: block;
   user-select: none;
 }
@@ -1796,7 +1796,8 @@ body[data-page="home"] .brand-logo {
 }
 
 .service-see-more:hover svg { transform: scale(1.39738); }
-.service-see-more:focus-visible { outline: 2px solid currentColor; outline-offset: 8px; }
+.service-see-more:focus { outline: none; }
+.service-see-more:focus-visible { text-decoration: underline; text-underline-offset: 4px; }
 
 @media (max-width: 750px) {
   .services-intro {

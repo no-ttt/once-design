@@ -19,7 +19,15 @@ body[data-page] :is(.about-section .about-badge, .portfolio-badge, .services-bad
 .footer-nav a:first-child { color: inherit; }
 .footer-nav a[aria-current='page'] { color: #afa385; }
 .nav-menu-list a[aria-current] { color: #cdc3a9; }
-:focus-visible { outline: 2px solid #c8b891; outline-offset: 6px; }
+/* Keep focus outlines off across page-specific controls and input wrappers. */
+:focus,
+:focus-visible,
+:focus-within,
+:focus::before,
+:focus::after,
+.quote-options label input[type="radio"]:focus-visible + span::before {
+  outline: none !important;
+}
 @media (prefers-reduced-motion: reduce) {
   [data-reveal], .text-link span, .nav-drawer, .nav-drawer-backdrop { transition: none; }
   .reveal-pending { opacity: 1; transform: none; }
@@ -51,4 +59,57 @@ body[data-page] .site-navigation-layer .menu-btn-icon {
     object-fit: contain;
   }
   body.moorgen-page #main { padding-top: calc(22.445vw + 32px); }
+}
+
+/* Keep all seven English footer links together and balance the divider spacing. */
+.site-footer .footer-nav { flex-wrap: nowrap; }
+.site-footer .footer-nav a { white-space: nowrap; }
+.site-footer .footer-top-row { padding-bottom: 20px; }
+.site-footer .footer-copyright { margin-top: 20px; }
+@media (max-width: 1000px) {
+  .site-footer { padding: 63px 20px 36px; }
+  .site-footer .footer-top-row { display: block; }
+  .site-footer .back-to-top { position: absolute; top: 10px; right: 20px; }
+  .site-footer .footer-nav { justify-content: space-between; gap: clamp(3px, 1.4vw, 14px); padding: 0; }
+  .site-footer .footer-nav a { font-size: clamp(9px, 2.5vw, 12px); line-height: 1.4; }
+  .site-footer .footer-copyright { text-align: center; }
+}
+
+/* Compact submit buttons across mobile consultation and quote forms. */
+@media (max-width: 750px) {
+  html body[data-page] form :is(button, input[type="submit"], input[type="button"], input[type="reset"]) {
+    height: 34px;
+    min-height: 34px;
+    padding: 0 15px;
+    font-size: 12px;
+    line-height: 1.3;
+  }
+}
+
+/* Give banner exploration arrows a consistent, stronger line weight. */
+:is(.work-scroll, .about-scroll, .trends-scroll, .quote-scroll) svg path {
+  stroke: currentColor;
+  stroke-width: .6px;
+  stroke-linejoin: round;
+  vector-effect: non-scaling-stroke;
+}
+
+/* Use the same bold exploration label on every banner. */
+body[data-page] :is(.work-scroll, .about-scroll, .trends-scroll, .quote-scroll) > span {
+  font-weight: 700;
+}
+
+/* Work and Trends banner headings match this language's About heading. */
+body[data-page] :is(.work-hero, .trends-hero) h1 { font-size: clamp(44px, 3.90625vw, 78px); }
+@media (max-width: 750px) {
+  body[data-page] :is(.work-hero, .trends-hero) h1 { font-size: 7.692308vw; }
+}
+@media (min-width: 751px) and (max-width: 1400px) and (any-pointer: coarse) {
+  body[data-page] :is(.work-hero, .trends-hero) h1 { font-size: clamp(32px, 3.90625vw, 55px); }
+}
+
+/* Match the source banner's expanded mobile heading width. */
+body[data-page] .trends-title-ending { white-space: nowrap; }
+@media (max-width: 750px) {
+  body[data-page] .trends-hero h1 { width: 113.727657%; max-width: 75vw; }
 }

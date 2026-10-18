@@ -47,7 +47,7 @@
       title.innerHTML = title.innerHTML.replace('HONG KONG', '<span class="nebu-title-separator">HONG KONG</span>');
     }
     heading.append(inquiry);
-    const crumbs = project.breadcrumb.split('>').map(text => text.trim()).filter(text => !mobileLayout.matches || !/^(COMMERCIAL|COMMERICAL)$/i.test(text));
+    const crumbs = project.breadcrumb.split('>').map(text => text.trim()).filter(text => !/^(COMMERCIAL|COMMERICAL)$/i.test(text));
     const categoryPanels = { RETAIL: 'retail', 'F&B': 'food', HOSPITALITY: 'hospitality', CORPORATE: 'corporate', EDUCATION: 'education' };
     container.querySelector('.nebu-breadcrumb p').innerHTML = crumbs.map((text, index) => {
       const isCurrent = index === crumbs.length - 1;
@@ -56,7 +56,7 @@
       const href = isCurrent ? 'project.html?project=' + encodeURIComponent(project.id)
         : text.toUpperCase() === 'HOME' ? 'index.html' : 'work.html' + (panel ? '#panel-' + panel : '');
       return '<a href="' + escape(href) + '"' + (isCurrent ? ' aria-current="page"' : '') + '>' + (isCurrent ? '<strong>' + escape(text) + '</strong>' : escape(text)) + '</a>';
-    }).join(' &gt; ');
+    }).reduce((html, item, index) => !index ? item : html + (project.breadcrumbBreak && index === crumbs.length - 1 ? ' &gt;<br>' : ' &gt; ') + item, '');
     const intro = container.querySelector('.nebu-intro');
     intro.textContent = project.intro; intro.hidden = !project.intro;
     const facts = project.facts.map(([label,value]) => '<div><dt>' + escape(label) + '</dt><dd>' + escape(mobileLayout.matches && label === 'AREA' && project.mobileArea ? project.mobileArea : value) + '</dd></div>').join('');

@@ -23,7 +23,7 @@
     <div class="drawer-header">
       <div class="lang-switch" aria-label="Language Selector">
         <a class="lang-item active" href="index.html" lang="en" aria-label="English">EN</a>
-        <a class="lang-item" href="https://liaovaco.wixstudio.com/oncechinese" lang="zh-Hant" aria-label="中文">中</a>
+        <a class="lang-item" href="../zh/index.html" lang="zh-Hant" aria-label="中文">中</a>
       </div>
       <button class="nav-close-btn" id="navCloseBtn" aria-label="Close navigation menu">
         <svg class="nav-close-icon" viewBox="0 0 32 32" width="22" height="22" aria-hidden="true">
@@ -46,21 +46,35 @@
   const footer = `
   <footer class="site-footer">
     <div class="footer-top-row">
-      <nav class="footer-nav" aria-label="Footer navigation">
-        <a href="index.html#home">HOME</a>
-        <a href="about.html">ABOUT</a>
-        <a href="work.html">WORK</a>
-        <a href="trends.html">TRENDS</a>
-        <a href="index.html#faqs">FAQs</a>
-        <a href="index.html#contact">CONTACT</a>
-        <a href="quote.html">QUOTE</a>
+      <nav class="footer-nav" aria-label="頁尾導覽">
+        <a href="index.html#home">故事</a>
+        <a href="about.html">關於</a>
+        <a href="work.html">作品</a>
+        <a href="trends.html">動勢</a>
+        <a href="index.html#faqs">問答</a>
+        <a href="index.html#contact">聯絡</a>
       </nav>
-      <button class="back-to-top" id="backToTop" type="button"><span>BACK TO TOP</span><svg viewBox="23.3 21.5 156.2 156.2" aria-hidden="true"><path d="M135.3 88.3l-33.1-33.1-33.3 33.4 3.9 3.9 26.6-26.7-.5 78 5.5.1.5-78.1 26.5 26.4 3.9-3.9z"/><path d="M101.4 177.7c-43.1 0-78.1-35-78.1-78.1s35-78.1 78.1-78.1 78.1 35 78.1 78.1-35 78.1-78.1 78.1zm0-150.7c-40 0-72.6 32.6-72.6 72.6s32.6 72.6 72.6 72.6c40 0 72.6-32.6 72.6-72.6S141.4 27 101.4 27z"/></svg></button>
+      <button class="back-to-top" id="backToTop" type="button"><span>返回頂端</span><svg viewBox="23.3 21.5 156.2 156.2" aria-hidden="true"><path d="M135.3 88.3l-33.1-33.1-33.3 33.4 3.9 3.9 26.6-26.7-.5 78 5.5.1.5-78.1 26.5 26.4 3.9-3.9z"/><path d="M101.4 177.7c-43.1 0-78.1-35-78.1-78.1s35-78.1 78.1-78.1 78.1 35 78.1 78.1-35 78.1-78.1 78.1zm0-150.7c-40 0-72.6 32.6-72.6 72.6s32.6 72.6 72.6 72.6c40 0 72.6-32.6 72.6-72.6S141.4 27 101.4 27z"/></svg></button>
     </div>
     <p class="footer-copyright">COPYRIGHT © ONCE DESIGN 2026. ALL RIGHTS RESERVED</p>
   </footer>
 `;
   document.querySelector('[data-site-header]')?.insertAdjacentHTML('afterbegin', header);
+  // Switch languages on the current page, preserving project/article parameters.
+  const updateLanguageLinks = () => {
+    const page = (location.pathname.split('/').pop() || 'index.html') + location.search + location.hash;
+    document.querySelectorAll('.lang-item').forEach(link => {
+      const language = link.lang === 'zh-Hant' ? 'zh' : 'en';
+      link.href = '../' + language + '/' + page;
+      const active = link.lang === document.documentElement.lang;
+      link.classList.toggle('active', active);
+      if (active) link.setAttribute('aria-current', 'page');
+      else link.removeAttribute('aria-current');
+    });
+  };
+  updateLanguageLinks();
+  document.getElementById('menuToggleBtn')?.addEventListener('click', updateLanguageLinks);
+
   document.querySelector('[data-site-footer]')?.insertAdjacentHTML('afterbegin', footer);
   const contact = `
     <section class="contact-section" id="contact" aria-labelledby="contactTitle">
@@ -499,4 +513,29 @@
     }), { threshold: 0.12 });
     reveal.forEach(element => { element.classList.add('reveal-pending'); observer.observe(element); });
   }
+})();
+
+// Align each exploration arrow with the banner copy, including translated subtitles.
+(() => {
+  const pairs = [...document.querySelectorAll('.about-scroll, .work-scroll, .trends-scroll, .quote-scroll')]
+    .map(arrow => ({ arrow, container: arrow.parentElement, copy: arrow.parentElement.querySelector(':scope > div') }))
+    .filter(pair => pair.copy);
+  const align = () => {
+    pairs.forEach(({ arrow, container, copy }) => {
+      arrow.style.top = 'auto';
+      const containerBounds = container.getBoundingClientRect();
+      const copyBounds = copy.getBoundingClientRect();
+      arrow.style.bottom = (containerBounds.bottom - copyBounds.bottom) + 'px';
+    });
+  };
+  let frame;
+  const schedule = () => { cancelAnimationFrame(frame); frame = requestAnimationFrame(align); };
+  if ('ResizeObserver' in window) {
+    const observer = new ResizeObserver(schedule);
+    pairs.forEach(({ container, copy }) => { observer.observe(container); observer.observe(copy); });
+  }
+  window.addEventListener('resize', schedule);
+  window.addEventListener('banner-copy-ready', schedule);
+  document.fonts.ready.then(schedule);
+  schedule();
 })();

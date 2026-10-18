@@ -131,7 +131,7 @@
   .about-founder .about-body-copy { margin-top: 30px; }
   .about-story .about-question { margin-top: 0; font-family: inherit; font-style: normal; font-weight: 700; }
   .about-studio .section-label { width: 6.36827vw; padding: 0; font-size: .85859vw; }
-  .about-studio-layout { display: flex; flex-direction: column; justify-content: center; gap: 0; padding: calc(6.5vw + 11px) 17.1vw calc(6.5vw + 11px) 26.1vw; min-height: 38.6vw; }
+  .about-studio-layout { display: flex; flex-direction: column; justify-content: center; gap: 0; padding: calc(6.5vw + 11px) 21.6vw; min-height: 38.6vw; }
   .about-founded { margin-bottom: 8px; font-family: 'IvyOra Story', serif; font-size: 1.25vw; font-weight: 400; line-height: 1; letter-spacing: .02em; }
   .about-studio h2 { font-family: 'IvyOra Banner', serif; font-size: 2.34375vw; font-weight: 400; line-height: 1; letter-spacing: .02em; }
   .about-studio-layout > div + div { display: grid; grid-template-columns: minmax(0,.392fr) minmax(0,.608fr); gap: 7.9vw; margin-top: 5vw; align-items: center; min-height: 8.7565vw; }
@@ -174,12 +174,12 @@
 }
 
 
-/* Consultancy benefits, matching Quote with a slightly deeper warm background. */
+/* Consultancy benefits use the same background as the Quote form section. */
 .about-benefits { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); min-height: 36.48438vw; padding: 0 4.29688vw; text-align: center; }
 .about-benefits > div { display: flex; min-width: 0; height: 36.48438vw; flex-direction: column; align-items: center; justify-content: center; }
 .about-benefits img { display: block; width: 8.59375vw; height: auto; aspect-ratio: 1 / 1.007654; object-fit: cover; margin: 0 auto 4.33352vw; mix-blend-mode: multiply; }
 .about-page .about-benefits h3 { width: 100%; margin: 0; color: #5b564c; font-family: 'IvyOra Banner', serif; font-size: 1.09375vw; font-weight: 400; line-height: 1.1; text-transform: uppercase; }
-.about-benefits { background: #e5decd; }
+.about-benefits { background: #eee8d8; }
 @media (max-width: 750px) {
   .about-benefits { padding: 10.25641vw 4.29692vw; grid-template-columns: minmax(0, 1fr); gap: 0; }
   .about-benefits > div { position: relative; height: 51.28205vw; }

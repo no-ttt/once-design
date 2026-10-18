@@ -9,6 +9,19 @@
   if (logo) logo.src = '../assets/images/shared/logo.png';
   const arrow = '<svg viewBox="19.962 87.5 160.038 25" fill="currentColor" aria-hidden="true"><path d="M21.612 101.609h153.045l-7.656 8.117c-.55.583-.661 1.499-.172 2.135.623.81 1.789.845 2.46.133l10.272-10.891a1.606 1.606 0 0 0 0-2.206l-10.272-10.891a1.613 1.613 0 0 0-2.393.051c-.556.637-.458 1.619.122 2.234l7.639 8.099H21.612a1.61 1.61 0 1 0 0 3.219z"/></svg>';
   const circleArrow = '<svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><circle cx="20" cy="20" r="18.5"/><path d="M20 29V11m-8 8 8-8 8 8"/></svg>';
+  // A wrapped mobile path centers the arrows on its lines; single lines keep the reference position.
+  function centerBreadcrumbNav() {
+    const nav = root.querySelector('.project-breadcrumb .project-circle-nav');
+    if (!nav) return;
+    nav.style.removeProperty('top');
+    nav.style.removeProperty('bottom');
+    const path = [...nav.parentElement.querySelectorAll('.project-block')].find(block => block.textContent.includes('>'));
+    if (!mobile.matches || !path) return;
+    const lineHeight = parseFloat(getComputedStyle(path.querySelector('p') || path).lineHeight);
+    if (!(path.offsetHeight > lineHeight * 1.5)) return;
+    nav.style.bottom = 'auto';
+    nav.style.top = (path.offsetTop + (path.offsetHeight - nav.offsetHeight) / 2) + 'px';
+  }
   function render(focus = false) {
     const view = current.views[mobile.matches ? '390' : '1440'];
     document.title = current.title.replace(/\n/g, ' ') + ' | ONCE DESIGN';
@@ -247,6 +260,15 @@
       articles.forEach(article => {
         article.style.height = Math.max(...[...article.children].map(e => e.offsetTop + e.offsetHeight)) + 'px';
       });
+      if (mobile.matches) {
+        root.querySelectorAll('.project-overview').forEach(section => {
+          const content = [...section.querySelectorAll(':scope > .project-block, :scope > .project-fact-rule')];
+          if (!content.length) return;
+          const bottom = Math.max(...content.map(element => element.offsetTop + element.offsetHeight));
+          section.style.height = (bottom + innerWidth * 0.18) + 'px';
+        });
+      }
+      centerBreadcrumbNav();
     });
     if (!motion.matches) {
       targets.forEach(element => { element.style.opacity = '0'; });
@@ -324,6 +346,7 @@
   const scheduleHero = () => { if (!heroFrame) heroFrame = requestAnimationFrame(shiftHero); };
   addEventListener('scroll', scheduleHero, {passive:true});
   addEventListener('resize', scheduleHero, {passive:true});
+  addEventListener('resize', centerBreadcrumbNav, {passive:true});
   heroMotion.addEventListener('change', scheduleHero);
   mobile.addEventListener('change',()=>{ render(); scheduleHero(); });
   render();

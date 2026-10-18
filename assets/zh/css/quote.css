@@ -46,9 +46,9 @@
   .quote-services-copy .page-kicker { width: 46.71435%; margin: 0 0 .5475vw; color: #362e2c; font-family: 'IvyOra Story', serif; font-size: 1.25vw; line-height: 1; }
   .quote-services h2 { margin: 0 0 3.51383vw .5px; font-family: 'IvyOra Banner', serif; font-size: 2.34375vw; font-weight: 400; line-height: 1; letter-spacing: .02em; }
   .quote-services-copy > p:last-child { position: relative; width: 22.91077vw; max-width: none; margin-left: calc(4.22177vw + 1px); color: #362e2b; font-size: 1.09375vw; line-height: 1.3; }
-  .quote-services-copy > p:last-child::before { position: absolute; top: 0; left: calc(-4.14242vw - 1px); width: 1px; height: 7.731719vh; background: rgba(0,0,0,.59); content: ''; }
+  .quote-services-copy > p:last-child::before { position: absolute; top: 0; left: calc(-4.14242vw - 1px); width: 1px; height: 100%; background: rgba(0,0,0,.59); content: ''; }
 }
-.quote-benefits { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); min-height: 36.48438vw; padding: 0 4.29688vw; text-align: center; }
+.quote-benefits { background: #eee8d8; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); min-height: 36.48438vw; padding: 0 4.29688vw; text-align: center; }
 .quote-benefits > div { display: flex; min-width: 0; height: 36.48438vw; flex-direction: column; align-items: center; justify-content: center; }
 .quote-benefits img { display: block; width: 8.59375vw; height: auto; aspect-ratio: 1 / 1.007654; object-fit: cover; margin: 0 auto 4.33352vw; mix-blend-mode: multiply; }
 .quote-benefits h3 { width: 100%; margin: 0; color: #5b564c; font-family: 'IvyOra Banner', serif; font-size: 1.09375vw; font-weight: 400; line-height: 1.1; text-transform: uppercase; }
@@ -128,6 +128,7 @@
 @media (max-width: 1000px) { .quote-form { padding: 25px; gap: 22px; } .quote-options { gap: 12px; } .quote-options label { font-size: 10px; gap: 6px; } }
 @media (max-width: 750px) {
   .quote-page .brand-logo { width: 150px; margin: 20px 0 0 16px; }
+  .quote-page .menu-toggle-btn { color: #362e2b; }
   /* The reference stacks a full-width film above the title on mobile. */
   .quote-hero { grid-template-columns: minmax(0, 1fr); grid-template-rows: 109.29789vw auto; min-height: 0; }
   .quote-hero-media video { height: 100lvh; }
@@ -144,7 +145,7 @@
   .quote-services-copy .page-kicker { margin: 0 0 1.02163vw; font-size: 3.076923vw; letter-spacing: .02em; }
   .quote-services h2 { margin: 0 0 4.54vw .5px; font-size: 5.128205vw; line-height: 1; letter-spacing: .02em; }
   .quote-services-copy > p:last-child { position: relative; width: 55.46vw; max-width: none; margin: 0 0 .3125px 10.879vw; color: #362e2b; font-size: 13px; line-height: 1.3; }
-  .quote-services-copy > p:last-child::before { position: absolute; top: 0; left: -10.879vw; width: 1px; height: calc(100% + 4.403vw); background: rgba(0,0,0,.59); content: ''; }
+  .quote-services-copy > p:last-child::before { position: absolute; top: 0; left: -10.879vw; width: 1px; height: 100%; background: rgba(0,0,0,.59); content: ''; }
   .quote-benefits { padding: 10.25641vw 4.29692vw; grid-template-columns: minmax(0, 1fr); gap: 0; }
   .quote-benefits > div { position: relative; height: 51.28205vw; }
   .quote-benefits img { width: 23.25333vw; height: auto; margin: 0; }
@@ -234,6 +235,7 @@
 }
 
 /* Keep the closing phrase together; only its w uses IvyOra Light. */
+.quote-vision h2 em { font-style: italic; }
 .quote-vision h2 .quote-vision-w { font-family: 'Quote IvyOra Light', serif; font-weight: 400; font-style: normal; }
 .quote-vision-ending { white-space: nowrap; }
 @media (min-width: 751px) {
@@ -246,4 +248,12 @@
   .quote-heading-group > h2 { align-self: start; }
   .quote-heading-group > p { position: relative; align-self: start; margin-top: 0; }
   .quote-heading-group > p::before { position: absolute; top: 0; bottom: 0; left: -3.95946vw; width: 1px; background: #000; content: ''; }
+}
+
+/* Balance mobile spacing around the vision/form divider using content flow. */
+@media (max-width: 750px) {
+  body.quote-page .quote-vision { grid-template-rows: auto auto; min-height: 0; padding-bottom: 9vw; row-gap: 9vw; }
+  body.quote-page .quote-vision::after { position: static; width: 80%; height: 1px; justify-self: center; }
+  body.quote-page .quote-request { padding-top: 0; }
+  body.quote-page .quote-heading-group { margin-top: 0; }
 }

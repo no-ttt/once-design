@@ -706,6 +706,7 @@ window.projects = [
     "title": "GLAMOUR BEAUTY AFFAIRS |\nTIMES SQUARE",
     "heading": "GLAMOUR\nBEAUTY AFFAIRS |\nTIMES SQUARE",
     "breadcrumb": "HOME > WORK > COMMERICAL > RETAIL > GLAMOUR BEAUTY AFFAIRS",
+    "breadcrumbBreak": true,
     "intro": "In today's competitive beauty market, exceptional store design serves not only as an extension of brand identity but also as a crucial element in attracting customers and elevating brand value. As a professional interior design firm, Once Design has crafted a retail space for premium beauty care brand Glamour Beauty Affairs that masterfully balances modern aesthetics with functionality.",
     "facts": [
       [
@@ -803,6 +804,7 @@ window.projects = [
     "id": "park-mountain",
     "source": "https://liaovaco.wixstudio.com/oncedesign/blank-1-2",
     "title": "PARK MOUNTAIN | KAI TAK MALLL",
+    "heroTitle": "PARK MOUNTAIN |\nKAI TAK MALL",
     "heading": "PARK MOUNTAIN |\nKAI TAK SPORT\nPARK MALL 3",
     "breadcrumb": "HOME > WORK > COMMERICAL > F&B > PARK MOUNTAIN",
     "intro": "Located in Hong Kong's newly developed landmark, Kai Tak Sports Park, Park Mountain is more than just a restaurant offering \"Easygoing Dining\"—it is a purpose-driven social enterprise dedicated to promoting social inclusivity by employing individuals with autism. Once Design Studio is deeply honored to participate in this meaningful commercial project. We translated the brand's heartwarming core values into a tangible spatial language, creating an urban oasis that perfectly intertwines natural mountain landscapes, vibrant sports elements, and the spirit of social inclusivity.",
@@ -1020,6 +1022,7 @@ window.projects = [
     "heroTitle": "AMOREPACIFIC CLUB LOUNGE  |\nOCEAN CENTRE",
     "heading": "AMOREPACIFIC\nCLUB LOUNGE  |\nHARBOUR CITY",
     "breadcrumb": "HOME > WORK > COMMERICAL > HOSPITALITY > AMOREPACIFIC CLUB LOUNGE",
+    "breadcrumbBreak": true,
     "intro": "",
     "facts": [
       [

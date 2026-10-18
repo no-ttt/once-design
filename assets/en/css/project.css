@@ -8,7 +8,7 @@
 .nebu-page .site-header { padding: 0; translate: 0 var(--nebu-hero-shift, 0px); }
 .nebu-page .brand-logo { width: 14.140625vw; margin: 1.96164vw 0 0 3.17992vw; }
 .nebu-page .brand-logo img { aspect-ratio: 181 / 83; filter: brightness(0) invert(1); }
-.nebu-page .menu-toggle-btn { position: absolute; top: calc(1.56256vw + var(--nebu-hero-shift, 0px) - var(--nebu-page-scroll, 0px)); right: 1.5625vw; width: 3.125vw; height: 40px; padding: 0; color: #f2eee2; }
+.nebu-page .menu-toggle-btn { position: absolute; top: calc(1.56256vw + var(--nebu-hero-shift, 0px) - var(--nebu-page-scroll, 0px)); right: 1.5625vw; width: 3.125vw; height: 40px; padding: 0; color: #afa385; }
 .nebu-hero { height: 53.021vw; position: relative; overflow: clip; background: white; color: white; }
 .nebu-hero-scene { position: absolute; inset: 0; transform: translate3d(0, var(--nebu-hero-shift, 0px), 0); }
 .nebu-hero img { position: absolute; top: 0; width: 113.744%; max-width: none; height: 100%; left: -6.872%; object-fit: cover; object-position: center; }
@@ -246,6 +246,7 @@ body:has(.nebu-lightbox[open]) { overflow: hidden; }
   .nebu-page[data-project="stem-classroom"] .nebu-heading h2 { position: relative; padding-right: 30px; }
 }
 .nebu-page[data-project="amorepacific"] .nebu-hero h1 { white-space: pre-line; }
+.nebu-page[data-project="park-mountain"] .nebu-hero h1 { white-space: pre-line; }
 .nebu-page[data-project="st-regis"] .nebu-heading h2 a { left: 20.8vw; top: 3.4vw; }
 @media (min-width: 751px) {
   .nebu-page[data-project="st-regis"] .nebu-quotation blockquote { max-width: min(46.666667vw, 746.6667px); }
