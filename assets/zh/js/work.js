@@ -123,13 +123,27 @@
       tabs[next].focus();
     });
   });
-  const selectFromHash = () => {
+  // Arriving with a #panel link: start at the top, then glide down to the tab row (not the panel itself).
+  const glideToTabs = () => projects.scrollIntoView({
+    behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth', block: 'start'
+  });
+  const selectFromHash = initial => {
+    const hash = (initial && window.workInitialHash) || location.hash;
+    if (initial && window.workInitialHash) history.replaceState(history.state, '', hash);
     const index = panels.findIndex((panel, position) =>
-      `#${panel.id}` === location.hash || `#${tabs[position].id}` === location.hash);
+      `#${panel.id}` === hash || `#${tabs[position].id}` === hash);
     select(index < 0 ? 0 : index);
-    if (index >= 0) projects.scrollIntoView({ behavior: 'instant', block: 'start' });
+    if (index < 0) return;
+    if (!initial) { glideToTabs(); return; }
+    if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+    const toTop = () => window.scrollTo({ top: 0, behavior: 'instant' });
+    toTop();
+    requestAnimationFrame(toTop);
+    const start = () => { toTop(); setTimeout(glideToTabs, 300); };
+    if (document.readyState === 'complete') start();
+    else window.addEventListener('load', start, { once: true });
   };
   projects.classList.add('work-tabs-ready');
-  selectFromHash();
-  window.addEventListener('hashchange', selectFromHash);
+  selectFromHash(true);
+  window.addEventListener('hashchange', () => selectFromHash(false));
 })();

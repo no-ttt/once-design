@@ -10,6 +10,10 @@
   <link rel="stylesheet" href="../assets/en/css/work.css?v=26">
 <link rel="stylesheet" href="../assets/en/css/tablet.css?v=9">
   <link rel="stylesheet" href="../assets/en/css/contact-home.css?v=1">
+  <script>
+    /* Hold a #panel/#tab link so the browser does not jump to it; work.js glides to the tab row instead. */
+    if (/^#(panel|tab)-/.test(location.hash)) { window.workInitialHash = location.hash; history.replaceState(history.state, '', location.pathname + location.search); }
+  </script>
 </head>
 <body data-contact-layout="home" class="work-page" data-page="work">
   <a class="skip-link" href="#main">Skip to content</a>
@@ -184,6 +188,6 @@
   </main>
   <div data-site-footer></div>
   <script src="../assets/en/js/common.js?v=31"></script>
-  <script src="../assets/en/js/work.js?v=5"></script>
+  <script src="../assets/en/js/work.js?v=8"></script>
 </body>
 </html>
