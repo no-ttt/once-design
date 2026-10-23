@@ -748,7 +748,7 @@ html[lang="zh-Hant"] body[data-page="home"] .inquiry-answer {
 html[lang="zh-Hant"] body[data-page="home"] .inquiry-answer > :first-child { margin-top: 0; }
 html[lang="zh-Hant"] body[data-page="home"] .inquiry-answer > :last-child { margin-bottom: 0; }
 
-/* Chinese footer: six links, reference typography and independent row placement. */
+/* Chinese footer: seven links, reference typography and independent row placement. */
 html[lang="zh-Hant"] body[data-page="home"] .site-footer { height: 118px; min-height: 0; padding: 0; position: relative; }
 html[lang="zh-Hant"] body[data-page="home"] .footer-top-row { position: static; }
 html[lang="zh-Hant"] body[data-page="home"] .footer-nav {
@@ -760,7 +760,7 @@ html[lang="zh-Hant"] body[data-page="home"] .footer-nav a {
   font: 300 1.015625vw/.78 'Once Chinese', sans-serif;
   letter-spacing: .3em; color: #fff;
 }
-html[lang="zh-Hant"] body[data-page="home"] .footer-nav a:first-child,
+html[lang="zh-Hant"] body[data-page="home"] .footer-nav a[aria-current],
 html[lang="zh-Hant"] body[data-page="home"] .footer-nav a:hover { color: #afa385; }
 html[lang="zh-Hant"] body[data-page="home"] .footer-copyright {
   position: absolute; left: 7.480469%; top: 76.046875px;
@@ -807,7 +807,7 @@ html[lang="zh-Hant"] body[data-page="home"] .site-footer::after {
 }
 html[lang="zh-Hant"] body[data-page="home"] .footer-nav {
   display: grid;
-  grid-template-columns: repeat(6, 72.333333px);
+  grid-template-columns: repeat(7, 72.333333px);
   gap: 0;
   top: calc(1.777344vw + 6.96875px);
 }

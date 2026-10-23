@@ -42,7 +42,6 @@
   });
   document.querySelectorAll('.country-search input').forEach(input => { input.placeholder = '搜尋'; });
   if (!hasChineseContact) return;
-  document.querySelector('.footer-nav a[href="quote.html"]')?.remove();
   const mobile = matchMedia('(max-width: 750px)');
   const consultation = document.querySelector('.contact-consultation');
   const links = document.querySelector('.contact-layout .contact-links');

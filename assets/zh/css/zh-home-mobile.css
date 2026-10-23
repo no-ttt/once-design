@@ -35,7 +35,7 @@ body[data-page="home"] #services .service-panel:first-of-type {
 }
 body[data-page="home"] #services .service-copy { margin-top: 8.77vw; }
 body[data-page="home"] #services .service-copy h3 { margin-bottom: 4px; }
-body[data-page="home"] #services .service-see-more { margin-top: 20px; margin-bottom: 0; }
+body[data-page="home"] #services .service-see-more { margin-top: 20px; margin-bottom: 0; margin-left: 0; }
 
 /* Match the Chinese reference FAQ without synthetic bold or full-width overrides. */
 html[lang="zh-Hant"] body[data-page="home"] .inquiry-item summary {

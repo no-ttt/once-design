@@ -9,7 +9,7 @@
   [...main.children].filter(node => node !== container && node !== contact).forEach(node => container.append(node));
   const template = container.innerHTML;
   const logo = document.querySelector('.brand-logo img');
-  if (logo) { logo.src = '../assets/images/shared/logo.png'; logo.width = 181; logo.height = 83; }
+  if (logo) { logo.src = '../assets/images/shared/once-logo-horizontal.png'; logo.width = 458; logo.height = 183; }
   const escape = text => String(text).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
   const lines = text => escape(text).replace(/\n+/g, '<br>');
   // Keep a separator with its preceding word without changing desktop wrapping.

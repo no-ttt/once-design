@@ -6,7 +6,7 @@
   const params = new URLSearchParams(location.search);
   let current = projects.find(p => p.id === params.get('project')) || projects[0];
   const logo = document.querySelector('.brand-logo img');
-  if (logo) logo.src = '../assets/images/shared/logo.png';
+  if (logo) logo.src = '../assets/images/shared/once-logo-horizontal.png';
   const arrow = '<svg viewBox="19.962 87.5 160.038 25" fill="currentColor" aria-hidden="true"><path d="M21.612 101.609h153.045l-7.656 8.117c-.55.583-.661 1.499-.172 2.135.623.81 1.789.845 2.46.133l10.272-10.891a1.606 1.606 0 0 0 0-2.206l-10.272-10.891a1.613 1.613 0 0 0-2.393.051c-.556.637-.458 1.619.122 2.234l7.639 8.099H21.612a1.61 1.61 0 1 0 0 3.219z"/></svg>';
   const circleArrow = '<svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><circle cx="20" cy="20" r="18.5"/><path d="M20 29V11m-8 8 8-8 8 8"/></svg>';
   // A wrapped mobile path centers the arrows on its lines; single lines keep the reference position.
@@ -30,6 +30,54 @@
     const text = [...section.querySelectorAll('.project-design-article > *')];
     if (text.length) gallery.style.top = vw(Math.max(...text.map(e => e.parentElement.offsetTop + e.offsetTop + e.offsetHeight)) + innerWidth * 0.14);
     section.style.height = vw(gallery.offsetTop + gallery.offsetHeight + innerWidth * 0.16);
+  }
+  // Pull a lone last-line character back up by tightening the paragraph's letter-spacing slightly.
+  const spacingOrigins = new WeakMap();
+  const punctuation = /[\s，。、；：？！「」『』（）《》〈〉…—．,.;:?!()"'“”‘’]/;
+  function hasOrphan(paragraph) {
+    const walker = document.createTreeWalker(paragraph, NodeFilter.SHOW_TEXT | NodeFilter.SHOW_ELEMENT);
+    const chars = [];
+    while (walker.nextNode()) {
+      const node = walker.currentNode;
+      if (node.nodeName === 'BR') chars.push({br:true});
+      else if (node.nodeType === Node.TEXT_NODE) {
+        for (let i = 0; i < node.data.length; i++) if (node.data[i].trim()) chars.push({node, i});
+      }
+    }
+    const range = document.createRange();
+    const top = ({node, i}) => {
+      range.setStart(node, i);
+      range.setEnd(node, i + 1);
+      return range.getBoundingClientRect().top;
+    };
+    if (!chars.length || chars.at(-1).br) return false;
+    const lastTop = top(chars.at(-1));
+    let count = 0;
+    for (let k = chars.length - 1; k >= 0; k--) {
+      const char = chars[k];
+      if (char.br) return false;
+      if (Math.abs(top(char) - lastTop) > 2) return count <= 1;
+      if (!punctuation.test(char.node.data[char.i])) count++;
+      if (count > 1) return false;
+    }
+    return false;
+  }
+  function fixOrphans() {
+    root.querySelectorAll('.project-overview .project-block p, .project-design-article p').forEach(paragraph => {
+      const elements = [paragraph, ...paragraph.querySelectorAll('*')];
+      elements.forEach(el => { if (spacingOrigins.has(el)) el.style.letterSpacing = spacingOrigins.get(el); });
+      if (!paragraph.offsetWidth || !hasOrphan(paragraph)) return;
+      const metrics = elements.map(el => {
+        if (!spacingOrigins.has(el)) spacingOrigins.set(el, el.style.letterSpacing);
+        const style = getComputedStyle(el);
+        return [el, parseFloat(style.letterSpacing) || 0, parseFloat(style.fontSize)];
+      });
+      for (let step = .005; step <= .1; step += .005) {
+        metrics.forEach(([el, base, size]) => { el.style.letterSpacing = (base - step * size) + 'px'; });
+        if (!hasOrphan(paragraph)) return;
+      }
+      metrics.forEach(([el]) => { el.style.letterSpacing = spacingOrigins.get(el); });
+    });
   }
   function render(focus = false) {
     const view = current.views[mobile.matches ? '390' : '1440'];
@@ -58,6 +106,8 @@
           if (index === 0) element.fetchPriority = 'high';
         } else {
           element.innerHTML = block.html;
+          // Banner copy is plain text, never a link.
+          if (index === 0) element.querySelectorAll('a').forEach(link => link.replaceWith(...link.childNodes));
           if (data.kind === 'breadcrumb' && block.text.includes('>')) {
             const categories = { '零售商店': 'retail', '餐飲空間': 'food', '娛樂休閒': 'hospitality', '辦公空間': 'corporate', '教育文化': 'education' };
             const parts = element.textContent.split('>').map(text => text.trim());
@@ -120,6 +170,7 @@
             element.removeAttribute('style');
           }
           if (block.text.toLowerCase() === 'by once design') element.classList.add('project-byline');
+          if (data.kind === 'overview' && block.text.length > 60 && !/<h[1-6]/.test(block.html)) element.classList.add('project-article-copy');
           if (data.kind === 'navigation') {
             const link = element.querySelector('a');
             if (link) {
@@ -319,6 +370,7 @@
     root._stopMotion = cleanupMotion;
     document.fonts.ready.then(() => {
       if (root._stopMotion !== cleanupMotion) return;
+      fixOrphans();
       if (!mobile.matches) {
         root.querySelectorAll('.project-overview').forEach(section => {
           const inquiry = section.querySelector('.project-inquiry');
@@ -419,6 +471,8 @@
   addEventListener('scroll', scheduleHero, {passive:true});
   addEventListener('resize', scheduleHero, {passive:true});
   addEventListener('resize', centerBreadcrumbNav, {passive:true});
+  let orphanTimer;
+  addEventListener('resize', () => { clearTimeout(orphanTimer); orphanTimer = setTimeout(fixOrphans, 150); }, {passive:true});
   heroMotion.addEventListener('change', scheduleHero);
   mobile.addEventListener('change',()=>{ render(); scheduleHero(); });
   render();

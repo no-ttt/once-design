@@ -14,7 +14,7 @@
   html[lang="zh-Hant"] body:is(.quote-page, .moorgen-page) .footer-nav a {
     font: 400 14px/.78 'Once Chinese', sans-serif; letter-spacing: .3em; color: #fff;
   }
-  html[lang="zh-Hant"] body:is(.quote-page, .moorgen-page) .footer-nav a:first-child,
+  html[lang="zh-Hant"] body:is(.quote-page, .moorgen-page) .footer-nav a[aria-current],
   html[lang="zh-Hant"] body:is(.quote-page, .moorgen-page) .footer-nav a:hover { color: #afa385; }
   html[lang="zh-Hant"] body:is(.quote-page, .moorgen-page) .footer-copyright {
     position: absolute; left: 7.948718%; right: 7.948718%; top: 99.5px;

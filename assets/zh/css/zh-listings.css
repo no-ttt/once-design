@@ -36,6 +36,7 @@ body:is(.work-page,.trends-page) .site-header .brand-logo { width:14.125vw; marg
  .work-page .work-hero-copy .page-kicker { font-size:12px; }
  .work-hero-media > p { width:57.43vw; }
  .work-tabs button,.trends-tabs button { font-size:13px; }
+ .trends-read-more { font-size:11px; }
  .work-page .work-tabs button { font-family: var(--zh-font); font-size: 13px; font-weight: 400; }
 }
 /* Chinese Homepage consultation layout, with its tag and section title hidden. */
@@ -69,7 +70,7 @@ html[lang="zh-Hant"] body:is(.work-page,.trends-page) .footer-nav a {
   font: 300 1.015625vw/.78 'Once Chinese', sans-serif;
   letter-spacing: .3em; color: #fff;
 }
-html[lang="zh-Hant"] body:is(.work-page,.trends-page) .footer-nav a:first-child,
+html[lang="zh-Hant"] body:is(.work-page,.trends-page) .footer-nav a[aria-current],
 html[lang="zh-Hant"] body:is(.work-page,.trends-page) .footer-nav a:hover { color: #afa385; }
 html[lang="zh-Hant"] body:is(.work-page,.trends-page) .footer-copyright {
   position: absolute; left: 7.480469%; top: 76.046875px;
@@ -116,7 +117,7 @@ html[lang="zh-Hant"] body:is(.work-page,.trends-page) .site-footer::after {
 }
 html[lang="zh-Hant"] body:is(.work-page,.trends-page) .footer-nav {
   display: grid;
-  grid-template-columns: repeat(6, 72.333333px);
+  grid-template-columns: repeat(7, 72.333333px);
   gap: 0;
   top: calc(1.777344vw + 6.96875px);
 }
@@ -254,3 +255,32 @@ body.trends-page .listing-subtitle { letter-spacing: .1em; }
 
 /* Reference Trends banner kicker is black on desktop and mobile. */
 body.trends-page .trends-hero-copy .page-kicker { color: #000; }
+
+/* Keep both category rows inside the first mobile viewport. */
+@media (max-width: 750px) {
+  body.work-page .work-hero {
+    height: calc(100svh - 88px);
+    min-height: 0;
+    grid-template-rows: 45svh minmax(0, 1fr);
+  }
+  body.work-page .work-hero-media { height: auto; }
+  body.work-page .work-hero-copy {
+    min-height: 0;
+    padding-block: 16px;
+    align-items: center;
+  }
+  body.work-page .work-hero-heading { padding-top: 0; }
+  body.work-page .work-scroll {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  body.work-page .work-projects { padding-top: 0; }
+  body.work-page .work-tabs-ready .work-tabs {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    grid-template-rows: repeat(2, 36px);
+    gap: 4px 13px;
+  }
+  body.work-page .work-tabs button { grid-column: span 2; padding: 7px 0; }
+  body.work-page .work-tabs button:nth-child(n+4) { grid-column: span 3; }
+}

@@ -24,8 +24,6 @@
     if (chinese) link.setAttribute('aria-current', 'page');
     else link.removeAttribute('aria-current');
   });
-  // The Chinese reference footer contains six navigation links.
-  document.querySelector('.footer-nav a[href="quote.html"]')?.remove();
   const aria = {
     'ONCE DESIGN Home': 'ONCE DESIGN 首頁', 'Toggle navigation menu': '切換導覽選單',
     'Close navigation menu': '關閉導覽選單', Navigation: '導覽選單', 'Language Selector': '選擇語言',

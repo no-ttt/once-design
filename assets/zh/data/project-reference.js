@@ -2344,7 +2344,7 @@ window.projectReferences = [
             {
               "x": 10.192307692307692,
               "y": 103.87820512820514,
-              "width": 79.87179487179488,
+              "width": 81.86858974358974,
               "height": 94.75160256410257,
               "type": "text",
               "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.615385vw\">商業室內設計是一門結合藝術與科學的專業，旨在創造獨特而引人注目的空間。通過運用創意設計元素、適當的色彩搭配和符合品牌價値的設計理念，一場設計能夠為品牌打造一個獨一無二的視覺形象，吸引更多的顧客。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.615385vw\">透過運用室內設計提升品牌知名度，講述品牌故事，提升顧客餐飲、活動體驗，並搭配資訊科技強化空間互動性，使銷售與服務過程更加順暢高效。獨具巧思的室內設計和精心設計的特色店面，不僅能夠吸引顧客的目光，激發他們的購買慾望，還能增強品牌價値，讓品牌形象深植人心。</p>",
@@ -9725,7 +9725,7 @@ window.projectReferences = [
             {
               "x": 37.800480769230774,
               "y": 158.22916666666666,
-              "width": 25.965544871794872,
+              "width": 29.860376602564102,
               "height": 4.3068910256410255,
               "type": "text",
               "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.615385vw\"><span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:uppercase;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.615385vw\">1800 平方</span>呎</p>",
@@ -16938,7 +16938,7 @@ window.projectReferences = [
             {
               "x": 9.383012820512821,
               "y": 22.608173076923077,
-              "width": 81.7588141025641,
+              "width": 83.8027844551282,
               "height": 43.068910256410255,
               "type": "text",
               "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">設計選用了對比鮮明的「天空藍」與「活力橙」作為空間主色調。藍色有助於學生在面對電腦屏幕與科技學習時保持專注與平靜；而大面積的亮橙色點綴，則能瞬間喚醒學童的活力與熱情。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">天花板的設計是整個空間的視覺焦點。上方懸掛著獨特的六角形（蜂巢狀）LED 幾何造型吊燈。這不僅提供了充足且均勻的照明，更為空間注入了濃厚的科技感與未來感，象徵著科技網絡的連結與無窮的可能性。</p>",
@@ -17768,7 +17768,7 @@ window.projectReferences = [
             {
               "x": 7.948717948717948,
               "y": 84.35496794871796,
-              "width": 84.1025641025641,
+              "width": 87.46666666666667,
               "height": 25.841346153846157,
               "type": "text",
               "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">規劃每一個細節，打造出一個充滿童趣與啟發的學習樂園。</p>",

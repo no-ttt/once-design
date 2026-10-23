@@ -3,7 +3,7 @@
   const header = `
   <header class="site-header">
     <a href="index.html" class="brand-logo" id="brandLogo" aria-label="ONCE DESIGN Home">
-    <img src="../assets/images/shared/${document.body.dataset.page === 'quote' ? 'quote-logo.png' : 'logo.png'}" alt="ONCE DESIGN Logo" width="181" height="83">
+    <img src="../assets/images/shared/once-logo-horizontal.png" alt="ONCE DESIGN Logo" width="458" height="183">
     </a>
   </header>
 
@@ -53,6 +53,7 @@
         <a href="trends.html">趨勢</a>
         <a href="index.html#faqs">問答</a>
         <a href="index.html#contact">聯絡</a>
+        <a href="quote.html">報價</a>
       </nav>
       <button class="back-to-top" id="backToTop" type="button"><span>返回頂端</span><svg viewBox="23.3 21.5 156.2 156.2" aria-hidden="true"><path d="M135.3 88.3l-33.1-33.1-33.3 33.4 3.9 3.9 26.6-26.7-.5 78 5.5.1.5-78.1 26.5 26.4 3.9-3.9z"/><path d="M101.4 177.7c-43.1 0-78.1-35-78.1-78.1s35-78.1 78.1-78.1 78.1 35 78.1 78.1-35 78.1-78.1 78.1zm0-150.7c-40 0-72.6 32.6-72.6 72.6s32.6 72.6 72.6 72.6c40 0 72.6-32.6 72.6-72.6S141.4 27 101.4 27z"/></svg></button>
     </div>
@@ -82,7 +83,7 @@
       <h2 class="contact-title" id="contactTitle">CONTACT</h2>
       <div class="contact-layout">
         <div class="contact-info">
-          <a href="index.html#home" aria-label="ONCE DESIGN Home"><img class="contact-logo" src="../assets/images/shared/contact-logo.png" alt="ONCE DESIGN" width="120" height="120" loading="lazy"></a>
+          <a href="index.html#home" aria-label="ONCE DESIGN Home"><img class="contact-logo" src="../assets/images/shared/once-logo-stacked.png" alt="ONCE DESIGN" width="137" height="225" loading="lazy"></a>
           <ul class="contact-links">
             <li><a class="contact-link" href="https://api.whatsapp.com/send/?phone=85292232561" target="_blank" rel="noopener noreferrer">
               <img class="contact-link-icon" src="../assets/images/shared/contact-whatsapp.svg" alt="" width="16" height="18" aria-hidden="true">

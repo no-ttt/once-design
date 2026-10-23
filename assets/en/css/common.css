@@ -16,8 +16,7 @@ body[data-page] :is(.about-section .about-badge, .portfolio-badge, .services-bad
 .text-link:hover span { transform: translate(3px,-3px); }
 [data-reveal] { transition: opacity .8s ease, transform .8s ease; }
 .reveal-pending { opacity: 0; transform: translateY(28px); }
-.footer-nav a:first-child { color: inherit; }
-.footer-nav a[aria-current='page'] { color: #afa385; }
+.footer-nav a[aria-current] { color: #afa385; }
 .nav-menu-list a[aria-current] { color: #cdc3a9; }
 /* Keep focus outlines off across page-specific controls and input wrappers. */
 :focus,
@@ -243,5 +242,54 @@ body[data-page] :is(.about-hero-subtitle, .quote-hero-subtitle, .listing-subtitl
     height: auto;
     aspect-ratio: 23.25 / 55.015625;
     margin-left: calc(-100vw * .5 / 390);
+  }
+}
+
+/* Match the original desktop footprint while preserving the new artwork ratio. */
+html body[data-page] .site-header .brand-logo img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 458 / 183;
+  object-fit: contain;
+}
+html body[data-page] .contact-section .contact-info .contact-logo {
+  width: auto;
+  height: 9.755vw;
+  aspect-ratio: 137 / 225;
+  object-fit: contain;
+}
+
+/* Desktop logos are 64% of the original size; mobile sizes stay independent. */
+@media (min-width: 751px) {
+  html body[data-page] .site-header .brand-logo img {
+    width: 64%;
+  }
+  html body[data-page] .contact-section .contact-info .contact-logo {
+    height: 6.2432vw;
+  }
+}
+
+/* Mobile logos have their own readable size instead of a desktop reduction. */
+@media (max-width: 750px) {
+  html body[data-page] .site-header .brand-logo {
+    width: clamp(68.64px, 21.53637816vw, 96.8px);
+  }
+  html body[data-page] .contact-section .contact-info .contact-logo {
+    width: 28.16px;
+    height: auto;
+  }
+}
+
+/* Match the Chinese mobile phone selector arrow size. */
+@media (max-width: 750px) {
+  html[lang="en"] body .country-trigger .country-caret {
+    flex: 0 0 16px;
+    width: 16px;
+    height: 16px;
+  }
+  html[lang="en"] body .country-trigger .country-caret svg {
+    display: block;
+    width: 16px;
+    height: 16px;
   }
 }
