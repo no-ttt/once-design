@@ -55,6 +55,8 @@
 │   ├── videos/                  各頁背景影片
 │   └── fonts/                   字型與原始字型資料
 ├── scripts/check-assets.py      檢查本機素材引用路徑
+├── scripts/bump-versions.py     依檔案內容更新 CSS/JS 的 ?v= 版本號
+├── .githooks/pre-commit         commit 前自動執行 bump-versions.py
 ├── TRENDS.md                    新增文章教學與 JSON 範例
 ├── COMPONENTS.md                共用元件與視覺規範
 └── WORDPRESS.md                 WordPress 搬移說明
@@ -96,5 +98,6 @@
 - HTML、JS、JSON 裡供瀏覽器載入的素材路徑以目前 HTML 所在的語言資料夾為基準，例如 `../assets/images/trends/new-story.jpg`。
 - CSS 的 `url()` 以 CSS 所在目錄為基準，例如 `../../images/shared/logo.png`、`../../fonts/gotham-quote.woff2`。
 - 搬動或新增素材後執行 `python3 scripts/check-assets.py`，再用瀏覽器檢查頁面與互動。
+- CSS/JS 的 `?v=` 版本號不用手動修改：commit 時 `.githooks/pre-commit` 會執行 `python3 scripts/bump-versions.py`，依檔案內容 hash 更新所有引用並一併加入 commit，讓 GitHub Pages 的訪客不會拿到新舊混用的檔案。新 clone 的專案需先執行一次 `git config core.hooksPath .githooks` 啟用。圖片與字型沒有版本號，替換時請改用新檔名。
 
 本次整理保留全部原始圖片與影片，包含目前未引用的素材，沒有刪除或重新壓縮圖片。作品與文章共用同一份專案圖片，避免重複存放。

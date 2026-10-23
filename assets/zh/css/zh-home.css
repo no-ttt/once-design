@@ -617,10 +617,19 @@ html[lang="zh-Hant"] body[data-page="home"] main :is(.about-section, .portfolio-
   font-style: normal;
   font-display: swap;
 }
+/* English letters in the service copy use Montserrat Regular, matching the Work articles. */
+@font-face {
+  font-family: 'Chinese Service Latin';
+  src: url('../../fonts/zh-about-montserrat-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  unicode-range: U+0041-005A, U+0061-007A, U+00C0-024F, U+2019;
+  font-display: swap;
+}
 html[lang="zh-Hant"] body[data-page="home"] .portfolio-heading,
 html[lang="zh-Hant"] body[data-page="home"] .portfolio-heading-line { color: #000; }
 html[lang="zh-Hant"] body[data-page="home"] .services-description {
-  font-family: 'Chinese Service Light', sans-serif;
+  font-family: 'Chinese Service Latin', 'Chinese Service Light', sans-serif;
   font-weight: 400;
   font-synthesis: none;
   color: #000;

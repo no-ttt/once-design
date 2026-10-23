@@ -72,7 +72,7 @@
     const opening = header + hero + blocks.join('');
     content.innerHTML = opening + `<div class="moorgen-back"><a href="trends.html#articles">返回所有文章</a></div>` + (listed.length > 1 ? `<nav class="moorgen-navigation" aria-label="文章導覽">${[[-1,'上一篇'],[1,'下一篇']].map(([step,label]) => { const next = listed[(position + step + listed.length) % listed.length]; return `<a href="${href(next)}"><span>${label}</span><p>${escape(next.title)}</p></a>`; }).join('')}</nav>` : '');
     const motion = document.createElement('script');
-    motion.src = '../assets/zh/js/article.js?v=3';
+    motion.src = '../assets/zh/js/article.js?v=efe9e52b';
     document.body.append(motion);
   } catch (error) {
     console.error(error);

@@ -71,7 +71,7 @@
     const opening = header + hero + blocks.join('');
     content.innerHTML = opening + `<div class="moorgen-back"><a href="trends.html#articles">BACK TO ALL TRENDS</a></div>` + (listed.length > 1 ? `<nav class="moorgen-navigation" aria-label="Article navigation">${[[-1,'PREVIOUS'],[1,'NEXT']].map(([step,label]) => { const next = listed[(position + step + listed.length) % listed.length]; return `<a href="${href(next)}"><span>${label}</span><p>${escape(next.title)}</p></a>`; }).join('')}</nav>` : '');
     const motion = document.createElement('script');
-    motion.src = '../assets/en/js/article.js?v=3';
+    motion.src = '../assets/en/js/article.js?v=efe9e52b';
     document.body.append(motion);
   } catch (error) {
     console.error(error);
