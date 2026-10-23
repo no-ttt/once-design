@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Elements
   const header = document.querySelector('.site-header');
   const textSlab = document.getElementById('textSlab');
+  const chineseTagline = document.querySelector('.hero-chinese-tagline');
   const authorCredit = document.getElementById('authorCredit');
   const bgPhoto = document.getElementById('bgPhoto');
   const bottomStatement = document.getElementById('bottomStatement');
@@ -75,6 +76,16 @@ document.addEventListener('DOMContentLoaded', () => {
       },
       0.01
     );
+
+    // The Chinese tagline sits outside textSlab; reveal it in the same arc.
+    if (chineseTagline && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      entranceTl.fromTo(
+        chineseTagline,
+        { transform: () => arcTransform(chineseTagline, 80), opacity: 0 },
+        { transform: () => arcTransform(chineseTagline, 0), opacity: 1, duration: 1.2, ease: 'none' },
+        0.01
+      );
+    }
 
     entranceTl.fromTo(
       authorCredit,

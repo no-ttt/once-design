@@ -112,13 +112,48 @@ body.zh-project-page .contact-section { padding-top:0; }
   body[data-project="sheng-chim"] #projectTitle { white-space: nowrap; }
 }
 
-/* Keep the NEBU mobile banner title on two centered, unbroken lines. */
+/* Keep the NEBU mobile banner title on one centered line. */
 @media (max-width: 750px) {
   body[data-project="nebu"] .project-hero > .project-block:has(#projectTitle) {
     left: 10% !important;
-    top: calc(50% - 8.333333vw) !important;
+    top: calc(50% - 4.166667vw) !important;
     width: 80% !important;
   }
   body[data-project="nebu"] .project-hero #projectTitle { white-space: nowrap; }
-  body[data-project="nebu"] .project-hero #projectTitle > span { display: block; }
+  body[data-project="nebu"] .project-hero #projectTitle > span { display: inline; }
 }
+
+/* Breadcrumb segments remain clickable without hover underlines. */
+.project-breadcrumb .project-block a,
+.project-breadcrumb .project-block a:hover { text-decoration: none; cursor: pointer; }
+
+/* Keep closing punctuation with the preceding quotation text. */
+.project-quote h5 { line-break: strict; word-break: normal; overflow-wrap: normal; }
+
+/* Reserve space for the closing quote on the existing final line. */
+.project-quote .project-block h5 {
+  width: calc(100% + 2em);
+  max-width: 90vw;
+  margin-left: 50%;
+  translate: -50% 0;
+}
+
+/* Keep the Murad pop-up desktop banner title on one centered line. */
+@media (min-width: 751px) {
+  body[data-project="murad-popup"] .project-hero > .project-block:has(#projectTitle) {
+    left: 10% !important;
+    width: 80% !important;
+  }
+  body[data-project="murad-popup"] .project-hero #projectTitle { white-space: nowrap; }
+}
+
+/* Let desktop project titles use the banner width instead of narrow source boxes. */
+@media (min-width: 751px) {
+  body.zh-project-page .project-hero > .project-block:has(#projectTitle) {
+    left: 5% !important;
+    width: 90% !important;
+  }
+}
+
+/* Vertically center fact labels and values within their separator rows. */
+.project-fact-cell { display: flex; align-items: center; }

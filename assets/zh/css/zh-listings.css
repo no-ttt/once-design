@@ -21,9 +21,9 @@ body:is(.work-page,.trends-page) .site-header .brand-logo { width:14.125vw; marg
 .work-page .work-tabs button::after { display: none; }
 .work-page .work-tabs button:is(:hover, [aria-selected='true']) { border-bottom-color: #000; }
 .work-hero-media > p { width:31.84vw; }
-.trends-read-more { font-family:var(--zh-font); }
+.trends-read-more { font-family:var(--zh-font); font-size:10px; }
 /* 網頁版：中文按鈕字放大，視覺寬度對齊英文版 LEARN MORE。 */
-@media (min-width: 751px) { .trends-read-more { font-size:12px; letter-spacing:.15em; } }
+@media (min-width: 751px) { .trends-read-more { font-size:13px; letter-spacing:.15em; } }
 @media(max-width:750px) {
  body:is(.work-page,.trends-page) .site-header .brand-logo { width:15.745vw; margin:4.459vw 0 0 4.403vw; }
  :is(.work-page,.trends-page) .menu-toggle-btn { top:18.4px; right:8.09vw; }
@@ -146,3 +146,111 @@ html[lang="zh-Hant"] body:is(.work-page,.trends-page) .back-to-top svg {
 body:is(.work-page,.trends-page) .contact-section { padding-bottom:calc(max(55px,3.7vw) + 2vh); }
 body:is(.work-page,.trends-page) .contact-sticky-space { height:0; }
 @media(max-width:750px) { body:is(.work-page,.trends-page) .contact-section { padding-bottom:90px; } }
+
+/* Work card Chinese glyphs use Regular; Latin retains the existing title face. */
+@font-face {
+  font-family: 'Work Card Chinese Regular';
+  src: url('../../fonts/zh-mgen-regular.woff2') format('woff2');
+  font-weight: 400 500;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+3000-303F, U+3400-4DBF, U+4E00-9FFF, U+F900-FAFF, U+FF00-FFEF;
+}
+.work-page .work-card h3 {
+  font-family: 'Work Card Chinese Regular', 'IvyOra Display', serif;
+}
+@media (max-width: 750px) {
+  .work-page .work-card h3 {
+    font-size: 15px;
+    font-family: 'Work Card Chinese Regular', 'IvyOra Banner', serif;
+  }
+}
+
+/* Chinese Work mobile: measured Wix styles, scaled from its 390px layout. */
+@media (max-width: 750px) {
+  body.work-page .work-hero-heading { padding-top: 24.611378vw; }
+  body.work-page .work-hero-copy { min-height: 87.147436vw; }
+  body.work-page .work-hero-copy .page-kicker {
+    font-size: 3.076923vw;
+    line-height: 1.4;
+    margin-bottom: 2.560096vw;
+    letter-spacing: .2em;
+    color: #000;
+  }
+  body.work-page .work-hero h1 {
+    font-size: 6.410256vw;
+    min-height: 23.333333vw;
+    line-height: .9;
+    font-weight: 400;
+    letter-spacing: .02em;
+    color: #5b564c;
+  }
+  body.work-page .listing-subtitle {
+    font-size: 5.641026vw;
+    line-height: 1.3;
+    margin-top: 6.666667vw;
+    letter-spacing: .1em;
+    color: #5b564c;
+  }
+  body.work-page .work-scroll {
+    top: 33.365385vw;
+    bottom: auto;
+  }
+}
+
+/* Article titles share the Work card font without changing title sizing. */
+.trends-page .trends-card h3 {
+  font-family: 'Work Card Chinese Regular', 'IvyOra Display', serif;
+}
+@media (max-width: 750px) {
+  .trends-page .trends-card h3 {
+    font-family: 'Work Card Chinese Regular', 'IvyOra Banner', serif;
+  }
+}
+
+/* Match the reference's text boxes so banner gaps do not depend on trimming. */
+body.work-page .work-hero-copy h1,
+body.work-page .work-hero-copy .listing-subtitle {
+  text-box-trim: none;
+}
+@media (min-width: 751px) {
+  body.work-page .work-hero h1 { min-height: 12.795139vw; }
+  body.work-page .work-hero-copy .page-kicker { margin-bottom: 3.317057vw; }
+  body.work-page .listing-subtitle { margin-top: 4.53125vw; }
+}
+/* The shared family maps Light and Regular to their actual font files. */
+body.work-page .work-tabs button {
+  font-family: 'Once Chinese', sans-serif;
+  font-weight: 300;
+}
+body.work-page .work-tabs button:hover {
+  font-weight: 400;
+}
+
+/* Trends banner text spacing measured from the Chinese reference. */
+body.trends-page .trends-hero-copy h1,
+body.trends-page .trends-hero-copy .listing-subtitle { text-box-trim: none; }
+body.trends-page .listing-subtitle { letter-spacing: .1em; }
+@media (min-width: 751px) {
+  body.trends-page .trends-hero h1 {
+    font-size: 3.90625vw;
+    line-height: .9;
+    min-height: 10.755208vw;
+  }
+  body.trends-page .listing-subtitle { margin-top: 4.53125vw; }
+}
+@media (max-width: 750px) {
+  body.trends-page .trends-hero h1 {
+    font-size: 6.410256vw;
+    line-height: .9;
+    min-height: 17.564103vw;
+  }
+  body.trends-page .listing-subtitle {
+    font-size: 5.641026vw;
+    line-height: 1.3;
+    margin-top: 6.666667vw;
+  }
+}
+
+/* Reference Trends banner kicker is black on desktop and mobile. */
+body.trends-page .trends-hero-copy .page-kicker { color: #000; }

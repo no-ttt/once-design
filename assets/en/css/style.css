@@ -334,14 +334,11 @@ body {
   transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.25s ease;
 }
 
-/* Hover 時顏色變白、並變小一點的動畫 */
+/* Hover 時保留原色，圖示微縮。 */
 .menu-toggle-btn:hover .menu-btn-icon {
   transform: scale(0.85);
 }
 
-.menu-toggle-btn:hover {
-  color: #ffffff;
-}
 
 .menu-toggle-btn.is-active .menu-btn-icon {
   transform: scale(0.85);
@@ -557,7 +554,6 @@ body {
   text-decoration: none;
   transition: color .2s ease;
 }
-.nav-menu-list a:hover { color: #afa385; }
 .nav-menu-list a[href="index.html#faqs"] { text-transform: none; }
 .lang-item:first-child { width: 2.388671875em; }
 .lang-item:last-child { margin-left: -.5px; font-family: 'IvyOra Banner', sans-serif; font-weight: 400; }
@@ -1027,6 +1023,13 @@ body[data-page="home"] .brand-logo {
   color: #d0c5b2;
   display: block;
   user-select: none;
+}
+
+/* 桌機版未揭示文字改用較淺米色。 */
+@media (min-width: 751px) {
+  .quote-text-underlay {
+    color: #dfd3be;
+  }
 }
 
 /* 覆蓋層黑字：透過 clip-path 水平滾動擦拭揭示 */
@@ -1863,10 +1866,10 @@ body[data-page="home"] .brand-logo {
 
 /* Honors: paper background, horizontally scrolling logos and award records. */
 .honors-section {
-  position: sticky;
-  top: 0;
+  /* 與中文版一致：隨頁面正常捲動，不釘在頂端。 */
+  position: relative;
   z-index: 10;
-  min-height: 72.49821vw;
+  /* 底部留白只由 padding 決定，與中文版一致。 */
   padding: 6.94461vw 10.79898% 9vw;
   background: #f2eee2 url('../../images/home/honors-paper.png') repeat center center / 300px 225px;
   color: #362e2b;
@@ -3050,4 +3053,27 @@ body[data-page] .contact-form-response {
     outline: 1px solid #fff;
     outline-offset: 2px;
   }
+}
+
+/* Keep the menu anchored to the viewport on every page, including project heroes. */
+body .site-navigation-layer > .menu-toggle-btn {
+  position: fixed;
+  top: max(20px, env(safe-area-inset-top));
+  right: max(20px, env(safe-area-inset-right));
+  bottom: auto;
+  left: auto;
+  margin: 0;
+}
+@media (max-width: 750px) {
+  body .site-navigation-layer > .menu-toggle-btn {
+    top: max(14px, env(safe-area-inset-top));
+    right: max(14px, env(safe-area-inset-right));
+  }
+}
+
+/* Shared English desktop form typography. */
+@media (min-width: 751px) {
+  body[data-page] form .contact-submit { font-size: 13px; letter-spacing: 1px; }
+  body[data-page] form .quote-options label,
+  body[data-page] form label:has(input:is([type="checkbox"], [type="radio"])) { font-size: 12px; }
 }

@@ -86,11 +86,12 @@ body[data-page] .site-navigation-layer .menu-btn-icon {
   }
 }
 
-/* Give banner exploration arrows a consistent, stronger line weight. */
+/* Match the reference SVG fill and original outline at every viewport size. */
 :is(.work-scroll, .about-scroll, .trends-scroll, .quote-scroll) svg path {
-  stroke: currentColor;
-  stroke-width: .6px;
-  stroke-linejoin: round;
+  fill: #242323;
+  stroke: none;
+  stroke-width: 0;
+  stroke-linejoin: miter;
   vector-effect: non-scaling-stroke;
 }
 
@@ -123,4 +124,124 @@ body[data-page] :is(.about-hero-copy, .work-hero-copy, .trends-hero-copy, .quote
 body[data-page] :is(.about-hero-subtitle, .quote-hero-subtitle, .listing-subtitle) {
   text-box-trim: trim-end;
   text-box-edge: text;
+}
+
+/* Desktop exploration cue measured from the Wix blank-2 banner. */
+@font-face { font-family: 'Explore IvyOra Light'; src: url('../../fonts/ivyora-quote-light.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+@media (min-width: 751px) {
+  body[data-page] :is(.about-scroll, .work-scroll, .trends-scroll, .quote-scroll) {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    top: auto;
+    right: 0;
+    bottom: 2.34375vw;
+    width: 5.628255vw;
+    height: auto;
+    color: #000;
+    text-decoration: none;
+  }
+  body[data-page] :is(.about-scroll, .work-scroll, .trends-scroll, .quote-scroll) > span {
+    flex: none;
+    align-self: auto;
+    height: 6.09375vw;
+    margin: 0 0 -.10563vw 2.19055vw;
+    writing-mode: vertical-rl;
+    font: 400 .78125vw/1.6 'Explore IvyOra Light', serif;
+    letter-spacing: .03em;
+  }
+  body[data-page] :is(.about-scroll, .work-scroll, .trends-scroll, .quote-scroll) > svg {
+    display: block;
+    flex: none;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+    margin-left: -.07813vw;
+  }
+  body[data-page] :is(.about-scroll, .work-scroll, .trends-scroll, .quote-scroll) svg path {
+    fill: #242323;
+    stroke: none;
+    stroke-width: 0;
+    stroke-linejoin: miter;
+  }
+}
+
+/* English mobile footer: reference layout with seven links and no language link. */
+@media (max-width: 750px) {
+  body[data-page] .site-footer {
+    min-height: 36.5vw;
+    padding: 15.3vw 3.4vw 8.2vw;
+    background: #5b564c;
+  }
+  body[data-page] .site-footer .back-to-top {
+    top: 2.5vw;
+    right: 3.8vw;
+    gap: 1.3vw;
+    font-size: 3.2vw;
+  }
+  body[data-page] .site-footer .back-to-top svg {
+    flex-basis: 4.4vw;
+    width: 4.4vw;
+    height: 4.4vw;
+  }
+  body[data-page] .site-footer .footer-top-row {
+    display: block;
+    min-height: 0;
+    padding-bottom: 3vw;
+    border-bottom: 1px solid #9d9d9d;
+  }
+  body[data-page] .site-footer .footer-nav {
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 1vw;
+    padding: 0;
+  }
+  body[data-page] .site-footer .footer-nav a {
+    font: 400 3.1vw/1.3 'Footer Madefor', sans-serif;
+    letter-spacing: 0;
+  }
+  body[data-page] .site-footer .footer-copyright {
+    margin-top: 2vw;
+    font: 400 2.55vw/1.3 'Trajan Pro', serif;
+    letter-spacing: .03em;
+    text-align: center;
+    white-space: nowrap;
+  }
+}
+
+/* Shared mobile exploration cue, measured from the Chinese Work reference. */
+@media (max-width: 750px) {
+  body[data-page] :is(.about-scroll, .work-scroll, .trends-scroll, .quote-scroll) {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    right: 6.538462vw;
+    width: calc(100vw * 23.25 / 390);
+    height: auto;
+    color: #000;
+    text-decoration: none;
+  }
+  body[data-page] :is(.about-scroll, .work-scroll, .trends-scroll, .quote-scroll) > span {
+    flex: none;
+    align-self: center;
+    height: 20.316506vw;
+    margin: 0 0 calc(-100vw * .5 / 390) calc(100vw * .5 / 390);
+    writing-mode: vertical-rl;
+    font: 400 2.564103vw/1.6 'Explore IvyOra Light', serif;
+    font-synthesis: none;
+    letter-spacing: .03em;
+    color: #000;
+  }
+  body[data-page] :is(.about-scroll, .work-scroll, .trends-scroll, .quote-scroll) > svg {
+    display: block;
+    flex: none;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 23.25 / 55.015625;
+    margin-left: calc(-100vw * .5 / 390);
+  }
 }

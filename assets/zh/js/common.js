@@ -36,8 +36,8 @@
       <li><a href="index.html#home">HOME</a></li>
       <li><a href="about.html">ABOUT</a></li>
       <li><a href="work.html">WORK</a></li>
-      <li><a href="trends.html">TRENDS</a></li>
-      <li><a href="index.html#faqs">FAQs</a></li>
+      <li><a href="trends.html">趨勢</a></li>
+      <li><a href="index.html#faqs">FAQS</a></li>
       <li><a href="index.html#contact">CONTACT</a></li>
       <li><a href="quote.html">QUOTE</a></li>
     </ul>
@@ -50,7 +50,7 @@
         <a href="index.html#home">故事</a>
         <a href="about.html">關於</a>
         <a href="work.html">作品</a>
-        <a href="trends.html">動勢</a>
+        <a href="trends.html">趨勢</a>
         <a href="index.html#faqs">問答</a>
         <a href="index.html#contact">聯絡</a>
       </nav>
@@ -522,6 +522,11 @@
     .filter(pair => pair.copy);
   const align = () => {
     pairs.forEach(({ arrow, container, copy }) => {
+      if (arrow.matches('.work-scroll') && matchMedia('(max-width: 750px)').matches) {
+        arrow.style.removeProperty('top');
+        arrow.style.removeProperty('bottom');
+        return;
+      }
       arrow.style.top = 'auto';
       // Layout offsets exclude the banner's animated transforms and scroll effects.
       const layoutTop = element => {

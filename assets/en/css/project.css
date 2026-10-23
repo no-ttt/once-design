@@ -60,7 +60,7 @@
 .nebu-quotation { position: sticky; top: 0; height: min(20.23437vw, 323.75px); padding-top: min(8.39735vw, 134.36px); background: #fff; text-align: center; }
 .nebu-quotation::before { content: ''; position: absolute; inset: 0; background: #f2eee2 url('../../images/projects/nebu/nebu-paper.png') repeat center; background-size: 300px 225px; opacity: 1; }
 .nebu-quotation-copy { position: relative; }
-.nebu-quotation blockquote { max-width: min(44.3305vw, 709.29px); margin: 0 auto; font: 400 min(1.5625vw, 25px)/1.1 'IvyOra Banner', serif; letter-spacing: .02em; }
+.nebu-quotation blockquote { max-width: min(calc(44.3305vw + 2em), calc(709.29px + 2em)); margin: 0 auto; font: 400 min(1.5625vw, 25px)/1.1 'IvyOra Banner', serif; letter-spacing: .02em; }
 .nebu-quotation-copy > p { position: relative; left: 3.711vw; width: fit-content; margin: min(1.005vw, 16.08px) auto 0; font: min(.9375vw, 15px)/1.3 'Aboreto', serif; white-space: nowrap; color: #000; }
 .nebu-quotation-copy > p::before { width: min(7vw, 112px); }
 .nebu-design { position: relative; z-index: 1; display: grid; grid-template-columns: 24.27083vw 53.75vw; gap: 8.04167vw; min-height: 127.1875vw; padding: 8.59375vw 6% 1.5vw 8%; background: #f2eee2; align-items: start; }
@@ -249,8 +249,9 @@ body:has(.nebu-lightbox[open]) { overflow: hidden; }
 .nebu-page[data-project="park-mountain"] .nebu-hero h1 { white-space: pre-line; }
 .nebu-page[data-project="st-regis"] .nebu-heading h2 a { left: 20.8vw; top: 3.4vw; }
 @media (min-width: 751px) {
-  .nebu-page[data-project="st-regis"] .nebu-quotation blockquote { max-width: min(46.666667vw, 746.6667px); }
+  .nebu-page[data-project="st-regis"] .nebu-quotation blockquote { max-width: min(calc(46.666667vw + 2em), calc(746.6667px + 2em)); }
   .nebu-page[data-project="fresh-office"] .nebu-quotation blockquote { max-width: 90%; font-size: min(1.5625vw, 25px); white-space: nowrap; }
+  .nebu-page[data-project="park-mountain"] .nebu-quotation blockquote { max-width: 90%; white-space: nowrap; }
 }
 @media (max-width: 750px) {
   .nebu-page[data-project="st-regis"] .nebu-heading h2 a { left: 225px; top: 36px; }
@@ -579,4 +580,10 @@ body:has(.nebu-lightbox[open]) { overflow: hidden; }
 
 .nebu-page[data-project="fresh-office"] .nebu-hero h1 { white-space: pre-line; }
 
+}
+
+/* Preserve the final word and closing quotation mark as one unit. */
+body.nebu-page #main #nebuProjectContent .nebu-quotation blockquote {
+  overflow-wrap: normal;
+  word-break: normal;
 }

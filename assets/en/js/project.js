@@ -62,7 +62,7 @@
     const facts = project.facts.map(([label,value]) => '<div><dt>' + escape(label) + '</dt><dd>' + escape(mobileLayout.matches && label === 'AREA' && project.mobileArea ? project.mobileArea : value) + '</dd></div>').join('');
     const awards = project.awards.length ? '<div class="nebu-awards"><dt>AWARDS</dt><dd>' + project.awards.map(text => '<p>' + escape(text) + '</p>').join('') + '</dd></div>' : '';
     container.querySelector('.nebu-facts').innerHTML = facts + awards;
-    container.querySelector('blockquote').innerHTML = lines(project.quote);
+    container.querySelector('blockquote').innerHTML = lines(project.quote.trim().replace(/^"\s*/, '" ').replace(/\s*"$/, ' "'));
     container.querySelector('.nebu-design-copy').innerHTML = project.articles.map(article => '<article><h2>' + lines(article.title) + '</h2>' + article.paragraphs.map((text, index) => {
       const listStart = article.listStart || 0;
       const isListItem = article.list && index >= listStart;

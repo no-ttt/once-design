@@ -37,7 +37,7 @@
       <li><a href="about.html">ABOUT</a></li>
       <li><a href="work.html">WORK</a></li>
       <li><a href="trends.html">TRENDS</a></li>
-      <li><a href="index.html#faqs">FAQs</a></li>
+      <li><a href="index.html#faqs">FAQS</a></li>
       <li><a href="index.html#contact">CONTACT</a></li>
       <li><a href="quote.html">QUOTE</a></li>
     </ul>
@@ -51,7 +51,7 @@
         <a href="about.html">ABOUT</a>
         <a href="work.html">WORK</a>
         <a href="trends.html">TRENDS</a>
-        <a href="index.html#faqs">FAQs</a>
+        <a href="index.html#faqs">FAQS</a>
         <a href="index.html#contact">CONTACT</a>
         <a href="quote.html">QUOTE</a>
       </nav>

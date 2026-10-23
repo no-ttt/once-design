@@ -12,3 +12,7 @@ body:is([data-page="home"], [data-page="about"]) .contact-sticky-space { height:
     --consultation-footer-gap: 90px;
   }
 }
+
+@media (max-width: 750px) {
+  body[data-page="quote"] { --consultation-footer-gap: 50px; }
+}

@@ -48,7 +48,7 @@
   .quote-services-copy > p:last-child { position: relative; width: 22.91077vw; max-width: none; margin-left: calc(4.22177vw + 1px); color: #362e2b; font-size: 1.09375vw; line-height: 1.3; }
   .quote-services-copy > p:last-child::before { position: absolute; top: 0; left: calc(-4.14242vw - 1px); width: 1px; height: 100%; background: rgba(0,0,0,.59); content: ''; }
 }
-.quote-benefits { background: #eee8d8; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); min-height: 36.48438vw; padding: 0 4.29688vw; text-align: center; }
+.quote-benefits { background: #f2eee2; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); min-height: 36.48438vw; padding: 0 4.29688vw; text-align: center; }
 .quote-benefits > div { display: flex; min-width: 0; height: 36.48438vw; flex-direction: column; align-items: center; justify-content: center; }
 .quote-benefits img { display: block; width: 8.59375vw; height: auto; aspect-ratio: 1 / 1.007654; object-fit: cover; margin: 0 auto 4.33352vw; mix-blend-mode: multiply; }
 .quote-benefits h3 { width: 100%; margin: 0; color: #5b564c; font-family: 'IvyOra Banner', serif; font-size: 1.09375vw; font-weight: 400; line-height: 1.1; text-transform: uppercase; }
@@ -212,7 +212,7 @@
 @media (max-width: 750px) {
   .quote-scroll { right: 6.53846%; width: 5.96154vw; height: auto; }
   .quote-scroll span { align-self: center; height: 15.22231vw; margin-left: 0; margin-bottom: min(-.5px, -.12821vw); font-size: 2.05128vw; }
-  .quote-scroll svg { aspect-ratio: 1 / 1.1451854; margin-left: min(-.5px, -.12821vw); }
+  .quote-scroll svg { aspect-ratio: 1 / 2; margin-left: min(-.5px, -.12821vw); }
 }
 
 /* Mobile inquiry: heading, form, then contact details. */
@@ -272,3 +272,6 @@
   body.quote-page .quote-request { padding-top: 0; }
   body.quote-page .quote-heading-group { margin-top: 0; }
 }
+
+/* Match the submit border to its text on hover. */
+.quote-page .quote-form .contact-submit:hover { border-color: currentColor; }

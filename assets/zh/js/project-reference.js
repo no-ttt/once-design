@@ -43,9 +43,11 @@
       section.className = 'project-section project-' + data.kind;
       section.style.height = data.height + 'vw';
       section.setAttribute('aria-label', ['作品主視覺', '作品導覽', '項目資料', '設計理念', '設計詳情'][index] || '作品導覽');
+      const renderedBlocks = new Map();
       for (const block of data.blocks) {
         const element = document.createElement(block.type === 'image' ? 'img' : 'div');
         element.className = 'project-block';
+        renderedBlocks.set(block, element);
         Object.assign(element.style, {left:block.x+'vw',top:block.y+'vw',width:block.width+'vw'});
         if (block.type === 'image') {
           element.src = block.src;
@@ -56,6 +58,43 @@
           if (index === 0) element.fetchPriority = 'high';
         } else {
           element.innerHTML = block.html;
+          if (data.kind === 'breadcrumb' && block.text.includes('>')) {
+            const categories = { '零售商店': 'retail', '餐飲空間': 'food', '娛樂休閒': 'hospitality', '辦公空間': 'corporate', '教育文化': 'education' };
+            const parts = element.textContent.split('>').map(text => text.trim());
+            element.querySelectorAll('a').forEach(link => link.replaceWith(...link.childNodes));
+            const walker = document.createTreeWalker(element, NodeFilter.SHOW_TEXT);
+            const nodes = [];
+            while (walker.nextNode()) nodes.push(walker.currentNode);
+            let part = 0;
+            nodes.forEach(node => {
+              const fragment = document.createDocumentFragment();
+              node.data.split(/(>)/).forEach(text => {
+                if (text === '>') {
+                  part++;
+                  fragment.append(document.createTextNode(text));
+                } else if (text.trim()) {
+                  const link = document.createElement('a');
+                  const panel = categories[parts[part]];
+                  link.href = part === 0 ? 'index.html' : part === parts.length - 1
+                    ? 'project.html?project=' + encodeURIComponent(current.id)
+                    : 'work.html' + (panel ? '#panel-' + panel : '');
+                  if (part === parts.length - 1) link.setAttribute('aria-current', 'page');
+                  link.textContent = text;
+                  fragment.append(link);
+                } else fragment.append(document.createTextNode(text));
+              });
+              node.replaceWith(fragment);
+            });
+          }
+
+          // Keep a space inside both quotation marks without changing inline markup.
+          if (data.kind === 'quote') {
+            const walker = document.createTreeWalker(element, NodeFilter.SHOW_TEXT);
+            while (walker.nextNode()) {
+              walker.currentNode.textContent = walker.currentNode.textContent
+                .replace(/「\s*/g, '「\u00a0').replace(/\s*」/g, '\u00a0」');
+            }
+          }
           for (const [key,value] of Object.entries(block.style)) element.style.setProperty(key,value);
           if (index === 0 && !block.text.toLowerCase().includes('by once')) {
             const original = element.querySelector('h1,h2,h3');
@@ -129,8 +168,7 @@
               : [27.7354600694, 8.9377170139, 1.3118489583];
             Object.assign(inquiry.style, { left:left+'vw', top:top+'vw', width:size+'vw', height:size+'vw' });
             if (current.id === 'tatcha-ifc' && mobile.matches) inquiry.style.top = '22.3397435897vw';
-          }
-          inquiry.innerHTML = '<svg viewBox="19.2 22.3 160.1 158.5" fill="currentColor" aria-hidden="true"><path d="M88.5 22.3v5.8h80.9L19.2 176.7l4.1 4.1L173.6 32.1v80.2h5.7v-90H88.5z"/></svg>';
+          }          inquiry.innerHTML = '<svg viewBox="19.2 22.3 160.1 158.5" fill="currentColor" aria-hidden="true"><path d="M88.5 22.3v5.8h80.9L19.2 176.7l4.1 4.1L173.6 32.1v80.2h5.7v-90H88.5z"/></svg>';
           if (['amorepacific', 'stem-classroom', 'computer-classroom', 'junior-versity', 'stem-computer-lab'].includes(current.id)) {
             const canvas = mobile.matches ? 390 : 1440;
             const [x, y, size] = current.id === 'stem-computer-lab'
@@ -170,6 +208,15 @@
           section.append(rule);
         }
         labels.forEach((block,i) => {
+          const rowTop = block.y - 1.1;
+          const rowBottom = labels[i+1] ? labels[i+1].y - 1.1 : block.y + block.height + 1.3;
+          data.blocks.filter(item => item.type === 'text' && item.x >= block.x - .1 &&
+            item.y >= rowTop && item.y < rowBottom).forEach(item => {
+            const cell = renderedBlocks.get(item);
+            cell.classList.add('project-fact-cell');
+            cell.style.top = rowTop + 'vw';
+            cell.style.height = (rowBottom - rowTop) + 'vw';
+          });
           const rule=document.createElement('div');
           rule.className='project-fact-rule';
           rule.style.left=block.x+'vw';

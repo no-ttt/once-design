@@ -2,9 +2,14 @@
 /* Preserve the existing Chinese logo sizes. */
 body[data-page="home"] .brand-logo { width: 25vw; margin-top: 5.5vw; }
 body[data-page="home"] .contact-info .contact-logo { width: 48px; height: 50px; margin: 0; }
-/* Keep the Chinese tagline above the English hero title without shifting it. */
-body[data-page="home"] .hero-chinese-tagline { position: absolute; top: -20vw; left: 0; margin: 0; width: 72vw; font: 300 4.5vw/1.5 var(--zh-font); color: #fff; letter-spacing: .05em; }
+/* Mobile hero composition measured from the Chinese reference, excluding Wix's toolbar. */
+body[data-page="home"] .banner-container { height: 156.79487vw; --banner-font-size: 7.692308vw; }
+body[data-page="home"] .hero-text-row { position: absolute; top: 86.127vw; left: 8.81vw; margin-top: 0; }
+body[data-page="home"] .banner-line { line-height: 1.2; }
+body[data-page="home"] .hero-chinese-tagline { position: relative; top: auto; left: auto; margin: 9.0625vw 0 2vw; width: max-content; max-width: 84vw; font: 300 6.153846vw/1.3 var(--zh-font); color: #fff; letter-spacing: .1em; }
 body[data-page="home"] .hero-chinese-tagline strong { font-weight: 700; }
+body[data-page="home"] .author-credit-line { width: 55.5vw; justify-content: flex-start; margin: -.7vw 0 0; font-size: 10px; }
+body[data-page="home"] .author-credit-line .dash-line { display: block; flex: 0 0 21.65256vw; width: 21.65256vw; height: 1px; background: rgba(255, 255, 255, .49); }
 
 /* Measured from the Chinese reference at 390px; keep the form inside the viewport. */
 body[data-page="home"] .partners-space { --space-height: 61.67067vw; height: var(--space-height); }
@@ -64,4 +69,15 @@ html[lang="zh-Hant"] body[data-page="home"] .inquiry-item:nth-child(3) .inquiry-
 }
 html[lang="zh-Hant"] body[data-page="home"] .inquiry-item:nth-child(3) .inquiry-answer > p {
   width: 60.15625vw !important;
+}
+
+/* Reference mobile framing: no right-hand rule; the vertical rule spans the title. */
+body[data-page="home"] .architectural-line-h { display: none; }
+body[data-page="home"] .architectural-line-v {
+  left: -5.314vw;
+  top: .4235vw;
+  width: 1px;
+  height: 35.71715vw;
+  margin: 0;
+  background: rgba(255, 255, 255, .49);
 }

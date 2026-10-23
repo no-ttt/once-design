@@ -166,3 +166,27 @@
 
 /* Keep the publication date on its own line in Chinese article headers. */
 .trend-meta-date, .trend-meta-details { display: block; }
+
+/* Match Work card typography for article headings only. */
+@font-face {
+  font-family: 'Article Heading Chinese Regular';
+  src: url('../../fonts/zh-mgen-regular.woff2') format('woff2');
+  font-weight: 400 500;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+3000-303F, U+3400-4DBF, U+4E00-9FFF, U+F900-FAFF, U+FF00-FFEF;
+}
+#trend-content :is(h1, h2, h3, h4, h5, h6),
+#trend-content .moorgen-back a,
+#trend-content .moorgen-navigation,
+#trend-content .moorgen-navigation p {
+  font-family: 'Article Heading Chinese Regular', 'IvyOra Display', serif;
+}
+@media (max-width: 750px) {
+  #trend-content :is(h1, h2, h3, h4, h5, h6),
+#trend-content .moorgen-back a,
+#trend-content .moorgen-navigation,
+#trend-content .moorgen-navigation p {
+    font-family: 'Article Heading Chinese Regular', 'IvyOra Banner', serif;
+  }
+}

@@ -1925,12 +1925,11 @@
   body.nebu-page:is([data-project="klasse14"], [data-project="tatcha"]) #main #nebuProjectContent .nebu-facts > div:last-child { padding-top: 6px; padding-bottom: 6px; }
 }
 
-/* Use one breadcrumb position across every mobile project. Single lines stay 60px tall;
-   wrapped paths center the arrows and keep the same 22px gap below. */
+/* Shared mobile breadcrumbs: centered arrows and a 10px bottom inset. */
 @media (max-width: 750px) {
   body.nebu-page[data-project] #main #nebuProjectContent .nebu-breadcrumb {
-    position: relative; display: flex; align-items: flex-start; justify-content: space-between;
-    width: 100%; height: auto; min-height: 0; margin: 0; padding: 18px 7.5% 22px; gap: 12px;
+    position: relative; display: flex; align-items: center; justify-content: space-between;
+    width: 100%; height: auto; min-height: 0; margin: 0; padding: 18px 7.5% 10px; gap: 12px;
   }
   body.nebu-page[data-project] #main #nebuProjectContent .nebu-breadcrumb > p:nth-of-type(1) {
     position: static; flex: 1; min-width: 0; width: auto; max-width: none; margin: 0; padding: 0;
@@ -1939,7 +1938,7 @@
   body.nebu-page[data-project] #main #nebuProjectContent .nebu-arrows {
     position: static; display: flex; flex: 0 0 auto; align-self: center; align-items: center; gap: 8px; margin: 0; padding: 0;
   }
-  body.nebu-page[data-project] #main #nebuProjectContent .nebu-arrows a { width: 20px; height: 20px; }
+  body.nebu-page[data-project] #main #nebuProjectContent .nebu-arrows a { width: 18px; height: 18px; }
 }
 
 /* Mobile title wrapping, inquiry arrow and shared quotation breathing room. */
@@ -1983,5 +1982,20 @@
 @media (max-width: 750px) {
   body.nebu-page[data-project] #main #nebuProjectContent .nebu-overview {
     padding-bottom: 18vw;
+  }
+}
+
+/* Give the closing quotation mark room on the preceding line. */
+@media (max-width: 750px) {
+  body.nebu-page[data-project] #main #nebuProjectContent .nebu-quotation blockquote {
+    position: relative;
+    left: auto;
+    width: min(calc(71.3vw + 2em), 90vw);
+    max-width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    overflow-wrap: normal;
+    word-break: normal;
   }
 }

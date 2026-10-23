@@ -1782,8 +1782,8 @@ window.projectReferences = [
               "width": 24.270833333333332,
               "height": 28.88454861111111,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">商業室內設計是一門結合藝術與科學的專業，旨在創造獨特而引人注目的空間。通過運用創意設計元素、適當的色彩搭配和符合品牌價值的設計理念，一場設計能夠為品牌打造一個獨一無二的視覺形象，吸引更多的顧客。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">透過運用室內設計提升品牌知名度，講述品牌故事，提升顧客餐飲、活動體驗，並搭配資訊科技強化空間互動性，使銷售與服務過程更加順暢高效。獨具巧思的室內設計和精心設計的特色店面，不僅能夠吸引顧客的目光，激發他們的購買慾望，還能增強品牌價值，讓品牌形象深植人心。</p>",
-              "text": "商業室內設計是一門結合藝術與科學的專業，旨在創造獨特而引人注目的空間。通過運用創意設計元素、適當的色彩搭配和符合品牌價值的設計理念，一場設計能夠為品牌打造一個獨一無二的視覺形象，吸引更多的顧客。\n\n透過運用室內設計提升品牌知名度，講述品牌故事，提升顧客餐飲、活動體驗，並搭配資訊科技強化空間互動性，使銷售與服務過程更加順暢高效。獨具巧思的室內設計和精心設計的特色店面，不僅能夠吸引顧客的目光，激發他們的購買慾望，還能增強品牌價值，讓品牌形象深植人心。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">商業室內設計是一門結合藝術與科學的專業，旨在創造獨特而引人注目的空間。通過運用創意設計元素、適當的色彩搭配和符合品牌價値的設計理念，一場設計能夠為品牌打造一個獨一無二的視覺形象，吸引更多的顧客。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">透過運用室內設計提升品牌知名度，講述品牌故事，提升顧客餐飲、活動體驗，並搭配資訊科技強化空間互動性，使銷售與服務過程更加順暢高效。獨具巧思的室內設計和精心設計的特色店面，不僅能夠吸引顧客的目光，激發他們的購買慾望，還能增強品牌價値，讓品牌形象深植人心。</p>",
+              "text": "商業室內設計是一門結合藝術與科學的專業，旨在創造獨特而引人注目的空間。通過運用創意設計元素、適當的色彩搭配和符合品牌價値的設計理念，一場設計能夠為品牌打造一個獨一無二的視覺形象，吸引更多的顧客。\n\n透過運用室內設計提升品牌知名度，講述品牌故事，提升顧客餐飲、活動體驗，並搭配資訊科技強化空間互動性，使銷售與服務過程更加順暢高效。獨具巧思的室內設計和精心設計的特色店面，不僅能夠吸引顧客的目光，激發他們的購買慾望，還能增強品牌價値，讓品牌形象深植人心。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -2347,8 +2347,8 @@ window.projectReferences = [
               "width": 79.87179487179488,
               "height": 94.75160256410257,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.615385vw\">商業室內設計是一門結合藝術與科學的專業，旨在創造獨特而引人注目的空間。通過運用創意設計元素、適當的色彩搭配和符合品牌價值的設計理念，一場設計能夠為品牌打造一個獨一無二的視覺形象，吸引更多的顧客。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.615385vw\">透過運用室內設計提升品牌知名度，講述品牌故事，提升顧客餐飲、活動體驗，並搭配資訊科技強化空間互動性，使銷售與服務過程更加順暢高效。獨具巧思的室內設計和精心設計的特色店面，不僅能夠吸引顧客的目光，激發他們的購買慾望，還能增強品牌價值，讓品牌形象深植人心。</p>",
-              "text": "商業室內設計是一門結合藝術與科學的專業，旨在創造獨特而引人注目的空間。通過運用創意設計元素、適當的色彩搭配和符合品牌價值的設計理念，一場設計能夠為品牌打造一個獨一無二的視覺形象，吸引更多的顧客。\n\n透過運用室內設計提升品牌知名度，講述品牌故事，提升顧客餐飲、活動體驗，並搭配資訊科技強化空間互動性，使銷售與服務過程更加順暢高效。獨具巧思的室內設計和精心設計的特色店面，不僅能夠吸引顧客的目光，激發他們的購買慾望，還能增強品牌價值，讓品牌形象深植人心。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.615385vw\">商業室內設計是一門結合藝術與科學的專業，旨在創造獨特而引人注目的空間。通過運用創意設計元素、適當的色彩搭配和符合品牌價値的設計理念，一場設計能夠為品牌打造一個獨一無二的視覺形象，吸引更多的顧客。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.615385vw\">透過運用室內設計提升品牌知名度，講述品牌故事，提升顧客餐飲、活動體驗，並搭配資訊科技強化空間互動性，使銷售與服務過程更加順暢高效。獨具巧思的室內設計和精心設計的特色店面，不僅能夠吸引顧客的目光，激發他們的購買慾望，還能增強品牌價値，讓品牌形象深植人心。</p>",
+              "text": "商業室內設計是一門結合藝術與科學的專業，旨在創造獨特而引人注目的空間。通過運用創意設計元素、適當的色彩搭配和符合品牌價値的設計理念，一場設計能夠為品牌打造一個獨一無二的視覺形象，吸引更多的顧客。\n\n透過運用室內設計提升品牌知名度，講述品牌故事，提升顧客餐飲、活動體驗，並搭配資訊科技強化空間互動性，使銷售與服務過程更加順暢高效。獨具巧思的室內設計和精心設計的特色店面，不僅能夠吸引顧客的目光，激發他們的購買慾望，還能增強品牌價値，讓品牌形象深植人心。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -3754,8 +3754,8 @@ window.projectReferences = [
               "width": 84.86378205128206,
               "height": 77.52403846153845,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.615385vw\">商業室內設計在塑造品牌形象和提升顧客體驗方面扮演著關鍵角色，而店舖展示了一個極具吸引力和獨特性的商業室內設計。這不僅展現了品牌的專業形象和科研背景，還透過引人入勝的設計細節，營造出令人著迷的購物體驗。顧客在這個空間中不僅可以感受到品牌的獨特價值和專業知識，還能夠享受到舒適愉悅的購物環境。</p>",
-              "text": "商業室內設計在塑造品牌形象和提升顧客體驗方面扮演著關鍵角色，而店舖展示了一個極具吸引力和獨特性的商業室內設計。這不僅展現了品牌的專業形象和科研背景，還透過引人入勝的設計細節，營造出令人著迷的購物體驗。顧客在這個空間中不僅可以感受到品牌的獨特價值和專業知識，還能夠享受到舒適愉悅的購物環境。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.615385vw\">商業室內設計在塑造品牌形象和提升顧客體驗方面扮演著關鍵角色，而店舖展示了一個極具吸引力和獨特性的商業室內設計。這不僅展現了品牌的專業形象和科研背景，還透過引人入勝的設計細節，營造出令人著迷的購物體驗。顧客在這個空間中不僅可以感受到品牌的獨特價値和專業知識，還能夠享受到舒適愉悅的購物環境。</p>",
+              "text": "商業室內設計在塑造品牌形象和提升顧客體驗方面扮演著關鍵角色，而店舖展示了一個極具吸引力和獨特性的商業室內設計。這不僅展現了品牌的專業形象和科研背景，還透過引人入勝的設計細節，營造出令人著迷的購物體驗。顧客在這個空間中不僅可以感受到品牌的獨特價値和專業知識，還能夠享受到舒適愉悅的購物環境。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -4238,8 +4238,8 @@ window.projectReferences = [
               "width": 24.270833333333332,
               "height": 24.94574652777778,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">商業室內設計在塑造品牌形象和提升顧客體驗方面扮演著關鍵角色，而店舖展示了一個極具吸引力和獨特性的商業室內設計。這不僅展現了品牌的專業形象和科研背景，還透過引人入勝的設計細節，營造出令人著迷的購物體驗。顧客在這個空間中不僅可以感受到品牌的獨特價值和專業知識，還能夠享受到舒適愉悅的購物環境。</p>",
-              "text": "商業室內設計在塑造品牌形象和提升顧客體驗方面扮演著關鍵角色，而店舖展示了一個極具吸引力和獨特性的商業室內設計。這不僅展現了品牌的專業形象和科研背景，還透過引人入勝的設計細節，營造出令人著迷的購物體驗。顧客在這個空間中不僅可以感受到品牌的獨特價值和專業知識，還能夠享受到舒適愉悅的購物環境。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">商業室內設計在塑造品牌形象和提升顧客體驗方面扮演著關鍵角色，而店舖展示了一個極具吸引力和獨特性的商業室內設計。這不僅展現了品牌的專業形象和科研背景，還透過引人入勝的設計細節，營造出令人著迷的購物體驗。顧客在這個空間中不僅可以感受到品牌的獨特價値和專業知識，還能夠享受到舒適愉悅的購物環境。</p>",
+              "text": "商業室內設計在塑造品牌形象和提升顧客體驗方面扮演著關鍵角色，而店舖展示了一個極具吸引力和獨特性的商業室內設計。這不僅展現了品牌的專業形象和科研背景，還透過引人入勝的設計細節，營造出令人著迷的購物體驗。顧客在這個空間中不僅可以感受到品牌的獨特價値和專業知識，還能夠享受到舒適愉悅的購物環境。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -4713,8 +4713,8 @@ window.projectReferences = [
               "width": 25.96137152777778,
               "height": 21.202256944444446,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">專業且華麗的元素表展示在特色牆上，每種色彩猶如獨立的元素，相互輝映、彼此融合。中央更添置電視屏幕，向顧客傳遞品牌專業的科研知識。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\"> </p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">別具一格的L字形發光櫃檯，同樣以品牌標誌性的四種色彩演繹，結構獨特且不受拘束，元素互相映襯，各自展現各自的特色卻又相互補足，彰顯了<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">Murad</span>對科研技術和醫學成分的重視。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\"> </p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">此外，為了進一步展示品牌的核心價值觀和故事，我們還特別加入了品牌哲學標語<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">（Skincare is Healthcare）</span>和創辦人<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">Dr. Howard Murad</span>的語錄，彷彿細語間向客人述說著品牌的信念與精彩故事，讓顧客更貼近品牌，感受到品牌的非凡魅力。</p>",
-              "text": "專業且華麗的元素表展示在特色牆上，每種色彩猶如獨立的元素，相互輝映、彼此融合。中央更添置電視屏幕，向顧客傳遞品牌專業的科研知識。\n\n \n\n別具一格的L字形發光櫃檯，同樣以品牌標誌性的四種色彩演繹，結構獨特且不受拘束，元素互相映襯，各自展現各自的特色卻又相互補足，彰顯了Murad對科研技術和醫學成分的重視。\n\n \n\n此外，為了進一步展示品牌的核心價值觀和故事，我們還特別加入了品牌哲學標語（Skincare is Healthcare）和創辦人Dr. Howard Murad的語錄，彷彿細語間向客人述說著品牌的信念與精彩故事，讓顧客更貼近品牌，感受到品牌的非凡魅力。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">專業且華麗的元素表展示在特色牆上，每種色彩猶如獨立的元素，相互輝映、彼此融合。中央更添置電視屏幕，向顧客傳遞品牌專業的科研知識。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\"> </p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">別具一格的L字形發光櫃檯，同樣以品牌標誌性的四種色彩演繹，結構獨特且不受拘束，元素互相映襯，各自展現各自的特色卻又相互補足，彰顯了<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">Murad</span>對科研技術和醫學成分的重視。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\"> </p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">此外，為了進一步展示品牌的核心價値觀和故事，我們還特別加入了品牌哲學標語<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">（Skincare is Healthcare）</span>和創辦人<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">Dr. Howard Murad</span>的語錄，彷彿細語間向客人述說著品牌的信念與精彩故事，讓顧客更貼近品牌，感受到品牌的非凡魅力。</p>",
+              "text": "專業且華麗的元素表展示在特色牆上，每種色彩猶如獨立的元素，相互輝映、彼此融合。中央更添置電視屏幕，向顧客傳遞品牌專業的科研知識。\n\n \n\n別具一格的L字形發光櫃檯，同樣以品牌標誌性的四種色彩演繹，結構獨特且不受拘束，元素互相映襯，各自展現各自的特色卻又相互補足，彰顯了Murad對科研技術和醫學成分的重視。\n\n \n\n此外，為了進一步展示品牌的核心價値觀和故事，我們還特別加入了品牌哲學標語（Skincare is Healthcare）和創辦人Dr. Howard Murad的語錄，彷彿細語間向客人述說著品牌的信念與精彩故事，讓顧客更貼近品牌，感受到品牌的非凡魅力。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -5188,8 +5188,8 @@ window.projectReferences = [
               "width": 79.87179487179488,
               "height": 68.93429487179488,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">專業且華麗的元素表展示在特色牆上，每種色彩猶如獨立的元素，相互輝映、彼此融合。中央更添置電視屏幕，向顧客傳遞品牌專業的科研知識。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"> </p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">別具一格的L字形發光櫃檯，同樣以品牌標誌性的四種色彩演繹，結構獨特且不受拘束，元素互相映襯，各自展現各自的特色卻又相互補足，彰顯了<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">Murad</span>對科研技術和醫學成分的重視。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"> </p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">此外，為了進一步展示品牌的核心價值觀和故事，我們還特別加入了品牌哲學標語<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">（Skincare is Healthcare）</span>和創辦人<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">Dr. Howard Murad</span>的語錄，彷彿細語間向客人述說著品牌的信念與精彩故事，讓顧客更貼近品牌，感受到品牌的非凡魅力。</p>",
-              "text": "專業且華麗的元素表展示在特色牆上，每種色彩猶如獨立的元素，相互輝映、彼此融合。中央更添置電視屏幕，向顧客傳遞品牌專業的科研知識。\n\n \n\n別具一格的L字形發光櫃檯，同樣以品牌標誌性的四種色彩演繹，結構獨特且不受拘束，元素互相映襯，各自展現各自的特色卻又相互補足，彰顯了Murad對科研技術和醫學成分的重視。\n\n \n\n此外，為了進一步展示品牌的核心價值觀和故事，我們還特別加入了品牌哲學標語（Skincare is Healthcare）和創辦人Dr. Howard Murad的語錄，彷彿細語間向客人述說著品牌的信念與精彩故事，讓顧客更貼近品牌，感受到品牌的非凡魅力。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">專業且華麗的元素表展示在特色牆上，每種色彩猶如獨立的元素，相互輝映、彼此融合。中央更添置電視屏幕，向顧客傳遞品牌專業的科研知識。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"> </p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">別具一格的L字形發光櫃檯，同樣以品牌標誌性的四種色彩演繹，結構獨特且不受拘束，元素互相映襯，各自展現各自的特色卻又相互補足，彰顯了<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">Murad</span>對科研技術和醫學成分的重視。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\"> </p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">此外，為了進一步展示品牌的核心價値觀和故事，我們還特別加入了品牌哲學標語<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">（Skincare is Healthcare）</span>和創辦人<span style=\"font-family:'Project Montserrat', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">Dr. Howard Murad</span>的語錄，彷彿細語間向客人述說著品牌的信念與精彩故事，讓顧客更貼近品牌，感受到品牌的非凡魅力。</p>",
+              "text": "專業且華麗的元素表展示在特色牆上，每種色彩猶如獨立的元素，相互輝映、彼此融合。中央更添置電視屏幕，向顧客傳遞品牌專業的科研知識。\n\n \n\n別具一格的L字形發光櫃檯，同樣以品牌標誌性的四種色彩演繹，結構獨特且不受拘束，元素互相映襯，各自展現各自的特色卻又相互補足，彰顯了Murad對科研技術和醫學成分的重視。\n\n \n\n此外，為了進一步展示品牌的核心價値觀和故事，我們還特別加入了品牌哲學標語（Skincare is Healthcare）和創辦人Dr. Howard Murad的語錄，彷彿細語間向客人述說著品牌的信念與精彩故事，讓顧客更貼近品牌，感受到品牌的非凡魅力。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -7871,8 +7871,8 @@ window.projectReferences = [
               "width": 40.62391493055556,
               "height": 5.251736111111112,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">一個卓越的店面設計不僅是品牌形象的延伸，更是吸引顧客、提升品牌價值的關鍵。</p>",
-              "text": "一個卓越的店面設計不僅是品牌形象的延伸，更是吸引顧客、提升品牌價值的關鍵。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">一個卓越的店面設計不僅是品牌形象的延伸，更是吸引顧客、提升品牌價値的關鍵。</p>",
+              "text": "一個卓越的店面設計不僅是品牌形象的延伸，更是吸引顧客、提升品牌價値的關鍵。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -8409,8 +8409,8 @@ window.projectReferences = [
               "width": 84.1025641025641,
               "height": 21.534455128205128,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">一個卓越的店面設計不僅是品牌形象的延伸，更是吸引顧客、提升品牌價值的關鍵。</p>",
-              "text": "一個卓越的店面設計不僅是品牌形象的延伸，更是吸引顧客、提升品牌價值的關鍵。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">一個卓越的店面設計不僅是品牌形象的延伸，更是吸引顧客、提升品牌價値的關鍵。</p>",
+              "text": "一個卓越的店面設計不僅是品牌形象的延伸，更是吸引顧客、提升品牌價値的關鍵。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -9365,7 +9365,7 @@ window.projectReferences = [
               "height": 39.93055555555556,
               "type": "image",
               "src": "../assets/images/projects/park-mountain/park-mountain-gallery-1.jpg",
-              "alt": "PARK MOUNTAIN | KAI TAK MALLL"
+              "alt": "PARK MOUNTAIN | KAI TAK MALL"
             },
             {
               "x": 67.46527777777777,
@@ -9374,7 +9374,7 @@ window.projectReferences = [
               "height": 17.708333333333336,
               "type": "image",
               "src": "../assets/images/projects/park-mountain/park-mountain-gallery-2.jpg",
-              "alt": "PARK MOUNTAIN | KAI TAK MALLL"
+              "alt": "PARK MOUNTAIN | KAI TAK MALL"
             },
             {
               "x": 67.46527777777777,
@@ -9383,7 +9383,7 @@ window.projectReferences = [
               "height": 17.708333333333336,
               "type": "image",
               "src": "../assets/images/projects/park-mountain/park-mountain-gallery-3.jpg",
-              "alt": "PARK MOUNTAIN | KAI TAK MALLL"
+              "alt": "PARK MOUNTAIN | KAI TAK MALL"
             },
             {
               "x": 67.46527777777777,
@@ -9392,7 +9392,7 @@ window.projectReferences = [
               "height": 39.93055555555556,
               "type": "image",
               "src": "../assets/images/projects/park-mountain/park-mountain-gallery-4.jpg",
-              "alt": "PARK MOUNTAIN | KAI TAK MALLL"
+              "alt": "PARK MOUNTAIN | KAI TAK MALL"
             },
             {
               "x": 40.3125,
@@ -9401,7 +9401,7 @@ window.projectReferences = [
               "height": 17.708333333333336,
               "type": "image",
               "src": "../assets/images/projects/park-mountain/park-mountain-gallery-5.jpg",
-              "alt": "PARK MOUNTAIN | KAI TAK MALLL"
+              "alt": "PARK MOUNTAIN | KAI TAK MALL"
             },
             {
               "x": 40.3125,
@@ -9410,7 +9410,7 @@ window.projectReferences = [
               "height": 17.708333333333336,
               "type": "image",
               "src": "../assets/images/projects/park-mountain/park-mountain-gallery-6.jpg",
-              "alt": "PARK MOUNTAIN | KAI TAK MALLL"
+              "alt": "PARK MOUNTAIN | KAI TAK MALL"
             }
           ],
           "kind": "design"
@@ -9993,7 +9993,7 @@ window.projectReferences = [
               "height": 62.30769230769231,
               "type": "image",
               "src": "../assets/images/projects/park-mountain/park-mountain-gallery-1.jpg",
-              "alt": "PARK MOUNTAIN | KAI TAK MALLL"
+              "alt": "PARK MOUNTAIN | KAI TAK MALL"
             },
             {
               "x": 51.089743589743584,
@@ -10002,7 +10002,7 @@ window.projectReferences = [
               "height": 27.692307692307693,
               "type": "image",
               "src": "../assets/images/projects/park-mountain/park-mountain-gallery-2.jpg",
-              "alt": "PARK MOUNTAIN | KAI TAK MALLL"
+              "alt": "PARK MOUNTAIN | KAI TAK MALL"
             },
             {
               "x": 51.089743589743584,
@@ -10011,7 +10011,7 @@ window.projectReferences = [
               "height": 27.692307692307693,
               "type": "image",
               "src": "../assets/images/projects/park-mountain/park-mountain-gallery-3.jpg",
-              "alt": "PARK MOUNTAIN | KAI TAK MALLL"
+              "alt": "PARK MOUNTAIN | KAI TAK MALL"
             },
             {
               "x": 51.089743589743584,
@@ -10020,7 +10020,7 @@ window.projectReferences = [
               "height": 62.30769230769231,
               "type": "image",
               "src": "../assets/images/projects/park-mountain/park-mountain-gallery-4.jpg",
-              "alt": "PARK MOUNTAIN | KAI TAK MALLL"
+              "alt": "PARK MOUNTAIN | KAI TAK MALL"
             },
             {
               "x": 7.5,
@@ -10029,7 +10029,7 @@ window.projectReferences = [
               "height": 27.692307692307693,
               "type": "image",
               "src": "../assets/images/projects/park-mountain/park-mountain-gallery-5.jpg",
-              "alt": "PARK MOUNTAIN | KAI TAK MALLL"
+              "alt": "PARK MOUNTAIN | KAI TAK MALL"
             },
             {
               "x": 7.5,
@@ -10038,7 +10038,7 @@ window.projectReferences = [
               "height": 27.692307692307693,
               "type": "image",
               "src": "../assets/images/projects/park-mountain/park-mountain-gallery-6.jpg",
-              "alt": "PARK MOUNTAIN | KAI TAK MALLL"
+              "alt": "PARK MOUNTAIN | KAI TAK MALL"
             }
           ],
           "kind": "design"
@@ -14167,8 +14167,8 @@ window.projectReferences = [
               "width": 84.1025641025641,
               "height": 21.534455128205128,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">辦公室早已超越了僅僅作為員工工作場所的功能，而成為一個能夠展現品牌精神和價值觀的實體空間。</p>",
-              "text": "辦公室早已超越了僅僅作為員工工作場所的功能，而成為一個能夠展現品牌精神和價值觀的實體空間。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.307692vw;letter-spacing:0.369231vw\">辦公室早已超越了僅僅作為員工工作場所的功能，而成為一個能夠展現品牌精神和價値觀的實體空間。</p>",
+              "text": "辦公室早已超越了僅僅作為員工工作場所的功能，而成為一個能夠展現品牌精神和價値觀的實體空間。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -14431,8 +14431,8 @@ window.projectReferences = [
               "width": 81.86298076923076,
               "height": 88.6298076923077,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">在會議室和共用空間中，加入了大量展示櫃，陳列著品牌的皇牌產品和富有象徵意義的物品。這些展示櫃不僅富有藝術裝飾感，還注入了現代化氣息，亦為辦公空間賦予了獨特的品牌特色。這種設計不僅讓人們感受到品牌的創新和時尚，同時也向客戶與員工時刻傳遞著品牌的核心價值。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">辦公室的整體用色方面，選擇了深灰色配以木色，營造出沉穩自然的氛圍。這種色彩組合不僅展現了專業性，同時也與品牌的形象相呼應。深灰色代表著穩定和專注，而木色則象徵著自然和溫暖。這樣的用色選擇為辦公室注入了一種平衡的感覺，讓人們在工作中能夠更加專注與舒適。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">除了獨立的辦公室和會議室，空間內亦規劃了共同工作空間和開放式區域，以促進團隊間的合作和溝通。這種設計理念體現了品牌對於創新和協作的追求。共同工作空間提供了一個開放的環境，讓團隊成員可以輕鬆交流和分享想法，同時也促進了團隊的凝聚力。</p>",
-              "text": "在會議室和共用空間中，加入了大量展示櫃，陳列著品牌的皇牌產品和富有象徵意義的物品。這些展示櫃不僅富有藝術裝飾感，還注入了現代化氣息，亦為辦公空間賦予了獨特的品牌特色。這種設計不僅讓人們感受到品牌的創新和時尚，同時也向客戶與員工時刻傳遞著品牌的核心價值。\n\n辦公室的整體用色方面，選擇了深灰色配以木色，營造出沉穩自然的氛圍。這種色彩組合不僅展現了專業性，同時也與品牌的形象相呼應。深灰色代表著穩定和專注，而木色則象徵著自然和溫暖。這樣的用色選擇為辦公室注入了一種平衡的感覺，讓人們在工作中能夠更加專注與舒適。\n\n除了獨立的辦公室和會議室，空間內亦規劃了共同工作空間和開放式區域，以促進團隊間的合作和溝通。這種設計理念體現了品牌對於創新和協作的追求。共同工作空間提供了一個開放的環境，讓團隊成員可以輕鬆交流和分享想法，同時也促進了團隊的凝聚力。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">在會議室和共用空間中，加入了大量展示櫃，陳列著品牌的皇牌產品和富有象徵意義的物品。這些展示櫃不僅富有藝術裝飾感，還注入了現代化氣息，亦為辦公空間賦予了獨特的品牌特色。這種設計不僅讓人們感受到品牌的創新和時尚，同時也向客戶與員工時刻傳遞著品牌的核心價値。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">辦公室的整體用色方面，選擇了深灰色配以木色，營造出沉穩自然的氛圍。這種色彩組合不僅展現了專業性，同時也與品牌的形象相呼應。深灰色代表著穩定和專注，而木色則象徵著自然和溫暖。這樣的用色選擇為辦公室注入了一種平衡的感覺，讓人們在工作中能夠更加專注與舒適。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:3.076923vw;line-height:4.923077vw;letter-spacing:0.369231vw\">除了獨立的辦公室和會議室，空間內亦規劃了共同工作空間和開放式區域，以促進團隊間的合作和溝通。這種設計理念體現了品牌對於創新和協作的追求。共同工作空間提供了一個開放的環境，讓團隊成員可以輕鬆交流和分享想法，同時也促進了團隊的凝聚力。</p>",
+              "text": "在會議室和共用空間中，加入了大量展示櫃，陳列著品牌的皇牌產品和富有象徵意義的物品。這些展示櫃不僅富有藝術裝飾感，還注入了現代化氣息，亦為辦公空間賦予了獨特的品牌特色。這種設計不僅讓人們感受到品牌的創新和時尚，同時也向客戶與員工時刻傳遞著品牌的核心價値。\n\n辦公室的整體用色方面，選擇了深灰色配以木色，營造出沉穩自然的氛圍。這種色彩組合不僅展現了專業性，同時也與品牌的形象相呼應。深灰色代表著穩定和專注，而木色則象徵著自然和溫暖。這樣的用色選擇為辦公室注入了一種平衡的感覺，讓人們在工作中能夠更加專注與舒適。\n\n除了獨立的辦公室和會議室，空間內亦規劃了共同工作空間和開放式區域，以促進團隊間的合作和溝通。這種設計理念體現了品牌對於創新和協作的追求。共同工作空間提供了一個開放的環境，讓團隊成員可以輕鬆交流和分享想法，同時也促進了團隊的凝聚力。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -14687,8 +14687,8 @@ window.projectReferences = [
               "width": 42.18641493055556,
               "height": 3.9388020833333335,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">辦公室早已超越了僅僅作為員工工作場所的功能，而成為一個能夠展現品牌精神和價值觀的實體空間。</p>",
-              "text": "辦公室早已超越了僅僅作為員工工作場所的功能，而成為一個能夠展現品牌精神和價值觀的實體空間。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.312500vw;letter-spacing:0.187500vw\">辦公室早已超越了僅僅作為員工工作場所的功能，而成為一個能夠展現品牌精神和價値觀的實體空間。</p>",
+              "text": "辦公室早已超越了僅僅作為員工工作場所的功能，而成為一個能夠展現品牌精神和價値觀的實體空間。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",
@@ -14951,8 +14951,8 @@ window.projectReferences = [
               "width": 24.270833333333332,
               "height": 27.200520833333336,
               "type": "text",
-              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">在會議室和共用空間中，加入了大量展示櫃，陳列著品牌的皇牌產品和富有象徵意義的物品。這些展示櫃不僅富有藝術裝飾感，還注入了現代化氣息，亦為辦公空間賦予了獨特的品牌特色。這種設計不僅讓人們感受到品牌的創新和時尚，同時也向客戶與員工時刻傳遞著品牌的核心價值。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">辦公室的整體用色方面，選擇了深灰色配以木色，營造出沉穩自然的氛圍。這種色彩組合不僅展現了專業性，同時也與品牌的形象相呼應。深灰色代表著穩定和專注，而木色則象徵著自然和溫暖。這樣的用色選擇為辦公室注入了一種平衡的感覺，讓人們在工作中能夠更加專注與舒適。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">除了獨立的辦公室和會議室，空間內亦規劃了共同工作空間和開放式區域，以促進團隊間的合作和溝通。這種設計理念體現了品牌對於創新和協作的追求。共同工作空間提供了一個開放的環境，讓團隊成員可以輕鬆交流和分享想法，同時也促進了團隊的凝聚力。</p>",
-              "text": "在會議室和共用空間中，加入了大量展示櫃，陳列著品牌的皇牌產品和富有象徵意義的物品。這些展示櫃不僅富有藝術裝飾感，還注入了現代化氣息，亦為辦公空間賦予了獨特的品牌特色。這種設計不僅讓人們感受到品牌的創新和時尚，同時也向客戶與員工時刻傳遞著品牌的核心價值。\n\n辦公室的整體用色方面，選擇了深灰色配以木色，營造出沉穩自然的氛圍。這種色彩組合不僅展現了專業性，同時也與品牌的形象相呼應。深灰色代表著穩定和專注，而木色則象徵著自然和溫暖。這樣的用色選擇為辦公室注入了一種平衡的感覺，讓人們在工作中能夠更加專注與舒適。\n\n除了獨立的辦公室和會議室，空間內亦規劃了共同工作空間和開放式區域，以促進團隊間的合作和溝通。這種設計理念體現了品牌對於創新和協作的追求。共同工作空間提供了一個開放的環境，讓團隊成員可以輕鬆交流和分享想法，同時也促進了團隊的凝聚力。",
+              "html": "<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">在會議室和共用空間中，加入了大量展示櫃，陳列著品牌的皇牌產品和富有象徵意義的物品。這些展示櫃不僅富有藝術裝飾感，還注入了現代化氣息，亦為辦公空間賦予了獨特的品牌特色。這種設計不僅讓人們感受到品牌的創新和時尚，同時也向客戶與員工時刻傳遞著品牌的核心價値。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">辦公室的整體用色方面，選擇了深灰色配以木色，營造出沉穩自然的氛圍。這種色彩組合不僅展現了專業性，同時也與品牌的形象相呼應。深灰色代表著穩定和專注，而木色則象徵著自然和溫暖。這樣的用色選擇為辦公室注入了一種平衡的感覺，讓人們在工作中能夠更加專注與舒適。</p>\n<p style=\"font-family:'Project Chinese Light', sans-serif;font-weight:400;color:rgb(0, 0, 0);text-transform:none;font-size:0.937500vw;line-height:1.500000vw;letter-spacing:0.112500vw\">除了獨立的辦公室和會議室，空間內亦規劃了共同工作空間和開放式區域，以促進團隊間的合作和溝通。這種設計理念體現了品牌對於創新和協作的追求。共同工作空間提供了一個開放的環境，讓團隊成員可以輕鬆交流和分享想法，同時也促進了團隊的凝聚力。</p>",
+              "text": "在會議室和共用空間中，加入了大量展示櫃，陳列著品牌的皇牌產品和富有象徵意義的物品。這些展示櫃不僅富有藝術裝飾感，還注入了現代化氣息，亦為辦公空間賦予了獨特的品牌特色。這種設計不僅讓人們感受到品牌的創新和時尚，同時也向客戶與員工時刻傳遞著品牌的核心價値。\n\n辦公室的整體用色方面，選擇了深灰色配以木色，營造出沉穩自然的氛圍。這種色彩組合不僅展現了專業性，同時也與品牌的形象相呼應。深灰色代表著穩定和專注，而木色則象徵著自然和溫暖。這樣的用色選擇為辦公室注入了一種平衡的感覺，讓人們在工作中能夠更加專注與舒適。\n\n除了獨立的辦公室和會議室，空間內亦規劃了共同工作空間和開放式區域，以促進團隊間的合作和溝通。這種設計理念體現了品牌對於創新和協作的追求。共同工作空間提供了一個開放的環境，讓團隊成員可以輕鬆交流和分享想法，同時也促進了團隊的凝聚力。",
               "style": {
                 "font-family": "'Project Chinese Light', sans-serif",
                 "font-weight": "400",

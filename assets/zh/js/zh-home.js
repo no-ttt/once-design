@@ -1,7 +1,7 @@
 /* Homepage-only localization; preserve the shared shell's controls and handlers. */
 (() => {
   const labels = {
-    HOME: '故事', ABOUT: '關於', WORK: '作品', TRENDS: '動勢', FAQs: '問答', CONTACT: '聯絡', QUOTE: '報價',
+    HOME: '故事', ABOUT: '關於', WORK: '作品', TRENDS: '趨勢', FAQS: '問答', CONTACT: '聯絡', QUOTE: '報價',
     'BACK TO TOP': '返回頂端', 'FIND US': '設計諮詢', 'START A CONSULTATION': '預約設計諮詢',
     'FIRST NAME': '名字', 'LAST NAME': '姓氏', EMAIL: '電子信箱', 'PHONE NUMBER': '聯絡電話',
     'COMPANY NAME': '公司名稱', 'DESIGN REQUIREMENT / PROJECT TYPE': '設計需求 / 空間類型',
