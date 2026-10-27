@@ -497,9 +497,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
     window.addEventListener('scroll', scheduleInquiriesBackground, { passive: true });
     mobileInquiriesMotion.addEventListener('change', updateInquiriesBackground);
-    // Let every FAQ scroll into view before PARTNERS slides over the panel.
     const updateInquiriesSticky = () => {
-      inquiriesSection.style.setProperty('--inquiries-sticky-top', `${Math.min(0, window.innerHeight - inquiriesSection.offsetHeight)}px`);
       if (window.matchMedia('(max-width: 750px)').matches) {
         // Wix centers the 23% focal point, then clamps the 2200 × 2500 image to its edges.
         const { width, height } = inquiriesSection.getBoundingClientRect();

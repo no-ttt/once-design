@@ -2035,8 +2035,7 @@ body[data-page="home"] .brand-logo {
 
 /* Inquiries: architectural plan backdrop and accessible FAQ disclosure controls. */
 .inquiries-section {
-  position: sticky;
-  top: var(--inquiries-sticky-top, 0px);
+  position: relative;
   z-index: 10;
   min-height: 0;
   padding: 6.95313vw 10.78125% 9vw;
