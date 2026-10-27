@@ -728,6 +728,7 @@ window.projects = [
     ],
     "awards": [],
     "quote": "\"THE STORY OF LUXURY AND TASTE \"",
+    "mobileQuoteTail": "AND TASTE",
     "articles": [
       {
         "title": "Retail Store Interior Design: Design Concept",
@@ -949,6 +950,7 @@ window.projects = [
     ],
     "awards": [],
     "quote": "\" IZAKAYA IN A SECLUDED CAVE \"",
+    "mobileQuoteTail": "SECLUDED CAVE",
     "articles": [
       {
         "title": "Restaurant Design: Design Concept",
@@ -1045,6 +1047,7 @@ window.projects = [
     ],
     "awards": [],
     "quote": "\" THE STORY OF LUXURY AND TASTE \"",
+    "mobileQuoteTail": "AND TASTE",
     "articles": [],
     "hero": "../assets/images/projects/amorepacific/amorepacific-gallery-5.jpg",
     "photos": [

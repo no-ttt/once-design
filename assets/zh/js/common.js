@@ -83,7 +83,7 @@
       <h2 class="contact-title" id="contactTitle">CONTACT</h2>
       <div class="contact-layout">
         <div class="contact-info">
-          <a href="index.html#home" aria-label="ONCE DESIGN Home"><img class="contact-logo" src="../assets/images/shared/once-logo-stacked.png" alt="ONCE DESIGN" width="137" height="225" loading="lazy"></a>
+          <a href="index.html#home" aria-label="ONCE DESIGN Home"><picture><source media="(max-width: 750px)" srcset="../assets/images/shared/once-logo-horizontal.png"><img class="contact-logo" src="../assets/images/shared/once-logo-stacked.png" alt="ONCE DESIGN" width="137" height="225" loading="lazy"></picture></a>
           <ul class="contact-links">
             <li><a class="contact-link" href="https://api.whatsapp.com/send/?phone=85292232561" target="_blank" rel="noopener noreferrer">
               <img class="contact-link-icon" src="../assets/images/shared/contact-whatsapp.svg" alt="" width="16" height="18" aria-hidden="true">
@@ -118,7 +118,7 @@
           </ul>
         </div>
         <div class="contact-consultation" id="quote">
-          <h3>START A CONSULTATION</h3>
+          <h3><span class="consultation-heading-line">預約</span><span class="consultation-heading-line">設計諮詢</span></h3>
           <form class="contact-form" id="consultationForm" novalidate>
             <label class="contact-field">FIRST NAME<input name="firstName" autocomplete="given-name" type="text"></label>
             <label class="contact-field">LAST NAME<input name="lastName" autocomplete="family-name" type="text"></label>

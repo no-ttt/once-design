@@ -294,20 +294,18 @@ html body[data-page] .contact-section .contact-info .contact-logo {
   object-fit: contain;
 }
 
-/* Desktop logos are 64% of the original size; mobile sizes stay independent. */
+/* Keep the desktop header logo at 64% of its original size. */
 @media (min-width: 751px) {
   html body[data-page] .site-header .brand-logo img {
     width: 64%;
-  }
-  html body[data-page] .contact-section .contact-info .contact-logo {
-    height: 6.2432vw;
   }
 }
 
 /* Mobile logos have their own readable size instead of a desktop reduction. */
 @media (max-width: 750px) {
   html body[data-page] .site-header .brand-logo {
-    width: clamp(68.64px, 21.53637816vw, 96.8px);
+    width: clamp(96px, 30vw, 135px);
+    margin-top: calc(max(14px, env(safe-area-inset-top)) + 11px);
   }
   html body[data-page] .contact-section .contact-info .contact-logo {
     width: 28.16px;
@@ -349,5 +347,32 @@ html body[data-page] .contact-section .contact-info .contact-logo {
   html[lang="zh-Hant"] body[data-page] .site-footer .footer-nav a {
     flex: none;
     white-space: nowrap;
+  }
+}
+
+/* Mobile drawer dimensions and color match the Wix hamburger panel. */
+@media (max-width: 750px) {
+  html body[data-page] .site-navigation-layer .nav-drawer {
+    inset: 0 0 0 auto;
+    width: min(315px, 100vw);
+    background-color: rgba(91, 86, 76, .7);
+  }
+  html body[data-page] .site-navigation-layer .nav-menu-list a {
+    font-size: 25px;
+    line-height: 1.18;
+    letter-spacing: .05em;
+  }
+  html[lang="zh-Hant"] body[data-page] .site-navigation-layer .nav-menu-list a {
+    font-size: 28px;
+  }
+}
+
+/* Interior pages share the reference mobile header logo footprint. */
+@media (max-width: 750px) {
+  html body[data-page]:not([data-page="home"]) .site-header { padding: 0; }
+  html body[data-page]:not([data-page="home"]) .site-header .brand-logo {
+    width: 33.3vw;
+    margin-top: calc(max(14px, env(safe-area-inset-top)) + 11px);
+    margin-left: 5vw;
   }
 }

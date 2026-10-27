@@ -4,4 +4,52 @@
   html[lang="zh-Hant"] .contact-section .contact-layout > .contact-info { order: 1; grid-row: auto; }
   html[lang="zh-Hant"] .contact-section .contact-layout > .contact-consultation { order: 2; grid-row: auto; }
   html[lang="zh-Hant"] .contact-section .contact-layout > .contact-links { order: 3; grid-row: auto; margin-top: 28px; }
+
+  html[lang="zh-Hant"] body[data-page] .contact-section { padding-inline: 12.5vw; }
+  html[lang="zh-Hant"] body[data-page] .contact-section .contact-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+  }
+  html[lang="zh-Hant"] body[data-page] .contact-section .contact-info {
+    display: grid;
+    grid-template-columns: 46.5vw minmax(0, 1fr);
+    align-items: center;
+    gap: 0;
+  }
+  html[lang="zh-Hant"] body[data-page] .contact-section .contact-info > a {
+    display: block;
+    justify-self: start;
+  }
+  html[lang="zh-Hant"] body[data-page] .contact-section .contact-info picture { display: block; }
+  html[lang="zh-Hant"] body[data-page] .contact-section .contact-info .contact-logo {
+    width: 35vw;
+    height: auto;
+    aspect-ratio: 458 / 183;
+    margin: 0;
+  }
+  html[lang="zh-Hant"] body[data-page] .contact-section .contact-info h3 {
+    width: auto;
+    margin: 0;
+    padding: 0 0 0 5.8vw;
+    border-left: 1px solid #000;
+    font-family: 'Consultation Chinese Regular', sans-serif;
+    font-size: 5vw;
+    font-weight: 400;
+    -webkit-text-stroke: .2px currentColor;
+    line-height: 1.7;
+    letter-spacing: .2em;
+    text-align: left;
+    color: #362e2b;
+  }
+  html[lang="zh-Hant"] .contact-section .consultation-heading-line { display: block; white-space: nowrap; }
+  html[lang="zh-Hant"] body[data-page] .contact-section .contact-consultation { padding-top: 0; }
+  html[lang="zh-Hant"] body[data-page] .contact-section .contact-form {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    width: 100%;
+    margin: 17vw 0 0;
+    gap: 30px 5vw;
+  }
+  html[lang="zh-Hant"] .contact-section .contact-form .contact-field-full { grid-column: 1 / -1; }
 }

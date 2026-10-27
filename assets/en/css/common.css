@@ -171,12 +171,12 @@ body[data-page] :is(.about-hero-subtitle, .quote-hero-subtitle, .listing-subtitl
 @media (max-width: 750px) {
   body[data-page] .site-footer {
     min-height: 36.5vw;
-    padding: 15.3vw 3.4vw 8.2vw;
+    padding: 15.3vw 7.95vw 8.2vw; /* Side inset matches the Chinese mobile footer. */
     background: #5b564c;
   }
   body[data-page] .site-footer .back-to-top {
     top: 2.5vw;
-    right: 3.8vw;
+    right: 7.95vw;
     gap: 1.3vw;
     font-size: 3.2vw;
   }
@@ -194,16 +194,16 @@ body[data-page] :is(.about-hero-subtitle, .quote-hero-subtitle, .listing-subtitl
   body[data-page] .site-footer .footer-nav {
     justify-content: space-between;
     flex-wrap: nowrap;
-    gap: 1vw;
+    gap: .5vw;
     padding: 0;
   }
   body[data-page] .site-footer .footer-nav a {
-    font: 400 3.1vw/1.3 'Footer Madefor', sans-serif;
+    font: 400 2.95vw/1.3 'Footer Madefor', sans-serif;
     letter-spacing: 0;
   }
   body[data-page] .site-footer .footer-copyright {
     margin-top: 2vw;
-    font: 400 2.55vw/1.3 'Trajan Pro', serif;
+    font: 400 2.35vw/1.3 'Trajan Pro', serif;
     letter-spacing: .03em;
     text-align: center;
     white-space: nowrap;
@@ -259,20 +259,18 @@ html body[data-page] .contact-section .contact-info .contact-logo {
   object-fit: contain;
 }
 
-/* Desktop logos are 64% of the original size; mobile sizes stay independent. */
+/* Keep the desktop header logo at 64% of its original size. */
 @media (min-width: 751px) {
   html body[data-page] .site-header .brand-logo img {
     width: 64%;
-  }
-  html body[data-page] .contact-section .contact-info .contact-logo {
-    height: 6.2432vw;
   }
 }
 
 /* Mobile logos have their own readable size instead of a desktop reduction. */
 @media (max-width: 750px) {
   html body[data-page] .site-header .brand-logo {
-    width: clamp(68.64px, 21.53637816vw, 96.8px);
+    width: clamp(96px, 30vw, 135px);
+    margin-top: calc(max(14px, env(safe-area-inset-top)) + 11px);
   }
   html body[data-page] .contact-section .contact-info .contact-logo {
     width: 28.16px;
@@ -291,5 +289,57 @@ html body[data-page] .contact-section .contact-info .contact-logo {
     display: block;
     width: 16px;
     height: 16px;
+  }
+}
+
+/* Mobile drawer dimensions and color match the Wix hamburger panel. */
+@media (max-width: 750px) {
+  html body[data-page] .site-navigation-layer .nav-drawer {
+    inset: 0 0 0 auto;
+    width: min(315px, 100vw);
+    background-color: rgba(91, 86, 76, .7);
+  }
+  html body[data-page] .site-navigation-layer .nav-menu-list a {
+    font-size: 25px;
+    line-height: 1.18;
+    letter-spacing: .05em;
+  }
+}
+
+/* Interior pages share the reference mobile header logo footprint. */
+@media (max-width: 750px) {
+  html body[data-page]:not([data-page="home"]) .site-header { padding: 0; }
+  html body[data-page]:not([data-page="home"]) .site-header .brand-logo {
+    width: 33.3vw;
+    margin-top: calc(max(14px, env(safe-area-inset-top)) + 11px);
+    margin-left: 5vw;
+  }
+}
+
+/* Mobile consultation header: horizontal logo aligned with the form, divider and title beside it. */
+@media (max-width: 750px) {
+  html[lang="en"] body[data-page] .contact-section .contact-info {
+    display: grid;
+    grid-template-columns: 38.7vw minmax(0, 1fr);
+    align-items: center;
+    gap: 0;
+  }
+  html[lang="en"] body[data-page] .contact-section .contact-info > a {
+    display: block;
+    justify-self: start;
+    margin-left: -4vw;
+  }
+  html[lang="en"] body[data-page] .contact-section .contact-info picture { display: block; }
+  html[lang="en"] body[data-page] .contact-section .contact-info .contact-logo {
+    width: 31.7vw;
+    height: auto;
+    aspect-ratio: 458 / 183;
+    margin: 0;
+  }
+  html[lang="en"] body[data-page] .contact-section .contact-info h3 {
+    margin: 0;
+    padding-left: 3.7vw;
+    border-left: 1px solid #362e2b;
+    text-align: left;
   }
 }

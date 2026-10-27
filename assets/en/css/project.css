@@ -587,3 +587,6 @@ body.nebu-page #main #nebuProjectContent .nebu-quotation blockquote {
   overflow-wrap: normal;
   word-break: normal;
 }
+
+/* Cover sub-pixel seams so the sticky quotation never shows through as a hairline (seen on iPhone). */
+.nebu-design, .nebu-project-nav { box-shadow: 0 1px 0 #f2eee2; }

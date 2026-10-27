@@ -164,8 +164,32 @@
   #trend-content > .moorgen-copy-paragraph + .moorgen-back { padding-left: 10.42468vw; }
 }
 
-/* Keep the publication date on its own line in Chinese article headers. */
-.trend-meta-date, .trend-meta-details { display: block; }
+/* Keep the publication date, author and reading time on one line. */
+.trend-meta { white-space: nowrap; }
+.trend-meta-date, .trend-meta-details { display: inline; }
+
+/* Article navigation matches body sizing without affecting the site footer. */
+#trend-content .moorgen-back a,
+#trend-content .moorgen-navigation,
+#trend-content .moorgen-navigation p {
+  font-size: .9375vw;
+}
+#trend-content .moorgen-back a,
+#trend-content .moorgen-navigation a {
+  color: rgb(54 46 43 / .65);
+}
+#trend-content .moorgen-back a:is(:hover, :focus-visible),
+#trend-content .moorgen-navigation a:is(:hover, :focus-visible) {
+  color: #362e2b;
+  opacity: 1;
+}
+@media (max-width: 750px) {
+  #trend-content .moorgen-back a,
+  #trend-content .moorgen-navigation,
+  #trend-content .moorgen-navigation p {
+    font-size: 13px;
+  }
+}
 
 /* Match Work card typography for article headings only. */
 @font-face {
@@ -176,17 +200,36 @@
   font-display: swap;
   unicode-range: U+3000-303F, U+3400-4DBF, U+4E00-9FFF, U+F900-FAFF, U+FF00-FFEF;
 }
-#trend-content :is(h1, h2, h3, h4, h5, h6),
+#trend-content :is(h2, h3, h4, h5, h6),
 #trend-content .moorgen-back a,
 #trend-content .moorgen-navigation,
 #trend-content .moorgen-navigation p {
   font-family: 'Article Heading Chinese Regular', 'IvyOra Display', serif;
 }
 @media (max-width: 750px) {
-  #trend-content :is(h1, h2, h3, h4, h5, h6),
+  #trend-content :is(h2, h3, h4, h5, h6),
 #trend-content .moorgen-back a,
 #trend-content .moorgen-navigation,
 #trend-content .moorgen-navigation p {
     font-family: 'Article Heading Chinese Regular', 'IvyOra Banner', serif;
+  }
+}
+
+/* Body headings (not the top title): Latin text uses Montserrat Regular, matching the homepage ESG copy. */
+@font-face {
+  font-family: 'Article Heading Latin';
+  src: url('../../fonts/zh-about-montserrat-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  unicode-range: U+0020-007E, U+00C0-024F, U+2019;
+  font-display: swap;
+}
+#trend-content :is(h2, h3, h4, h5, h6) {
+  font-family: 'Article Heading Latin', 'Article Heading Chinese Regular', 'IvyOra Display', serif;
+  font-synthesis: none;
+}
+@media (max-width: 750px) {
+  #trend-content :is(h2, h3, h4, h5, h6) {
+    font-family: 'Article Heading Latin', 'Article Heading Chinese Regular', 'IvyOra Banner', serif;
   }
 }

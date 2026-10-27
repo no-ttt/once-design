@@ -1999,3 +1999,6 @@
     word-break: normal;
   }
 }
+
+/* Keep the closing words of selected quotes together (set via mobileQuoteTail). */
+.nebu-quote-tail { white-space: nowrap; }

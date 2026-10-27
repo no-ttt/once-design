@@ -51,9 +51,10 @@
     const position = listed.indexOf(item);
     document.title = `${item.title} | ONCE DESIGN`;
     document.querySelector('meta[name="description"]').content = item.description || item.title;
-    const meta = [date(item.date), item.author, item.readTime].filter(Boolean).join(' · ');
+    const articleDate = item.date ? item.date.replace(/-/g, '/') : '';
+    const meta = [articleDate, item.author, item.readTime].filter(Boolean).join(' · ');
     const details = [item.author, item.readTime].filter(Boolean).join(' · ');
-    const visibleMeta = (item.date ? `<time class="trend-meta-date" datetime="${escape(item.date)}">${escape(date(item.date))}</time>` : '') + (details ? `<span class="trend-meta-details">${escape(details)}</span>` : '');
+    const visibleMeta = [item.date ? `<time class="trend-meta-date" datetime="${escape(item.date)}">${escape(articleDate)}</time>` : '', details ? `<span class="trend-meta-details">${escape(details)}</span>` : ''].filter(Boolean).join(' · ');
     const header = item.titleImage ? `<header class="moorgen-title"><h1 class="moorgen-sr-only">${escape(item.title)}</h1><p class="moorgen-sr-only">${escape(meta)}</p><img src="${escape(item.titleImage)}" alt="" fetchpriority="high"></header>` : `<header class="moorgen-title trend-text-title"><p class="trend-kicker">${item.category === 'press' ? '媒體採訪' : '設計潮流'}</p><h1>${escape(item.title)}</h1><span class="trend-title-rule" aria-hidden="true"></span><p class="trend-meta">${visibleMeta}</p></header>`;
     const hero = item.heroInBlocks ? '' : `<figure class="moorgen-hero"><img src="${escape(item.hero)}" alt="${escape(item.title)}" fetchpriority="high"></figure>`;
     const blocks = item.blocks.map(block => {

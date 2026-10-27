@@ -21,8 +21,9 @@
 
 .trends-articles { padding: 12.857vw 7.8125vw 3.114vw; scroll-margin-top: 30px; }
 .trends-tabs { display: none; justify-content: center; gap: 49px; margin-bottom: 5.208333vw; }
-.trends-tabs button { padding: 8px 0; border: 0; border-bottom: 2px solid #e2e2e2; background: transparent; color: inherit; cursor: pointer; font: 400 16px/1.4 'Aboreto', serif; }
-.trends-tabs button:hover, .trends-tabs button[aria-selected='true'] { border-bottom-color: #5b564c; }
+.trends-tabs button { padding: 8px 0; border: 0; border-bottom: 2px solid #e1e1e1; background: transparent; color: #000; cursor: pointer; font: 400 16px/1.4 'Aboreto', serif; transition: border-color .25s ease; }
+/* Hover matches the Work tabs. */
+.trends-tabs button:hover, .trends-tabs button[aria-selected='true'] { border-bottom-color: #000; }
 .trends-tabs-ready .trends-tabs { display: flex; }
 .trends-category-title { margin-bottom: 30px; font: 400 22px/1.2 'IvyOra Display', serif; }
 .trends-tabs-ready .trends-category-title { display: none; }
@@ -61,6 +62,8 @@
   .trends-tabs { gap: 27px; margin-bottom: 56px; }
   .trends-tabs button { flex: 1 1 auto; font-size: 13px; color: #000; border-radius: 0; appearance: none; }
   .trends-tabs button[aria-selected='true'] { border-bottom-color: #000; }
+  /* Like Work on English mobile: hover leaves unselected tabs unchanged. */
+  .trends-tabs button:not([aria-selected='true']):hover { border-bottom-color: #e1e1e1; }
   .trends-card-image { border-radius: 0; }
   .trends-card-grid { grid-template-columns: 75.55385vw; row-gap: 18.3897vw; }
   .trends-card { height: 105.633012vw; }
@@ -78,7 +81,7 @@
 .trends-page .contact-badge, .trends-page .contact-title { display: none; }
 
 @media (max-width: 750px) and (hover: none) {
-  .trends-tabs button:not([aria-selected='true']):hover { border-bottom-color: #e2e2e2; }
+  .trends-tabs button:not([aria-selected='true']):hover { border-bottom-color: #e1e1e1; }
   .trends-card-image:hover, .trends-card-arrow:hover { transform: none; }
 }
 

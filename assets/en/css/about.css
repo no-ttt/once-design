@@ -99,7 +99,7 @@
   .about-story .about-question { font-family: 'IvyOra Wix Bold', serif; font-weight: 400; }
   .about-story picture, .about-founder picture { display: contents; }
   .about-story img { width: 100%; height: 67.456vw; object-position: 13% 48%; }
-  .about-studio-layout { gap: 0; padding: 76px 15.7% 59px 12.05%; }
+  .about-studio-layout { gap: 0; padding: calc(76px + 47vw) 15.7% 59px 12.05%; /* Extra 47vw top space per mobile reference. */ }
   .about-founded { margin-bottom: 4px; font-family: 'IvyOra Story', serif; font-size: 3.076923vw; line-height: 1; letter-spacing: .02em; }
   .about-studio h2 { width: 72.12vw; font-family: 'IvyOra Banner', serif; font-size: 5.128205vw; font-weight: 400; line-height: 1; letter-spacing: .02em; }
   .about-mobile-phrase { white-space: nowrap; }

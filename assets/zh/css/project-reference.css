@@ -26,6 +26,8 @@
 .project-byline h2 > span { font-family:'Banner Caudex',serif !important; }
 .project-quote .project-byline::before { right:calc(100% + .3927951389vw); top:.6315104167vw; width:7.0301649306vw; border-color:rgba(110,110,110,.49); opacity:1; }
 .project-design, .project-navigation { z-index:1; background:#f2eee2; }
+/* Cover sub-pixel seams so the sticky quote paper never shows through as a hairline (seen on iPhone). */
+.project-design, .project-navigation { box-shadow:0 1px 0 #f2eee2; }
 .project-block { position:absolute; margin:0; padding:0; border:0; }
 .project-block :is(h1,h2,h3,h4,h5,h6,p,ul,ol) { margin:0; padding:0; }
 .project-block a { color:inherit; text-decoration:none; }
@@ -96,6 +98,12 @@ body.zh-project-page .contact-section { padding-top:0; }
  }
 }
 @media(max-width:750px) {
+ body:is([data-project="moleskin"], [data-project="park-mountain"], [data-project="sheng-chim"], [data-project="stem-computer-lab"]) .project-breadcrumb > .project-block {
+  width: 70vw !important;
+  white-space: nowrap;
+  /* Same top as the other single-line paths (their data was measured on two lines). */
+  top: 8.19vw !important;
+ }
  .project-hero > .project-block:not(img) { translate:none; }
  .project-quote .project-byline::before { right:calc(100% + 2.047275641vw); top:1.5384615385vw; width:7.0272435897vw; }
  .project-detail-label { width:88px; height:26px; font-size:10px; }
@@ -166,3 +174,50 @@ body.zh-project-page .contact-section { padding-top:0; }
 
 /* Vertically center fact labels and values within their separator rows. */
 .project-fact-cell { display: flex; align-items: center; }
+
+/* Place Park Mountain's inquiry arrow beside the final title line. */
+@media (min-width: 751px) {
+  body[data-project="park-mountain"] .project-overview .project-heading-arrow {
+    left: calc(100% - .5vw) !important;
+    top: auto !important;
+    bottom: .65vw;
+  }
+}
+
+/* Move the title inquiry arrows toward the text on Chinese mobile projects. */
+@media (max-width: 750px) {
+  body.zh-project-page .project-overview .project-heading-arrow {
+    top: auto !important;
+    /* Align with the final line's glyphs rather than the line box edge. */
+    bottom: 1.9vw;
+    transform: translateX(-7vw);
+  }
+  body.zh-project-page:is(
+    [data-project="nebu"],
+    [data-project="tatcha"],
+    [data-project="murad-counter"],
+    [data-project="klasse14-central"],
+    [data-project="sheng-chim"],
+    [data-project="st-regis"],
+    [data-project="winfun"],
+    [data-project="fresh-office"]
+  ) .project-overview .project-heading-arrow {
+    /* Relative to the title block, aligned with the first title line. */
+    left: 42vw !important;
+    top: 2.6vw !important;
+    bottom: auto;
+    transform: none;
+  }
+  body.zh-project-page[data-project="tatcha-ifc"] .project-overview .project-heading-arrow {
+    /* Leave a 4vw gap after the eight-character venue name. */
+    left: calc(8 * 6.410256vw + 4vw) !important;
+    transform: none;
+  }
+  body.zh-project-page[data-project="sheng-chim"] .project-overview .project-heading-arrow {
+    /* Bottom-align the arrow with the 上上籤 glyphs. */
+    top: 3.17vw !important;
+  }
+  body.zh-project-page[data-project="park-mountain"] .project-overview .project-heading-arrow {
+    transform: translateX(-4vw);
+  }
+}

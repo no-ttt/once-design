@@ -83,7 +83,7 @@
       <h2 class="contact-title" id="contactTitle">CONTACT</h2>
       <div class="contact-layout">
         <div class="contact-info">
-          <a href="index.html#home" aria-label="ONCE DESIGN Home"><img class="contact-logo" src="../assets/images/shared/once-logo-stacked.png" alt="ONCE DESIGN" width="137" height="225" loading="lazy"></a>
+          <a href="index.html#home" aria-label="ONCE DESIGN Home"><picture><source media="(max-width: 750px)" srcset="../assets/images/shared/once-logo-horizontal.png"><img class="contact-logo" src="../assets/images/shared/once-logo-stacked.png" alt="ONCE DESIGN" width="137" height="225" loading="lazy"></picture></a>
           <ul class="contact-links">
             <li><a class="contact-link" href="https://api.whatsapp.com/send/?phone=85292232561" target="_blank" rel="noopener noreferrer">
               <img class="contact-link-icon" src="../assets/images/shared/contact-whatsapp.svg" alt="" width="16" height="18" aria-hidden="true">
