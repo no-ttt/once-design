@@ -1019,18 +1019,12 @@ body[data-page="home"] .brand-logo {
 
 /* Wix About 未揭示文字底色。 */
 .quote-text-underlay {
-  /* Keep unrevealed text visible before the black scroll reveal. */
-  color: #d0c5b2;
+  /* Keep unrevealed text visible before the black scroll reveal (desktop and mobile). */
+  color: #DBD1BA;
   display: block;
   user-select: none;
 }
 
-/* 桌機版未揭示文字改用較淺米色。 */
-@media (min-width: 751px) {
-  .quote-text-underlay {
-    color: #dfd3be;
-  }
-}
 
 /* 覆蓋層黑字：透過 clip-path 水平滾動擦拭揭示 */
 .quote-text-fill {
