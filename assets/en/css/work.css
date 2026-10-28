@@ -120,3 +120,6 @@
   .work-card a:hover .work-card-media, .work-card a:focus-visible .work-card-media { transform: none; }
   .work-card img, .work-card-media::after { transition: none; transform: none !important; }
 }
+
+/* Aboreto has one weight, so a thin stroke thickens hover, pressed and selected tabs without shifting the layout. */
+body.work-page .work-tabs button:is(:hover, :active, [aria-selected="true"]) { -webkit-text-stroke: .5px currentColor; }

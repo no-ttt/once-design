@@ -94,3 +94,6 @@
 }
 
 .trends-page .trends-read-more { font-size: 10px; }
+
+/* Aboreto has one weight, so a thin stroke thickens hover, pressed and selected tabs without shifting the layout. */
+body.trends-page .trends-tabs button:is(:hover, :active, [aria-selected="true"]) { -webkit-text-stroke: .5px currentColor; }

@@ -3076,3 +3076,12 @@ body .site-navigation-layer > .menu-toggle-btn {
   body[data-page] form .quote-options label,
   body[data-page] form label:has(input:is([type="checkbox"], [type="radio"])) { font-size: 12px; }
 }
+
+@media (max-width: 750px) {
+  /* Honors arrows follow the English reference: no previous arrow, and a 15px next arrow whose tip sits 32px
+     from the screen edge, centred on the logos. The gallery ends 10.5vw from the edge and the 15px arrow
+     sits centred in a 40px button, so the button's right edge is 19.5px from the screen edge. */
+  body[data-page="home"] .honors-prev { display: none; }
+  body[data-page="home"] .honors-next { right: calc(19.5px - 10.5vw); }
+  body[data-page="home"] .honors-next svg { width: 15px; height: 4.23px; }
+}

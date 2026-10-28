@@ -3,7 +3,8 @@
 body[data-page="home"] .brand-logo { width: 25vw; margin-top: 5.5vw; }
 body[data-page="home"] .contact-info .contact-logo { width: 48px; height: 50px; margin: 0; }
 /* Mobile hero composition measured from the Chinese reference, excluding Wix's toolbar. */
-body[data-page="home"] .banner-container { height: 156.79487vw; --banner-font-size: 7.692308vw; --hero-copy-lift: 10vw; }
+/* Lift keeps the hero copy block's last line 20px above the banner bottom. */
+body[data-page="home"] .banner-container { height: 156.79487vw; --banner-font-size: 7.692308vw; --hero-copy-lift: calc(20px - 2.634vw); }
 body[data-page="home"] .hero-text-row { position: absolute; top: calc(86.127vw - var(--hero-copy-lift)); left: 8.81vw; margin-top: 0; }
 body[data-page="home"] .hero-bottom-statement { top: calc(149.8576vw - var(--hero-copy-lift)); bottom: auto; }
 body[data-page="home"] .banner-line { line-height: 1.2; }
@@ -11,9 +12,13 @@ body[data-page="home"] .hero-chinese-tagline { position: relative; top: auto; le
 body[data-page="home"] .hero-chinese-tagline strong { font-weight: 700; }
 body[data-page="home"] .author-credit-line { width: 55.5vw; justify-content: flex-start; margin: -.7vw 0 0; font-size: 10px; }
 body[data-page="home"] .author-credit-line .dash-line { display: block; flex: 0 0 21.65256vw; width: 21.65256vw; height: 1px; background: rgba(255, 255, 255, .49); }
+/* Line the tagline and credit up with the English heading, which sits 2.05% in from the left. */
+body[data-page="home"] :is(.hero-chinese-tagline, .author-credit-line) { margin-left: calc(100% - 97.94708284387761%); }
 
 /* Move the story text and its vertical rule together without changing spacing. */
 body[data-page="home"] .about-quote { translate: 2.5vw 0; }
+/* The 「 stroke sits about .55em inside its box; pull line 1 left so the stroke meets the vertical rule below. */
+body[data-page="home"] .about-quote .quote-reveal-line[data-line="1"] { position: relative; left: -.55em; }
 body[data-page="home"] .portfolio-nav svg { width: 28px; height: 28px; }
 body[data-page="home"] .services-intro-copy > .services-description { width: max-content; font-size: min(12px, 3.076923vw); }
 body[data-page="home"] .services-intro-line { display: block; white-space: nowrap; }
@@ -35,8 +40,8 @@ body[data-page="home"] .contact-submit { height: 40px; font-size: 13px; line-hei
 body[data-page="home"] #services .services-intro {
   height: auto;
   min-height: 77.40785vw;
-  padding-top: 22.075vw;
-  padding-bottom: 10vw;
+  padding-top: 29.755vw;
+  padding-bottom: 25.04vw;
   top: var(--service-intro-top, 0px);
 }
 body[data-page="home"] #services .service-panel,
@@ -45,8 +50,27 @@ body[data-page="home"] #services .service-panel:first-of-type {
   top: min(35svh, calc(100svh - var(--service-content-height, 60svh) - 24px));
 }
 body[data-page="home"] #services .service-copy { margin-top: 8.77vw; }
+/* Intro type and spacing measured from the Chinese reference at 371px. */
+body[data-page="home"] #services .services-eyebrow { font-size: 2.9vw; }
+body[data-page="home"] #services .services-intro h2 { font-size: 8.625vw; }
+/* The rule runs exactly the height of the text. The description clips its overflow for the reveal,
+   so the rule stays on the wrapper: text starts 32.93vw + 5.9px down, each line's half-leading is .265em,
+   and four 1.53em lines minus both half-leadings is 5.59em (em = the description's font size). */
+body[data-page="home"] #services .services-intro-copy {
+  --intro-text-size: min(12px, 3.076923vw);
+}
+body[data-page="home"] #services .services-intro-copy::after {
+  top: calc(32.93vw + 5.9px + var(--intro-text-size) * .265);
+  height: calc(var(--intro-text-size) * 5.59);
+}
+body[data-page="home"] #services .services-intro-copy > .services-description { margin-top: 9.31vw; letter-spacing: .14em; line-height: 1.53; }
 body[data-page="home"] #services .service-copy h3 { margin-bottom: 4px; }
-body[data-page="home"] #services .service-see-more { margin-top: 20px; margin-bottom: 0; margin-left: 0; }
+body[data-page="home"] #services .service-see-more { margin-top: 20px; margin-bottom: 0; margin-left: 3.05vw; }
+/* Panels sit 9.5% in, the intro title 12.55%: shift image and copy 3.05vw to the title's left edge,
+   and end the copy where the intro description ends (8.56vw indent + its 21.665em line). */
+body[data-page="home"] #services .service-image { margin-left: 3.05vw; }
+body[data-page="home"] #services .service-copy { margin-left: 3.05vw; width: calc(8.56vw + min(12px, 3.076923vw) * 21.665); }
+body[data-page="home"] #services .service-copy .services-description { text-align: justify; }
 
 /* Match the Chinese reference FAQ without synthetic bold or full-width overrides. */
 html[lang="zh-Hant"] body[data-page="home"] .inquiry-item summary {
@@ -92,3 +116,13 @@ body[data-page="home"] .architectural-line-v {
   margin: 0;
   background: rgba(255, 255, 255, .49);
 }
+
+/* Featured-work title sits 4.1vw below its rule; the rule meets the ceiling line in the first photo (12.6vw down). */
+html[lang="zh-Hant"] body[data-page="home"] .portfolio-heading { top: 16.7vw; }
+
+/* Honors arrows follow the English reference: no previous arrow, and a 15px next arrow whose tip sits 32px
+   from the screen edge, centred on the logos. The gallery ends 10.5vw from the edge and the 15px arrow
+   sits centred in a 40px button, so the button's right edge is 19.5px from the screen edge. */
+body[data-page="home"] .honors-prev { display: none; }
+body[data-page="home"] .honors-next { right: calc(19.5px - 10.5vw); }
+body[data-page="home"] .honors-next svg { width: 15px; height: 4.23px; }

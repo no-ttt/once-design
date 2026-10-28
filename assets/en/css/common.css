@@ -254,7 +254,7 @@ html body[data-page] .site-header .brand-logo img {
 }
 html body[data-page] .contact-section .contact-info .contact-logo {
   width: auto;
-  height: 9.755vw;
+  height: 8.3vw;
   aspect-ratio: 137 / 225;
   object-fit: contain;
 }
@@ -342,4 +342,17 @@ html body[data-page] .contact-section .contact-info .contact-logo {
     border-left: 1px solid #362e2b;
     text-align: left;
   }
+}
+
+/* Mobile header logo sits 10px further right on every page except Homepage, including phones held sideways. */
+@media (max-width: 750px), (orientation: landscape) and (max-height: 500px) and (any-pointer: coarse) {
+  html body[data-page]:not([data-page="home"]) .site-header .brand-logo {
+    position: relative;
+    left: 10px;
+  }
+}
+
+/* Project pages (opened from Work) show no header logo on mobile; the space is kept so the menu stays put. */
+@media (max-width: 750px) {
+  html body:is(.nebu-page, .zh-project-page) .site-header .brand-logo { visibility: hidden; }
 }

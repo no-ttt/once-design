@@ -233,3 +233,23 @@
     font-family: 'Article Heading Latin', 'Article Heading Chinese Regular', 'IvyOra Banner', serif;
   }
 }
+
+/* Mobile article title keeps its original look, made bold: IvyOra's bold file for Latin letters, and the
+   same browser serif as before for Chinese, which has its own bold. Prev/next titles are 12px. */
+@font-face {
+  font-family: 'Article Title Bold Latin';
+  src: url('../../fonts/ivyora-wix-bold.woff2') format('woff2');
+  font-weight: 550;
+  font-style: normal;
+  unicode-range: U+0020-007E, U+00C0-024F, U+2019;
+  font-display: swap;
+}
+@media (max-width: 750px) {
+  #trend-content .trend-text-title h1 {
+    font-family: 'Article Title Bold Latin', serif;
+    font-weight: 550;
+    line-height: 1.2;
+    letter-spacing: .2em;
+  }
+  #trend-content .moorgen-navigation p { font-size: 12px; }
+}
