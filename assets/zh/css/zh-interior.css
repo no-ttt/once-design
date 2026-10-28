@@ -247,13 +247,9 @@ body.about-page .about-founded-year { font-family: 'About Year Montserrat', sans
 /* Quote follows the shared Chinese banner text-spacing rhythm. */
 body.quote-page .quote-hero-copy h1,
 body.quote-page .quote-hero-copy .quote-hero-subtitle { text-box-trim: none; }
+/* Banner English lines get a little more room on desktop and mobile. */
 body.quote-page .quote-hero h1,
-body.quote-page .quote-hero h1 em { line-height: .9; }
-/* Desktop banner English lines get a little more room. */
-@media (min-width: 751px) {
-  body.quote-page .quote-hero h1,
-  body.quote-page .quote-hero h1 em { line-height: 1; }
-}
+body.quote-page .quote-hero h1 em { line-height: 1.1; }
 body.quote-page .quote-hero-copy .page-kicker { margin-bottom: 3.317057vw; }
 body.quote-page .quote-hero-subtitle { margin-top: 4.53125vw; }
 @media (max-width: 750px) {
