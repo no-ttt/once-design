@@ -58,15 +58,20 @@
     let backgroundFrame = 0;
     const updateBackground = () => {
       backgroundFrame = 0;
-      const enabled = desktop.matches && !motion.matches;
+      const enabled = !motion.matches;
       quoteSection.classList.toggle('quote-parallax', enabled);
       if (!enabled) {
         quoteSection.style.removeProperty('--quote-background-offset');
         return;
       }
       const bounds = quoteSection.getBoundingClientRect();
-      // Keep the image anchored to the viewport with Homepage's 20% scroll translation.
-      const offset = Math.max(-innerHeight, Math.min(innerHeight, bounds.top)) * .2;
+      // Desktop: keep the image anchored to the viewport with Homepage's 20% scroll translation.
+      // Mobile: the image layer reaches 30% past the section's top and bottom and drifts across that
+      // margin while the section crosses the screen, so it moves slower than the page and never shows an edge.
+      const progress = Math.max(0, Math.min(1, (innerHeight - bounds.top) / (innerHeight + bounds.height)));
+      const offset = desktop.matches
+        ? Math.max(-innerHeight, Math.min(innerHeight, bounds.top)) * .2
+        : (progress * 2 - 1) * bounds.height * .3;
       quoteSection.style.setProperty('--quote-background-offset', `${offset.toFixed(2)}px`);
     };
     const scheduleBackground = () => {
